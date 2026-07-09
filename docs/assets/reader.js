@@ -263,7 +263,7 @@
     });
     if (navBack) navBack.addEventListener("click", closeNav);
     if (navClose) navClose.addEventListener("click", closeNav);
-    navMenu.querySelectorAll("a").forEach(function (a) {
+    navMenu.querySelectorAll("a, #t-auth").forEach(function (a) {
       a.addEventListener("click", closeNav);
     });
   }
@@ -378,24 +378,69 @@
   /* ---------- level filter + search (index & words pages) ---------- */
   var chips = document.querySelectorAll(".lvl-chip");
   var searchEl = document.getElementById("search");
-  function applyFilters() {
+  var seg = document.querySelector(".seg");
+  var segInd = document.querySelector(".seg-ind");
+  function moveInd() {
+    if (!segInd || !seg) return;
+    var on = document.querySelector(".lvl-chip.on");
+    if (!on) return;
+    segInd.style.left = on.offsetLeft + "px";
+    segInd.style.width = on.offsetWidth + "px";
+    segInd.style.background =
+      "var(--lvl" + (on.getAttribute("data-l") || "0") + ")";
+    seg.classList.add("hasind");
+    segInd.classList.add("ready");
+  }
+  function applyFilters(animate) {
     var onChip = document.querySelector(".lvl-chip.on");
     var l = onChip ? onChip.getAttribute("data-l") : "0";
     var q = searchEl ? searchEl.value.trim().toLowerCase() : "";
+    var shown = [];
     document.querySelectorAll("[data-search]").forEach(function (el) {
       var okL = l === "0" || el.getAttribute("data-l") === l;
       var okQ = !q || (el.getAttribute("data-search") || "").indexOf(q) >= 0;
-      el.style.display = okL && okQ ? "" : "none";
+      var ok = okL && okQ;
+      el.style.display = ok ? "" : "none";
+      if (ok) shown.push(el);
+    });
+    if (!animate) return;
+    shown.forEach(function (el) {
+      el.style.transition = "none";
+      el.style.opacity = "0";
+      el.style.transform = "translateY(10px)";
+    });
+    void document.body.offsetHeight; // flush, so the fade-in actually runs
+    shown.forEach(function (el, i) {
+      var d = Math.min(i * 30, 300);
+      el.style.transition = "opacity .3s ease, transform .3s ease";
+      el.style.transitionDelay = d + "ms";
+      el.style.opacity = "1";
+      el.style.transform = "none";
+      setTimeout(function () {
+        el.style.transition = "";
+        el.style.transitionDelay = "";
+        el.style.opacity = "";
+        el.style.transform = "";
+      }, 400 + d);
     });
   }
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
+      if (c.classList.contains("on")) return;
       chips.forEach(function (x) { x.classList.remove("on"); });
       c.classList.add("on");
-      applyFilters();
+      moveInd();
+      c.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+      applyFilters(true);
     });
   });
-  if (searchEl) searchEl.addEventListener("input", applyFilters);
+  if (searchEl) searchEl.addEventListener("input", function () { applyFilters(false); });
+  if (segInd) {
+    moveInd();
+    window.addEventListener("resize", moveInd);
+    setTimeout(moveInd, 300);   // re-measure once webfonts settle
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(moveInd);
+  }
 
   /* ---------- today's pick (index) ---------- */
   if (idxCards.length) {

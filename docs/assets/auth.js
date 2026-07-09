@@ -151,10 +151,16 @@ if (cfg && cfg.apiKey) {
   }
   let modal = null;
 
+  function openSignin() {
+    if (!modal) modal = buildModal();
+    modal.classList.add("show");
+  }
+
   /* ---------- header button ---------- */
   function renderBtn() {
     if (!btn) return;
     btn.hidden = false;
+    btn.classList.toggle("signed", !!user);
     if (user) {
       const label = (user.displayName || user.email || "?").trim();
       btn.textContent = "👤 " + label.split(" ")[0].split("@")[0];
@@ -170,15 +176,26 @@ if (cfg && cfg.apiKey) {
         if (confirm("Sign out? Your data stays saved in the cloud.")) await signOut(auth);
         return;
       }
-      if (!modal) modal = buildModal();
-      modal.classList.add("show");
+      openSignin();
     });
+  }
+
+  /* ---------- members-only gate (progress / wordbook pages) ---------- */
+  const gateBtn = document.getElementById("gate-signin");
+  if (gateBtn) gateBtn.addEventListener("click", openSignin);
+  function applyGate() {
+    const panel = document.getElementById("gate-panel");
+    const content = document.getElementById("gated");
+    if (!panel || !content) return;
+    panel.hidden = !!user;
+    content.hidden = !user;
   }
 
   let firstAuth = true;
   onAuthStateChanged(auth, async (u) => {
     user = u;
     renderBtn();
+    applyGate();
     if (u) {
       await pullAndMerge();
       if (firstAuth && sessionStorage.getItem("rcd-just-signed") !== u.uid) {

@@ -25,6 +25,8 @@
     <button class="nav-burger" id="nav-burger" aria-label="Menu">☰</button>
     <nav class="nav-menu" id="nav-menu">
       <button class="nav-close" id="nav-close" aria-label="Close">✕</button>
+      <div class="menu-head"><span class="mh-seal">读</span>
+        <div class="mh-t"><b>Read Chinese Daily</b><i>Real Chinese, 5 min a day</i></div></div>
       <button class="nav-link" id="t-auth">Sign in</button>
       <a class="nav-link" href="words.html">📖<span class="nl"> Words</span></a>
       <a class="nav-link" href="wordbook.html" title="My wordbook">★<span class="nl"> My Wordbook</span></a>
@@ -38,6 +40,14 @@
     <div class="nav-backdrop" id="nav-backdrop"></div>
   </header>
 
+  <div class="gate" id="gate-panel">
+    <div class="gate-seal">读</div>
+    <h2>Sign in to unlock <span class="zh">生词本</span></h2>
+    <p>Save words with ☆ while you read, then practice them as flashcards.</p>
+    <button class="gate-btn" id="gate-signin">Sign in — it's free</button>
+    <p class="gate-sub">Your words and streak sync to every device.</p>
+  </div>
+  <div id="gated" hidden>
   <section class="about">
     <h1>My Wordbook <span style="font-family:var(--serif);color:var(--red)">生词本</span></h1>
     <p>Words you saved with ☆ while reading. Stored on this device.</p>
@@ -53,7 +63,7 @@
       <button class="tbtn" id="deck-next">Next →</button>
       <button class="tbtn" id="deck-close">Done</button>
     </div>
-  </div>
+  </div></div>
   <footer class="footer">
     <div>© Read Chinese Daily · Original graded readings, free to read.</div>
     <div style="margin-top:6px">

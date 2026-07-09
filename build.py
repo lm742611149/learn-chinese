@@ -71,6 +71,8 @@ def page(title, desc, body, rel=""):
     <button class="nav-burger" id="nav-burger" aria-label="Menu">☰</button>
     <nav class="nav-menu" id="nav-menu">
       <button class="nav-close" id="nav-close" aria-label="Close">✕</button>
+      <div class="menu-head"><span class="mh-seal">读</span>
+        <div class="mh-t"><b>{name}</b><i>Real Chinese, 5 min a day</i></div></div>
       {auth_btn}
       <a class="nav-link" href="{rel}words.html">📖<span class="nl"> Words</span></a>
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook">★<span class="nl"> My Wordbook</span></a>
@@ -273,7 +275,7 @@ def build_index(texts):
   </section>
   <div class="searchbar"><input type="search" id="search"
     placeholder="Search readings — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <div class="levels"><div class="seg">{''.join(chips)}</div></div>
+  <div class="levels"><div class="seg"><span class="seg-ind"></span>{''.join(chips)}</div></div>
   <section class="cards">{''.join(cards)}
   </section>"""
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
@@ -311,15 +313,31 @@ def build_words(texts):
   </section>
   <div class="searchbar"><input type="search" id="search"
     placeholder="Search — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <div class="levels"><div class="seg">{''.join(chips)}</div></div>
+  <div class="levels"><div class="seg"><span class="seg-ind"></span>{''.join(chips)}</div></div>
   <div class="wlist">{''.join(rows)}</div>"""
     return page(f"Chinese Vocabulary List (HSK 1-6) | {SITE['site_name']}",
                 "Searchable Chinese vocabulary with pinyin and audio from graded readings.",
                 body)
 
 
+def gated(inner, title_zh, blurb):
+    """Members-only wrapper: lock panel shown until auth.js reveals content.
+    No firebase configured -> page stays public (nothing to sign in with)."""
+    if not (SITE.get("firebase") or {}):
+        return inner
+    return f"""
+  <div class="gate" id="gate-panel">
+    <div class="gate-seal">读</div>
+    <h2>Sign in to unlock <span class="zh">{title_zh}</span></h2>
+    <p>{blurb}</p>
+    <button class="gate-btn" id="gate-signin">Sign in — it's free</button>
+    <p class="gate-sub">Your words and streak sync to every device.</p>
+  </div>
+  <div id="gated" hidden>{inner}</div>"""
+
+
 def build_wordbook():
-    body = """
+    body = gated("""
   <section class="about">
     <h1>My Wordbook <span style="font-family:var(--serif);color:var(--red)">生词本</span></h1>
     <p>Words you saved with ☆ while reading. Stored on this device.</p>
@@ -335,7 +353,8 @@ def build_wordbook():
       <button class="tbtn" id="deck-next">Next →</button>
       <button class="tbtn" id="deck-close">Done</button>
     </div>
-  </div>"""
+  </div>""", "生词本",
+        "Save words with ☆ while you read, then practice them as flashcards.")
     return page(f"My Wordbook | {SITE['site_name']}",
                 "Your saved Chinese words with flashcard practice.", body)
 
@@ -345,10 +364,10 @@ def build_progress(texts):
     for t in texts:
         totals[t["level"]] = totals.get(t["level"], 0) + 1
         levels[t["slug"]] = t["level"]
-    body = f"""
+    body = gated(f"""
   <section class="about" style="padding-bottom:10px">
     <h1>My Progress <span style="font-family:var(--serif);color:var(--red)">学习记录</span></h1>
-    <p>Streak, badges and your reading calendar. Saved on this device — sign in to sync everywhere.</p>
+    <p>Streak, badges and your reading calendar — synced to your account.</p>
   </section>
   <div class="pg-stats" id="pg-stats"></div>
   <section class="pgsec">
@@ -358,7 +377,8 @@ def build_progress(texts):
   <section class="pgsec">
     <h2>Reading calendar <span class="zh">打卡日历</span></h2>
     <div class="cal" id="pg-cal"></div>
-  </section>
+  </section>""", "学习记录",
+        "Track your streak, earn badges and fill your reading calendar.") + f"""
   <script>window.RCD_LEVELS={json.dumps(levels)};window.RCD_TOTALS={json.dumps(totals)};</script>"""
     return page(f"My Progress | {SITE['site_name']}",
                 "Your Chinese reading streak, badges and check-in calendar.", body)
