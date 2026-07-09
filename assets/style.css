@@ -200,13 +200,27 @@ a { color: var(--red); text-decoration: none; }
   box-shadow: 0 6px 20px rgba(70,45,25,.10);
   padding: 9px 10px; margin: 14px 0 6px;
   display: flex; gap: 7px; flex-wrap: wrap; align-items: center; }
-.tbtn { border: 1.5px solid var(--line); background: #fff; color: var(--ink-2);
-  border-radius: 999px; padding: 7px 14px; font-size: .86rem; font-weight: 650;
+.tb-play { display: inline-flex; align-items: center; gap: 7px; border: none;
+  background: linear-gradient(180deg, #e0512f, var(--red-dark)); color: #fff;
+  border-radius: 999px; padding: 9px 17px; font-size: .88rem; font-weight: 800;
+  font-family: inherit; cursor: pointer;
+  box-shadow: 0 5px 14px rgba(199,62,42,.35); transition: all .12s; }
+.tb-play:hover { transform: translateY(-1px);
+  box-shadow: 0 7px 18px rgba(199,62,42,.45); }
+.tb-play:active { transform: scale(.96); }
+.tbtn { border: none; background: #f3ecdd; color: var(--ink-2);
+  border-radius: 999px; padding: 9px 15px; font-size: .86rem; font-weight: 700;
   cursor: pointer; transition: all .12s; font-family: inherit; }
-.tbtn:hover { border-color: var(--red); color: var(--red); }
-.tbtn.on { background: var(--red); border-color: var(--red); color: #fff; }
+.tbtn:hover { background: #ece2cd; color: var(--ink); }
+.tbtn.on { background: #fdeae2; color: var(--red-dark);
+  box-shadow: inset 0 0 0 1.5px var(--red); }
 .tbtn:active { transform: scale(.96); }
-select.tbtn { max-width: 168px; appearance: none; -webkit-appearance: none; }
+select.tb-voice { max-width: 150px; appearance: none; -webkit-appearance: none;
+  background-color: #fff; border: 1px solid var(--line);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2394897b'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 8px center;
+  background-size: 16px; padding-right: 28px; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap; }
 
 .text-body { padding: 10px 0 4px; }
 .sent { padding: 14px 6px; border-bottom: 1px dashed var(--line);

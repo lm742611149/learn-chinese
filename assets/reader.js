@@ -44,7 +44,7 @@
     if (!sel || !zhVoices.length) return;
     sel.innerHTML = zhVoices.map(function (v) {
       return '<option value="' + v.name + '"' +
-        (voice && v.name === voice.name ? " selected" : "") + ">🔊 " +
+        (voice && v.name === voice.name ? " selected" : "") + ">" +
         v.name.replace(/\s*\(.*\)$/, "") + "</option>";
     }).join("");
     sel.onchange = function () {
@@ -85,7 +85,6 @@
   if (sb) {
     sb.addEventListener("click", function () {
       rate = rate === 1.0 ? 0.7 : 1.0;
-      sb.textContent = rate === 1.0 ? "🐢 Slow" : "🐇 Normal";
       sb.classList.toggle("on", rate !== 1.0);
     });
   }
