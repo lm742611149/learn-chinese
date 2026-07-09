@@ -6,7 +6,14 @@
   "preply_url": "https://preply.com/en/tutor/YOUR_ID",
   "newsletter_url": "",
   "analytics_snippet": "",
-  "firebase": {},
+  "firebase": {
+    "apiKey": "AIzaSyDJRiydhwUk2z73o-wWw8A4m4Ve-mria34",
+    "authDomain": "daily-chinese-34493.firebaseapp.com",
+    "projectId": "daily-chinese-34493",
+    "storageBucket": "daily-chinese-34493.firebasestorage.app",
+    "messagingSenderId": "1014092265545",
+    "appId": "1:1014092265545:web:cfe2f7a35ed8f6ffca2798"
+  },
   "auth_providers": ["google", "facebook", "email"],
   "featured": ["hsk2-buying-coffee", "hsk6-power-of-persistence", "hsk4-phones-and-life"],
   "teacher_name": "Lucas",
