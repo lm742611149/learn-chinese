@@ -18,6 +18,8 @@ SITE = json.load(open(os.path.join(ROOT, "content", "site.json"), encoding="utf-
 
 LEVEL_WORDS = {1: "Newbie", 2: "Elementary", 3: "Intermediate",
                4: "Upper Int.", 5: "Advanced", 6: "Fluent"}
+LEVEL_COLORS = {1: "#3e9464", 2: "#2f7fa8", 3: "#7b5fc0",
+                4: "#cf7622", 5: "#c73e2a", 6: "#6d4434"}
 
 
 def esc(s):
@@ -130,6 +132,22 @@ def build_reader(t):
 
 
 def build_index(texts):
+    by_slug = {t["slug"]: t for t in texts}
+    featured = [by_slug[s] for s in SITE.get("featured", []) if s in by_slug]
+    slides = []
+    for t in featured:
+        n_words = sum(len(s["t"]) for s in t["sentences"])
+        slides.append(f"""      <a class="slide feat" data-char="{esc(t['title_zh'][0])}"
+        style="--sc:{LEVEL_COLORS[t['level']]}" href="texts/{t['slug']}.html">
+        <span class="feat-tag">Featured · HSK {t['level']}</span>
+        <h2 class="feat-zh">{esc(t['title_zh'])}</h2>
+        <div class="feat-py">{esc(t['title_py'])}</div>
+        <p>{esc(t['title_en'])} · {n_words} words</p>
+        <span class="cta">Read now →</span>
+      </a>""")
+    featured_slides = "\n".join(slides)
+    dots = "".join(f'<button class="dot{" on" if i == 0 else ""}" aria-label="slide {i+1}"></button>'
+                   for i in range(1 + len(featured)))
     cards = []
     for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
         n_words = sum(len(s["t"]) for s in t["sentences"])
@@ -151,12 +169,17 @@ def build_index(texts):
         f'<button class="lvl-chip" data-l="{i}">HSK {i}<span class="n">{counts.get(i, 0)}</span></button>'
         for i in range(1, 7)]
     body = f"""
-  <section class="hero">
-    <h1>Read real Chinese,<br>one <span class="zh">短文</span> at a time.</h1>
-    <p>{esc(SITE['tagline'])}. Pinyin, tap-to-translate and audio built into every reading.</p>
-    <a class="cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
-      Follow the daily lessons →</a>
-    <span class="sub">Free forever · New readings every week · HSK 1-6</span>
+  <section class="carousel">
+    <div class="hero-track" id="hero-track">
+      <div class="slide intro" data-char="读">
+        <h1>Read real Chinese,<br>one <span class="zh">短文</span> at a time.</h1>
+        <p>Pinyin, tap-to-translate and audio in every reading. Free forever.</p>
+        <a class="cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
+          Follow the daily lessons →</a>
+      </div>
+{featured_slides}
+    </div>
+    <div class="dots" id="hero-dots">{dots}</div>
   </section>
   <div class="levels"><div class="seg">{''.join(chips)}</div></div>
   <section class="cards">{''.join(cards)}

@@ -137,6 +137,41 @@
     if (lastW) { lastW.classList.remove("hl"); lastW = null; }
   });
 
+  /* ---------- hero carousel on index ---------- */
+  var track = document.getElementById("hero-track");
+  if (track) {
+    var dots = document.querySelectorAll("#hero-dots .dot");
+    var n = track.children.length, idx = 0, timer = null;
+    function go(i) {
+      idx = (i + n) % n;
+      track.scrollTo({ left: idx * track.clientWidth, behavior: "smooth" });
+    }
+    function sync() {
+      var i = Math.round(track.scrollLeft / track.clientWidth);
+      idx = Math.max(0, Math.min(n - 1, i));
+      dots.forEach(function (d, k) { d.classList.toggle("on", k === idx); });
+    }
+    track.addEventListener("scroll", function () { requestAnimationFrame(sync); },
+      { passive: true });
+    dots.forEach(function (d, k) {
+      d.addEventListener("click", function () { go(k); restart(); });
+    });
+    function restart() {
+      if (timer) clearInterval(timer);
+      timer = setInterval(function () { go(idx + 1); }, 5000);
+    }
+    // pause while the user is interacting
+    track.addEventListener("touchstart", function () {
+      if (timer) clearInterval(timer);
+    }, { passive: true });
+    track.addEventListener("touchend", restart, { passive: true });
+    track.addEventListener("mouseenter", function () {
+      if (timer) clearInterval(timer);
+    });
+    track.addEventListener("mouseleave", restart);
+    restart();
+  }
+
   /* ---------- level filter on index ---------- */
   var chips = document.querySelectorAll(".lvl-chip");
   chips.forEach(function (c) {
