@@ -29,6 +29,12 @@ def esc(s):
 def page(title, desc, body, rel=""):
     """rel = prefix to reach site root ('' at root, '../' inside texts/)."""
     name = esc(SITE["site_name"])
+    fb = SITE.get("firebase") or {}
+    auth_btn = ('<button class="nav-link" id="t-auth" hidden>Sign in</button>'
+                if fb else "")
+    auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};</script>\n'
+               f'<script type="module" src="{rel}assets/auth.js"></script>'
+               if fb else "")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +62,7 @@ def page(title, desc, body, rel=""):
       <a class="nav-link" href="{rel}words.html">Words</a>
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook">★</a>
       <button class="nav-link" id="t-theme" title="Dark mode">🌙</button>
+      {auth_btn}
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow</a>
@@ -74,6 +81,7 @@ def page(title, desc, body, rel=""):
 <div id="pop"></div>
 <script src="{rel}assets/reader.js"></script>
 <script>if("serviceWorker" in navigator)navigator.serviceWorker.register("{rel}sw.js");</script>
+{auth_js}
 {SITE.get("analytics_snippet", "")}
 </body>
 </html>"""

@@ -206,6 +206,7 @@
     if (!p.done[slug]) {
       p.done[slug] = localDay(new Date());
       localStorage.setItem(STORE, JSON.stringify(p));
+      document.dispatchEvent(new CustomEvent("rcd-changed"));
     }
     return p;
   }
@@ -231,6 +232,7 @@
     if (i >= 0) { l.splice(i, 1); }
     else if (p !== undefined && p !== null) { l.push({ z: z, p: p, e: e }); }
     localStorage.setItem(WSTORE, JSON.stringify(l));
+    document.dispatchEvent(new CustomEvent("rcd-changed"));
     return i < 0;
   }
   // static star buttons (words page)
