@@ -134,15 +134,22 @@ def build_index(texts):
     for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
         n_words = sum(len(s["t"]) for s in t["sentences"])
         cards.append(f"""
-    <a class="card" data-l="{t['level']}" data-char="{esc(t['title_zh'][0])}" href="texts/{t['slug']}.html">
-      <div class="zh-title">{esc(t['title_zh'])}</div>
-      <div class="py-title">{esc(t['title_py'])}</div>
-      <div class="en-title">{esc(t['title_en'])}</div>
-      <div class="meta"><span class="badge l{t['level']}">HSK {t['level']}</span>
-        <span>{LEVEL_WORDS[t['level']]}</span><span>·</span><span>{n_words} words</span></div>
+    <a class="card" data-l="{t['level']}" href="texts/{t['slug']}.html">
+      <div class="tile">{esc(t['title_zh'][0])}</div>
+      <div class="card-main">
+        <div class="zh-title">{esc(t['title_zh'])}</div>
+        <div class="py-title">{esc(t['title_py'])}</div>
+        <div class="en-title">{esc(t['title_en'])}</div>
+        <div class="meta"><span class="badge l{t['level']}">HSK {t['level']}</span>
+          <span>{n_words} words</span><span class="go">读 →</span></div>
+      </div>
     </a>""")
-    chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [
-        f'<button class="lvl-chip" data-l="{i}">HSK {i}</button>' for i in range(1, 7)]
+    counts = {}
+    for t in texts:
+        counts[t["level"]] = counts.get(t["level"], 0) + 1
+    chips = [f'<button class="lvl-chip on" data-l="0">All<span class="n">{len(texts)}</span></button>'] + [
+        f'<button class="lvl-chip" data-l="{i}">HSK {i}<span class="n">{counts.get(i, 0)}</span></button>'
+        for i in range(1, 7)]
     body = f"""
   <section class="hero">
     <h1>Read real Chinese,<br>one <span class="zh">短文</span> at a time.</h1>
@@ -151,7 +158,7 @@ def build_index(texts):
       Follow the daily lessons →</a>
     <span class="sub">Free forever · New readings every week · HSK 1-6</span>
   </section>
-  <div class="levels">{''.join(chips)}</div>
+  <div class="levels"><div class="seg">{''.join(chips)}</div></div>
   <section class="cards">{''.join(cards)}
   </section>"""
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
