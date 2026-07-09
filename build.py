@@ -30,7 +30,7 @@ def page(title, desc, body, rel=""):
     """rel = prefix to reach site root ('' at root, '../' inside texts/)."""
     name = esc(SITE["site_name"])
     fb = SITE.get("firebase") or {}
-    auth_btn = ('<button class="nav-link" id="t-auth" hidden>Sign in</button>'
+    auth_btn = ('<button class="nav-link" id="t-auth">Sign in</button>'
                 if fb else "")
     canon = (SITE.get("canonical_url") or "").rstrip("/")
     redir = ""
