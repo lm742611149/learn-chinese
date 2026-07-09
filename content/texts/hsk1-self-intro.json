@@ -7,32 +7,262 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["你好","nǐ hǎo","hello"],["!"],["我","wǒ","I; me"],["叫","jiào","to be called"],["王小明","Wáng Xiǎomíng","Wang Xiaoming (a name)"],["。"]],
+      "t": [
+        [
+          "你好",
+          "nǐ hǎo",
+          "hello"
+        ],
+        [
+          "!"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "叫",
+          "jiào",
+          "to be called"
+        ],
+        [
+          "王小明",
+          "Wáng Xiǎomíng",
+          "Wang Xiaoming (a name)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Hello! My name is Wang Xiaoming."
     },
     {
-      "t": [["我","wǒ","I; me"],["是","shì","to be"],["学生","xuésheng","student"],[","],["今年","jīnnián","this year"],["二十","èrshí","twenty"],["岁","suì","years old"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "学生",
+          "xuésheng",
+          "student"
+        ],
+        [
+          ","
+        ],
+        [
+          "今年",
+          "jīnnián",
+          "this year"
+        ],
+        [
+          "二十",
+          "èrshí",
+          "twenty"
+        ],
+        [
+          "岁",
+          "suì",
+          "years old"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I am a student, twenty years old this year."
     },
     {
-      "t": [["我","wǒ","I; me"],["家","jiā","family; home"],["有","yǒu","to have"],["爸爸","bàba","dad"],["、"],["妈妈","māma","mom"],["和","hé","and"],["我","wǒ","I; me"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "家",
+          "jiā",
+          "family; home"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have"
+        ],
+        [
+          "爸爸",
+          "bàba",
+          "dad"
+        ],
+        [
+          "、"
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "My family is my dad, my mom and me."
     },
     {
-      "t": [["我","wǒ","I; me"],["喜欢","xǐhuan","to like"],["看","kàn","to read; to watch"],["书","shū","book"],["和","hé","and"],["看","kàn","to read; to watch"],["电影","diànyǐng","movie"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "看",
+          "kàn",
+          "to read; to watch"
+        ],
+        [
+          "书",
+          "shū",
+          "book"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "看",
+          "kàn",
+          "to read; to watch"
+        ],
+        [
+          "电影",
+          "diànyǐng",
+          "movie"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I like reading books and watching movies."
     },
     {
-      "t": [["认识","rènshi","to get to know; to meet"],["你","nǐ","you"],[","],["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy; glad"],["!"]],
+      "t": [
+        [
+          "认识",
+          "rènshi",
+          "to get to know; to meet"
+        ],
+        [
+          "你",
+          "nǐ",
+          "you"
+        ],
+        [
+          ","
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "高兴",
+          "gāoxìng",
+          "happy; glad"
+        ],
+        [
+          "!"
+        ]
+      ],
       "en": "Nice to meet you!"
     }
   ],
   "vocab": [
-    ["叫","jiào","to be called"],
-    ["学生","xuésheng","student"],
-    ["今年","jīnnián","this year"],
-    ["喜欢","xǐhuan","to like"],
-    ["电影","diànyǐng","movie"],
-    ["认识","rènshi","to get to know; to meet"]
+    [
+      "叫",
+      "jiào",
+      "to be called"
+    ],
+    [
+      "学生",
+      "xuésheng",
+      "student"
+    ],
+    [
+      "今年",
+      "jīnnián",
+      "this year"
+    ],
+    [
+      "喜欢",
+      "xǐhuan",
+      "to like"
+    ],
+    [
+      "电影",
+      "diànyǐng",
+      "movie"
+    ],
+    [
+      "认识",
+      "rènshi",
+      "to get to know; to meet"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What is his name?",
+      "a": [
+        "Wang Xiaoming",
+        "Li Xiaolong",
+        "Zhang Damin"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How old is he?",
+      "a": [
+        "Twelve",
+        "Twenty",
+        "Thirty"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does he like?",
+      "a": [
+        "Sports and cooking",
+        "Singing and dancing",
+        "Reading books and watching movies"
+      ],
+      "c": 2
+    }
   ]
 }

@@ -7,32 +7,305 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["我","wǒ","I; me"],["家","jiā","family; home"],["有","yǒu","to have"],["一只","yì zhī","one (measure word for animals)"],["小狗","xiǎo gǒu","puppy; little dog"],[","],["它","tā","it"],["叫","jiào","to be called"],["豆豆","Dòudou","Doudou (a pet name)"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "家",
+          "jiā",
+          "family; home"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have"
+        ],
+        [
+          "一只",
+          "yì zhī",
+          "one (measure word for animals)"
+        ],
+        [
+          "小狗",
+          "xiǎo gǒu",
+          "puppy; little dog"
+        ],
+        [
+          ","
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "叫",
+          "jiào",
+          "to be called"
+        ],
+        [
+          "豆豆",
+          "Dòudou",
+          "Doudou (a pet name)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "My family has a little dog called Doudou."
     },
     {
-      "t": [["豆豆","Dòudou","Doudou (a pet name)"],["两","liǎng","two"],["岁","suì","years old"],["了","le","(particle: change of state)"],[","],["很","hěn","very"],["爱","ài","to love"],["吃","chī","to eat"],["。"]],
+      "t": [
+        [
+          "豆豆",
+          "Dòudou",
+          "Doudou (a pet name)"
+        ],
+        [
+          "两",
+          "liǎng",
+          "two"
+        ],
+        [
+          "岁",
+          "suì",
+          "years old"
+        ],
+        [
+          "了",
+          "le",
+          "(particle: change of state)"
+        ],
+        [
+          ","
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "爱",
+          "ài",
+          "to love"
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Doudou is two years old and loves to eat."
     },
     {
-      "t": [["每天","měitiān","every day"],["早上","zǎoshang","morning"],[","],["它","tā","it"],["和","hé","and; with"],["我","wǒ","I; me"],["一起","yìqǐ","together"],["跑步","pǎobù","to run; jogging"],["。"]],
+      "t": [
+        [
+          "每天",
+          "měitiān",
+          "every day"
+        ],
+        [
+          "早上",
+          "zǎoshang",
+          "morning"
+        ],
+        [
+          ","
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "和",
+          "hé",
+          "and; with"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "跑步",
+          "pǎobù",
+          "to run; jogging"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Every morning it goes running with me."
     },
     {
-      "t": [["我","wǒ","I; me"],["回家","huí jiā","to come home"],["的时候","de shíhou","when"],[","],["它","tā","it"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "回家",
+          "huí jiā",
+          "to come home"
+        ],
+        [
+          "的时候",
+          "de shíhou",
+          "when"
+        ],
+        [
+          ","
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "高兴",
+          "gāoxìng",
+          "happy"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "When I come home, it gets very happy."
     },
     {
-      "t": [["我","wǒ","I; me"],["爱","ài","to love"],["豆豆","Dòudou","Doudou (a pet name)"],[","],["它","tā","it"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["好","hǎo","good"],["朋友","péngyou","friend"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "爱",
+          "ài",
+          "to love"
+        ],
+        [
+          "豆豆",
+          "Dòudou",
+          "Doudou (a pet name)"
+        ],
+        [
+          ","
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I love Doudou — it is my good friend."
     }
   ],
   "vocab": [
-    ["只","zhī","(measure word for animals)"],
-    ["小狗","xiǎo gǒu","puppy; little dog"],
-    ["它","tā","it"],
-    ["每天","měitiān","every day"],
-    ["回家","huí jiā","to come home"],
-    ["一起","yìqǐ","together"]
+    [
+      "只",
+      "zhī",
+      "(measure word for animals)"
+    ],
+    [
+      "小狗",
+      "xiǎo gǒu",
+      "puppy; little dog"
+    ],
+    [
+      "它",
+      "tā",
+      "it"
+    ],
+    [
+      "每天",
+      "měitiān",
+      "every day"
+    ],
+    [
+      "回家",
+      "huí jiā",
+      "to come home"
+    ],
+    [
+      "一起",
+      "yìqǐ",
+      "together"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What is the dog's name?",
+      "a": [
+        "Doudou",
+        "Maomao",
+        "Xiaobai"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How old is the dog?",
+      "a": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What do they do together every morning?",
+      "a": [
+        "Eat breakfast",
+        "Watch TV",
+        "Go running"
+      ],
+      "c": 2
+    }
   ]
 }

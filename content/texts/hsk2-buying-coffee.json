@@ -7,32 +7,327 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["早上","zǎoshang","morning"],["我","wǒ","I; me"],["去","qù","to go"],["咖啡店","kāfēidiàn","coffee shop"],["买","mǎi","to buy"],["咖啡","kāfēi","coffee"],["。"]],
+      "t": [
+        [
+          "早上",
+          "zǎoshang",
+          "morning"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "咖啡店",
+          "kāfēidiàn",
+          "coffee shop"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "咖啡",
+          "kāfēi",
+          "coffee"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "In the morning I go to the coffee shop to buy coffee."
     },
     {
-      "t": [["服务员","fúwùyuán","waiter; server"],["问","wèn","to ask"],["我","wǒ","I; me"],[":"],["“"],["您","nín","you (polite)"],["要","yào","to want"],["热","rè","hot"],["的","de","(particle: one that is...)"],["还是","háishi","or (in questions)"],["冰","bīng","iced; ice"],["的","de","(particle: one that is...)"],["?"],["”"]],
+      "t": [
+        [
+          "服务员",
+          "fúwùyuán",
+          "waiter; server"
+        ],
+        [
+          "问",
+          "wèn",
+          "to ask"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          ":"
+        ],
+        [
+          "“"
+        ],
+        [
+          "您",
+          "nín",
+          "you (polite)"
+        ],
+        [
+          "要",
+          "yào",
+          "to want"
+        ],
+        [
+          "热",
+          "rè",
+          "hot"
+        ],
+        [
+          "的",
+          "de",
+          "(particle: one that is...)"
+        ],
+        [
+          "还是",
+          "háishi",
+          "or (in questions)"
+        ],
+        [
+          "冰",
+          "bīng",
+          "iced; ice"
+        ],
+        [
+          "的",
+          "de",
+          "(particle: one that is...)"
+        ],
+        [
+          "?"
+        ],
+        [
+          "”"
+        ]
+      ],
       "en": "The server asks me: \"Would you like it hot or iced?\""
     },
     {
-      "t": [["我","wǒ","I; me"],["说","shuō","to say"],[":"],["“"],["我","wǒ","I; me"],["要","yào","to want"],["一杯","yì bēi","one cup of"],["热","rè","hot"],["咖啡","kāfēi","coffee"],[","],["不要","bú yào","don't want"],["糖","táng","sugar"],["。"],["”"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          ":"
+        ],
+        [
+          "“"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "要",
+          "yào",
+          "to want"
+        ],
+        [
+          "一杯",
+          "yì bēi",
+          "one cup of"
+        ],
+        [
+          "热",
+          "rè",
+          "hot"
+        ],
+        [
+          "咖啡",
+          "kāfēi",
+          "coffee"
+        ],
+        [
+          ","
+        ],
+        [
+          "不要",
+          "bú yào",
+          "don't want"
+        ],
+        [
+          "糖",
+          "táng",
+          "sugar"
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ],
       "en": "I say: \"I'd like a hot coffee, no sugar.\""
     },
     {
-      "t": [["咖啡","kāfēi","coffee"],["三十","sānshí","thirty"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],[","],["有点儿","yǒudiǎnr","a little (+ negative feeling)"],["贵","guì","expensive"],["。"]],
+      "t": [
+        [
+          "咖啡",
+          "kāfēi",
+          "coffee"
+        ],
+        [
+          "三十",
+          "sānshí",
+          "thirty"
+        ],
+        [
+          "块",
+          "kuài",
+          "yuan (colloquial)"
+        ],
+        [
+          "钱",
+          "qián",
+          "money"
+        ],
+        [
+          ","
+        ],
+        [
+          "有点儿",
+          "yǒudiǎnr",
+          "a little (+ negative feeling)"
+        ],
+        [
+          "贵",
+          "guì",
+          "expensive"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "The coffee is thirty kuai — a little expensive."
     },
     {
-      "t": [["但是","dànshì","but"],["很","hěn","very"],["好喝","hǎohē","tasty (drinks)"],[","],["我","wǒ","I; me"],["每天","měi tiān","every day"],["都","dōu","all; always"],["想","xiǎng","to want to"],["喝","hē","to drink"],["。"]],
+      "t": [
+        [
+          "但是",
+          "dànshì",
+          "but"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好喝",
+          "hǎohē",
+          "tasty (drinks)"
+        ],
+        [
+          ","
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "每天",
+          "měi tiān",
+          "every day"
+        ],
+        [
+          "都",
+          "dōu",
+          "all; always"
+        ],
+        [
+          "想",
+          "xiǎng",
+          "to want to"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "But it's delicious — I want to drink it every day."
     }
   ],
   "vocab": [
-    ["咖啡店","kāfēidiàn","coffee shop"],
-    ["服务员","fúwùyuán","waiter; server"],
-    ["还是","háishi","or (in questions)"],
-    ["有点儿","yǒudiǎnr","a little (+ negative feeling)"],
-    ["贵","guì","expensive"],
-    ["好喝","hǎohē","tasty (for drinks)"]
+    [
+      "咖啡店",
+      "kāfēidiàn",
+      "coffee shop"
+    ],
+    [
+      "服务员",
+      "fúwùyuán",
+      "waiter; server"
+    ],
+    [
+      "还是",
+      "háishi",
+      "or (in questions)"
+    ],
+    [
+      "有点儿",
+      "yǒudiǎnr",
+      "a little (+ negative feeling)"
+    ],
+    [
+      "贵",
+      "guì",
+      "expensive"
+    ],
+    [
+      "好喝",
+      "hǎohē",
+      "tasty (for drinks)"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What kind of coffee does the writer order?",
+      "a": [
+        "Hot, no sugar",
+        "Iced, with sugar",
+        "Hot, with milk"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How much does the coffee cost?",
+      "a": [
+        "13 kuai",
+        "30 kuai",
+        "33 kuai"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why does the writer want to drink it every day?",
+      "a": [
+        "It's cheap",
+        "It's near home",
+        "It's delicious"
+      ],
+      "c": 2
+    }
   ]
 }

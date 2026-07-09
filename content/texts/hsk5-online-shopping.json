@@ -7,32 +7,361 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["随着","suízhe","along with; as"],["网络","wǎngluò","internet; network"],["的","de","(particle)"],["发展","fāzhǎn","development"],[","],["网上","wǎngshàng","online"],["购物","gòuwù","shopping"],["变得","biàn de","to become"],["越来越","yuè lái yuè","more and more"],["普遍","pǔbiàn","common; widespread"],["。"]],
+      "t": [
+        [
+          "随着",
+          "suízhe",
+          "along with; as"
+        ],
+        [
+          "网络",
+          "wǎngluò",
+          "internet; network"
+        ],
+        [
+          "的",
+          "de",
+          "(particle)"
+        ],
+        [
+          "发展",
+          "fāzhǎn",
+          "development"
+        ],
+        [
+          ","
+        ],
+        [
+          "网上",
+          "wǎngshàng",
+          "online"
+        ],
+        [
+          "购物",
+          "gòuwù",
+          "shopping"
+        ],
+        [
+          "变得",
+          "biàn de",
+          "to become"
+        ],
+        [
+          "越来越",
+          "yuè lái yuè",
+          "more and more"
+        ],
+        [
+          "普遍",
+          "pǔbiàn",
+          "common; widespread"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "With the development of the internet, online shopping has become more and more common."
     },
     {
-      "t": [["人们","rénmen","people"],["不用","búyòng","need not"],["出门","chūmén","to go out"],[","],["就","jiù","then; right away"],["能","néng","can"],["买到","mǎidào","to buy (successfully)"],["世界","shìjiè","world"],["各地","gèdì","everywhere; all places"],["的","de","(particle)"],["商品","shāngpǐn","goods; products"],["。"]],
+      "t": [
+        [
+          "人们",
+          "rénmen",
+          "people"
+        ],
+        [
+          "不用",
+          "búyòng",
+          "need not"
+        ],
+        [
+          "出门",
+          "chūmén",
+          "to go out"
+        ],
+        [
+          ","
+        ],
+        [
+          "就",
+          "jiù",
+          "then; right away"
+        ],
+        [
+          "能",
+          "néng",
+          "can"
+        ],
+        [
+          "买到",
+          "mǎidào",
+          "to buy (successfully)"
+        ],
+        [
+          "世界",
+          "shìjiè",
+          "world"
+        ],
+        [
+          "各地",
+          "gèdì",
+          "everywhere; all places"
+        ],
+        [
+          "的",
+          "de",
+          "(particle)"
+        ],
+        [
+          "商品",
+          "shāngpǐn",
+          "goods; products"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Without leaving home, people can buy products from all over the world."
     },
     {
-      "t": [["网购","wǎnggòu","online shopping (short form)"],["虽然","suīrán","although"],["方便","fāngbiàn","convenient"],[","],["但","dàn","but"],["也","yě","also"],["存在","cúnzài","to exist"],["一些","yìxiē","some"],["问题","wèntí","problem"],["。"]],
+      "t": [
+        [
+          "网购",
+          "wǎnggòu",
+          "online shopping (short form)"
+        ],
+        [
+          "虽然",
+          "suīrán",
+          "although"
+        ],
+        [
+          "方便",
+          "fāngbiàn",
+          "convenient"
+        ],
+        [
+          ","
+        ],
+        [
+          "但",
+          "dàn",
+          "but"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "存在",
+          "cúnzài",
+          "to exist"
+        ],
+        [
+          "一些",
+          "yìxiē",
+          "some"
+        ],
+        [
+          "问题",
+          "wèntí",
+          "problem"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Although online shopping is convenient, it also has some problems."
     },
     {
-      "t": [["比如","bǐrú","for example"],[","],["有的","yǒude","some"],["商品","shāngpǐn","goods; products"],["质量","zhìliàng","quality"],["不好","bù hǎo","not good"],[","],["和","hé","and; with"],["图片","túpiàn","picture; image"],["完全","wánquán","completely"],["不一样","bù yíyàng","different; not the same"],["。"]],
+      "t": [
+        [
+          "比如",
+          "bǐrú",
+          "for example"
+        ],
+        [
+          ","
+        ],
+        [
+          "有的",
+          "yǒude",
+          "some"
+        ],
+        [
+          "商品",
+          "shāngpǐn",
+          "goods; products"
+        ],
+        [
+          "质量",
+          "zhìliàng",
+          "quality"
+        ],
+        [
+          "不好",
+          "bù hǎo",
+          "not good"
+        ],
+        [
+          ","
+        ],
+        [
+          "和",
+          "hé",
+          "and; with"
+        ],
+        [
+          "图片",
+          "túpiàn",
+          "picture; image"
+        ],
+        [
+          "完全",
+          "wánquán",
+          "completely"
+        ],
+        [
+          "不一样",
+          "bù yíyàng",
+          "different; not the same"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "For example, some products are of poor quality and look completely different from the pictures."
     },
     {
-      "t": [["因此","yīncǐ","therefore"],[","],["消费者","xiāofèizhě","consumer"],["在","zài","at; when"],["购物","gòuwù","shopping"],["时","shí","when; time"],["应该","yīnggāi","should"],["保持","bǎochí","to keep; to maintain"],["冷静","lěngjìng","calm"],[","],["不要","búyào","don't"],["盲目","mángmù","blindly"],["消费","xiāofèi","to consume; to spend"],["。"]],
+      "t": [
+        [
+          "因此",
+          "yīncǐ",
+          "therefore"
+        ],
+        [
+          ","
+        ],
+        [
+          "消费者",
+          "xiāofèizhě",
+          "consumer"
+        ],
+        [
+          "在",
+          "zài",
+          "at; when"
+        ],
+        [
+          "购物",
+          "gòuwù",
+          "shopping"
+        ],
+        [
+          "时",
+          "shí",
+          "when; time"
+        ],
+        [
+          "应该",
+          "yīnggāi",
+          "should"
+        ],
+        [
+          "保持",
+          "bǎochí",
+          "to keep; to maintain"
+        ],
+        [
+          "冷静",
+          "lěngjìng",
+          "calm"
+        ],
+        [
+          ","
+        ],
+        [
+          "不要",
+          "búyào",
+          "don't"
+        ],
+        [
+          "盲目",
+          "mángmù",
+          "blindly"
+        ],
+        [
+          "消费",
+          "xiāofèi",
+          "to consume; to spend"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Therefore, consumers should stay calm when shopping and avoid spending blindly."
     }
   ],
   "vocab": [
-    ["随着","suízhe","along with; as"],
-    ["普遍","pǔbiàn","common; widespread"],
-    ["存在","cúnzài","to exist"],
-    ["质量","zhìliàng","quality"],
-    ["保持","bǎochí","to keep; to maintain"],
-    ["盲目","mángmù","blindly"]
+    [
+      "随着",
+      "suízhe",
+      "along with; as"
+    ],
+    [
+      "普遍",
+      "pǔbiàn",
+      "common; widespread"
+    ],
+    [
+      "存在",
+      "cúnzài",
+      "to exist"
+    ],
+    [
+      "质量",
+      "zhìliàng",
+      "quality"
+    ],
+    [
+      "保持",
+      "bǎochí",
+      "to keep; to maintain"
+    ],
+    [
+      "盲目",
+      "mángmù",
+      "blindly"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "Online shopping became common along with...",
+      "a": [
+        "the development of the internet",
+        "cheaper delivery",
+        "new payment apps"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What problem does the text mention?",
+      "a": [
+        "Delivery is slow",
+        "Some goods differ completely from the pictures",
+        "Websites are hard to use"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What should consumers do?",
+      "a": [
+        "Buy as fast as possible",
+        "Only shop in stores",
+        "Stay calm and avoid blind spending"
+      ],
+      "c": 2
+    }
   ]
 }

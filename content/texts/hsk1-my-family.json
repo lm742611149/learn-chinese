@@ -7,32 +7,276 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["我","wǒ","I; me"],["家","jiā","family; home"],["有","yǒu","to have"],["四","sì","four"],["口","kǒu","(measure word for family members)"],["人","rén","person; people"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "家",
+          "jiā",
+          "family; home"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have"
+        ],
+        [
+          "四",
+          "sì",
+          "four"
+        ],
+        [
+          "口",
+          "kǒu",
+          "(measure word for family members)"
+        ],
+        [
+          "人",
+          "rén",
+          "person; people"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "There are four people in my family."
     },
     {
-      "t": [["爸爸","bàba","dad"],["是","shì","to be"],["医生","yīshēng","doctor"],[","],["妈妈","māma","mom"],["是","shì","to be"],["老师","lǎoshī","teacher"],["。"]],
+      "t": [
+        [
+          "爸爸",
+          "bàba",
+          "dad"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "医生",
+          "yīshēng",
+          "doctor"
+        ],
+        [
+          ","
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "My dad is a doctor, and my mom is a teacher."
     },
     {
-      "t": [["我","wǒ","I; me"],["有","yǒu","to have"],["一个","yí ge","one (+ measure word)"],["妹妹","mèimei","younger sister"],[","],["她","tā","she"],["今年","jīnnián","this year"],["八","bā","eight"],["岁","suì","years old"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have"
+        ],
+        [
+          "一个",
+          "yí ge",
+          "one (+ measure word)"
+        ],
+        [
+          "妹妹",
+          "mèimei",
+          "younger sister"
+        ],
+        [
+          ","
+        ],
+        [
+          "她",
+          "tā",
+          "she"
+        ],
+        [
+          "今年",
+          "jīnnián",
+          "this year"
+        ],
+        [
+          "八",
+          "bā",
+          "eight"
+        ],
+        [
+          "岁",
+          "suì",
+          "years old"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I have a younger sister; she is eight years old this year."
     },
     {
-      "t": [["我们","wǒmen","we; us"],["都","dōu","all; both"],["爱","ài","to love"],["吃","chī","to eat"],["妈妈","māma","mom"],["做","zuò","to make; to cook"],["的","de","(possessive particle)"],["菜","cài","dish; food"],["。"]],
+      "t": [
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "都",
+          "dōu",
+          "all; both"
+        ],
+        [
+          "爱",
+          "ài",
+          "to love"
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "做",
+          "zuò",
+          "to make; to cook"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "菜",
+          "cài",
+          "dish; food"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "We all love the food my mom cooks."
     },
     {
-      "t": [["我","wǒ","I; me"],["爱","ài","to love"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["家","jiā","family; home"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "爱",
+          "ài",
+          "to love"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "家",
+          "jiā",
+          "family; home"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I love my family."
     }
   ],
   "vocab": [
-    ["家","jiā","family; home"],
-    ["医生","yīshēng","doctor"],
-    ["老师","lǎoshī","teacher"],
-    ["妹妹","mèimei","younger sister"],
-    ["岁","suì","years old"],
-    ["爱","ài","to love"]
+    [
+      "家",
+      "jiā",
+      "family; home"
+    ],
+    [
+      "医生",
+      "yīshēng",
+      "doctor"
+    ],
+    [
+      "老师",
+      "lǎoshī",
+      "teacher"
+    ],
+    [
+      "妹妹",
+      "mèimei",
+      "younger sister"
+    ],
+    [
+      "岁",
+      "suì",
+      "years old"
+    ],
+    [
+      "爱",
+      "ài",
+      "to love"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "How many people are in the family?",
+      "a": [
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What is mom's job?",
+      "a": [
+        "Teacher",
+        "Doctor",
+        "Student"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How old is the younger sister?",
+      "a": [
+        "Eight",
+        "Eighteen",
+        "Four"
+      ],
+      "c": 0
+    }
   ]
 }

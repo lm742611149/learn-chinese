@@ -7,36 +7,298 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["下午","xiàwǔ","afternoon"],["我","wǒ","I; me"],["去","qù","to go"],["商店","shāngdiàn","shop; store"],["买","mǎi","to buy"],["东西","dōngxi","thing; stuff"],["。"]],
+      "t": [
+        [
+          "下午",
+          "xiàwǔ",
+          "afternoon"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "thing; stuff"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "In the afternoon I go to the store to buy something."
     },
     {
-      "t": [["我","wǒ","I; me"],["想","xiǎng","to want to"],["买","mǎi","to buy"],["一个","yí ge","one (+ measure word)"],["杯子","bēizi","cup"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "想",
+          "xiǎng",
+          "to want to"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "一个",
+          "yí ge",
+          "one (+ measure word)"
+        ],
+        [
+          "杯子",
+          "bēizi",
+          "cup"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I want to buy a cup."
     },
     {
-      "t": [["这个","zhège","this"],["杯子","bēizi","cup"],["很","hěn","very"],["漂亮","piàoliang","pretty"],[","],["多少","duōshao","how much; how many"],["钱","qián","money"],["?"]],
+      "t": [
+        [
+          "这个",
+          "zhège",
+          "this"
+        ],
+        [
+          "杯子",
+          "bēizi",
+          "cup"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "漂亮",
+          "piàoliang",
+          "pretty"
+        ],
+        [
+          ","
+        ],
+        [
+          "多少",
+          "duōshao",
+          "how much; how many"
+        ],
+        [
+          "钱",
+          "qián",
+          "money"
+        ],
+        [
+          "?"
+        ]
+      ],
       "en": "This cup is very pretty — how much is it?"
     },
     {
-      "t": [["商店","shāngdiàn","shop; store"],["的","de","(possessive particle)"],["人","rén","person"],["说","shuō","to say"],[":"],["“"],["三十八","sānshíbā","thirty-eight"],["块","kuài","yuan (colloquial)"],["。"],["”"]],
+      "t": [
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "人",
+          "rén",
+          "person"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          ":"
+        ],
+        [
+          "“"
+        ],
+        [
+          "三十八",
+          "sānshíbā",
+          "thirty-eight"
+        ],
+        [
+          "块",
+          "kuài",
+          "yuan (colloquial)"
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ],
       "en": "The shopkeeper says: \"Thirty-eight kuai.\""
     },
     {
-      "t": [["好的","hǎo de","OK; alright"],[","],["我","wǒ","I; me"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["。"]],
+      "t": [
+        [
+          "好的",
+          "hǎo de",
+          "OK; alright"
+        ],
+        [
+          ","
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "了",
+          "le",
+          "(particle: completed action)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "OK, I'll take it."
     },
     {
-      "t": [["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["新","xīn","new"],["杯子","bēizi","cup"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "新",
+          "xīn",
+          "new"
+        ],
+        [
+          "杯子",
+          "bēizi",
+          "cup"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I really like my new cup."
     }
   ],
   "vocab": [
-    ["商店","shāngdiàn","shop; store"],
-    ["东西","dōngxi","thing; stuff"],
-    ["杯子","bēizi","cup"],
-    ["多少钱","duōshao qián","how much (money)"],
-    ["块","kuài","yuan (colloquial)"],
-    ["新","xīn","new"]
+    [
+      "商店",
+      "shāngdiàn",
+      "shop; store"
+    ],
+    [
+      "东西",
+      "dōngxi",
+      "thing; stuff"
+    ],
+    [
+      "杯子",
+      "bēizi",
+      "cup"
+    ],
+    [
+      "多少钱",
+      "duōshao qián",
+      "how much (money)"
+    ],
+    [
+      "块",
+      "kuài",
+      "yuan (colloquial)"
+    ],
+    [
+      "新",
+      "xīn",
+      "new"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What does the writer want to buy?",
+      "a": [
+        "A cup",
+        "A book",
+        "Some tea"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How much does it cost?",
+      "a": [
+        "13 kuai",
+        "38 kuai",
+        "83 kuai"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How does the writer feel about the new cup?",
+      "a": [
+        "It's too expensive",
+        "It's too small",
+        "They really like it"
+      ],
+      "c": 2
+    }
   ]
 }

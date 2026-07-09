@@ -7,36 +7,259 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["我","wǒ","I; me"],["叫","jiào","to be called"],["大明","Dàmíng","Daming (a name)"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "叫",
+          "jiào",
+          "to be called"
+        ],
+        [
+          "大明",
+          "Dàmíng",
+          "Daming (a name)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "My name is Daming."
     },
     {
-      "t": [["我","wǒ","I; me"],["七点","qī diǎn","seven o'clock"],["起床","qǐchuáng","to get up"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "七点",
+          "qī diǎn",
+          "seven o'clock"
+        ],
+        [
+          "起床",
+          "qǐchuáng",
+          "to get up"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I get up at seven o'clock."
     },
     {
-      "t": [["我","wǒ","I; me"],["喝","hē","to drink"],["茶","chá","tea"],[","],["不","bù","not"],["喝","hē","to drink"],["咖啡","kāfēi","coffee"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "茶",
+          "chá",
+          "tea"
+        ],
+        [
+          ","
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "咖啡",
+          "kāfēi",
+          "coffee"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I drink tea, not coffee."
     },
     {
-      "t": [["中午","zhōngwǔ","noon"],["我","wǒ","I; me"],["和","hé","and; with"],["朋友","péngyou","friend"],["吃饭","chīfàn","to eat (a meal)"],["。"]],
+      "t": [
+        [
+          "中午",
+          "zhōngwǔ",
+          "noon"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "和",
+          "hé",
+          "and; with"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "吃饭",
+          "chīfàn",
+          "to eat (a meal)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "At noon I eat with my friends."
     },
     {
-      "t": [["下午","xiàwǔ","afternoon"],["我","wǒ","I; me"],["在","zài","at; in"],["家","jiā","home"],["学习","xuéxí","to study"],["。"]],
+      "t": [
+        [
+          "下午",
+          "xiàwǔ",
+          "afternoon"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "在",
+          "zài",
+          "at; in"
+        ],
+        [
+          "家",
+          "jiā",
+          "home"
+        ],
+        [
+          "学习",
+          "xuéxí",
+          "to study"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "In the afternoon I study at home."
     },
     {
-      "t": [["晚上","wǎnshang","evening"],["我","wǒ","I; me"],["看","kàn","to read; to watch"],["书","shū","book"],[","],["十一点","shíyī diǎn","eleven o'clock"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "t": [
+        [
+          "晚上",
+          "wǎnshang",
+          "evening"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "看",
+          "kàn",
+          "to read; to watch"
+        ],
+        [
+          "书",
+          "shū",
+          "book"
+        ],
+        [
+          ","
+        ],
+        [
+          "十一点",
+          "shíyī diǎn",
+          "eleven o'clock"
+        ],
+        [
+          "睡觉",
+          "shuìjiào",
+          "to sleep"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "In the evening I read, and at eleven I go to bed."
     }
   ],
   "vocab": [
-    ["起床","qǐchuáng","to get up"],
-    ["喝","hē","to drink"],
-    ["中午","zhōngwǔ","noon"],
-    ["朋友","péngyou","friend"],
-    ["学习","xuéxí","to study"],
-    ["睡觉","shuìjiào","to sleep"]
+    [
+      "起床",
+      "qǐchuáng",
+      "to get up"
+    ],
+    [
+      "喝",
+      "hē",
+      "to drink"
+    ],
+    [
+      "中午",
+      "zhōngwǔ",
+      "noon"
+    ],
+    [
+      "朋友",
+      "péngyou",
+      "friend"
+    ],
+    [
+      "学习",
+      "xuéxí",
+      "to study"
+    ],
+    [
+      "睡觉",
+      "shuìjiào",
+      "to sleep"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "When does Daming get up?",
+      "a": [
+        "At seven o'clock",
+        "At eleven o'clock",
+        "At noon"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does he drink?",
+      "a": [
+        "Coffee",
+        "Tea",
+        "Cola"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does he do in the evening?",
+      "a": [
+        "Goes running",
+        "Cooks dinner",
+        "Reads books"
+      ],
+      "c": 2
+    }
   ]
 }

@@ -7,32 +7,302 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["星期六","xīngqīliù","Saturday"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],["。"]],
+      "t": [
+        [
+          "星期六",
+          "xīngqīliù",
+          "Saturday"
+        ],
+        [
+          "天气",
+          "tiānqì",
+          "weather"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "On Saturday the weather is great."
     },
     {
-      "t": [["我","wǒ","I; me"],["和","hé","and; with"],["女朋友","nǚpéngyou","girlfriend"],["一起","yìqǐ","together"],["去","qù","to go"],["公园","gōngyuán","park"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "和",
+          "hé",
+          "and; with"
+        ],
+        [
+          "女朋友",
+          "nǚpéngyou",
+          "girlfriend"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "公园",
+          "gōngyuán",
+          "park"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "My girlfriend and I go to the park together."
     },
     {
-      "t": [["公园","gōngyuán","park"],["里","li","inside"],["人","rén","person; people"],["很","hěn","very"],["多","duō","many"],[","],["有人","yǒu rén","some people"],["跑步","pǎobù","to run; jogging"],[","],["有人","yǒu rén","some people"],["唱歌","chànggē","to sing"],["。"]],
+      "t": [
+        [
+          "公园",
+          "gōngyuán",
+          "park"
+        ],
+        [
+          "里",
+          "li",
+          "inside"
+        ],
+        [
+          "人",
+          "rén",
+          "person; people"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "多",
+          "duō",
+          "many"
+        ],
+        [
+          ","
+        ],
+        [
+          "有人",
+          "yǒu rén",
+          "some people"
+        ],
+        [
+          "跑步",
+          "pǎobù",
+          "to run; jogging"
+        ],
+        [
+          ","
+        ],
+        [
+          "有人",
+          "yǒu rén",
+          "some people"
+        ],
+        [
+          "唱歌",
+          "chànggē",
+          "to sing"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "There are lots of people in the park — some are jogging, some are singing."
     },
     {
-      "t": [["我们","wǒmen","we; us"],["坐","zuò","to sit"],["在","zài","at; in"],["树","shù","tree"],["下","xià","under; below"],["喝","hē","to drink"],["茶","chá","tea"],["、"],["说话","shuōhuà","to talk; to chat"],["。"]],
+      "t": [
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "坐",
+          "zuò",
+          "to sit"
+        ],
+        [
+          "在",
+          "zài",
+          "at; in"
+        ],
+        [
+          "树",
+          "shù",
+          "tree"
+        ],
+        [
+          "下",
+          "xià",
+          "under; below"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "茶",
+          "chá",
+          "tea"
+        ],
+        [
+          "、"
+        ],
+        [
+          "说话",
+          "shuōhuà",
+          "to talk; to chat"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "We sit under a tree, drinking tea and chatting."
     },
     {
-      "t": [["时间","shíjiān","time"],["过","guò","to pass"],["得","de","(particle: describes how)"],["真","zhēn","really"],["快","kuài","fast"],[","],["我们","wǒmen","we; us"],["玩儿","wánr","to play; to have fun"],["了","le","(particle: completed action)"],["一个","yí ge","one (+ measure word)"],["下午","xiàwǔ","afternoon"],["。"]],
+      "t": [
+        [
+          "时间",
+          "shíjiān",
+          "time"
+        ],
+        [
+          "过",
+          "guò",
+          "to pass"
+        ],
+        [
+          "得",
+          "de",
+          "(particle: describes how)"
+        ],
+        [
+          "真",
+          "zhēn",
+          "really"
+        ],
+        [
+          "快",
+          "kuài",
+          "fast"
+        ],
+        [
+          ","
+        ],
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "玩儿",
+          "wánr",
+          "to play; to have fun"
+        ],
+        [
+          "了",
+          "le",
+          "(particle: completed action)"
+        ],
+        [
+          "一个",
+          "yí ge",
+          "one (+ measure word)"
+        ],
+        [
+          "下午",
+          "xiàwǔ",
+          "afternoon"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Time passes so quickly — we spend the whole afternoon having fun."
     }
   ],
   "vocab": [
-    ["周末","zhōumò","weekend"],
-    ["天气","tiānqì","weather"],
-    ["一起","yìqǐ","together"],
-    ["公园","gōngyuán","park"],
-    ["跑步","pǎobù","to run; jogging"],
-    ["唱歌","chànggē","to sing"]
+    [
+      "周末",
+      "zhōumò",
+      "weekend"
+    ],
+    [
+      "天气",
+      "tiānqì",
+      "weather"
+    ],
+    [
+      "一起",
+      "yìqǐ",
+      "together"
+    ],
+    [
+      "公园",
+      "gōngyuán",
+      "park"
+    ],
+    [
+      "跑步",
+      "pǎobù",
+      "to run; jogging"
+    ],
+    [
+      "唱歌",
+      "chànggē",
+      "to sing"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What day do they go to the park?",
+      "a": [
+        "Saturday",
+        "Sunday",
+        "Friday"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Who does the writer go with?",
+      "a": [
+        "A classmate",
+        "Girlfriend",
+        "Mom"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What do they do under the tree?",
+      "a": [
+        "Sing songs",
+        "Go jogging",
+        "Drink tea and chat"
+      ],
+      "c": 2
+    }
   ]
 }

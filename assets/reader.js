@@ -67,10 +67,15 @@
       : s === "paused" ? ICON_PLAY + " Resume"
       : ICON_PLAY + " Play all";
   }
+  var sents = Array.prototype.slice.call(document.querySelectorAll(".sent"));
+  function clearKaraoke() {
+    sents.forEach(function (s) { s.classList.remove("playing"); });
+  }
   function speak(text) {
     if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
     speechSynthesis.cancel();     // kills any play-all session too
     setPlayState("idle");
+    clearKaraoke();
     var u = new SpeechSynthesisUtterance(text);
     u.lang = "zh-CN";
     if (voice) u.voice = voice;
@@ -114,21 +119,30 @@
         setPlayState("playing");
         return;
       }
-      // idle -> start playing the whole text
-      var t = [];
-      document.querySelectorAll(".zh-line").forEach(function (s) {
-        t.push(s.getAttribute("data-say") || "");
-      });
+      // idle -> karaoke mode: play sentence by sentence with highlight
       speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(t.join(""));
-      u.lang = "zh-CN";
-      if (voice) u.voice = voice;
-      u.rate = rate;
-      u.onend = function () { setPlayState("idle"); };
-      u.onerror = function () { setPlayState("idle"); };
-      speechSynthesis.speak(u);
       setPlayState("playing");
+      playSentence(0);
     });
+  }
+  function playSentence(i) {
+    if (i >= sents.length) { clearKaraoke(); setPlayState("idle"); return; }
+    clearKaraoke();
+    var s = sents[i];
+    s.classList.add("playing");
+    try { s.scrollIntoView({ behavior: "smooth", block: "center" }); } catch (e) {}
+    var line = s.querySelector(".zh-line");
+    var u = new SpeechSynthesisUtterance(line ? line.getAttribute("data-say") : "");
+    u.lang = "zh-CN";
+    if (voice) u.voice = voice;
+    u.rate = rate;
+    u.onend = function () {
+      if (playState === "playing") playSentence(i + 1);
+    };
+    u.onerror = function () {
+      if (playState === "playing") playSentence(i + 1);
+    };
+    speechSynthesis.speak(u);
   }
 
   /* ---------- per-sentence play ---------- */
@@ -167,6 +181,92 @@
     if (pop) pop.classList.remove("show");
     if (lastW) { lastW.classList.remove("hl"); lastW = null; }
   });
+
+  /* ---------- progress & streak (localStorage) ---------- */
+  var STORE = "rcd-progress";
+  function localDay(d) {
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") +
+      "-" + String(d.getDate()).padStart(2, "0");
+  }
+  function pget() {
+    try { return JSON.parse(localStorage.getItem(STORE)) || { done: {} }; }
+    catch (e) { return { done: {} }; }
+  }
+  function markDone(slug) {
+    var p = pget();
+    if (!p.done[slug]) {
+      p.done[slug] = localDay(new Date());
+      localStorage.setItem(STORE, JSON.stringify(p));
+    }
+    return p;
+  }
+  function streak(p) {
+    var days = {};
+    Object.keys(p.done).forEach(function (k) { days[p.done[k]] = 1; });
+    var s = 0, d = new Date();
+    if (!days[localDay(d)]) d.setDate(d.getDate() - 1); // today not read yet
+    while (days[localDay(d)]) { s++; d.setDate(d.getDate() - 1); }
+    return s;
+  }
+
+  /* ---------- quiz ---------- */
+  var quiz = document.getElementById("quiz");
+  if (quiz) {
+    var qitems = quiz.querySelectorAll(".qitem");
+    var answered = 0, correctN = 0;
+    qitems.forEach(function (it) {
+      var c = parseInt(it.getAttribute("data-c"), 10);
+      var opts = it.querySelectorAll(".qopt");
+      opts.forEach(function (o, i) {
+        o.addEventListener("click", function () {
+          if (it.classList.contains("ans")) return;
+          it.classList.add("ans");
+          if (i === c) { o.classList.add("ok"); correctN++; }
+          else { o.classList.add("bad"); opts[c].classList.add("ok"); }
+          answered++;
+          if (answered === qitems.length) {
+            var slug = location.pathname.split("/").pop().replace(".html", "");
+            var p = markDone(slug);
+            var r = document.getElementById("qresult");
+            r.hidden = false;
+            r.innerHTML = "You got <b>" + correctN + " / " + qitems.length +
+              "</b> &nbsp;·&nbsp; ✓ Reading finished &nbsp;·&nbsp; 🔥 " +
+              streak(p) + "-day streak";
+            try { r.scrollIntoView({ behavior: "smooth", block: "center" }); } catch (e) {}
+          }
+        });
+      });
+    });
+  }
+
+  /* ---------- progress annotations on index ---------- */
+  var idxCards = document.querySelectorAll(".card[href]");
+  if (idxCards.length) {
+    var prog = pget(), doneCount = 0;
+    idxCards.forEach(function (c) {
+      var slug = (c.getAttribute("href") || "").split("/").pop().replace(".html", "");
+      if (prog.done[slug]) {
+        doneCount++;
+        c.classList.add("done");
+        var m = c.querySelector(".meta");
+        if (m) {
+          var f = document.createElement("span");
+          f.className = "done-flag";
+          f.textContent = "✓ Read";
+          m.insertBefore(f, m.querySelector(".go"));
+        }
+      }
+    });
+    if (doneCount > 0) {
+      var bar = document.createElement("div");
+      bar.className = "progress-strip";
+      bar.innerHTML = '<span class="fire">🔥 ' + streak(prog) +
+        "-day streak</span><span>" + doneCount + " / " + idxCards.length +
+        " readings finished</span>";
+      var cardsEl = document.querySelector(".cards");
+      if (cardsEl) cardsEl.parentNode.insertBefore(bar, cardsEl);
+    }
+  }
 
   /* ---------- hero carousel on index ---------- */
   var track = document.getElementById("hero-track");

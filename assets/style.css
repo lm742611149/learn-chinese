@@ -227,6 +227,8 @@ select.tb-voice { max-width: 150px; appearance: none; -webkit-appearance: none;
   border-radius: 0; transition: background .15s; }
 .sent:last-of-type { border-bottom: none; }
 .sent:hover { background: #fdf8ee; border-radius: 12px; }
+.sent.playing { background: #fdf3df; border-radius: 12px;
+  box-shadow: inset 3px 0 0 var(--gold); }
 .zh-line { font-family: var(--serif);
   font-size: clamp(1.28rem, 3.8vw, 1.5rem); line-height: 2.5;
   font-weight: 600; }
@@ -284,6 +286,42 @@ body.show-en .en-line { display: block; }
   width: 32px; height: 32px; border-radius: 50%; font-size: .95rem;
   cursor: pointer; margin-left: 6px; vertical-align: middle; }
 #pop button:hover { background: var(--red); }
+
+/* ---------- quiz ---------- */
+.quiz { margin: 2px 0 26px; }
+.quiz h2 { font-size: 1.05rem; margin-bottom: 12px; letter-spacing: .02em; }
+.quiz h2 .zh { font-family: var(--serif); color: var(--red); margin-left: 6px; }
+.qitem { background: var(--card); border: 1px solid var(--line);
+  border-radius: 16px; padding: 16px 18px; margin-bottom: 10px; }
+.qq { font-weight: 700; margin-bottom: 10px; font-size: .96rem; }
+.qopts { display: flex; flex-direction: column; gap: 8px; }
+.qopt { text-align: left; border: 1.5px solid var(--line); background: #fff;
+  border-radius: 12px; padding: 10px 14px; font-size: .92rem;
+  font-family: inherit; cursor: pointer; transition: all .12s;
+  color: var(--ink-2); }
+.qopt:hover { border-color: var(--gold); background: #fefaf1; }
+.qitem.ans .qopt { cursor: default; }
+.qitem.ans .qopt:hover { border-color: var(--line); background: #fff; }
+.qopt.ok { background: #e7f4ec; border-color: #3e9464; color: #25623f;
+  font-weight: 700; }
+.qopt.ok:hover { background: #e7f4ec; border-color: #3e9464; }
+.qopt.bad { background: #fdebe7; border-color: var(--red);
+  color: var(--red-dark); }
+.qopt.bad:hover { background: #fdebe7; border-color: var(--red); }
+.qresult { background: linear-gradient(150deg, #26201b, #46231a);
+  color: #f7efe3; border-radius: 14px; padding: 13px 18px; font-size: .95rem;
+  text-align: center; margin-top: 4px; }
+.qresult b { color: var(--gold); }
+
+/* ---------- progress / streak ---------- */
+.progress-strip { display: flex; justify-content: space-between;
+  align-items: center; gap: 10px; flex-wrap: wrap; background: var(--card);
+  border: 1px solid var(--line); border-radius: 14px; padding: 11px 16px;
+  margin: 16px 0 0; font-size: .9rem; color: var(--ink-2);
+  box-shadow: 0 6px 18px rgba(70,45,25,.06); }
+.progress-strip .fire { font-weight: 800; color: var(--red-dark); }
+.done-flag { color: #3e9464; font-weight: 800; }
+.card.done .tile { opacity: .55; filter: saturate(.6); }
 
 /* ---------- footer / about / notice ---------- */
 .footer { border-top: 1px solid var(--line); padding: 28px 0 44px;

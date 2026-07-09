@@ -7,32 +7,269 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["运动","yùndòng","sports; to exercise"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "运动",
+          "yùndòng",
+          "sports; to exercise"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I really like sports."
     },
     {
-      "t": [["每个","měi ge","every"],["星期六","xīngqīliù","Saturday"],[","],["我","wǒ","I; me"],["都","dōu","all; always"],["去","qù","to go"],["打篮球","dǎ lánqiú","to play basketball"],["。"]],
+      "t": [
+        [
+          "每个",
+          "měi ge",
+          "every"
+        ],
+        [
+          "星期六",
+          "xīngqīliù",
+          "Saturday"
+        ],
+        [
+          ","
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "都",
+          "dōu",
+          "all; always"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "打篮球",
+          "dǎ lánqiú",
+          "to play basketball"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Every Saturday I go play basketball."
     },
     {
-      "t": [["我们","wǒmen","we; us"],["从","cóng","from"],["九点","jiǔ diǎn","nine o'clock"],["玩儿","wánr","to play; to have fun"],["到","dào","to; until"],["十一点","shíyī diǎn","eleven o'clock"],["。"]],
+      "t": [
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "从",
+          "cóng",
+          "from"
+        ],
+        [
+          "九点",
+          "jiǔ diǎn",
+          "nine o'clock"
+        ],
+        [
+          "玩儿",
+          "wánr",
+          "to play; to have fun"
+        ],
+        [
+          "到",
+          "dào",
+          "to; until"
+        ],
+        [
+          "十一点",
+          "shíyī diǎn",
+          "eleven o'clock"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "We play from nine to eleven."
     },
     {
-      "t": [["打完","dǎ wán","to finish playing"],["球","qiú","ball"],[","],["大家","dàjiā","everyone"],["一起","yìqǐ","together"],["喝","hē","to drink"],["可乐","kělè","cola"],[","],["吃","chī","to eat"],["西瓜","xīguā","watermelon"],["。"]],
+      "t": [
+        [
+          "打完",
+          "dǎ wán",
+          "to finish playing"
+        ],
+        [
+          "球",
+          "qiú",
+          "ball"
+        ],
+        [
+          ","
+        ],
+        [
+          "大家",
+          "dàjiā",
+          "everyone"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "可乐",
+          "kělè",
+          "cola"
+        ],
+        [
+          ","
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "西瓜",
+          "xīguā",
+          "watermelon"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "After the game, everyone drinks cola and eats watermelon together."
     },
     {
-      "t": [["运动","yùndòng","sports; to exercise"],["让","ràng","to make; to let"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["身体","shēntǐ","body; health"],["很","hěn","very"],["好","hǎo","good"],["。"]],
+      "t": [
+        [
+          "运动",
+          "yùndòng",
+          "sports; to exercise"
+        ],
+        [
+          "让",
+          "ràng",
+          "to make; to let"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "身体",
+          "shēntǐ",
+          "body; health"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Sports keep me very healthy."
     }
   ],
   "vocab": [
-    ["运动","yùndòng","sports; to exercise"],
-    ["打篮球","dǎ lánqiú","to play basketball"],
-    ["从……到……","cóng... dào...","from... to..."],
-    ["大家","dàjiā","everyone"],
-    ["西瓜","xīguā","watermelon"],
-    ["身体","shēntǐ","body; health"]
+    [
+      "运动",
+      "yùndòng",
+      "sports; to exercise"
+    ],
+    [
+      "打篮球",
+      "dǎ lánqiú",
+      "to play basketball"
+    ],
+    [
+      "从……到……",
+      "cóng... dào...",
+      "from... to..."
+    ],
+    [
+      "大家",
+      "dàjiā",
+      "everyone"
+    ],
+    [
+      "西瓜",
+      "xīguā",
+      "watermelon"
+    ],
+    [
+      "身体",
+      "shēntǐ",
+      "body; health"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "When does the writer play basketball?",
+      "a": [
+        "Every Saturday",
+        "Every day",
+        "Every Sunday"
+      ],
+      "c": 0
+    },
+    {
+      "q": "They play from nine to...?",
+      "a": [
+        "Ten o'clock",
+        "Eleven o'clock",
+        "Noon"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What do they have after the game?",
+      "a": [
+        "Tea and cake",
+        "Beer and noodles",
+        "Cola and watermelon"
+      ],
+      "c": 2
+    }
   ]
 }

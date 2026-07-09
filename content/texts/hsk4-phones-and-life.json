@@ -7,32 +7,389 @@
   "audio": null,
   "sentences": [
     {
-      "t": [["现在","xiànzài","now; nowadays"],[","],["手机","shǒujī","mobile phone"],["已经","yǐjīng","already"],["成为","chéngwéi","to become"],["我们","wǒmen","we; us"],["生活","shēnghuó","life"],["中","zhōng","in; among"],["最","zuì","most"],["重要","zhòngyào","important"],["的","de","(particle)"],["东西","dōngxi","thing"],["之一","zhī yī","one of"],["。"]],
+      "t": [
+        [
+          "现在",
+          "xiànzài",
+          "now; nowadays"
+        ],
+        [
+          ","
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          "已经",
+          "yǐjīng",
+          "already"
+        ],
+        [
+          "成为",
+          "chéngwéi",
+          "to become"
+        ],
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "生活",
+          "shēnghuó",
+          "life"
+        ],
+        [
+          "中",
+          "zhōng",
+          "in; among"
+        ],
+        [
+          "最",
+          "zuì",
+          "most"
+        ],
+        [
+          "重要",
+          "zhòngyào",
+          "important"
+        ],
+        [
+          "的",
+          "de",
+          "(particle)"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "thing"
+        ],
+        [
+          "之一",
+          "zhī yī",
+          "one of"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "Nowadays, the phone has become one of the most important things in our lives."
     },
     {
-      "t": [["我们","wǒmen","we; us"],["用","yòng","to use"],["手机","shǒujī","mobile phone"],["聊天","liáotiān","to chat"],["、"],["购物","gòuwù","to shop"],["、"],["看","kàn","to read; to watch"],["新闻","xīnwén","news"],[","],["甚至","shènzhì","even"],["工作","gōngzuò","to work"],["。"]],
+      "t": [
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "用",
+          "yòng",
+          "to use"
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          "聊天",
+          "liáotiān",
+          "to chat"
+        ],
+        [
+          "、"
+        ],
+        [
+          "购物",
+          "gòuwù",
+          "to shop"
+        ],
+        [
+          "、"
+        ],
+        [
+          "看",
+          "kàn",
+          "to read; to watch"
+        ],
+        [
+          "新闻",
+          "xīnwén",
+          "news"
+        ],
+        [
+          ","
+        ],
+        [
+          "甚至",
+          "shènzhì",
+          "even"
+        ],
+        [
+          "工作",
+          "gōngzuò",
+          "to work"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "We use our phones to chat, shop, read the news — even to work."
     },
     {
-      "t": [["但是","dànshì","but"],[","],["越来越","yuè lái yuè","more and more"],["多","duō","many"],["的","de","(particle)"],["人","rén","person; people"],["发现","fāxiàn","to discover; to find"],["自己","zìjǐ","oneself"],["离不开","lí bu kāi","cannot live without"],["手机","shǒujī","mobile phone"],["了","le","(particle: change of state)"],["。"]],
+      "t": [
+        [
+          "但是",
+          "dànshì",
+          "but"
+        ],
+        [
+          ","
+        ],
+        [
+          "越来越",
+          "yuè lái yuè",
+          "more and more"
+        ],
+        [
+          "多",
+          "duō",
+          "many"
+        ],
+        [
+          "的",
+          "de",
+          "(particle)"
+        ],
+        [
+          "人",
+          "rén",
+          "person; people"
+        ],
+        [
+          "发现",
+          "fāxiàn",
+          "to discover; to find"
+        ],
+        [
+          "自己",
+          "zìjǐ",
+          "oneself"
+        ],
+        [
+          "离不开",
+          "lí bu kāi",
+          "cannot live without"
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          "了",
+          "le",
+          "(particle: change of state)"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "But more and more people find they can't live without their phones."
     },
     {
-      "t": [["吃饭","chīfàn","to eat (a meal)"],["的时候","de shíhou","when; while"],["看","kàn","to look at"],["手机","shǒujī","mobile phone"],[","],["睡觉","shuìjiào","to sleep"],["以前","yǐqián","before"],["也","yě","also"],["要","yào","to want; will"],["看","kàn","to look at"],["手机","shǒujī","mobile phone"],["。"]],
+      "t": [
+        [
+          "吃饭",
+          "chīfàn",
+          "to eat (a meal)"
+        ],
+        [
+          "的时候",
+          "de shíhou",
+          "when; while"
+        ],
+        [
+          "看",
+          "kàn",
+          "to look at"
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          ","
+        ],
+        [
+          "睡觉",
+          "shuìjiào",
+          "to sleep"
+        ],
+        [
+          "以前",
+          "yǐqián",
+          "before"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "要",
+          "yào",
+          "to want; will"
+        ],
+        [
+          "看",
+          "kàn",
+          "to look at"
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "They look at their phones while eating, and again before going to sleep."
     },
     {
-      "t": [["我","wǒ","I; me"],["觉得","juéde","to think; to feel"],[","],["我们","wǒmen","we; us"],["应该","yīnggāi","should"],["放下","fàngxià","to put down"],["手机","shǒujī","mobile phone"],[","],["多","duō","more"],["陪陪","péipei","to keep company (reduplicated)"],["家人","jiārén","family members"],["和","hé","and"],["朋友","péngyou","friend"],["。"]],
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "觉得",
+          "juéde",
+          "to think; to feel"
+        ],
+        [
+          ","
+        ],
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "应该",
+          "yīnggāi",
+          "should"
+        ],
+        [
+          "放下",
+          "fàngxià",
+          "to put down"
+        ],
+        [
+          "手机",
+          "shǒujī",
+          "mobile phone"
+        ],
+        [
+          ","
+        ],
+        [
+          "多",
+          "duō",
+          "more"
+        ],
+        [
+          "陪陪",
+          "péipei",
+          "to keep company (reduplicated)"
+        ],
+        [
+          "家人",
+          "jiārén",
+          "family members"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "。"
+        ]
+      ],
       "en": "I think we should put down our phones and spend more time with family and friends."
     }
   ],
   "vocab": [
-    ["成为","chéngwéi","to become"],
-    ["甚至","shènzhì","even"],
-    ["越来越","yuè lái yuè","more and more"],
-    ["发现","fāxiàn","to discover"],
-    ["离不开","lí bu kāi","cannot live without"],
-    ["陪","péi","to accompany; to keep company"]
+    [
+      "成为",
+      "chéngwéi",
+      "to become"
+    ],
+    [
+      "甚至",
+      "shènzhì",
+      "even"
+    ],
+    [
+      "越来越",
+      "yuè lái yuè",
+      "more and more"
+    ],
+    [
+      "发现",
+      "fāxiàn",
+      "to discover"
+    ],
+    [
+      "离不开",
+      "lí bu kāi",
+      "cannot live without"
+    ],
+    [
+      "陪",
+      "péi",
+      "to accompany; to keep company"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, phones have become...",
+      "a": [
+        "one of the most important things in our lives",
+        "too expensive for most people",
+        "less useful than before"
+      ],
+      "c": 0
+    },
+    {
+      "q": "When do people look at their phones?",
+      "a": [
+        "Only at work",
+        "While eating and before sleeping",
+        "Only on weekends"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the author suggest?",
+      "a": [
+        "Buy a better phone",
+        "Use phones for study only",
+        "Put down the phone and spend time with family"
+      ],
+      "c": 2
+    }
   ]
 }

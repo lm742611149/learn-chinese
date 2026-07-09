@@ -119,6 +119,21 @@ def build_reader(t):
         f'<span class="vpy">{esc(p)}</span>'
         f'<span class="ven">{esc(e)}</span></div></div>'
         for z, p, e in t["vocab"])
+
+    quiz_html = ""
+    if t.get("quiz"):
+        qitems = []
+        for qi, q in enumerate(t["quiz"]):
+            opts = "".join(f'<button class="qopt">{esc(o)}</button>' for o in q["a"])
+            qitems.append(
+                f'<div class="qitem" data-c="{q["c"]}">'
+                f'<div class="qq">{qi + 1}. {esc(q["q"])}</div>'
+                f'<div class="qopts">{opts}</div></div>')
+        quiz_html = (f'    <section class="quiz" id="quiz">\n'
+                     f'      <h2>Check yourself <span class="zh">小测验</span></h2>\n'
+                     f'      {"".join(qitems)}\n'
+                     f'      <div class="qresult" id="qresult" hidden></div>\n'
+                     f'    </section>')
     body = f"""
   <article>
     <div class="reader-banner" style="--sc:{LEVEL_COLORS[t['level']]}" data-char="{esc(t['title_zh'][0])}">
@@ -147,6 +162,7 @@ def build_reader(t):
       <h2>Key words <span class="zh">生词</span></h2>
       <div class="vgrid">{vocab_rows}</div>
     </section>
+{quiz_html}
     <div class="reader-foot">
       <a class="tbtn" href="../index.html">← All readings</a>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
