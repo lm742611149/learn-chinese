@@ -32,7 +32,9 @@ def page(title, desc, body, rel=""):
     fb = SITE.get("firebase") or {}
     auth_btn = ('<button class="nav-link" id="t-auth" hidden>Sign in</button>'
                 if fb else "")
-    auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};</script>\n'
+    providers = SITE.get("auth_providers", ["google"])
+    auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};'
+               f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
                f'<script type="module" src="{rel}assets/auth.js"></script>'
                if fb else "")
     return f"""<!DOCTYPE html>
