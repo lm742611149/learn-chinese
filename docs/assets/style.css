@@ -47,7 +47,36 @@ a { color: var(--red); text-decoration: none; }
 .brand:hover .seal { transform: rotate(0deg); }
 .brand .bname { display: block; white-space: nowrap; overflow: hidden;
   text-overflow: ellipsis; min-width: 0; }
-.top nav { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; }
+.nav-menu { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; }
+.nav-burger, .nav-close { display: none; border: none; background: transparent;
+  font-size: 1.25rem; color: var(--ink-2); cursor: pointer; padding: 6px 10px;
+  font-family: inherit; }
+.nav-backdrop { display: none; }
+.nl { display: none; }              /* desktop: icons + tooltips only */
+.nav-menu > .nav-link[href*="words"] .nl { display: inline; } /* keep "Words" text */
+
+@media (max-width: 719px) {
+  .nav-burger { display: block; }
+  .nav-backdrop { position: fixed; inset: 0; z-index: 110;
+    background: rgba(25,18,12,.5); opacity: 0; pointer-events: none;
+    transition: opacity .22s; display: block; }
+  .nav-backdrop.show { opacity: 1; pointer-events: auto; }
+  .nav-menu { position: fixed; top: 0; right: 0; bottom: 0; z-index: 120;
+    width: min(78vw, 300px); background: var(--card);
+    box-shadow: -12px 0 40px rgba(0,0,0,.25);
+    flex-direction: column; align-items: stretch; gap: 4px;
+    padding: 64px 16px 20px; transform: translateX(105%);
+    transition: transform .25s ease; }
+  .nav-menu.open { transform: none; }
+  .nav-close { display: block; position: absolute; top: 14px; right: 14px; }
+  .nl { display: inline; }
+  .nav-menu .nav-link { width: 100%; text-align: left; padding: 13px 14px;
+    font-size: 1rem; border-radius: 12px; }
+  .nav-menu .nav-cta { width: 100%; justify-content: center; margin-top: 10px;
+    padding: 12px; }
+  #t-auth { border: 1.5px solid var(--line); margin-bottom: 6px;
+    text-align: center; font-weight: 700; }
+}
 .nav-link { padding: 8px 12px; border-radius: 999px; font-size: .9rem;
   font-weight: 650; color: var(--ink-2); transition: all .15s;
   border: none; background: transparent; cursor: pointer; font-family: inherit; }

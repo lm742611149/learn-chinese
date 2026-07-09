@@ -247,6 +247,27 @@
     });
   });
 
+  /* ---------- mobile nav drawer ---------- */
+  var burger = document.getElementById("nav-burger");
+  var navMenu = document.getElementById("nav-menu");
+  var navBack = document.getElementById("nav-backdrop");
+  var navClose = document.getElementById("nav-close");
+  function closeNav() {
+    if (navMenu) navMenu.classList.remove("open");
+    if (navBack) navBack.classList.remove("show");
+  }
+  if (burger && navMenu) {
+    burger.addEventListener("click", function () {
+      navMenu.classList.add("open");
+      if (navBack) navBack.classList.add("show");
+    });
+    if (navBack) navBack.addEventListener("click", closeNav);
+    if (navClose) navClose.addEventListener("click", closeNav);
+    navMenu.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", closeNav);
+    });
+  }
+
   /* ---------- theme toggle ---------- */
   var tt = document.getElementById("t-theme");
   if (tt) {

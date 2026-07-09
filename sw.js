@@ -1,5 +1,5 @@
 /* Read Chinese Daily — offline cache (stale-while-revalidate). */
-const V = "rcd-v1";
+const V = "rcd-v2";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(V).then((c) =>
