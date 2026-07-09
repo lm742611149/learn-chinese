@@ -72,22 +72,39 @@ def page(title, desc, body, rel=""):
 </html>"""
 
 
+OPENING_PUNCT = set("“‘(《【〈「『")
+
+
 def sentence_html(sent):
-    """Chinese line with ruby pinyin + tappable words + a play button."""
-    parts, say = [], []
+    """Chinese line with ruby pinyin + tappable words + a play button.
+    Words are grouped with their adjacent punctuation into no-break units
+    (.nb) so lines never start with a closing quote / full stop and never
+    split inside a word."""
+    units, say, prefix = [], [], ""
     for tok in sent["t"]:
         if len(tok) == 1:  # punctuation
-            parts.append(f'<span class="punct">{esc(tok[0])}</span>')
             say.append(tok[0])
+            p = f'<span class="punct">{esc(tok[0])}</span>'
+            if tok[0] in OPENING_PUNCT:
+                prefix += p          # attach opening quote to the NEXT word
+            elif units:
+                units[-1] += p       # attach closing punct to the previous word
+            else:
+                prefix += p
         else:
             zh, py, en = tok
             say.append(zh)
-            parts.append(
+            units.append(
+                prefix +
                 f'<span class="w" data-zh="{esc(zh)}" data-py="{esc(py)}" '
                 f'data-en="{esc(en)}"><ruby>{esc(zh)}<rt>{esc(py)}</rt></ruby></span>')
+            prefix = ""
+    if prefix:
+        units.append(prefix)
+    parts = "".join(f'<span class="nb">{u}</span>' for u in units)
     say_txt = esc("".join(say))
     return (f'<div class="sent">'
-            f'<div class="zh-line" data-say="{say_txt}">{"".join(parts)}'
+            f'<div class="zh-line" data-say="{say_txt}">{parts}'
             f'<button class="s-play" data-say="{say_txt}" title="Play sentence">🔊</button></div>'
             f'<div class="en-line">{esc(sent["en"])}</div></div>')
 

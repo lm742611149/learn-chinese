@@ -55,9 +55,22 @@
   }
 
   var rate = 1.0;
+  /* --- Play-all state machine: idle -> playing <-> paused -> idle --- */
+  var ICON_PLAY = '<svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+  var ICON_PAUSE = '<svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+  var playBtn = document.getElementById("t-play");
+  var playState = "idle";
+  function setPlayState(s) {
+    playState = s;
+    if (!playBtn) return;
+    playBtn.innerHTML = s === "playing" ? ICON_PAUSE + " Pause"
+      : s === "paused" ? ICON_PLAY + " Resume"
+      : ICON_PLAY + " Play all";
+  }
   function speak(text) {
     if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
-    speechSynthesis.cancel();
+    speechSynthesis.cancel();     // kills any play-all session too
+    setPlayState("idle");
     var u = new SpeechSynthesisUtterance(text);
     u.lang = "zh-CN";
     if (voice) u.voice = voice;
@@ -88,14 +101,33 @@
       sb.classList.toggle("on", rate !== 1.0);
     });
   }
-  var pa = document.getElementById("t-play");
-  if (pa) {
-    pa.addEventListener("click", function () {
+  if (playBtn) {
+    playBtn.addEventListener("click", function () {
+      if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
+      if (playState === "playing") {          // -> pause
+        speechSynthesis.pause();
+        setPlayState("paused");
+        return;
+      }
+      if (playState === "paused") {           // -> resume
+        speechSynthesis.resume();
+        setPlayState("playing");
+        return;
+      }
+      // idle -> start playing the whole text
       var t = [];
       document.querySelectorAll(".zh-line").forEach(function (s) {
         t.push(s.getAttribute("data-say") || "");
       });
-      speak(t.join(""));
+      speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(t.join(""));
+      u.lang = "zh-CN";
+      if (voice) u.voice = voice;
+      u.rate = rate;
+      u.onend = function () { setPlayState("idle"); };
+      u.onerror = function () { setPlayState("idle"); };
+      speechSynthesis.speak(u);
+      setPlayState("playing");
     });
   }
 
