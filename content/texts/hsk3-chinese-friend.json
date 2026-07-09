@@ -1,0 +1,42 @@
+{
+  "slug": "hsk3-chinese-friend",
+  "level": 3,
+  "title_zh": "我的中国朋友",
+  "title_py": "Wǒ de Zhōngguó péngyou",
+  "title_en": "My Chinese Friend",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["去年","qùnián","last year"],["我","wǒ","I; me"],["认识","rènshi","to get to know"],["了","le","(particle: completed action)"],["一个","yí ge","one (+ measure word)"],["中国","Zhōngguó","China"],["朋友","péngyou","friend"],[","],["他","tā","he"],["叫","jiào","to be called"],["小龙","Xiǎolóng","Xiaolong (a name)"],["。"]],
+      "en": "Last year I made a Chinese friend named Xiaolong."
+    },
+    {
+      "t": [["他","tā","he"],["对","duì","towards; to"],["我","wǒ","I; me"],["特别","tèbié","especially"],["好","hǎo","good; kind"],[","],["常常","chángcháng","often"],["帮","bāng","to help"],["我","wǒ","I; me"],["练习","liànxí","to practice"],["中文","Zhōngwén","Chinese (language)"],["。"]],
+      "en": "He is especially kind to me and often helps me practice Chinese."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["吃饭","chīfàn","to eat (a meal)"],["的时候","de shíhou","when; while"],[","],["他","tā","he"],["教","jiāo","to teach"],["我","wǒ","I; me"],["用","yòng","to use"],["筷子","kuàizi","chopsticks"],["。"]],
+      "en": "When we eat together, he teaches me how to use chopsticks."
+    },
+    {
+      "t": [["一开始","yì kāishǐ","at first"],["我","wǒ","I; me"],["用","yòng","to use"],["得","de","(particle: describes how)"],["很","hěn","very"],["不好","bù hǎo","not good; badly"],[","],["大家","dàjiā","everyone"],["都","dōu","all"],["笑","xiào","to laugh"],["了","le","(particle: completed action)"],["。"]],
+      "en": "At first I was terrible at it, and everyone laughed."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["不但","búdàn","not only"],["会","huì","can; to know how to"],["用","yòng","to use"],["筷子","kuàizi","chopsticks"],[","],["还","hái","also; in addition"],["会","huì","can; to know how to"],["做","zuò","to make; to cook"],["几个","jǐ ge","a few"],["中国","Zhōngguó","China; Chinese"],["菜","cài","dish; food"],["。"]],
+      "en": "Now I can not only use chopsticks, but also cook a few Chinese dishes."
+    },
+    {
+      "t": [["有","yǒu","to have"],["朋友","péngyou","friend"],["真","zhēn","really"],["好","hǎo","good"],["!"]],
+      "en": "It's so good to have friends!"
+    }
+  ],
+  "vocab": [
+    ["认识","rènshi","to get to know"],
+    ["特别","tèbié","especially"],
+    ["练习","liànxí","to practice"],
+    ["筷子","kuàizi","chopsticks"],
+    ["一开始","yì kāishǐ","at first"],
+    ["不但……还……","búdàn... hái...","not only... but also..."]
+  ]
+}
