@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers 静态资产配置:把 docs/ 作为网站发布
+  "name": "read-chinese-daily",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./docs",
+    "not_found_handling": "404-page"
+  }
+}
