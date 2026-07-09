@@ -416,6 +416,11 @@
       "var(--lvl" + (on.getAttribute("data-l") || "0") + ")";
     seg.classList.add("hasind");
     segInd.classList.add("ready");
+    // 窄屏上 tab 条会横向溢出,把当前级别滚到可视区中间,不然像消失了一样
+    if (seg.scrollWidth > seg.clientWidth) {
+      seg.scrollLeft = Math.max(0,
+        on.offsetLeft - (seg.clientWidth - on.offsetWidth) / 2);
+    }
   }
   function applyFilters(animate) {
     var onChip = document.querySelector(".lvl-chip.on");
