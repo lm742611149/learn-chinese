@@ -60,6 +60,7 @@ def page(title, desc, body, rel=""):
 </div>
 <div id="pop"></div>
 <script src="{rel}assets/reader.js"></script>
+{SITE.get("analytics_snippet", "")}
 </body>
 </html>"""
 
