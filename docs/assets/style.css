@@ -684,17 +684,18 @@ html[data-theme="dark"] .lvlcard { background: #241e17; }
 html[data-theme="dark"] .lv-bar { background: #2d261e; }
 
 /* ---------- word detail: examples & usage (words page + wordbook) ---------- */
-.vitem { flex-wrap: wrap; }
+.vitem { flex-wrap: wrap; position: relative; }
 .vitem.vx { cursor: pointer; }
-.vmore { margin-left: 8px; color: var(--muted); font-size: .72rem;
-  display: inline-block; transition: transform .2s; }
+/* 绝对定位钉在行右侧(星标左边),不然窄屏上会被挤到文字下一行 */
+.vmore { position: absolute; right: 46px; top: 22px; color: var(--muted);
+  font-size: .72rem; transition: transform .2s; }
 .vitem.open .vmore { transform: rotate(180deg); }
 .vdetail { flex: 1 1 100%; display: none; margin-top: 10px; padding-top: 10px;
   border-top: 1px dashed var(--line); cursor: default; }
 .vitem.open .vdetail { display: block; }
 .vex { padding: 8px 0 2px; }
 .vex-zh { display: block; font-family: var(--serif); font-size: 1.02rem;
-  line-height: 1.7; }
+  line-height: 2.1; }   /* ruby 拼音需要更高的行距 */
 .vex-zh b { color: var(--red); font-weight: 900; }
 .vex-en { display: block; color: var(--muted); font-size: .82rem;
   margin-top: 1px; }

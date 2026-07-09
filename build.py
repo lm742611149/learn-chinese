@@ -341,35 +341,37 @@ def build_level(texts, lvl):
 
 
 def word_examples(texts, words):
-    """word -> {'ex': [[zh_html(word bolded), en, slug, title_zh]×≤2],
-                'us': [[pattern, explanation]×≤2]} mined from the readings."""
-    ex, us = {}, {}
+    """{'s': sentence pool (each [tokenPairs, en, slug, title_zh]),
+        'w': word -> {'ex': [pool indices ×≤2], 'us': [[pattern, expl]×≤2]}}
+    Sentences are pooled once and referenced by index — embedding per-word
+    HTML blew the JSON up to 1 MB; ruby markup is assembled client-side."""
+    pool, pool_idx = [], {}
+    occurs, us = {}, {}
     for t in texts:
         for s in t["sentences"]:
             toks = s["t"]
             plain = "".join(tok[0] for tok in toks)
+            idx = pool_idx.get(plain)
+            if idx is None:
+                idx = len(pool)
+                pool_idx[plain] = idx
+                pool.append([[[x[0], x[1]] if len(x) == 3 else [x[0]]
+                              for x in toks], s["en"], t["slug"], t["title_zh"]])
+            seen = set()
             for tok in toks:
-                if len(tok) != 3 or tok[0] not in words:
-                    continue
-                w = tok[0]
-                if any(e[4] == plain for e in ex.get(w, [])):
-                    continue
-                zh_html = "".join(
-                    (f"<b>{esc(x[0])}</b>" if len(x) == 3 and x[0] == w
-                     else esc(x[0])) for x in toks)
-                ex.setdefault(w, []).append(
-                    [zh_html, s["en"], t["slug"], t["title_zh"], plain])
+                if len(tok) == 3 and tok[0] in words and tok[0] not in seen:
+                    seen.add(tok[0])
+                    occurs.setdefault(tok[0], []).append((len(plain), idx))
         for g in t.get("grammar", []):
             for w in words:
                 if w in g["p"] and len(us.get(w, [])) < 2 and \
                         not any(u[0] == g["p"] for u in us.get(w, [])):
                     us.setdefault(w, []).append([g["p"], g["e"]])
-    out = {}
+    perword = {}
     for w in words:
-        # shortest sentences read easiest — keep the 2 shortest, drop sort key
-        picks = sorted(ex.get(w, []), key=lambda e: len(e[4]))[:2]
-        out[w] = {"ex": [e[:4] for e in picks], "us": us.get(w, [])}
-    return out
+        picks = sorted(set(occurs.get(w, [])))[:2]   # shortest read easiest
+        perword[w] = {"ex": [i for _, i in picks], "us": us.get(w, [])}
+    return {"s": pool, "w": perword}
 
 
 def build_words(texts):
@@ -394,7 +396,7 @@ def build_words(texts):
         blob = f"{zh} {py} {en}".lower()
         # detail content itself stays in word-examples.json and is built
         # lazily on tap — inlining it ballooned words.html past 1 MB
-        d = wex.get(zh, {"ex": [], "us": []})
+        d = wex["w"].get(zh, {"ex": [], "us": []})
         has_d = bool(d["ex"] or d["us"])
         more = '<span class="vmore">▾</span>' if has_d else ""
         rows.append(

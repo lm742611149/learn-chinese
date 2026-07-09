@@ -499,18 +499,32 @@
         wexWaiters = [];
       }).catch(function () {});
   }
+  function wexSentence(idx, hlWord) {
+    var s = WEX.s[idx];
+    var zh = s[0].map(function (tk) {
+      if (tk.length === 1) return tk[0];
+      var r = "<ruby>" + tk[0] + "<rt>" + tk[1] + "</rt></ruby>";
+      return tk[0] === hlWord ? "<b>" + r + "</b>" : r;
+    }).join("");
+    return { zh: zh, en: s[1], slug: s[2], title: s[3] };
+  }
+  function wexFirstEx(z) {
+    var d = WEX && WEX.w && WEX.w[z];
+    return (d && d.ex.length) ? wexSentence(d.ex[0], z) : null;
+  }
   function wexDetail(z) {
-    var d = WEX && WEX[z];
+    var d = WEX && WEX.w && WEX.w[z];
     if (!d || (!d.ex.length && !d.us.length)) return "";
     var h = '<div class="vdetail">';
     d.us.forEach(function (u) {
       h += '<div class="vuse"><b>' + u[0] + "</b> " + u[1] + "</div>";
     });
-    d.ex.forEach(function (e) {
-      h += '<div class="vex"><span class="vex-zh">' + e[0] +
-        '</span><span class="vex-en">' + e[1] +
-        '</span><a class="vex-src" href="texts/' + e[2] + '.html">《' +
-        e[3] + "》→</a></div>";
+    d.ex.forEach(function (i) {
+      var e = wexSentence(i, z);
+      h += '<div class="vex"><span class="vex-zh">' + e.zh +
+        '</span><span class="vex-en">' + e.en +
+        '</span><a class="vex-src" href="texts/' + e.slug + '.html">《' +
+        e.title + "》→</a></div>";
     });
     return h + "</div>";
   }
@@ -697,9 +711,9 @@
     renderWb();
     function showDeckCard(flip) {
       var w = order[di];
-      var d = WEX && WEX[w.z];
-      var ex = (flip && d && d.ex.length)
-        ? '<div class="dex">' + d.ex[0][0] + '<i>' + d.ex[0][1] + '</i></div>'
+      var fx = flip ? wexFirstEx(w.z) : null;
+      var ex = fx
+        ? '<div class="dex">' + fx.zh + '<i>' + fx.en + '</i></div>'
         : "";
       deckCard.innerHTML = flip
         ? '<div class="dz">' + w.z + '</div><div class="dp">' + w.p +
