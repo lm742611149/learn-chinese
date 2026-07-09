@@ -79,9 +79,56 @@
     <div class="dots" id="hero-dots"><button class="dot on" aria-label="slide 1"></button><button class="dot" aria-label="slide 2"></button><button class="dot" aria-label="slide 3"></button><button class="dot" aria-label="slide 4"></button></div>
   </section>
   <div class="searchbar"><input type="search" id="search"
-    placeholder="Search readings — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <div class="levels"><div class="seg"><span class="seg-ind"></span><button class="lvl-chip on" data-l="0">All<span class="n">15</span></button><button class="lvl-chip" data-l="1">HSK 1<span class="n">8</span></button><button class="lvl-chip" data-l="2">HSK 2<span class="n">3</span></button><button class="lvl-chip" data-l="3">HSK 3<span class="n">1</span></button><button class="lvl-chip" data-l="4">HSK 4<span class="n">1</span></button><button class="lvl-chip" data-l="5">HSK 5<span class="n">1</span></button><button class="lvl-chip" data-l="6">HSK 6<span class="n">1</span></button></div></div>
-  <section class="cards">
+    placeholder="Search all readings — 汉字 / pinyin / English…" autocomplete="off"></div>
+  <section class="lvlgrid" id="lvlgrid">
+    <a class="lvlcard" href="hsk1.html" style="--sc:#3e9464" data-l="1" data-n="8">
+      <div class="lv-top"><span class="lv-tag">HSK 1</span>
+        <span class="lv-zh">入门</span></div>
+      <div class="lv-name">Newbie</div>
+      <div class="lv-meta"><span class="lv-done">8 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+    <a class="lvlcard" href="hsk2.html" style="--sc:#2f7fa8" data-l="2" data-n="3">
+      <div class="lv-top"><span class="lv-tag">HSK 2</span>
+        <span class="lv-zh">基础</span></div>
+      <div class="lv-name">Elementary</div>
+      <div class="lv-meta"><span class="lv-done">3 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+    <a class="lvlcard" href="hsk3.html" style="--sc:#7b5fc0" data-l="3" data-n="1">
+      <div class="lv-top"><span class="lv-tag">HSK 3</span>
+        <span class="lv-zh">进阶</span></div>
+      <div class="lv-name">Intermediate</div>
+      <div class="lv-meta"><span class="lv-done">1 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+    <a class="lvlcard" href="hsk4.html" style="--sc:#cf7622" data-l="4" data-n="1">
+      <div class="lv-top"><span class="lv-tag">HSK 4</span>
+        <span class="lv-zh">提高</span></div>
+      <div class="lv-name">Upper Int.</div>
+      <div class="lv-meta"><span class="lv-done">1 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+    <a class="lvlcard" href="hsk5.html" style="--sc:#c73e2a" data-l="5" data-n="1">
+      <div class="lv-top"><span class="lv-tag">HSK 5</span>
+        <span class="lv-zh">高级</span></div>
+      <div class="lv-name">Advanced</div>
+      <div class="lv-meta"><span class="lv-done">1 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+    <a class="lvlcard" href="hsk6.html" style="--sc:#6d4434" data-l="6" data-n="1">
+      <div class="lv-top"><span class="lv-tag">HSK 6</span>
+        <span class="lv-zh">精通</span></div>
+      <div class="lv-name">Fluent</div>
+      <div class="lv-meta"><span class="lv-done">1 readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>
+  </section>
+  <section class="today-wrap" id="today-wrap" hidden>
+    <h2 class="home-h">Today's pick <span class="zh">今日推荐</span></h2>
+    <div class="cards" id="today-slot"></div>
+  </section>
+  <section class="cards" id="search-results" hidden>
     <a class="card" data-l="1" data-search="我的一天 wǒ de yì tiān my day 起床 qǐchuáng to get up 喝 hē to drink 中午 zhōngwǔ noon 朋友 péngyou friend 学习 xuéxí to study 睡觉 shuìjiào to sleep" href="texts/hsk1-my-day.html">
       <div class="tile">我</div>
       <div class="card-main">
@@ -233,6 +280,7 @@
       </div>
     </a>
   </section>
+  <script>window.RCD_LEVELS={"hsk1-my-day": 1, "hsk1-my-dog": 1, "hsk1-my-family": 1, "hsk1-my-teacher": 1, "hsk1-restaurant": 1, "hsk1-self-intro": 1, "hsk1-shopping": 1, "hsk1-weather": 1, "hsk2-buying-coffee": 2, "hsk2-i-love-sports": 2, "hsk2-weekend-park": 2, "hsk3-chinese-friend": 3, "hsk4-phones-and-life": 4, "hsk5-online-shopping": 5, "hsk6-power-of-persistence": 6};</script>
   <footer class="footer">
     <div>© Read Chinese Daily · Original graded readings, free to read.</div>
     <div style="margin-top:6px">

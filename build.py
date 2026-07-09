@@ -20,6 +20,30 @@ LEVEL_WORDS = {1: "Newbie", 2: "Elementary", 3: "Intermediate",
                4: "Upper Int.", 5: "Advanced", 6: "Fluent"}
 LEVEL_COLORS = {1: "#3e9464", 2: "#2f7fa8", 3: "#7b5fc0",
                 4: "#cf7622", 5: "#c73e2a", 6: "#6d4434"}
+LEVEL_ZH = {1: "入门", 2: "基础", 3: "进阶", 4: "提高", 5: "高级", 6: "精通"}
+LEVEL_NUM_ZH = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六"}
+
+
+def card_html(t, lesson_no=None):
+    """Reading card. lesson_no -> course-style 'Lesson N' chip instead of the
+    (redundant on a level page) HSK badge."""
+    n_words = sum(len(s["t"]) for s in t["sentences"])
+    blob = " ".join([t["title_zh"], t["title_py"], t["title_en"]] +
+                    [w[0] + " " + w[1] + " " + w[2] for w in t["vocab"]]).lower()
+    chip = (f'<span class="badge l{t["level"]}">Lesson {lesson_no}</span>'
+            if lesson_no else
+            f'<span class="badge l{t["level"]}">HSK {t["level"]}</span>')
+    return f"""
+    <a class="card" data-l="{t['level']}" data-search="{esc(blob)}" href="texts/{t['slug']}.html">
+      <div class="tile">{esc(t['title_zh'][0])}</div>
+      <div class="card-main">
+        <div class="zh-title">{esc(t['title_zh'])}</div>
+        <div class="py-title">{esc(t['title_py'])}</div>
+        <div class="en-title">{esc(t['title_en'])}</div>
+        <div class="meta">{chip}
+          <span>{n_words} words</span><span class="go">读 →</span></div>
+      </div>
+    </a>"""
 
 
 def esc(s):
@@ -212,7 +236,7 @@ def build_reader(t):
 {grammar_html}
 {quiz_html}
     <div class="reader-foot">
-      <a class="tbtn" href="../index.html">← All readings</a>
+      <a class="tbtn" href="../hsk{t['level']}.html">← HSK {t['level']} readings</a>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow for daily lessons</a>
@@ -241,28 +265,23 @@ def build_index(texts):
     featured_slides = "\n".join(slides)
     dots = "".join(f'<button class="dot{" on" if i == 0 else ""}" aria-label="slide {i+1}"></button>'
                    for i in range(1 + len(featured)))
-    cards = []
-    for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
-        n_words = sum(len(s["t"]) for s in t["sentences"])
-        search_blob = " ".join([t["title_zh"], t["title_py"], t["title_en"]] +
-                               [w[0] + " " + w[1] + " " + w[2] for w in t["vocab"]]).lower()
-        cards.append(f"""
-    <a class="card" data-l="{t['level']}" data-search="{esc(search_blob)}" href="texts/{t['slug']}.html">
-      <div class="tile">{esc(t['title_zh'][0])}</div>
-      <div class="card-main">
-        <div class="zh-title">{esc(t['title_zh'])}</div>
-        <div class="py-title">{esc(t['title_py'])}</div>
-        <div class="en-title">{esc(t['title_en'])}</div>
-        <div class="meta"><span class="badge l{t['level']}">HSK {t['level']}</span>
-          <span>{n_words} words</span><span class="go">读 →</span></div>
-      </div>
-    </a>""")
     counts = {}
     for t in texts:
         counts[t["level"]] = counts.get(t["level"], 0) + 1
-    chips = [f'<button class="lvl-chip on" data-l="0">All<span class="n">{len(texts)}</span></button>'] + [
-        f'<button class="lvl-chip" data-l="{i}">HSK {i}<span class="n">{counts.get(i, 0)}</span></button>'
-        for i in range(1, 7)]
+    lvlcards = []
+    for i in range(1, 7):
+        n = counts.get(i, 0)
+        lvlcards.append(f"""
+    <a class="lvlcard" href="hsk{i}.html" style="--sc:{LEVEL_COLORS[i]}" data-l="{i}" data-n="{n}">
+      <div class="lv-top"><span class="lv-tag">HSK {i}</span>
+        <span class="lv-zh">{LEVEL_ZH[i]}</span></div>
+      <div class="lv-name">{LEVEL_WORDS[i]}</div>
+      <div class="lv-meta"><span class="lv-done">{n} readings</span><span class="lv-go">→</span></div>
+      <div class="lv-bar"><i></i></div>
+    </a>""")
+    all_cards = "".join(card_html(t) for t in
+                        sorted(texts, key=lambda x: (x["level"], x["slug"])))
+    levels_map = {t["slug"]: t["level"] for t in texts}
     body = f"""
   <section class="carousel">
     <div class="hero-track" id="hero-track">
@@ -277,12 +296,48 @@ def build_index(texts):
     <div class="dots" id="hero-dots">{dots}</div>
   </section>
   <div class="searchbar"><input type="search" id="search"
-    placeholder="Search readings — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <div class="levels"><div class="seg"><span class="seg-ind"></span>{''.join(chips)}</div></div>
-  <section class="cards">{''.join(cards)}
-  </section>"""
+    placeholder="Search all readings — 汉字 / pinyin / English…" autocomplete="off"></div>
+  <section class="lvlgrid" id="lvlgrid">{''.join(lvlcards)}
+  </section>
+  <section class="today-wrap" id="today-wrap" hidden>
+    <h2 class="home-h">Today's pick <span class="zh">今日推荐</span></h2>
+    <div class="cards" id="today-slot"></div>
+  </section>
+  <section class="cards" id="search-results" hidden>{all_cards}
+  </section>
+  <script>window.RCD_LEVELS={json.dumps(levels_map)};</script>"""
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
                 SITE["description"], body)
+
+
+def build_level(texts, lvl):
+    mine = [t for t in sorted(texts, key=lambda x: x["slug"])
+            if t["level"] == lvl]
+    counts = {}
+    for t in texts:
+        counts[t["level"]] = counts.get(t["level"], 0) + 1
+    cards = "".join(card_html(t, i + 1) for i, t in enumerate(mine))
+    chips = [f'<a class="lvl-chip" data-l="0" href="index.html">All</a>'] + [
+        f'<a class="lvl-chip{" on" if i == lvl else ""}" data-l="{i}" '
+        f'href="hsk{i}.html">HSK {i}<span class="n">{counts.get(i, 0)}</span></a>'
+        for i in range(1, 7)]
+    body = f"""
+  <article>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
+      <span class="feat-tag">HSK {lvl} · {LEVEL_WORDS[lvl]}</span>
+      <h1>HSK {lvl} Readings <span class="lv-h-zh">{LEVEL_ZH[lvl]}</span></h1>
+      <div class="b-en">{len(mine)} graded readings — read them in order, like a course.
+        ✓ marks what you've finished.</div>
+    </div>
+    <div class="levels"><div class="seg"><span class="seg-ind"></span>{''.join(chips)}</div></div>
+    <div class="searchbar"><input type="search" id="search"
+      placeholder="Search HSK {lvl} readings…" autocomplete="off"></div>
+    <section class="cards">{cards}
+    </section>
+  </article>"""
+    return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
+                f"Free HSK {lvl} Chinese reading practice: {len(mine)} original graded "
+                f"readings with pinyin, audio, tap-to-translate and quizzes.", body)
 
 
 def build_words(texts):
@@ -418,6 +473,9 @@ def main():
     open(os.path.join(OUT, ".nojekyll"), "w").close()
 
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(build_index(texts))
+    for lvl in range(1, 7):
+        open(os.path.join(OUT, f"hsk{lvl}.html"), "w",
+             encoding="utf-8").write(build_level(texts, lvl))
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about())
     open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())

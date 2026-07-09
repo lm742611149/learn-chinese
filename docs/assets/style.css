@@ -16,6 +16,8 @@
   --serif: "Noto Serif SC", "Songti SC", "SimSun", serif;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
+/* display:grid/flex 等会盖掉 UA 的 [hidden]{display:none},这里强制找回 */
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
@@ -613,7 +615,7 @@ html[data-theme="dark"] .gate { box-shadow: 0 14px 40px rgba(0,0,0,.35); }
 /* 上次已登录(localStorage rcd-auth)时,首帧直接按登录态渲染,
    避免 Firebase 异步恢复会话前闪一下"未登录"界面 */
 html[data-auth="1"] #gate-panel { display: none; }
-html[data-auth="1"] #gated[hidden] { display: block; }
+html[data-auth="1"] #gated[hidden] { display: block !important; }
 
 /* ---------- skeleton shimmer (JS 渲染区域的占位) ---------- */
 .sk { position: relative; overflow: hidden; background: var(--paper-2);
@@ -642,3 +644,41 @@ html[data-theme="dark"] .sk::after {
   to { transform: translateX(290%); } }
 
 html[data-theme="dark"] .nav-menu .nav-link .ni { background: #2d261e; }
+
+/* ---------- home: level entry cards ---------- */
+.lvlgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin: 18px 0 8px; }
+@media (min-width: 640px) { .lvlgrid { grid-template-columns: repeat(3, 1fr); } }
+.lvlcard { position: relative; display: block; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  padding: 14px 14px 16px; color: var(--ink);
+  transition: transform .15s, box-shadow .15s; }
+.lvlcard::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 4px; background: var(--sc); }
+.lvlcard:hover { transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(70,45,25,.13); }
+.lv-top { display: flex; align-items: center; justify-content: space-between; }
+.lv-tag { font-size: .72rem; font-weight: 800; letter-spacing: .08em;
+  color: #fff; background: var(--sc); border-radius: 6px; padding: 2px 9px; }
+.lv-zh { font-family: var(--serif); font-weight: 900; color: var(--sc);
+  font-size: 1.05rem; }
+.lv-name { font-weight: 750; margin-top: 8px; font-size: .98rem; }
+.lv-meta { display: flex; align-items: center; justify-content: space-between;
+  color: var(--muted); font-size: .78rem; margin-top: 2px; }
+.lv-go { color: var(--sc); font-weight: 800; }
+.lv-bar { height: 5px; background: var(--paper-2); border-radius: 99px;
+  margin-top: 9px; overflow: hidden; }
+.lv-bar i { display: block; height: 100%; width: 0; background: var(--sc);
+  border-radius: 99px; transition: width .5s ease; }
+
+/* ---------- home: today's pick ---------- */
+.home-h { font-size: 1.05rem; margin: 22px 0 12px; }
+.home-h .zh { font-family: var(--serif); color: var(--red); margin-left: 6px; }
+#today-slot { grid-template-columns: 1fr; padding: 0 0 8px; }
+#search-results { padding-top: 8px; }
+
+/* ---------- level pages ---------- */
+.lv-h-zh { font-family: var(--serif); color: rgba(255,255,255,.85);
+  margin-left: 8px; }
+html[data-theme="dark"] .lvlcard { background: #241e17; }
+html[data-theme="dark"] .lv-bar { background: #2d261e; }

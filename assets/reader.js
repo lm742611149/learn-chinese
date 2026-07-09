@@ -360,8 +360,9 @@
       bar.innerHTML = '<span class="fire">🔥 ' + streak(prog) +
         "-day streak</span><span>" + doneCount + " / " + idxCards.length +
         ' readings finished</span><a class="ps-link" href="progress.html">🏆 View →</a>';
-      var cardsEl = document.querySelector(".cards");
-      if (cardsEl) cardsEl.parentNode.insertBefore(bar, cardsEl);
+      var anchorEl = document.getElementById("lvlgrid") ||
+        document.querySelector(".cards");
+      if (anchorEl) anchorEl.parentNode.insertBefore(bar, anchorEl);
     }
   }
 
@@ -459,7 +460,20 @@
       applyFilters(true);
     });
   });
-  if (searchEl) searchEl.addEventListener("input", function () { applyFilters(false); });
+  if (searchEl) searchEl.addEventListener("input", function () {
+    // home page: search reveals the (otherwise hidden) full list,
+    // and tucks the level grid / today's pick away while typing
+    var res = document.getElementById("search-results");
+    if (res) {
+      var q = !!searchEl.value.trim();
+      res.hidden = !q;
+      var lg = document.getElementById("lvlgrid");
+      if (lg) lg.hidden = q;
+      var tw = document.getElementById("today-wrap");
+      if (tw) tw.hidden = q || !tw.dataset.filled;
+    }
+    applyFilters(false);
+  });
   if (segInd) {
     moveInd();
     window.addEventListener("resize", moveInd);
@@ -467,18 +481,41 @@
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(moveInd);
   }
 
-  /* ---------- today's pick (index) ---------- */
-  if (idxCards.length) {
+  /* ---------- today's pick (index only, into its own slot) ---------- */
+  var todaySlot = document.getElementById("today-slot");
+  if (idxCards.length && todaySlot) {
     var day = Math.floor(Date.now() / 86400000);
     var pick = idxCards[day % idxCards.length];
-    var cardsWrap = document.querySelector(".cards");
-    if (pick && cardsWrap) {
-      cardsWrap.insertBefore(pick, cardsWrap.firstChild);
+    if (pick) {
+      // clone: the original stays findable in the search results list
+      var cl = pick.cloneNode(true);
       var tflag = document.createElement("span");
       tflag.className = "today-flag";
       tflag.textContent = "📖 Today";
-      pick.appendChild(tflag);
+      cl.appendChild(tflag);
+      todaySlot.appendChild(cl);
+      var tw = document.getElementById("today-wrap");
+      if (tw) { tw.hidden = false; tw.dataset.filled = "1"; }
     }
+  }
+
+  /* ---------- home level cards: fill read-progress ---------- */
+  var lvlCards = document.querySelectorAll(".lvlcard[data-l]");
+  if (lvlCards.length) {
+    var lp = pget(), byLvl = {};
+    Object.keys(lp.done || {}).forEach(function (s) {
+      var l = (window.RCD_LEVELS || {})[s];
+      if (l) byLvl[l] = (byLvl[l] || 0) + 1;
+    });
+    lvlCards.forEach(function (c) {
+      var l = c.getAttribute("data-l"), n = +c.getAttribute("data-n") || 0;
+      var d = byLvl[l] || 0;
+      if (!d) return;
+      var t = c.querySelector(".lv-done");
+      if (t) t.textContent = d + " / " + n + " read";
+      var b = c.querySelector(".lv-bar i");
+      if (b) b.style.width = (n ? Math.min(100, Math.round(d / n * 100)) : 0) + "%";
+    });
   }
 
   /* ---------- progress page: stats, badges, calendar ---------- */
