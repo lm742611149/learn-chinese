@@ -271,11 +271,12 @@ def build_words(texts):
         lvl, py, en = words[zh]
         blob = f"{zh} {py} {en}".lower()
         rows.append(
-            f'<div class="wrow" data-l="{lvl}" data-search="{esc(blob)}">'
+            f'<div class="vitem" data-l="{lvl}" data-search="{esc(blob)}">'
             f'<button class="s-play" data-say="{esc(zh)}">🔊</button>'
-            f'<span class="vzh">{esc(zh)}</span><span class="vpy">{esc(py)}</span>'
-            f'<span class="ven">{esc(en)}</span>'
+            f'<div class="vtext"><span class="vzh">{esc(zh)}</span>'
+            f'<span class="vpy">{esc(py)}</span>'
             f'<span class="badge l{lvl}">HSK {lvl}</span>'
+            f'<span class="ven">{esc(en)}</span></div>'
             f'<button class="wstar" data-z="{esc(zh)}" data-p="{esc(py)}" '
             f'data-e="{esc(en)}" title="Save to wordbook">☆</button></div>')
     chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [

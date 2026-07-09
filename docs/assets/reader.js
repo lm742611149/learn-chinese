@@ -381,13 +381,10 @@
     var cardsWrap = document.querySelector(".cards");
     if (pick && cardsWrap) {
       cardsWrap.insertBefore(pick, cardsWrap.firstChild);
-      var meta = pick.querySelector(".meta");
-      if (meta) {
-        var tflag = document.createElement("span");
-        tflag.className = "today-flag";
-        tflag.textContent = "📖 Today's pick";
-        meta.insertBefore(tflag, meta.firstChild);
-      }
+      var tflag = document.createElement("span");
+      tflag.className = "today-flag";
+      tflag.textContent = "📖 Today";
+      pick.appendChild(tflag);
     }
   }
 
@@ -405,10 +402,11 @@
         return;
       }
       wbList.innerHTML = l.map(function (w) {
-        return '<div class="wrow"><button class="s-play" data-say="' + w.z +
-          '">🔊</button><span class="vzh">' + w.z + '</span><span class="vpy">' +
-          w.p + '</span><span class="ven">' + w.e +
-          '</span><button class="wstar saved" data-z="' + w.z + '">★</button></div>';
+        return '<div class="vitem"><button class="s-play" data-say="' + w.z +
+          '">🔊</button><div class="vtext"><span class="vzh">' + w.z +
+          '</span><span class="vpy">' + w.p + '</span><span class="ven">' +
+          w.e + '</span></div><button class="wstar saved" data-z="' + w.z +
+          '">★</button></div>';
       }).join("");
       wbList.querySelectorAll(".s-play").forEach(function (b) {
         b.addEventListener("click", function (e) {
