@@ -271,5 +271,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "从 A 到 B — from A to B",
+      "e": "Works for both time and place: 从九点到十一点 (from 9 to 11), 从北京到上海 (from Beijing to Shanghai).",
+      "x": "我们从九点玩儿到十一点。 — We play from nine to eleven."
+    }
   ]
 }

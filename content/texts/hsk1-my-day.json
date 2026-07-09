@@ -261,5 +261,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "Number + 点 — telling the time",
+      "e": "点 marks the hour. Put the time BEFORE the verb: 我七点起床 (I get up at seven). Never say 我起床七点.",
+      "x": "我十一点睡觉。 — I go to bed at eleven."
+    }
   ]
 }

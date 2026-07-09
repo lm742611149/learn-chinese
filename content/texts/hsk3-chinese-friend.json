@@ -405,5 +405,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "不但 A,还 B — not only… but also…",
+      "e": "The second half must add MORE on top of the first: 不但会用筷子,还会做中国菜.",
+      "x": "她不但会说汉语,还会写汉字。 — She can not only speak Chinese but also write characters."
+    }
   ]
 }

@@ -12,13 +12,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="../assets/style.css">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<meta name="theme-color" content="#c73e2a">
+<script>try{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="../index.html"><span class="seal">读</span><span class="bname">Read Chinese Daily</span></a>
     <nav>
-      <a class="nav-link" href="../about.html">About</a>
+      <a class="nav-link" href="../words.html">Words</a>
+      <a class="nav-link" href="../wordbook.html" title="My wordbook">★</a>
+      <button class="nav-link" id="t-theme" title="Dark mode">🌙</button>
       <a class="nav-cta" href="https://www.facebook.com/YOUR_PAGE" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow</a>
@@ -61,6 +67,10 @@
 <div class="vitem"><button class="s-play" data-say="岁">🔊</button><div class="vtext"><span class="vzh">岁</span><span class="vpy">suì</span><span class="ven">years old</span></div></div>
 <div class="vitem"><button class="s-play" data-say="爱">🔊</button><div class="vtext"><span class="vzh">爱</span><span class="vpy">ài</span><span class="ven">to love</span></div></div></div>
     </section>
+    <section class="grammar">
+      <h2>Grammar note <span class="zh">语法点</span></h2>
+      <div class="gitem"><div class="gp">口 — the measure word for family members</div><p>When counting people in a family, Chinese uses 口 instead of 个: 四口人. Asking about it: 你家有几口人?</p><div class="gx">我家有四口人。 — There are four people in my family.</div></div>
+    </section>
     <section class="quiz" id="quiz">
       <h2>Check yourself <span class="zh">小测验</span></h2>
       <div class="qitem" data-c="1"><div class="qq">1. How many people are in the family?</div><div class="qopts"><button class="qopt">Three</button><button class="qopt">Four</button><button class="qopt">Five</button></div></div><div class="qitem" data-c="0"><div class="qq">2. What is mom&#x27;s job?</div><div class="qopts"><button class="qopt">Teacher</button><button class="qopt">Doctor</button><button class="qopt">Student</button></div></div><div class="qitem" data-c="0"><div class="qq">3. How old is the younger sister?</div><div class="qopts"><button class="qopt">Eight</button><button class="qopt">Eighteen</button><button class="qopt">Four</button></div></div>
@@ -84,6 +94,7 @@
 </div>
 <div id="pop"></div>
 <script src="../assets/reader.js"></script>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("../sw.js");</script>
 
 </body>
 </html>

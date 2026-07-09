@@ -387,5 +387,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "不是 A,而是 B — not A, but rather B",
+      "e": "Corrects an assumption by replacing it: 靠的不是热情,而是积累. 而是 must introduce the true statement.",
+      "x": "学好中文靠的不是天赋,而是坚持。 — Mastering Chinese relies not on talent, but on persistence."
+    }
   ]
 }

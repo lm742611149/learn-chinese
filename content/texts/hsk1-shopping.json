@@ -300,5 +300,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "多少钱? — asking the price",
+      "e": "多少钱 = how much (money)? In spoken Chinese prices use 块 (kuài) instead of the formal 元: 三十八块.",
+      "x": "这个多少钱?——十块。 — How much is this? — Ten kuai."
+    }
   ]
 }

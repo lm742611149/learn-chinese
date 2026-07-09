@@ -164,15 +164,24 @@
       lastW = w;
       var zh = w.getAttribute("data-zh"), py = w.getAttribute("data-py"),
           en = w.getAttribute("data-en");
+      var saved = whas(zh);
       pop.innerHTML =
         '<span class="p-zh">' + zh + '</span>' +
         '<span class="p-py">' + py + '</span>' +
         '<button id="pop-say" title="Play">🔊</button>' +
+        '<button class="wstar' + (saved ? " saved" : "") + '" id="pop-star" ' +
+        'title="Save to wordbook">' + (saved ? "★" : "☆") + '</button>' +
         '<span class="p-en">' + en + '</span>';
       pop.classList.add("show");
       document.getElementById("pop-say").addEventListener("click", function (ev) {
         ev.stopPropagation();
         speak(zh);
+      });
+      document.getElementById("pop-star").addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        var s = wtoggle(zh, py, en);
+        this.classList.toggle("saved", s);
+        this.textContent = s ? "★" : "☆";
       });
       speak(zh);
     });
@@ -207,6 +216,46 @@
     if (!days[localDay(d)]) d.setDate(d.getDate() - 1); // today not read yet
     while (days[localDay(d)]) { s++; d.setDate(d.getDate() - 1); }
     return s;
+  }
+
+  /* ---------- wordbook store ---------- */
+  var WSTORE = "rcd-words";
+  function wget() {
+    try { return JSON.parse(localStorage.getItem(WSTORE)) || []; }
+    catch (e) { return []; }
+  }
+  function whas(z) { return wget().some(function (w) { return w.z === z; }); }
+  function wtoggle(z, p, e) {
+    var l = wget();
+    var i = l.findIndex(function (w) { return w.z === z; });
+    if (i >= 0) { l.splice(i, 1); }
+    else if (p !== undefined && p !== null) { l.push({ z: z, p: p, e: e }); }
+    localStorage.setItem(WSTORE, JSON.stringify(l));
+    return i < 0;
+  }
+  // static star buttons (words page)
+  document.querySelectorAll(".wstar[data-z][data-p]").forEach(function (b) {
+    if (whas(b.getAttribute("data-z"))) { b.classList.add("saved"); b.textContent = "★"; }
+    b.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var s = wtoggle(b.getAttribute("data-z"), b.getAttribute("data-p"),
+                      b.getAttribute("data-e"));
+      b.classList.toggle("saved", s);
+      b.textContent = s ? "★" : "☆";
+    });
+  });
+
+  /* ---------- theme toggle ---------- */
+  var tt = document.getElementById("t-theme");
+  if (tt) {
+    if (document.documentElement.getAttribute("data-theme") === "dark") tt.textContent = "☀️";
+    tt.addEventListener("click", function () {
+      var dark = document.documentElement.getAttribute("data-theme") !== "dark";
+      if (dark) document.documentElement.setAttribute("data-theme", "dark");
+      else document.documentElement.removeAttribute("data-theme");
+      tt.textContent = dark ? "☀️" : "🌙";
+      try { localStorage.setItem("rcd-theme", dark ? "dark" : "light"); } catch (e) {}
+    });
   }
 
   /* ---------- quiz ---------- */
@@ -303,17 +352,101 @@
     restart();
   }
 
-  /* ---------- level filter on index ---------- */
+  /* ---------- level filter + search (index & words pages) ---------- */
   var chips = document.querySelectorAll(".lvl-chip");
+  var searchEl = document.getElementById("search");
+  function applyFilters() {
+    var onChip = document.querySelector(".lvl-chip.on");
+    var l = onChip ? onChip.getAttribute("data-l") : "0";
+    var q = searchEl ? searchEl.value.trim().toLowerCase() : "";
+    document.querySelectorAll("[data-search]").forEach(function (el) {
+      var okL = l === "0" || el.getAttribute("data-l") === l;
+      var okQ = !q || (el.getAttribute("data-search") || "").indexOf(q) >= 0;
+      el.style.display = okL && okQ ? "" : "none";
+    });
+  }
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
       chips.forEach(function (x) { x.classList.remove("on"); });
       c.classList.add("on");
-      var l = c.getAttribute("data-l");
-      document.querySelectorAll(".card[data-l]").forEach(function (card) {
-        card.style.display =
-          (l === "0" || card.getAttribute("data-l") === l) ? "" : "none";
-      });
+      applyFilters();
     });
   });
+  if (searchEl) searchEl.addEventListener("input", applyFilters);
+
+  /* ---------- today's pick (index) ---------- */
+  if (idxCards.length) {
+    var day = Math.floor(Date.now() / 86400000);
+    var pick = idxCards[day % idxCards.length];
+    var cardsWrap = document.querySelector(".cards");
+    if (pick && cardsWrap) {
+      cardsWrap.insertBefore(pick, cardsWrap.firstChild);
+      var meta = pick.querySelector(".meta");
+      if (meta) {
+        var tflag = document.createElement("span");
+        tflag.className = "today-flag";
+        tflag.textContent = "📖 Today's pick";
+        meta.insertBefore(tflag, meta.firstChild);
+      }
+    }
+  }
+
+  /* ---------- wordbook page ---------- */
+  var wbList = document.getElementById("wb-list");
+  if (wbList) {
+    var practiceBtn = document.getElementById("wb-practice");
+    var deck = document.getElementById("deck");
+    var deckCard = document.getElementById("deck-card");
+    var order = [], di = 0;
+    function renderWb() {
+      var l = wget();
+      if (!l.length) {
+        wbList.innerHTML = '<div class="wb-empty">No words saved yet — tap ☆ on any word while reading.</div>';
+        return;
+      }
+      wbList.innerHTML = l.map(function (w) {
+        return '<div class="wrow"><button class="s-play" data-say="' + w.z +
+          '">🔊</button><span class="vzh">' + w.z + '</span><span class="vpy">' +
+          w.p + '</span><span class="ven">' + w.e +
+          '</span><button class="wstar saved" data-z="' + w.z + '">★</button></div>';
+      }).join("");
+      wbList.querySelectorAll(".s-play").forEach(function (b) {
+        b.addEventListener("click", function (e) {
+          e.stopPropagation(); speak(b.getAttribute("data-say"));
+        });
+      });
+      wbList.querySelectorAll(".wstar").forEach(function (b) {
+        b.addEventListener("click", function () {
+          wtoggle(b.getAttribute("data-z")); renderWb();
+        });
+      });
+    }
+    renderWb();
+    function showDeckCard(flip) {
+      var w = order[di];
+      deckCard.innerHTML = flip
+        ? '<div class="dz">' + w.z + '</div><div class="dp">' + w.p +
+          '</div><div class="de">' + w.e + '</div>'
+        : '<div class="dz">' + w.z + '</div><div class="dhint">Tap “Show answer”</div>';
+      if (flip) speak(w.z);
+    }
+    if (practiceBtn) {
+      practiceBtn.addEventListener("click", function () {
+        var l = wget();
+        if (!l.length) { alert("Save some words first — tap ☆ on any word while reading."); return; }
+        order = l.slice().sort(function () { return Math.random() - 0.5; });
+        di = 0; deck.hidden = false; wbList.hidden = true;
+        practiceBtn.style.display = "none";
+        showDeckCard(false);
+      });
+      document.getElementById("deck-flip").addEventListener("click", function () { showDeckCard(true); });
+      document.getElementById("deck-next").addEventListener("click", function () {
+        di = (di + 1) % order.length; showDeckCard(false);
+      });
+      document.getElementById("deck-close").addEventListener("click", function () {
+        deck.hidden = true; wbList.hidden = false;
+        practiceBtn.style.display = ""; renderWb();
+      });
+    }
+  }
 })();

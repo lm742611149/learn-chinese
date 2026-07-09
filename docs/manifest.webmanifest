@@ -1,0 +1,14 @@
+{
+  "name": "Read Chinese Daily",
+  "short_name": "读Daily",
+  "description": "Free graded Chinese readings with pinyin, audio and quizzes.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f2ea",
+  "theme_color": "#c73e2a",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -287,5 +287,12 @@
       ],
       "c": 0
     }
+  ],
+  "grammar": [
+    {
+      "p": "A 的 B — possession with 的",
+      "e": "的 links an owner to a thing: 饭馆的人 = the restaurant's staff, 妈妈的菜 = mom's cooking.",
+      "x": "这是我的杯子。 — This is my cup."
+    }
   ]
 }

@@ -391,5 +391,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "越来越 + adj — more and more…",
+      "e": "越来越 shows a growing trend and is never followed by 很/非常: 越来越好 ✓, 越来越很好 ✗.",
+      "x": "天气越来越热。 — The weather is getting hotter and hotter."
+    }
   ]
 }

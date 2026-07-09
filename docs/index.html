@@ -12,13 +12,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta name="theme-color" content="#c73e2a">
+<script>try{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="index.html"><span class="seal">读</span><span class="bname">Read Chinese Daily</span></a>
     <nav>
-      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="words.html">Words</a>
+      <a class="nav-link" href="wordbook.html" title="My wordbook">★</a>
+      <button class="nav-link" id="t-theme" title="Dark mode">🌙</button>
       <a class="nav-cta" href="https://www.facebook.com/YOUR_PAGE" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow</a>
@@ -60,9 +66,11 @@
     </div>
     <div class="dots" id="hero-dots"><button class="dot on" aria-label="slide 1"></button><button class="dot" aria-label="slide 2"></button><button class="dot" aria-label="slide 3"></button><button class="dot" aria-label="slide 4"></button></div>
   </section>
+  <div class="searchbar"><input type="search" id="search"
+    placeholder="Search readings — 汉字 / pinyin / English…" autocomplete="off"></div>
   <div class="levels"><div class="seg"><button class="lvl-chip on" data-l="0">All<span class="n">15</span></button><button class="lvl-chip" data-l="1">HSK 1<span class="n">8</span></button><button class="lvl-chip" data-l="2">HSK 2<span class="n">3</span></button><button class="lvl-chip" data-l="3">HSK 3<span class="n">1</span></button><button class="lvl-chip" data-l="4">HSK 4<span class="n">1</span></button><button class="lvl-chip" data-l="5">HSK 5<span class="n">1</span></button><button class="lvl-chip" data-l="6">HSK 6<span class="n">1</span></button></div></div>
   <section class="cards">
-    <a class="card" data-l="1" href="texts/hsk1-my-day.html">
+    <a class="card" data-l="1" data-search="我的一天 wǒ de yì tiān my day 起床 qǐchuáng to get up 喝 hē to drink 中午 zhōngwǔ noon 朋友 péngyou friend 学习 xuéxí to study 睡觉 shuìjiào to sleep" href="texts/hsk1-my-day.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我的一天</div>
@@ -72,7 +80,7 @@
           <span>36 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-my-dog.html">
+    <a class="card" data-l="1" data-search="我的狗 wǒ de gǒu my dog 只 zhī (measure word for animals) 小狗 xiǎo gǒu puppy; little dog 它 tā it 每天 měitiān every day 回家 huí jiā to come home 一起 yìqǐ together" href="texts/hsk1-my-dog.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我的狗</div>
@@ -82,7 +90,7 @@
           <span>47 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-my-family.html">
+    <a class="card" data-l="1" data-search="我的家 wǒ de jiā my family 家 jiā family; home 医生 yīshēng doctor 老师 lǎoshī teacher 妹妹 mèimei younger sister 岁 suì years old 爱 ài to love" href="texts/hsk1-my-family.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我的家</div>
@@ -92,7 +100,7 @@
           <span>40 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-my-teacher.html">
+    <a class="card" data-l="1" data-search="我的老师 wǒ de lǎoshī my teacher 汉语 hànyǔ chinese (language) 漂亮 piàoliang pretty; beautiful 一点儿 yìdiǎnr a little 写 xiě to write 汉字 hànzì chinese characters 教 jiāo to teach" href="texts/hsk1-my-teacher.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我的老师</div>
@@ -102,7 +110,7 @@
           <span>40 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-restaurant.html">
+    <a class="card" data-l="1" data-search="在饭馆 zài fànguǎn at the restaurant 饭馆 fànguǎn restaurant 米饭 mǐfàn rice 好吃 hǎochī tasty (for food) 高兴 gāoxìng happy 欢迎 huānyíng to welcome 再 zài again" href="texts/hsk1-restaurant.html">
       <div class="tile">在</div>
       <div class="card-main">
         <div class="zh-title">在饭馆</div>
@@ -112,7 +120,7 @@
           <span>43 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-self-intro.html">
+    <a class="card" data-l="1" data-search="自我介绍 zìwǒ jièshào introducing myself 叫 jiào to be called 学生 xuésheng student 今年 jīnnián this year 喜欢 xǐhuan to like 电影 diànyǐng movie 认识 rènshi to get to know; to meet" href="texts/hsk1-self-intro.html">
       <div class="tile">自</div>
       <div class="card-main">
         <div class="zh-title">自我介绍</div>
@@ -122,7 +130,7 @@
           <span>38 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-shopping.html">
+    <a class="card" data-l="1" data-search="买东西 mǎi dōngxi going shopping 商店 shāngdiàn shop; store 东西 dōngxi thing; stuff 杯子 bēizi cup 多少钱 duōshao qián how much (money) 块 kuài yuan (colloquial) 新 xīn new" href="texts/hsk1-shopping.html">
       <div class="tile">买</div>
       <div class="card-main">
         <div class="zh-title">买东西</div>
@@ -132,7 +140,7 @@
           <span>45 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="1" href="texts/hsk1-weather.html">
+    <a class="card" data-l="1" data-search="今天的天气 jīntiān de tiānqì today&#x27;s weather 天气 tiānqì weather 冷 lěng cold 热 rè hot 下雨 xià yǔ to rain 出去 chūqù to go out 外面 wàimiàn outside" href="texts/hsk1-weather.html">
       <div class="tile">今</div>
       <div class="card-main">
         <div class="zh-title">今天的天气</div>
@@ -142,7 +150,7 @@
           <span>41 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="2" href="texts/hsk2-buying-coffee.html">
+    <a class="card" data-l="2" data-search="买咖啡 mǎi kāfēi buying coffee 咖啡店 kāfēidiàn coffee shop 服务员 fúwùyuán waiter; server 还是 háishi or (in questions) 有点儿 yǒudiǎnr a little (+ negative feeling) 贵 guì expensive 好喝 hǎohē tasty (for drinks)" href="texts/hsk2-buying-coffee.html">
       <div class="tile">买</div>
       <div class="card-main">
         <div class="zh-title">买咖啡</div>
@@ -152,7 +160,7 @@
           <span>53 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="2" href="texts/hsk2-i-love-sports.html">
+    <a class="card" data-l="2" data-search="我爱运动 wǒ ài yùndòng i love sports 运动 yùndòng sports; to exercise 打篮球 dǎ lánqiú to play basketball 从……到…… cóng... dào... from... to... 大家 dàjiā everyone 西瓜 xīguā watermelon 身体 shēntǐ body; health" href="texts/hsk2-i-love-sports.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我爱运动</div>
@@ -162,7 +170,7 @@
           <span>39 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="2" href="texts/hsk2-weekend-park.html">
+    <a class="card" data-l="2" data-search="周末去公园 zhōumò qù gōngyuán a weekend in the park 周末 zhōumò weekend 天气 tiānqì weather 一起 yìqǐ together 公园 gōngyuán park 跑步 pǎobù to run; jogging 唱歌 chànggē to sing" href="texts/hsk2-weekend-park.html">
       <div class="tile">周</div>
       <div class="card-main">
         <div class="zh-title">周末去公园</div>
@@ -172,7 +180,7 @@
           <span>46 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="3" href="texts/hsk3-chinese-friend.html">
+    <a class="card" data-l="3" data-search="我的中国朋友 wǒ de zhōngguó péngyou my chinese friend 认识 rènshi to get to know 特别 tèbié especially 练习 liànxí to practice 筷子 kuàizi chopsticks 一开始 yì kāishǐ at first 不但……还…… búdàn... hái... not only... but also..." href="texts/hsk3-chinese-friend.html">
       <div class="tile">我</div>
       <div class="card-main">
         <div class="zh-title">我的中国朋友</div>
@@ -182,7 +190,7 @@
           <span>66 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="4" href="texts/hsk4-phones-and-life.html">
+    <a class="card" data-l="4" data-search="手机和生活 shǒujī hé shēnghuó phones and life 成为 chéngwéi to become 甚至 shènzhì even 越来越 yuè lái yuè more and more 发现 fāxiàn to discover 离不开 lí bu kāi cannot live without 陪 péi to accompany; to keep company" href="texts/hsk4-phones-and-life.html">
       <div class="tile">手</div>
       <div class="card-main">
         <div class="zh-title">手机和生活</div>
@@ -192,7 +200,7 @@
           <span>65 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="5" href="texts/hsk5-online-shopping.html">
+    <a class="card" data-l="5" data-search="网上购物 wǎngshàng gòuwù online shopping 随着 suízhe along with; as 普遍 pǔbiàn common; widespread 存在 cúnzài to exist 质量 zhìliàng quality 保持 bǎochí to keep; to maintain 盲目 mángmù blindly" href="texts/hsk5-online-shopping.html">
       <div class="tile">网</div>
       <div class="card-main">
         <div class="zh-title">网上购物</div>
@@ -202,7 +210,7 @@
           <span>59 words</span><span class="go">读 →</span></div>
       </div>
     </a>
-    <a class="card" data-l="6" href="texts/hsk6-power-of-persistence.html">
+    <a class="card" data-l="6" data-search="坚持的力量 jiānchí de lìliàng the power of persistence 滴水穿石 dī shuǐ chuān shí dripping water pierces stone (idiom) 微不足道 wēibùzúdào insignificant (idiom) 而是 ér shì but rather 积累 jīlěi accumulation 汇聚 huìjù to converge; to gather 坚持 jiānchí to persist" href="texts/hsk6-power-of-persistence.html">
       <div class="tile">坚</div>
       <div class="card-main">
         <div class="zh-title">坚持的力量</div>
@@ -224,6 +232,7 @@
 </div>
 <div id="pop"></div>
 <script src="assets/reader.js"></script>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");</script>
 
 </body>
 </html>

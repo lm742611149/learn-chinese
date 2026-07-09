@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About | Read Chinese Daily</title>
-<meta name="description" content="About Lucas — Chinese teacher.">
-<meta property="og:title" content="About | Read Chinese Daily">
-<meta property="og:description" content="About Lucas — Chinese teacher.">
+<title>My Wordbook | Read Chinese Daily</title>
+<meta name="description" content="Your saved Chinese words with flashcard practice.">
+<meta property="og:title" content="My Wordbook | Read Chinese Daily">
+<meta property="og:description" content="Your saved Chinese words with flashcard practice.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c73e2a'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>读</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,16 +32,21 @@
   </header>
 
   <section class="about">
-    <h1>About</h1>
-    <p>你好! I'm <strong>Lucas</strong>. I teach Mandarin to students from all over the world on Preply, and share bite-size Chinese lessons with 30,000+ followers on Facebook. I built this site so anyone can read real Chinese — for free.</p>
-    <p>Every reading here is <strong>original</strong>, written and graded for
-      real HSK levels — short enough to finish with your morning coffee,
-      rich enough to actually teach you something.</p>
-    <p>Want to go faster with a real teacher?
-      <a href="https://preply.com/en/tutor/YOUR_ID" target="_blank" rel="noopener">Book a 1-on-1 lesson</a>
-      or follow the free daily lessons on
-      <a href="https://www.facebook.com/YOUR_PAGE" target="_blank" rel="noopener">Facebook</a>.</p>
+    <h1>My Wordbook <span style="font-family:var(--serif);color:var(--red)">生词本</span></h1>
+    <p>Words you saved with ☆ while reading. Stored on this device.</p>
   </section>
+  <div class="wb-actions">
+    <button class="tb-play" id="wb-practice">Practice flashcards</button>
+  </div>
+  <div class="wlist" id="wb-list"></div>
+  <div class="deck" id="deck" hidden>
+    <div class="deck-card" id="deck-card"></div>
+    <div class="deck-btns">
+      <button class="tbtn" id="deck-flip">Show answer</button>
+      <button class="tbtn" id="deck-next">Next →</button>
+      <button class="tbtn" id="deck-close">Done</button>
+    </div>
+  </div>
   <footer class="footer">
     <div>© Read Chinese Daily · Original graded readings, free to read.</div>
     <div style="margin-top:6px">

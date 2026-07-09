@@ -363,5 +363,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "随着…,… — along with…",
+      "e": "A formal connector linking a trend to its background: 随着网络的发展,网购越来越普遍. Common in written Chinese and news.",
+      "x": "随着时间的变化,他的想法也变了。 — As time passed, his thinking changed too."
+    }
   ]
 }

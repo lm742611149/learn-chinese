@@ -278,5 +278,12 @@
       ],
       "c": 0
     }
+  ],
+  "grammar": [
+    {
+      "p": "口 — the measure word for family members",
+      "e": "When counting people in a family, Chinese uses 口 instead of 个: 四口人. Asking about it: 你家有几口人?",
+      "x": "我家有四口人。 — There are four people in my family."
+    }
   ]
 }

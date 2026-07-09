@@ -329,5 +329,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "还是 vs 或者 — two kinds of 'or'",
+      "e": "In QUESTIONS use 还是: 热的还是冰的? In statements use 或者: 我喝茶或者咖啡都可以.",
+      "x": "你要茶还是咖啡? — Would you like tea or coffee?"
+    }
   ]
 }

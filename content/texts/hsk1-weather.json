@@ -281,5 +281,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "不 A 也不 B — neither A nor B",
+      "e": "A tidy pattern for two negatives: 不冷也不热 (neither cold nor hot), 不大也不小 (neither big nor small).",
+      "x": "今天不冷也不热。 — Today is neither cold nor hot."
+    }
   ]
 }

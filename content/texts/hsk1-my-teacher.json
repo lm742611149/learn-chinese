@@ -276,5 +276,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "也 — 'also' goes before the verb",
+      "e": "也 must sit right before the verb, never at the end of the sentence: 她说汉语,也说英语. Saying 她说英语也 is wrong.",
+      "x": "我也喜欢看电影。 — I also like watching movies."
+    }
   ]
 }

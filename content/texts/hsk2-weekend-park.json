@@ -304,5 +304,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "有人…,有人… — some people…, others…",
+      "e": "Repeat 有人 to describe a lively scene: 有人跑步,有人唱歌 (some are jogging, some are singing).",
+      "x": "公园里有人喝茶,有人说话。 — In the park some drink tea, some chat."
+    }
   ]
 }

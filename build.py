@@ -43,13 +43,19 @@ def page(title, desc, body, rel=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="{rel}assets/style.css">
+<link rel="manifest" href="{rel}manifest.webmanifest">
+<link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
+<meta name="theme-color" content="#c73e2a">
+<script>try{{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}}catch(e){{}}</script>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="{rel}index.html"><span class="seal">读</span><span class="bname">{name}</span></a>
     <nav>
-      <a class="nav-link" href="{rel}about.html">About</a>
+      <a class="nav-link" href="{rel}words.html">Words</a>
+      <a class="nav-link" href="{rel}wordbook.html" title="My wordbook">★</a>
+      <button class="nav-link" id="t-theme" title="Dark mode">🌙</button>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow</a>
@@ -67,6 +73,7 @@ def page(title, desc, body, rel=""):
 </div>
 <div id="pop"></div>
 <script src="{rel}assets/reader.js"></script>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("{rel}sw.js");</script>
 {SITE.get("analytics_snippet", "")}
 </body>
 </html>"""
@@ -120,6 +127,18 @@ def build_reader(t):
         f'<span class="ven">{esc(e)}</span></div></div>'
         for z, p, e in t["vocab"])
 
+    grammar_html = ""
+    if t.get("grammar"):
+        gitems = "".join(
+            f'<div class="gitem"><div class="gp">{esc(g["p"])}</div>'
+            f'<p>{esc(g["e"])}</p>'
+            f'<div class="gx">{esc(g["x"])}</div></div>'
+            for g in t["grammar"])
+        grammar_html = (f'    <section class="grammar">\n'
+                        f'      <h2>Grammar note <span class="zh">语法点</span></h2>\n'
+                        f'      {gitems}\n'
+                        f'    </section>')
+
     quiz_html = ""
     if t.get("quiz"):
         qitems = []
@@ -162,6 +181,7 @@ def build_reader(t):
       <h2>Key words <span class="zh">生词</span></h2>
       <div class="vgrid">{vocab_rows}</div>
     </section>
+{grammar_html}
 {quiz_html}
     <div class="reader-foot">
       <a class="tbtn" href="../index.html">← All readings</a>
@@ -196,8 +216,10 @@ def build_index(texts):
     cards = []
     for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
         n_words = sum(len(s["t"]) for s in t["sentences"])
+        search_blob = " ".join([t["title_zh"], t["title_py"], t["title_en"]] +
+                               [w[0] + " " + w[1] + " " + w[2] for w in t["vocab"]]).lower()
         cards.append(f"""
-    <a class="card" data-l="{t['level']}" href="texts/{t['slug']}.html">
+    <a class="card" data-l="{t['level']}" data-search="{esc(search_blob)}" href="texts/{t['slug']}.html">
       <div class="tile">{esc(t['title_zh'][0])}</div>
       <div class="card-main">
         <div class="zh-title">{esc(t['title_zh'])}</div>
@@ -226,11 +248,72 @@ def build_index(texts):
     </div>
     <div class="dots" id="hero-dots">{dots}</div>
   </section>
+  <div class="searchbar"><input type="search" id="search"
+    placeholder="Search readings — 汉字 / pinyin / English…" autocomplete="off"></div>
   <div class="levels"><div class="seg">{''.join(chips)}</div></div>
   <section class="cards">{''.join(cards)}
   </section>"""
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
                 SITE["description"], body)
+
+
+def build_words(texts):
+    """Aggregate every unique word from all readings into one searchable list."""
+    words = {}   # zh -> (level, py, en)
+    for t in sorted(texts, key=lambda x: x["level"]):
+        pool = [tok for s in t["sentences"] for tok in s["t"] if len(tok) == 3]
+        pool += [list(v) for v in t["vocab"]]
+        for zh, py, en in pool:
+            if zh not in words:
+                words[zh] = (t["level"], py, en)
+    rows = []
+    for zh in sorted(words, key=lambda z: (words[z][0], words[z][1].lower())):
+        lvl, py, en = words[zh]
+        blob = f"{zh} {py} {en}".lower()
+        rows.append(
+            f'<div class="wrow" data-l="{lvl}" data-search="{esc(blob)}">'
+            f'<button class="s-play" data-say="{esc(zh)}">🔊</button>'
+            f'<span class="vzh">{esc(zh)}</span><span class="vpy">{esc(py)}</span>'
+            f'<span class="ven">{esc(en)}</span>'
+            f'<span class="badge l{lvl}">HSK {lvl}</span>'
+            f'<button class="wstar" data-z="{esc(zh)}" data-p="{esc(py)}" '
+            f'data-e="{esc(en)}" title="Save to wordbook">☆</button></div>')
+    chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [
+        f'<button class="lvl-chip" data-l="{i}">HSK {i}</button>' for i in range(1, 7)]
+    body = f"""
+  <section class="about">
+    <h1>Vocabulary <span style="font-family:var(--serif);color:var(--red)">词汇表</span></h1>
+    <p>{len(words)} words from our graded readings — tap 🔊 to hear, ☆ to save to your wordbook.</p>
+  </section>
+  <div class="searchbar"><input type="search" id="search"
+    placeholder="Search — 汉字 / pinyin / English…" autocomplete="off"></div>
+  <div class="levels"><div class="seg">{''.join(chips)}</div></div>
+  <div class="wlist">{''.join(rows)}</div>"""
+    return page(f"Chinese Vocabulary List (HSK 1-6) | {SITE['site_name']}",
+                "Searchable Chinese vocabulary with pinyin and audio from graded readings.",
+                body)
+
+
+def build_wordbook():
+    body = """
+  <section class="about">
+    <h1>My Wordbook <span style="font-family:var(--serif);color:var(--red)">生词本</span></h1>
+    <p>Words you saved with ☆ while reading. Stored on this device.</p>
+  </section>
+  <div class="wb-actions">
+    <button class="tb-play" id="wb-practice">Practice flashcards</button>
+  </div>
+  <div class="wlist" id="wb-list"></div>
+  <div class="deck" id="deck" hidden>
+    <div class="deck-card" id="deck-card"></div>
+    <div class="deck-btns">
+      <button class="tbtn" id="deck-flip">Show answer</button>
+      <button class="tbtn" id="deck-next">Next →</button>
+      <button class="tbtn" id="deck-close">Done</button>
+    </div>
+  </div>"""
+    return page(f"My Wordbook | {SITE['site_name']}",
+                "Your saved Chinese words with flashcard practice.", body)
 
 
 def build_about():
@@ -265,10 +348,14 @@ def main():
 
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(build_index(texts))
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about())
+    open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
+    open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
+    for f in ("manifest.webmanifest", "sw.js"):
+        shutil.copy(os.path.join(ROOT, f), os.path.join(OUT, f))
     for t in texts:
         open(os.path.join(OUT, "texts", f"{t['slug']}.html"), "w",
              encoding="utf-8").write(build_reader(t))
-    print(f"built {len(texts)} readings -> docs/")
+    print(f"built {len(texts)} readings + words/wordbook -> docs/")
 
 
 if __name__ == "__main__":

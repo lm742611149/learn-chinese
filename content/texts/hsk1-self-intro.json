@@ -264,5 +264,12 @@
       ],
       "c": 2
     }
+  ],
+  "grammar": [
+    {
+      "p": "A 是 B — but never 是 + adjective",
+      "e": "是 links two nouns: 我是学生 (I am a student). With adjectives use 很 instead: say 我很高兴, NOT 我是高兴.",
+      "x": "他是老师,他很忙。 — He is a teacher; he is busy."
+    }
   ]
 }
