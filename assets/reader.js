@@ -486,6 +486,47 @@
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(moveInd);
   }
 
+  /* ---------- word rows expand to examples & usage (words + wordbook) ----------
+     Detail HTML is built lazily from assets/word-examples.json on first tap;
+     inlining it at build time made words.html balloon past 1 MB. */
+  var WEX = null, wexWaiters = [];
+  if (document.querySelector(".wlist")) {
+    fetch("assets/word-examples.json")
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        WEX = d;
+        wexWaiters.forEach(function (f) { f(); });
+        wexWaiters = [];
+      }).catch(function () {});
+  }
+  function wexDetail(z) {
+    var d = WEX && WEX[z];
+    if (!d || (!d.ex.length && !d.us.length)) return "";
+    var h = '<div class="vdetail">';
+    d.us.forEach(function (u) {
+      h += '<div class="vuse"><b>' + u[0] + "</b> " + u[1] + "</div>";
+    });
+    d.ex.forEach(function (e) {
+      h += '<div class="vex"><span class="vex-zh">' + e[0] +
+        '</span><span class="vex-en">' + e[1] +
+        '</span><a class="vex-src" href="texts/' + e[2] + '.html">《' +
+        e[3] + "》→</a></div>";
+    });
+    return h + "</div>";
+  }
+  document.addEventListener("click", function (e) {
+    if (e.target.closest && e.target.closest("button, a")) return;
+    var it = e.target.closest ? e.target.closest(".vitem.vx") : null;
+    if (!it) return;
+    if (it.querySelector(".vdetail")) { it.classList.toggle("open"); return; }
+    var z = (it.querySelector(".vzh") || {}).textContent || "";
+    var open = function () {
+      var h = wexDetail(z);
+      if (h) { it.insertAdjacentHTML("beforeend", h); it.classList.add("open"); }
+    };
+    if (WEX) open(); else wexWaiters.push(open);
+  });
+
   /* ---------- today's pick (index only, into its own slot) ---------- */
   var todaySlot = document.getElementById("today-slot");
   if (idxCards.length && todaySlot) {
@@ -635,10 +676,11 @@
         return;
       }
       wbList.innerHTML = l.map(function (w) {
-        return '<div class="vitem"><button class="s-play" data-say="' + w.z +
+        return '<div class="vitem vx"><button class="s-play" data-say="' + w.z +
           '">🔊</button><div class="vtext"><span class="vzh">' + w.z +
           '</span><span class="vpy">' + w.p + '</span><span class="ven">' +
-          w.e + '</span></div><button class="wstar saved" data-z="' + w.z +
+          w.e + '</span><span class="vmore">▾</span></div>' +
+          '<button class="wstar saved" data-z="' + w.z +
           '">★</button></div>';
       }).join("");
       wbList.querySelectorAll(".s-play").forEach(function (b) {
@@ -655,9 +697,13 @@
     renderWb();
     function showDeckCard(flip) {
       var w = order[di];
+      var d = WEX && WEX[w.z];
+      var ex = (flip && d && d.ex.length)
+        ? '<div class="dex">' + d.ex[0][0] + '<i>' + d.ex[0][1] + '</i></div>'
+        : "";
       deckCard.innerHTML = flip
         ? '<div class="dz">' + w.z + '</div><div class="dp">' + w.p +
-          '</div><div class="de">' + w.e + '</div>'
+          '</div><div class="de">' + w.e + '</div>' + ex
         : '<div class="dz">' + w.z + '</div><div class="dhint">Tap “Show answer”</div>';
       if (flip) speak(w.z);
     }

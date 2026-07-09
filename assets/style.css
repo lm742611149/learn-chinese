@@ -682,3 +682,33 @@ html[data-theme="dark"] .nav-menu .nav-link .ni { background: #2d261e; }
   margin-left: 8px; }
 html[data-theme="dark"] .lvlcard { background: #241e17; }
 html[data-theme="dark"] .lv-bar { background: #2d261e; }
+
+/* ---------- word detail: examples & usage (words page + wordbook) ---------- */
+.vitem { flex-wrap: wrap; }
+.vitem.vx { cursor: pointer; }
+.vmore { margin-left: 8px; color: var(--muted); font-size: .72rem;
+  display: inline-block; transition: transform .2s; }
+.vitem.open .vmore { transform: rotate(180deg); }
+.vdetail { flex: 1 1 100%; display: none; margin-top: 10px; padding-top: 10px;
+  border-top: 1px dashed var(--line); cursor: default; }
+.vitem.open .vdetail { display: block; }
+.vex { padding: 8px 0 2px; }
+.vex-zh { display: block; font-family: var(--serif); font-size: 1.02rem;
+  line-height: 1.7; }
+.vex-zh b { color: var(--red); font-weight: 900; }
+.vex-en { display: block; color: var(--muted); font-size: .82rem;
+  margin-top: 1px; }
+.vex-src { display: inline-block; font-size: .78rem; margin-top: 2px;
+  font-weight: 650; }
+.vuse { background: #fbf3df; border: 1px solid #efdcae; color: #7a5c22;
+  border-radius: 8px; padding: 8px 12px; font-size: .82rem; margin: 6px 0;
+  line-height: 1.55; }
+.vuse b { color: #5d4517; }
+.dex { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line);
+  font-family: var(--serif); font-size: 1rem; line-height: 1.7; }
+.dex b { color: var(--red); }
+.dex i { display: block; font-style: normal; font-size: .8rem;
+  color: var(--muted); font-family: -apple-system, sans-serif; margin-top: 2px; }
+html[data-theme="dark"] .vuse { background: #2a2315; border-color: #453a1e;
+  color: #bfae87; }
+html[data-theme="dark"] .vuse b { color: #e2b45c; }

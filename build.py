@@ -340,8 +340,43 @@ def build_level(texts, lvl):
                 f"readings with pinyin, audio, tap-to-translate and quizzes.", body)
 
 
+def word_examples(texts, words):
+    """word -> {'ex': [[zh_html(word bolded), en, slug, title_zh]×≤2],
+                'us': [[pattern, explanation]×≤2]} mined from the readings."""
+    ex, us = {}, {}
+    for t in texts:
+        for s in t["sentences"]:
+            toks = s["t"]
+            plain = "".join(tok[0] for tok in toks)
+            for tok in toks:
+                if len(tok) != 3 or tok[0] not in words:
+                    continue
+                w = tok[0]
+                if any(e[4] == plain for e in ex.get(w, [])):
+                    continue
+                zh_html = "".join(
+                    (f"<b>{esc(x[0])}</b>" if len(x) == 3 and x[0] == w
+                     else esc(x[0])) for x in toks)
+                ex.setdefault(w, []).append(
+                    [zh_html, s["en"], t["slug"], t["title_zh"], plain])
+        for g in t.get("grammar", []):
+            for w in words:
+                if w in g["p"] and len(us.get(w, [])) < 2 and \
+                        not any(u[0] == g["p"] for u in us.get(w, [])):
+                    us.setdefault(w, []).append([g["p"], g["e"]])
+    out = {}
+    for w in words:
+        # shortest sentences read easiest — keep the 2 shortest, drop sort key
+        picks = sorted(ex.get(w, []), key=lambda e: len(e[4]))[:2]
+        out[w] = {"ex": [e[:4] for e in picks], "us": us.get(w, [])}
+    return out
+
+
 def build_words(texts):
-    """Aggregate every unique word from all readings into one searchable list."""
+    """Aggregate every unique word from all readings into one searchable list.
+    Each row expands to real example sentences + usage notes mined from the
+    readings; the same data is dumped to assets/word-examples.json for the
+    wordbook page and flashcards."""
     words = {}   # zh -> (level, py, en)
     for t in sorted(texts, key=lambda x: x["level"]):
         pool = [tok for s in t["sentences"] for tok in s["t"] if len(tok) == 3]
@@ -349,17 +384,26 @@ def build_words(texts):
         for zh, py, en in pool:
             if zh not in words:
                 words[zh] = (t["level"], py, en)
+    wex = word_examples(texts, words)
+    json.dump(wex, open(os.path.join(OUT, "assets", "word-examples.json"),
+                        "w", encoding="utf-8"), ensure_ascii=False,
+              separators=(",", ":"))
     rows = []
     for zh in sorted(words, key=lambda z: (words[z][0], words[z][1].lower())):
         lvl, py, en = words[zh]
         blob = f"{zh} {py} {en}".lower()
+        # detail content itself stays in word-examples.json and is built
+        # lazily on tap — inlining it ballooned words.html past 1 MB
+        d = wex.get(zh, {"ex": [], "us": []})
+        has_d = bool(d["ex"] or d["us"])
+        more = '<span class="vmore">▾</span>' if has_d else ""
         rows.append(
-            f'<div class="vitem" data-l="{lvl}" data-search="{esc(blob)}">'
+            f'<div class="vitem{" vx" if has_d else ""}" data-l="{lvl}" data-search="{esc(blob)}">'
             f'<button class="s-play" data-say="{esc(zh)}">🔊</button>'
             f'<div class="vtext"><span class="vzh">{esc(zh)}</span>'
             f'<span class="vpy">{esc(py)}</span>'
             f'<span class="badge l{lvl}">HSK {lvl}</span>'
-            f'<span class="ven">{esc(en)}</span></div>'
+            f'<span class="ven">{esc(en)}</span>{more}</div>'
             f'<button class="wstar" data-z="{esc(zh)}" data-p="{esc(py)}" '
             f'data-e="{esc(en)}" title="Save to wordbook">☆</button></div>')
     chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [
@@ -367,7 +411,8 @@ def build_words(texts):
     body = f"""
   <section class="about">
     <h1>Vocabulary <span style="font-family:var(--serif);color:var(--red)">词汇表</span></h1>
-    <p>{len(words)} words from our graded readings — tap 🔊 to hear, ☆ to save to your wordbook.</p>
+    <p>{len(words)} words from our graded readings — tap a word to see real
+      example sentences and usage notes, 🔊 to hear, ☆ to save to your wordbook.</p>
   </section>
   <div class="searchbar"><input type="search" id="search"
     placeholder="Search — 汉字 / pinyin / English…" autocomplete="off"></div>
