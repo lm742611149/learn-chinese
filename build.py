@@ -57,7 +57,8 @@ def page(title, desc, body, rel=""):
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c73e2a'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>读</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap"></noscript>
 <link rel="stylesheet" href="{rel}assets/style.css">
 <link rel="manifest" href="{rel}manifest.webmanifest">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
@@ -74,11 +75,13 @@ def page(title, desc, body, rel=""):
       <div class="menu-head"><span class="mh-seal">读</span>
         <div class="mh-t"><b>{name}</b><i>Real Chinese, 5 min a day</i></div></div>
       {auth_btn}
-      <a class="nav-link" href="{rel}words.html">📖<span class="nl"> Words</span></a>
-      <a class="nav-link" href="{rel}wordbook.html" title="My wordbook">★<span class="nl"> My Wordbook</span></a>
-      <a class="nav-link" href="{rel}progress.html" title="My progress">🏆<span class="nl"> Progress</span></a>
-      <button class="nav-link" id="t-theme" title="Dark mode">🌙<span class="nl"> Dark mode</span></button>
-      <a class="nav-link" href="{rel}about.html">👋<span class="nl"> About</span></a>
+      <div class="menu-sec">Learn</div>
+      <a class="nav-link" href="{rel}words.html"><span class="ni">📖</span><span class="nl"> Words</span></a>
+      <a class="nav-link" href="{rel}wordbook.html" title="My wordbook"><span class="ni">⭐</span><span class="nl"> My Wordbook</span></a>
+      <a class="nav-link" href="{rel}progress.html" title="My progress"><span class="ni">🏆</span><span class="nl"> Progress</span></a>
+      <div class="menu-sec">More</div>
+      <button class="nav-link" id="t-theme" title="Dark mode"><span class="ni" id="t-theme-i">🌙</span><span class="nl"> Dark mode</span></button>
+      <a class="nav-link" href="{rel}about.html"><span class="ni">👋</span><span class="nl"> About</span></a>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow</a>
@@ -345,7 +348,7 @@ def build_wordbook():
   <div class="wb-actions">
     <button class="tb-play" id="wb-practice">Practice flashcards</button>
   </div>
-  <div class="wlist" id="wb-list"></div>
+  <div class="wlist" id="wb-list">""" + '<div class="sk" style="height:64px"></div>' * 6 + """</div>
   <div class="deck" id="deck" hidden>
     <div class="deck-card" id="deck-card"></div>
     <div class="deck-btns">
@@ -369,14 +372,14 @@ def build_progress(texts):
     <h1>My Progress <span style="font-family:var(--serif);color:var(--red)">学习记录</span></h1>
     <p>Streak, badges and your reading calendar — synced to your account.</p>
   </section>
-  <div class="pg-stats" id="pg-stats"></div>
+  <div class="pg-stats" id="pg-stats">{'<div class="sk" style="height:92px"></div>' * 4}</div>
   <section class="pgsec">
     <h2>Badges <span class="zh">徽章</span></h2>
-    <div class="badges" id="pg-badges"></div>
+    <div class="badges" id="pg-badges">{'<div class="sk" style="height:96px"></div>' * 6}</div>
   </section>
   <section class="pgsec">
     <h2>Reading calendar <span class="zh">打卡日历</span></h2>
-    <div class="cal" id="pg-cal"></div>
+    <div class="cal" id="pg-cal"><div class="sk" style="height:280px"></div></div>
   </section>""", "学习记录",
         "Track your streak, earn badges and fill your reading calendar.") + f"""
   <script>window.RCD_LEVELS={json.dumps(levels)};window.RCD_TOTALS={json.dumps(totals)};</script>"""

@@ -57,6 +57,7 @@ a { color: var(--red); text-decoration: none; }
 .nav-menu > .nav-link[href*="words"] .nl { display: inline; } /* keep "Words" text */
 
 .menu-head { display: none; }
+.menu-sec { display: none; }
 @media (max-width: 719px) {
   /* backdrop-filter 会让内部 position:fixed 的抽屉被困在导航条的层叠上下文里
      (被正文盖住),移动端关掉它,抽屉才能真正悬浮于全页之上 */
@@ -87,6 +88,8 @@ a { color: var(--red); text-decoration: none; }
   .nav-menu.open > *:nth-child(7) { transition-delay: .25s; }
   .nav-menu.open > *:nth-child(8) { transition-delay: .29s; }
   .nav-menu.open > *:nth-child(9) { transition-delay: .33s; }
+  .nav-menu.open > *:nth-child(10) { transition-delay: .37s; }
+  .nav-menu.open > *:nth-child(11) { transition-delay: .41s; }
   .nav-close { display: block; position: absolute; top: 14px; right: 12px;
     z-index: 2; width: 34px; height: 34px; padding: 0; border-radius: 8px;
     font-size: 1.05rem; background: var(--paper-2); color: var(--ink-2); }
@@ -103,12 +106,22 @@ a { color: var(--red); text-decoration: none; }
   .mh-t b { display: block; font-size: 1rem; line-height: 1.3; }
   .mh-t i { display: block; font-style: normal; font-size: .74rem;
     color: var(--muted); }
-  .nav-menu .nav-link { width: 100%; text-align: left; padding: 12px 12px;
-    font-size: .97rem; border-radius: 8px; }
+  .menu-sec { display: block; font-size: .66rem; font-weight: 800;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+    padding: 12px 6px 4px; }
+  .nav-menu .nav-link { display: flex; align-items: center; gap: 12px;
+    width: 100%; text-align: left; padding: 8px 8px;
+    font-size: .95rem; font-weight: 650; border-radius: 8px; }
+  .nav-menu .nav-link .ni { flex: 0 0 auto; display: inline-flex;
+    align-items: center; justify-content: center; width: 36px; height: 36px;
+    background: var(--paper-2); border-radius: 8px; font-size: 1rem;
+    line-height: 1; }
+  .nav-menu .nav-link .nl { flex: 1; }
   .nav-menu .nav-cta { width: 100%; justify-content: center; margin-top: auto;
     padding: 12px; }
   #t-auth { background: linear-gradient(180deg, #e0512f, var(--red-dark));
-    color: #fff; text-align: center; font-weight: 700; margin-bottom: 10px;
+    color: #fff; text-align: center; justify-content: center;
+    font-weight: 700; padding: 12px; margin-bottom: 4px;
     box-shadow: 0 5px 16px rgba(199,62,42,.35); }
   #t-auth.signed { background: var(--paper-2); color: var(--ink);
     box-shadow: none; }
@@ -601,3 +614,31 @@ html[data-theme="dark"] .gate { box-shadow: 0 14px 40px rgba(0,0,0,.35); }
    避免 Firebase 异步恢复会话前闪一下"未登录"界面 */
 html[data-auth="1"] #gate-panel { display: none; }
 html[data-auth="1"] #gated[hidden] { display: block; }
+
+/* ---------- skeleton shimmer (JS 渲染区域的占位) ---------- */
+.sk { position: relative; overflow: hidden; background: var(--paper-2);
+  border-radius: 8px; }
+.sk::after { content: ""; position: absolute; inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent,
+    rgba(255,255,255,.55), transparent);
+  animation: sk-slide 1.3s ease-in-out infinite; }
+@keyframes sk-slide { to { transform: translateX(100%); } }
+html[data-theme="dark"] .sk::after {
+  background: linear-gradient(90deg, transparent,
+    rgba(255,255,255,.08), transparent); }
+
+/* ---------- top progress bar on navigation ---------- */
+#pgbar { position: fixed; top: 0; left: 0; right: 0; height: 3px;
+  z-index: 300; pointer-events: none; opacity: 0; overflow: hidden;
+  transition: opacity .15s; }
+#pgbar.on { opacity: 1; }
+#pgbar::before { content: ""; display: block; height: 100%; width: 38%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--red), var(--gold));
+  animation: pgbar-slide 1s ease-in-out infinite; }
+@keyframes pgbar-slide {
+  from { transform: translateX(-110%); }
+  to { transform: translateX(290%); } }
+
+html[data-theme="dark"] .nav-menu .nav-link .ni { background: #2d261e; }

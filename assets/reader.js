@@ -281,15 +281,30 @@
   /* ---------- theme toggle ---------- */
   var tt = document.getElementById("t-theme");
   if (tt) {
-    if (document.documentElement.getAttribute("data-theme") === "dark") tt.textContent = "☀️";
+    var tti = document.getElementById("t-theme-i") || tt;
+    if (document.documentElement.getAttribute("data-theme") === "dark") tti.textContent = "☀️";
     tt.addEventListener("click", function () {
       var dark = document.documentElement.getAttribute("data-theme") !== "dark";
       if (dark) document.documentElement.setAttribute("data-theme", "dark");
       else document.documentElement.removeAttribute("data-theme");
-      tt.textContent = dark ? "☀️" : "🌙";
+      tti.textContent = dark ? "☀️" : "🌙";
       try { localStorage.setItem("rcd-theme", dark ? "dark" : "light"); } catch (e) {}
     });
   }
+
+  /* ---------- top progress bar while the next page loads ---------- */
+  var pgbar = document.createElement("div");
+  pgbar.id = "pgbar";
+  document.body.appendChild(pgbar);
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a[href]") : null;
+    if (!a || a.target === "_blank" || e.metaKey || e.ctrlKey) return;
+    if (a.origin !== location.origin) return;
+    if (a.pathname === location.pathname && a.hash) return;
+    pgbar.classList.add("on");
+  });
+  // bfcache 返回时页面不重载,得手动把进度条收掉
+  window.addEventListener("pageshow", function () { pgbar.classList.remove("on"); });
 
   /* ---------- quiz ---------- */
   var quiz = document.getElementById("quiz");
