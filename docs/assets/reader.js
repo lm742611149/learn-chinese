@@ -247,6 +247,16 @@
     });
   });
 
+  /* ---------- cached auth state: paint signed-in UI before Firebase loads ---------- */
+  var authBtn0 = document.getElementById("t-auth");
+  try {
+    var cachedUser = localStorage.getItem("rcd-auth");
+    if (authBtn0 && cachedUser) {
+      authBtn0.textContent = "👤 " + cachedUser;
+      authBtn0.classList.add("signed");
+    }
+  } catch (e) {}
+
   /* ---------- mobile nav drawer ---------- */
   var burger = document.getElementById("nav-burger");
   var navMenu = document.getElementById("nav-menu");

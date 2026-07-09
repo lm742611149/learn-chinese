@@ -596,3 +596,8 @@ html[data-theme="dark"] .am-e { background: var(--red); color: #fff; }
 .gate-btn:hover { transform: translateY(-2px); }
 .gate-sub { font-size: .78rem !important; margin-top: 14px !important; }
 html[data-theme="dark"] .gate { box-shadow: 0 14px 40px rgba(0,0,0,.35); }
+
+/* 上次已登录(localStorage rcd-auth)时,首帧直接按登录态渲染,
+   避免 Firebase 异步恢复会话前闪一下"未登录"界面 */
+html[data-auth="1"] #gate-panel { display: none; }
+html[data-auth="1"] #gated[hidden] { display: block; }

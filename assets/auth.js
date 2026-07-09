@@ -194,6 +194,19 @@ if (cfg && cfg.apiKey) {
   let firstAuth = true;
   onAuthStateChanged(auth, async (u) => {
     user = u;
+    // cache last-known auth state so the next page paints signed-in
+    // immediately instead of flashing the logged-out UI
+    try {
+      if (u) {
+        const label = (u.displayName || u.email || "?").trim()
+          .split(" ")[0].split("@")[0];
+        localStorage.setItem("rcd-auth", label);
+        document.documentElement.setAttribute("data-auth", "1");
+      } else {
+        localStorage.removeItem("rcd-auth");
+        document.documentElement.removeAttribute("data-auth");
+      }
+    } catch (e) {}
     renderBtn();
     applyGate();
     if (u) {

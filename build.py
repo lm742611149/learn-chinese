@@ -62,7 +62,7 @@ def page(title, desc, body, rel=""):
 <link rel="manifest" href="{rel}manifest.webmanifest">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
 <meta name="theme-color" content="#c73e2a">
-<script>try{{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}}catch(e){{}}</script>
+<script>try{{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark");if(localStorage.getItem("rcd-auth"))document.documentElement.setAttribute("data-auth","1")}}catch(e){{}}</script>
 </head>
 <body>
 <div class="wrap">
