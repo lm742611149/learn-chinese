@@ -1,10 +1,12 @@
-/* Read Chinese Daily — offline cache (stale-while-revalidate). */
-const V = "rcd-v2";
+/* Read Chinese Daily — offline cache.
+ * 页面导航: 网络优先(避免 Cloudflare 的 .html→无后缀 308 重定向响应
+ *          被缓存后导致导航失败),离线时回退缓存。
+ * 静态资源: 缓存优先 + 后台刷新。永不缓存 redirected 响应。 */
+const V = "rcd-v3";
+const PRECACHE = ["./", "./assets/style.css", "./assets/reader.js"];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(V).then((c) =>
-    c.addAll(["./index.html", "./about.html", "./words.html", "./wordbook.html",
-              "./assets/style.css", "./assets/reader.js"])));
+  e.waitUntil(caches.open(V).then((c) => c.addAll(PRECACHE)));
   self.skipWaiting();
 });
 
@@ -15,13 +17,34 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-  if (e.request.method !== "GET" || !e.request.url.startsWith(self.location.origin)) return;
+  const req = e.request;
+  if (req.method !== "GET" || !req.url.startsWith(self.location.origin)) return;
+
+  if (req.mode === "navigate") {
+    e.respondWith((async () => {
+      try {
+        const res = await fetch(req);
+        if (res.ok && !res.redirected) {
+          const c = await caches.open(V);
+          c.put(req, res.clone());
+        }
+        return res;
+      } catch (err) {
+        const hit = await caches.match(req);
+        if (hit && !hit.redirected) return hit;
+        const home = await caches.match("./");
+        return home || Response.error();
+      }
+    })());
+    return;
+  }
+
   e.respondWith(
-    caches.match(e.request).then((hit) => {
-      const net = fetch(e.request).then((res) => {
-        if (res && res.ok) {
+    caches.match(req).then((hit) => {
+      const net = fetch(req).then((res) => {
+        if (res && res.ok && !res.redirected) {
           const copy = res.clone();
-          caches.open(V).then((c) => c.put(e.request, copy));
+          caches.open(V).then((c) => c.put(req, copy));
         }
         return res;
       }).catch(() => hit);

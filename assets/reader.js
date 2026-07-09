@@ -334,7 +334,7 @@
       bar.className = "progress-strip";
       bar.innerHTML = '<span class="fire">🔥 ' + streak(prog) +
         "-day streak</span><span>" + doneCount + " / " + idxCards.length +
-        " readings finished</span>";
+        ' readings finished</span><a class="ps-link" href="progress.html">🏆 View →</a>';
       var cardsEl = document.querySelector(".cards");
       if (cardsEl) cardsEl.parentNode.insertBefore(bar, cardsEl);
     }
@@ -409,6 +409,104 @@
       tflag.textContent = "📖 Today";
       pick.appendChild(tflag);
     }
+  }
+
+  /* ---------- progress page: stats, badges, calendar ---------- */
+  var pgBadges = document.getElementById("pg-badges");
+  if (pgBadges) {
+    var pp = pget(), doneMap = pp.done || {};
+    var doneSlugs = Object.keys(doneMap);
+    var doneN = doneSlugs.length, wordsN = wget().length;
+    var dayCount = {};
+    doneSlugs.forEach(function (s) {
+      dayCount[doneMap[s]] = (dayCount[doneMap[s]] || 0) + 1;
+    });
+    function nextDay(s) {
+      var d = new Date(s + "T00:00:00");
+      d.setDate(d.getDate() + 1);
+      return localDay(d);
+    }
+    var ds = Object.keys(dayCount).sort();
+    var best = 0, run = 0, prev = null;
+    ds.forEach(function (d) {
+      run = (prev && nextDay(prev) === d) ? run + 1 : 1;
+      best = Math.max(best, run);
+      prev = d;
+    });
+    var curStreak = streak(pp);
+    var lvlDone = {};
+    doneSlugs.forEach(function (s) {
+      var l = (window.RCD_LEVELS || {})[s];
+      if (l) lvlDone[l] = (lvlDone[l] || 0) + 1;
+    });
+    var totals = window.RCD_TOTALS || {};
+
+    document.getElementById("pg-stats").innerHTML = [
+      ["🔥", curStreak, "day streak"],
+      ["🏅", best, "best streak"],
+      ["📖", doneN, "readings done"],
+      ["⭐", wordsN, "words saved"],
+    ].map(function (x) {
+      return '<div class="stat"><div class="s-i">' + x[0] +
+        '</div><div class="s-n">' + x[1] + '</div><div class="s-l">' +
+        x[2] + "</div></div>";
+    }).join("");
+
+    function lvlBadge(l) {
+      return (totals[l] || totals[String(l)]) &&
+        (lvlDone[l] || 0) >= (totals[l] || totals[String(l)]);
+    }
+    var BD = [
+      ["🌱", "First Read", "Finish your first reading", doneN >= 1],
+      ["📖", "Reader", "Finish 5 readings", doneN >= 5],
+      ["🐛", "Bookworm", "Finish 15 readings", doneN >= 15],
+      ["🎓", "Scholar", "Finish 50 readings", doneN >= 50],
+      ["🔥", "On Fire", "3-day reading streak", best >= 3],
+      ["⚡", "Unstoppable", "7-day reading streak", best >= 7],
+      ["🏆", "Iron Will", "30-day reading streak", best >= 30],
+      ["⭐", "Collector", "Save 10 words", wordsN >= 10],
+      ["💎", "Word Dragon", "Save 50 words", wordsN >= 50],
+      ["🀄", "HSK 1 Complete", "Finish every HSK 1 reading", lvlBadge(1)],
+      ["🎋", "HSK 2 Complete", "Finish every HSK 2 reading", lvlBadge(2)],
+      ["🐉", "HSK 3 Complete", "Finish every HSK 3 reading", lvlBadge(3)],
+    ];
+    pgBadges.innerHTML = BD.map(function (b) {
+      return '<div class="bd' + (b[3] ? " got" : "") + '"><div class="bd-i">' +
+        b[0] + '</div><div class="bd-n">' + b[1] + '</div><div class="bd-d">' +
+        b[2] + "</div></div>";
+    }).join("");
+
+    var calEl = document.getElementById("pg-cal");
+    var now = new Date(), vy = now.getFullYear(), vm = now.getMonth();
+    function renderCal() {
+      var first = new Date(vy, vm, 1);
+      var startDow = first.getDay();
+      var dim = new Date(vy, vm + 1, 0).getDate();
+      var html = '<div class="cal-head"><button class="tbtn" id="cal-prev">←</button><b>' +
+        first.toLocaleString("en", { month: "long" }) + " " + vy +
+        '</b><button class="tbtn" id="cal-next">→</button></div><div class="cal-grid">' +
+        ["S", "M", "T", "W", "T", "F", "S"].map(function (d) {
+          return '<span class="cal-dow">' + d + "</span>";
+        }).join("");
+      for (var i = 0; i < startDow; i++) html += "<span></span>";
+      for (var d = 1; d <= dim; d++) {
+        var key = vy + "-" + String(vm + 1).padStart(2, "0") + "-" +
+          String(d).padStart(2, "0");
+        var n = dayCount[key] || 0;
+        var isToday = key === localDay(new Date());
+        html += '<span class="cal-day' + (n ? " on" : "") +
+          (isToday ? " td" : "") + '"' +
+          (n ? ' title="' + n + ' reading(s)"' : "") + ">" + d + "</span>";
+      }
+      calEl.innerHTML = html + "</div>";
+      document.getElementById("cal-prev").onclick = function () {
+        vm--; if (vm < 0) { vm = 11; vy--; } renderCal();
+      };
+      document.getElementById("cal-next").onclick = function () {
+        vm++; if (vm > 11) { vm = 0; vy++; } renderCal();
+      };
+    }
+    renderCal();
   }
 
   /* ---------- wordbook page ---------- */

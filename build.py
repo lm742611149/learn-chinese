@@ -32,6 +32,13 @@ def page(title, desc, body, rel=""):
     fb = SITE.get("firebase") or {}
     auth_btn = ('<button class="nav-link" id="t-auth" hidden>Sign in</button>'
                 if fb else "")
+    canon = (SITE.get("canonical_url") or "").rstrip("/")
+    redir = ""
+    if canon:
+        redir = ('<script>if(location.hostname.endsWith("github.io")){location.replace("'
+                 + canon
+                 + '"+location.pathname.replace(/^\\/learn-chinese/,"")'
+                 + '+location.search+location.hash)}</script>')
     providers = SITE.get("auth_providers", ["google"])
     auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};'
                f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
@@ -41,6 +48,7 @@ def page(title, desc, body, rel=""):
 <html lang="en">
 <head>
 <meta charset="utf-8">
+{redir}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
@@ -66,6 +74,7 @@ def page(title, desc, body, rel=""):
       {auth_btn}
       <a class="nav-link" href="{rel}words.html">📖<span class="nl"> Words</span></a>
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook">★<span class="nl"> My Wordbook</span></a>
+      <a class="nav-link" href="{rel}progress.html" title="My progress">🏆<span class="nl"> Progress</span></a>
       <button class="nav-link" id="t-theme" title="Dark mode">🌙<span class="nl"> Dark mode</span></button>
       <a class="nav-link" href="{rel}about.html">👋<span class="nl"> About</span></a>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
@@ -331,6 +340,30 @@ def build_wordbook():
                 "Your saved Chinese words with flashcard practice.", body)
 
 
+def build_progress(texts):
+    totals, levels = {}, {}
+    for t in texts:
+        totals[t["level"]] = totals.get(t["level"], 0) + 1
+        levels[t["slug"]] = t["level"]
+    body = f"""
+  <section class="about" style="padding-bottom:10px">
+    <h1>My Progress <span style="font-family:var(--serif);color:var(--red)">学习记录</span></h1>
+    <p>Streak, badges and your reading calendar. Saved on this device — sign in to sync everywhere.</p>
+  </section>
+  <div class="pg-stats" id="pg-stats"></div>
+  <section class="pgsec">
+    <h2>Badges <span class="zh">徽章</span></h2>
+    <div class="badges" id="pg-badges"></div>
+  </section>
+  <section class="pgsec">
+    <h2>Reading calendar <span class="zh">打卡日历</span></h2>
+    <div class="cal" id="pg-cal"></div>
+  </section>
+  <script>window.RCD_LEVELS={json.dumps(levels)};window.RCD_TOTALS={json.dumps(totals)};</script>"""
+    return page(f"My Progress | {SITE['site_name']}",
+                "Your Chinese reading streak, badges and check-in calendar.", body)
+
+
 def build_about():
     body = f"""
   <section class="about">
@@ -365,6 +398,7 @@ def main():
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about())
     open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
+    open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
     for f in ("manifest.webmanifest", "sw.js"):
         shutil.copy(os.path.join(ROOT, f), os.path.join(OUT, f))
     for t in texts:

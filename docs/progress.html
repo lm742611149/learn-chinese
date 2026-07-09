@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <script>if(location.hostname.endsWith("github.io")){location.replace("https://learn-chinese-3y6.pages.dev"+location.pathname.replace(/^\/learn-chinese/,"")+location.search+location.hash)}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About | Read Chinese Daily</title>
-<meta name="description" content="About Lucas — Chinese teacher.">
-<meta property="og:title" content="About | Read Chinese Daily">
-<meta property="og:description" content="About Lucas — Chinese teacher.">
+<title>My Progress | Read Chinese Daily</title>
+<meta name="description" content="Your Chinese reading streak, badges and check-in calendar.">
+<meta property="og:title" content="My Progress | Read Chinese Daily">
+<meta property="og:description" content="Your Chinese reading streak, badges and check-in calendar.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c73e2a'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>读</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,17 +38,20 @@
     <div class="nav-backdrop" id="nav-backdrop"></div>
   </header>
 
-  <section class="about">
-    <h1>About</h1>
-    <p>你好! I'm <strong>Lucas</strong>. I teach Mandarin to students from all over the world on Preply, and share bite-size Chinese lessons with 30,000+ followers on Facebook. I built this site so anyone can read real Chinese — for free.</p>
-    <p>Every reading here is <strong>original</strong>, written and graded for
-      real HSK levels — short enough to finish with your morning coffee,
-      rich enough to actually teach you something.</p>
-    <p>Want to go faster with a real teacher?
-      <a href="https://preply.com/en/tutor/YOUR_ID" target="_blank" rel="noopener">Book a 1-on-1 lesson</a>
-      or follow the free daily lessons on
-      <a href="https://www.facebook.com/YOUR_PAGE" target="_blank" rel="noopener">Facebook</a>.</p>
+  <section class="about" style="padding-bottom:10px">
+    <h1>My Progress <span style="font-family:var(--serif);color:var(--red)">学习记录</span></h1>
+    <p>Streak, badges and your reading calendar. Saved on this device — sign in to sync everywhere.</p>
   </section>
+  <div class="pg-stats" id="pg-stats"></div>
+  <section class="pgsec">
+    <h2>Badges <span class="zh">徽章</span></h2>
+    <div class="badges" id="pg-badges"></div>
+  </section>
+  <section class="pgsec">
+    <h2>Reading calendar <span class="zh">打卡日历</span></h2>
+    <div class="cal" id="pg-cal"></div>
+  </section>
+  <script>window.RCD_LEVELS={"hsk1-my-day": 1, "hsk1-my-dog": 1, "hsk1-my-family": 1, "hsk1-my-teacher": 1, "hsk1-restaurant": 1, "hsk1-self-intro": 1, "hsk1-shopping": 1, "hsk1-weather": 1, "hsk2-buying-coffee": 2, "hsk2-i-love-sports": 2, "hsk2-weekend-park": 2, "hsk3-chinese-friend": 3, "hsk4-phones-and-life": 4, "hsk5-online-shopping": 5, "hsk6-power-of-persistence": 6};window.RCD_TOTALS={"1": 8, "2": 3, "3": 1, "4": 1, "5": 1, "6": 1};</script>
   <footer class="footer">
     <div>© Read Chinese Daily · Original graded readings, free to read.</div>
     <div style="margin-top:6px">
