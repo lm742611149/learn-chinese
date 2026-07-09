@@ -1,0 +1,194 @@
+{
+  "slug": "hsk4-delivery-era",
+  "level": 4,
+  "title_zh": "外卖时代",
+  "title_py": "Wàimài shídài",
+  "title_en": "The Food Delivery Era",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["现在", "xiànzài", "nowadays"],
+        ["，"],
+        ["点", "diǎn", "to order"],
+        ["外卖", "wàimài", "food delivery"],
+        ["已经", "yǐjīng", "already"],
+        ["成为", "chéngwéi", "to become"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["生活", "shēnghuó", "life"],
+        ["的", "de", "(possessive)"],
+        ["一部分", "yí bùfen", "a part"],
+        ["。"]
+      ],
+      "en": "Nowadays, ordering food delivery has already become part of many people's lives."
+    },
+    {
+      "t": [
+        ["只要", "zhǐyào", "as long as"],
+        ["用", "yòng", "to use"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["选好", "xuǎnhǎo", "to finish choosing"],
+        ["菜", "cài", "dishes"],
+        ["，"],
+        ["半", "bàn", "half"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["以后", "yǐhòu", "later"],
+        ["，"],
+        ["热热的", "rèrè de", "piping hot"],
+        ["饭", "fàn", "food"],
+        ["就", "jiù", "then"],
+        ["送到", "sòngdào", "to deliver to"],
+        ["了", "le", "(particle)"],
+        ["门口", "ménkǒu", "doorway"],
+        ["。"]
+      ],
+      "en": "As long as you pick your dishes on your phone, half an hour later hot food arrives at your door."
+    },
+    {
+      "t": [
+        ["外卖", "wàimài", "food delivery"],
+        ["又", "yòu", "both"],
+        ["快", "kuài", "fast"],
+        ["又", "yòu", "and"],
+        ["方便", "fāngbiàn", "convenient"],
+        ["，"],
+        ["让", "ràng", "to let"],
+        ["我们", "wǒmen", "us"],
+        ["不用", "búyòng", "no need to"],
+        ["做饭", "zuòfàn", "to cook"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不用", "búyòng", "no need to"],
+        ["出门", "chūmén", "to go out"],
+        ["。"]
+      ],
+      "en": "Delivery is fast and convenient; it lets us skip cooking and skip going out."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["，"],
+        ["方便", "fāngbiàn", "convenience"],
+        ["的", "de", "(possessive)"],
+        ["后面", "hòumiàn", "behind"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "to have"],
+        ["代价", "dàijià", "price; cost"],
+        ["。"]
+      ],
+      "en": "But behind the convenience there is also a price."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["发现", "fāxiàn", "to discover"],
+        ["，"],
+        ["自己", "zìjǐ", "oneself"],
+        ["已经", "yǐjīng", "already"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["没", "méi", "not"],
+        ["进过", "jìnguo", "have entered"],
+        ["厨房", "chúfáng", "kitchen"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Some people discover they haven't set foot in the kitchen for a whole year."
+    },
+    {
+      "t": [
+        ["外卖", "wàimài", "food delivery"],
+        ["骑手", "qíshǒu", "delivery rider"],
+        ["为了", "wèile", "in order to"],
+        ["快", "kuài", "fast"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["，"],
+        ["常常", "chángcháng", "often"],
+        ["骑", "qí", "to ride"],
+        ["得", "de", "(degree particle)"],
+        ["很", "hěn", "very"],
+        ["危险", "wēixiǎn", "dangerous"],
+        ["。"]
+      ],
+      "en": "To be a little faster, delivery riders often ride dangerously."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to think"],
+        ["，"],
+        ["外卖", "wàimài", "food delivery"],
+        ["可以", "kěyǐ", "can"],
+        ["点", "diǎn", "to order"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["周末", "zhōumò", "weekend"],
+        ["最好", "zuìhǎo", "had better"],
+        ["自己", "zìjǐ", "oneself"],
+        ["做", "zuò", "to make"],
+        ["一", "yí", "one"],
+        ["顿", "dùn", "(measure for meals)"],
+        ["饭", "fàn", "meal"],
+        ["。"]
+      ],
+      "en": "I think it's fine to order delivery, but on weekends it's best to cook a meal yourself."
+    },
+    {
+      "t": [
+        ["因为", "yīnwèi", "because"],
+        ["做饭", "zuòfàn", "cooking"],
+        ["不只", "bùzhǐ", "not only"],
+        ["是", "shì", "is"],
+        ["为了", "wèile", "for"],
+        ["吃", "chī", "eating"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["是", "shì", "is"],
+        ["生活", "shēnghuó", "life"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "flavor"],
+        ["。"]
+      ],
+      "en": "Because cooking is not only about eating — it is also the flavor of life itself."
+    }
+  ],
+  "vocab": [
+    ["外卖", "wàimài", "food delivery"],
+    ["骑手", "qíshǒu", "delivery rider"],
+    ["代价", "dàijià", "price; cost"],
+    ["方便", "fāngbiàn", "convenient"],
+    ["厨房", "chúfáng", "kitchen"],
+    ["味道", "wèidao", "flavor; taste"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, how long after ordering does the hot food arrive?",
+      "a": ["About half an hour", "About ten minutes", "About two hours"],
+      "c": 0
+    },
+    {
+      "q": "Why do delivery riders often ride dangerously?",
+      "a": ["To save money", "To be a little faster", "Because the roads are bad"],
+      "c": 1
+    },
+    {
+      "q": "What does the author suggest doing on weekends?",
+      "a": ["Ordering even more delivery", "Cooking a meal yourself", "Eating out with friends"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "只要……就……",
+      "e": "\"As long as A, then B.\" 只要 introduces a sufficient condition, and 就 marks the result: 只要用手机选好菜，饭就送到了门口。",
+      "x": "只要多练习，你就会进步。— As long as you practice more, you will improve."
+    },
+    {
+      "p": "又……又……",
+      "e": "Links two qualities that are true at the same time: 外卖又快又方便。",
+      "x": "这个房间又大又干净。— This room is both big and clean."
+    }
+  ]
+}

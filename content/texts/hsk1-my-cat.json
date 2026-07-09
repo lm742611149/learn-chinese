@@ -1,0 +1,122 @@
+{
+  "slug": "hsk1-my-cat",
+  "level": 1,
+  "title_zh": "我的猫",
+  "title_py": "Wǒ de māo",
+  "title_en": "My Cat",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "family; home"],
+        ["有", "yǒu", "to have"],
+        ["一只", "yì zhī", "one (measure word for animals)"],
+        ["小猫", "xiǎo māo", "kitten; little cat"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["叫", "jiào", "to be called"],
+        ["米米", "Mǐmi", "Mimi (a pet name)"],
+        ["。"]
+      ],
+      "en": "My family has a little cat called Mimi."
+    },
+    {
+      "t": [
+        ["米米", "Mǐmi", "Mimi (a pet name)"],
+        ["很", "hěn", "very"],
+        ["小", "xiǎo", "small"],
+        ["，"],
+        ["很", "hěn", "very"],
+        ["爱", "ài", "to love"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "Mimi is very small and loves to sleep."
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["我", "wǒ", "I; me"],
+        ["吃饭", "chī fàn", "to eat (a meal)"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at; on"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["椅子", "yǐzi", "chair"],
+        ["上", "shang", "on; on top of"],
+        ["。"]
+      ],
+      "en": "At noon when I eat, it sits on my chair."
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["它", "tā", "it"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["看", "kàn", "to look at; to watch"],
+        ["外面", "wàimiàn", "outside"],
+        ["的", "de", "(possessive particle)"],
+        ["小狗", "xiǎo gǒu", "puppy; little dog"],
+        ["。"]
+      ],
+      "en": "In the afternoon it likes to watch the little dogs outside."
+    },
+    {
+      "t": [
+        ["米米", "Mǐmi", "Mimi (a pet name)"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["好", "hǎo", "good"],
+        ["朋友", "péngyou", "friend"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["爱", "ài", "to love"],
+        ["它", "tā", "it"],
+        ["。"]
+      ],
+      "en": "Mimi is my good friend — I love it very much."
+    }
+  ],
+  "vocab": [
+    ["只", "zhī", "(measure word for animals)"],
+    ["小猫", "xiǎo māo", "kitten; little cat"],
+    ["它", "tā", "it"],
+    ["睡觉", "shuìjiào", "to sleep"],
+    ["椅子", "yǐzi", "chair"],
+    ["外面", "wàimiàn", "outside"]
+  ],
+  "quiz": [
+    {
+      "q": "What is the cat's name?",
+      "a": ["Doudou", "Mimi", "Xiaobai"],
+      "c": 1
+    },
+    {
+      "q": "Where does the cat sit when the narrator eats lunch?",
+      "a": ["On the bed", "On the table", "On the narrator's chair"],
+      "c": 2
+    },
+    {
+      "q": "What does Mimi like to watch in the afternoon?",
+      "a": ["The little dogs outside", "Television", "Fish in the water"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "的 — possessive",
+      "e": "的 links the owner and the thing owned: 我的猫 = my cat, 我的椅子 = my chair.",
+      "x": "我的朋友 — my friend"
+    },
+    {
+      "p": "很 + adjective",
+      "e": "Chinese adjectives usually take 很 before them instead of using 是: 米米很小 = Mimi is small.",
+      "x": "茶很热。— The tea is hot."
+    }
+  ]
+}

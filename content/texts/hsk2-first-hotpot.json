@@ -1,0 +1,192 @@
+{
+  "slug": "hsk2-first-hotpot",
+  "level": 2,
+  "title_zh": "第一次吃火锅",
+  "title_py": "Dì-yī cì chī huǒguō",
+  "title_en": "First Time Eating Hotpot",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["晚上", "wǎnshang", "evening; night"],
+        ["，"],
+        ["朋友", "péngyou", "friend"],
+        ["和", "hé", "and; with"],
+        ["我", "wǒ", "I; me"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["吃", "chī", "to eat"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "I; me"],
+        ["第一次", "dì-yī cì", "the first time"],
+        ["吃", "chī", "to eat"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["。"]
+      ],
+      "en": "Last night my friend and I went out for hotpot — it was my first time eating it."
+    },
+    {
+      "t": [
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["里", "li", "inside"],
+        ["人", "rén", "person; people"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["热", "rè", "hot"],
+        ["。"]
+      ],
+      "en": "The restaurant was crowded and very hot."
+    },
+    {
+      "t": [
+        ["桌子", "zhuōzi", "table"],
+        ["上", "shang", "on"],
+        ["有", "yǒu", "to have; there is"],
+        ["羊肉", "yángròu", "lamb; mutton"],
+        ["、"],
+        ["鱼", "yú", "fish"],
+        ["和", "hé", "and"],
+        ["面条", "miàntiáo", "noodles"],
+        ["。"]
+      ],
+      "en": "On the table there were lamb, fish, and noodles."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["肉", "ròu", "meat"],
+        ["在", "zài", "at; in"],
+        ["锅", "guō", "pot"],
+        ["里", "li", "inside"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast; quickly"],
+        ["就", "jiù", "then; soon"],
+        ["好", "hǎo", "ready; done"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["等", "děng", "to wait"],
+        ["太", "tài", "too"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My friend told me, \"The meat is ready quickly in the pot — don't wait too long.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(aspect particle)"],
+        ["一块", "yí kuài", "one piece of"],
+        ["羊肉", "yángròu", "lamb; mutton"],
+        ["，"],
+        ["太", "tài", "so; too"],
+        ["好吃", "hǎochī", "delicious"],
+        ["了", "le", "(particle: 太…了)"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["辣", "là", "spicy"],
+        ["！"]
+      ],
+      "en": "I ate a piece of lamb — it was so delicious, but also really spicy!"
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(aspect particle)"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "much; a lot of"],
+        ["水", "shuǐ", "water"],
+        ["，"],
+        ["眼睛", "yǎnjing", "eyes"],
+        ["都", "dōu", "even; all"],
+        ["红", "hóng", "red"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "I drank a lot of water, and my eyes even turned red."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["对", "duì", "to; toward"],
+        ["朋友", "péngyou", "friend"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["下", "xià", "next"],
+        ["次", "cì", "time (occasion)"],
+        ["我", "wǒ", "I; me"],
+        ["还", "hái", "still; again"],
+        ["要", "yào", "to want"],
+        ["来", "lái", "to come"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said to my friend, \"Next time I want to come again!\""
+    }
+  ],
+  "vocab": [
+    ["火锅", "huǒguō", "hotpot"],
+    ["第一次", "dì-yī cì", "the first time"],
+    ["锅", "guō", "pot"],
+    ["羊肉", "yángròu", "lamb; mutton"],
+    ["辣", "là", "spicy"],
+    ["好吃", "hǎochī", "delicious"]
+  ],
+  "quiz": [
+    {
+      "q": "What was special about last night's dinner?",
+      "a": [
+        "It was the writer's first time eating hotpot",
+        "The writer eats hotpot every week",
+        "The friend had never eaten hotpot before"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the friend say about the meat?",
+      "a": [
+        "It needs to cook for a very long time",
+        "It's ready quickly in the pot — don't wait too long",
+        "It tastes better cold"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What happened when the writer ate the spicy food?",
+      "a": [
+        "He stopped eating and went home",
+        "He didn't think it was spicy at all",
+        "He drank lots of water and his eyes even turned red"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "第 + number — ordinal numbers",
+      "e": "第 turns a number into an ordinal: 第一 (first), 第二 (second). 第一次 = the first time.",
+      "x": "这是我第一次吃火锅。— This is my first time eating hotpot."
+    },
+    {
+      "p": "太…了 — so / too",
+      "e": "太 + adjective + 了 expresses a strong degree: 太好吃了, 太贵了.",
+      "x": "太好吃了！— It's so delicious!"
+    }
+  ]
+}

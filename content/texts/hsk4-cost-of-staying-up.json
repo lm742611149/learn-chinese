@@ -1,0 +1,222 @@
+{
+  "slug": "hsk4-cost-of-staying-up",
+  "level": 4,
+  "title_zh": "熬夜的代价",
+  "title_py": "Áoyè de dàijià",
+  "title_en": "The Cost of Staying Up Late",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["很多", "hěn duō", "many"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["白天", "báitiān", "daytime"],
+        ["很", "hěn", "very"],
+        ["忙", "máng", "busy"],
+        ["，"],
+        ["只有", "zhǐyǒu", "only"],
+        ["晚上", "wǎnshang", "evening"],
+        ["的", "de", "(possessive)"],
+        ["时间", "shíjiān", "time"],
+        ["是", "shì", "is"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(possessive)"],
+        ["。"]
+      ],
+      "en": "Many young people are busy all day; only the evening hours belong to themselves."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so"],
+        ["他们", "tāmen", "they"],
+        ["不", "bú", "not"],
+        ["愿意", "yuànyì", "willing"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["，"],
+        ["一边", "yìbiān", "while"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["，"],
+        ["一边", "yìbiān", "while"],
+        ["告诉", "gàosu", "to tell"],
+        ["自己", "zìjǐ", "oneself"],
+        ["："],
+        ["“"],
+        ["再", "zài", "more"],
+        ["玩", "wán", "to play"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "So they don't want to sleep; they scroll on their phones while telling themselves, \"Just ten more minutes.\""
+    },
+    {
+      "t": [
+        ["结果", "jiéguǒ", "as a result"],
+        ["，"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["变成", "biànchéng", "to turn into"],
+        ["了", "le", "(particle)"],
+        ["两", "liǎng", "two"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hours"],
+        ["，"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time"],
+        ["已经", "yǐjīng", "already"],
+        ["是", "shì", "is"],
+        ["半夜", "bànyè", "midnight"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "As a result, ten minutes turns into two hours, and by the time they go to bed it is already the middle of the night."
+    },
+    {
+      "t": [
+        ["熬夜", "áoyè", "to stay up late"],
+        ["好像", "hǎoxiàng", "to seem"],
+        ["给", "gěi", "to give"],
+        ["了", "le", "(particle)"],
+        ["我们", "wǒmen", "us"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["自由", "zìyóu", "freedom"],
+        ["，"],
+        ["其实", "qíshí", "actually"],
+        ["是", "shì", "is"],
+        ["向", "xiàng", "from"],
+        ["身体", "shēntǐ", "body"],
+        ["借", "jiè", "to borrow"],
+        ["时间", "shíjiān", "time"],
+        ["。"]
+      ],
+      "en": "Staying up late seems to give us a little freedom, but really it is borrowing time from our own body."
+    },
+    {
+      "t": [
+        ["借", "jiè", "to borrow"],
+        ["的", "de", "(possessive)"],
+        ["东西", "dōngxi", "things"],
+        ["总", "zǒng", "always"],
+        ["要", "yào", "must"],
+        ["还", "huán", "to return"],
+        ["："],
+        ["第二天", "dì èr tiān", "the next day"],
+        ["头疼", "tóuténg", "to have a headache"],
+        ["，"],
+        ["上班", "shàngbān", "to go to work"],
+        ["没有", "méiyǒu", "without"],
+        ["精神", "jīngshen", "energy"],
+        ["，"],
+        ["什么", "shénme", "anything"],
+        ["都", "dōu", "all"],
+        ["做不好", "zuò bu hǎo", "cannot do well"],
+        ["。"]
+      ],
+      "en": "What you borrow must always be paid back: the next day your head hurts, you have no energy at work, and you can't do anything well."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["以前", "yǐqián", "before"],
+        ["也", "yě", "also"],
+        ["常常", "chángcháng", "often"],
+        ["熬夜", "áoyè", "to stay up late"],
+        ["，"],
+        ["直到", "zhídào", "until"],
+        ["有", "yǒu", "to have"],
+        ["一次", "yí cì", "one time"],
+        ["生病", "shēngbìng", "to get sick"],
+        ["住院", "zhùyuàn", "to be hospitalized"],
+        ["，"],
+        ["才", "cái", "only then"],
+        ["明白", "míngbai", "to understand"],
+        ["健康", "jiànkāng", "health"],
+        ["有", "yǒu", "to have"],
+        ["多", "duō", "how"],
+        ["重要", "zhòngyào", "important"],
+        ["。"]
+      ],
+      "en": "I used to stay up late all the time too; not until I got sick and was hospitalized did I understand how important health is."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I"],
+        ["每天", "měitiān", "every day"],
+        ["十一", "shíyī", "eleven"],
+        ["点", "diǎn", "o'clock"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["，"],
+        ["早上", "zǎoshang", "morning"],
+        ["起来", "qǐlai", "to get up"],
+        ["觉得", "juéde", "to feel"],
+        ["世界", "shìjiè", "world"],
+        ["都", "dōu", "all"],
+        ["变", "biàn", "to become"],
+        ["新", "xīn", "new"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Now I go to bed at eleven every night, and when I get up in the morning the whole world feels brand new."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["早点儿", "zǎodiǎnr", "a bit earlier"],
+        ["睡", "shuì", "to sleep"],
+        ["吧", "ba", "(suggestion)"],
+        ["，"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["的", "de", "(possessive)"],
+        ["你", "nǐ", "you"],
+        ["会", "huì", "will"],
+        ["感谢", "gǎnxiè", "to thank"],
+        ["今天", "jīntiān", "today"],
+        ["的", "de", "(possessive)"],
+        ["你", "nǐ", "you"],
+        ["。"]
+      ],
+      "en": "Go to bed a little earlier tonight — tomorrow's you will thank today's you."
+    }
+  ],
+  "vocab": [
+    ["熬夜", "áoyè", "to stay up late"],
+    ["半夜", "bànyè", "midnight"],
+    ["自由", "zìyóu", "freedom"],
+    ["精神", "jīngshen", "energy; spirit"],
+    ["健康", "jiànkāng", "health"],
+    ["感谢", "gǎnxiè", "to thank"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what is staying up late really doing?",
+      "a": ["Giving you true freedom", "Borrowing time from your body", "Helping you work better"],
+      "c": 1
+    },
+    {
+      "q": "What finally made the author understand how important health is?",
+      "a": ["A friend's advice", "Getting sick and being hospitalized", "Reading a book about sleep"],
+      "c": 1
+    },
+    {
+      "q": "What time does the author go to bed now?",
+      "a": ["At midnight", "At eleven o'clock", "At ten o'clock"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "直到……才……",
+      "e": "\"Not until A did B happen.\" 直到 marks the turning point, 才 stresses that B happened late: 直到生病住院，我才明白健康有多重要。",
+      "x": "直到晚上十二点，他才回家。— He didn't come home until twelve at night."
+    },
+    {
+      "p": "一边……一边……",
+      "e": "Describes two actions happening at the same time: 一边看手机，一边告诉自己。",
+      "x": "她一边吃饭，一边看电视。— She watches TV while eating."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "hsk5-hometown-changes",
+  "level": 5,
+  "title_zh": "家乡的变化",
+  "title_py": "Jiāxiāng de biànhuà",
+  "title_en": "How My Hometown Changed",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["春节","Chūnjié","Spring Festival"], ["回家","huíjiā","to return home"], ["，"],
+        ["我","wǒ","I"], ["差点儿","chàdiǎnr","almost"], ["认不出","rènbuchū","fail to recognize"],
+        ["自己","zìjǐ","own"], ["的","de","(particle)"], ["家乡","jiāxiāng","hometown"], ["。"]
+      ],
+      "en": "Going home for Spring Festival, I almost failed to recognize my own hometown."
+    },
+    {
+      "t": [
+        ["小时候","xiǎoshíhou","in childhood"], ["，"],
+        ["我","wǒ","my"], ["家","jiā","home"], ["门口","ménkǒu","doorway"],
+        ["是","shì","is"], ["一","yì","one"], ["条","tiáo","(measure)"],
+        ["土路","tǔlù","dirt road"], ["，"],
+        ["下雨","xiàyǔ","to rain"], ["的","de","(particle)"], ["时候","shíhou","time"],
+        ["到处","dàochù","everywhere"], ["都","dōu","all"], ["是","shì","is"],
+        ["泥","ní","mud"], ["。"]
+      ],
+      "en": "When I was little, in front of our house was a dirt road, and whenever it rained there was mud everywhere."
+    },
+    {
+      "t": [
+        ["现在","xiànzài","now"], ["那里","nàli","there"], ["变成","biànchéng","to turn into"],
+        ["了","le","(particle)"], ["一","yì","one"], ["条","tiáo","(measure)"],
+        ["宽宽","kuānkuān","wide"], ["的","de","(particle)"], ["马路","mǎlù","road"], ["，"],
+        ["晚上","wǎnshang","at night"], ["路灯","lùdēng","streetlight"],
+        ["亮","liàng","bright"], ["得","de","(degree particle)"],
+        ["像","xiàng","like"], ["白天","báitiān","daytime"], ["一样","yíyàng","the same"], ["。"]
+      ],
+      "en": "Now it has become a wide paved road, and at night the streetlights make it as bright as day."
+    },
+    {
+      "t": [
+        ["以前","yǐqián","before"], ["村","cūn","village"], ["里","li","in"],
+        ["的","de","(particle)"], ["年轻人","niánqīngrén","young people"], ["都","dōu","all"],
+        ["去","qù","to go"], ["大","dà","big"], ["城市","chéngshì","city"],
+        ["打工","dǎgōng","to work (for others)"], ["，"],
+        ["只","zhǐ","only"], ["剩下","shèngxià","to be left"],
+        ["老人","lǎorén","the elderly"], ["和","hé","and"], ["孩子","háizi","children"], ["。"]
+      ],
+      "en": "In the past, the young people of the village all went to big cities to work, leaving only the elderly and children behind."
+    },
+    {
+      "t": [
+        ["这","zhè","these"], ["几","jǐ","several"], ["年","nián","year"], ["，"],
+        ["不少","bùshǎo","quite a few"], ["人","rén","people"], ["回来","huílai","to come back"],
+        ["了","le","(particle)"], ["，"],
+        ["有人","yǒurén","some people"], ["开","kāi","to run"], ["网店","wǎngdiàn","online shop"],
+        ["卖","mài","to sell"], ["家乡","jiāxiāng","hometown"], ["的","de","(particle)"],
+        ["苹果","píngguǒ","apple"], ["，"],
+        ["生意","shēngyi","business"], ["好","hǎo","good"], ["得","de","(degree particle)"],
+        ["不得了","bùdéliǎo","incredibly"], ["。"]
+      ],
+      "en": "In recent years quite a few people have come back; some run online shops selling hometown apples, and business is incredibly good."
+    },
+    {
+      "t": [
+        ["我","wǒ","my"], ["表哥","biǎogē","cousin"], ["就是","jiùshì","is exactly"],
+        ["其中","qízhōng","among them"], ["一","yí","one"], ["个","gè","(measure)"], ["，"],
+        ["他","tā","he"], ["说","shuō","to say"], ["："], ["“"],
+        ["与其","yǔqí","rather than"], ["在","zài","in"], ["大","dà","big"],
+        ["城市","chéngshì","city"], ["给","gěi","for"], ["别人","biéren","others"],
+        ["打工","dǎgōng","to work (for others)"], ["，"],
+        ["不如","bùrú","better to"], ["回家","huíjiā","to go home"],
+        ["做","zuò","to do"], ["自己","zìjǐ","one's own"], ["的","de","(particle)"],
+        ["事业","shìyè","career"], ["。"], ["”"]
+      ],
+      "en": "My cousin is one of them; he says, \"Rather than working for someone else in a big city, it's better to come home and build a career of your own.\""
+    },
+    {
+      "t": [
+        ["当然","dāngrán","of course"], ["，"],
+        ["也","yě","also"], ["有","yǒu","there are"], ["让","ràng","to make"],
+        ["我","wǒ","me"], ["难过","nánguò","sad"], ["的","de","(particle)"],
+        ["变化","biànhuà","change"], ["："],
+        ["我","wǒ","I"], ["读过","dúguo","attended"], ["的","de","(particle)"],
+        ["小学","xiǎoxué","primary school"], ["关门","guānmén","to close down"],
+        ["了","le","(particle)"], ["，"],
+        ["因为","yīnwèi","because"], ["孩子","háizi","children"],
+        ["越来越","yuèláiyuè","fewer and fewer"], ["少","shǎo","few"], ["。"]
+      ],
+      "en": "Of course, there are changes that make me sad too: the primary school I attended has closed, because there are fewer and fewer children."
+    },
+    {
+      "t": [
+        ["村口","cūnkǒu","village entrance"], ["那","nà","that"], ["棵","kē","(measure for trees)"],
+        ["老","lǎo","old"], ["树","shù","tree"], ["还","hái","still"], ["在","zài","to remain"], ["，"],
+        ["树","shù","tree"], ["下","xià","under"], ["下棋","xiàqí","to play chess"],
+        ["的","de","(particle)"], ["老人","lǎorén","old folks"],
+        ["却","què","however"], ["换","huàn","to change"], ["了","le","(particle)"],
+        ["一","yì","one"], ["批","pī","batch"], ["。"]
+      ],
+      "en": "The old tree at the village entrance is still there, but the old folks playing chess under it are a different group now."
+    },
+    {
+      "t": [
+        ["家乡","jiāxiāng","hometown"], ["变","biàn","to become"], ["得","de","(degree particle)"],
+        ["更","gèng","more"], ["方便","fāngbiàn","convenient"], ["、"],
+        ["更","gèng","more"], ["漂亮","piàoliang","pretty"], ["了","le","(particle)"], ["，"],
+        ["可是","kěshì","but"], ["有些","yǒuxiē","some"], ["东西","dōngxi","things"],
+        ["一旦","yídàn","once"], ["失去","shīqù","to lose"], ["，"],
+        ["就","jiù","then"], ["再也","zàiyě","never again"],
+        ["找不回来","zhǎobuhuílai","cannot get back"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "My hometown has become more convenient and more beautiful, but some things, once lost, can never be found again."
+    }
+  ],
+  "vocab": [
+    ["土路","tǔlù","dirt road"],
+    ["泥","ní","mud"],
+    ["路灯","lùdēng","streetlight"],
+    ["网店","wǎngdiàn","online shop"],
+    ["事业","shìyè","career; undertaking"],
+    ["一旦","yídàn","once; in case"]
+  ],
+  "quiz": [
+    {
+      "q": "What was the road in front of the writer's house like in their childhood?",
+      "a": ["A wide paved road with streetlights", "A dirt road that turned to mud in the rain", "A small path along a river"],
+      "c": 1
+    },
+    {
+      "q": "How does the writer's cousin make a living now?",
+      "a": ["Running an online shop selling hometown apples", "Working for a company in a big city", "Teaching at the primary school"],
+      "c": 0
+    },
+    {
+      "q": "Which change made the writer sad?",
+      "a": ["The old tree was cut down", "The apples stopped selling well", "The primary school closed down"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "与其…不如… (rather than A, better B)",
+      "e": "Compares two options and prefers the second: 与其在大城市给别人打工，不如回家做自己的事业。",
+      "x": "与其在家等着，不如出去找找他。— Rather than waiting at home, it's better to go out and look for him."
+    },
+    {
+      "p": "一旦…就… (once…, then…)",
+      "e": "一旦 marks a condition that, once it happens, brings an irreversible result: 有些东西一旦失去，就再也找不回来了。",
+      "x": "一旦决定了，就不要后悔。— Once you have decided, don't regret it."
+    }
+  ]
+}

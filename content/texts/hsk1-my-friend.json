@@ -1,0 +1,128 @@
+{
+  "slug": "hsk1-my-friend",
+  "level": 1,
+  "title_zh": "我的朋友",
+  "title_py": "Wǒ de péngyou",
+  "title_en": "My Friend",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["有", "yǒu", "to have"],
+        ["一个", "yí ge", "one; a"],
+        ["好", "hǎo", "good"],
+        ["朋友", "péngyou", "friend"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["叫", "jiào", "to be called"],
+        ["李月", "Lǐ Yuè", "Li Yue (a name)"],
+        ["。"]
+      ],
+      "en": "I have a good friend called Li Yue."
+    },
+    {
+      "t": [
+        ["李月", "Lǐ Yuè", "Li Yue (a name)"],
+        ["是", "shì", "to be"],
+        ["医生", "yīshēng", "doctor"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["在", "zài", "in; at"],
+        ["医院", "yīyuàn", "hospital"],
+        ["工作", "gōngzuò", "to work"],
+        ["。"]
+      ],
+      "en": "Li Yue is a doctor; she works at a hospital."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["爱", "ài", "to love"],
+        ["看书", "kàn shū", "to read (books)"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["爱", "ài", "to love"],
+        ["做菜", "zuò cài", "to cook"],
+        ["。"]
+      ],
+      "en": "She loves reading, and she also loves cooking."
+    },
+    {
+      "t": [
+        ["星期天", "xīngqītiān", "Sunday"],
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chī fàn", "to eat (a meal)"],
+        ["。"]
+      ],
+      "en": "On Sundays we eat together."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["做", "zuò", "to make"],
+        ["的", "de", "(possessive particle)"],
+        ["菜", "cài", "dish; food"],
+        ["很", "hěn", "very"],
+        ["好吃", "hǎochī", "delicious"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "both; all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "The food she makes is delicious, and we are both very happy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["朋友", "péngyou", "friend"],
+        ["。"]
+      ],
+      "en": "I really like my friend."
+    }
+  ],
+  "vocab": [
+    ["医生", "yīshēng", "doctor"],
+    ["医院", "yīyuàn", "hospital"],
+    ["做菜", "zuò cài", "to cook"],
+    ["星期天", "xīngqītiān", "Sunday"],
+    ["一起", "yìqǐ", "together"],
+    ["好吃", "hǎochī", "delicious"]
+  ],
+  "quiz": [
+    {
+      "q": "What is Li Yue's job?",
+      "a": ["Teacher", "Doctor", "Student"],
+      "c": 1
+    },
+    {
+      "q": "Where does Li Yue work?",
+      "a": ["At a school", "At a shop", "At a hospital"],
+      "c": 2
+    },
+    {
+      "q": "When do the two friends eat together?",
+      "a": ["On Sundays", "Every morning", "On Mondays"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "也 — also",
+      "e": "也 goes right before the verb: 她爱看书，也爱做菜 = she loves reading and also loves cooking.",
+      "x": "我也是学生。— I am a student too."
+    },
+    {
+      "p": "叫 — to be called",
+      "e": "To give someone's name: person + 叫 + name: 她叫李月 = she is called Li Yue.",
+      "x": "你叫什么名字？— What is your name?"
+    }
+  ]
+}

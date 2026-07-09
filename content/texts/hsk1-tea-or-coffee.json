@@ -1,0 +1,127 @@
+{
+  "slug": "hsk1-tea-or-coffee",
+  "level": 1,
+  "title_zh": "喝茶还是咖啡",
+  "title_py": "Hē chá háishi kāfēi",
+  "title_en": "Tea or Coffee?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上午", "shàngwǔ", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["喝", "hē", "to drink"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["，"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "In the morning I like to drink coffee; in the afternoon I like to drink tea."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["朋友", "péngyou", "friend"],
+        ["来", "lái", "to come"],
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["。"]
+      ],
+      "en": "Today a friend comes to my home."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["还是", "háishi", "or (in questions)"],
+        ["喝", "hē", "to drink"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I say, \"Would you like tea or coffee?\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["喝", "hē", "to drink"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["爱", "ài", "to love"],
+        ["喝", "hē", "to drink"],
+        ["热", "rè", "hot"],
+        ["茶", "chá", "tea"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He says, \"I don't drink coffee — I love hot tea.\""
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["都", "dōu", "both; all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "We drink tea together, and we are both very happy."
+    }
+  ],
+  "vocab": [
+    ["咖啡", "kāfēi", "coffee"],
+    ["还是", "háishi", "or (in questions)"],
+    ["茶", "chá", "tea"],
+    ["热", "rè", "hot"],
+    ["一起", "yìqǐ", "together"],
+    ["高兴", "gāoxìng", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the narrator like to drink in the morning?",
+      "a": ["Tea", "Coffee", "Water"],
+      "c": 1
+    },
+    {
+      "q": "What does the friend want to drink?",
+      "a": ["Coffee", "Cold water", "Hot tea"],
+      "c": 2
+    },
+    {
+      "q": "Who comes to the narrator's home today?",
+      "a": ["A friend", "The narrator's mom", "A teacher"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 还是 B — 'or' in questions",
+      "e": "还是 offers a choice between two options and makes the sentence a question by itself — no 吗 needed: 你喝茶还是喝咖啡？",
+      "x": "你去还是不去？— Are you going or not?"
+    },
+    {
+      "p": "都 — both; all",
+      "e": "都 comes after the subject and before the verb: 我们都很高兴 = we are both very happy.",
+      "x": "他们都是学生。— They are all students."
+    }
+  ]
+}

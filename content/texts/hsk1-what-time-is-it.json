@@ -1,0 +1,136 @@
+{
+  "slug": "hsk1-what-time-is-it",
+  "level": 1,
+  "title_zh": "几点了",
+  "title_py": "Jǐ diǎn le",
+  "title_en": "What Time Is It?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "(progressive marker: in the middle of)"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["叫", "jiào", "to call"],
+        ["我", "wǒ", "I; me"],
+        ["。"]
+      ],
+      "en": "In the morning I am sleeping, and Mom calls me."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["现在", "xiànzài", "now"],
+        ["几", "jǐ", "how many; what"],
+        ["点", "diǎn", "o'clock"],
+        ["了", "le", "(particle: change of state)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I say, \"What time is it now?\""
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["八", "bā", "eight"],
+        ["点", "diǎn", "o'clock"],
+        ["了", "le", "(particle: change of state)"],
+        ["！"],
+        ["你", "nǐ", "you"],
+        ["九", "jiǔ", "nine"],
+        ["点", "diǎn", "o'clock"],
+        ["去", "qù", "to go"],
+        ["工作", "gōngzuò", "to work"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Mom says, \"It's eight o'clock! You go to work at nine!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["没有", "méiyǒu", "did not; to not have"],
+        ["吃饭", "chī fàn", "to eat (a meal)"],
+        ["，"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle: completed action)"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["水", "shuǐ", "water"],
+        ["。"]
+      ],
+      "en": "I don't eat breakfast — I just drink a little water."
+    },
+    {
+      "t": [
+        ["八", "bā", "eight"],
+        ["点", "diǎn", "o'clock"],
+        ["四十", "sìshí", "forty"],
+        ["分", "fēn", "minute"],
+        ["我", "wǒ", "I; me"],
+        ["坐", "zuò", "to take (transport); to sit"],
+        ["出租车", "chūzūchē", "taxi"],
+        ["去", "qù", "to go"],
+        ["工作", "gōngzuò", "to work"],
+        ["。"]
+      ],
+      "en": "At 8:40 I take a taxi to work."
+    },
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["我", "wǒ", "I; me"],
+        ["七", "qī", "seven"],
+        ["点", "diǎn", "o'clock"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["！"]
+      ],
+      "en": "Tomorrow I will get up at seven!"
+    }
+  ],
+  "vocab": [
+    ["几点", "jǐ diǎn", "what time"],
+    ["现在", "xiànzài", "now"],
+    ["分", "fēn", "minute"],
+    ["出租车", "chūzūchē", "taxi"],
+    ["起床", "qǐchuáng", "to get up"],
+    ["没有", "méiyǒu", "did not; to not have"]
+  ],
+  "quiz": [
+    {
+      "q": "What time is it when the narrator wakes up?",
+      "a": ["Seven o'clock", "Eight o'clock", "Nine o'clock"],
+      "c": 1
+    },
+    {
+      "q": "How does the narrator go to work?",
+      "a": ["On foot", "By bus", "By taxi"],
+      "c": 2
+    },
+    {
+      "q": "What does the narrator plan to do tomorrow?",
+      "a": ["Get up at seven", "Drink more water", "Not go to work"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "几点(了)？ — asking the time",
+      "e": "几 asks 'how many'; 几点了？ = what time is it (now)? Answer with a number + 点: 八点了。",
+      "x": "现在几点？— What time is it now?"
+    },
+    {
+      "p": "…了 — a new situation",
+      "e": "了 at the end of the sentence signals a change of state: 八点了 = it's (already) eight o'clock now.",
+      "x": "下雨了。— It's raining (now)."
+    }
+  ]
+}

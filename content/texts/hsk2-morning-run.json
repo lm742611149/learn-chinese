@@ -1,0 +1,194 @@
+{
+  "slug": "hsk2-morning-run",
+  "level": 2,
+  "title_zh": "早上跑步",
+  "title_py": "Zǎoshang pǎobù",
+  "title_en": "Morning Run",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["去年", "qùnián", "last year"],
+        ["我", "wǒ", "I; me"],
+        ["身体", "shēntǐ", "body; health"],
+        ["不", "bú", "not"],
+        ["太", "tài", "too; very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不", "bù", "not"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["运动", "yùndòng", "to exercise; sports"],
+        ["。"]
+      ],
+      "en": "Last year my health wasn't very good, and I didn't like exercising either."
+    },
+    {
+      "t": [
+        ["医生", "yīshēng", "doctor"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["跑步", "pǎobù", "to run; running"],
+        ["对", "duì", "good for; to"],
+        ["身体", "shēntǐ", "body; health"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["要", "yào", "should; need to"],
+        ["多", "duō", "more"],
+        ["运动", "yùndòng", "to exercise"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The doctor told me, \"Running is good for your health — you should exercise more.\""
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["早上", "zǎoshang", "morning"],
+        ["六", "liù", "six"],
+        ["点", "diǎn", "o'clock"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["，"],
+        ["去", "qù", "to go"],
+        ["家", "jiā", "home"],
+        ["旁边", "pángbiān", "beside; next to"],
+        ["的", "de", "(possessive particle)"],
+        ["公园", "gōngyuán", "park"],
+        ["跑步", "pǎobù", "to run"],
+        ["。"]
+      ],
+      "en": "Now I get up at six every morning and go running in the park next to my home."
+    },
+    {
+      "t": [
+        ["开始", "kāishǐ", "to start; beginning"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["跑", "pǎo", "to run"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "then; as soon as"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "At the beginning, I would get tired after running for just ten minutes."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["能", "néng", "can; to be able to"],
+        ["跑", "pǎo", "to run"],
+        ["三十", "sānshí", "thirty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["了", "le", "(particle: change of state)"],
+        ["，"],
+        ["跑", "pǎo", "to run"],
+        ["得", "de", "(complement particle)"],
+        ["也", "yě", "also"],
+        ["比", "bǐ", "than (comparison)"],
+        ["以前", "yǐqián", "before; in the past"],
+        ["快", "kuài", "fast"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "Now I can run for thirty minutes, and I also run faster than before."
+    },
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["的", "de", "(possessive particle)"],
+        ["公园", "gōngyuán", "park"],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "beautiful"],
+        ["，"],
+        ["鸟", "niǎo", "bird"],
+        ["在", "zài", "(in the middle of)"],
+        ["唱歌", "chànggē", "to sing"],
+        ["，"],
+        ["跑步", "pǎobù", "to run"],
+        ["的", "de", "(particle: one that...)"],
+        ["人", "rén", "person; people"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "The park is beautiful in the morning — birds are singing, and there are many people out running."
+    },
+    {
+      "t": [
+        ["运动", "yùndòng", "exercise; sports"],
+        ["让", "ràng", "to make; to let"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["身体", "shēntǐ", "body; health"],
+        ["一天", "yì tiān", "one day"],
+        ["比", "bǐ", "than (comparison)"],
+        ["一天", "yì tiān", "one day"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "Exercise is making my health better day by day."
+    }
+  ],
+  "vocab": [
+    ["跑步", "pǎobù", "to run; running"],
+    ["运动", "yùndòng", "to exercise; sports"],
+    ["起床", "qǐchuáng", "to get up"],
+    ["公园", "gōngyuán", "park"],
+    ["以前", "yǐqián", "before; in the past"],
+    ["累", "lèi", "tired"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the writer start running?",
+      "a": [
+        "The doctor said running is good for his health",
+        "His friend runs every day",
+        "He wanted to win a race"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How long can the writer run now?",
+      "a": [
+        "Ten minutes",
+        "Thirty minutes",
+        "One hour"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What is the park like in the morning?",
+      "a": [
+        "Quiet and empty",
+        "Closed until noon",
+        "Beautiful, with singing birds and many runners"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "比 — comparison",
+      "e": "A 比 B + adjective compares two things: 我比以前快. 一天比一天好 means better day by day.",
+      "x": "我跑得比以前快。— I run faster than before."
+    },
+    {
+      "p": "verb + 得 + adjective — degree complement",
+      "e": "得 links a verb to how it is done: 跑得快 (run fast), 说得好 (speak well).",
+      "x": "他跑得很快。— He runs very fast."
+    }
+  ]
+}

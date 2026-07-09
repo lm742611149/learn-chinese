@@ -1,0 +1,176 @@
+{
+  "slug": "hsk3-moving-house",
+  "level": 3,
+  "title_zh": "搬家",
+  "title_py": "Bānjiā",
+  "title_en": "Moving House",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个星期", "shàng ge xīngqī", "last week"],
+        ["我们", "wǒmen", "we; us"],
+        ["搬家", "bānjiā", "to move house"],
+        ["了", "le", "(particle: completed action)"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["老", "lǎo", "old"],
+        ["房子", "fángzi", "house"],
+        ["离", "lí", "(distance) from"],
+        ["公司", "gōngsī", "company; office"],
+        ["太", "tài", "too"],
+        ["远", "yuǎn", "far"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Last week we moved, because the old place was too far from my office."
+    },
+    {
+      "t": [
+        ["新家", "xīnjiā", "new home"],
+        ["虽然", "suīrán", "although"],
+        ["不", "bú", "not"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["又", "yòu", "both (又…又…)"],
+        ["干净", "gānjìng", "clean"],
+        ["又", "yòu", "and (又…又…)"],
+        ["安静", "ānjìng", "quiet"],
+        ["。"]
+      ],
+      "en": "Although the new home isn't big, it's both clean and quiet."
+    },
+    {
+      "t": [
+        ["搬家", "bānjiā", "to move house"],
+        ["那天", "nà tiān", "that day"],
+        ["，"],
+        ["几个", "jǐ ge", "a few"],
+        ["朋友", "péngyou", "friend"],
+        ["来", "lái", "to come"],
+        ["帮", "bāng", "to help"],
+        ["我们", "wǒmen", "we; us"],
+        ["搬", "bān", "to carry; to move"],
+        ["箱子", "xiāngzi", "box"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "On moving day, a few friends came to help us carry boxes, and everyone was worn out."
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["我们", "wǒmen", "we; us"],
+        ["还", "hái", "still; yet"],
+        ["没有", "méiyǒu", "to not have"],
+        ["桌子", "zhuōzi", "table"],
+        ["，"],
+        ["就", "jiù", "so; then"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at; on"],
+        ["地上", "dìshang", "on the floor"],
+        ["吃", "chī", "to eat"],
+        ["面条", "miàntiáo", "noodles"],
+        ["。"]
+      ],
+      "en": "At noon we didn't have a table yet, so we just sat on the floor and ate noodles."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["邻居", "línjū", "neighbor"],
+        ["送来", "sòng lái", "to bring over"],
+        ["了", "le", "(particle: completed action)"],
+        ["一些", "yìxiē", "some"],
+        ["水果", "shuǐguǒ", "fruit"],
+        ["，"],
+        ["还", "hái", "also"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["欢迎", "huānyíng", "welcome"],
+        ["你们", "nǐmen", "you (plural)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "In the evening, the neighbors brought over some fruit and said, \"Welcome!\""
+    },
+    {
+      "t": [
+        ["新家", "xīnjiā", "new home"],
+        ["离", "lí", "(distance) from"],
+        ["地铁站", "dìtiězhàn", "subway station"],
+        ["很", "hěn", "very"],
+        ["近", "jìn", "close; near"],
+        ["，"],
+        ["走", "zǒu", "to walk"],
+        ["五分钟", "wǔ fēnzhōng", "five minutes"],
+        ["就", "jiù", "as soon as; then"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "The new home is very close to the subway station — a five-minute walk and you're there."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["这个", "zhège", "this"],
+        ["新家", "xīnjiā", "new home"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "Now I like this new home more and more."
+    }
+  ],
+  "vocab": [
+    ["搬家", "bānjiā", "to move house"],
+    ["干净", "gānjìng", "clean"],
+    ["安静", "ānjìng", "quiet"],
+    ["箱子", "xiāngzi", "box"],
+    ["邻居", "línjū", "neighbor"],
+    ["越来越", "yuè lái yuè", "more and more"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the writer's family move?",
+      "a": [
+        "The old house was too far from the office",
+        "The old house was too expensive",
+        "The old house was too noisy"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the neighbors bring over in the evening?",
+      "a": ["Noodles", "Some fruit", "A table"],
+      "c": 1
+    },
+    {
+      "q": "How long is the walk from the new home to the subway station?",
+      "a": ["Five minutes", "Twenty minutes", "An hour"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "又 A 又 B — both A and B",
+      "e": "Links two adjectives that are true at the same time: 新家又干净又安静。",
+      "x": "这个菜又便宜又好吃。 — This dish is both cheap and tasty."
+    },
+    {
+      "p": "越来越 + adjective — more and more…",
+      "e": "Shows change over time; often ends with 了: 我越来越喜欢这个新家了。",
+      "x": "天气越来越热了。 — The weather is getting hotter and hotter."
+    }
+  ]
+}

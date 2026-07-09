@@ -1,0 +1,139 @@
+{
+  "slug": "hsk1-i-speak-chinese",
+  "level": 1,
+  "title_zh": "我会说汉语",
+  "title_py": "Wǒ huì shuō Hànyǔ",
+  "title_en": "I Can Speak Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["是", "shì", "to be"],
+        ["美国人", "Měiguó rén", "American (person)"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "in; at"],
+        ["中国", "Zhōngguó", "China"],
+        ["工作", "gōngzuò", "to work"],
+        ["。"]
+      ],
+      "en": "I am American, and I work in China."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["会", "huì", "can; to know how to"],
+        ["说", "shuō", "to speak"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["。"]
+      ],
+      "en": "I can speak a little Chinese."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["中午", "zhōngwǔ", "noon"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["饭店", "fàndiàn", "restaurant"],
+        ["吃饭", "chī fàn", "to eat (a meal)"],
+        ["。"]
+      ],
+      "en": "Today at noon I go to a restaurant to eat."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["吃", "chī", "to eat"],
+        ["米饭", "mǐfàn", "(cooked) rice"],
+        ["，"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I say, \"I'll have rice and tea.\""
+    },
+    {
+      "t": [
+        ["饭店", "fàndiàn", "restaurant"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "person"],
+        ["听", "tīng", "to listen; to hear"],
+        ["了", "le", "(particle: completed action)"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["的", "de", "(possessive particle)"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "The man at the restaurant hears this and is very pleased; he says, \"Your Chinese is very good!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["爱", "ài", "to love"],
+        ["学习", "xuéxí", "to study"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["。"]
+      ],
+      "en": "I am very happy — I love studying Chinese."
+    }
+  ],
+  "vocab": [
+    ["会", "huì", "can; to know how to"],
+    ["汉语", "Hànyǔ", "Chinese (language)"],
+    ["一点儿", "yìdiǎnr", "a little"],
+    ["饭店", "fàndiàn", "restaurant"],
+    ["米饭", "mǐfàn", "(cooked) rice"],
+    ["学习", "xuéxí", "to study"]
+  ],
+  "quiz": [
+    {
+      "q": "Where does the narrator work?",
+      "a": ["In America", "In China", "In England"],
+      "c": 1
+    },
+    {
+      "q": "What does the narrator order at the restaurant?",
+      "a": ["Noodles and coffee", "Vegetables and water", "Rice and tea"],
+      "c": 2
+    },
+    {
+      "q": "What does the man at the restaurant say?",
+      "a": ["\"Your Chinese is very good!\"", "\"We have no tea today.\"", "\"Please come back tomorrow.\""],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "会 + verb — learned ability",
+      "e": "会 means 'can' for skills you have learned: 我会说汉语 = I can speak Chinese.",
+      "x": "她会做菜。— She can cook."
+    },
+    {
+      "p": "一点儿 — a little",
+      "e": "一点儿 goes after the verb to soften the amount: 我会说一点儿汉语 = I can speak a little Chinese.",
+      "x": "我喝一点儿水。— I drink a little water."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "hsk3-subway",
+  "level": 3,
+  "title_zh": "地铁真方便",
+  "title_py": "Dìtiě zhēn fāngbiàn",
+  "title_en": "The Subway Is So Convenient",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["以前", "yǐqián", "before; in the past"],
+        ["我", "wǒ", "I; me"],
+        ["坐", "zuò", "to take (transport)"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["上班", "shàngbān", "to go to work"],
+        ["，"],
+        ["路上", "lùshang", "on the road"],
+        ["车", "chē", "car; vehicle"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["常常", "chángcháng", "often"],
+        ["迟到", "chídào", "to be late"],
+        ["。"]
+      ],
+      "en": "I used to take the bus to work; the roads were full of cars and I was often late."
+    },
+    {
+      "t": [
+        ["同事", "tóngshì", "coworker"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["为什么", "wèi shénme", "why"],
+        ["不", "bú", "not"],
+        ["坐", "zuò", "to take (transport)"],
+        ["地铁", "dìtiě", "subway"],
+        ["呢", "ne", "(particle: softens question)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "A coworker asked me, \"Why don't you take the subway?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["试", "shì", "to try"],
+        ["了", "le", "(particle: completed action)"],
+        ["一次", "yí cì", "once; one time"],
+        ["，"],
+        ["发现", "fāxiàn", "to find; to discover"],
+        ["地铁", "dìtiě", "subway"],
+        ["又", "yòu", "both (又…又…)"],
+        ["快", "kuài", "fast"],
+        ["又", "yòu", "and (又…又…)"],
+        ["便宜", "piányi", "cheap"],
+        ["。"]
+      ],
+      "en": "I tried it once and found the subway is both fast and cheap."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"],
+        ["家", "jiā", "home"],
+        ["到", "dào", "to"],
+        ["公司", "gōngsī", "company; office"],
+        ["只", "zhǐ", "only"],
+        ["要", "yào", "to take (time)"],
+        ["二十分钟", "èrshí fēnzhōng", "twenty minutes"],
+        ["，"],
+        ["比", "bǐ", "compared with; than"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["快", "kuài", "fast"],
+        ["多了", "duō le", "much (more)"],
+        ["。"]
+      ],
+      "en": "From home to the office takes only twenty minutes — much faster than the bus."
+    },
+    {
+      "t": [
+        ["在", "zài", "on; at"],
+        ["地铁", "dìtiě", "subway"],
+        ["上", "shang", "on; aboard"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["可以", "kěyǐ", "can; may"],
+        ["看书", "kànshū", "to read (books)"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["可以", "kěyǐ", "can; may"],
+        ["听", "tīng", "to listen to"],
+        ["音乐", "yīnyuè", "music"],
+        ["。"]
+      ],
+      "en": "On the subway I can read a book or listen to music."
+    },
+    {
+      "t": [
+        ["地铁站", "dìtiězhàn", "subway station"],
+        ["里", "lǐ", "inside"],
+        ["很", "hěn", "very"],
+        ["干净", "gānjìng", "clean"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["排队", "páiduì", "to line up"],
+        ["上车", "shàngchē", "to board; to get on"],
+        ["。"]
+      ],
+      "en": "The subway station is very clean, and everyone lines up to board."
+    },
+    {
+      "t": [
+        ["上个星期", "shàng ge xīngqī", "last week"],
+        ["下", "xià", "to fall (rain)"],
+        ["大雨", "dàyǔ", "heavy rain"],
+        ["，"],
+        ["路上", "lùshang", "on the road"],
+        ["的", "de", "(particle: possessive)"],
+        ["汽车", "qìchē", "car"],
+        ["走", "zǒu", "to move; to go"],
+        ["得", "de", "(particle: describes how)"],
+        ["特别", "tèbié", "especially"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["地铁", "dìtiě", "subway"],
+        ["还是", "háishi", "still"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast"],
+        ["。"]
+      ],
+      "en": "Last week it rained hard and the cars on the road moved especially slowly, but the subway was still fast."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měi tiān", "every day"],
+        ["坐", "zuò", "to take (transport)"],
+        ["地铁", "dìtiě", "subway"],
+        ["上班", "shàngbān", "to go to work"],
+        ["，"],
+        ["再也", "zài yě", "never again"],
+        ["没有", "méiyǒu", "to have not"],
+        ["迟到", "chídào", "to be late"],
+        ["过", "guo", "(particle: experience)"],
+        ["，"],
+        ["地铁", "dìtiě", "subway"],
+        ["真", "zhēn", "really"],
+        ["方便", "fāngbiàn", "convenient"],
+        ["！"]
+      ],
+      "en": "Now I take the subway to work every day and haven't been late once — the subway is so convenient!"
+    }
+  ],
+  "vocab": [
+    ["地铁", "dìtiě", "subway"],
+    ["迟到", "chídào", "to be late"],
+    ["发现", "fāxiàn", "to find; to discover"],
+    ["排队", "páiduì", "to line up"],
+    ["还是", "háishi", "still"],
+    ["方便", "fāngbiàn", "convenient"]
+  ],
+  "quiz": [
+    {
+      "q": "How did the writer get to work before?",
+      "a": ["By bus", "By bike", "By taxi"],
+      "c": 0
+    },
+    {
+      "q": "How long does the subway ride from home to the office take?",
+      "a": ["An hour", "Twenty minutes", "Forty minutes"],
+      "c": 1
+    },
+    {
+      "q": "What happened when it rained hard last week?",
+      "a": [
+        "The subway stopped running",
+        "The writer was late again",
+        "Cars were very slow, but the subway was still fast"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "为什么不……呢? — why not…?",
+      "e": "A friendly way to make a suggestion: 你为什么不坐地铁呢?",
+      "x": "你为什么不早点儿睡呢？ — Why don't you go to bed a bit earlier?"
+    },
+    {
+      "p": "A 比 B + adjective (+ 多了)",
+      "e": "比 compares two things; add 多了 for \"much more\": 地铁比公共汽车快多了。",
+      "x": "今天比昨天冷多了。 — Today is much colder than yesterday."
+    }
+  ]
+}

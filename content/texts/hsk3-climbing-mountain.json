@@ -1,0 +1,206 @@
+{
+  "slug": "hsk3-climbing-mountain",
+  "level": 3,
+  "title_zh": "爬山",
+  "title_py": "Pá shān",
+  "title_en": "Climbing a Mountain",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["天气", "tiānqì", "weather"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["三个", "sān ge", "three (+ measure word)"],
+        ["同事", "tóngshì", "coworker"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["爬山", "páshān", "to climb a mountain"],
+        ["。"]
+      ],
+      "en": "The weather was great on Saturday, so three coworkers and I went mountain climbing."
+    },
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["八点", "bā diǎn", "eight o'clock"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["在", "zài", "at"],
+        ["山", "shān", "mountain"],
+        ["下", "xià", "below; foot of"],
+        ["见面", "jiànmiàn", "to meet"],
+        ["，"],
+        ["每个人", "měi ge rén", "everyone; each person"],
+        ["都", "dōu", "all"],
+        ["带", "dài", "to bring"],
+        ["了", "le", "(particle: completed action)"],
+        ["水", "shuǐ", "water"],
+        ["和", "hé", "and"],
+        ["面包", "miànbāo", "bread"],
+        ["。"]
+      ],
+      "en": "At eight in the morning we met at the foot of the mountain, and everyone brought water and bread."
+    },
+    {
+      "t": [
+        ["一开始", "yì kāishǐ", "at first"],
+        ["我", "wǒ", "I; me"],
+        ["爬", "pá", "to climb"],
+        ["得", "de", "(particle: describes how)"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["后来", "hòulái", "later"],
+        ["腿", "tuǐ", "leg"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "At first I climbed fast, but later my legs got more and more tired."
+    },
+    {
+      "t": [
+        ["同事", "tóngshì", "coworker"],
+        ["对", "duì", "towards; to"],
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["别", "bié", "don't"],
+        ["着急", "zháojí", "to be anxious; to rush"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["爬", "pá", "to climb"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "A coworker said to me, \"Don't rush — let's climb slowly.\""
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["十二点", "shí'èr diǎn", "twelve o'clock"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["终于", "zhōngyú", "finally"],
+        ["爬", "pá", "to climb"],
+        ["到", "dào", "to reach"],
+        ["了", "le", "(particle: completed action)"],
+        ["山顶", "shāndǐng", "mountaintop"],
+        ["。"]
+      ],
+      "en": "At twelve noon, we finally reached the top of the mountain."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"],
+        ["山", "shān", "mountain"],
+        ["上", "shang", "on top"],
+        ["往", "wǎng", "towards"],
+        ["下", "xià", "down"],
+        ["看", "kàn", "to look"],
+        ["，"],
+        ["城市", "chéngshì", "city"],
+        ["里", "lǐ", "inside"],
+        ["的", "de", "(particle: possessive)"],
+        ["楼", "lóu", "building"],
+        ["都", "dōu", "all"],
+        ["变", "biàn", "to become"],
+        ["得", "de", "(particle: describes how)"],
+        ["很", "hěn", "very"],
+        ["小", "xiǎo", "small"],
+        ["，"],
+        ["漂亮", "piàoliang", "beautiful"],
+        ["极了", "jí le", "extremely"],
+        ["。"]
+      ],
+      "en": "Looking down from the mountain, the buildings in the city looked tiny — it was incredibly beautiful."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["在", "zài", "at"],
+        ["山顶", "shāndǐng", "mountaintop"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle: completed action)"],
+        ["面包", "miànbāo", "bread"],
+        ["，"],
+        ["休息", "xiūxi", "to rest"],
+        ["了", "le", "(particle: completed action)"],
+        ["半个", "bàn ge", "half a"],
+        ["小时", "xiǎoshí", "hour"],
+        ["。"]
+      ],
+      "en": "We ate our bread at the top and rested for half an hour."
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["回家", "huíjiā", "to go home"],
+        ["以后", "yǐhòu", "after"],
+        ["腿", "tuǐ", "leg"],
+        ["很", "hěn", "very"],
+        ["疼", "téng", "to ache; painful"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["还", "hái", "still"],
+        ["想", "xiǎng", "to want to"],
+        ["下个月", "xià ge yuè", "next month"],
+        ["再", "zài", "again"],
+        ["爬", "pá", "to climb"],
+        ["一次", "yí cì", "once; one time"],
+        ["。"]
+      ],
+      "en": "Although my legs ached after I got home, I still want to climb again next month."
+    }
+  ],
+  "vocab": [
+    ["爬山", "páshān", "to climb a mountain"],
+    ["着急", "zháojí", "to be anxious; to rush"],
+    ["终于", "zhōngyú", "finally"],
+    ["山顶", "shāndǐng", "mountaintop"],
+    ["疼", "téng", "to ache; painful"],
+    ["极了", "jí le", "extremely"]
+  ],
+  "quiz": [
+    {
+      "q": "How many people went climbing in total?",
+      "a": ["Three", "Four", "Eight"],
+      "c": 1
+    },
+    {
+      "q": "What time did they reach the mountaintop?",
+      "a": ["Eight in the morning", "Twelve noon", "Half past one"],
+      "c": 1
+    },
+    {
+      "q": "How did the writer feel after getting home?",
+      "a": [
+        "Legs ached, but still wants to climb again",
+        "Too tired to ever climb again",
+        "Sick because of the rain"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "虽然 A，但是 B — although A, B",
+      "e": "Unlike English, both halves appear in Chinese: 虽然腿很疼，但是我还想再爬一次。",
+      "x": "虽然汉语很难，但是很有意思。 — Although Chinese is hard, it's very interesting."
+    },
+    {
+      "p": "Adjective + 极了 — extremely…",
+      "e": "极了 after an adjective makes it very strong: 漂亮极了。",
+      "x": "今天热极了。 — It's extremely hot today."
+    }
+  ]
+}

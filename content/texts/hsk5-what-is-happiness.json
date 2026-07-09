@@ -1,0 +1,166 @@
+{
+  "slug": "hsk5-what-is-happiness",
+  "level": 5,
+  "title_zh": "幸福是什么",
+  "title_py": "Xìngfú shì shénme",
+  "title_en": "What Is Happiness?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["小时候","xiǎoshíhou","in childhood"], ["，"],
+        ["我","wǒ","I"], ["以为","yǐwéi","thought (wrongly)"],
+        ["幸福","xìngfú","happiness"], ["就是","jiùshì","is simply"],
+        ["考","kǎo","to score (on a test)"], ["一百","yìbǎi","one hundred"],
+        ["分","fēn","points"], ["，"],
+        ["妈妈","māma","mom"], ["会","huì","would"], ["给","gěi","for"],
+        ["我","wǒ","me"], ["买","mǎi","to buy"], ["糖","táng","candy"], ["。"]
+      ],
+      "en": "As a child, I thought happiness was simply scoring one hundred on a test, so Mom would buy me candy."
+    },
+    {
+      "t": [
+        ["长大","zhǎngdà","to grow up"], ["以后","yǐhòu","after"], ["，"],
+        ["幸福","xìngfú","happiness"], ["好像","hǎoxiàng","seemingly"],
+        ["变成","biànchéng","to turn into"], ["了","le","(particle)"],
+        ["一","yì","one"], ["场","chǎng","(measure)"], ["比赛","bǐsài","competition"], ["："],
+        ["更","gèng","more"], ["好","hǎo","good"], ["的","de","(particle)"], ["工作","gōngzuò","job"], ["、"],
+        ["更","gèng","more"], ["大","dà","big"], ["的","de","(particle)"], ["房子","fángzi","house"], ["、"],
+        ["更","gèng","more"], ["贵","guì","expensive"], ["的","de","(particle)"], ["车","chē","car"], ["。"]
+      ],
+      "en": "After growing up, happiness seemed to turn into a competition: a better job, a bigger house, a more expensive car."
+    },
+    {
+      "t": [
+        ["可是","kěshì","but"], ["奇怪","qíguài","strange"], ["的","de","(particle)"],
+        ["是","shì","is"], ["，"],
+        ["得到","dédào","to obtain"], ["的","de","(particle)"],
+        ["越","yuè","the more"], ["多","duō","much"], ["，"],
+        ["我们","wǒmen","we"], ["反而","fǎn'ér","on the contrary"],
+        ["越","yuè","the more"], ["焦虑","jiāolǜ","anxious"], ["。"]
+      ],
+      "en": "But strangely, the more we obtain, the more anxious we become instead."
+    },
+    {
+      "t": [
+        ["去年","qùnián","last year"], ["我","wǒ","I"], ["生","shēng","to fall (ill)"],
+        ["了","le","(particle)"], ["一","yì","one"], ["场","chǎng","(measure)"],
+        ["病","bìng","illness"], ["，"],
+        ["在","zài","in"], ["医院","yīyuàn","hospital"], ["住","zhù","to stay"],
+        ["了","le","(particle)"], ["两","liǎng","two"], ["个","gè","(measure)"],
+        ["星期","xīngqī","week"], ["。"]
+      ],
+      "en": "Last year I fell ill and stayed in the hospital for two weeks."
+    },
+    {
+      "t": [
+        ["躺","tǎng","to lie"], ["在","zài","on"], ["病床","bìngchuáng","hospital bed"],
+        ["上","shang","on"], ["，"],
+        ["我","wǒ","I"], ["突然","tūrán","suddenly"], ["明白","míngbai","to realize"], ["："],
+        ["能","néng","to be able to"], ["自己","zìjǐ","by oneself"], ["走路","zǒulù","to walk"], ["，"],
+        ["能","néng","to be able to"], ["好好","hǎohǎo","properly"],
+        ["吃","chī","to eat"], ["一","yí","one"], ["顿","dùn","(measure for meals)"],
+        ["饭","fàn","meal"], ["，"],
+        ["能","néng","to be able to"], ["睡","shuì","to sleep"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["安稳","ānwěn","sound; peaceful"],
+        ["的","de","(particle)"], ["觉","jiào","sleep"], ["，"],
+        ["原来","yuánlái","it turns out"], ["都","dōu","all"],
+        ["是","shì","is"], ["幸福","xìngfú","happiness"], ["。"]
+      ],
+      "en": "Lying in the hospital bed, I suddenly understood: being able to walk on my own, eat a proper meal, sleep a sound night's sleep — it turns out these are all happiness."
+    },
+    {
+      "t": [
+        ["出院","chūyuàn","to leave the hospital"], ["那天","nàtiān","that day"], ["，"],
+        ["阳光","yángguāng","sunshine"], ["照","zhào","to shine"],
+        ["在","zài","on"], ["脸","liǎn","face"], ["上","shang","on"], ["，"],
+        ["我","wǒ","I"], ["差点儿","chàdiǎnr","almost"],
+        ["哭","kū","to cry"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "The day I left the hospital, the sunshine fell on my face and I almost cried."
+    },
+    {
+      "t": [
+        ["科学家","kēxuéjiā","scientist"], ["说","shuō","to say"], ["，"],
+        ["人","rén","people"], ["对","duì","toward"], ["幸福","xìngfú","happiness"],
+        ["的","de","(particle)"], ["感觉","gǎnjué","feeling"],
+        ["很","hěn","very"], ["快","kuài","quickly"], ["就","jiù","then"],
+        ["会","huì","will"], ["习惯","xíguàn","to get used to"], ["，"],
+        ["这","zhè","this"], ["叫","jiào","to be called"], ["“"],
+        ["适应","shìyìng","adaptation"], ["”"], ["。"]
+      ],
+      "en": "Scientists say people quickly get used to the feeling of happiness; this is called \"adaptation\"."
+    },
+    {
+      "t": [
+        ["所以","suǒyǐ","so"], ["幸福","xìngfú","happiness"],
+        ["不是","búshì","is not"], ["一","yí","one"], ["个","gè","(measure)"],
+        ["结果","jiéguǒ","result"], ["，"],
+        ["而是","érshì","but rather"], ["一","yì","one"], ["种","zhǒng","kind"],
+        ["能力","nénglì","ability"], ["："],
+        ["发现","fāxiàn","to notice"], ["生活","shēnghuó","life"], ["里","li","in"],
+        ["那些","nàxiē","those"], ["小小","xiǎoxiǎo","tiny"],
+        ["的","de","(particle)"], ["好","hǎo","good things"], ["。"]
+      ],
+      "en": "So happiness is not a result, but an ability: the ability to notice the small good things in life."
+    },
+    {
+      "t": [
+        ["与其","yǔqí","rather than"], ["羡慕","xiànmù","to envy"],
+        ["别人","biéren","others"], ["的","de","(particle)"], ["生活","shēnghuó","life"], ["，"],
+        ["不如","bùrú","better to"], ["认真","rènzhēn","earnestly"],
+        ["过好","guòhǎo","to live well"], ["自己","zìjǐ","one's own"],
+        ["的","de","(particle)"], ["今天","jīntiān","today"], ["。"]
+      ],
+      "en": "Rather than envying other people's lives, it is better to earnestly live your own today well."
+    },
+    {
+      "t": [
+        ["幸福","xìngfú","happiness"], ["是","shì","is"], ["什么","shénme","what"], ["？"],
+        ["也许","yěxǔ","perhaps"], ["它","tā","it"], ["就","jiù","just"],
+        ["藏","cáng","to hide"], ["在","zài","in"], ["你","nǐ","you"],
+        ["今天","jīntiān","today"], ["喝","hē","to drink"], ["的","de","(particle)"],
+        ["那","nà","that"], ["杯","bēi","cup"], ["热","rè","hot"],
+        ["茶","chá","tea"], ["里","li","inside"], ["。"]
+      ],
+      "en": "What is happiness? Perhaps it is hiding in the cup of hot tea you drink today."
+    }
+  ],
+  "vocab": [
+    ["幸福","xìngfú","happiness"],
+    ["反而","fǎn'ér","on the contrary; instead"],
+    ["焦虑","jiāolǜ","anxious"],
+    ["安稳","ānwěn","sound; peaceful"],
+    ["适应","shìyìng","to adapt; adaptation"],
+    ["藏","cáng","to hide"]
+  ],
+  "quiz": [
+    {
+      "q": "What made the writer suddenly see happiness differently?",
+      "a": ["Winning a competition", "A two-week stay in the hospital", "Buying a bigger house"],
+      "c": 1
+    },
+    {
+      "q": "According to the scientists mentioned, why does the feeling of happiness fade?",
+      "a": ["People quickly get used to it", "People compare themselves with others", "People forget their childhood"],
+      "c": 0
+    },
+    {
+      "q": "In the end, what does the writer say happiness is?",
+      "a": ["A result of hard work", "A prize for lucky people", "An ability to notice small good things"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "反而 (on the contrary)",
+      "e": "反而 marks a result opposite to what one would expect: 得到的越多，我们反而越焦虑。",
+      "x": "吃了药，他的病反而更重了。— After taking the medicine, his illness got worse instead."
+    },
+    {
+      "p": "与其…不如… (rather than A, better B)",
+      "e": "Weighs two choices and recommends the second: 与其羡慕别人的生活，不如认真过好自己的今天。",
+      "x": "与其抱怨，不如改变。— Rather than complaining, it is better to change."
+    }
+  ]
+}

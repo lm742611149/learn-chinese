@@ -1,0 +1,230 @@
+{
+  "slug": "hsk4-traveling-alone",
+  "level": 4,
+  "title_zh": "独自旅行",
+  "title_py": "Dúzì lǚxíng",
+  "title_en": "Traveling Alone",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["第一次", "dì yī cì", "the first time"],
+        ["一个", "yí ge", "one"],
+        ["人", "rén", "person"],
+        ["去", "qù", "to go"],
+        ["旅行", "lǚxíng", "to travel"],
+        ["以前", "yǐqián", "before"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["很", "hěn", "very"],
+        ["担心", "dānxīn", "worried"],
+        ["："],
+        ["迷路", "mílù", "to get lost"],
+        ["了", "le", "(particle)"],
+        ["怎么办", "zěnme bàn", "what to do"],
+        ["？"],
+        ["生病", "shēngbìng", "to get sick"],
+        ["了", "le", "(particle)"],
+        ["怎么办", "zěnme bàn", "what to do"],
+        ["？"]
+      ],
+      "en": "Before my first trip alone, I was very worried: what if I got lost? What if I got sick?"
+    },
+    {
+      "t": [
+        ["朋友们", "péngyoumen", "friends"],
+        ["也", "yě", "also"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["一个", "yí ge", "one"],
+        ["女孩子", "nǚháizi", "girl"],
+        ["独自", "dúzì", "alone"],
+        ["出门", "chūmén", "to go out"],
+        ["不", "bù", "not"],
+        ["安全", "ānquán", "safe"],
+        ["。"]
+      ],
+      "en": "My friends also said it wasn't safe for a girl to go off on her own."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I"],
+        ["还是", "háishi", "still"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle)"],
+        ["火车票", "huǒchēpiào", "train ticket"],
+        ["，"],
+        ["去", "qù", "to go"],
+        ["了", "le", "(particle)"],
+        ["南方", "nánfāng", "the south"],
+        ["的", "de", "(possessive)"],
+        ["一个", "yí ge", "one"],
+        ["小", "xiǎo", "small"],
+        ["城市", "chéngshì", "city"],
+        ["。"]
+      ],
+      "en": "But I bought a train ticket anyway and went to a small city in the south."
+    },
+    {
+      "t": [
+        ["独自", "dúzì", "alone"],
+        ["旅行", "lǚxíng", "to travel"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time"],
+        ["，"],
+        ["没有", "méiyǒu", "there is no"],
+        ["人", "rén", "person"],
+        ["帮", "bāng", "to help"],
+        ["你", "nǐ", "you"],
+        ["做", "zuò", "to make"],
+        ["决定", "juédìng", "decision"],
+        ["，"],
+        ["去", "qù", "to go"],
+        ["哪儿", "nǎr", "where"],
+        ["、"],
+        ["吃", "chī", "to eat"],
+        ["什么", "shénme", "what"],
+        ["、"],
+        ["住", "zhù", "to stay"],
+        ["哪儿", "nǎr", "where"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["要", "yào", "must"],
+        ["自己", "zìjǐ", "oneself"],
+        ["想", "xiǎng", "to think of"],
+        ["办法", "bànfǎ", "solution"],
+        ["。"]
+      ],
+      "en": "When you travel alone, no one makes decisions for you — where to go, what to eat, where to stay, you have to figure it all out yourself."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["有时候", "yǒushíhou", "sometimes"],
+        ["迷路", "mílù", "to get lost"],
+        ["，"],
+        ["有时候", "yǒushíhou", "sometimes"],
+        ["坐错", "zuòcuò", "to take the wrong"],
+        ["车", "chē", "bus"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["每次", "měicì", "every time"],
+        ["都", "dōu", "all"],
+        ["有", "yǒu", "there were"],
+        ["热情", "rèqíng", "warm-hearted"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["帮助", "bāngzhù", "to help"],
+        ["我", "wǒ", "me"],
+        ["。"]
+      ],
+      "en": "Sometimes I got lost and sometimes I took the wrong bus, but every single time warm-hearted people helped me."
+    },
+    {
+      "t": [
+        ["一个", "yí ge", "one"],
+        ["人", "rén", "person"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["会", "huì", "will"],
+        ["更", "gèng", "more"],
+        ["注意", "zhùyì", "to notice"],
+        ["路上", "lùshang", "along the way"],
+        ["的", "de", "(possessive)"],
+        ["风景", "fēngjǐng", "scenery"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["更", "gèng", "more"],
+        ["容易", "róngyì", "easily"],
+        ["和", "hé", "with"],
+        ["陌生人", "mòshēngrén", "stranger"],
+        ["说话", "shuōhuà", "to talk"],
+        ["。"]
+      ],
+      "en": "When you are on your own, you notice the scenery along the way more, and you talk to strangers more easily."
+    },
+    {
+      "t": [
+        ["旅行", "lǚxíng", "trip"],
+        ["结束", "jiéshù", "to end"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time"],
+        ["我", "wǒ", "I"],
+        ["发现", "fāxiàn", "to discover"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["不但", "búdàn", "not only"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle)"],
+        ["一个", "yí ge", "one"],
+        ["新", "xīn", "new"],
+        ["地方", "dìfang", "place"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle)"],
+        ["一个", "yí ge", "one"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(possessive)"],
+        ["自己", "zìjǐ", "self"],
+        ["。"]
+      ],
+      "en": "When the trip ended, I discovered that I had gotten to know not only a new place, but also a new me."
+    },
+    {
+      "t": [
+        ["原来", "yuánlái", "it turns out"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["比", "bǐ", "than"],
+        ["自己", "zìjǐ", "myself"],
+        ["想", "xiǎng", "to think"],
+        ["的", "de", "(nominalizer)"],
+        ["更", "gèng", "more"],
+        ["勇敢", "yǒnggǎn", "brave"],
+        ["。"]
+      ],
+      "en": "It turns out I am braver than I thought."
+    }
+  ],
+  "vocab": [
+    ["独自", "dúzì", "alone; by oneself"],
+    ["迷路", "mílù", "to get lost"],
+    ["陌生人", "mòshēngrén", "stranger"],
+    ["风景", "fēngjǐng", "scenery"],
+    ["热情", "rèqíng", "warm-hearted; enthusiastic"],
+    ["勇敢", "yǒnggǎn", "brave"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the author's friends say before the trip?",
+      "a": ["It is not safe for a girl to travel alone", "Train tickets are too expensive", "The south is too hot in summer"],
+      "c": 0
+    },
+    {
+      "q": "What happened whenever the author got lost or took the wrong bus?",
+      "a": ["She called her parents for help", "Warm-hearted people helped her", "She gave up and went home"],
+      "c": 1
+    },
+    {
+      "q": "What did the author discover at the end of the trip?",
+      "a": ["She never wants to travel alone again", "She is braver than she thought", "Traveling with friends is always better"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不但……而且……",
+      "e": "\"Not only A, but also B\" — the second part adds something stronger: 我不但认识了一个新地方，而且认识了一个新的自己。",
+      "x": "她不但会开车，而且开得很好。— She can not only drive, but drives very well."
+    },
+    {
+      "p": "原来 (sudden realization)",
+      "e": "原来 introduces something you have just realized was true all along: 原来，我比自己想的更勇敢。",
+      "x": "原来你们早就认识了！— So you two knew each other all along!"
+    }
+  ]
+}

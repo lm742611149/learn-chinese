@@ -1,0 +1,195 @@
+{
+  "slug": "hsk2-asking-the-way",
+  "level": 2,
+  "title_zh": "问路",
+  "title_py": "Wèn lù",
+  "title_en": "Asking for Directions",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["朋友", "péngyou", "friend"],
+        ["的", "de", "(possessive particle)"],
+        ["新", "xīn", "new"],
+        ["家", "jiā", "home"],
+        ["玩", "wán", "to hang out; to play"],
+        ["。"]
+      ],
+      "en": "This afternoon I went to visit my friend's new home."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["走", "zǒu", "to walk"],
+        ["了", "le", "(aspect particle)"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["找不到", "zhǎo bu dào", "cannot find"],
+        ["路", "lù", "road; way"],
+        ["了", "le", "(particle: new situation)"],
+        ["。"]
+      ],
+      "en": "But after walking for ten minutes, I couldn't find the way anymore."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["旁边", "pángbiān", "beside; nearby"],
+        ["的", "de", "(possessive particle)"],
+        ["一个", "yí gè", "one; a"],
+        ["先生", "xiānsheng", "gentleman; sir"],
+        ["："],
+        ["“"],
+        ["请问", "qǐngwèn", "excuse me, may I ask"],
+        ["，"],
+        ["北京路", "Běijīng Lù", "Beijing Road"],
+        ["怎么", "zěnme", "how"],
+        ["走", "zǒu", "to go; to get to"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I asked a man nearby, \"Excuse me, how do I get to Beijing Road?\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["往", "wǎng", "toward"],
+        ["前", "qián", "front; ahead"],
+        ["走", "zǒu", "to walk"],
+        ["，"],
+        ["到", "dào", "to arrive; to reach"],
+        ["红绿灯", "hónglǜdēng", "traffic light"],
+        ["往", "wǎng", "toward"],
+        ["左", "zuǒ", "left"],
+        ["走", "zǒu", "to walk"],
+        ["，"],
+        ["就", "jiù", "then; right away"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said, \"Go straight ahead, turn left at the traffic light, and you're there.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["他", "tā", "he; him"],
+        ["："],
+        ["“"],
+        ["离", "lí", "(distance) from"],
+        ["这儿", "zhèr", "here"],
+        ["远", "yuǎn", "far"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I asked him, \"Is it far from here?\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(particle: ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["不", "bù", "not"],
+        ["远", "yuǎn", "far"],
+        ["，"],
+        ["走", "zǒu", "to walk"],
+        ["五", "wǔ", "five"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "then; as soon as"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said with a smile, \"Not far — a five-minute walk and you're there.\""
+    },
+    {
+      "t": [
+        ["很", "hěn", "very"],
+        ["快", "kuài", "soon; fast"],
+        ["我", "wǒ", "I; me"],
+        ["就", "jiù", "then; right away"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(aspect particle)"],
+        ["朋友", "péngyou", "friend"],
+        ["的", "de", "(possessive particle)"],
+        ["家", "jiā", "home"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["看见", "kànjiàn", "to see"],
+        ["我", "wǒ", "I; me"],
+        ["，"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "Soon I arrived at my friend's home, and he was very happy to see me."
+    }
+  ],
+  "vocab": [
+    ["请问", "qǐngwèn", "excuse me, may I ask"],
+    ["往", "wǎng", "toward"],
+    ["红绿灯", "hónglǜdēng", "traffic light"],
+    ["离", "lí", "(distance) from"],
+    ["远", "yuǎn", "far"],
+    ["找不到", "zhǎo bu dào", "cannot find"]
+  ],
+  "quiz": [
+    {
+      "q": "Where was the writer going this afternoon?",
+      "a": [
+        "To his friend's new home",
+        "To Beijing by train",
+        "To the hospital"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What directions did the man give?",
+      "a": [
+        "Turn right at the school",
+        "Go straight and turn left at the traffic light",
+        "Take a bus for five stops"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How far away was Beijing Road?",
+      "a": [
+        "Very far — he needed a taxi",
+        "Ten minutes by bus",
+        "Only a five-minute walk"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "往 + direction + verb",
+      "e": "往 points a movement in a direction: 往前走 (walk ahead), 往左走 (go left).",
+      "x": "到红绿灯往左走。— Turn left at the traffic light."
+    },
+    {
+      "p": "A 离 B + 远/近",
+      "e": "离 measures the distance between two places: 我家离公司很近.",
+      "x": "北京路离这儿远吗？— Is Beijing Road far from here?"
+    }
+  ]
+}

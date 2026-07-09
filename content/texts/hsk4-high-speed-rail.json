@@ -1,0 +1,209 @@
+{
+  "slug": "hsk4-high-speed-rail",
+  "level": 4,
+  "title_zh": "中国的高铁",
+  "title_py": "Zhōngguó de gāotiě",
+  "title_en": "China's High-Speed Rail",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["二十", "èrshí", "twenty"],
+        ["年", "nián", "years"],
+        ["前", "qián", "ago"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["北京", "Běijīng", "Beijing"],
+        ["到", "dào", "to"],
+        ["上海", "Shànghǎi", "Shanghai"],
+        ["，"],
+        ["坐", "zuò", "to take"],
+        ["火车", "huǒchē", "train"],
+        ["要", "yào", "to take (time)"],
+        ["十几", "shí jǐ", "more than ten"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hours"],
+        ["。"]
+      ],
+      "en": "Twenty years ago, the train from Beijing to Shanghai took more than ten hours."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["坐", "zuò", "to take"],
+        ["高铁", "gāotiě", "high-speed rail"],
+        ["，"],
+        ["只", "zhǐ", "only"],
+        ["需要", "xūyào", "to need"],
+        ["四", "sì", "four"],
+        ["个", "ge", "(measure word)"],
+        ["半", "bàn", "half"],
+        ["小时", "xiǎoshí", "hours"],
+        ["。"]
+      ],
+      "en": "Now the high-speed train takes only four and a half hours."
+    },
+    {
+      "t": [
+        ["高铁", "gāotiě", "high-speed rail"],
+        ["又", "yòu", "both"],
+        ["快", "kuài", "fast"],
+        ["又", "yòu", "and"],
+        ["安全", "ānquán", "safe"],
+        ["，"],
+        ["座位", "zuòwèi", "seat"],
+        ["舒服", "shūfu", "comfortable"],
+        ["，"],
+        ["车里", "chēli", "inside the train"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["安静", "ānjìng", "quiet"],
+        ["。"]
+      ],
+      "en": "The high-speed train is fast and safe, the seats are comfortable, and the carriages are quiet."
+    },
+    {
+      "t": [
+        ["你", "nǐ", "you"],
+        ["可以", "kěyǐ", "can"],
+        ["在", "zài", "at"],
+        ["车上", "chēshang", "on the train"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["、"],
+        ["看书", "kànshū", "to read"],
+        ["，"],
+        ["看着", "kànzhe", "watching"],
+        ["窗外", "chuāngwài", "outside the window"],
+        ["的", "de", "(possessive)"],
+        ["城市", "chéngshì", "cities"],
+        ["和", "hé", "and"],
+        ["大山", "dàshān", "big mountains"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "quickly"],
+        ["地", "de", "(adverbial particle)"],
+        ["过去", "guòqu", "to pass by"],
+        ["。"]
+      ],
+      "en": "You can drink tea and read on board, watching cities and mountains fly past the window."
+    },
+    {
+      "t": [
+        ["高铁", "gāotiě", "high-speed rail"],
+        ["改变", "gǎibiàn", "to change"],
+        ["的", "de", "(nominalizer)"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["速度", "sùdù", "speed"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["是", "shì", "is"],
+        ["人们", "rénmen", "people"],
+        ["的", "de", "(possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["。"]
+      ],
+      "en": "What high-speed rail has changed is not only speed, but also people's lives."
+    },
+    {
+      "t": [
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["住", "zhù", "to live"],
+        ["在", "zài", "in"],
+        ["一个", "yí ge", "one"],
+        ["城市", "chéngshì", "city"],
+        ["，"],
+        ["在", "zài", "in"],
+        ["另", "lìng", "another"],
+        ["一个", "yí ge", "one"],
+        ["城市", "chéngshì", "city"],
+        ["上班", "shàngbān", "to work"],
+        ["；"],
+        ["周末", "zhōumò", "weekend"],
+        ["坐", "zuò", "to take"],
+        ["高铁", "gāotiě", "high-speed rail"],
+        ["去", "qù", "to go"],
+        ["看", "kàn", "to visit"],
+        ["父母", "fùmǔ", "parents"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["变得", "biàn de", "to become"],
+        ["很", "hěn", "very"],
+        ["容易", "róngyì", "easy"],
+        ["。"]
+      ],
+      "en": "Many people live in one city and work in another; going home by high-speed train on weekends to see their parents has also become easy."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["世界", "shìjiè", "world"],
+        ["变", "biàn", "to become"],
+        ["小", "xiǎo", "small"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Some people say the world has become smaller."
+    },
+    {
+      "t": [
+        ["其实", "qíshí", "actually"],
+        ["世界", "shìjiè", "world"],
+        ["没有", "méiyǒu", "not"],
+        ["变", "biàn", "to change"],
+        ["，"],
+        ["是", "shì", "is"],
+        ["我们", "wǒmen", "we"],
+        ["和", "hé", "and"],
+        ["远方", "yuǎnfāng", "faraway places"],
+        ["的", "de", "(possessive)"],
+        ["距离", "jùlí", "distance"],
+        ["变", "biàn", "to become"],
+        ["短", "duǎn", "short"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Actually the world hasn't changed — it is the distance between us and faraway places that has grown shorter."
+    }
+  ],
+  "vocab": [
+    ["高铁", "gāotiě", "high-speed rail"],
+    ["速度", "sùdù", "speed"],
+    ["距离", "jùlí", "distance"],
+    ["安全", "ānquán", "safe"],
+    ["窗外", "chuāngwài", "outside the window"],
+    ["远方", "yuǎnfāng", "faraway places"]
+  ],
+  "quiz": [
+    {
+      "q": "How long does the trip from Beijing to Shanghai take by high-speed train now?",
+      "a": ["More than ten hours", "Four and a half hours", "Two hours"],
+      "c": 1
+    },
+    {
+      "q": "Besides speed, what does the text say high-speed rail has changed?",
+      "a": ["People's lives", "The weather", "The price of train tickets"],
+      "c": 0
+    },
+    {
+      "q": "What does the author say at the end of the text?",
+      "a": ["The world has really become smaller", "The distance between us and faraway places has become shorter", "Trains will become even faster"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不仅……而且……",
+      "e": "\"Not only A, but also B\" — B goes further than A: 高铁改变的不仅是速度，而且是人们的生活。",
+      "x": "他不仅会说汉语，而且说得很好。— He not only speaks Chinese, but speaks it very well."
+    },
+    {
+      "p": "V + 着 (ongoing action)",
+      "e": "着 after a verb marks an ongoing or accompanying action: 看着窗外的城市和大山过去。",
+      "x": "她听着音乐做作业。— She does her homework while listening to music."
+    }
+  ]
+}

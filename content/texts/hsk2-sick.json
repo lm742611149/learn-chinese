@@ -1,0 +1,165 @@
+{
+  "slug": "hsk2-sick",
+  "level": 2,
+  "title_zh": "生病了",
+  "title_py": "Shēngbìng le",
+  "title_en": "Getting Sick",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["晚上", "wǎnshang", "evening; night"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["身体", "shēntǐ", "body; health"],
+        ["很", "hěn", "very"],
+        ["不", "bù", "not"],
+        ["舒服", "shūfu", "comfortable; well"],
+        ["，"],
+        ["可能", "kěnéng", "maybe; probably"],
+        ["是", "shì", "to be"],
+        ["生病", "shēngbìng", "to get sick"],
+        ["了", "le", "(particle: new situation)"],
+        ["。"]
+      ],
+      "en": "Last night I felt really unwell — maybe I was getting sick."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["没", "méi", "did not"],
+        ["去", "qù", "to go"],
+        ["上班", "shàngbān", "to go to work"],
+        ["，"],
+        ["去", "qù", "to go"],
+        ["了", "le", "(aspect particle)"],
+        ["医院", "yīyuàn", "hospital"],
+        ["。"]
+      ],
+      "en": "This morning I didn't go to work; I went to the hospital."
+    },
+    {
+      "t": [
+        ["医生", "yīshēng", "doctor"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["怎么", "zěnme", "how; what"],
+        ["了", "le", "(particle: new situation)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The doctor asked me, \"What's wrong?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["头疼", "tóuténg", "to have a headache"],
+        ["，"],
+        ["还", "hái", "also; in addition"],
+        ["发烧", "fāshāo", "to have a fever"],
+        ["了", "le", "(particle: new situation)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said, \"I have a headache, and I've got a fever too.\""
+    },
+    {
+      "t": [
+        ["医生", "yīshēng", "doctor"],
+        ["给", "gěi", "to give"],
+        ["了", "le", "(aspect particle)"],
+        ["我", "wǒ", "I; me"],
+        ["一些", "yìxiē", "some"],
+        ["药", "yào", "medicine"],
+        ["，"],
+        ["让", "ràng", "to have (sb do sth); to let"],
+        ["我", "wǒ", "I; me"],
+        ["多", "duō", "more"],
+        ["喝", "hē", "to drink"],
+        ["水", "shuǐ", "water"],
+        ["，"],
+        ["多", "duō", "more"],
+        ["休息", "xiūxi", "to rest"],
+        ["。"]
+      ],
+      "en": "The doctor gave me some medicine and told me to drink more water and get more rest."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["睡", "shuì", "to sleep"],
+        ["了", "le", "(aspect particle)"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["，"],
+        ["现在", "xiànzài", "now"],
+        ["觉得", "juéde", "to feel"],
+        ["好", "hǎo", "good; well"],
+        ["多", "duō", "much (more)"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "I slept for a whole day, and now I feel much better."
+    }
+  ],
+  "vocab": [
+    ["生病", "shēngbìng", "to get sick"],
+    ["舒服", "shūfu", "comfortable; well"],
+    ["头疼", "tóuténg", "to have a headache"],
+    ["发烧", "fāshāo", "to have a fever"],
+    ["药", "yào", "medicine"],
+    ["休息", "xiūxi", "to rest"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the writer go to the hospital this morning?",
+      "a": [
+        "He felt very unwell last night",
+        "He went to visit a sick friend",
+        "He works at the hospital"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the doctor tell the writer to do?",
+      "a": [
+        "Go back to work right away",
+        "Drink more water and rest more",
+        "Eat more fruit and run every day"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How does the writer feel now?",
+      "a": [
+        "He still has a fever",
+        "Worse than yesterday",
+        "Much better after sleeping for a day"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "了 — change of state",
+      "e": "Sentence-final 了 marks a new situation: 生病了 (got sick — wasn't before), 好多了 (much better now than before).",
+      "x": "我现在好多了。— I feel much better now."
+    },
+    {
+      "p": "让 + person + verb",
+      "e": "让 means to have or tell someone to do something: 医生让我多休息.",
+      "x": "医生让我多喝水。— The doctor told me to drink more water."
+    }
+  ]
+}

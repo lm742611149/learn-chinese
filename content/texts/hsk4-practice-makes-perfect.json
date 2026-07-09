@@ -1,0 +1,262 @@
+{
+  "slug": "hsk4-practice-makes-perfect",
+  "level": 4,
+  "title_zh": "熟能生巧",
+  "title_py": "Shú néng shēng qiǎo",
+  "title_en": "Practice Makes Perfect",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["很久", "hěn jiǔ", "a long time"],
+        ["以前", "yǐqián", "ago"],
+        ["，"],
+        ["有", "yǒu", "there was"],
+        ["一个", "yí ge", "one"],
+        ["人", "rén", "person"],
+        ["特别", "tèbié", "especially"],
+        ["会", "huì", "to be good at"],
+        ["射箭", "shèjiàn", "archery"],
+        ["，"],
+        ["十", "shí", "ten"],
+        ["次", "cì", "times"],
+        ["能", "néng", "can"],
+        ["中", "zhòng", "to hit (a target)"],
+        ["九", "jiǔ", "nine"],
+        ["次", "cì", "times"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["因此", "yīncǐ", "therefore"],
+        ["很", "hěn", "very"],
+        ["骄傲", "jiāo'ào", "proud"],
+        ["。"]
+      ],
+      "en": "Long ago, there was a man who was extremely good at archery — he could hit the target nine times out of ten, and so he was very proud."
+    },
+    {
+      "t": [
+        ["一天", "yìtiān", "one day"],
+        ["，"],
+        ["一个", "yí ge", "one"],
+        ["卖", "mài", "to sell"],
+        ["油", "yóu", "oil"],
+        ["的", "de", "(nominalizer)"],
+        ["老人", "lǎorén", "old man"],
+        ["站", "zhàn", "to stand"],
+        ["在", "zài", "at"],
+        ["旁边", "pángbiān", "beside"],
+        ["看", "kàn", "to watch"],
+        ["他", "tā", "him"],
+        ["射箭", "shèjiàn", "shoot arrows"],
+        ["，"],
+        ["只是", "zhǐshì", "merely"],
+        ["轻轻", "qīngqīng", "lightly"],
+        ["地", "de", "(adverbial particle)"],
+        ["点头", "diǎntóu", "to nod"],
+        ["。"]
+      ],
+      "en": "One day, an old oil seller stood nearby watching him shoot, and gave only a slight nod."
+    },
+    {
+      "t": [
+        ["那个", "nàge", "that"],
+        ["人", "rén", "person"],
+        ["不", "bù", "not"],
+        ["高兴", "gāoxìng", "happy"],
+        ["地", "de", "(adverbial particle)"],
+        ["问", "wèn", "to ask"],
+        ["："],
+        ["“"],
+        ["难道", "nándào", "could it be that"],
+        ["你", "nǐ", "you"],
+        ["觉得", "juéde", "to think"],
+        ["我", "wǒ", "I"],
+        ["射箭", "shèjiàn", "archery"],
+        ["不", "bù", "not"],
+        ["好", "hǎo", "good"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "Annoyed, the man asked, \"Do you really think my archery is not good?\""
+    },
+    {
+      "t": [
+        ["老人", "lǎorén", "old man"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["这", "zhè", "this"],
+        ["没有", "méiyǒu", "not have"],
+        ["什么", "shénme", "anything"],
+        ["，"],
+        ["只是", "zhǐshì", "just"],
+        ["你", "nǐ", "you"],
+        ["练", "liàn", "to practice"],
+        ["得", "de", "(degree particle)"],
+        ["多", "duō", "much"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The old man said, \"It is nothing special — you have simply practiced a lot.\""
+    },
+    {
+      "t": [
+        ["说完", "shuōwán", "to finish speaking"],
+        ["，"],
+        ["老人", "lǎorén", "old man"],
+        ["把", "bǎ", "(object marker)"],
+        ["一个", "yí ge", "one"],
+        ["瓶子", "píngzi", "bottle"],
+        ["放", "fàng", "to place"],
+        ["在", "zài", "on"],
+        ["地上", "dìshang", "the ground"],
+        ["，"],
+        ["又", "yòu", "then"],
+        ["在", "zài", "on"],
+        ["瓶子", "píngzi", "bottle"],
+        ["上", "shàng", "top"],
+        ["放", "fàng", "to place"],
+        ["了", "le", "(particle)"],
+        ["一个", "yí ge", "one"],
+        ["中间", "zhōngjiān", "middle"],
+        ["有", "yǒu", "to have"],
+        ["小", "xiǎo", "small"],
+        ["洞", "dòng", "hole"],
+        ["的", "de", "(possessive)"],
+        ["铜钱", "tóngqián", "copper coin"],
+        ["。"]
+      ],
+      "en": "With that, the old man set a bottle on the ground and placed on top of it a copper coin with a small hole in the middle."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["地", "de", "(adverbial particle)"],
+        ["把", "bǎ", "(object marker)"],
+        ["油", "yóu", "oil"],
+        ["从", "cóng", "through"],
+        ["小", "xiǎo", "small"],
+        ["洞", "dòng", "hole"],
+        ["倒", "dào", "to pour"],
+        ["进", "jìn", "into"],
+        ["瓶子", "píngzi", "bottle"],
+        ["里", "lǐ", "inside"],
+        ["，"],
+        ["铜钱", "tóngqián", "copper coin"],
+        ["上", "shàng", "on"],
+        ["一点儿", "yìdiǎnr", "a bit"],
+        ["油", "yóu", "oil"],
+        ["也", "yě", "even"],
+        ["没有", "méiyǒu", "not have"],
+        ["。"]
+      ],
+      "en": "Slowly he poured the oil through the small hole into the bottle, and not a drop of oil touched the coin."
+    },
+    {
+      "t": [
+        ["老人", "lǎorén", "old man"],
+        ["笑着", "xiàozhe", "smiling"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I"],
+        ["也", "yě", "also"],
+        ["没有", "méiyǒu", "not have"],
+        ["什么", "shénme", "anything"],
+        ["，"],
+        ["只是", "zhǐshì", "just"],
+        ["倒", "dào", "to pour"],
+        ["油", "yóu", "oil"],
+        ["倒", "dào", "to pour"],
+        ["得", "de", "(degree particle)"],
+        ["多", "duō", "much"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The old man said with a smile, \"I am nothing special either — I have simply poured oil many, many times.\""
+    },
+    {
+      "t": [
+        ["那个", "nàge", "that"],
+        ["人", "rén", "person"],
+        ["明白", "míngbai", "to understand"],
+        ["了", "le", "(particle)"],
+        ["："],
+        ["任何", "rènhé", "any"],
+        ["事情", "shìqing", "thing"],
+        ["，"],
+        ["只要", "zhǐyào", "as long as"],
+        ["多", "duō", "more"],
+        ["做", "zuò", "to do"],
+        ["多", "duō", "more"],
+        ["练", "liàn", "to practice"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["做", "zuò", "to do"],
+        ["得", "de", "(degree particle)"],
+        ["又", "yòu", "both"],
+        ["快", "kuài", "fast"],
+        ["又", "yòu", "and"],
+        ["好", "hǎo", "well"],
+        ["。"]
+      ],
+      "en": "The man understood: with anything at all, as long as you do it and practice it enough, you can do it both quickly and well."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["就", "jiù", "exactly"],
+        ["是", "shì", "is"],
+        ["“"],
+        ["熟能生巧", "shú néng shēng qiǎo", "practice makes perfect"],
+        ["”"],
+        ["的", "de", "(possessive)"],
+        ["意思", "yìsi", "meaning"],
+        ["。"]
+      ],
+      "en": "This is what \"practice makes perfect\" means."
+    }
+  ],
+  "vocab": [
+    ["射箭", "shèjiàn", "archery; to shoot arrows"],
+    ["中", "zhòng", "to hit (a target)"],
+    ["油", "yóu", "oil"],
+    ["洞", "dòng", "hole"],
+    ["铜钱", "tóngqián", "copper coin"],
+    ["熟能生巧", "shú néng shēng qiǎo", "practice makes perfect"]
+  ],
+  "quiz": [
+    {
+      "q": "Why was the archer proud?",
+      "a": ["He could hit the target nine times out of ten", "He was the richest man in town", "He poured oil better than anyone"],
+      "c": 0
+    },
+    {
+      "q": "How did the old man pour the oil into the bottle?",
+      "a": ["Through a small hole in a copper coin", "With a big spoon", "By asking the archer to help"],
+      "c": 0
+    },
+    {
+      "q": "What is the moral of the story?",
+      "a": ["Talent matters more than practice", "Skill comes from doing something many times", "Old people are always wiser than young people"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "把 + object + verb",
+      "e": "The 把 structure moves the object before the verb to show what is done to it: 老人把油倒进瓶子里。",
+      "x": "请把门关上。— Please close the door."
+    },
+    {
+      "p": "难道……吗？",
+      "e": "A rhetorical question that expresses disbelief: 难道你觉得我射箭不好吗？",
+      "x": "难道你不知道今天是我的生日吗？— Don't tell me you didn't know today is my birthday?"
+    }
+  ]
+}

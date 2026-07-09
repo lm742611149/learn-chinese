@@ -1,0 +1,207 @@
+{
+  "slug": "hsk3-beijing-seasons",
+  "level": 3,
+  "title_zh": "北京的四季",
+  "title_py": "Běijīng de sìjì",
+  "title_en": "Beijing's Four Seasons",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "in; at"],
+        ["北京", "Běijīng", "Beijing"],
+        ["住", "zhù", "to live"],
+        ["了", "le", "(particle: completed action)"],
+        ["两年", "liǎng nián", "two years"],
+        ["了", "le", "(particle: up to now)"],
+        ["，"],
+        ["发现", "fāxiàn", "to find; to discover"],
+        ["这里", "zhèlǐ", "here"],
+        ["的", "de", "(particle: possessive)"],
+        ["四季", "sìjì", "the four seasons"],
+        ["很", "hěn", "very"],
+        ["不", "bù", "not"],
+        ["一样", "yíyàng", "the same"],
+        ["。"]
+      ],
+      "en": "I've lived in Beijing for two years now, and I've found the four seasons here are all very different."
+    },
+    {
+      "t": [
+        ["春天", "chūntiān", "spring"],
+        ["，"],
+        ["公园", "gōngyuán", "park"],
+        ["里", "lǐ", "inside"],
+        ["的", "de", "(particle: possessive)"],
+        ["花", "huā", "flower"],
+        ["都", "dōu", "all"],
+        ["开", "kāi", "to bloom"],
+        ["了", "le", "(particle: change of state)"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["风", "fēng", "wind"],
+        ["有点儿", "yǒudiǎnr", "a little; a bit"],
+        ["大", "dà", "big; strong"],
+        ["。"]
+      ],
+      "en": "In spring, the flowers in the parks all bloom, but the wind is a bit strong."
+    },
+    {
+      "t": [
+        ["夏天", "xiàtiān", "summer"],
+        ["特别", "tèbié", "especially"],
+        ["热", "rè", "hot"],
+        ["，"],
+        ["晚上", "wǎnshang", "evening"],
+        ["人们", "rénmen", "people"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at"],
+        ["外面", "wàimiàn", "outside"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["、"],
+        ["聊天", "liáotiān", "to chat"],
+        ["。"]
+      ],
+      "en": "Summer is especially hot; in the evenings people like to sit outside eating and chatting."
+    },
+    {
+      "t": [
+        ["秋天", "qiūtiān", "autumn"],
+        ["是", "shì", "to be"],
+        ["北京", "Běijīng", "Beijing"],
+        ["最", "zuì", "most"],
+        ["好", "hǎo", "good"],
+        ["的", "de", "(particle: possessive)"],
+        ["季节", "jìjié", "season"],
+        ["，"],
+        ["天", "tiān", "sky"],
+        ["很", "hěn", "very"],
+        ["蓝", "lán", "blue"],
+        ["，"],
+        ["不", "bù", "not"],
+        ["冷", "lěng", "cold"],
+        ["也", "yě", "also; either"],
+        ["不", "bú", "not"],
+        ["热", "rè", "hot"],
+        ["。"]
+      ],
+      "en": "Autumn is Beijing's best season — the sky is blue, and it's neither cold nor hot."
+    },
+    {
+      "t": [
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "person; people"],
+        ["秋天", "qiūtiān", "autumn"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["看", "kàn", "to look at; to see"],
+        ["变", "biàn", "to turn; to become"],
+        ["红", "hóng", "red"],
+        ["的", "de", "(particle: possessive)"],
+        ["树叶", "shùyè", "tree leaves"],
+        ["。"]
+      ],
+      "en": "In autumn, many people go to the parks to see the leaves that have turned red."
+    },
+    {
+      "t": [
+        ["冬天", "dōngtiān", "winter"],
+        ["很", "hěn", "very"],
+        ["冷", "lěng", "cold"],
+        ["，"],
+        ["常常", "chángcháng", "often"],
+        ["刮风", "guā fēng", "to be windy"],
+        ["，"],
+        ["有时候", "yǒu shíhou", "sometimes"],
+        ["还", "hái", "even; also"],
+        ["会", "huì", "will; may"],
+        ["下雪", "xià xuě", "to snow"],
+        ["。"]
+      ],
+      "en": "Winter is very cold; it's often windy, and sometimes it even snows."
+    },
+    {
+      "t": [
+        ["去年", "qùnián", "last year"],
+        ["冬天", "dōngtiān", "winter"],
+        ["我", "wǒ", "I; me"],
+        ["第一次", "dì yī cì", "the first time"],
+        ["看见", "kànjiàn", "to see"],
+        ["下雪", "xià xuě", "to snow"],
+        ["，"],
+        ["高兴", "gāoxìng", "happy"],
+        ["得", "de", "(particle: to the extent that)"],
+        ["像", "xiàng", "to be like"],
+        ["个", "ge", "(measure word)"],
+        ["孩子", "háizi", "child"],
+        ["一样", "yíyàng", "the same as"],
+        ["。"]
+      ],
+      "en": "Last winter I saw snow for the first time and was as happy as a child."
+    },
+    {
+      "t": [
+        ["如果", "rúguǒ", "if"],
+        ["你", "nǐ", "you"],
+        ["想", "xiǎng", "to want to"],
+        ["来", "lái", "to come"],
+        ["北京", "Běijīng", "Beijing"],
+        ["玩儿", "wánr", "to have fun; to visit"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["告诉", "gàosu", "to tell"],
+        ["你", "nǐ", "you"],
+        ["："],
+        ["秋天", "qiūtiān", "autumn"],
+        ["来", "lái", "to come"],
+        ["最", "zuì", "most"],
+        ["好", "hǎo", "good"],
+        ["！"]
+      ],
+      "en": "If you want to visit Beijing, let me tell you: autumn is the best time to come!"
+    }
+  ],
+  "vocab": [
+    ["四季", "sìjì", "the four seasons"],
+    ["季节", "jìjié", "season"],
+    ["蓝", "lán", "blue"],
+    ["树叶", "shùyè", "tree leaves"],
+    ["刮风", "guā fēng", "to be windy"],
+    ["像", "xiàng", "to be like"]
+  ],
+  "quiz": [
+    {
+      "q": "Which season does the writer say is the best in Beijing?",
+      "a": ["Spring", "Autumn", "Winter"],
+      "c": 1
+    },
+    {
+      "q": "What do people like to do on summer evenings?",
+      "a": [
+        "Sit outside eating and chatting",
+        "Go see the red leaves",
+        "Play in the snow"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the writer see for the first time last winter?",
+      "a": ["A park", "The blue sky", "Snow"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不 A 也不 B — neither A nor B",
+      "e": "Puts two opposite adjectives together, often meaning \"just right\": 不冷也不热。",
+      "x": "这个房间不大也不小。 — This room is neither big nor small."
+    },
+    {
+      "p": "Adjective + 得 + description — so… that…",
+      "e": "得 links an adjective to how strong it is: 高兴得像个孩子一样。",
+      "x": "他累得不想说话。 — He was so tired he didn't want to talk."
+    }
+  ]
+}

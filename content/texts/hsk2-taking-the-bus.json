@@ -1,0 +1,173 @@
+{
+  "slug": "hsk2-taking-the-bus",
+  "level": 2,
+  "title_zh": "坐公共汽车",
+  "title_py": "Zuò gōnggòng qìchē",
+  "title_en": "Taking the Bus",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["公司", "gōngsī", "company"],
+        ["离", "lí", "(distance) from"],
+        ["家", "jiā", "home"],
+        ["很", "hěn", "very"],
+        ["远", "yuǎn", "far"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["我", "wǒ", "I; me"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["坐", "zuò", "to take (transport)"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["上班", "shàngbān", "to go to work"],
+        ["。"]
+      ],
+      "en": "My company is far from home, so I take the bus to work every day."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["下雨", "xià yǔ", "to rain"],
+        ["，"],
+        ["车站", "chēzhàn", "bus stop; station"],
+        ["等", "děng", "to wait"],
+        ["车", "chē", "vehicle; bus"],
+        ["的", "de", "(particle: one that...)"],
+        ["人", "rén", "person; people"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "It was raining this morning, and a lot of people were waiting for the bus at the stop."
+    },
+    {
+      "t": [
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["来", "lái", "to come"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["上", "shàng", "to get on"],
+        ["了", "le", "(aspect particle)"],
+        ["车", "chē", "vehicle; bus"],
+        ["。"]
+      ],
+      "en": "The bus came, and everyone got on."
+    },
+    {
+      "t": [
+        ["车", "chē", "vehicle; bus"],
+        ["上", "shang", "on"],
+        ["没有", "méiyǒu", "to not have"],
+        ["座位", "zuòwèi", "seat"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["站", "zhàn", "to stand"],
+        ["了", "le", "(aspect particle)"],
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["。"]
+      ],
+      "en": "There were no seats on the bus, so I stood for twenty minutes."
+    },
+    {
+      "t": [
+        ["一个", "yí gè", "one; a"],
+        ["学生", "xuésheng", "student"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["要", "yào", "to be about to"],
+        ["下车", "xià chē", "to get off"],
+        ["了", "le", "(particle: about to)"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["坐", "zuò", "to sit"],
+        ["这儿", "zhèr", "here"],
+        ["吧", "ba", "(suggestion particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "A student said to me, \"I'm getting off soon — take my seat.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["谢谢", "xièxie", "to thank"],
+        ["你", "nǐ", "you"],
+        ["！"],
+        ["”"],
+        ["雨", "yǔ", "rain"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big; heavy"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "I said, \"Thank you!\" The rain was heavy, but I felt happy."
+    }
+  ],
+  "vocab": [
+    ["公共汽车", "gōnggòng qìchē", "bus"],
+    ["上班", "shàngbān", "to go to work"],
+    ["车站", "chēzhàn", "bus stop; station"],
+    ["座位", "zuòwèi", "seat"],
+    ["站", "zhàn", "to stand"],
+    ["下车", "xià chē", "to get off (a vehicle)"]
+  ],
+  "quiz": [
+    {
+      "q": "Why does the writer take the bus every day?",
+      "a": [
+        "His company is far from his home",
+        "He doesn't like walking",
+        "The bus is free in the morning"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Why did the writer have to stand on the bus?",
+      "a": [
+        "He likes standing",
+        "There were no seats",
+        "He was only going one stop"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did the student do?",
+      "a": [
+        "Asked the writer for directions",
+        "Lent the writer an umbrella",
+        "Offered his seat because he was getting off"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "…，所以… — result",
+      "e": "所以 introduces the result of a reason: 公司离家很远，所以我坐公共汽车. Often paired with 因为.",
+      "x": "因为下雨，所以等车的人很多。— Because it was raining, many people were waiting for the bus."
+    },
+    {
+      "p": "要…了 — about to happen",
+      "e": "要 + verb + 了 means something is about to happen very soon.",
+      "x": "我要下车了。— I'm about to get off."
+    }
+  ]
+}

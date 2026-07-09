@@ -1,0 +1,148 @@
+{
+  "slug": "hsk5-remote-work",
+  "level": 5,
+  "title_zh": "远程办公",
+  "title_py": "Yuǎnchéng bàngōng",
+  "title_en": "Remote Work",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["疫情","yìqíng","epidemic"], ["以后","yǐhòu","after"], ["，"],
+        ["我们","wǒmen","our"], ["公司","gōngsī","company"], ["允许","yǔnxǔ","to allow"],
+        ["员工","yuángōng","employee"], ["每周","měizhōu","every week"],
+        ["在","zài","at"], ["家","jiā","home"], ["办公","bàngōng","to do office work"],
+        ["三","sān","three"], ["天","tiān","day"], ["。"]
+      ],
+      "en": "After the epidemic, our company allowed employees to work from home three days a week."
+    },
+    {
+      "t": [
+        ["一开始","yìkāishǐ","at first"], ["，"],
+        ["我","wǒ","I"], ["以为","yǐwéi","thought (wrongly)"], ["这","zhè","this"],
+        ["是","shì","is"], ["世界","shìjiè","world"], ["上","shang","on"],
+        ["最","zuì","most"], ["幸福","xìngfú","happy"], ["的","de","(particle)"],
+        ["事","shì","thing"], ["："],
+        ["不用","búyòng","no need to"], ["挤","jǐ","to squeeze into"], ["地铁","dìtiě","subway"], ["，"],
+        ["不用","búyòng","no need to"], ["穿","chuān","to wear"], ["正式","zhèngshì","formal"],
+        ["的","de","(particle)"], ["衣服","yīfu","clothes"], ["，"],
+        ["甚至","shènzhì","even"], ["可以","kěyǐ","can"],
+        ["一边","yìbiān","while"], ["开会","kāihuì","attend a meeting"],
+        ["一边","yìbiān","while"], ["摸","mō","to pet"], ["猫","māo","cat"], ["。"]
+      ],
+      "en": "At first, I thought it was the happiest thing in the world: no squeezing onto the subway, no formal clothes, and I could even pet the cat during meetings."
+    },
+    {
+      "t": [
+        ["可是","kěshì","but"], ["三","sān","three"], ["个","gè","(measure)"],
+        ["月","yuè","month"], ["以后","yǐhòu","later"], ["，"],
+        ["我","wǒ","I"], ["发现","fāxiàn","to discover"], ["事情","shìqing","the matter"],
+        ["没有","méiyǒu","not"], ["那么","nàme","so"], ["简单","jiǎndān","simple"], ["。"]
+      ],
+      "en": "But three months later, I discovered things were not that simple."
+    },
+    {
+      "t": [
+        ["在","zài","at"], ["家里","jiāli","home"], ["，"],
+        ["工作","gōngzuò","work"], ["和","hé","and"], ["生活","shēnghuó","life"],
+        ["的","de","(particle)"], ["界限","jièxiàn","boundary"],
+        ["越来越","yuèláiyuè","more and more"], ["模糊","móhu","blurry"], ["。"]
+      ],
+      "en": "At home, the boundary between work and life became more and more blurry."
+    },
+    {
+      "t": [
+        ["晚上","wǎnshang","evening"], ["十","shí","ten"], ["点","diǎn","o'clock"], ["，"],
+        ["同事","tóngshì","colleague"], ["还","hái","still"], ["在","zài","in"],
+        ["群","qún","(chat) group"], ["里","li","inside"],
+        ["发","fā","to send"], ["消息","xiāoxi","message"], ["，"],
+        ["你","nǐ","you"], ["回","huí","to reply"], ["不","bù","not"], ["回","huí","to reply"], ["？"]
+      ],
+      "en": "At ten in the evening, colleagues are still sending messages in the group chat — do you reply or not?"
+    },
+    {
+      "t": [
+        ["我","wǒ","I"], ["也","yě","also"], ["开始","kāishǐ","to begin"],
+        ["想念","xiǎngniàn","to miss"], ["办公室","bàngōngshì","office"], ["里","li","inside"],
+        ["那些","nàxiē","those"], ["无聊","wúliáo","boring"], ["的","de","(particle)"],
+        ["小事","xiǎoshì","little things"], ["："],
+        ["中午","zhōngwǔ","noon"], ["和","hé","with"], ["同事","tóngshì","colleague"],
+        ["一起","yìqǐ","together"], ["吃饭","chīfàn","to eat"], ["，"],
+        ["下午","xiàwǔ","afternoon"], ["有人","yǒurén","someone"], ["请","qǐng","to treat"],
+        ["大家","dàjiā","everyone"], ["喝","hē","to drink"], ["咖啡","kāfēi","coffee"], ["。"]
+      ],
+      "en": "I also began to miss the boring little things at the office: lunch with colleagues at noon, someone treating everyone to coffee in the afternoon."
+    },
+    {
+      "t": [
+        ["原来","yuánlái","it turns out"], ["我","wǒ","I"], ["怀念","huáiniàn","to cherish the memory of"],
+        ["的","de","(particle)"], ["不是","búshì","is not"], ["办公室","bàngōngshì","office"], ["，"],
+        ["而是","érshì","but rather"], ["人","rén","person"], ["和","hé","and"],
+        ["人","rén","person"], ["之间","zhījiān","between"], ["的","de","(particle)"],
+        ["温度","wēndù","warmth"], ["。"]
+      ],
+      "en": "It turns out what I missed was not the office, but the warmth between people."
+    },
+    {
+      "t": [
+        ["现在","xiànzài","now"], ["我","wǒ","I"], ["每周","měizhōu","every week"],
+        ["去","qù","to go"], ["公司","gōngsī","company"], ["两","liǎng","two"], ["天","tiān","day"], ["，"],
+        ["在","zài","at"], ["家","jiā","home"], ["工作","gōngzuò","to work"],
+        ["三","sān","three"], ["天","tiān","day"], ["，"],
+        ["慢慢","mànmàn","slowly"], ["找到","zhǎodào","to find"], ["了","le","(particle)"],
+        ["平衡","pínghéng","balance"], ["。"]
+      ],
+      "en": "Now I go to the company two days a week and work from home three days, and I have slowly found a balance."
+    },
+    {
+      "t": [
+        ["远程","yuǎnchéng","remote"], ["办公","bàngōng","office work"],
+        ["没有","méiyǒu","not"], ["那么","nàme","so"], ["好","hǎo","good"], ["，"],
+        ["也","yě","also"], ["没有","méiyǒu","not"], ["那么","nàme","so"], ["坏","huài","bad"], ["，"],
+        ["它","tā","it"], ["只是","zhǐshì","just"], ["一","yì","one"], ["种","zhǒng","kind"],
+        ["新","xīn","new"], ["的","de","(particle)"], ["生活","shēnghuó","life"],
+        ["方式","fāngshì","way"], ["，"],
+        ["需要","xūyào","to require"], ["我们","wǒmen","we"], ["自己","zìjǐ","oneself"],
+        ["学会","xuéhuì","to learn to"], ["管理","guǎnlǐ","to manage"], ["。"]
+      ],
+      "en": "Remote work is not that good, nor that bad — it is simply a new way of living that we have to learn to manage ourselves."
+    }
+  ],
+  "vocab": [
+    ["疫情","yìqíng","epidemic"],
+    ["远程","yuǎnchéng","remote"],
+    ["界限","jièxiàn","boundary"],
+    ["模糊","móhu","blurry; vague"],
+    ["怀念","huáiniàn","to cherish the memory of"],
+    ["平衡","pínghéng","balance"]
+  ],
+  "quiz": [
+    {
+      "q": "How many days per week does the company allow employees to work from home?",
+      "a": ["Two days", "Three days", "Five days"],
+      "c": 1
+    },
+    {
+      "q": "What did the writer realize they actually missed about the office?",
+      "a": ["The formal clothes", "The subway commute", "The warmth between people"],
+      "c": 2
+    },
+    {
+      "q": "What problem did the writer notice after three months at home?",
+      "a": ["The boundary between work and life became blurry", "The cat kept interrupting meetings", "The company reduced salaries"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "原来 (it turns out)",
+      "e": "原来 introduces a sudden realization of something that was true all along: 原来我怀念的不是办公室，而是人和人之间的温度。",
+      "x": "原来他早就知道这件事了。— It turns out he had known about this all along."
+    },
+    {
+      "p": "不是…而是… (not A, but rather B)",
+      "e": "Corrects a wrong assumption by replacing A with B: 我怀念的不是办公室，而是人和人之间的温度。",
+      "x": "他不是不想去，而是没有时间。— It's not that he doesn't want to go; he simply has no time."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "hsk5-short-video-era",
+  "level": 5,
+  "title_zh": "短视频时代",
+  "title_py": "Duǎnshìpín shídài",
+  "title_en": "The Short Video Era",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["晚上","wǎnshang","at night"], ["睡觉","shuìjiào","to sleep"], ["前","qián","before"], ["，"],
+        ["我","wǒ","I"], ["告诉","gàosu","to tell"], ["自己","zìjǐ","myself"], ["："],
+        ["只","zhǐ","only"], ["看","kàn","to watch"], ["十","shí","ten"],
+        ["分钟","fēnzhōng","minutes"], ["短视频","duǎnshìpín","short video"], ["。"]
+      ],
+      "en": "Before going to sleep at night, I tell myself: only ten minutes of short videos."
+    },
+    {
+      "t": [
+        ["等","děng","by the time"], ["我","wǒ","I"], ["再","zài","again"],
+        ["看","kàn","to look at"], ["时间","shíjiān","time"],
+        ["的","de","(particle)"], ["时候","shíhou","moment"], ["，"],
+        ["已经","yǐjīng","already"], ["是","shì","is"], ["半夜","bànyè","middle of the night"],
+        ["一","yì","one"], ["点","diǎn","o'clock"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "By the time I look at the clock again, it is already one in the morning."
+    },
+    {
+      "t": [
+        ["我","wǒ","I"], ["相信","xiāngxìn","to believe"], ["，"],
+        ["很多","hěnduō","many"], ["人","rén","people"], ["都","dōu","all"],
+        ["有","yǒu","to have"], ["和","hé","with"], ["我","wǒ","me"],
+        ["一样","yíyàng","the same"], ["的","de","(particle)"],
+        ["经历","jīnglì","experience"], ["。"]
+      ],
+      "en": "I believe many people have had the same experience as me."
+    },
+    {
+      "t": [
+        ["短视频","duǎnshìpín","short video"], ["确实","quèshí","indeed"],
+        ["给","gěi","to give"], ["了","le","(particle)"], ["我们","wǒmen","us"],
+        ["很多","hěnduō","a lot"], ["："],
+        ["三","sān","three"], ["分钟","fēnzhōng","minutes"], ["学会","xuéhuì","to learn"],
+        ["一","yí","one"], ["道","dào","(measure for dishes)"], ["菜","cài","dish"], ["，"],
+        ["一","yì","one"], ["分钟","fēnzhōng","minute"], ["了解","liǎojiě","to understand"],
+        ["一","yì","one"], ["条","tiáo","(measure)"], ["新闻","xīnwén","news"], ["，"],
+        ["还有","háiyǒu","and also"], ["无数","wúshù","countless"],
+        ["让","ràng","to make"], ["人","rén","people"], ["大笑","dàxiào","laugh out loud"],
+        ["的","de","(particle)"], ["瞬间","shùnjiān","moment"], ["。"]
+      ],
+      "en": "Short videos have indeed given us a lot: learn a dish in three minutes, catch up on a news story in one minute, and countless moments that make us laugh out loud."
+    },
+    {
+      "t": [
+        ["可是","kěshì","but"], ["它","tā","it"], ["也","yě","also"],
+        ["悄悄","qiāoqiāo","quietly"], ["改变","gǎibiàn","to change"],
+        ["了","le","(particle)"], ["我们","wǒmen","us"], ["："],
+        ["我","wǒ","I"], ["发现","fāxiàn","to find"], ["自己","zìjǐ","myself"],
+        ["越来越","yuèláiyuè","more and more"], ["难","nán","hard"],
+        ["读完","dúwán","to finish reading"], ["一","yì","one"], ["本","běn","(measure)"],
+        ["书","shū","book"], ["，"],
+        ["甚至","shènzhì","even"], ["觉得","juéde","to feel"],
+        ["一","yí","one"], ["部","bù","(measure for films)"],
+        ["两","liǎng","two"], ["个","gè","(measure)"], ["小时","xiǎoshí","hour"],
+        ["的","de","(particle)"], ["电影","diànyǐng","movie"],
+        ["太","tài","too"], ["长","cháng","long"], ["。"]
+      ],
+      "en": "But they have also quietly changed us: I find it harder and harder to finish a book, and even a two-hour movie feels too long."
+    },
+    {
+      "t": [
+        ["我们","wǒmen","our"], ["的","de","(particle)"], ["耐心","nàixīn","patience"], ["，"],
+        ["好像","hǎoxiàng","as if"], ["被","bèi","(passive marker)"],
+        ["一","yì","one"], ["秒","miǎo","second"], ["一","yì","one"], ["秒","miǎo","second"],
+        ["地","de","(adverbial particle)"], ["刷","shuā","to swipe"],
+        ["掉","diào","away"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "Our patience seems to have been swiped away, one second at a time."
+    },
+    {
+      "t": [
+        ["有人","yǒurén","some people"], ["说","shuō","to say"],
+        ["应该","yīnggāi","should"], ["删掉","shāndiào","to delete"],
+        ["这些","zhèxiē","these"], ["软件","ruǎnjiàn","apps"], ["，"],
+        ["我","wǒ","I"], ["试过","shìguo","have tried"], ["三","sān","three"],
+        ["次","cì","times"], ["，"],
+        ["每次","měicì","every time"], ["都","dōu","all"],
+        ["失败","shībài","to fail"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "Some people say we should delete these apps; I have tried three times, and failed every time."
+    },
+    {
+      "t": [
+        ["后来","hòulái","later"], ["我","wǒ","I"], ["换","huàn","to switch"],
+        ["了","le","(particle)"], ["一","yí","one"], ["个","gè","(measure)"],
+        ["办法","bànfǎ","method"], ["："],
+        ["不是","búshì","not"], ["完全","wánquán","completely"], ["不","bú","not"],
+        ["看","kàn","to watch"], ["，"],
+        ["而是","érshì","but rather"], ["规定","guīdìng","to set a rule for"],
+        ["自己","zìjǐ","myself"], ["只","zhǐ","only"], ["在","zài","at"],
+        ["晚饭","wǎnfàn","dinner"], ["以后","yǐhòu","after"],
+        ["看","kàn","to watch"], ["半","bàn","half"], ["个","gè","(measure)"],
+        ["小时","xiǎoshí","hour"], ["。"]
+      ],
+      "en": "Later I switched to another method: not quitting completely, but setting a rule to watch only half an hour after dinner."
+    },
+    {
+      "t": [
+        ["哪怕","nǎpà","even if"], ["只","zhǐ","only"], ["能","néng","can"],
+        ["做到","zuòdào","to achieve"], ["一半","yíbàn","half"], ["，"],
+        ["也","yě","still"], ["比","bǐ","than"], ["躺","tǎng","to lie"],
+        ["在","zài","on"], ["床","chuáng","bed"], ["上","shang","on"],
+        ["刷","shuā","to scroll"], ["到","dào","until"],
+        ["半夜","bànyè","midnight"], ["好","hǎo","better"], ["。"]
+      ],
+      "en": "Even if I only manage half of it, it is still better than lying in bed scrolling until midnight."
+    },
+    {
+      "t": [
+        ["工具","gōngjù","tool"], ["没有","méiyǒu","have no"],
+        ["好坏","hǎohuài","good or bad"], ["，"],
+        ["关键","guānjiàn","the key"], ["是","shì","is"], ["："],
+        ["到底","dàodǐ","after all"], ["是","shì","is"], ["我们","wǒmen","we"],
+        ["在","zài","(progressive)"], ["用","yòng","to use"], ["它","tā","it"], ["，"],
+        ["还是","háishi","or"], ["它","tā","it"], ["在","zài","(progressive)"],
+        ["用","yòng","to use"], ["我们","wǒmen","us"], ["？"]
+      ],
+      "en": "Tools are neither good nor bad; the key question is: in the end, are we using them, or are they using us?"
+    }
+  ],
+  "vocab": [
+    ["短视频","duǎnshìpín","short video"],
+    ["刷","shuā","to swipe; to scroll (a phone)"],
+    ["瞬间","shùnjiān","moment; instant"],
+    ["删掉","shāndiào","to delete"],
+    ["规定","guīdìng","to set a rule; regulation"],
+    ["关键","guānjiàn","key point; crucial"]
+  ],
+  "quiz": [
+    {
+      "q": "What happened when the writer planned to watch only ten minutes before bed?",
+      "a": ["They fell asleep right away", "They kept watching until one in the morning", "They deleted the app instead"],
+      "c": 1
+    },
+    {
+      "q": "How many times did the writer try to delete the apps?",
+      "a": ["Once", "Twice", "Three times"],
+      "c": 2
+    },
+    {
+      "q": "What method finally worked better for the writer?",
+      "a": ["Watching only half an hour after dinner", "Buying a phone without apps", "Asking a friend to set a password"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "哪怕…也… (even if…, still…)",
+      "e": "哪怕 concedes an extreme or imperfect situation, and 也 states that the conclusion still holds: 哪怕只能做到一半，也比刷到半夜好。",
+      "x": "哪怕明天下大雨，我也要去。— Even if it pours tomorrow, I will still go."
+    },
+    {
+      "p": "到底 (after all; in the end)",
+      "e": "In a question, 到底 presses for the real answer: 到底是我们在用它，还是它在用我们？",
+      "x": "你到底想说什么？— What exactly are you trying to say?"
+    }
+  ]
+}

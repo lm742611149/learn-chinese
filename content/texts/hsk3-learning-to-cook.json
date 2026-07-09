@@ -1,0 +1,206 @@
+{
+  "slug": "hsk3-learning-to-cook",
+  "level": 3,
+  "title_zh": "学做中国菜",
+  "title_py": "Xué zuò Zhōngguó cài",
+  "title_en": "Learning to Cook Chinese Food",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["吃", "chī", "to eat"],
+        ["中国菜", "Zhōngguó cài", "Chinese food"],
+        ["，"],
+        ["一直", "yìzhí", "all along; always"],
+        ["想", "xiǎng", "to want to"],
+        ["学", "xué", "to learn"],
+        ["怎么", "zěnme", "how"],
+        ["做", "zuò", "to make; to cook"],
+        ["。"]
+      ],
+      "en": "I love eating Chinese food and have always wanted to learn how to cook it."
+    },
+    {
+      "t": [
+        ["上个周末", "shàng ge zhōumò", "last weekend"],
+        ["，"],
+        ["中国", "Zhōngguó", "China; Chinese"],
+        ["朋友", "péngyou", "friend"],
+        ["请", "qǐng", "to invite"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["她", "tā", "she; her"],
+        ["家", "jiā", "home"],
+        ["，"],
+        ["教", "jiāo", "to teach"],
+        ["我", "wǒ", "I; me"],
+        ["做", "zuò", "to make; to cook"],
+        ["西红柿", "xīhóngshì", "tomato"],
+        ["炒", "chǎo", "to stir-fry"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["。"]
+      ],
+      "en": "Last weekend, my Chinese friend invited me to her home and taught me to make tomato and egg stir-fry."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["先", "xiān", "first"],
+        ["去", "qù", "to go"],
+        ["超市", "chāoshì", "supermarket"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["和", "hé", "and"],
+        ["西红柿", "xīhóngshì", "tomato"],
+        ["。"]
+      ],
+      "en": "First we went to the supermarket and bought eggs and tomatoes."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["这个", "zhège", "this"],
+        ["菜", "cài", "dish"],
+        ["很", "hěn", "very"],
+        ["容易", "róngyì", "easy"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["别", "bié", "don't"],
+        ["忘", "wàng", "to forget"],
+        ["了", "le", "(particle)"],
+        ["放", "fàng", "to put in; to add"],
+        ["盐", "yán", "salt"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My friend said, \"This dish is easy, but don't forget to add the salt.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["第一次", "dì yī cì", "the first time"],
+        ["做", "zuò", "to make; to cook"],
+        ["的", "de", "(particle: possessive)"],
+        ["菜", "cài", "dish"],
+        ["太", "tài", "too"],
+        ["咸", "xián", "salty"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["朋友", "péngyou", "friend"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle: completed action)"],
+        ["一口", "yì kǒu", "one bite"],
+        ["就", "jiù", "then; right away"],
+        ["笑", "xiào", "to laugh"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "The first dish I made was too salty; my friend took one bite and laughed."
+    },
+    {
+      "t": [
+        ["第二次", "dì èr cì", "the second time"],
+        ["我", "wǒ", "I; me"],
+        ["放", "fàng", "to put in; to add"],
+        ["的", "de", "(particle: possessive)"],
+        ["盐", "yán", "salt"],
+        ["少", "shǎo", "little; less"],
+        ["了", "le", "(particle)"],
+        ["一些", "yìxiē", "some; a bit"],
+        ["，"],
+        ["做", "zuò", "to make; to cook"],
+        ["得", "de", "(particle: describes how)"],
+        ["比", "bǐ", "compared with; than"],
+        ["第一次", "dì yī cì", "the first time"],
+        ["好", "hǎo", "good"],
+        ["多了", "duō le", "much (better)"],
+        ["。"]
+      ],
+      "en": "The second time I used a little less salt, and it turned out much better than the first."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["我们", "wǒmen", "we; us"],
+        ["一边", "yìbiān", "on one hand (一边…一边…)"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["，"],
+        ["一边", "yìbiān", "on the other (一边…一边…)"],
+        ["聊天", "liáotiān", "to chat"],
+        ["，"],
+        ["时间", "shíjiān", "time"],
+        ["过", "guò", "to pass"],
+        ["得", "de", "(particle: describes how)"],
+        ["真", "zhēn", "really"],
+        ["快", "kuài", "fast"],
+        ["。"]
+      ],
+      "en": "That evening we ate and chatted at the same time — the time flew by."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["会", "huì", "can; to know how to"],
+        ["做", "zuò", "to make; to cook"],
+        ["这个", "zhège", "this"],
+        ["菜", "cài", "dish"],
+        ["了", "le", "(particle: change of state)"],
+        ["，"],
+        ["下个星期", "xià ge xīngqī", "next week"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["做", "zuò", "to make; to cook"],
+        ["给", "gěi", "for; to"],
+        ["妈妈", "māma", "mom"],
+        ["吃", "chī", "to eat"],
+        ["。"]
+      ],
+      "en": "Now I can make this dish, and next week I want to cook it for my mom."
+    }
+  ],
+  "vocab": [
+    ["西红柿", "xīhóngshì", "tomato"],
+    ["炒", "chǎo", "to stir-fry"],
+    ["盐", "yán", "salt"],
+    ["咸", "xián", "salty"],
+    ["容易", "róngyì", "easy"],
+    ["聊天", "liáotiān", "to chat"]
+  ],
+  "quiz": [
+    {
+      "q": "What dish did the friend teach the writer to make?",
+      "a": ["Tomato and egg stir-fry", "Dumplings", "Noodle soup"],
+      "c": 0
+    },
+    {
+      "q": "What was wrong with the dish the first time?",
+      "a": ["It was too sweet", "It was too salty", "It was burned"],
+      "c": 1
+    },
+    {
+      "q": "Who does the writer want to cook for next week?",
+      "a": ["Her friend", "Her coworkers", "Her mom"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边 A，一边 B — doing A and B at the same time",
+      "e": "Two actions happening together: 我们一边吃饭，一边聊天。",
+      "x": "他一边走路，一边听音乐。 — He listens to music while walking."
+    },
+    {
+      "p": "别 + verb (+ 了) — don't…",
+      "e": "别 gives a friendly command not to do something: 别忘了放盐。",
+      "x": "外面下雨了，别出去了。 — It's raining outside; don't go out."
+    }
+  ]
+}

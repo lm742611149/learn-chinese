@@ -1,0 +1,173 @@
+{
+  "slug": "hsk5-lanzhou-noodles",
+  "level": 5,
+  "title_zh": "一碗兰州拉面",
+  "title_py": "Yì wǎn Lánzhōu lāmiàn",
+  "title_en": "A Bowl of Lanzhou Noodles",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["早上","zǎoshang","morning"], ["六","liù","six"], ["点","diǎn","o'clock"], ["，"],
+        ["天","tiān","sky"], ["还","hái","yet"], ["没","méi","not"],
+        ["完全","wánquán","completely"], ["亮","liàng","light"], ["，"],
+        ["我","wǒ","my"], ["家","jiā","home"], ["楼下","lóuxià","downstairs"],
+        ["的","de","(particle)"], ["兰州","Lánzhōu","Lanzhou"],
+        ["拉面","lāmiàn","hand-pulled noodles"], ["馆","guǎn","shop"],
+        ["已经","yǐjīng","already"], ["开门","kāimén","to open"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "At six in the morning, before the sky is fully light, the Lanzhou noodle shop downstairs from my home is already open."
+    },
+    {
+      "t": [
+        ["老板","lǎobǎn","owner"], ["是","shì","is"], ["甘肃","Gānsù","Gansu (province)"],
+        ["人","rén","person"], ["，"],
+        ["二十","èrshí","twenty"], ["年","nián","year"], ["前","qián","ago"],
+        ["来到","láidào","to come to"], ["这个","zhège","this"], ["城市","chéngshì","city"], ["，"],
+        ["靠","kào","to rely on"], ["一","yì","one"], ["双","shuāng","pair"],
+        ["手","shǒu","hand"], ["把","bǎ","(object marker)"], ["两","liǎng","two"],
+        ["个","gè","(measure)"], ["孩子","háizi","child"], ["养大","yǎngdà","to raise"],
+        ["了","le","(particle)"], ["。"]
+      ],
+      "en": "The owner is from Gansu; he came to this city twenty years ago and raised two children with his own two hands."
+    },
+    {
+      "t": [
+        ["我","wǒ","I"], ["常常","chángcháng","often"], ["坐","zuò","to sit"],
+        ["在","zài","at"], ["窗边","chuāngbiān","by the window"], ["，"],
+        ["看","kàn","to watch"], ["他","tā","him"], ["拉","lā","to pull"], ["面","miàn","dough"], ["："],
+        ["一","yí","one"], ["块","kuài","lump"], ["面","miàn","dough"],
+        ["在","zài","in"], ["他","tā","his"], ["手","shǒu","hand"], ["里","li","inside"],
+        ["拉长","lācháng","to stretch long"], ["、"], ["变","biàn","to become"], ["细","xì","thin"], ["，"],
+        ["几","jǐ","a few"], ["秒钟","miǎozhōng","seconds"], ["就","jiù","then"],
+        ["变成","biànchéng","to turn into"], ["了","le","(particle)"],
+        ["细细","xìxì","very thin"], ["的","de","(particle)"], ["面条","miàntiáo","noodles"], ["。"]
+      ],
+      "en": "I often sit by the window and watch him pull the noodles: a lump of dough stretches long and thin in his hands, turning into fine noodles in just a few seconds."
+    },
+    {
+      "t": [
+        ["面条","miàntiáo","noodles"], ["放进","fàngjìn","to put into"],
+        ["锅","guō","pot"], ["里","li","inside"], ["，"],
+        ["牛肉","niúròu","beef"], ["汤","tāng","soup"], ["的","de","(particle)"],
+        ["香味","xiāngwèi","aroma"], ["慢慢","mànmàn","slowly"],
+        ["飘","piāo","to drift"], ["出来","chūlai","out"], ["，"],
+        ["整个","zhěnggè","whole"], ["小","xiǎo","small"], ["店","diàn","shop"],
+        ["都","dōu","all"], ["是","shì","is"], ["热气","rèqì","steam"], ["。"]
+      ],
+      "en": "The noodles go into the pot, the aroma of beef soup slowly drifts out, and the whole little shop fills with steam."
+    },
+    {
+      "t": [
+        ["一","yì","one"], ["碗","wǎn","bowl"], ["标准","biāozhǔn","standard"],
+        ["的","de","(particle)"], ["兰州","Lánzhōu","Lanzhou"], ["拉面","lāmiàn","hand-pulled noodles"],
+        ["讲究","jiǎngjiu","to be particular about"], ["“"],
+        ["一","yī","one"], ["清","qīng","clear"], ["二","èr","two"], ["白","bái","white"],
+        ["三","sān","three"], ["红","hóng","red"], ["四","sì","four"], ["绿","lǜ","green"],
+        ["”"], ["："],
+        ["汤","tāng","soup"], ["清","qīng","clear"], ["、"],
+        ["萝卜","luóbo","radish"], ["白","bái","white"], ["、"],
+        ["辣椒","làjiāo","chili"], ["红","hóng","red"], ["、"],
+        ["香菜","xiāngcài","cilantro"], ["绿","lǜ","green"], ["。"]
+      ],
+      "en": "A proper bowl of Lanzhou noodles follows the rule of \"one clear, two white, three red, four green\": clear soup, white radish, red chili, green cilantro."
+    },
+    {
+      "t": [
+        ["老板","lǎobǎn","owner"], ["说","shuō","to say"], ["，"],
+        ["汤","tāng","soup"], ["是","shì","is"], ["半夜","bànyè","middle of the night"],
+        ["三","sān","three"], ["点","diǎn","o'clock"], ["开始","kāishǐ","to start"],
+        ["熬","áo","to simmer"], ["的","de","(particle)"], ["，"],
+        ["牛","niú","cow"], ["骨头","gǔtou","bone"], ["要","yào","must"],
+        ["煮","zhǔ","to boil"], ["五","wǔ","five"], ["个","gè","(measure)"],
+        ["小时","xiǎoshí","hour"], ["以上","yǐshàng","more than"], ["。"]
+      ],
+      "en": "The owner says the soup starts simmering at three in the morning; the beef bones must be boiled for more than five hours."
+    },
+    {
+      "t": [
+        ["客人","kèren","customer"], ["大部分","dàbùfen","mostly"], ["是","shì","are"],
+        ["赶","gǎn","to rush for"], ["时间","shíjiān","time"], ["上班","shàngbān","to go to work"],
+        ["的","de","(particle)"], ["人","rén","people"], ["，"],
+        ["十","shí","ten"], ["分钟","fēnzhōng","minutes"], ["吃完","chīwán","to finish eating"],
+        ["一","yì","one"], ["碗","wǎn","bowl"], ["，"],
+        ["吃","chī","to eat"], ["得","de","(degree particle)"], ["满","mǎn","full of"],
+        ["头","tóu","head"], ["是","shì","is"], ["汗","hàn","sweat"], ["，"],
+        ["然后","ránhòu","then"], ["走进","zǒujìn","to walk into"],
+        ["外面","wàimiàn","outside"], ["的","de","(particle)"],
+        ["冷","lěng","cold"], ["风","fēng","wind"], ["里","li","inside"], ["。"]
+      ],
+      "en": "Most customers are people rushing to work: they finish a bowl in ten minutes, heads covered in sweat, then walk out into the cold wind."
+    },
+    {
+      "t": [
+        ["有人","yǒurén","someone"], ["问","wèn","to ask"], ["老板","lǎobǎn","owner"], ["，"],
+        ["为什么","wèishénme","why"], ["不","bù","not"], ["多","duō","more"],
+        ["开","kāi","to open"], ["几","jǐ","a few"], ["家","jiā","(measure for shops)"],
+        ["店","diàn","shop"], ["，"],
+        ["多","duō","more"], ["赚","zhuàn","to earn"],
+        ["一点儿","yìdiǎnr","a bit"], ["钱","qián","money"], ["。"]
+      ],
+      "en": "Someone once asked the owner why he doesn't open a few more shops and earn a bit more money."
+    },
+    {
+      "t": [
+        ["他","tā","he"], ["笑","xiào","to smile"], ["着","zhe","(particle)"],
+        ["摇摇头","yáoyáo tóu","to shake one's head"], ["："], ["“"],
+        ["店","diàn","shop"], ["开","kāi","to open"], ["多","duō","many"],
+        ["了","le","(particle)"], ["，"],
+        ["汤","tāng","soup"], ["就","jiù","then"], ["不是","búshì","is not"],
+        ["这个","zhège","this"], ["味道","wèidao","taste"], ["了","le","(particle)"], ["。"], ["”"]
+      ],
+      "en": "He smiled and shook his head: \"Open too many shops, and the soup won't taste like this anymore.\""
+    },
+    {
+      "t": [
+        ["凡是","fánshì","every; all"], ["好吃","hǎochī","delicious"],
+        ["的","de","(particle)"], ["面","miàn","noodles"], ["，"],
+        ["后面","hòumiàn","behind"], ["都","dōu","all"], ["是","shì","is"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["人","rén","person"],
+        ["几十","jǐshí","dozens of"], ["年","nián","year"], ["的","de","(particle)"],
+        ["耐心","nàixīn","patience"], ["。"]
+      ],
+      "en": "Behind every bowl of good noodles, there are decades of one person's patience."
+    }
+  ],
+  "vocab": [
+    ["拉面","lāmiàn","hand-pulled noodles"],
+    ["讲究","jiǎngjiu","to be particular about"],
+    ["熬","áo","to simmer; to stew slowly"],
+    ["萝卜","luóbo","radish"],
+    ["辣椒","làjiāo","chili pepper"],
+    ["香菜","xiāngcài","cilantro"]
+  ],
+  "quiz": [
+    {
+      "q": "When does the owner start simmering the soup?",
+      "a": ["At six in the morning", "At three in the middle of the night", "At noon"],
+      "c": 1
+    },
+    {
+      "q": "In the rule 'one clear, two white, three red, four green', what is red?",
+      "a": ["The radish", "The cilantro", "The chili"],
+      "c": 2
+    },
+    {
+      "q": "Why doesn't the owner open more shops?",
+      "a": ["He worries the soup would no longer taste the same", "He cannot find enough workers", "The rent in the city is too high"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "靠 (to rely on)",
+      "e": "靠 + noun expresses the means by which something is achieved: 他靠一双手把两个孩子养大了。",
+      "x": "很多学生靠奖学金完成了大学学习。— Many students finished university by relying on scholarships."
+    },
+    {
+      "p": "凡是…都… (every… without exception)",
+      "e": "凡是 introduces a whole category, and 都 confirms the rule applies to all of it: 凡是好吃的面，后面都是几十年的耐心。",
+      "x": "凡是来过这里的人，都想再来一次。— Everyone who has been here wants to come again."
+    }
+  ]
+}
