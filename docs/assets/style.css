@@ -171,11 +171,28 @@ a { color: var(--red); text-decoration: none; }
 .badge.l5 { background: var(--lvl5); } .badge.l6 { background: var(--lvl6); }
 
 /* ---------- reader ---------- */
-.reader-head { padding: 34px 0 10px; }
-.reader-head h1 { font-family: var(--serif); font-size: 2.3rem; font-weight: 900;
-  margin-top: 8px; }
-.reader-head .py { color: var(--red-dark); margin-top: 2px; font-size: 1rem; }
-.reader-head .en { font-size: 1rem; color: var(--muted); margin-top: 5px; }
+.reader-banner { position: relative; overflow: hidden; margin-top: 14px;
+  border-radius: 24px; padding: 28px 26px 26px; color: #fff;
+  background: linear-gradient(150deg, #26201b 0%,
+    color-mix(in srgb, var(--sc) 34%, #26201b) 58%, var(--sc) 130%);
+  box-shadow: 0 14px 38px rgba(40,25,15,.22); }
+.reader-banner::before { content: attr(data-char); position: absolute;
+  right: -20px; top: -34px; font-family: var(--serif); font-size: 9rem;
+  font-weight: 900; color: rgba(255,255,255,.07); pointer-events: none;
+  line-height: 1; }
+.reader-banner h1 { font-family: var(--serif);
+  font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 900; margin-top: 10px; }
+.b-py { color: var(--gold); font-size: 1rem; margin-top: 2px; }
+.b-en { color: rgba(255,255,255,.72); font-size: .9rem; margin-top: 7px; }
+
+.paper-card { background: var(--card); border: 1px solid var(--line);
+  border-radius: 22px; padding: 8px 20px 14px; margin-top: 8px;
+  box-shadow: 0 10px 30px rgba(70,45,25,.07); }
+.caption { font-size: .8rem; color: var(--muted); padding: 12px 4px 6px;
+  border-top: 1px solid var(--line); margin-top: 4px; }
+.reader-foot { display: flex; justify-content: space-between;
+  align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 46px; }
+.reader-foot .tbtn { text-decoration: none; display: inline-block; }
 .toolbar { position: sticky; top: 10px; z-index: 20;
   background: rgba(255,253,249,.88); backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -191,10 +208,11 @@ a { color: var(--red); text-decoration: none; }
 .tbtn:active { transform: scale(.96); }
 select.tbtn { max-width: 168px; appearance: none; -webkit-appearance: none; }
 
-.text-body { padding: 24px 0 8px; }
-.sent { margin-bottom: 8px; padding: 10px 14px; border-radius: 14px;
-  transition: background .15s; }
-.sent:hover { background: #fdf9f0; }
+.text-body { padding: 10px 0 4px; }
+.sent { padding: 14px 6px; border-bottom: 1px dashed var(--line);
+  border-radius: 0; transition: background .15s; }
+.sent:last-of-type { border-bottom: none; }
+.sent:hover { background: #fdf8ee; border-radius: 12px; }
 .zh-line { font-family: var(--serif); font-size: 1.75rem; line-height: 2.4;
   font-weight: 600; }
 ruby rt { font-family: -apple-system, "Segoe UI", sans-serif;
@@ -214,18 +232,23 @@ body.no-pinyin ruby rt { display: none; }
 body.show-en .en-line { display: block; }
 
 /* ---------- vocab ---------- */
-.vocab { background: var(--card); border: 1px solid var(--line);
-  border-radius: 20px; padding: 22px 24px; margin: 28px 0 44px;
-  box-shadow: 0 8px 26px rgba(70,45,25,.07); }
-.vocab h2 { font-size: 1.02rem; margin-bottom: 10px; letter-spacing: .02em; }
+.vocab { margin: 26px 0 22px; }
+.vocab h2 { font-size: 1.05rem; margin-bottom: 12px; letter-spacing: .02em; }
 .vocab h2 .zh { font-family: var(--serif); color: var(--red); margin-left: 6px; }
-.vocab table { width: 100%; border-collapse: collapse; font-size: .97rem; }
-.vocab td { padding: 9px 6px; border-top: 1px solid var(--line); }
-.vocab td.zh { font-family: var(--serif); font-size: 1.3rem; font-weight: 700;
-  white-space: nowrap; }
-.vocab td.py { color: var(--red-dark); white-space: nowrap; }
-.vocab td.play { width: 38px; text-align: right; }
-.vocab .s-play { margin: 0; }
+.vgrid { display: grid; gap: 10px; grid-template-columns: 1fr; }
+@media (min-width: 560px) { .vgrid { grid-template-columns: 1fr 1fr; } }
+.vitem { display: flex; gap: 13px; align-items: center;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 15px; padding: 11px 14px;
+  transition: box-shadow .15s, transform .15s; }
+.vitem:hover { box-shadow: 0 8px 20px rgba(70,45,25,.09);
+  transform: translateY(-1px); }
+.vitem .s-play { flex: 0 0 auto; width: 36px; height: 36px; margin: 0; }
+.vtext { min-width: 0; }
+.vzh { font-family: var(--serif); font-size: 1.28rem; font-weight: 700;
+  margin-right: 8px; }
+.vpy { color: var(--red-dark); font-size: .87rem; }
+.ven { display: block; color: var(--ink-2); font-size: .88rem; margin-top: 1px; }
 
 /* ---------- word popover ---------- */
 #pop { position: fixed; left: 50%; transform: translateX(-50%) translateY(20px);

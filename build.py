@@ -97,17 +97,18 @@ def build_reader(t):
     minutes = max(1, round(n_words / 60))
     body_sents = "\n".join(sentence_html(s) for s in t["sentences"])
     vocab_rows = "\n".join(
-        f'<tr><td class="zh">{esc(z)}</td><td class="py">{esc(p)}</td>'
-        f'<td>{esc(e)}</td>'
-        f'<td class="play"><button class="s-play" data-say="{esc(z)}">🔊</button></td></tr>'
+        f'<div class="vitem"><button class="s-play" data-say="{esc(z)}">🔊</button>'
+        f'<div class="vtext"><span class="vzh">{esc(z)}</span>'
+        f'<span class="vpy">{esc(p)}</span>'
+        f'<span class="ven">{esc(e)}</span></div></div>'
         for z, p, e in t["vocab"])
     body = f"""
   <article>
-    <div class="reader-head">
-      <span class="badge l{t['level']}">HSK {t['level']}</span>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[t['level']]}" data-char="{esc(t['title_zh'][0])}">
+      <span class="feat-tag">HSK {t['level']} · {LEVEL_WORDS[t['level']]}</span>
       <h1>{esc(t['title_zh'])}</h1>
-      <div class="py">{esc(t['title_py'])}</div>
-      <div class="en">{esc(t['title_en'])} · ~{minutes} min read</div>
+      <div class="b-py">{esc(t['title_py'])}</div>
+      <div class="b-en">{esc(t['title_en'])} · {n_words} words · ~{minutes} min</div>
     </div>
     <div class="toolbar">
       <button class="tbtn" id="t-pinyin">拼音 Pinyin</button>
@@ -116,15 +117,23 @@ def build_reader(t):
       <button class="tbtn" id="t-speed">🐢 Slow</button>
       <select class="tbtn" id="t-voice" title="Choose voice"></select>
     </div>
-    <div class="text-body">
+    <div class="paper-card">
+      <div class="text-body">
 {body_sents}
+      </div>
+      <div class="caption">🔊 Audio uses your device's Chinese voice for now —
+        teacher recordings are coming. Tap any word to see its meaning.</div>
     </div>
-    <div class="notice">🔊 Audio uses your device's Chinese voice for now —
-      teacher recordings are coming. Tap any word to see its meaning.</div>
     <section class="vocab">
-      <h2>Key words 生词</h2>
-      <table>{vocab_rows}</table>
+      <h2>Key words <span class="zh">生词</span></h2>
+      <div class="vgrid">{vocab_rows}</div>
     </section>
+    <div class="reader-foot">
+      <a class="tbtn" href="../index.html">← All readings</a>
+      <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
+        Follow for daily lessons</a>
+    </div>
   </article>"""
     title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading | {SITE['site_name']}"
     desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
