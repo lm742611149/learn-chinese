@@ -1,0 +1,38 @@
+{
+  "slug": "hsk1-my-teacher",
+  "level": 1,
+  "title_zh": "我的老师",
+  "title_py": "Wǒ de lǎoshī",
+  "title_en": "My Teacher",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["李老师","Lǐ lǎoshī","Teacher Li"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["汉语","Hànyǔ","Chinese (language)"],["老师","lǎoshī","teacher"],["。"]],
+      "en": "Teacher Li is my Chinese teacher."
+    },
+    {
+      "t": [["她","tā","she"],["三十","sānshí","thirty"],["多","duō","more than"],["岁","suì","years old"],[","],["很","hěn","very"],["漂亮","piàoliang","pretty; beautiful"],["。"]],
+      "en": "She is in her thirties and very pretty."
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to speak"],["汉语","Hànyǔ","Chinese (language)"],[","],["也","yě","also"],["说","shuō","to speak"],["一点儿","yìdiǎnr","a little"],["英语","Yīngyǔ","English (language)"],["。"]],
+      "en": "She speaks Chinese, and also a little English."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["不会","bú huì","cannot; don't know how"],["写","xiě","to write"],["汉字","Hànzì","Chinese characters"],[","],["她","tā","she"],["教","jiāo","to teach"],["我们","wǒmen","we; us"],["写","xiě","to write"],["。"]],
+      "en": "When we can't write characters, she teaches us how."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["都","dōu","all"],["很","hěn","very"],["爱","ài","to love"],["李老师","Lǐ lǎoshī","Teacher Li"],["。"]],
+      "en": "We all love Teacher Li."
+    }
+  ],
+  "vocab": [
+    ["汉语","Hànyǔ","Chinese (language)"],
+    ["漂亮","piàoliang","pretty; beautiful"],
+    ["一点儿","yìdiǎnr","a little"],
+    ["写","xiě","to write"],
+    ["汉字","Hànzì","Chinese characters"],
+    ["教","jiāo","to teach"]
+  ]
+}

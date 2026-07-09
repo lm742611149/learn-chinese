@@ -1,0 +1,38 @@
+{
+  "slug": "hsk1-weather",
+  "level": 1,
+  "title_zh": "今天的天气",
+  "title_py": "Jīntiān de tiānqì",
+  "title_en": "Today's Weather",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],[","],["不","bù","not"],["冷","lěng","cold"],["也","yě","also"],["不","bú","not"],["热","rè","hot"],["。"]],
+      "en": "The weather is great today — not cold and not hot."
+    },
+    {
+      "t": [["昨天","zuótiān","yesterday"],["下雨","xià yǔ","to rain"],[","],["今天","jīntiān","today"],["不","bú","not"],["下","xià","to fall (rain)"],["了","le","(particle: change of state)"],["。"]],
+      "en": "It rained yesterday, but today it has stopped."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["和","hé","and; with"],["妈妈","māma","mom"],["出去","chūqù","to go out"],["走一走","zǒu yi zǒu","to take a walk"],["。"]],
+      "en": "My mom and I go out for a walk."
+    },
+    {
+      "t": [["外面","wàimiàn","outside"],["人","rén","person; people"],["很","hěn","very"],["多","duō","many"],[","],["大家","dàjiā","everyone"],["都","dōu","all"],["在","zài","(indicates ongoing action)"],["玩儿","wánr","to play; to have fun"],["。"]],
+      "en": "There are lots of people outside, all having fun."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["爱","ài","to love"],["今天","jīntiān","today"],["的","de","(possessive particle)"],["天气","tiānqì","weather"],["!"]],
+      "en": "I love today's weather!"
+    }
+  ],
+  "vocab": [
+    ["天气","tiānqì","weather"],
+    ["冷","lěng","cold"],
+    ["热","rè","hot"],
+    ["下雨","xià yǔ","to rain"],
+    ["出去","chūqù","to go out"],
+    ["外面","wàimiàn","outside"]
+  ]
+}
