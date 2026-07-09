@@ -36,12 +36,16 @@ def page(title, desc, body, rel=""):
 <meta name="description" content="{esc(desc)}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c73e2a'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>读</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="{rel}assets/style.css">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="{rel}index.html"><span class="zh">读中文</span>{name}</a>
+    <a class="brand" href="{rel}index.html"><span class="seal">读</span>{name}</a>
     <nav>
       <a href="{rel}index.html">Readings</a>
       <a href="{rel}about.html">About</a>
@@ -107,6 +111,7 @@ def build_reader(t):
       <button class="tbtn" id="t-en">🌐 English</button>
       <button class="tbtn" id="t-play">▶ Play all</button>
       <button class="tbtn" id="t-speed">🐢 Slow</button>
+      <select class="tbtn" id="t-voice" title="Choose voice"></select>
     </div>
     <div class="text-body">
 {body_sents}
@@ -129,7 +134,7 @@ def build_index(texts):
     for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
         n_words = sum(len(s["t"]) for s in t["sentences"])
         cards.append(f"""
-    <a class="card" data-l="{t['level']}" href="texts/{t['slug']}.html">
+    <a class="card" data-l="{t['level']}" data-char="{esc(t['title_zh'][0])}" href="texts/{t['slug']}.html">
       <div class="zh-title">{esc(t['title_zh'])}</div>
       <div class="py-title">{esc(t['title_py'])}</div>
       <div class="en-title">{esc(t['title_en'])}</div>
@@ -141,9 +146,10 @@ def build_index(texts):
     body = f"""
   <section class="hero">
     <h1>Read real Chinese,<br>one <span class="zh">短文</span> at a time.</h1>
-    <p>{esc(SITE['tagline'])}.<br>Pinyin, tap-to-translate and audio built into every reading.</p>
+    <p>{esc(SITE['tagline'])}. Pinyin, tap-to-translate and audio built into every reading.</p>
     <a class="cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
       Follow the daily lessons →</a>
+    <span class="sub">Free forever · New readings every week · HSK 1-6</span>
   </section>
   <div class="levels">{''.join(chips)}</div>
   <section class="cards">{''.join(cards)}

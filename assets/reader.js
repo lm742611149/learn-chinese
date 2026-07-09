@@ -1,44 +1,71 @@
 /* Reader interactions: pinyin toggle, translation toggle, tap-word popover,
- * sentence & word audio via the browser's Chinese TTS (free, offline-capable).
- * Upgrade path: when a text has real recordings, set data-audio on .text-body
- * and this file will prefer the mp3 over TTS. */
+ * sentence & word audio via the browser's Chinese TTS.
+ * Voice: auto-picks the clearest female Mandarin voice available on the
+ * device, and offers a voice picker (persisted in localStorage). */
 (function () {
   "use strict";
 
-  /* ---------- TTS ---------- */
-  var zhVoice = null;
-  function pickVoice() {
-    var vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
-    var zh = vs.filter(function (v) { return /^zh([-_]|$)/i.test(v.lang); });
-    // prefer zh-CN, then any Chinese
-    zhVoice = zh.find(function (v) { return /CN/i.test(v.lang); }) || zh[0] || null;
+  /* ---------- TTS voice selection ---------- */
+  // Known good, clear (mostly female) Mandarin voices across platforms,
+  // best first: iOS/macOS Tingting, Windows Xiaoxiao/Huihui/Yaoyao,
+  // Android/Chrome "Google 普通话".
+  var PREFERRED = ["Tingting", "婷婷", "Xiaoxiao", "晓晓", "Google 普通话",
+                   "Huihui", "慧慧", "Yaoyao", "瑶瑶", "Meijia", "Sinji"];
+  var zhVoices = [], voice = null;
+
+  function scoreVoice(v) {
+    var s = 0;
+    if (/zh[-_]CN/i.test(v.lang)) s += 40; else if (/^zh/i.test(v.lang)) s += 10;
+    for (var i = 0; i < PREFERRED.length; i++) {
+      if (v.name.indexOf(PREFERRED[i]) !== -1) { s += 100 - i * 5; break; }
+    }
+    if (/natural|neural|online/i.test(v.name)) s += 30;   // MS natural voices
+    if (/enhanced|premium/i.test(v.name)) s += 15;        // Apple enhanced
+    if (/eloquence|compact/i.test(v.name)) s -= 40;       // robotic fallbacks
+    return s;
+  }
+
+  function refreshVoices() {
+    if (!window.speechSynthesis) return;
+    zhVoices = speechSynthesis.getVoices()
+      .filter(function (v) { return /^zh/i.test(v.lang); })
+      .sort(function (a, b) { return scoreVoice(b) - scoreVoice(a); });
+    var saved = localStorage.getItem("zh-voice");
+    voice = zhVoices.find(function (v) { return v.name === saved; }) || zhVoices[0] || null;
+    fillVoicePicker();
   }
   if (window.speechSynthesis) {
-    pickVoice();
-    speechSynthesis.onvoiceschanged = pickVoice;
+    refreshVoices();
+    speechSynthesis.onvoiceschanged = refreshVoices;
   }
+
+  function fillVoicePicker() {
+    var sel = document.getElementById("t-voice");
+    if (!sel || !zhVoices.length) return;
+    sel.innerHTML = zhVoices.map(function (v) {
+      return '<option value="' + v.name + '"' +
+        (voice && v.name === voice.name ? " selected" : "") + ">🔊 " +
+        v.name.replace(/\s*\(.*\)$/, "") + "</option>";
+    }).join("");
+    sel.onchange = function () {
+      voice = zhVoices.find(function (v) { return v.name === sel.value; }) || voice;
+      localStorage.setItem("zh-voice", sel.value);
+      speak("你好,我们一起读中文吧!");
+    };
+  }
+
   var rate = 1.0;
   function speak(text) {
     if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
     speechSynthesis.cancel();
     var u = new SpeechSynthesisUtterance(text);
     u.lang = "zh-CN";
-    if (zhVoice) u.voice = zhVoice;
+    if (voice) u.voice = voice;
     u.rate = rate;
     speechSynthesis.speak(u);
   }
 
   /* ---------- toolbar toggles ---------- */
-  function bindToggle(id, cls, defaultOn) {
-    var b = document.getElementById(id);
-    if (!b) return;
-    if (defaultOn) { document.body.classList.add(cls); b.classList.add("on"); }
-    b.addEventListener("click", function () {
-      var on = document.body.classList.toggle(cls);
-      b.classList.toggle("on", on);
-    });
-  }
-  // pinyin: shown by default => the class hides it, so invert
   var pb = document.getElementById("t-pinyin");
   if (pb) {
     pb.classList.add("on");
@@ -47,8 +74,13 @@
       pb.classList.toggle("on", !off);
     });
   }
-  bindToggle("t-en", "show-en", false);
-
+  var eb = document.getElementById("t-en");
+  if (eb) {
+    eb.addEventListener("click", function () {
+      var on = document.body.classList.toggle("show-en");
+      eb.classList.toggle("on", on);
+    });
+  }
   var sb = document.getElementById("t-speed");
   if (sb) {
     sb.addEventListener("click", function () {
@@ -57,7 +89,6 @@
       sb.classList.toggle("on", rate !== 1.0);
     });
   }
-
   var pa = document.getElementById("t-play");
   if (pa) {
     pa.addEventListener("click", function () {

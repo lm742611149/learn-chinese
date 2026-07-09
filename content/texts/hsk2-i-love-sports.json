@@ -1,0 +1,38 @@
+{
+  "slug": "hsk2-i-love-sports",
+  "level": 2,
+  "title_zh": "我爱运动",
+  "title_py": "Wǒ ài yùndòng",
+  "title_en": "I Love Sports",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["运动","yùndòng","sports; to exercise"],["。"]],
+      "en": "I really like sports."
+    },
+    {
+      "t": [["每个","měi ge","every"],["星期六","xīngqīliù","Saturday"],[","],["我","wǒ","I; me"],["都","dōu","all; always"],["去","qù","to go"],["打篮球","dǎ lánqiú","to play basketball"],["。"]],
+      "en": "Every Saturday I go play basketball."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["从","cóng","from"],["九点","jiǔ diǎn","nine o'clock"],["玩儿","wánr","to play; to have fun"],["到","dào","to; until"],["十一点","shíyī diǎn","eleven o'clock"],["。"]],
+      "en": "We play from nine to eleven."
+    },
+    {
+      "t": [["打完","dǎ wán","to finish playing"],["球","qiú","ball"],[","],["大家","dàjiā","everyone"],["一起","yìqǐ","together"],["喝","hē","to drink"],["可乐","kělè","cola"],[","],["吃","chī","to eat"],["西瓜","xīguā","watermelon"],["。"]],
+      "en": "After the game, everyone drinks cola and eats watermelon together."
+    },
+    {
+      "t": [["运动","yùndòng","sports; to exercise"],["让","ràng","to make; to let"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["身体","shēntǐ","body; health"],["很","hěn","very"],["好","hǎo","good"],["。"]],
+      "en": "Sports keep me very healthy."
+    }
+  ],
+  "vocab": [
+    ["运动","yùndòng","sports; to exercise"],
+    ["打篮球","dǎ lánqiú","to play basketball"],
+    ["从……到……","cóng... dào...","from... to..."],
+    ["大家","dàjiā","everyone"],
+    ["西瓜","xīguā","watermelon"],
+    ["身体","shēntǐ","body; health"]
+  ]
+}

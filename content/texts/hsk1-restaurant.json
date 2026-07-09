@@ -1,0 +1,38 @@
+{
+  "slug": "hsk1-restaurant",
+  "level": 1,
+  "title_zh": "在饭馆",
+  "title_py": "Zài fànguǎn",
+  "title_en": "At the Restaurant",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中午","zhōngwǔ","noon"],["我们","wǒmen","we; us"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat (a meal)"],["。"]],
+      "en": "At noon we go to a restaurant to eat."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["要","yào","to want"],["一个","yí ge","one (+ measure word)"],["米饭","mǐfàn","rice"],["和","hé","and"],["一些","yìxiē","some"],["菜","cài","dish; food"],["。"]],
+      "en": "I order a bowl of rice and some dishes."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["喝","hē","to drink"],["水","shuǐ","water"],[","],["我","wǒ","I; me"],["喝","hē","to drink"],["茶","chá","tea"],["。"]],
+      "en": "My friend drinks water; I drink tea."
+    },
+    {
+      "t": [["菜","cài","dish; food"],["很","hěn","very"],["好吃","hǎochī","tasty (food)"],[","],["我们","wǒmen","we; us"],["都","dōu","all; both"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "The food is delicious, and we are all very happy."
+    },
+    {
+      "t": [["饭馆","fànguǎn","restaurant"],["的","de","(possessive particle)"],["人","rén","person; people"],["说","shuō","to say"],[":"],["“"],["欢迎","huānyíng","to welcome"],["你们","nǐmen","you (plural)"],["再","zài","again"],["来","lái","to come"],["!"],["”"]],
+      "en": "The restaurant staff says: \"Welcome back again!\""
+    }
+  ],
+  "vocab": [
+    ["饭馆","fànguǎn","restaurant"],
+    ["米饭","mǐfàn","rice"],
+    ["好吃","hǎochī","tasty (for food)"],
+    ["高兴","gāoxìng","happy"],
+    ["欢迎","huānyíng","to welcome"],
+    ["再","zài","again"]
+  ]
+}

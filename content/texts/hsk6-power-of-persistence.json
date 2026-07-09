@@ -1,0 +1,38 @@
+{
+  "slug": "hsk6-power-of-persistence",
+  "level": 6,
+  "title_zh": "坚持的力量",
+  "title_py": "Jiānchí de lìliàng",
+  "title_en": "The Power of Persistence",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["古人","gǔrén","the ancients"],["说","shuō","to say"],[":"],["“"],["滴水穿石","dī shuǐ chuān shí","dripping water pierces stone (idiom)"],["。"],["”"]],
+      "en": "The ancients said: \"Dripping water pierces stone.\""
+    },
+    {
+      "t": [["一滴","yì dī","one drop of"],["水","shuǐ","water"],["的","de","(particle)"],["力量","lìliàng","strength; power"],["微不足道","wēibùzúdào","insignificant (idiom)"],[","],["但","dàn","but"],["日复一日","rì fù yí rì","day after day (idiom)"],[","],["竟","jìng","surprisingly; unexpectedly"],["能","néng","can"],["把","bǎ","(particle: object marker)"],["坚硬","jiānyìng","hard; solid"],["的","de","(particle)"],["石头","shítou","stone"],["穿透","chuāntòu","to pierce through"],["。"]],
+      "en": "A single drop of water is insignificant, yet day after day it can pierce through solid stone."
+    },
+    {
+      "t": [["学习","xuéxí","to study; to learn"],["语言","yǔyán","language"],["也","yě","also"],["是","shì","to be"],["如此","rúcǐ","like this; so"],[","],["靠","kào","to rely on"],["的","de","(particle)"],["不是","bú shì","is not"],["一时","yìshí","momentary"],["的","de","(particle)"],["热情","rèqíng","enthusiasm; passion"],[","],["而是","ér shì","but rather"],["长期","chángqī","long-term"],["的","de","(particle)"],["积累","jīlěi","accumulation"],["。"]],
+      "en": "Learning a language is the same: it relies not on momentary enthusiasm, but on long-term accumulation."
+    },
+    {
+      "t": [["每天","měitiān","every day"],["进步","jìnbù","to improve; progress"],["一点点","yìdiǎndiǎn","a little bit"],[","],["看似","kànsì","to seem; apparently"],["微小","wēixiǎo","tiny"],[","],["却","què","yet; however"],["终将","zhōngjiāng","will eventually"],["汇聚","huìjù","to converge; to gather"],["成","chéng","into; to become"],["惊人","jīngrén","astonishing"],["的","de","(particle)"],["变化","biànhuà","change"],["。"]],
+      "en": "Improving a little every day seems tiny, yet it will eventually converge into astonishing change."
+    },
+    {
+      "t": [["所以","suǒyǐ","so; therefore"],[","],["请","qǐng","please"],["相信","xiāngxìn","to believe"],["坚持","jiānchí","to persist"],["的","de","(particle)"],["力量","lìliàng","strength; power"],["。"]],
+      "en": "So please believe in the power of persistence."
+    }
+  ],
+  "vocab": [
+    ["滴水穿石","dī shuǐ chuān shí","dripping water pierces stone (idiom)"],
+    ["微不足道","wēibùzúdào","insignificant (idiom)"],
+    ["而是","ér shì","but rather"],
+    ["积累","jīlěi","accumulation"],
+    ["汇聚","huìjù","to converge; to gather"],
+    ["坚持","jiānchí","to persist"]
+  ]
+}
