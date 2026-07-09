@@ -47,11 +47,12 @@ def page(title, desc, body, rel=""):
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="{rel}index.html"><span class="seal">读</span>{name}</a>
+    <a class="brand" href="{rel}index.html"><span class="seal">读</span><span class="bname">{name}</span></a>
     <nav>
-      <a href="{rel}index.html">Readings</a>
-      <a href="{rel}about.html">About</a>
-      <a href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">Facebook</a>
+      <a class="nav-link" href="{rel}about.html">About</a>
+      <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
+        Follow</a>
     </nav>
   </header>
 {body}

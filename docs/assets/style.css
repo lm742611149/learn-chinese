@@ -28,19 +28,38 @@ body {
 a { color: var(--red); text-decoration: none; }
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
 
-/* ---------- header ---------- */
+/* ---------- header (floating glass bar) ---------- */
 .top { display: flex; align-items: center; justify-content: space-between;
-  padding: 20px 0 14px; }
+  gap: 10px; margin: 14px 0 6px; padding: 9px 10px 9px 12px;
+  background: rgba(255,253,249,.82);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--line); border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(70,45,25,.08); }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800;
-  font-size: 1.02rem; color: var(--ink); letter-spacing: .01em; }
-.brand .seal { display: inline-flex; align-items: center; justify-content: center;
-  width: 38px; height: 38px; background: var(--red); color: #fff;
-  border-radius: 9px; font-family: var(--serif); font-weight: 900;
-  font-size: 1.25rem; box-shadow: 0 3px 10px rgba(199,62,42,.35);
-  transform: rotate(-3deg); }
-.top nav a { margin-left: 18px; font-size: .92rem; color: var(--ink-2);
-  font-weight: 550; }
-.top nav a:hover { color: var(--red); }
+  font-size: .98rem; color: var(--ink); letter-spacing: .01em;
+  flex: 1 1 auto; min-width: 0; }
+.brand .seal { flex: 0 0 auto; display: inline-flex; align-items: center;
+  justify-content: center; width: 36px; height: 36px; background:
+  linear-gradient(150deg, #de5335, var(--red-dark)); color: #fff;
+  border-radius: 10px; font-family: var(--serif); font-weight: 900;
+  font-size: 1.2rem; box-shadow: 0 3px 10px rgba(199,62,42,.35);
+  transform: rotate(-4deg); transition: transform .18s; }
+.brand:hover .seal { transform: rotate(0deg); }
+.brand .bname { display: block; white-space: nowrap; overflow: hidden;
+  text-overflow: ellipsis; min-width: 0; }
+.top nav { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; }
+.nav-link { padding: 8px 12px; border-radius: 999px; font-size: .9rem;
+  font-weight: 650; color: var(--ink-2); transition: all .15s; }
+.nav-link:hover { background: #f6efe3; color: var(--ink); }
+.nav-cta { display: inline-flex; align-items: center; gap: 6px;
+  background: #1877f2; color: #fff; padding: 8px 15px; border-radius: 999px;
+  font-weight: 700; font-size: .87rem;
+  box-shadow: 0 4px 14px rgba(24,119,242,.35); transition: transform .15s; }
+.nav-cta:hover { transform: translateY(-1px); color: #fff; }
+@media (max-width: 480px) {
+  .brand .bname { font-size: .9rem; }
+  .nav-link { padding: 8px 9px; font-size: .87rem; }
+}
 
 /* ---------- hero carousel ---------- */
 .carousel { position: relative; margin: 14px 0 6px; }
