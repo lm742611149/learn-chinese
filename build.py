@@ -201,8 +201,8 @@ def build_index(texts):
   <section class="carousel">
     <div class="hero-track" id="hero-track">
       <div class="slide intro" data-char="读">
-        <h1>Read real Chinese,<br>one <span class="zh">短文</span> at a time.</h1>
-        <p>Pinyin, tap-to-translate and audio in every reading. Free forever.</p>
+        <h1>Real Chinese in <span class="zh">5</span> minutes a day.</h1>
+        <p>Free graded readings with pinyin, tap-to-translate and audio — by a real Chinese teacher.</p>
         <a class="cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
           Follow the daily lessons →</a>
       </div>
