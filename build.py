@@ -208,8 +208,8 @@ def build_reader(t):
                      f'      <div class="qresult" id="qresult" hidden></div>\n'
                      f'    </section>')
     body = f"""
-  <article>
-    <div class="reader-banner" style="--sc:{LEVEL_COLORS[t['level']]}" data-char="{esc(t['title_zh'][0])}">
+  <article style="--sc:{LEVEL_COLORS[t['level']]}">
+    <div class="reader-banner" data-char="{esc(t['title_zh'][0])}">
       <span class="feat-tag">HSK {t['level']} · {LEVEL_WORDS[t['level']]}</span>
       <h1>{esc(t['title_zh'])}</h1>
       <div class="b-py">{esc(t['title_py'])}</div>

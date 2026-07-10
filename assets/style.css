@@ -13,6 +13,7 @@
   --lvl0: #221d18;
   --lvl1: #3e9464; --lvl2: #2f7fa8; --lvl3: #7b5fc0;
   --lvl4: #cf7622; --lvl5: #c73e2a; --lvl6: #6d4434;
+  --sc: var(--gold);
   --serif: "Noto Serif SC", "Songti SC", "SimSun", serif;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -338,15 +339,18 @@ select.tb-voice { max-width: 150px; appearance: none; -webkit-appearance: none;
 .sent:last-of-type { border-bottom: none; }
 .sent:hover { background: #fdf8ee; border-radius: 10px; }
 .sent.playing { border-radius: 12px; border-bottom-color: transparent;
-  background: linear-gradient(100deg, #fdf3dd 0%, #fdf8ee 55%, transparent 100%);
-  box-shadow: 0 6px 18px rgba(190,140,40,.14); }
+  background: linear-gradient(100deg,
+    color-mix(in srgb, var(--sc) 11%, #fffdf9) 0%,
+    color-mix(in srgb, var(--sc) 5%, #fffdf9) 55%, transparent 100%);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--sc) 16%, transparent); }
 .sent.playing::before { content: ""; position: absolute; left: 4px;
   top: 16px; bottom: 16px; width: 4px; border-radius: 99px;
-  background: linear-gradient(180deg, var(--gold), #cf7622);
+  background: linear-gradient(180deg,
+    color-mix(in srgb, var(--sc) 70%, #fff), var(--sc));
   animation: sent-glow 1.6s ease-in-out infinite alternate; }
 @keyframes sent-glow {
-  from { box-shadow: 0 0 4px rgba(226,169,61,.45); opacity: .75; }
-  to   { box-shadow: 0 0 12px rgba(226,169,61,.85); opacity: 1; } }
+  from { box-shadow: 0 0 4px color-mix(in srgb, var(--sc) 45%, transparent); opacity: .75; }
+  to   { box-shadow: 0 0 12px color-mix(in srgb, var(--sc) 85%, transparent); opacity: 1; } }
 .zh-line { font-family: var(--serif);
   font-size: clamp(1.28rem, 3.8vw, 1.5rem); line-height: 2.5;
   font-weight: 600; }
@@ -524,7 +528,9 @@ html[data-theme="dark"] .qopt.ok { background: #1d2f24; color: #8fd3a8; }
 html[data-theme="dark"] .qopt.bad { background: #35201a; color: #ff9a7d; }
 html[data-theme="dark"] .sent:hover { background: #272017; }
 html[data-theme="dark"] .sent.playing {
-  background: linear-gradient(100deg, #2e2517 0%, #292115 55%, transparent 100%);
+  background: linear-gradient(100deg,
+    color-mix(in srgb, var(--sc) 16%, #221c16) 0%,
+    color-mix(in srgb, var(--sc) 8%, #221c16) 55%, transparent 100%);
   box-shadow: 0 6px 18px rgba(0,0,0,.3); }
 html[data-theme="dark"] .card { background: linear-gradient(170deg, #241e17, #201a14); }
 html[data-theme="dark"] .s-play { background: #33291f; color: #e0a276; }
