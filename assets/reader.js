@@ -71,16 +71,43 @@
   function clearKaraoke() {
     sents.forEach(function (s) { s.classList.remove("playing"); });
   }
-  function speak(text) {
-    if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
-    speechSynthesis.cancel();     // kills any play-all session too
-    setPlayState("idle");
-    clearKaraoke();
+  function ttsSpeak(text) {
+    if (!window.speechSynthesis) return;
+    speechSynthesis.cancel();
     var u = new SpeechSynthesisUtterance(text);
     u.lang = "zh-CN";
     if (voice) u.voice = voice;
     u.rate = rate;
     speechSynthesis.speak(u);
+  }
+
+  /* ---------- file audio (pre-generated neural TTS), device TTS as fallback ---------- */
+  var AUDIO_BASE = document.body.getAttribute("data-audio-base") || "audio/";
+  var player = null;
+  function stopAll() {
+    if (player) { player.onended = player.onerror = null; player.pause(); player = null; }
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    setPlayState("idle");
+    clearKaraoke();
+  }
+  function playUrl(url, onend, onfail) {
+    if (player) { player.onended = player.onerror = null; player.pause(); }
+    var a = new Audio(url);
+    player = a;
+    try { a.preservesPitch = true; } catch (e) {}
+    a.playbackRate = rate;
+    a.onended = function () { if (onend) onend(); };
+    a.onerror = function () { if (onfail) onfail(); };
+    a.play().catch(function () { if (onfail) onfail(); });
+  }
+  function speakWord(zh) {
+    stopAll();
+    playUrl(AUDIO_BASE + "w/" + encodeURIComponent(zh) + ".mp3", null,
+      function () { ttsSpeak(zh); });
+  }
+  function speak(text) {   // sentence-or-word by data-say (fallback path)
+    stopAll();
+    ttsSpeak(text);
   }
 
   /* ---------- toolbar toggles ---------- */
@@ -110,17 +137,17 @@
     playBtn.addEventListener("click", function () {
       if (!window.speechSynthesis) { alert("Your browser does not support audio."); return; }
       if (playState === "playing") {          // -> pause
-        speechSynthesis.pause();
+        if (player) player.pause(); else speechSynthesis.pause();
         setPlayState("paused");
         return;
       }
       if (playState === "paused") {           // -> resume
-        speechSynthesis.resume();
+        if (player) player.play(); else speechSynthesis.resume();
         setPlayState("playing");
         return;
       }
       // idle -> karaoke mode: play sentence by sentence with highlight
-      speechSynthesis.cancel();
+      stopAll();
       setPlayState("playing");
       playSentence(0);
     });
@@ -132,16 +159,15 @@
     s.classList.add("playing");
     try { s.scrollIntoView({ behavior: "smooth", block: "center" }); } catch (e) {}
     var line = s.querySelector(".zh-line");
+    var next = function () { if (playState === "playing") playSentence(i + 1); };
+    var au = line && line.getAttribute("data-audio");
+    if (au) { playUrl(au, next, next); return; }
     var u = new SpeechSynthesisUtterance(line ? line.getAttribute("data-say") : "");
     u.lang = "zh-CN";
     if (voice) u.voice = voice;
     u.rate = rate;
-    u.onend = function () {
-      if (playState === "playing") playSentence(i + 1);
-    };
-    u.onerror = function () {
-      if (playState === "playing") playSentence(i + 1);
-    };
+    u.onend = next;
+    u.onerror = next;
     speechSynthesis.speak(u);
   }
 
@@ -149,7 +175,10 @@
   document.querySelectorAll(".s-play[data-say]").forEach(function (b) {
     b.addEventListener("click", function (e) {
       e.stopPropagation();
-      speak(b.getAttribute("data-say"));
+      var au = b.getAttribute("data-audio");
+      var say = b.getAttribute("data-say");
+      if (au) { stopAll(); playUrl(au, null, function () { ttsSpeak(say); }); }
+      else speakWord(say);
     });
   });
 
@@ -179,7 +208,7 @@
       pop.classList.add("show");
       document.getElementById("pop-say").addEventListener("click", function (ev) {
         ev.stopPropagation();
-        speak(zh);
+        speakWord(zh);
       });
       document.getElementById("pop-star").addEventListener("click", function (ev) {
         ev.stopPropagation();
@@ -187,7 +216,7 @@
         this.classList.toggle("saved", s);
         this.textContent = s ? "★" : "☆";
       });
-      speak(zh);
+      speakWord(zh);
     });
   });
   document.addEventListener("click", function () {
@@ -723,7 +752,7 @@
         ? '<div class="dz">' + w.z + '</div><div class="dp">' + w.p +
           '</div><div class="de">' + w.e + '</div>' + ex
         : '<div class="dz">' + w.z + '</div><div class="dhint">Tap “Show answer”</div>';
-      if (flip) speak(w.z);
+      if (flip) speakWord(w.z);
     }
     if (practiceBtn) {
       practiceBtn.addEventListener("click", function () {

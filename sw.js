@@ -2,7 +2,7 @@
  * 页面导航: 网络优先(避免 Cloudflare 的 .html→无后缀 308 重定向响应
  *          被缓存后导致导航失败),离线时回退缓存。
  * 静态资源: 缓存优先 + 后台刷新。永不缓存 redirected 响应。 */
-const V = "rcd-v13";
+const V = "rcd-v14";
 const PRECACHE = ["./", "./assets/style.css", "./assets/reader.js"];
 
 self.addEventListener("install", (e) => {
@@ -19,6 +19,8 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const req = e.request;
   if (req.method !== "GET" || !req.url.startsWith(self.location.origin)) return;
+  // 音频体积大(几十MB),不进 SW 缓存,交给浏览器 HTTP 缓存
+  if (req.url.includes("/audio/")) return;
 
   if (req.mode === "navigate") {
     e.respondWith((async () => {

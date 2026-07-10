@@ -89,7 +89,7 @@ def page(title, desc, body, rel=""):
 <meta name="theme-color" content="#c73e2a">
 <script>try{{if(localStorage.getItem("rcd-theme")==="dark")document.documentElement.setAttribute("data-theme","dark");if(localStorage.getItem("rcd-auth"))document.documentElement.setAttribute("data-auth","1")}}catch(e){{}}</script>
 </head>
-<body>
+<body data-audio-base="{rel}audio/">
 <div class="wrap">
   <header class="top">
     <a class="brand" href="{rel}index.html"><span class="seal">读</span><span class="bname">{name}</span></a>
@@ -134,7 +134,7 @@ def page(title, desc, body, rel=""):
 OPENING_PUNCT = set("“‘(《【〈「『")
 
 
-def sentence_html(sent):
+def sentence_html(sent, slug=None, idx=None):
     """Chinese line with ruby pinyin + tappable words + a play button.
     Words are grouped with their adjacent punctuation into no-break units
     (.nb) so lines never start with a closing quote / full stop and never
@@ -162,16 +162,18 @@ def sentence_html(sent):
         units.append(prefix)
     parts = "".join(f'<span class="nb">{u}</span>' for u in units)
     say_txt = esc("".join(say))
+    audio = (f' data-audio="../audio/{slug}/{idx}.mp3"'
+             if slug is not None and idx is not None else "")
     return (f'<div class="sent">'
-            f'<div class="zh-line" data-say="{say_txt}">{parts}'
-            f'<button class="s-play" data-say="{say_txt}" title="Play sentence">🔊</button></div>'
+            f'<div class="zh-line" data-say="{say_txt}"{audio}>{parts}'
+            f'<button class="s-play" data-say="{say_txt}"{audio} title="Play sentence">🔊</button></div>'
             f'<div class="en-line">{esc(sent["en"])}</div></div>')
 
 
 def build_reader(t):
     n_words = sum(len(s["t"]) for s in t["sentences"])
     minutes = max(1, round(n_words / 60))
-    body_sents = "\n".join(sentence_html(s) for s in t["sentences"])
+    body_sents = "\n".join(sentence_html(s, t["slug"], i) for i, s in enumerate(t["sentences"]))
     vocab_rows = "\n".join(
         f'<div class="vitem"><button class="s-play" data-say="{esc(z)}">🔊</button>'
         f'<div class="vtext"><span class="vzh">{esc(z)}</span>'
@@ -518,6 +520,9 @@ def main():
     os.makedirs(os.path.join(OUT, "texts"))
     shutil.copytree(os.path.join(ROOT, "assets"), os.path.join(OUT, "assets"))
     open(os.path.join(OUT, ".nojekyll"), "w").close()
+    media_audio = os.path.join(ROOT, "media", "audio")
+    if os.path.isdir(media_audio):
+        shutil.copytree(media_audio, os.path.join(OUT, "audio"))
 
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(build_index(texts))
     for lvl in range(1, 7):
