@@ -209,6 +209,7 @@
         '</div>' +
         '<div class="p-actions">' +
           '<button id="pop-say" title="Play">🔊</button>' +
+          '<button id="pop-write" title="Stroke order">✍️</button>' +
           '<button class="wstar' + (saved ? " saved" : "") + '" id="pop-star" ' +
           'title="Save to wordbook">' + (saved ? "★" : "☆") + '</button>' +
         '</div>';
@@ -216,6 +217,10 @@
       document.getElementById("pop-say").addEventListener("click", function (ev) {
         ev.stopPropagation();
         speakWord(zh);
+      });
+      document.getElementById("pop-write").addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        toggleStrokes(zh);
       });
       document.getElementById("pop-star").addEventListener("click", function (ev) {
         ev.stopPropagation();
@@ -226,6 +231,64 @@
       speakWord(zh);
     });
   });
+  /* ---------- stroke-order animation (hanzi-writer, lazy-loaded) ---------- */
+  var AB = document.body.getAttribute("data-audio-base") || "audio/";
+  var STROKE_BASE = AB.replace(/audio\/$/, "strokes/");
+  var hwReady = null;
+  function loadHW() {
+    if (hwReady) return hwReady;
+    hwReady = new Promise(function (res, rej) {
+      var sc = document.createElement("script");
+      sc.src = AB.replace(/audio\/$/, "assets/vendor/hanzi-writer.min.js");
+      sc.onload = res; sc.onerror = rej;
+      document.head.appendChild(sc);
+    });
+    return hwReady;
+  }
+  function strokeLoader(char, onComplete) {
+    fetch(STROKE_BASE + encodeURIComponent(char) + ".json")
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(onComplete)
+      .catch(function () {
+        var box = document.querySelector('.p-hz[data-ch="' + char + '"]');
+        if (box) box.classList.add("nodata");
+      });
+  }
+  function toggleStrokes(word) {
+    var old = pop.querySelector(".p-strokes");
+    if (old) { old.remove(); return; }
+    var panel = document.createElement("div");
+    panel.className = "p-strokes";
+    pop.appendChild(panel);
+    var chars = Array.from(word).filter(function (c) { return c >= "一" && c <= "鿿"; });
+    loadHW().then(function () {
+      var writers = [];
+      chars.forEach(function (c, i) {
+        var box = document.createElement("div");
+        box.className = "p-hz";
+        box.setAttribute("data-ch", c);
+        panel.appendChild(box);
+        var wr = HanziWriter.create(box, c, {
+          width: 84, height: 84, padding: 4,
+          strokeColor: "#f2e6c9", outlineColor: "#4a4038",
+          radicalColor: "#e2a93d",
+          delayBetweenStrokes: 120, strokeAnimationSpeed: 1.1,
+          charDataLoader: strokeLoader
+        });
+        writers.push(wr);
+        box.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+          wr.animateCharacter();
+        });
+      });
+      var playAll = function (i) {
+        if (i >= writers.length) return;
+        writers[i].animateCharacter({ onComplete: function () { playAll(i + 1); } });
+      };
+      setTimeout(function () { playAll(0); }, 250);
+    }).catch(function () { panel.textContent = "Stroke data unavailable."; });
+  }
+
   document.addEventListener("click", function () {
     if (pop) pop.classList.remove("show");
     if (lastW) { lastW.classList.remove("hl"); lastW = null; }

@@ -527,6 +527,9 @@ def main():
     media_audio = os.path.join(ROOT, "media", "audio")
     if os.path.isdir(media_audio):
         shutil.copytree(media_audio, os.path.join(OUT, "audio"))
+    media_strokes = os.path.join(ROOT, "media", "strokes")
+    if os.path.isdir(media_strokes):
+        shutil.copytree(media_strokes, os.path.join(OUT, "strokes"))
 
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(build_index(texts))
     for lvl in range(1, 7):
