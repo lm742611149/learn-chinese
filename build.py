@@ -405,7 +405,7 @@ def build_words(texts):
             f'<div class="vtext"><span class="vzh">{esc(zh)}</span>'
             f'<span class="vpy">{esc(py)}</span>'
             f'<span class="badge l{lvl}">HSK {lvl}</span>'
-            f'<span class="ven">{esc(en)}</span>{more}</div>'
+            f'<span class="ven">{esc(en)}</span></div>{more}'
             f'<button class="wstar" data-z="{esc(zh)}" data-p="{esc(py)}" '
             f'data-e="{esc(en)}" title="Save to wordbook">☆</button></div>')
     chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [
