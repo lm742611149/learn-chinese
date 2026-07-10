@@ -128,9 +128,16 @@
   }
   var sb = document.getElementById("t-speed");
   if (sb) {
-    sb.addEventListener("click", function () {
-      rate = rate === 1.0 ? 0.7 : 1.0;
-      sb.classList.toggle("on", rate !== 1.0);
+    try {
+      var savedRate = parseFloat(localStorage.getItem("rcd-rate"));
+      if (savedRate >= 0.5 && savedRate <= 1.25) { rate = savedRate; sb.value = String(savedRate); }
+    } catch (e) {}
+    sb.classList.toggle("on", rate !== 1);
+    sb.addEventListener("change", function () {
+      rate = parseFloat(sb.value) || 1;
+      sb.classList.toggle("on", rate !== 1);
+      if (player) player.playbackRate = rate;   // 播放中实时变速
+      try { localStorage.setItem("rcd-rate", String(rate)); } catch (e) {}
     });
   }
   if (playBtn) {
