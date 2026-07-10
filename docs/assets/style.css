@@ -332,12 +332,21 @@ select.tb-voice { max-width: 150px; appearance: none; -webkit-appearance: none;
   text-overflow: ellipsis; white-space: nowrap; }
 
 .text-body { padding: 10px 0 4px; }
-.sent { padding: 14px 6px; border-bottom: 1px dashed var(--line);
-  border-radius: 0; transition: background .15s; }
+.sent { position: relative; padding: 14px 10px 14px 16px;
+  border-bottom: 1px dashed var(--line);
+  border-radius: 0; transition: background .3s ease, box-shadow .3s ease; }
 .sent:last-of-type { border-bottom: none; }
-.sent:hover { background: #fdf8ee; border-radius: 8px; }
-.sent.playing { background: #fdf3df; border-radius: 8px;
-  box-shadow: inset 3px 0 0 var(--gold); }
+.sent:hover { background: #fdf8ee; border-radius: 10px; }
+.sent.playing { border-radius: 12px; border-bottom-color: transparent;
+  background: linear-gradient(100deg, #fdf3dd 0%, #fdf8ee 55%, transparent 100%);
+  box-shadow: 0 6px 18px rgba(190,140,40,.14); }
+.sent.playing::before { content: ""; position: absolute; left: 4px;
+  top: 16px; bottom: 16px; width: 4px; border-radius: 99px;
+  background: linear-gradient(180deg, var(--gold), #cf7622);
+  animation: sent-glow 1.6s ease-in-out infinite alternate; }
+@keyframes sent-glow {
+  from { box-shadow: 0 0 4px rgba(226,169,61,.45); opacity: .75; }
+  to   { box-shadow: 0 0 12px rgba(226,169,61,.85); opacity: 1; } }
 .zh-line { font-family: var(--serif);
   font-size: clamp(1.28rem, 3.8vw, 1.5rem); line-height: 2.5;
   font-weight: 600; }
@@ -514,7 +523,9 @@ html[data-theme="dark"] #search { background-color: #221c16; color: var(--ink-2)
 html[data-theme="dark"] .qopt.ok { background: #1d2f24; color: #8fd3a8; }
 html[data-theme="dark"] .qopt.bad { background: #35201a; color: #ff9a7d; }
 html[data-theme="dark"] .sent:hover { background: #272017; }
-html[data-theme="dark"] .sent.playing { background: #2e2517; }
+html[data-theme="dark"] .sent.playing {
+  background: linear-gradient(100deg, #2e2517 0%, #292115 55%, transparent 100%);
+  box-shadow: 0 6px 18px rgba(0,0,0,.3); }
 html[data-theme="dark"] .card { background: linear-gradient(170deg, #241e17, #201a14); }
 html[data-theme="dark"] .s-play { background: #33291f; color: #e0a276; }
 html[data-theme="dark"] { --lvl0: #5a4a35; }
