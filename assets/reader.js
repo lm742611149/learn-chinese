@@ -263,7 +263,6 @@
     var chars = Array.from(word).filter(function (c) { return c >= "一" && c <= "鿿"; });
     loadHW().then(function () {
       var writers = [];
-      var mode = "watch";
       chars.forEach(function (c, i) {
         var box = document.createElement("div");
         box.className = "p-hz";
@@ -279,43 +278,20 @@
         writers.push(wr);
         box.addEventListener("click", function (ev) {
           ev.stopPropagation();
-          if (mode !== "quiz") wr.animateCharacter();
+          wr.animateCharacter();
         });
       });
       var playAll = function (i) {
         if (i >= writers.length) return;
         writers[i].animateCharacter({ onComplete: function () { playAll(i + 1); } });
       };
-      var quizAll = function (i) {
-        if (i >= writers.length) { mode = "watch"; return; }
-        panel.querySelectorAll(".p-hz").forEach(function (b, k) {
-          b.classList.toggle("active", k === i);
-        });
-        writers[i].quiz({
-          drawingColor: "#f2e6c9",
-          drawingWidth: 22,
-          leniency: 1.8,               // 手指描红需要宽松判定
-          showHintAfterMisses: 2,      // 连错两次给笔画提示
-          onComplete: function () { setTimeout(function () { quizAll(i + 1); }, 400); }
-        });
-      };
       var ctl = document.createElement("div");
       ctl.className = "p-sk-ctl";
-      ctl.innerHTML = '<button id="sk-watch">▶ Watch</button>' +
-        '<button id="sk-try">✍️ Try it</button>' +
-        '<div class="p-sk-hint" hidden>Trace each stroke inside the box — 跟着灰色轮廓一笔一笔写</div>';
+      ctl.innerHTML = '<button id="sk-watch">▶ Watch again</button>';
       panel.appendChild(ctl);
       ctl.querySelector("#sk-watch").addEventListener("click", function (ev) {
-        ev.stopPropagation(); mode = "watch";
-        panel.querySelectorAll(".p-hz").forEach(function (b) { b.classList.remove("active"); });
-        writers.forEach(function (w) { w.cancelQuiz(); });
+        ev.stopPropagation();
         playAll(0);
-      });
-      ctl.querySelector("#sk-try").addEventListener("click", function (ev) {
-        ev.stopPropagation(); mode = "quiz";
-        ctl.querySelector(".p-sk-hint").hidden = false;
-        writers.forEach(function (w) { w.cancelQuiz(); });
-        quizAll(0);
       });
       setTimeout(function () { playAll(0); }, 250);
     }).catch(function () { panel.textContent = "Stroke data unavailable."; });
