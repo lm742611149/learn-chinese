@@ -1,0 +1,137 @@
+{
+  "slug": "hsk1-my-school",
+  "level": 1,
+  "title_zh": "我的学校",
+  "title_py": "Wǒ de xuéxiào",
+  "title_en": "My School",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["是", "shì", "to be"],
+        ["学生", "xuéshēng", "student"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["学校", "xuéxiào", "school"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["。"]
+      ],
+      "en": "I am a student, and my school is big."
+    },
+    {
+      "t": [
+        ["学校", "xuéxiào", "school"],
+        ["里", "lǐ", "inside"],
+        ["有", "yǒu", "to have; there is"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["同学", "tóngxué", "classmate"],
+        ["和", "hé", "and"],
+        ["老师", "lǎoshī", "teacher"],
+        ["。"]
+      ],
+      "en": "There are many classmates and teachers in the school."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["上午", "shàngwǔ", "morning"],
+        ["学习", "xuéxí", "to study"],
+        ["汉语", "Hànyǔ", "Chinese language"],
+        ["，"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["看书", "kànshū", "to read (books)"],
+        ["、"],
+        ["写字", "xiězì", "to write characters"],
+        ["。"]
+      ],
+      "en": "In the morning we study Chinese, and in the afternoon we read and write characters."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["老师", "lǎoshī", "teacher"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good; nice"],
+        ["，"],
+        ["同学们", "tóngxuémen", "classmates"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "My teacher is very nice, and the classmates are all happy."
+    },
+    {
+      "t": [
+        ["学校", "xuéxiào", "school"],
+        ["前面", "qiánmiàn", "in front"],
+        ["有", "yǒu", "to have; there is"],
+        ["一个", "yí ge", "one (+ measure word)"],
+        ["小", "xiǎo", "small"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["去", "qù", "to go"],
+        ["买", "mǎi", "to buy"],
+        ["水", "shuǐ", "water"],
+        ["。"]
+      ],
+      "en": "In front of the school there is a small shop, and I like to go there to buy water."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["爱", "ài", "to love"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["学校", "xuéxiào", "school"],
+        ["。"]
+      ],
+      "en": "I love my school very much."
+    }
+  ],
+  "vocab": [
+    ["学校", "xuéxiào", "school"],
+    ["学生", "xuéshēng", "student"],
+    ["同学", "tóngxué", "classmate"],
+    ["汉语", "Hànyǔ", "Chinese language"],
+    ["商店", "shāngdiàn", "shop; store"],
+    ["前面", "qiánmiàn", "in front"]
+  ],
+  "quiz": [
+    {
+      "q": "What do the students do in the morning?",
+      "a": ["Study Chinese", "Read and write characters", "Buy water"],
+      "c": 0
+    },
+    {
+      "q": "What is in front of the school?",
+      "a": ["A hospital", "A small shop", "A train station"],
+      "c": 1
+    },
+    {
+      "q": "What does the narrator like to buy at the shop?",
+      "a": ["Apples", "Tea", "Water"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "Place + 里/前面 + 有 — there is / there are",
+      "e": "To say something exists at a place, put the place word first, then 有: 学校里有很多同学。学校前面有一个商店。",
+      "x": "学校前面有一个小商店。 — There is a small shop in front of the school."
+    },
+    {
+      "p": "都 before the verb",
+      "e": "都 (all) goes after the subject and before the verb or adjective: 同学们都很高兴。",
+      "x": "同学们都很高兴。 — The classmates are all happy."
+    }
+  ]
+}

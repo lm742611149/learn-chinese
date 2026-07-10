@@ -1,0 +1,178 @@
+{
+  "slug": "hsk2-playing-football",
+  "level": 2,
+  "title_zh": "踢足球",
+  "title_py": "Tī zúqiú",
+  "title_en": "Playing Football",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我","wǒ","my"],
+        ["丈夫","zhàngfu","husband"],
+        ["每","měi","every"],
+        ["个","ge","(measure word)"],
+        ["星期日","xīngqīrì","Sunday"],
+        ["都","dōu","always; all"],
+        ["去","qù","to go"],
+        ["踢","tī","to kick; to play (football)"],
+        ["足球","zúqiú","football; soccer"],
+        ["。"]
+      ],
+      "en": "My husband goes to play football every Sunday."
+    },
+    {
+      "t": [
+        ["这","zhè","this"],
+        ["个","ge","(measure word)"],
+        ["星期日","xīngqīrì","Sunday"],
+        ["，"],
+        ["他","tā","he"],
+        ["让","ràng","to ask; to let"],
+        ["我","wǒ","me"],
+        ["也","yě","also"],
+        ["去","qù","to go"],
+        ["看","kàn","to watch"],
+        ["。"]
+      ],
+      "en": "This Sunday, he asked me to come and watch too."
+    },
+    {
+      "t": [
+        ["天气","tiānqì","weather"],
+        ["很","hěn","very"],
+        ["好","hǎo","good"],
+        ["，"],
+        ["他们","tāmen","they"],
+        ["在","zài","at"],
+        ["学校","xuéxiào","school"],
+        ["后面","hòumiàn","behind"],
+        ["踢","tī","to play (football)"],
+        ["，"],
+        ["看","kàn","to watch"],
+        ["的","de","(particle)"],
+        ["人","rén","people"],
+        ["很","hěn","very"],
+        ["多","duō","many"],
+        ["。"]
+      ],
+      "en": "The weather was great; they played behind the school, and many people were watching."
+    },
+    {
+      "t": [
+        ["我","wǒ","my"],
+        ["丈夫","zhàngfu","husband"],
+        ["跑","pǎo","to run"],
+        ["得","de","(complement particle)"],
+        ["很","hěn","very"],
+        ["快","kuài","fast"],
+        ["，"],
+        ["踢","tī","to kick"],
+        ["进","jìn","to go in"],
+        ["了","le","(particle)"],
+        ["两","liǎng","two"],
+        ["个","ge","(measure word)"],
+        ["球","qiú","ball; goal"],
+        ["。"]
+      ],
+      "en": "My husband ran very fast and kicked in two goals."
+    },
+    {
+      "t": [
+        ["大家","dàjiā","everyone"],
+        ["都","dōu","all"],
+        ["笑","xiào","to laugh"],
+        ["着","zhe","(ongoing particle)"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["太","tài","too; so"],
+        ["好","hǎo","good"],
+        ["了","le","(particle)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Everyone laughed and said, \"That was great!\""
+    },
+    {
+      "t": [
+        ["回","huí","to return"],
+        ["家","jiā","home"],
+        ["的","de","(particle)"],
+        ["时候","shíhou","time; when"],
+        ["他","tā","he"],
+        ["很","hěn","very"],
+        ["累","lèi","tired"],
+        ["，"],
+        ["但是","dànshì","but"],
+        ["非常","fēicháng","extremely"],
+        ["快乐","kuàilè","happy"],
+        ["。"]
+      ],
+      "en": "On the way home he was very tired, but extremely happy."
+    },
+    {
+      "t": [
+        ["他","tā","he"],
+        ["问","wèn","to ask"],
+        ["我","wǒ","me"],
+        ["："],
+        ["“"],
+        ["下","xià","next"],
+        ["个","ge","(measure word)"],
+        ["星期","xīngqī","week"],
+        ["你","nǐ","you"],
+        ["还","hái","again; still"],
+        ["来","lái","to come"],
+        ["吗","ma","(question particle)"],
+        ["？"],
+        ["”"],
+        ["我","wǒ","I"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["来","lái","to come"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "He asked me, \"Will you come again next week?\" I said, \"Yes, I will!\""
+    }
+  ],
+  "vocab": [
+    ["丈夫","zhàngfu","husband"],
+    ["踢","tī","to kick; to play (football)"],
+    ["足球","zúqiú","football; soccer"],
+    ["让","ràng","to ask; to let (someone do something)"],
+    ["跑","pǎo","to run"],
+    ["累","lèi","tired"]
+  ],
+  "quiz": [
+    {
+      "q": "How often does the husband play football?",
+      "a": ["Every Saturday", "Every Sunday", "Every day"],
+      "c": 1
+    },
+    {
+      "q": "How many goals did the husband score?",
+      "a": ["One", "Two", "Three"],
+      "c": 1
+    },
+    {
+      "q": "How did the husband feel on the way home?",
+      "a": ["Tired but extremely happy", "Sad because they lost", "Too cold to talk"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "让 (to ask / let someone do something)",
+      "e": "Person A + 让 + person B + verb: A asks or lets B do something. 他让我去看。",
+      "x": "他让我也去看。 — He asked me to go and watch too."
+    },
+    {
+      "p": "每…都…",
+      "e": "每 (every) is usually followed by 都 before the verb: 每个星期日都去。",
+      "x": "他每个星期日都去踢足球。 — He goes to play football every Sunday."
+    }
+  ]
+}

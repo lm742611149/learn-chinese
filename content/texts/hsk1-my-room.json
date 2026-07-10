@@ -1,0 +1,131 @@
+{
+  "slug": "hsk1-my-room",
+  "level": 1,
+  "title_zh": "我的房间",
+  "title_py": "Wǒ de fángjiān",
+  "title_en": "My Room",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["房间", "fángjiān", "room"],
+        ["不", "bú", "not"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "pretty"],
+        ["。"]
+      ],
+      "en": "My room isn't big, but it's very pretty."
+    },
+    {
+      "t": [
+        ["房间", "fángjiān", "room"],
+        ["里", "lǐ", "inside"],
+        ["有", "yǒu", "to have; there is"],
+        ["一个", "yí ge", "one (+ measure word)"],
+        ["桌子", "zhuōzi", "table; desk"],
+        ["和", "hé", "and"],
+        ["一个", "yí ge", "one (+ measure word)"],
+        ["椅子", "yǐzi", "chair"],
+        ["。"]
+      ],
+      "en": "In the room there is a desk and a chair."
+    },
+    {
+      "t": [
+        ["桌子", "zhuōzi", "table; desk"],
+        ["上", "shang", "on; on top of"],
+        ["有", "yǒu", "to have; there is"],
+        ["电脑", "diànnǎo", "computer"],
+        ["和", "hé", "and"],
+        ["一些", "yìxiē", "some; a few"],
+        ["书", "shū", "book"],
+        ["。"]
+      ],
+      "en": "On the desk there is a computer and some books."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at; on"],
+        ["椅子", "yǐzi", "chair"],
+        ["上", "shang", "on; on top of"],
+        ["看书", "kànshū", "to read (books)"],
+        ["、"],
+        ["写字", "xiězì", "to write characters"],
+        ["。"]
+      ],
+      "en": "I like to sit on the chair, reading and writing characters."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["猫", "māo", "cat"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["在", "zài", "at; in"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["房间", "fángjiān", "room"],
+        ["里", "lǐ", "inside"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "My cat likes to sleep in my room."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["爱", "ài", "to love"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["小", "xiǎo", "small"],
+        ["房间", "fángjiān", "room"],
+        ["。"]
+      ],
+      "en": "I love my little room."
+    }
+  ],
+  "vocab": [
+    ["房间", "fángjiān", "room"],
+    ["桌子", "zhuōzi", "table; desk"],
+    ["椅子", "yǐzi", "chair"],
+    ["电脑", "diànnǎo", "computer"],
+    ["猫", "māo", "cat"],
+    ["漂亮", "piàoliang", "pretty"]
+  ],
+  "quiz": [
+    {
+      "q": "What is on the desk?",
+      "a": ["A cat", "A computer and some books", "Clothes"],
+      "c": 1
+    },
+    {
+      "q": "Who likes to sleep in the room?",
+      "a": ["The narrator's cat", "The narrator's dog", "A classmate"],
+      "c": 0
+    },
+    {
+      "q": "How does the narrator describe the room?",
+      "a": ["Big and new", "Small but pretty", "Cold and dark"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "Noun + 里 / 上 — location words",
+      "e": "Attach 里 (inside) or 上 (on top) after a noun to make a place: 房间里 (in the room), 桌子上 (on the desk). Then use 有 for what is there.",
+      "x": "桌子上有电脑。 — There is a computer on the desk."
+    },
+    {
+      "p": "在 + place + verb",
+      "e": "The action's location goes before the verb with 在: 我的猫在房间里睡觉 (my cat sleeps in the room), not at the end like English.",
+      "x": "我的猫在我的房间里睡觉。 — My cat sleeps in my room."
+    }
+  ]
+}

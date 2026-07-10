@@ -1,0 +1,207 @@
+{
+  "slug": "hsk4-shared-bikes",
+  "level": 4,
+  "title_zh": "共享单车",
+  "title_py": "Gòngxiǎng dānchē",
+  "title_en": "Shared Bikes",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["几", "jǐ", "several"],
+        ["年", "nián", "years"],
+        ["前", "qián", "ago"],
+        ["，"],
+        ["共享", "gòngxiǎng", "shared"],
+        ["单车", "dānchē", "bike"],
+        ["突然", "tūrán", "suddenly"],
+        ["出现", "chūxiàn", "to appear"],
+        ["在", "zài", "at"],
+        ["中国", "Zhōngguó", "China"],
+        ["城市", "chéngshì", "city"],
+        ["的", "de", "(possessive)"],
+        ["街道", "jiēdào", "street"],
+        ["上", "shang", "on"],
+        ["。"]
+      ],
+      "en": "A few years ago, shared bikes suddenly appeared on the streets of Chinese cities."
+    },
+    {
+      "t": [
+        ["你", "nǐ", "you"],
+        ["只要", "zhǐyào", "as long as"],
+        ["用", "yòng", "to use"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["扫", "sǎo", "to scan"],
+        ["一下", "yíxià", "once; briefly"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["可以", "kěyǐ", "can"],
+        ["骑走", "qízǒu", "to ride away"],
+        ["一", "yí", "one"],
+        ["辆", "liàng", "(measure for vehicles)"],
+        ["车", "chē", "bike; vehicle"],
+        ["，"],
+        ["非常", "fēicháng", "very"],
+        ["方便", "fāngbiàn", "convenient"],
+        ["。"]
+      ],
+      "en": "As long as you scan with your phone, you can ride a bike away — extremely convenient."
+    },
+    {
+      "t": [
+        ["地铁站", "dìtiězhàn", "subway station"],
+        ["离", "lí", "from (distance)"],
+        ["公司", "gōngsī", "company"],
+        ["还", "hái", "still"],
+        ["有", "yǒu", "to have"],
+        ["两", "liǎng", "two"],
+        ["公里", "gōnglǐ", "kilometer"],
+        ["？"],
+        ["骑车", "qíchē", "to ride a bike"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["就", "jiù", "then"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "The subway station is still two kilometers from your office? Ten minutes by bike and you're there."
+    },
+    {
+      "t": [
+        ["共享", "gòngxiǎng", "shared"],
+        ["单车", "dānchē", "bike"],
+        ["不仅", "bùjǐn", "not only"],
+        ["便宜", "piányi", "cheap"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["对", "duì", "for"],
+        ["环境", "huánjìng", "environment"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["因此", "yīncǐ", "therefore"],
+        ["不", "bù", "not"],
+        ["开车", "kāichē", "to drive"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Shared bikes are not only cheap but also good for the environment, so many people stopped driving."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["问题", "wèntí", "problem"],
+        ["也", "yě", "also"],
+        ["来", "lái", "to come"],
+        ["了", "le", "(particle)"],
+        ["："],
+        ["有人", "yǒurén", "some people"],
+        ["把", "bǎ", "(object marker)"],
+        ["车", "chē", "bike"],
+        ["停", "tíng", "to park"],
+        ["在", "zài", "at"],
+        ["路", "lù", "road"],
+        ["中间", "zhōngjiān", "middle"],
+        ["，"],
+        ["还有", "háiyǒu", "there are also"],
+        ["人", "rén", "people"],
+        ["把", "bǎ", "(object marker)"],
+        ["车", "chē", "bike"],
+        ["骑回", "qíhuí", "to ride back"],
+        ["了", "le", "(particle)"],
+        ["自己", "zìjǐ", "own"],
+        ["家", "jiā", "home"],
+        ["。"]
+      ],
+      "en": "But problems came too: some people parked bikes in the middle of the road, and others even rode them home to keep."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["，"],
+        ["坏", "huài", "broken"],
+        ["了", "le", "(particle)"],
+        ["的", "de", "(possessive)"],
+        ["车", "chē", "bike"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["有的", "yǒude", "some"],
+        ["街道", "jiēdào", "street"],
+        ["像", "xiàng", "to be like"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["自行车", "zìxíngchē", "bicycle"],
+        ["的", "de", "(possessive)"],
+        ["“"],
+        ["海", "hǎi", "sea"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "Later, more and more bikes lay broken, and some streets looked like a \"sea\" of bicycles."
+    },
+    {
+      "t": [
+        ["共享", "gòngxiǎng", "shared"],
+        ["单车", "dānchē", "bike"],
+        ["让", "ràng", "to let"],
+        ["我们", "wǒmen", "us"],
+        ["明白", "míngbai", "to understand"],
+        ["："],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["好", "hǎo", "good"],
+        ["主意", "zhǔyi", "idea"],
+        ["，"],
+        ["还", "hái", "still"],
+        ["需要", "xūyào", "to need"],
+        ["大家", "dàjiā", "everyone"],
+        ["一起", "yìqǐ", "together"],
+        ["爱护", "àihù", "to cherish; take care of"],
+        ["它", "tā", "it"],
+        ["。"]
+      ],
+      "en": "Shared bikes taught us something: a good idea still needs everyone to take care of it together."
+    }
+  ],
+  "vocab": [
+    ["共享", "gòngxiǎng", "shared; to share"],
+    ["单车", "dānchē", "bike"],
+    ["扫", "sǎo", "to scan"],
+    ["环境", "huánjìng", "environment"],
+    ["因此", "yīncǐ", "therefore"],
+    ["爱护", "àihù", "to cherish; take care of"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, how do you unlock a shared bike?",
+      "a": ["By paying cash at a small shop", "By scanning it with your phone", "By asking a worker for a key"],
+      "c": 1
+    },
+    {
+      "q": "Which problem appeared after shared bikes became popular?",
+      "a": ["People parked bikes in the middle of the road", "The bikes became too expensive to ride", "Subway stations were forced to close"],
+      "c": 0
+    },
+    {
+      "q": "What lesson does the author draw at the end?",
+      "a": ["Cities should ban bicycles from big streets", "Driving a car is always more convenient", "A good idea still needs everyone to take care of it"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不仅……而且……",
+      "e": "\"Not only A, but also B\" — adds a second, often stronger point: 共享单车不仅便宜，而且对环境好。",
+      "x": "她不仅会说汉语，而且说得很流利。— She not only speaks Chinese, but speaks it fluently."
+    },
+    {
+      "p": "把 + object + verb + result",
+      "e": "The 把 structure moves the object before the verb to emphasize what is done to it: 有人把车停在路中间；还有人把车骑回了自己家。",
+      "x": "请把自行车停在门外。— Please park the bicycle outside the door."
+    }
+  ]
+}

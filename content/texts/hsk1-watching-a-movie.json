@@ -1,0 +1,135 @@
+{
+  "slug": "hsk1-watching-a-movie",
+  "level": 1,
+  "title_zh": "看电影",
+  "title_py": "Kàn diànyǐng",
+  "title_en": "Watching a Movie",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["是", "shì", "to be"],
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["工作", "gōngzuò", "to work"],
+        ["。"]
+      ],
+      "en": "Today is Saturday, and I don't have to work."
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["朋友", "péngyou", "friend"],
+        ["去", "qù", "to go"],
+        ["看", "kàn", "to watch; to see"],
+        ["电影", "diànyǐng", "movie"],
+        ["。"]
+      ],
+      "en": "In the afternoon, my friend and I went to see a movie."
+    },
+    {
+      "t": [
+        ["电影", "diànyǐng", "movie"],
+        ["很", "hěn", "very"],
+        ["好看", "hǎokàn", "good (to watch); enjoyable"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "all; both"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["。"]
+      ],
+      "en": "The movie was really good, and we both loved it."
+    },
+    {
+      "t": [
+        ["看", "kàn", "to watch; to see"],
+        ["电影", "diànyǐng", "movie"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["、"],
+        ["吃", "chī", "to eat"],
+        ["苹果", "píngguǒ", "apple"],
+        ["。"]
+      ],
+      "en": "While watching the movie, we drank tea and ate apples."
+    },
+    {
+      "t": [
+        ["电影", "diànyǐng", "movie"],
+        ["里", "lǐ", "inside"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "person; people"],
+        ["说", "shuō", "to speak"],
+        ["汉语", "Hànyǔ", "Chinese language"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["能", "néng", "can; to be able to"],
+        ["听", "tīng", "to listen; to understand by listening"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["！"]
+      ],
+      "en": "The people in the movie spoke Chinese, and I could catch a little of it!"
+    },
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["再", "zài", "again"],
+        ["看", "kàn", "to watch; to see"],
+        ["一个", "yí ge", "one (+ measure word)"],
+        ["电影", "diànyǐng", "movie"],
+        ["。"]
+      ],
+      "en": "Tomorrow I want to watch another movie."
+    }
+  ],
+  "vocab": [
+    ["电影", "diànyǐng", "movie"],
+    ["朋友", "péngyou", "friend"],
+    ["好看", "hǎokàn", "good (to watch); enjoyable"],
+    ["时候", "shíhou", "time; when"],
+    ["一点儿", "yìdiǎnr", "a little"],
+    ["再", "zài", "again"]
+  ],
+  "quiz": [
+    {
+      "q": "What day is it in the story?",
+      "a": ["Saturday", "Sunday", "Monday"],
+      "c": 0
+    },
+    {
+      "q": "What did they eat while watching the movie?",
+      "a": ["Rice", "Apples", "Noodles"],
+      "c": 1
+    },
+    {
+      "q": "What language did the people in the movie speak?",
+      "a": ["English", "Chinese", "The text doesn't say"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "……的时候 — when / while …",
+      "e": "Put 的时候 after an action to say \"while doing it\": 看电影的时候 (while watching the movie).",
+      "x": "看电影的时候，我们喝茶。 — While watching the movie, we drank tea."
+    },
+    {
+      "p": "能 + verb — can, be able to",
+      "e": "能 before a verb expresses ability: 我能听一点儿 (I can catch a little).",
+      "x": "我能听一点儿汉语。 — I can understand a little spoken Chinese."
+    }
+  ]
+}

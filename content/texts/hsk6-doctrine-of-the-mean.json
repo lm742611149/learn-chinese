@@ -1,0 +1,276 @@
+{
+  "slug": "hsk6-doctrine-of-the-mean",
+  "level": 6,
+  "title_zh": "中庸之道",
+  "title_py": "Zhōngyōng zhī dào",
+  "title_en": "The Doctrine of the Mean",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["一", "yì", "as soon as"],
+        ["提到", "tídào", "to mention"],
+        ["“"],
+        ["中庸", "zhōngyōng", "the Mean; the middle way"],
+        ["”"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["立刻", "lìkè", "immediately"],
+        ["联想到", "liánxiǎng dào", "to associate with"],
+        ["平庸", "píngyōng", "mediocre; mediocrity"],
+        ["、"],
+        ["圆滑", "yuánhuá", "slick; smooth and evasive"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["和稀泥", "huò xīní", "to smooth things over; to blur right and wrong"],
+        ["。"]
+      ],
+      "en": "The moment 'the Mean' is mentioned, many people think of mediocrity, slickness, even spineless fence-sitting."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["实在", "shízài", "truly; really"],
+        ["是", "shì", "to be"],
+        ["一场", "yì chǎng", "one (measure word)"],
+        ["持续", "chíxù", "to last; to continue"],
+        ["了", "le", "(completed action)"],
+        ["两千", "liǎngqiān", "two thousand"],
+        ["年", "nián", "year"],
+        ["的", "de", "(possessive particle)"],
+        ["误会", "wùhuì", "misunderstanding"],
+        ["。"]
+      ],
+      "en": "This is truly a misunderstanding that has lasted two thousand years."
+    },
+    {
+      "t": [
+        ["孔子", "Kǒngzǐ", "Confucius"],
+        ["所", "suǒ", "that which (literary particle)"],
+        ["说", "shuō", "to say"],
+        ["的", "de", "(possessive particle)"],
+        ["中庸", "zhōngyōng", "the Mean"],
+        ["，"],
+        ["核心", "héxīn", "core"],
+        ["是", "shì", "to be"],
+        ["“"],
+        ["过犹不及", "guò yóu bù jí", "going too far is as bad as falling short"],
+        ["”"],
+        ["："],
+        ["事情", "shìqing", "matter; things"],
+        ["做", "zuò", "to do"],
+        ["得", "de", "(complement particle)"],
+        ["过头", "guòtóu", "excessive; overboard"],
+        ["，"],
+        ["与", "yǔ", "and; together with (literary)"],
+        ["做", "zuò", "to do"],
+        ["得", "de", "(complement particle)"],
+        ["不够", "bú gòu", "not enough"],
+        ["，"],
+        ["同样", "tóngyàng", "equally"],
+        ["有害", "yǒuhài", "harmful"],
+        ["。"]
+      ],
+      "en": "The Mean that Confucius spoke of centers on 'excess is as bad as deficiency': overdoing a thing and underdoing it are equally harmful."
+    },
+    {
+      "t": [
+        ["中庸", "zhōngyōng", "the Mean"],
+        ["并非", "bìngfēi", "by no means"],
+        ["没有", "méiyǒu", "to lack; to not have"],
+        ["立场", "lìchǎng", "stance; position"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["在", "zài", "at; between"],
+        ["两个", "liǎng gè", "two"],
+        ["极端", "jíduān", "extreme"],
+        ["之间", "zhījiān", "between"],
+        ["找到", "zhǎodào", "to find"],
+        ["恰到好处", "qià dào hǎo chù", "just right; perfectly measured"],
+        ["的", "de", "(possessive particle)"],
+        ["那个", "nàge", "that"],
+        ["支点", "zhīdiǎn", "fulcrum; pivot"],
+        ["。"]
+      ],
+      "en": "The Mean is by no means the absence of a stance; it is finding, between two extremes, the fulcrum that is exactly right."
+    },
+    {
+      "t": [
+        ["就像", "jiùxiàng", "just like"],
+        ["熬", "áo", "to simmer; to stew"],
+        ["一锅", "yì guō", "one pot of"],
+        ["汤", "tāng", "soup"],
+        ["，"],
+        ["火", "huǒ", "fire; heat"],
+        ["太", "tài", "too"],
+        ["猛", "měng", "fierce"],
+        ["会", "huì", "will"],
+        ["烧干", "shāogān", "to boil dry"],
+        ["，"],
+        ["火", "huǒ", "fire; heat"],
+        ["太", "tài", "too"],
+        ["小", "xiǎo", "low; small"],
+        ["则", "zé", "then; whereas (literary)"],
+        ["煮不熟", "zhǔ bu shú", "cannot cook through"],
+        ["，"],
+        ["好", "hǎo", "good"],
+        ["厨师", "chúshī", "chef"],
+        ["讲究", "jiǎngjiu", "to be particular about"],
+        ["的", "de", "(nominalizing particle)"],
+        ["是", "shì", "to be"],
+        ["火候", "huǒhou", "control of heat; timing"],
+        ["。"]
+      ],
+      "en": "It is like simmering a pot of soup: too fierce a flame boils it dry, too low a flame leaves it raw — what a good chef cares about is the control of heat."
+    },
+    {
+      "t": [
+        ["现代", "xiàndài", "modern"],
+        ["生活", "shēnghuó", "life"],
+        ["里", "lǐ", "in"],
+        ["，"],
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["分寸感", "fēncùngǎn", "sense of proportion"],
+        ["处处", "chùchù", "everywhere"],
+        ["可见", "kějiàn", "can be seen"],
+        ["："],
+        ["工作", "gōngzuò", "work"],
+        ["要", "yào", "should"],
+        ["拼", "pīn", "to go all out"],
+        ["，"],
+        ["但", "dàn", "but"],
+        ["不能", "bù néng", "must not"],
+        ["拼到", "pīn dào", "to push to the point of"],
+        ["透支", "tòuzhī", "to overdraw"],
+        ["健康", "jiànkāng", "health"],
+        ["；"],
+        ["待人", "dàirén", "to treat people"],
+        ["要", "yào", "should"],
+        ["真诚", "zhēnchéng", "sincere"],
+        ["，"],
+        ["但", "dàn", "but"],
+        ["不必", "búbì", "need not"],
+        ["句句", "jùjù", "every sentence"],
+        ["直言不讳", "zhí yán bú huì", "to speak bluntly without reserve"],
+        ["。"]
+      ],
+      "en": "In modern life this sense of proportion is everywhere: work hard, but not to the point of overdrawing your health; be sincere with people, but you need not be brutally blunt in every sentence."
+    },
+    {
+      "t": [
+        ["网络", "wǎngluò", "internet"],
+        ["时代", "shídài", "era"],
+        ["盛行", "shèngxíng", "to prevail; to be in vogue"],
+        ["非黑即白", "fēi hēi jí bái", "black-or-white; no middle ground"],
+        ["的", "de", "(possessive particle)"],
+        ["争论", "zhēnglùn", "debate; dispute"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["急于", "jíyú", "anxious to"],
+        ["站队", "zhànduì", "to pick a side"],
+        ["，"],
+        ["中间", "zhōngjiān", "middle"],
+        ["地带", "dìdài", "zone; ground"],
+        ["反而", "fǎn'ér", "instead; paradoxically"],
+        ["成了", "chéngle", "to become"],
+        ["最", "zuì", "most"],
+        ["孤独", "gūdú", "lonely"],
+        ["的", "de", "(possessive particle)"],
+        ["位置", "wèizhi", "position"],
+        ["。"]
+      ],
+      "en": "In the internet age, black-or-white debates prevail and people rush to pick a side; the middle ground, paradoxically, has become the loneliest place to stand."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["真理", "zhēnlǐ", "truth"],
+        ["往往", "wǎngwǎng", "often"],
+        ["不", "bú", "not"],
+        ["住", "zhù", "to dwell; to live"],
+        ["在", "zài", "in"],
+        ["两端", "liǎngduān", "the two ends"],
+        ["的", "de", "(possessive particle)"],
+        ["喇叭", "lǎba", "loudspeaker"],
+        ["里", "lǐ", "inside"],
+        ["，"],
+        ["而", "ér", "but (literary)"],
+        ["住", "zhù", "to dwell"],
+        ["在", "zài", "in"],
+        ["安静", "ānjìng", "quiet"],
+        ["的", "de", "(possessive particle)"],
+        ["中间", "zhōngjiān", "middle"],
+        ["。"]
+      ],
+      "en": "Yet truth seldom lives in the loudspeakers at either end; it lives in the quiet middle."
+    },
+    {
+      "t": [
+        ["中庸", "zhōngyōng", "the Mean"],
+        ["不是", "bú shì", "is not"],
+        ["不敢", "bù gǎn", "to not dare"],
+        ["走", "zǒu", "to go to"],
+        ["极端", "jíduān", "extreme"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["有", "yǒu", "to have"],
+        ["能力", "nénglì", "ability"],
+        ["走", "zǒu", "to go to"],
+        ["极端", "jíduān", "extreme"],
+        ["却", "què", "yet"],
+        ["选择", "xuǎnzé", "to choose"],
+        ["克制", "kèzhì", "restraint; to restrain"],
+        ["；"],
+        ["这", "zhè", "this"],
+        ["才", "cái", "precisely; only then"],
+        ["是", "shì", "to be"],
+        ["它", "tā", "it"],
+        ["最", "zuì", "most"],
+        ["高级", "gāojí", "refined; high-level"],
+        ["的", "de", "(possessive particle)"],
+        ["地方", "dìfang", "aspect; place"],
+        ["。"]
+      ],
+      "en": "The Mean is not lacking the courage to go to extremes; it is having the power to go to extremes and choosing restraint — and that is what makes it so refined."
+    }
+  ],
+  "vocab": [
+    ["中庸", "zhōngyōng", "the Mean; the middle way"],
+    ["平庸", "píngyōng", "mediocre; mediocrity"],
+    ["过犹不及", "guò yóu bù jí", "going too far is as bad as falling short"],
+    ["火候", "huǒhou", "control of heat; timing"],
+    ["分寸感", "fēncùngǎn", "sense of proportion"],
+    ["克制", "kèzhì", "restraint; to restrain"]
+  ],
+  "quiz": [
+    {
+      "q": "What do many people mistakenly associate the Mean with?",
+      "a": ["Courage and extremes", "Mediocrity and fence-sitting", "Careful heat control in cooking"],
+      "c": 1
+    },
+    {
+      "q": "In the soup analogy, what is a good chef most particular about?",
+      "a": ["The control of the heat", "The quality of the ingredients", "The size of the pot"],
+      "c": 0
+    },
+    {
+      "q": "According to the closing line, the Mean at its best is what?",
+      "a": ["Never daring to go to extremes", "Always picking a side quickly", "Having the power to go to extremes but choosing restraint"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A……，B 则……",
+      "e": "Literary 则 contrasts two parallel clauses ('whereas; then'): 火太猛会烧干，火太小则煮不熟。",
+      "x": "南方多雨，北方则干燥。— The south is rainy, whereas the north is dry."
+    },
+    {
+      "p": "不是……，而是……",
+      "e": "'not A, but rather B' — corrects a misconception; the literary twin is 并非……而是……。中庸不是不敢走极端，而是选择克制。",
+      "x": "他沉默不是因为无话可说，而是因为不屑争辩。— His silence was not for lack of words, but from disdain for arguing."
+    }
+  ]
+}

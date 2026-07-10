@@ -1,0 +1,199 @@
+{
+  "slug": "hsk2-what-to-wear",
+  "level": 2,
+  "title_zh": "穿什么衣服",
+  "title_py": "Chuān shénme yīfu",
+  "title_en": "What to Wear",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["明天","míngtiān","tomorrow"],
+        ["是","shì","to be"],
+        ["我","wǒ","my"],
+        ["朋友","péngyou","friend"],
+        ["的","de","(possessive)"],
+        ["生日","shēngrì","birthday"],
+        ["，"],
+        ["晚上","wǎnshang","evening"],
+        ["大家","dàjiā","everyone"],
+        ["要","yào","will; be going to"],
+        ["一起","yìqǐ","together"],
+        ["吃饭","chīfàn","to have a meal"],
+        ["。"]
+      ],
+      "en": "Tomorrow is my friend's birthday, and in the evening we are all going to have dinner together."
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"],
+        ["晚上","wǎnshang","evening"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["问","wèn","to ask"],
+        ["丈夫","zhàngfu","husband"],
+        ["："],
+        ["“"],
+        ["明天","míngtiān","tomorrow"],
+        ["我","wǒ","I"],
+        ["穿","chuān","to wear"],
+        ["什么","shénme","what"],
+        ["衣服","yīfu","clothes"],
+        ["好","hǎo","good; best"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "Tonight I asked my husband, \"What should I wear tomorrow?\""
+    },
+    {
+      "t": [
+        ["他","tā","he"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["穿","chuān","to wear"],
+        ["那","nà","that"],
+        ["件","jiàn","(measure word for clothes)"],
+        ["红","hóng","red"],
+        ["的","de","(particle)"],
+        ["吧","ba","(suggestion particle)"],
+        ["，"],
+        ["你","nǐ","you"],
+        ["穿","chuān","to wear"],
+        ["红色","hóngsè","red (color)"],
+        ["的","de","(particle)"],
+        ["最","zuì","most"],
+        ["漂亮","piàoliang","beautiful"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said, \"Wear that red one — you look the most beautiful in red.\""
+    },
+    {
+      "t": [
+        ["我","wǒ","I"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["那","nà","that"],
+        ["件","jiàn","(measure word for clothes)"],
+        ["是","shì","to be"],
+        ["去年","qùnián","last year"],
+        ["买","mǎi","to buy"],
+        ["的","de","(particle)"],
+        ["，"],
+        ["是不是","shì bu shì","is it or not"],
+        ["太","tài","too"],
+        ["大","dà","big"],
+        ["了","le","(particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I said, \"I bought that one last year — isn't it too big now?\""
+    },
+    {
+      "t": [
+        ["丈夫","zhàngfu","husband"],
+        ["笑","xiào","to smile"],
+        ["着","zhe","(ongoing particle)"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["不","bú","not"],
+        ["大","dà","big"],
+        ["，"],
+        ["你","nǐ","you"],
+        ["穿","chuān","to wear"],
+        ["什么","shénme","anything; what"],
+        ["都","dōu","all"],
+        ["好看","hǎokàn","good-looking"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My husband smiled and said, \"It's not too big — you look good in anything.\""
+    },
+    {
+      "t": [
+        ["我","wǒ","I"],
+        ["很","hěn","very"],
+        ["高兴","gāoxìng","happy"],
+        ["，"],
+        ["就","jiù","then"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["好","hǎo","okay"],
+        ["，"],
+        ["明天","míngtiān","tomorrow"],
+        ["就","jiù","just; then"],
+        ["穿","chuān","to wear"],
+        ["它","tā","it"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I was very happy and said, \"Okay, I'll wear it tomorrow!\""
+    },
+    {
+      "t": [
+        ["他","tā","he"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["别","bié","don't"],
+        ["想","xiǎng","to think"],
+        ["了","le","(particle)"],
+        ["，"],
+        ["快","kuài","quickly"],
+        ["睡觉","shuìjiào","to sleep"],
+        ["吧","ba","(suggestion particle)"],
+        ["，"],
+        ["明天","míngtiān","tomorrow"],
+        ["你","nǐ","you"],
+        ["是","shì","to be"],
+        ["最","zuì","most"],
+        ["漂亮","piàoliang","beautiful"],
+        ["的","de","(particle)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "He said, \"Stop thinking about it and go to sleep — tomorrow you will be the most beautiful one there!\""
+    }
+  ],
+  "vocab": [
+    ["穿","chuān","to wear"],
+    ["衣服","yīfu","clothes"],
+    ["件","jiàn","(measure word for clothes)"],
+    ["红色","hóngsè","red (color)"],
+    ["漂亮","piàoliang","beautiful"],
+    ["生日","shēngrì","birthday"]
+  ],
+  "quiz": [
+    {
+      "q": "Why is the narrator choosing what to wear?",
+      "a": ["For a friend's birthday dinner", "For a trip to Beijing", "For her first day at a new job"],
+      "c": 0
+    },
+    {
+      "q": "Which clothes does the husband suggest?",
+      "a": ["A new black one", "The red one", "A white one from last year"],
+      "c": 1
+    },
+    {
+      "q": "What is the narrator worried about?",
+      "a": ["The red one is too expensive", "The red one is too small", "The red one may be too big"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "别…了",
+      "e": "别 + verb + 了 tells someone to stop doing something: 别想了 (stop thinking).",
+      "x": "别想了，快睡觉吧。 — Stop thinking about it and go to sleep."
+    },
+    {
+      "p": "吧 (suggestion)",
+      "e": "吧 at the end of a sentence makes a soft suggestion: 穿那件红的吧。",
+      "x": "穿那件红的吧。 — Why don't you wear that red one?"
+    }
+  ]
+}

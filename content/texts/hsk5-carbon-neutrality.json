@@ -1,0 +1,306 @@
+{
+  "slug": "hsk5-carbon-neutrality",
+  "level": 5,
+  "title_zh": "碳中和",
+  "title_py": "Tàn zhōnghé",
+  "title_en": "Carbon Neutrality",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["第一次", "dì-yī cì", "the first time"],
+        ["听到", "tīngdào", "to hear"],
+        ["“"],
+        ["碳中和", "tàn zhōnghé", "carbon neutrality"],
+        ["”"],
+        ["这个", "zhège", "this"],
+        ["词", "cí", "word"],
+        ["，"],
+        ["是", "shì", "to be"],
+        ["在", "zài", "in"],
+        ["电视", "diànshì", "television"],
+        ["新闻", "xīnwén", "news"],
+        ["里", "lǐ", "in"],
+        ["，"],
+        ["说实话", "shuō shíhuà", "to be honest"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["当时", "dāngshí", "at that time"],
+        ["完全", "wánquán", "completely"],
+        ["没", "méi", "not"],
+        ["听懂", "tīngdǒng", "to understand (by listening)"],
+        ["。"]
+      ],
+      "en": "The first time I heard the term \"carbon neutrality\" was on the TV news, and to be honest, I understood none of it at the time."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["查", "chá", "to look up"],
+        ["了", "le", "(particle)"],
+        ["资料", "zīliào", "materials; information"],
+        ["才", "cái", "only then"],
+        ["明白", "míngbai", "to understand"],
+        ["："],
+        ["简单", "jiǎndān", "simply"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["就", "jiù", "just"],
+        ["是", "shì", "to be"],
+        ["排放", "páifàng", "to emit"],
+        ["多少", "duōshao", "how much"],
+        ["二氧化碳", "èryǎnghuàtàn", "carbon dioxide"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["要", "yào", "must"],
+        ["减少", "jiǎnshǎo", "to reduce"],
+        ["或者", "huòzhě", "or"],
+        ["吸收", "xīshōu", "to absorb"],
+        ["多少", "duōshao", "that much"],
+        ["，"],
+        ["让", "ràng", "to make"],
+        ["总数", "zǒngshù", "total"],
+        ["等于", "děngyú", "to equal"],
+        ["零", "líng", "zero"],
+        ["。"]
+      ],
+      "en": "Only after looking it up did I understand: simply put, however much carbon dioxide you emit, you must reduce or absorb that same amount, so the total equals zero."
+    },
+    {
+      "t": [
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(possessive)"],
+        ["目标", "mùbiāo", "goal"],
+        ["是", "shì", "to be"],
+        ["二〇六〇年", "èr líng liù líng nián", "the year 2060"],
+        ["以前", "yǐqián", "before"],
+        ["实现", "shíxiàn", "to achieve"],
+        ["碳中和", "tàn zhōnghé", "carbon neutrality"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["意味着", "yìwèizhe", "to mean; to imply"],
+        ["能源", "néngyuán", "energy"],
+        ["、"],
+        ["交通", "jiāotōng", "transportation"],
+        ["、"],
+        ["工业", "gōngyè", "industry"],
+        ["都", "dōu", "all"],
+        ["要", "yào", "must"],
+        ["发生", "fāshēng", "to undergo"],
+        ["巨大", "jùdà", "enormous"],
+        ["的", "de", "(possessive)"],
+        ["变化", "biànhuà", "change"],
+        ["。"]
+      ],
+      "en": "China's goal is to achieve carbon neutrality before 2060, which means energy, transportation, and industry must all undergo enormous changes."
+    },
+    {
+      "t": [
+        ["听起来", "tīngqǐlai", "it sounds like"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["好像", "hǎoxiàng", "seemingly"],
+        ["只", "zhǐ", "only"],
+        ["是", "shì", "to be"],
+        ["国家", "guójiā", "country"],
+        ["和", "hé", "and"],
+        ["大", "dà", "big"],
+        ["公司", "gōngsī", "company"],
+        ["的", "de", "(possessive)"],
+        ["事", "shì", "matter"],
+        ["，"],
+        ["跟", "gēn", "with"],
+        ["普通", "pǔtōng", "ordinary"],
+        ["人", "rén", "people"],
+        ["没什么", "méi shénme", "not much"],
+        ["关系", "guānxi", "relation"],
+        ["。"]
+      ],
+      "en": "It sounds like something that concerns only governments and big companies, with little to do with ordinary people."
+    },
+    {
+      "t": [
+        ["但", "dàn", "but"],
+        ["仔细", "zǐxì", "carefully"],
+        ["想想", "xiǎngxiang", "to think a bit"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["每天", "měitiān", "every day"],
+        ["的", "de", "(possessive)"],
+        ["选择", "xuǎnzé", "choice"],
+        ["其实", "qíshí", "actually"],
+        ["都", "dōu", "all"],
+        ["和", "hé", "with"],
+        ["它", "tā", "it"],
+        ["有关", "yǒuguān", "to be related"],
+        ["："],
+        ["开车", "kāichē", "to drive"],
+        ["还是", "háishi", "or"],
+        ["坐", "zuò", "to take"],
+        ["地铁", "dìtiě", "subway"],
+        ["，"],
+        ["开", "kāi", "to turn on"],
+        ["空调", "kōngtiáo", "air conditioner"],
+        ["还是", "háishi", "or"],
+        ["开", "kāi", "to open"],
+        ["窗户", "chuānghu", "window"],
+        ["。"]
+      ],
+      "en": "But think about it carefully: our everyday choices are actually all connected to it — drive or take the subway, turn on the air conditioner or open the window."
+    },
+    {
+      "t": [
+        ["我家", "wǒ jiā", "my home"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["的", "de", "(possessive)"],
+        ["公交车", "gōngjiāochē", "public bus"],
+        ["全", "quán", "all"],
+        ["换成", "huànchéng", "to switch to"],
+        ["了", "le", "(particle)"],
+        ["电动", "diàndòng", "electric"],
+        ["的", "de", "(particle)"],
+        ["，"],
+        ["安静", "ānjìng", "quiet"],
+        ["得", "de", "(complement marker)"],
+        ["我", "wǒ", "I"],
+        ["刚", "gāng", "just"],
+        ["开始", "kāishǐ", "at first"],
+        ["都", "dōu", "even"],
+        ["不", "bù", "not"],
+        ["习惯", "xíguàn", "to be used to"],
+        ["。"]
+      ],
+      "en": "The buses below my building have all been switched to electric ones — so quiet that at first I couldn't even get used to it."
+    },
+    {
+      "t": [
+        ["当然", "dāngrán", "of course"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["有人", "yǒurén", "some people"],
+        ["怀疑", "huáiyí", "to doubt"],
+        ["："],
+        ["我", "wǒ", "I"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["人", "rén", "person"],
+        ["少", "shǎo", "less"],
+        ["用", "yòng", "to use"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["塑料袋", "sùliàodài", "plastic bag"],
+        ["，"],
+        ["真的", "zhēnde", "really"],
+        ["有用", "yǒuyòng", "useful"],
+        ["吗", "ma", "(question particle)"],
+        ["？"]
+      ],
+      "en": "Of course, some people doubt it: if I alone use one less plastic bag, does it really make a difference?"
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["人", "rén", "person"],
+        ["的", "de", "(possessive)"],
+        ["力量", "lìliang", "strength"],
+        ["确实", "quèshí", "indeed"],
+        ["很", "hěn", "very"],
+        ["小", "xiǎo", "small"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["政策", "zhèngcè", "policy"],
+        ["能", "néng", "can"],
+        ["改变", "gǎibiàn", "to change"],
+        ["的", "de", "(particle)"],
+        ["，"],
+        ["正是", "zhèng shì", "is precisely"],
+        ["几", "jǐ", "several"],
+        ["亿", "yì", "hundred million"],
+        ["人", "rén", "people"],
+        ["共同", "gòngtóng", "shared; common"],
+        ["的", "de", "(possessive)"],
+        ["习惯", "xíguàn", "habit"],
+        ["。"]
+      ],
+      "en": "One person's power is indeed small, but what policy can change is precisely the shared habits of hundreds of millions of people."
+    },
+    {
+      "t": [
+        ["哪怕", "nǎpà", "even if"],
+        ["只是", "zhǐshì", "merely"],
+        ["出门", "chūmén", "to go out"],
+        ["时", "shí", "when"],
+        ["关掉", "guāndiào", "to turn off"],
+        ["灯", "dēng", "light"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["算", "suàn", "to count as"],
+        ["参与", "cānyù", "to take part in"],
+        ["了", "le", "(particle)"],
+        ["这", "zhè", "this"],
+        ["件", "jiàn", "(measure word)"],
+        ["几十", "jǐshí", "several dozen"],
+        ["年", "nián", "years"],
+        ["后", "hòu", "later"],
+        ["才", "cái", "only then"],
+        ["能", "néng", "can"],
+        ["看到", "kàndào", "to see"],
+        ["结果", "jiéguǒ", "result"],
+        ["的", "de", "(possessive)"],
+        ["大事", "dàshì", "major undertaking"],
+        ["。"]
+      ],
+      "en": "Even if all you do is turn off the lights when you leave, it still counts as taking part in this great undertaking whose results will only be visible decades from now."
+    }
+  ],
+  "vocab": [
+    ["碳中和", "tàn zhōnghé", "carbon neutrality"],
+    ["排放", "páifàng", "to emit; emission"],
+    ["二氧化碳", "èryǎnghuàtàn", "carbon dioxide"],
+    ["电动", "diàndòng", "electric (powered)"],
+    ["能源", "néngyuán", "energy (resources)"],
+    ["政策", "zhèngcè", "policy"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what does carbon neutrality mean?",
+      "a": [
+        "Producing no carbon dioxide at all",
+        "Reducing or absorbing as much carbon dioxide as is emitted, so the total equals zero",
+        "Replacing all factories with forests"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What change did the narrator notice near home?",
+      "a": [
+        "The buses were all replaced with electric ones, which are surprisingly quiet",
+        "Plastic bags were banned in the local supermarket",
+        "The subway line was extended to his street"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How does the text respond to the doubt that one person's effort is useless?",
+      "a": [
+        "It agrees that only governments can make a difference",
+        "It says individuals should donate money to environmental groups instead",
+        "It argues that what policy changes is precisely the shared habits of hundreds of millions of people"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "哪怕…也…",
+      "e": "'Even if… still…' — concedes an extreme or minimal case: 哪怕只是关掉灯，也算参与了。",
+      "x": "哪怕只有一个学生来，我也会上课。— Even if only one student comes, I will still teach the class."
+    },
+    {
+      "p": "意味着",
+      "e": "'To mean / to imply' — states the consequence of a fact: 这意味着能源、交通、工业都要发生巨大的变化。",
+      "x": "选择这份工作，意味着你要经常出差。— Choosing this job means you will travel often."
+    }
+  ]
+}

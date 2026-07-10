@@ -1,0 +1,198 @@
+{
+  "slug": "hsk3-job-interview",
+  "level": 3,
+  "title_zh": "面试",
+  "title_py": "Miànshì",
+  "title_en": "The Job Interview",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个", "shàng ge", "last"],
+        ["星期三", "xīngqīsān", "Wednesday"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["一家", "yì jiā", "a; one (company)"],
+        ["公司", "gōngsī", "company"],
+        ["面试", "miànshì", "to have a job interview"],
+        ["。"]
+      ],
+      "en": "Last Wednesday I went to a company for a job interview."
+    },
+    {
+      "t": [
+        ["前", "qián", "before; previous"],
+        ["一天", "yì tiān", "one day"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["准备", "zhǔnbèi", "to prepare"],
+        ["了", "le", "(completed action)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["问题", "wèntí", "question"],
+        ["，"],
+        ["很", "hěn", "very"],
+        ["晚", "wǎn", "late"],
+        ["才", "cái", "only then; not until"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "The evening before, I prepared a lot of questions and didn't go to sleep until very late."
+    },
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["起", "qǐ", "to get up"],
+        ["得", "de", "(degree particle)"],
+        ["很", "hěn", "very"],
+        ["早", "zǎo", "early"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["想", "xiǎng", "to want"],
+        ["迟到", "chídào", "to be late"],
+        ["。"]
+      ],
+      "en": "In the morning I got up very early, because I didn't want to be late."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["穿", "chuān", "to wear"],
+        ["了", "le", "(completed action)"],
+        ["一件", "yí jiàn", "a; one (piece of clothing)"],
+        ["白", "bái", "white"],
+        ["衬衫", "chènshān", "shirt"],
+        ["，"],
+        ["希望", "xīwàng", "to hope"],
+        ["经理", "jīnglǐ", "manager"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["认真", "rènzhēn", "serious; earnest"],
+        ["。"]
+      ],
+      "en": "I wore a white shirt, hoping the manager would think I was serious."
+    },
+    {
+      "t": [
+        ["经理", "jīnglǐ", "manager"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["为什么", "wèishénme", "why"],
+        ["想", "xiǎng", "to want"],
+        ["来", "lái", "to come"],
+        ["我们", "wǒmen", "we; our"],
+        ["公司", "gōngsī", "company"],
+        ["工作", "gōngzuò", "to work"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The manager asked me: \"Why do you want to come work at our company?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["有点儿", "yǒudiǎnr", "a little; somewhat"],
+        ["紧张", "jǐnzhāng", "nervous"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["认真", "rènzhēn", "serious; earnest"],
+        ["地", "de", "(adverbial particle)"],
+        ["回答", "huídá", "to answer"],
+        ["了", "le", "(completed action)"],
+        ["每个", "měi ge", "every; each"],
+        ["问题", "wèntí", "question"],
+        ["。"]
+      ],
+      "en": "I was a little nervous, but I answered every question carefully."
+    },
+    {
+      "t": [
+        ["面试", "miànshì", "job interview"],
+        ["结束", "jiéshù", "to finish; to end"],
+        ["的时候", "de shíhou", "when; at the time of"],
+        ["，"],
+        ["经理", "jīnglǐ", "manager"],
+        ["笑着", "xiàozhe", "smiling"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["不错", "búcuò", "not bad; pretty good"],
+        ["，"],
+        ["回家", "huíjiā", "to go home"],
+        ["等", "děng", "to wait for"],
+        ["我们", "wǒmen", "we; our"],
+        ["的", "de", "(possessive particle)"],
+        ["电话", "diànhuà", "phone call"],
+        ["吧", "ba", "(suggestion particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "When the interview ended, the manager said with a smile: \"Not bad. Go home and wait for our call.\""
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["他们", "tāmen", "they"],
+        ["真的", "zhēn de", "really"],
+        ["打", "dǎ", "to make (a call)"],
+        ["电话", "diànhuà", "phone call"],
+        ["来", "lái", "to come"],
+        ["了", "le", "(completed action)"],
+        ["，"],
+        ["下个月", "xià ge yuè", "next month"],
+        ["我", "wǒ", "I; me"],
+        ["就要", "jiù yào", "about to; soon will"],
+        ["上班", "shàngbān", "to start work; go to work"],
+        ["了", "le", "(change of state)"],
+        ["！"]
+      ],
+      "en": "Yesterday they really did call — next month I'll be starting work!"
+    }
+  ],
+  "vocab": [
+    ["面试", "miànshì", "job interview"],
+    ["紧张", "jǐnzhāng", "nervous"],
+    ["经理", "jīnglǐ", "manager"],
+    ["衬衫", "chènshān", "shirt"],
+    ["回答", "huídá", "to answer"],
+    ["迟到", "chídào", "to be late"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the narrator get up early on the morning of the interview?",
+      "a": ["He didn't want to be late", "He had to make breakfast", "He wanted to go running first"],
+      "c": 0
+    },
+    {
+      "q": "What did the manager ask the narrator?",
+      "a": ["Where he went to school", "Why he wanted to work at the company", "How much money he wanted"],
+      "c": 1
+    },
+    {
+      "q": "How did the narrator find out he got the job?",
+      "a": ["The manager told him at the interview", "He received a letter", "The company called him the next day"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "地 (adverbial marker)",
+      "e": "Adjective + 地 + verb turns the adjective into an adverb describing how the action is done: 认真地回答 (answer seriously), 慢慢地走 (walk slowly).",
+      "x": "我认真地回答了每个问题。— I answered every question carefully."
+    },
+    {
+      "p": "就要…了 (about to)",
+      "e": "就要 + verb + 了 means something is going to happen soon, often with a time word: 下个月我就要上班了。",
+      "x": "火车就要开了。— The train is about to leave."
+    }
+  ]
+}

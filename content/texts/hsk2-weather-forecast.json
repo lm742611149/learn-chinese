@@ -1,0 +1,180 @@
+{
+  "slug": "hsk2-weather-forecast",
+  "level": 2,
+  "title_zh": "天气预报",
+  "title_py": "Tiānqì yùbào",
+  "title_en": "The Weather Forecast",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每天","měitiān","every day"],
+        ["晚上","wǎnshang","evening"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["都","dōu","always; all"],
+        ["看","kàn","to watch"],
+        ["天气","tiānqì","weather"],
+        ["预报","yùbào","forecast"],
+        ["。"]
+      ],
+      "en": "Every evening, I watch the weather forecast."
+    },
+    {
+      "t": [
+        ["昨天","zuótiān","yesterday"],
+        ["电视","diànshì","TV"],
+        ["里","lǐ","in; on"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["明天","míngtiān","tomorrow"],
+        ["有","yǒu","to have; there is"],
+        ["雨","yǔ","rain"],
+        ["，"],
+        ["会","huì","will"],
+        ["很","hěn","very"],
+        ["冷","lěng","cold"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Yesterday the TV said, \"Tomorrow there will be rain, and it will be very cold.\""
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"],
+        ["早上","zǎoshang","morning"],
+        ["出门","chūmén","to go out"],
+        ["的","de","(particle)"],
+        ["时候","shíhou","time; when"],
+        ["，"],
+        ["天","tiān","sky"],
+        ["是","shì","to be"],
+        ["阴","yīn","overcast"],
+        ["的","de","(particle)"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["穿","chuān","to wear"],
+        ["了","le","(particle)"],
+        ["很","hěn","very"],
+        ["多","duō","many; much"],
+        ["衣服","yīfu","clothes"],
+        ["。"]
+      ],
+      "en": "This morning when I left home, the sky was overcast, so I put on a lot of clothes."
+    },
+    {
+      "t": [
+        ["但是","dànshì","but"],
+        ["中午","zhōngwǔ","noon"],
+        ["没有","méiyǒu","did not"],
+        ["下雨","xiàyǔ","to rain"],
+        ["，"],
+        ["天","tiān","sky"],
+        ["晴","qíng","sunny; clear"],
+        ["了","le","(particle)"],
+        ["，"],
+        ["还","hái","moreover; even"],
+        ["很","hěn","very"],
+        ["热","rè","hot"],
+        ["！"]
+      ],
+      "en": "But at noon it didn't rain — the sky turned sunny, and it was even hot!"
+    },
+    {
+      "t": [
+        ["我","wǒ","I"],
+        ["穿","chuān","to wear"],
+        ["得","de","(complement particle)"],
+        ["太","tài","too"],
+        ["多","duō","much"],
+        ["，"],
+        ["走","zǒu","to walk"],
+        ["一点儿","yìdiǎnr","a little"],
+        ["路","lù","road; distance"],
+        ["就","jiù","then; right away"],
+        ["热","rè","hot"],
+        ["得","de","(complement particle)"],
+        ["不","bù","not"],
+        ["想","xiǎng","to want"],
+        ["说话","shuōhuà","to talk"],
+        ["。"]
+      ],
+      "en": "I was wearing too much; after walking just a little I was so hot I didn't even want to talk."
+    },
+    {
+      "t": [
+        ["我","wǒ","I"],
+        ["笑","xiào","to smile"],
+        ["着","zhe","(ongoing particle)"],
+        ["想","xiǎng","to think"],
+        ["："],
+        ["天气","tiānqì","weather"],
+        ["预报","yùbào","forecast"],
+        ["有时候","yǒushíhou","sometimes"],
+        ["也","yě","also"],
+        ["会","huì","can; may"],
+        ["错","cuò","wrong"],
+        ["。"]
+      ],
+      "en": "I smiled and thought: sometimes the weather forecast can be wrong too."
+    },
+    {
+      "t": [
+        ["明天","míngtiān","tomorrow"],
+        ["我","wǒ","I"],
+        ["还","hái","still"],
+        ["会","huì","will"],
+        ["看","kàn","to watch"],
+        ["天气","tiānqì","weather"],
+        ["预报","yùbào","forecast"],
+        ["，"],
+        ["但是","dànshì","but"],
+        ["我","wǒ","I"],
+        ["也","yě","also"],
+        ["要","yào","will; want to"],
+        ["看看","kànkan","to take a look"],
+        ["天","tiān","sky"],
+        ["！"]
+      ],
+      "en": "Tomorrow I will still watch the weather forecast, but I will also take a look at the sky myself!"
+    }
+  ],
+  "vocab": [
+    ["预报","yùbào","forecast"],
+    ["阴","yīn","overcast"],
+    ["晴","qíng","sunny; clear"],
+    ["冷","lěng","cold"],
+    ["热","rè","hot"],
+    ["错","cuò","wrong"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the weather forecast say about today?",
+      "a": ["It would rain and be very cold", "It would be sunny and hot", "It would snow all day"],
+      "c": 0
+    },
+    {
+      "q": "What was the weather actually like at noon?",
+      "a": ["It rained hard", "It was sunny and hot", "It was cold and overcast"],
+      "c": 1
+    },
+    {
+      "q": "What does the narrator decide to do from now on?",
+      "a": ["Stop watching the weather forecast", "Also look at the sky, not only the forecast", "Buy more warm clothes"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "会 (prediction)",
+      "e": "会 before an adjective or verb can mean \"will (probably)\": 明天会很冷。",
+      "x": "明天会很冷。 — Tomorrow it will be very cold."
+    },
+    {
+      "p": "Adjective + 得 + result",
+      "e": "得 after an adjective shows how far it goes: 热得不想说话 (so hot that ...).",
+      "x": "我热得不想说话。 — I was so hot that I didn't want to talk."
+    }
+  ]
+}

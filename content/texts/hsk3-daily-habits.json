@@ -1,0 +1,179 @@
+{
+  "slug": "hsk3-daily-habits",
+  "level": 3,
+  "title_zh": "刷牙洗脸",
+  "title_py": "Shuāyá Xǐliǎn",
+  "title_en": "Morning Habits",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["以前", "yǐqián", "before; in the past"],
+        ["每天", "měi tiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["七点半", "qī diǎn bàn", "seven thirty"],
+        ["才", "cái", "only then; not until"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["，"],
+        ["总是", "zǒngshì", "always"],
+        ["很", "hěn", "very"],
+        ["着急", "zháojí", "anxious; in a hurry"],
+        ["。"]
+      ],
+      "en": "I used to get up at seven thirty every morning, and I was always in a hurry."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["常常", "chángcháng", "often"],
+        ["一边", "yìbiān", "while (doing one thing)"],
+        ["刷牙", "shuāyá", "to brush teeth"],
+        ["，"],
+        ["一边", "yìbiān", "while (doing another)"],
+        ["找", "zhǎo", "to look for"],
+        ["衣服", "yīfu", "clothes"],
+        ["，"],
+        ["有时候", "yǒu shíhou", "sometimes"],
+        ["忘了", "wàng le", "to forget"],
+        ["洗脸", "xǐliǎn", "to wash one's face"],
+        ["就", "jiù", "then; right away"],
+        ["出门", "chūmén", "to go out"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "I often looked for clothes while brushing my teeth, and sometimes I went out the door having forgotten to wash my face."
+    },
+    {
+      "t": [
+        ["上个月", "shàng ge yuè", "last month"],
+        ["开始", "kāishǐ", "to start"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["让", "ràng", "to make; to let"],
+        ["自己", "zìjǐ", "oneself"],
+        ["六点五十", "liù diǎn wǔshí", "six fifty"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["。"]
+      ],
+      "en": "Starting last month, I made myself get up at six fifty."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["先", "xiān", "first"],
+        ["刷牙", "shuāyá", "to brush teeth"],
+        ["、"],
+        ["洗脸", "xǐliǎn", "to wash one's face"],
+        ["，"],
+        ["然后", "ránhòu", "then; after that"],
+        ["安静", "ānjìng", "quiet; calm"],
+        ["地", "de", "(adverbial particle)"],
+        ["吃", "chī", "to eat"],
+        ["早饭", "zǎofàn", "breakfast"],
+        ["，"],
+        ["喝", "hē", "to drink"],
+        ["一杯", "yì bēi", "a cup of"],
+        ["热", "rè", "hot"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["。"]
+      ],
+      "en": "Now I first brush my teeth and wash my face, then quietly eat breakfast and drink a cup of hot milk."
+    },
+    {
+      "t": [
+        ["吃完", "chīwán", "to finish eating"],
+        ["饭", "fàn", "meal"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["还", "hái", "still; in addition"],
+        ["有", "yǒu", "to have"],
+        ["时间", "shíjiān", "time"],
+        ["看", "kàn", "to watch; to read"],
+        ["一会儿", "yíhuìr", "a little while"],
+        ["新闻", "xīnwén", "news"],
+        ["。"]
+      ],
+      "en": "After finishing my meal, I even have time to watch the news for a while."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["这", "zhè", "this"],
+        ["已经", "yǐjīng", "already"],
+        ["变成", "biànchéng", "to become; to turn into"],
+        ["了", "le", "(completed action)"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["习惯", "xíguàn", "habit"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["早上", "zǎoshang", "morning"],
+        ["再", "zài", "again; any more"],
+        ["也", "yě", "also; (not) ever"],
+        ["不", "bù", "not"],
+        ["着急", "zháojí", "anxious; in a hurry"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "Now this has become my habit, and I'm never in a hurry in the morning any more."
+    },
+    {
+      "t": [
+        ["没想到", "méi xiǎngdào", "unexpectedly; who knew"],
+        ["，"],
+        ["早", "zǎo", "early"],
+        ["起", "qǐ", "to get up"],
+        ["四十", "sìshí", "forty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["一天", "yì tiān", "one day; the whole day"],
+        ["都", "dōu", "all"],
+        ["不一样", "bù yíyàng", "different"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "Who knew that getting up forty minutes earlier would make my whole day different."
+    }
+  ],
+  "vocab": [
+    ["刷牙", "shuāyá", "to brush teeth"],
+    ["洗脸", "xǐliǎn", "to wash one's face"],
+    ["着急", "zháojí", "anxious; in a hurry"],
+    ["安静", "ānjìng", "quiet; calm"],
+    ["习惯", "xíguàn", "habit"],
+    ["新闻", "xīnwén", "news"]
+  ],
+  "quiz": [
+    {
+      "q": "What was the narrator's problem in the past?",
+      "a": ["He got up too late and was always in a hurry", "He couldn't fall asleep at night", "He didn't like drinking milk"],
+      "c": 0
+    },
+    {
+      "q": "What does the narrator do first after getting up now?",
+      "a": ["Eats breakfast", "Brushes his teeth and washes his face", "Watches the news"],
+      "c": 1
+    },
+    {
+      "q": "How many minutes earlier does the narrator get up now?",
+      "a": ["Twenty minutes", "One hour", "Forty minutes"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边…一边… (doing two things at once)",
+      "e": "一边 + verb, 一边 + verb describes two actions happening at the same time: 一边刷牙，一边找衣服。",
+      "x": "他一边吃饭，一边看手机。— He looks at his phone while eating."
+    },
+    {
+      "p": "先…然后… (first…, then…)",
+      "e": "先 + action 1, 然后 + action 2 puts actions in order: 先刷牙洗脸，然后吃早饭。",
+      "x": "我们先做作业，然后看电视。— We do homework first, then watch TV."
+    }
+  ]
+}

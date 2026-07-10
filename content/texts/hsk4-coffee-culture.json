@@ -1,0 +1,223 @@
+{
+  "slug": "hsk4-coffee-culture",
+  "level": 4,
+  "title_zh": "咖啡文化",
+  "title_py": "Kāfēi wénhuà",
+  "title_en": "Coffee Culture",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["十几", "shí jǐ", "ten-odd"],
+        ["年", "nián", "years"],
+        ["前", "qián", "ago"],
+        ["，"],
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["喝", "hē", "to drink"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["还", "hái", "still"],
+        ["很", "hěn", "very"],
+        ["少", "shǎo", "few"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["更", "gèng", "more"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "A dozen or so years ago, few people in China drank coffee; everyone preferred tea."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["现在", "xiànzài", "now"],
+        ["，"],
+        ["随着", "suízhe", "along with"],
+        ["生活", "shēnghuó", "life"],
+        ["的", "de", "(possessive)"],
+        ["改变", "gǎibiàn", "change"],
+        ["，"],
+        ["咖啡店", "kāfēidiàn", "coffee shop"],
+        ["在", "zài", "in"],
+        ["每", "měi", "every"],
+        ["个", "ge", "(measure word)"],
+        ["城市", "chéngshì", "city"],
+        ["都", "dōu", "all"],
+        ["越", "yuè", "the more"],
+        ["开", "kāi", "to open"],
+        ["越", "yuè", "the more"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "But now, as life changes, more and more coffee shops are opening in every city."
+    },
+    {
+      "t": [
+        ["对", "duì", "for"],
+        ["很多", "hěn duō", "many"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["来说", "lái shuō", "as for"],
+        ["，"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["不只", "bùzhǐ", "not only"],
+        ["是", "shì", "is"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind"],
+        ["饮料", "yǐnliào", "beverage"],
+        ["。"]
+      ],
+      "en": "For many young people, coffee is not just a drink."
+    },
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["的", "de", "(possessive)"],
+        ["第一", "dì-yī", "first"],
+        ["杯", "bēi", "cup"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["是", "shì", "is"],
+        ["工作", "gōngzuò", "work"],
+        ["的", "de", "(possessive)"],
+        ["开始", "kāishǐ", "beginning"],
+        ["，"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["的", "de", "(possessive)"],
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup"],
+        ["是", "shì", "is"],
+        ["给", "gěi", "to give"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(possessive)"],
+        ["小", "xiǎo", "small"],
+        ["礼物", "lǐwù", "gift"],
+        ["。"]
+      ],
+      "en": "The first cup in the morning is how work begins; the afternoon cup is a small gift to yourself."
+    },
+    {
+      "t": [
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["的", "de", "(possessive)"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(possessive)"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "to have"],
+        ["了", "le", "(particle)"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "flavor"],
+        ["，"],
+        ["比如", "bǐrú", "for example"],
+        ["加", "jiā", "to add"],
+        ["茶", "chá", "tea"],
+        ["的", "de", "(possessive)"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["、"],
+        ["加", "jiā", "to add"],
+        ["水果", "shuǐguǒ", "fruit"],
+        ["的", "de", "(possessive)"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["。"]
+      ],
+      "en": "Interestingly, coffee in China has developed its own flavor — coffee with tea, coffee with fruit."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["喝", "hē", "to drink"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["是", "shì", "is"],
+        ["学", "xué", "to imitate; learn from"],
+        ["西方", "xīfāng", "the West"],
+        ["人", "rén", "people"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["却", "què", "yet; however"],
+        ["觉得", "juéde", "to feel"],
+        ["，"],
+        ["中国人", "Zhōngguórén", "Chinese people"],
+        ["把", "bǎ", "(object marker)"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["变成", "biànchéng", "to turn into"],
+        ["了", "le", "(particle)"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["文化", "wénhuà", "culture"],
+        ["。"]
+      ],
+      "en": "Some say drinking coffee is copying Westerners; I feel, however, that Chinese people have turned coffee into a culture of their own."
+    },
+    {
+      "t": [
+        ["其实", "qíshí", "actually"],
+        ["，"],
+        ["茶", "chá", "tea"],
+        ["和", "hé", "and"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["没有", "méiyǒu", "not have"],
+        ["谁", "shéi", "who"],
+        ["比", "bǐ", "compared to"],
+        ["谁", "shéi", "who"],
+        ["好", "hǎo", "better"],
+        ["，"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(possessive)"],
+        ["是", "shì", "is"],
+        ["坐下来", "zuò xiàlai", "to sit down"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["喝", "hē", "to drink"],
+        ["的", "de", "(possessive)"],
+        ["那", "nà", "that"],
+        ["一刻", "yíkè", "moment"],
+        ["。"]
+      ],
+      "en": "Actually, neither tea nor coffee is better than the other — what matters is the moment you sit down and drink slowly."
+    }
+  ],
+  "vocab": [
+    ["咖啡", "kāfēi", "coffee"],
+    ["随着", "suízhe", "along with; as"],
+    ["饮料", "yǐnliào", "beverage"],
+    ["西方", "xīfāng", "the West"],
+    ["文化", "wénhuà", "culture"],
+    ["一刻", "yíkè", "a moment"]
+  ],
+  "quiz": [
+    {
+      "q": "A dozen years ago, what did most people in China prefer to drink?",
+      "a": ["Coffee", "Tea", "Fruit juice"],
+      "c": 1
+    },
+    {
+      "q": "According to the text, what is the afternoon cup of coffee for young people?",
+      "a": ["A small gift to themselves", "The start of the workday", "A way to stay awake at night"],
+      "c": 0
+    },
+    {
+      "q": "What does the author think Chinese people have done with coffee?",
+      "a": ["Simply copied the Western way of drinking it", "Turned it into a culture of their own", "Replaced tea with it completely"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着……",
+      "e": "\"Along with / as ...\" introduces a change that causes or accompanies another change: 随着生活的改变，咖啡店越开越多。",
+      "x": "随着天气变冷，穿大衣的人多了。— As the weather turns cold, more people wear coats."
+    },
+    {
+      "p": "对……来说",
+      "e": "\"For / as far as X is concerned\" gives whose point of view the statement is true from: 对很多年轻人来说，咖啡不只是一种饮料。",
+      "x": "对我来说，早起比熬夜更难。— For me, getting up early is harder than staying up late."
+    }
+  ]
+}

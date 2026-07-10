@@ -1,0 +1,282 @@
+{
+  "slug": "hsk5-ai-and-work",
+  "level": 5,
+  "title_zh": "人工智能与工作",
+  "title_py": "Réngōng zhìnéng yǔ gōngzuò",
+  "title_en": "AI and Work",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["最近", "zuìjìn", "recently"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["公司", "gōngsī", "company"],
+        ["开始", "kāishǐ", "to start"],
+        ["用", "yòng", "to use"],
+        ["人工智能", "réngōng zhìnéng", "artificial intelligence"],
+        ["写", "xiě", "to write"],
+        ["报告", "bàogào", "report"],
+        ["，"],
+        ["同事们", "tóngshìmen", "colleagues"],
+        ["的", "de", "(possessive)"],
+        ["反应", "fǎnyìng", "reaction"],
+        ["很", "hěn", "very"],
+        ["不一样", "bù yíyàng", "different"],
+        ["。"]
+      ],
+      "en": "Recently our company started using artificial intelligence to write reports, and my colleagues' reactions have been very different."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["担心", "dānxīn", "to worry"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(possessive)"],
+        ["工作", "gōngzuò", "job"],
+        ["会", "huì", "will"],
+        ["被", "bèi", "(passive marker)"],
+        ["机器", "jīqì", "machine"],
+        ["取代", "qǔdài", "to replace"],
+        ["，"],
+        ["有人", "yǒurén", "some people"],
+        ["却", "què", "however"],
+        ["觉得", "juéde", "to feel"],
+        ["终于", "zhōngyú", "finally"],
+        ["可以", "kěyǐ", "can"],
+        ["少", "shǎo", "less"],
+        ["加班", "jiābān", "to work overtime"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Some worry their jobs will be replaced by machines, while others feel they can finally work less overtime."
+    },
+    {
+      "t": [
+        ["说实话", "shuō shíhuà", "to be honest"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["两", "liǎng", "two"],
+        ["种", "zhǒng", "kinds"],
+        ["感觉", "gǎnjué", "feeling"],
+        ["都", "dōu", "both"],
+        ["有", "yǒu", "to have"],
+        ["。"]
+      ],
+      "en": "To be honest, I have both feelings."
+    },
+    {
+      "t": [
+        ["人工智能", "réngōng zhìnéng", "artificial intelligence"],
+        ["确实", "quèshí", "indeed"],
+        ["比", "bǐ", "than"],
+        ["我", "wǒ", "I"],
+        ["快", "kuài", "fast"],
+        ["："],
+        ["我", "wǒ", "I"],
+        ["写", "xiě", "to write"],
+        ["一", "yí", "one"],
+        ["份", "fèn", "(measure word)"],
+        ["总结", "zǒngjié", "summary"],
+        ["要", "yào", "to need"],
+        ["两", "liǎng", "two"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["两", "liǎng", "two"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["写完", "xiěwán", "to finish writing"],
+        ["。"]
+      ],
+      "en": "The AI really is faster than me: it takes me two hours to write a summary, and it can finish one in two minutes."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["它", "tā", "it"],
+        ["也", "yě", "also"],
+        ["经常", "jīngcháng", "often"],
+        ["出错", "chūcuò", "to make mistakes"],
+        ["，"],
+        ["而且", "érqiě", "moreover"],
+        ["错", "cuò", "wrong"],
+        ["得", "de", "(complement marker)"],
+        ["特别", "tèbié", "especially"],
+        ["自信", "zìxìn", "confident"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["不", "bù", "not"],
+        ["仔细", "zǐxì", "carefully"],
+        ["检查", "jiǎnchá", "to check"],
+        ["就", "jiù", "then"],
+        ["根本", "gēnběn", "at all"],
+        ["发现不了", "fāxiàn bùliǎo", "cannot notice"],
+        ["。"]
+      ],
+      "en": "But it also makes mistakes often, and it gets things wrong with such confidence that you simply cannot notice unless you check carefully."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so"],
+        ["我", "wǒ", "my"],
+        ["的", "de", "(possessive)"],
+        ["工作", "gōngzuò", "job"],
+        ["慢慢", "mànmàn", "gradually"],
+        ["变", "biàn", "to change"],
+        ["了", "le", "(particle)"],
+        ["："],
+        ["以前", "yǐqián", "before"],
+        ["是", "shì", "to be"],
+        ["自己", "zìjǐ", "oneself"],
+        ["写", "xiě", "to write"],
+        ["，"],
+        ["现在", "xiànzài", "now"],
+        ["是", "shì", "to be"],
+        ["判断", "pànduàn", "to judge"],
+        ["机器", "jīqì", "machine"],
+        ["写", "xiě", "to write"],
+        ["得", "de", "(complement marker)"],
+        ["对不对", "duì bu duì", "correct or not"],
+        ["。"]
+      ],
+      "en": "So my job has slowly changed: before, I did the writing; now, I judge whether the machine wrote it correctly."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["位", "wèi", "(measure word)"],
+        ["老", "lǎo", "senior"],
+        ["同事", "tóngshì", "colleague"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["历史", "lìshǐ", "history"],
+        ["上", "shàng", "in"],
+        ["每", "měi", "every"],
+        ["次", "cì", "time"],
+        ["新", "xīn", "new"],
+        ["技术", "jìshù", "technology"],
+        ["出现", "chūxiàn", "to appear"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["都", "dōu", "all"],
+        ["害怕", "hàipà", "to fear"],
+        ["失业", "shīyè", "to lose one's job"],
+        ["，"],
+        ["最后", "zuìhòu", "in the end"],
+        ["总", "zǒng", "always"],
+        ["会", "huì", "will"],
+        ["出现", "chūxiàn", "to appear"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(possessive)"],
+        ["职业", "zhíyè", "profession"],
+        ["。"]
+      ],
+      "en": "A senior colleague said that in history, every time a new technology appeared people feared unemployment, yet in the end new professions always emerged."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["句", "jù", "(measure word)"],
+        ["话", "huà", "words"],
+        ["也许", "yěxǔ", "perhaps"],
+        ["没错", "méi cuò", "not wrong"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["从", "cóng", "from"],
+        ["旧", "jiù", "old"],
+        ["工作", "gōngzuò", "job"],
+        ["到", "dào", "to"],
+        ["新", "xīn", "new"],
+        ["工作", "gōngzuò", "job"],
+        ["的", "de", "(possessive)"],
+        ["路", "lù", "road"],
+        ["，"],
+        ["往往", "wǎngwǎng", "often"],
+        ["要", "yào", "to need"],
+        ["走", "zǒu", "to walk"],
+        ["很多", "hěn duō", "many"],
+        ["年", "nián", "years"],
+        ["。"]
+      ],
+      "en": "Those words may well be true, but the road from the old job to the new one often takes many years to walk."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["不", "bù", "not"],
+        ["知道", "zhīdào", "to know"],
+        ["十", "shí", "ten"],
+        ["年", "nián", "years"],
+        ["以后", "yǐhòu", "later"],
+        ["自己", "zìjǐ", "oneself"],
+        ["会", "huì", "will"],
+        ["做", "zuò", "to do"],
+        ["什么", "shénme", "what"],
+        ["，"],
+        ["只能", "zhǐ néng", "can only"],
+        ["一边", "yìbiān", "while"],
+        ["使用", "shǐyòng", "to use"],
+        ["这些", "zhèxiē", "these"],
+        ["工具", "gōngjù", "tool"],
+        ["，"],
+        ["一边", "yìbiān", "while"],
+        ["继续", "jìxù", "to continue"],
+        ["学习", "xuéxí", "to study"],
+        ["。"]
+      ],
+      "en": "I don't know what I will be doing ten years from now; all I can do is keep learning while I use these tools."
+    }
+  ],
+  "vocab": [
+    ["人工智能", "réngōng zhìnéng", "artificial intelligence"],
+    ["取代", "qǔdài", "to replace"],
+    ["失业", "shīyè", "to lose one's job"],
+    ["判断", "pànduàn", "to judge"],
+    ["往往", "wǎngwǎng", "often; tend to"],
+    ["总结", "zǒngjié", "summary"]
+  ],
+  "quiz": [
+    {
+      "q": "Why does the narrator still have to check the AI's reports carefully?",
+      "a": [
+        "It often makes mistakes, and makes them very confidently",
+        "It writes too slowly to meet deadlines",
+        "Company rules require two people to sign every report"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What point did the senior colleague make about new technology?",
+      "a": [
+        "New technology should be banned until it is safe",
+        "Throughout history, people feared unemployment but new professions eventually appeared",
+        "Only young people can learn to use new technology"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How has the narrator's own job changed?",
+      "a": [
+        "He was promoted to manage the AI team",
+        "He now works two hours a day instead of eight",
+        "He went from writing reports himself to judging whether the machine wrote them correctly"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边…一边…",
+      "e": "Doing two actions at the same time: 一边使用工具，一边继续学习。",
+      "x": "他一边工作，一边准备考试。— He works while preparing for the exam."
+    },
+    {
+      "p": "往往",
+      "e": "'Often / tend to' — states a general tendency based on experience, not a single event: 从旧工作到新工作的路往往要走很多年。",
+      "x": "好机会往往留给有准备的人。— Good opportunities often go to those who are prepared."
+    }
+  ]
+}

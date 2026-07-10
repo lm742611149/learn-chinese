@@ -1,0 +1,136 @@
+{
+  "slug": "hsk1-yesterday-today-tomorrow",
+  "level": 1,
+  "title_zh": "昨天今天明天",
+  "title_py": "Zuótiān jīntiān míngtiān",
+  "title_en": "Yesterday, Today, Tomorrow",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["下雨", "xiàyǔ", "to rain"],
+        ["，"],
+        ["天气", "tiānqì", "weather"],
+        ["很", "hěn", "very"],
+        ["冷", "lěng", "cold"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["家", "jiā", "home"],
+        ["看书", "kànshū", "to read (books)"],
+        ["。"]
+      ],
+      "en": "Yesterday it rained and the weather was cold, so I stayed home and read."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["不", "bú", "not"],
+        ["下雨", "xiàyǔ", "to rain"],
+        ["，"],
+        ["天气", "tiānqì", "weather"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "Today it isn't raining, and the weather is lovely."
+    },
+    {
+      "t": [
+        ["上午", "shàngwǔ", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["学校", "xuéxiào", "school"],
+        ["学习", "xuéxí", "to study"],
+        ["，"],
+        ["中午", "zhōngwǔ", "noon"],
+        ["和", "hé", "and; with"],
+        ["同学", "tóngxué", "classmate"],
+        ["吃", "chī", "to eat"],
+        ["米饭", "mǐfàn", "(cooked) rice"],
+        ["。"]
+      ],
+      "en": "In the morning I went to school to study, and at noon I ate rice with my classmates."
+    },
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["是", "shì", "to be"],
+        ["星期天", "xīngqītiān", "Sunday"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bú", "not"],
+        ["去", "qù", "to go"],
+        ["学校", "xuéxiào", "school"],
+        ["。"]
+      ],
+      "en": "Tomorrow is Sunday, so I won't go to school."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["买", "mǎi", "to buy"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "I want to go to the store to buy some clothes."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["、"],
+        ["今天", "jīntiān", "today"],
+        ["、"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "Yesterday, today, and tomorrow — I'm happy every day."
+    }
+  ],
+  "vocab": [
+    ["昨天", "zuótiān", "yesterday"],
+    ["今天", "jīntiān", "today"],
+    ["明天", "míngtiān", "tomorrow"],
+    ["下雨", "xiàyǔ", "to rain"],
+    ["冷", "lěng", "cold"],
+    ["衣服", "yīfu", "clothes"]
+  ],
+  "quiz": [
+    {
+      "q": "What was the weather like yesterday?",
+      "a": ["Hot and sunny", "Rainy and cold", "Warm and windy"],
+      "c": 1
+    },
+    {
+      "q": "What did the narrator do at noon today?",
+      "a": ["Ate rice with classmates", "Bought clothes", "Watched a movie"],
+      "c": 0
+    },
+    {
+      "q": "Why won't the narrator go to school tomorrow?",
+      "a": ["It will rain", "It is Sunday", "The narrator is sick"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "Time words before the verb",
+      "e": "Chinese verbs do not change for tense. Time words like 昨天 / 今天 / 明天 at the start of the sentence tell you when: 昨天下雨。明天我不去学校。",
+      "x": "明天我不去学校。 — Tomorrow I won't go to school."
+    },
+    {
+      "p": "Tone change of 不 (bù → bú)",
+      "e": "不 is normally bù, but before a 4th-tone syllable it becomes bú: 不去 (bú qù), 不下雨 (bú xiàyǔ).",
+      "x": "我不去学校。 — I am not going to school."
+    }
+  ]
+}

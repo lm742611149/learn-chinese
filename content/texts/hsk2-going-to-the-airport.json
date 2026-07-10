@@ -1,0 +1,164 @@
+{
+  "slug": "hsk2-going-to-the-airport",
+  "level": 2,
+  "title_zh": "去机场",
+  "title_py": "Qù jīchǎng",
+  "title_en": "Going to the Airport",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我","wǒ","I; me"],
+        ["的","de","(possessive)"],
+        ["哥哥","gēge","older brother"],
+        ["住","zhù","to live"],
+        ["在","zài","in; at"],
+        ["上海","Shànghǎi","Shanghai"],
+        ["，"],
+        ["今天","jīntiān","today"],
+        ["他","tā","he"],
+        ["要","yào","will; be going to"],
+        ["来","lái","to come"],
+        ["北京","Běijīng","Beijing"],
+        ["了","le","(particle)"],
+        ["。"]
+      ],
+      "en": "My older brother lives in Shanghai, and today he is coming to Beijing."
+    },
+    {
+      "t": [
+        ["早上","zǎoshang","morning"],
+        ["六","liù","six"],
+        ["点","diǎn","o'clock"],
+        ["我","wǒ","I"],
+        ["就","jiù","as early as; then"],
+        ["起床","qǐchuáng","to get up"],
+        ["了","le","(particle)"],
+        ["，"],
+        ["坐","zuò","to take (transport)"],
+        ["出租车","chūzūchē","taxi"],
+        ["去","qù","to go"],
+        ["机场","jīchǎng","airport"],
+        ["。"]
+      ],
+      "en": "I got up at six in the morning and took a taxi to the airport."
+    },
+    {
+      "t": [
+        ["路上","lùshang","on the road"],
+        ["车","chē","car; traffic"],
+        ["很","hěn","very"],
+        ["多","duō","many"],
+        ["，"],
+        ["我们","wǒmen","we"],
+        ["开","kāi","to drive"],
+        ["得","de","(complement particle)"],
+        ["很","hěn","very"],
+        ["慢","màn","slow"],
+        ["。"]
+      ],
+      "en": "There were a lot of cars on the road, so we drove very slowly."
+    },
+    {
+      "t": [
+        ["九","jiǔ","nine"],
+        ["点","diǎn","o'clock"],
+        ["我","wǒ","I"],
+        ["到","dào","to arrive"],
+        ["了","le","(particle)"],
+        ["机场","jīchǎng","airport"],
+        ["，"],
+        ["哥哥","gēge","older brother"],
+        ["的","de","(possessive)"],
+        ["飞机","fēijī","airplane"],
+        ["还","hái","still; yet"],
+        ["没","méi","not (yet)"],
+        ["到","dào","to arrive"],
+        ["。"]
+      ],
+      "en": "I got to the airport at nine, but my brother's plane had not arrived yet."
+    },
+    {
+      "t": [
+        ["我","wǒ","I"],
+        ["买","mǎi","to buy"],
+        ["了","le","(particle)"],
+        ["一","yì","one"],
+        ["杯","bēi","cup (measure word)"],
+        ["咖啡","kāfēi","coffee"],
+        ["，"],
+        ["坐","zuò","to sit"],
+        ["在","zài","at"],
+        ["那儿","nàr","there"],
+        ["等","děng","to wait"],
+        ["他","tā","him"],
+        ["。"]
+      ],
+      "en": "I bought a cup of coffee and sat there waiting for him."
+    },
+    {
+      "t": [
+        ["十","shí","ten"],
+        ["点","diǎn","o'clock"],
+        ["半","bàn","half"],
+        ["，"],
+        ["哥哥","gēge","older brother"],
+        ["出来","chūlai","to come out"],
+        ["了","le","(particle)"],
+        ["，"],
+        ["他","tā","he"],
+        ["笑","xiào","to smile"],
+        ["着","zhe","(ongoing particle)"],
+        ["说","shuō","to say"],
+        ["："],
+        ["“"],
+        ["弟弟","dìdi","younger brother"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["很","hěn","very"],
+        ["想","xiǎng","to miss"],
+        ["你","nǐ","you"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "At ten thirty my brother came out; he smiled and said, \"Little brother, I missed you so much!\""
+    }
+  ],
+  "vocab": [
+    ["机场","jīchǎng","airport"],
+    ["出租车","chūzūchē","taxi"],
+    ["起床","qǐchuáng","to get up"],
+    ["咖啡","kāfēi","coffee"],
+    ["等","děng","to wait"],
+    ["笑","xiào","to smile; to laugh"]
+  ],
+  "quiz": [
+    {
+      "q": "How did the narrator get to the airport?",
+      "a": ["By taxi", "By bus", "By train"],
+      "c": 0
+    },
+    {
+      "q": "Why did the narrator have to wait at the airport?",
+      "a": ["The brother's plane had not arrived yet", "The narrator arrived too late", "The narrator could not find the door"],
+      "c": 0
+    },
+    {
+      "q": "What time did the brother finally come out?",
+      "a": ["At six o'clock", "At nine o'clock", "At ten thirty"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "要…了 (about to happen)",
+      "e": "要 + verb + 了 says something is going to happen soon: 他要来北京了。",
+      "x": "他要来北京了。 — He is coming to Beijing soon."
+    },
+    {
+      "p": "Verb + 得 + adjective",
+      "e": "得 links a verb to a word that describes how the action is done: 开得很慢.",
+      "x": "我们开得很慢。 — We drove very slowly."
+    }
+  ]
+}

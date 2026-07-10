@@ -1,0 +1,174 @@
+{
+  "slug": "hsk3-losing-weight",
+  "level": 3,
+  "title_zh": "减肥",
+  "title_py": "Jiǎnféi",
+  "title_en": "Losing Weight",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["三月", "sānyuè", "March"],
+        ["的", "de", "(possessive particle)"],
+        ["一天", "yì tiān", "one day"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["发现", "fāxiàn", "to discover"],
+        ["去年", "qùnián", "last year"],
+        ["的", "de", "(possessive particle)"],
+        ["裤子", "kùzi", "pants; trousers"],
+        ["穿不上", "chuān bu shàng", "cannot put on (too small)"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "One day in March, I discovered that last year's pants no longer fit."
+    },
+    {
+      "t": [
+        ["妻子", "qīzi", "wife"],
+        ["笑着", "xiàozhe", "smiling"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["真的", "zhēn de", "really"],
+        ["胖", "pàng", "fat; to gain weight"],
+        ["了", "le", "(change of state)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My wife said with a smile: \"You really have gotten fat.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["决定", "juédìng", "to decide"],
+        ["从", "cóng", "from"],
+        ["那天", "nà tiān", "that day"],
+        ["开始", "kāishǐ", "to start"],
+        ["减肥", "jiǎnféi", "to lose weight"],
+        ["。"]
+      ],
+      "en": "I decided to start losing weight from that day on."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měi tiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["六点", "liù diǎn", "six o'clock"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["跑步", "pǎobù", "to run; jogging"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不", "bù", "not"],
+        ["吃", "chī", "to eat"],
+        ["蛋糕", "dàngāo", "cake"],
+        ["和", "hé", "and"],
+        ["甜", "tián", "sweet"],
+        ["的", "de", "(nominalizing particle)"],
+        ["东西", "dōngxi", "thing"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "Now I go running in the park at six every morning, and I no longer eat cake or sweet things."
+    },
+    {
+      "t": [
+        ["一", "yì", "one; as soon as"],
+        ["开始", "kāishǐ", "to start; at first"],
+        ["很", "hěn", "very"],
+        ["难", "nán", "difficult"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["常常", "chángcháng", "often"],
+        ["又", "yòu", "both (又…又…)"],
+        ["饿", "è", "hungry"],
+        ["又", "yòu", "and (又…又…)"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "At first it was very hard — I was often both hungry and tired."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["三个月", "sān ge yuè", "three months"],
+        ["以后", "yǐhòu", "after; later"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["瘦", "shòu", "thin; to lose weight"],
+        ["了", "le", "(completed action)"],
+        ["五", "wǔ", "five"],
+        ["公斤", "gōngjīn", "kilogram"],
+        ["，"],
+        ["身体", "shēntǐ", "body; health"],
+        ["也", "yě", "also"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "But after three months, I had lost five kilograms, and my health kept getting better and better."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["我", "wǒ", "I; me"],
+        ["又", "yòu", "again"],
+        ["穿上", "chuānshàng", "to put on"],
+        ["了", "le", "(completed action)"],
+        ["那条", "nà tiáo", "that (measure word for pants)"],
+        ["裤子", "kùzi", "pants; trousers"],
+        ["，"],
+        ["妻子", "qīzi", "wife"],
+        ["说", "shuō", "to say"],
+        ["我", "wǒ", "I; me"],
+        ["比", "bǐ", "than; compared to"],
+        ["以前", "yǐqián", "before; in the past"],
+        ["年轻", "niánqīng", "young"],
+        ["多了", "duō le", "much more"],
+        ["！"]
+      ],
+      "en": "Yesterday I put those pants on again, and my wife said I look much younger than before!"
+    }
+  ],
+  "vocab": [
+    ["减肥", "jiǎnféi", "to lose weight"],
+    ["胖", "pàng", "fat; to gain weight"],
+    ["瘦", "shòu", "thin; to lose weight"],
+    ["公斤", "gōngjīn", "kilogram"],
+    ["蛋糕", "dàngāo", "cake"],
+    ["跑步", "pǎobù", "to run; jogging"]
+  ],
+  "quiz": [
+    {
+      "q": "What made the narrator decide to lose weight?",
+      "a": ["The doctor told him to", "Last year's pants no longer fit", "He wanted to run a race"],
+      "c": 1
+    },
+    {
+      "q": "What two things does the narrator do to lose weight?",
+      "a": ["Run every morning and stop eating sweets", "Swim every day and eat less rice", "Walk to work and drink more tea"],
+      "c": 0
+    },
+    {
+      "q": "What happened after three months?",
+      "a": ["He gained two kilograms", "He gave up because he was too hungry", "He lost five kilograms and felt healthier"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "越来越 (more and more)",
+      "e": "越来越 + adjective describes something increasing over time: 越来越好 (better and better), 越来越冷 (colder and colder).",
+      "x": "我的身体越来越好。— My health is getting better and better."
+    },
+    {
+      "p": "比 … 多了 (much more … than)",
+      "e": "A + 比 + B + adjective + 多了 makes a strong comparison: 我比以前年轻多了 (I look much younger than before).",
+      "x": "今天比昨天热多了。— Today is much hotter than yesterday."
+    }
+  ]
+}

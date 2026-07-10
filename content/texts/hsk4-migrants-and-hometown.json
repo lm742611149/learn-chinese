@@ -1,0 +1,221 @@
+{
+  "slug": "hsk4-migrants-and-hometown",
+  "level": 4,
+  "title_zh": "移民与故乡",
+  "title_py": "Yímín yǔ gùxiāng",
+  "title_en": "Migrants and Hometown",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["离开", "líkāi", "to leave"],
+        ["故乡", "gùxiāng", "hometown"],
+        ["已经", "yǐjīng", "already"],
+        ["十", "shí", "ten"],
+        ["年", "nián", "years"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "It has already been ten years since I left my hometown."
+    },
+    {
+      "t": [
+        ["刚", "gāng", "just"],
+        ["来", "lái", "to come"],
+        ["这", "zhè", "this"],
+        ["个", "ge", "(measure word)"],
+        ["大", "dà", "big"],
+        ["城市", "chéngshì", "city"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["以为", "yǐwéi", "to assume"],
+        ["自己", "zìjǐ", "oneself"],
+        ["很快", "hěn kuài", "very soon"],
+        ["就", "jiù", "then"],
+        ["会", "huì", "will"],
+        ["回去", "huíqu", "to go back"],
+        ["。"]
+      ],
+      "en": "When I first came to this big city, I assumed I would go back very soon."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["，"],
+        ["工作", "gōngzuò", "job"],
+        ["、"],
+        ["朋友", "péngyou", "friends"],
+        ["、"],
+        ["爱人", "àiren", "spouse; beloved"],
+        ["，"],
+        ["一样一样", "yíyàng yíyàng", "one by one"],
+        ["地", "de", "(adverbial particle)"],
+        ["把", "bǎ", "(object marker)"],
+        ["我", "wǒ", "me"],
+        ["留", "liú", "to keep; stay"],
+        ["在", "zài", "at"],
+        ["了", "le", "(particle)"],
+        ["这里", "zhèlǐ", "here"],
+        ["。"]
+      ],
+      "en": "Later, a job, friends, someone I love — one by one, they kept me here."
+    },
+    {
+      "t": [
+        ["每年", "měi nián", "every year"],
+        ["春节", "Chūnjié", "Spring Festival"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["坐", "zuò", "to take (transport)"],
+        ["二十", "èrshí", "twenty"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hours"],
+        ["的", "de", "(possessive)"],
+        ["火车", "huǒchē", "train"],
+        ["回家", "huíjiā", "to go home"],
+        ["，"],
+        ["母亲", "mǔqīn", "mother"],
+        ["总是", "zǒngshì", "always"],
+        ["在", "zài", "at"],
+        ["门口", "ménkǒu", "doorway"],
+        ["等", "děng", "to wait for"],
+        ["我", "wǒ", "me"],
+        ["。"]
+      ],
+      "en": "Every Spring Festival I take a twenty-hour train home, and my mother is always waiting for me at the door."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["做", "zuò", "to make"],
+        ["的", "de", "(possessive)"],
+        ["菜", "cài", "dishes"],
+        ["还是", "háishi", "still"],
+        ["那", "nà", "that"],
+        ["个", "ge", "(measure word)"],
+        ["味道", "wèidao", "flavor"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["她", "tā", "her"],
+        ["的", "de", "(possessive)"],
+        ["头发", "tóufa", "hair"],
+        ["白", "bái", "white"],
+        ["了", "le", "(particle)"],
+        ["很多", "hěn duō", "a lot"],
+        ["。"]
+      ],
+      "en": "Her cooking still tastes the same, but her hair has turned so much whiter."
+    },
+    {
+      "t": [
+        ["城市", "chéngshì", "city"],
+        ["给", "gěi", "to give"],
+        ["了", "le", "(particle)"],
+        ["我", "wǒ", "me"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["，"],
+        ["故乡", "gùxiāng", "hometown"],
+        ["却", "què", "yet; however"],
+        ["留", "liú", "to keep"],
+        ["着", "zhe", "(continuous particle)"],
+        ["我", "wǒ", "my"],
+        ["最", "zuì", "most"],
+        ["老", "lǎo", "old"],
+        ["的", "de", "(possessive)"],
+        ["记忆", "jìyì", "memories"],
+        ["。"]
+      ],
+      "en": "The city gave me a new life, yet my hometown keeps my oldest memories."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "someone"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "your"],
+        ["的", "de", "(possessive)"],
+        ["家", "jiā", "home"],
+        ["在", "zài", "at"],
+        ["哪儿", "nǎr", "where"],
+        ["？"],
+        ["”"],
+        ["我", "wǒ", "I"],
+        ["说", "shuō", "to say"],
+        ["不", "bù", "not"],
+        ["清楚", "qīngchu", "clearly"],
+        ["。"]
+      ],
+      "en": "When someone asks me, \"Where is your home?\" — I cannot answer clearly."
+    },
+    {
+      "t": [
+        ["也许", "yěxǔ", "perhaps"],
+        ["，"],
+        ["移民", "yímín", "migrant"],
+        ["就是", "jiùshì", "is exactly"],
+        ["这样", "zhèyàng", "this kind"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "person"],
+        ["："],
+        ["在", "zài", "in"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(possessive)"],
+        ["地方", "dìfang", "place"],
+        ["生活", "shēnghuó", "to live"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["心", "xīn", "heart"],
+        ["留", "liú", "to leave; keep"],
+        ["在", "zài", "at"],
+        ["了", "le", "(particle)"],
+        ["远方", "yuǎnfāng", "faraway place"],
+        ["。"]
+      ],
+      "en": "Perhaps that is what a migrant is: someone who lives in a new place, but has left their heart somewhere far away."
+    }
+  ],
+  "vocab": [
+    ["移民", "yímín", "migrant; to migrate"],
+    ["故乡", "gùxiāng", "hometown"],
+    ["记忆", "jìyì", "memory"],
+    ["远方", "yuǎnfāng", "faraway place"],
+    ["母亲", "mǔqīn", "mother"],
+    ["留", "liú", "to stay; to keep"]
+  ],
+  "quiz": [
+    {
+      "q": "How long has the narrator been away from their hometown?",
+      "a": ["Ten years", "Twenty years", "One year"],
+      "c": 0
+    },
+    {
+      "q": "What does the narrator notice about their mother when going home for Spring Festival?",
+      "a": ["Her cooking tastes completely different now", "Her hair has turned much whiter", "She no longer waits at the door"],
+      "c": 1
+    },
+    {
+      "q": "How does the narrator answer the question \"Where is your home?\"",
+      "a": ["The big city, without any doubt", "The hometown, without any doubt", "They cannot answer it clearly"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "却",
+      "e": "却 means \"yet / however\" and sits after the subject, inside the second clause, to mark a contrast: 城市给了我新的生活，故乡却留着我最老的记忆。 Unlike 但是, it cannot start the clause before the subject.",
+      "x": "他很想家，却很少回去。— He misses home a lot, yet rarely goes back."
+    },
+    {
+      "p": "把 + object + 留在 + place",
+      "e": "The 把 structure highlights where something ends up being left or kept: 工作把我留在了这里；把心留在了远方。",
+      "x": "我把钥匙留在了家里。— I left my keys at home."
+    }
+  ]
+}

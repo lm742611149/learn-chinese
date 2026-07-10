@@ -1,0 +1,175 @@
+{
+  "slug": "hsk3-first-day-at-work",
+  "level": 3,
+  "title_zh": "第一天上班",
+  "title_py": "Dì-yī Tiān Shàngbān",
+  "title_en": "First Day at Work",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "I; me"],
+        ["第一天", "dì-yī tiān", "the first day"],
+        ["上班", "shàngbān", "to go to work"],
+        ["，"],
+        ["早上", "zǎoshang", "morning"],
+        ["六点半", "liù diǎn bàn", "six thirty"],
+        ["我", "wǒ", "I; me"],
+        ["就", "jiù", "as early as; already"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "Today was my first day at work, and I got up as early as six thirty."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["到", "dào", "to arrive"],
+        ["公司", "gōngsī", "company"],
+        ["的时候", "de shíhou", "when; at the time of"],
+        ["，"],
+        ["办公室", "bàngōngshì", "office"],
+        ["里", "lǐ", "inside"],
+        ["一个", "yí ge", "one; a single"],
+        ["人", "rén", "person"],
+        ["都", "dōu", "even; all"],
+        ["没有", "méiyǒu", "there is not"],
+        ["。"]
+      ],
+      "en": "When I arrived at the company, there wasn't a single person in the office."
+    },
+    {
+      "t": [
+        ["九点", "jiǔ diǎn", "nine o'clock"],
+        ["，"],
+        ["经理", "jīnglǐ", "manager"],
+        ["把", "bǎ", "(object marker)"],
+        ["我", "wǒ", "I; me"],
+        ["介绍", "jièshào", "to introduce"],
+        ["给", "gěi", "to; for"],
+        ["大家", "dàjiā", "everyone"],
+        ["，"],
+        ["同事们", "tóngshìmen", "colleagues"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["热情", "rèqíng", "warm; friendly"],
+        ["。"]
+      ],
+      "en": "At nine o'clock the manager introduced me to everyone, and my colleagues were all very warm."
+    },
+    {
+      "t": [
+        ["一位", "yí wèi", "one (polite measure word)"],
+        ["姓", "xìng", "to be surnamed"],
+        ["王", "Wáng", "Wang (surname)"],
+        ["的", "de", "(possessive particle)"],
+        ["同事", "tóngshì", "colleague"],
+        ["教", "jiāo", "to teach"],
+        ["我", "wǒ", "I; me"],
+        ["用", "yòng", "to use"],
+        ["公司", "gōngsī", "company"],
+        ["的", "de", "(possessive particle)"],
+        ["电脑", "diànnǎo", "computer"],
+        ["。"]
+      ],
+      "en": "A colleague surnamed Wang taught me how to use the company's computer."
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["还", "hái", "also; in addition"],
+        ["请", "qǐng", "to invite; to treat"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["吃", "chī", "to eat"],
+        ["面条", "miàntiáo", "noodles"],
+        ["。"]
+      ],
+      "en": "At noon, she even treated me to noodles downstairs."
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我", "wǒ", "I; me"],
+        ["开", "kāi", "to hold (a meeting)"],
+        ["了", "le", "(completed action)"],
+        ["第一个", "dì-yī ge", "the first"],
+        ["会", "huì", "meeting"],
+        ["，"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["东西", "dōngxi", "thing"],
+        ["我", "wǒ", "I; me"],
+        ["听不懂", "tīng bu dǒng", "cannot understand (by listening)"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["都", "dōu", "all"],
+        ["写", "xiě", "to write"],
+        ["在", "zài", "at; on"],
+        ["了", "le", "(completed action)"],
+        ["笔记本", "bǐjìběn", "notebook"],
+        ["上", "shang", "on top of"],
+        ["。"]
+      ],
+      "en": "In the afternoon I attended my first meeting; there was a lot I couldn't understand, but I wrote it all down in my notebook."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["回家", "huíjiā", "to go home"],
+        ["的时候", "de shíhou", "when; at the time of"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["又", "yòu", "both (又…又…)"],
+        ["累", "lèi", "tired"],
+        ["又", "yòu", "and (又…又…)"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "On my way home in the evening, I was both tired and happy."
+    }
+  ],
+  "vocab": [
+    ["上班", "shàngbān", "to go to work"],
+    ["办公室", "bàngōngshì", "office"],
+    ["介绍", "jièshào", "to introduce"],
+    ["同事", "tóngshì", "colleague"],
+    ["热情", "rèqíng", "warm; friendly"],
+    ["笔记本", "bǐjìběn", "notebook"]
+  ],
+  "quiz": [
+    {
+      "q": "What was the office like when the narrator arrived?",
+      "a": ["It was full of colleagues", "There was nobody there yet", "The manager was waiting for him"],
+      "c": 1
+    },
+    {
+      "q": "What did the colleague surnamed Wang do for the narrator?",
+      "a": ["Taught him to use the company computer", "Gave him a notebook", "Drove him home in the evening"],
+      "c": 0
+    },
+    {
+      "q": "What did the narrator do when he couldn't understand things in the meeting?",
+      "a": ["He asked the manager to explain", "He left the meeting early", "He wrote everything down in his notebook"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "把 (bǎ) construction",
+      "e": "Subject + 把 + object + verb + result moves the object before the verb to show what is done to it: 经理把我介绍给大家。",
+      "x": "请把门开开。— Please open the door."
+    },
+    {
+      "p": "一 + measure word + 都/也 + 没/不 (not even one)",
+      "e": "This pattern emphasizes 'not a single one': 一个人都没有 (not a single person), 一句话也不说 (not say a single word).",
+      "x": "办公室里一个人都没有。— There wasn't a single person in the office."
+    }
+  ]
+}

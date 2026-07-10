@@ -1,0 +1,152 @@
+{
+  "slug": "hsk2-singing-and-dancing",
+  "level": 2,
+  "title_zh": "唱歌跳舞",
+  "title_py": "Chànggē tiàowǔ",
+  "title_en": "Singing and Dancing",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六","xīngqīliù","Saturday"],
+        ["晚上","wǎnshang","evening"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["和","hé","and; with"],
+        ["朋友","péngyou","friend"],
+        ["们","men","(plural)"],
+        ["一起","yìqǐ","together"],
+        ["去","qù","to go"],
+        ["唱歌","chànggē","to sing"],
+        ["。"]
+      ],
+      "en": "On Saturday evening, my friends and I went out singing together."
+    },
+    {
+      "t": [
+        ["我","wǒ","my"],
+        ["朋友","péngyou","friend"],
+        ["小王","Xiǎo Wáng","Xiao Wang (name)"],
+        ["唱","chàng","to sing"],
+        ["得","de","(complement particle)"],
+        ["非常","fēicháng","extremely"],
+        ["好","hǎo","good; well"],
+        ["，"],
+        ["大家","dàjiā","everyone"],
+        ["都","dōu","all"],
+        ["喜欢","xǐhuan","to like"],
+        ["听","tīng","to listen"],
+        ["。"]
+      ],
+      "en": "My friend Xiao Wang sings extremely well; everyone loves listening to him."
+    },
+    {
+      "t": [
+        ["虽然","suīrán","although"],
+        ["我","wǒ","I"],
+        ["唱","chàng","to sing"],
+        ["得","de","(complement particle)"],
+        ["不","bù","not"],
+        ["好","hǎo","well"],
+        ["，"],
+        ["但是","dànshì","but"],
+        ["我","wǒ","I"],
+        ["唱","chàng","to sing"],
+        ["得","de","(complement particle)"],
+        ["很","hěn","very"],
+        ["快乐","kuàilè","happy"],
+        ["。"]
+      ],
+      "en": "Although I don't sing well, I sing very happily."
+    },
+    {
+      "t": [
+        ["唱","chàng","to sing"],
+        ["完","wán","to finish"],
+        ["歌","gē","song"],
+        ["，"],
+        ["大家","dàjiā","everyone"],
+        ["开始","kāishǐ","to begin"],
+        ["跳舞","tiàowǔ","to dance"],
+        ["。"]
+      ],
+      "en": "When the singing was done, everyone began to dance."
+    },
+    {
+      "t": [
+        ["小王","Xiǎo Wáng","Xiao Wang (name)"],
+        ["跳","tiào","to dance; to jump"],
+        ["得","de","(complement particle)"],
+        ["比","bǐ","than (comparison)"],
+        ["我","wǒ","me"],
+        ["好","hǎo","well"],
+        ["，"],
+        ["我","wǒ","I"],
+        ["看","kàn","to watch"],
+        ["着","zhe","(ongoing particle)"],
+        ["他","tā","him"],
+        ["慢慢","mànmàn","slowly"],
+        ["学","xué","to learn"],
+        ["。"]
+      ],
+      "en": "Xiao Wang dances better than I do, so I watched him and slowly learned."
+    },
+    {
+      "t": [
+        ["回","huí","to return"],
+        ["家","jiā","home"],
+        ["的","de","(particle)"],
+        ["时候","shíhou","time; when"],
+        ["已经","yǐjīng","already"],
+        ["十二","shí'èr","twelve"],
+        ["点","diǎn","o'clock"],
+        ["了","le","(particle)"],
+        ["，"],
+        ["但是","dànshì","but"],
+        ["大家","dàjiā","everyone"],
+        ["都","dōu","all"],
+        ["很","hěn","very"],
+        ["高兴","gāoxìng","happy"],
+        ["。"]
+      ],
+      "en": "By the time we went home it was already twelve o'clock, but everyone was very happy."
+    }
+  ],
+  "vocab": [
+    ["唱歌","chànggē","to sing (songs)"],
+    ["跳舞","tiàowǔ","to dance"],
+    ["非常","fēicháng","extremely"],
+    ["快乐","kuàilè","happy"],
+    ["开始","kāishǐ","to begin"],
+    ["已经","yǐjīng","already"]
+  ],
+  "quiz": [
+    {
+      "q": "Who sings extremely well?",
+      "a": ["The narrator", "Xiao Wang", "Nobody in the group"],
+      "c": 1
+    },
+    {
+      "q": "What did everyone do after the singing was finished?",
+      "a": ["They went home right away", "They ordered more food", "They began to dance"],
+      "c": 2
+    },
+    {
+      "q": "What time was it when they went home?",
+      "a": ["Ten o'clock", "Eleven o'clock", "Twelve o'clock"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "虽然…但是…",
+      "e": "\"Although ... but ...\" — both halves are used together in Chinese: 虽然我唱得不好，但是我很快乐。",
+      "x": "虽然我唱得不好，但是我唱得很快乐。 — Although I don't sing well, I sing very happily."
+    },
+    {
+      "p": "A + 比 + B + adjective",
+      "e": "比 compares two things: A 比 B 好 means A is better than B.",
+      "x": "小王跳得比我好。 — Xiao Wang dances better than me."
+    }
+  ]
+}

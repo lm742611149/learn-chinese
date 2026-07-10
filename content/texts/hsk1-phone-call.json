@@ -1,0 +1,158 @@
+{
+  "slug": "hsk1-phone-call",
+  "level": 1,
+  "title_zh": "打电话",
+  "title_py": "Dǎ diànhuà",
+  "title_en": "A Phone Call",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["想", "xiǎng", "to miss; to think of"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["妈妈", "māma", "mom"],
+        ["。"]
+      ],
+      "en": "Yesterday afternoon, I missed my mom very much."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["打电话", "dǎ diànhuà", "to make a phone call"],
+        ["，"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["喂", "wèi", "hello (on the phone)"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["好", "hǎo", "good; well"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I made a phone call and said, \"Hello, Mom, how are you?\""
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good; well"],
+        ["！"],
+        ["你", "nǐ", "you"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["了", "le", "(completed action particle)"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "Mom said, \"I'm fine! Have you eaten yet?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(completed action particle)"],
+        ["。"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["学校", "xuéxiào", "school"],
+        ["学习", "xuéxí", "to study"],
+        ["汉语", "Hànyǔ", "Chinese language"],
+        ["，"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said, \"I have. I'm studying Chinese at school, and I'm very happy.\""
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["好", "hǎo", "good; okay"],
+        ["，"],
+        ["星期天", "xīngqītiān", "Sunday"],
+        ["回家", "huíjiā", "to go home"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["，"],
+        ["好", "hǎo", "good; okay"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "Mom said, \"Good. Come home for a meal on Sunday, okay?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["好", "hǎo", "good; okay"],
+        ["！"],
+        ["妈妈", "māma", "mom"],
+        ["，"],
+        ["再见", "zàijiàn", "goodbye"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said, \"Okay! Bye, Mom!\""
+    }
+  ],
+  "vocab": [
+    ["打电话", "dǎ diànhuà", "to make a phone call"],
+    ["喂", "wèi", "hello (on the phone)"],
+    ["想", "xiǎng", "to miss; to think of"],
+    ["星期天", "xīngqītiān", "Sunday"],
+    ["回家", "huíjiā", "to go home"],
+    ["再见", "zàijiàn", "goodbye"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the narrator make the phone call?",
+      "a": ["They missed their mom", "They needed money", "They wanted to buy something"],
+      "c": 0
+    },
+    {
+      "q": "What did Mom ask the narrator?",
+      "a": ["Whether it was raining", "Whether the narrator had eaten", "Where the narrator lives"],
+      "c": 1
+    },
+    {
+      "q": "What will the narrator do on Sunday?",
+      "a": ["See a movie", "Study at school", "Go home for a meal"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "喂 — answering the phone",
+      "e": "喂 (wèi) starts a phone call, like English \"hello?\". It is only used on the phone, not for greeting people in person.",
+      "x": "喂，妈妈，你好吗？ — Hello, Mom, how are you?"
+    },
+    {
+      "p": "……，好吗？ — asking \"okay?\"",
+      "e": "Add 好吗 after a suggestion to gently ask for agreement: 星期天回家吃饭，好吗？",
+      "x": "星期天回家吃饭，好吗？ — Come home for a meal on Sunday, okay?"
+    }
+  ]
+}
