@@ -658,22 +658,88 @@
     if (WEX) open(); else wexWaiters.push(open);
   });
 
-  /* ---------- today's pick (index only, into its own slot) ---------- */
+  /* ---------- today's picks: swipeable card stack (index only) ---------- */
   var todaySlot = document.getElementById("today-slot");
   if (idxCards.length && todaySlot) {
     var day = Math.floor(Date.now() / 86400000);
-    var pick = idxCards[day % idxCards.length];
-    if (pick) {
-      // clone: the original stays findable in the search results list
-      var cl = pick.cloneNode(true);
-      var tflag = document.createElement("span");
-      tflag.className = "today-flag";
-      tflag.textContent = "📖 Today";
-      cl.appendChild(tflag);
+    var COUNT = Math.min(5, idxCards.length);
+    var stack = [];
+    for (var k = 0; k < COUNT; k++) {
+      var src = idxCards[(day + k * 13) % idxCards.length];
+      var cl = src.cloneNode(true);
+      cl.classList.add("tcard");
       todaySlot.appendChild(cl);
-      var tw = document.getElementById("today-wrap");
-      if (tw) { tw.hidden = false; tw.dataset.filled = "1"; }
+      stack.push(cl);
     }
+    var tflag = document.createElement("span");
+    tflag.className = "today-flag";
+    tflag.textContent = "📖 Today";
+    stack[0].appendChild(tflag);
+    var dotsEl = document.getElementById("today-dots");
+    var order = stack.slice();
+    function layoutStack() {
+      order.forEach(function (el, i) {
+        el.style.zIndex = 20 - i;
+        el.style.transform = "translateY(" + (-i * 9) + "px) scale(" + (1 - i * 0.04) + ")";
+        el.style.opacity = i > 2 ? "0" : "1";
+        el.style.pointerEvents = i === 0 ? "" : "none";
+      });
+      if (dotsEl) {
+        dotsEl.innerHTML = stack.map(function (el) {
+          return '<i class="' + (el === order[0] ? "on" : "") + '"></i>';
+        }).join("");
+      }
+    }
+    // 高度由第一张卡决定(卡是绝对定位)
+    var sizeStack = function () {
+      todaySlot.style.height = (stack[0].offsetHeight + 14) + "px";
+    };
+    setTimeout(sizeStack, 50);
+    window.addEventListener("resize", sizeStack);
+    layoutStack();
+    var tw = document.getElementById("today-wrap");
+    if (tw) { tw.hidden = false; tw.dataset.filled = "1"; setTimeout(sizeStack, 100); }
+
+    // 拖拽切换(pointer 事件覆盖触屏+鼠标)
+    var drag = null, suppressClick = false;
+    todaySlot.addEventListener("pointerdown", function (e) {
+      var top = order[0];
+      if (!top.contains(e.target)) return;
+      drag = { x: e.clientX, dx: 0, el: top, moved: false };
+      top.style.transition = "none";
+      try { drag.el.setPointerCapture(e.pointerId); } catch (err) {}
+    });
+    todaySlot.addEventListener("pointermove", function (e) {
+      if (!drag) return;
+      drag.dx = e.clientX - drag.x;
+      if (Math.abs(drag.dx) > 8) drag.moved = true;
+      drag.el.style.transform = "translateX(" + drag.dx + "px) rotate(" + drag.dx * 0.04 + "deg)";
+    });
+    function endDrag(e) {
+      if (!drag) return;
+      var d = drag; drag = null;
+      d.el.style.transition = "";
+      if (d.moved) {
+        suppressClick = true;
+        setTimeout(function () { suppressClick = false; }, 80);
+      }
+      if (Math.abs(d.dx) > 70) {
+        d.el.style.transform = "translateX(" + (d.dx > 0 ? 520 : -520) + "px) rotate(" + d.dx * 0.08 + "deg)";
+        d.el.style.opacity = "0";
+        setTimeout(function () {
+          order.push(order.shift());
+          layoutStack();
+        }, 240);
+      } else {
+        layoutStack();
+      }
+    }
+    todaySlot.addEventListener("pointerup", endDrag);
+    todaySlot.addEventListener("pointercancel", endDrag);
+    // 拖动过的那次抬手不算点击(否则一松手就跳转)
+    todaySlot.addEventListener("click", function (e) {
+      if (suppressClick) { e.preventDefault(); e.stopPropagation(); }
+    }, true);
   }
 
   /* ---------- home level cards: fill read-progress ---------- */

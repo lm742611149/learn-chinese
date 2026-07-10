@@ -753,7 +753,16 @@ html[data-theme="dark"] .nav-menu .nav-link .ni { background: #2d261e; }
 /* ---------- home: today's pick ---------- */
 .home-h { font-size: 1.05rem; margin: 22px 0 12px; }
 .home-h .zh { font-family: var(--serif); color: var(--red); margin-left: 6px; }
-#today-slot { grid-template-columns: 1fr; padding: 0 0 8px; }
+.tstack { position: relative; margin-top: 16px; }
+.tstack .tcard { position: absolute; top: 0; left: 0; right: 0;
+  transition: transform .3s cubic-bezier(.3,.7,.4,1), opacity .3s;
+  touch-action: pan-y; user-select: none; -webkit-user-drag: none;
+  box-shadow: 0 10px 26px rgba(70,45,25,.13); cursor: grab; }
+.tstack .tcard:active { cursor: grabbing; }
+.tdots { display: flex; gap: 6px; justify-content: center; margin: 10px 0 2px; }
+.tdots i { width: 6px; height: 6px; border-radius: 99px; background: #d9cdb6;
+  transition: all .25s; }
+.tdots i.on { background: var(--red); width: 18px; }
 #search-results { padding-top: 8px; }
 
 /* ---------- level pages ---------- */

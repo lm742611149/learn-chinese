@@ -312,11 +312,12 @@ def build_index(texts):
   </section>
   <div class="searchbar"><input type="search" id="search"
     placeholder="Search all readings — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <section class="lvlgrid" id="lvlgrid">{''.join(lvlcards)}
-  </section>
   <section class="today-wrap" id="today-wrap" hidden>
-    <h2 class="home-h">Today's pick <span class="zh">今日推荐</span></h2>
-    <div class="cards" id="today-slot"></div>
+    <h2 class="home-h">Today's picks <span class="zh">今日推荐</span></h2>
+    <div class="tstack" id="today-slot"></div>
+    <div class="tdots" id="today-dots"></div>
+  </section>
+  <section class="lvlgrid" id="lvlgrid">{''.join(lvlcards)}
   </section>
   <section class="cards" id="search-results" hidden>{all_cards}
   </section>
