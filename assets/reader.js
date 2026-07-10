@@ -263,6 +263,7 @@
     var chars = Array.from(word).filter(function (c) { return c >= "一" && c <= "鿿"; });
     loadHW().then(function () {
       var writers = [];
+      var mode = "watch";
       chars.forEach(function (c, i) {
         var box = document.createElement("div");
         box.className = "p-hz";
@@ -278,13 +279,39 @@
         writers.push(wr);
         box.addEventListener("click", function (ev) {
           ev.stopPropagation();
-          wr.animateCharacter();
+          if (mode !== "quiz") wr.animateCharacter();
         });
       });
       var playAll = function (i) {
         if (i >= writers.length) return;
         writers[i].animateCharacter({ onComplete: function () { playAll(i + 1); } });
       };
+      var quizAll = function (i) {
+        if (i >= writers.length) { mode = "watch"; return; }
+        panel.querySelectorAll(".p-hz").forEach(function (b, k) {
+          b.classList.toggle("active", k === i);
+        });
+        writers[i].quiz({
+          drawingColor: "#f2e6c9",
+          onComplete: function () { setTimeout(function () { quizAll(i + 1); }, 400); }
+        });
+      };
+      var ctl = document.createElement("div");
+      ctl.className = "p-sk-ctl";
+      ctl.innerHTML = '<button id="sk-watch">▶ Watch</button>' +
+        '<button id="sk-try">✍️ Try it</button>';
+      panel.appendChild(ctl);
+      ctl.querySelector("#sk-watch").addEventListener("click", function (ev) {
+        ev.stopPropagation(); mode = "watch";
+        panel.querySelectorAll(".p-hz").forEach(function (b) { b.classList.remove("active"); });
+        writers.forEach(function (w) { w.cancelQuiz(); });
+        playAll(0);
+      });
+      ctl.querySelector("#sk-try").addEventListener("click", function (ev) {
+        ev.stopPropagation(); mode = "quiz";
+        writers.forEach(function (w) { w.cancelQuiz(); });
+        quizAll(0);
+      });
       setTimeout(function () { playAll(0); }, 250);
     }).catch(function () { panel.textContent = "Stroke data unavailable."; });
   }
@@ -432,6 +459,12 @@
             r.innerHTML = "You got <b>" + correctN + " / " + qitems.length +
               "</b> &nbsp;·&nbsp; ✓ Reading finished &nbsp;·&nbsp; 🔥 " +
               streak(p) + "-day streak";
+            if (window.RCD_NEXT) {
+              r.innerHTML += '<a class="next-cta" href="' + RCD_NEXT.url + '">' +
+                '<span class="nc-k">🎉 Keep going</span>' +
+                '<span class="nc-t">Next: ' + RCD_NEXT.zh + ' · ' + RCD_NEXT.en +
+                '</span><span class="nc-a">读 →</span></a>';
+            }
             try { r.scrollIntoView({ behavior: "smooth", block: "center" }); } catch (e) {}
           }
         });

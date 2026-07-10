@@ -170,7 +170,7 @@ def sentence_html(sent, slug=None, idx=None):
             f'<div class="en-line">{esc(sent["en"])}</div></div>')
 
 
-def build_reader(t):
+def build_reader(t, next_t=None):
     n_words = sum(len(s["t"]) for s in t["sentences"])
     minutes = max(1, round(n_words / 60))
     body_sents = "\n".join(sentence_html(s, t["slug"], i) for i, s in enumerate(t["sentences"]))
@@ -207,6 +207,13 @@ def build_reader(t):
                      f'      {"".join(qitems)}\n'
                      f'      <div class="qresult" id="qresult" hidden></div>\n'
                      f'    </section>')
+    if next_t:
+        nxt = {"url": f"{next_t['slug']}.html", "zh": next_t["title_zh"],
+               "en": next_t["title_en"], "lvl": next_t["level"]}
+        next_js = f'<script>window.RCD_NEXT={json.dumps(nxt, ensure_ascii=False)};</script>'
+        next_foot = (f'<a class="tbtn" href="{nxt["url"]}">Next: {esc(nxt["zh"])} →</a>')
+    else:
+        next_js, next_foot = "", ""
     body = f"""
   <article style="--sc:{LEVEL_COLORS[t['level']]}">
     <div class="reader-banner" data-char="{esc(t['title_zh'][0])}">
@@ -243,11 +250,13 @@ def build_reader(t):
 {quiz_html}
     <div class="reader-foot">
       <a class="tbtn" href="../hsk{t['level']}.html">← HSK {t['level']} readings</a>
+      {next_foot}
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
         Follow for daily lessons</a>
     </div>
-  </article>"""
+  </article>
+{next_js}"""
     title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading | {SITE['site_name']}"
     desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
             f"English translation: {t['title_en']}.")
@@ -541,9 +550,20 @@ def main():
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
     for f in ("manifest.webmanifest", "sw.js"):
         shutil.copy(os.path.join(ROOT, f), os.path.join(OUT, f))
+    by_level = {}
+    for t in sorted(texts, key=lambda x: x["slug"]):
+        by_level.setdefault(t["level"], []).append(t)
+    next_map = {}
+    for lvl, arr in by_level.items():
+        for i, t in enumerate(arr):
+            if i + 1 < len(arr):
+                next_map[t["slug"]] = arr[i + 1]
+            else:
+                nxt_arr = by_level.get(lvl + 1)
+                next_map[t["slug"]] = nxt_arr[0] if nxt_arr else None
     for t in texts:
         open(os.path.join(OUT, "texts", f"{t['slug']}.html"), "w",
-             encoding="utf-8").write(build_reader(t))
+             encoding="utf-8").write(build_reader(t, next_map.get(t["slug"])))
     print(f"built {len(texts)} readings + words/wordbook -> docs/")
 
 
