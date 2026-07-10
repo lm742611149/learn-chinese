@@ -364,19 +364,27 @@ body.show-en .en-line { display: block; }
 #pop { position: fixed; left: 50%; transform: translateX(-50%) translateY(20px);
   bottom: 20px; z-index: 50;
   background: linear-gradient(160deg, #2e2620, #1c1712);
-  color: #fff; border-radius: 10px; padding: 14px 22px; display: none;
-  box-shadow: 0 16px 44px rgba(0,0,0,.35); max-width: min(92vw, 440px);
-  text-align: center; opacity: 0;
+  color: #fff; border-radius: 12px; padding: 14px 16px 14px 18px; display: none;
+  box-shadow: 0 16px 44px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.07);
+  width: max-content; max-width: min(92vw, 440px); opacity: 0;
+  align-items: center; gap: 16px;
   transition: opacity .18s, transform .18s; }
-#pop.show { display: block; opacity: 1;
+#pop.show { display: flex; opacity: 1;
   transform: translateX(-50%) translateY(0); }
-#pop .p-zh { font-family: var(--serif); font-size: 1.65rem; font-weight: 800; }
-#pop .p-py { color: var(--gold); font-size: 1.02rem; margin: 0 10px; }
-#pop .p-en { display: block; font-size: .93rem; opacity: .88; margin-top: 4px; }
-#pop button { background: rgba(255,255,255,.14); border: none; color: #fff;
-  width: 32px; height: 32px; border-radius: 8px; font-size: .95rem;
-  cursor: pointer; margin-left: 6px; vertical-align: middle; }
+#pop .p-main { flex: 1 1 auto; min-width: 0; text-align: left; }
+#pop .p-word { display: flex; align-items: baseline; gap: 10px;
+  flex-wrap: wrap; row-gap: 0; }
+#pop .p-zh { font-family: var(--serif); font-size: 1.55rem; font-weight: 800;
+  line-height: 1.25; }
+#pop .p-py { color: var(--gold); font-size: 1rem; white-space: nowrap; }
+#pop .p-en { font-size: .9rem; color: rgba(255,255,255,.75); margin-top: 3px; }
+#pop .p-actions { flex: 0 0 auto; display: flex; gap: 8px;
+  padding-left: 14px; border-left: 1px solid rgba(255,255,255,.12); }
+#pop button { background: rgba(255,255,255,.12); border: none; color: #fff;
+  width: 38px; height: 38px; border-radius: 9px; font-size: 1rem;
+  cursor: pointer; transition: background .15s, transform .1s; }
 #pop button:hover { background: var(--red); }
+#pop button:active { transform: scale(.92); }
 
 /* ---------- quiz ---------- */
 .quiz { margin: 2px 0 26px; }

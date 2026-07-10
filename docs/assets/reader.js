@@ -166,12 +166,16 @@
           en = w.getAttribute("data-en");
       var saved = whas(zh);
       pop.innerHTML =
-        '<span class="p-zh">' + zh + '</span>' +
-        '<span class="p-py">' + py + '</span>' +
-        '<button id="pop-say" title="Play">🔊</button>' +
-        '<button class="wstar' + (saved ? " saved" : "") + '" id="pop-star" ' +
-        'title="Save to wordbook">' + (saved ? "★" : "☆") + '</button>' +
-        '<span class="p-en">' + en + '</span>';
+        '<div class="p-main">' +
+          '<div class="p-word"><span class="p-zh">' + zh + '</span>' +
+          '<span class="p-py">' + py + '</span></div>' +
+          '<div class="p-en">' + en + '</div>' +
+        '</div>' +
+        '<div class="p-actions">' +
+          '<button id="pop-say" title="Play">🔊</button>' +
+          '<button class="wstar' + (saved ? " saved" : "") + '" id="pop-star" ' +
+          'title="Save to wordbook">' + (saved ? "★" : "☆") + '</button>' +
+        '</div>';
       pop.classList.add("show");
       document.getElementById("pop-say").addEventListener("click", function (ev) {
         ev.stopPropagation();
