@@ -697,7 +697,7 @@
         return '<div class="vitem vx"><button class="s-play" data-say="' + w.z +
           '">🔊</button><div class="vtext"><span class="vzh">' + w.z +
           '</span><span class="vpy">' + w.p + '</span><span class="ven">' +
-          w.e + '</span><span class="vmore">▾</span></div>' +
+          w.e + '</span><span class="vmore"></span></div>' +
           '<button class="wstar saved" data-z="' + w.z +
           '">★</button></div>';
       }).join("");

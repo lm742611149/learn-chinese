@@ -398,7 +398,7 @@ def build_words(texts):
         # lazily on tap — inlining it ballooned words.html past 1 MB
         d = wex["w"].get(zh, {"ex": [], "us": []})
         has_d = bool(d["ex"] or d["us"])
-        more = '<span class="vmore">▾</span>' if has_d else ""
+        more = '<span class="vmore"></span>' if has_d else ""
         rows.append(
             f'<div class="vitem{" vx" if has_d else ""}" data-l="{lvl}" data-search="{esc(blob)}">'
             f'<button class="s-play" data-say="{esc(zh)}">🔊</button>'

@@ -695,8 +695,14 @@ html[data-theme="dark"] .lv-bar { background: #2d261e; }
 .vitem { flex-wrap: wrap; position: relative; }
 .vitem.vx { cursor: pointer; }
 /* 绝对定位钉在行右侧(星标左边),不然窄屏上会被挤到文字下一行 */
-.vmore { position: absolute; right: 46px; top: 22px; color: var(--muted);
-  font-size: .72rem; transition: transform .2s; }
+.vmore { position: absolute; right: 46px; top: 18px; width: 26px; height: 26px;
+  border-radius: 8px; background: var(--paper-2);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .2s, background .15s; }
+.vmore::before { content: ""; width: 7px; height: 7px; margin-top: -3px;
+  border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg); }
+.vitem.vx:hover .vmore { background: #f0e8d9; }
 .vitem.open .vmore { transform: rotate(180deg); }
 .vdetail { flex: 1 1 100%; display: none; margin-top: 10px; padding-top: 10px;
   border-top: 1px dashed var(--line); cursor: default; }
@@ -721,3 +727,6 @@ html[data-theme="dark"] .lv-bar { background: #2d261e; }
 html[data-theme="dark"] .vuse { background: #2a2315; border-color: #453a1e;
   color: #bfae87; }
 html[data-theme="dark"] .vuse b { color: #e2b45c; }
+
+html[data-theme="dark"] .vmore { background: #2d261e; }
+html[data-theme="dark"] .vitem.vx:hover .vmore { background: #362e24; }
