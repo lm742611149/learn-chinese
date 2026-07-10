@@ -270,7 +270,7 @@
         box.setAttribute("data-ch", c);
         panel.appendChild(box);
         var wr = HanziWriter.create(box, c, {
-          width: 84, height: 84, padding: 4,
+          width: 100, height: 100, padding: 5,
           strokeColor: "#f2e6c9", outlineColor: "#4a4038",
           radicalColor: "#e2a93d",
           delayBetweenStrokes: 120, strokeAnimationSpeed: 1.1,
@@ -293,13 +293,17 @@
         });
         writers[i].quiz({
           drawingColor: "#f2e6c9",
+          drawingWidth: 22,
+          leniency: 1.8,               // 手指描红需要宽松判定
+          showHintAfterMisses: 2,      // 连错两次给笔画提示
           onComplete: function () { setTimeout(function () { quizAll(i + 1); }, 400); }
         });
       };
       var ctl = document.createElement("div");
       ctl.className = "p-sk-ctl";
       ctl.innerHTML = '<button id="sk-watch">▶ Watch</button>' +
-        '<button id="sk-try">✍️ Try it</button>';
+        '<button id="sk-try">✍️ Try it</button>' +
+        '<div class="p-sk-hint" hidden>Trace each stroke inside the box — 跟着灰色轮廓一笔一笔写</div>';
       panel.appendChild(ctl);
       ctl.querySelector("#sk-watch").addEventListener("click", function (ev) {
         ev.stopPropagation(); mode = "watch";
@@ -309,6 +313,7 @@
       });
       ctl.querySelector("#sk-try").addEventListener("click", function (ev) {
         ev.stopPropagation(); mode = "quiz";
+        ctl.querySelector(".p-sk-hint").hidden = false;
         writers.forEach(function (w) { w.cancelQuiz(); });
         quizAll(0);
       });
