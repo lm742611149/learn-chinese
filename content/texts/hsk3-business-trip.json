@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-business-trip",
+  "level": 3,
+  "title_zh": "出差",
+  "title_py": "Chūchāi",
+  "title_en": "A Business Trip",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下","xià","next"],["星期一","xīngqīyī","Monday"],[","],["我","wǒ","I; me"],["要","yào","will; to be going to"],["和","hé","and; with"],["经理","jīnglǐ","manager"],["一起","yìqǐ","together"],["去","qù","to go"],["上海","Shànghǎi","Shanghai"],["出差","chūchāi","to go on a business trip"],["。"]],
+      "en": "Next Monday, I'm going to Shanghai on a business trip with my manager."
+    },
+    {
+      "t": [["这","zhè","this"],["是","shì","to be"],["我","wǒ","I; me"],["第一次","dì-yī cì","the first time"],["出差","chūchāi","to go on a business trip"],[","],["心里","xīnli","in one's heart"],["又","yòu","both (又...又...)"],["高兴","gāoxìng","happy"],["又","yòu","and (又...又...)"],["有点儿","yǒudiǎnr","a little (+ negative feeling)"],["担心","dānxīn","to worry"],["。"]],
+      "en": "It's my first business trip, so I feel both excited and a little worried."
+    },
+    {
+      "t": [["星期天","xīngqītiān","Sunday"],["晚上","wǎnshang","evening"],[","],["我","wǒ","I; me"],["把","bǎ","(particle: object marker)"],["衣服","yīfu","clothes"],["和","hé","and"],["电脑","diànnǎo","computer"],["都","dōu","all"],["放","fàng","to put"],["进","jìn","into"],["了","le","(particle: completed)"],["行李箱","xínglixiāng","suitcase"],["。"]],
+      "en": "On Sunday evening, I put my clothes and my computer into the suitcase."
+    },
+    {
+      "t": [["第二天","dì-èr tiān","the next day"],["早上","zǎoshang","morning"],["六","liù","six"],["点","diǎn","o'clock"],[","],["我们","wǒmen","we; us"],["就","jiù","as early as; then"],["坐","zuò","to take (transport)"],["出租车","chūzūchē","taxi"],["去","qù","to go"],["机场","jīchǎng","airport"],["了","le","(particle: completed)"],["。"]],
+      "en": "At six o'clock the next morning, we took a taxi to the airport."
+    },
+    {
+      "t": [["飞机","fēijī","airplane"],["上","shang","on"],[","],["经理","jīnglǐ","manager"],["告诉","gàosu","to tell"],["我","wǒ","I; me"],[":"],["“"],["到","dào","to arrive"],["了","le","(particle: completed)"],["上海","Shànghǎi","Shanghai"],[","],["我们","wǒmen","we; us"],["先","xiān","first"],["去","qù","to go"],["宾馆","bīnguǎn","hotel"],[","],["再","zài","then; afterwards"],["去","qù","to go"],["见","jiàn","to meet"],["客人","kèrén","guest; client"],["。"],["”"]],
+      "en": "On the plane, the manager told me: \"When we arrive in Shanghai, we'll go to the hotel first, then go meet the clients.\""
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["我们","wǒmen","we; us"],["开","kāi","to hold (a meeting)"],["了","le","(particle: completed)"],["三","sān","three"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["的","de","(particle: attributive)"],["会","huì","meeting"],[","],["客人","kèrén","guest; client"],["对","duì","toward; with regard to"],["我们","wǒmen","we; us"],["非常","fēicháng","very; extremely"],["满意","mǎnyì","satisfied"],["。"]],
+      "en": "In the afternoon we had a three-hour meeting, and the clients were very satisfied with us."
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],[","],["经理","jīnglǐ","manager"],["请","qǐng","to invite; to treat"],["我","wǒ","I; me"],["吃","chī","to eat"],["了","le","(particle: completed)"],["上海","Shànghǎi","Shanghai"],["最","zuì","most"],["有名","yǒumíng","famous"],["的","de","(particle: attributive)"],["菜","cài","dish; food"],["。"]],
+      "en": "In the evening, the manager treated me to Shanghai's most famous dishes."
+    },
+    {
+      "t": [["这","zhè","this"],["次","cì","time (occurrence)"],["出差","chūchāi","business trip"],["很","hěn","very"],["快","kuài","fast; soon"],["就","jiù","then"],["结束","jiéshù","to end; to finish"],["了","le","(particle: completed)"],[","],["我","wǒ","I; me"],["觉得","juéde","to feel; to think"],["自己","zìjǐ","oneself"],["学到","xuédào","to learn (and get)"],["了","le","(particle: completed)"],["很","hěn","very"],["多","duō","much; many"],[","],["真","zhēn","really"],["不","bú","not"],["错","cuò","bad; wrong"],["!"]],
+      "en": "The business trip ended quickly; I feel I learned a lot — it was really great!"
+    }
+  ],
+  "vocab": [
+    ["出差","chūchāi","to go on a business trip"],
+    ["经理","jīnglǐ","manager"],
+    ["担心","dānxīn","to worry"],
+    ["行李箱","xínglixiāng","suitcase"],
+    ["满意","mǎnyì","satisfied"],
+    ["结束","jiéshù","to end; to finish"]
+  ],
+  "quiz": [
+    {"q": "我和谁一起去上海出差?", "a": ["朋友", "经理", "客人"], "c": 1},
+    {"q": "到了上海,他们先去哪儿?", "a": ["宾馆", "机场", "饭馆"], "c": 0},
+    {"q": "下午的会开了多长时间?", "a": ["一个小时", "两个小时", "三个小时"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "把 + object + verb + result", "e": "The 把 structure moves the object before the verb to show what is done to it, with a result after the verb.", "x": "我把衣服和电脑都放进了行李箱。"},
+    {"p": "先……再……", "e": "'First ..., then ...' — states the order of two planned actions.", "x": "我们先去宾馆,再去见客人。"},
+    {"p": "对……满意", "e": "'Satisfied with ...' — 对 introduces the target of the feeling.", "x": "客人对我们非常满意。"}
+  ]
+}

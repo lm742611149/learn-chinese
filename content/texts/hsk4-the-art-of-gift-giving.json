@@ -1,0 +1,246 @@
+{
+  "slug": "hsk4-the-art-of-gift-giving",
+  "level": 4,
+  "title_zh": "送礼的学问",
+  "title_py": "Sònglǐ de xuéwen",
+  "title_en": "The Art of Gift Giving",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["中国", "Zhōngguó", "China"],
+        [","],
+        ["送礼", "sònglǐ", "to give gifts"],
+        ["是", "shì", "to be"],
+        ["一门", "yì mén", "one (measure: fields of study)"],
+        ["学问", "xuéwen", "art; branch of knowledge"],
+        [","],
+        ["送", "sòng", "to give (a gift)"],
+        ["什么", "shénme", "what"],
+        ["、"],
+        ["怎么", "zěnme", "how"],
+        ["送", "sòng", "to give"],
+        [","],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["有", "yǒu", "to have"],
+        ["讲究", "jiǎngjiu", "particular rules"],
+        ["。"]
+      ],
+      "en": "In China, gift giving is an art: what to give and how to give it both follow particular rules."
+    },
+    {
+      "t": [
+        ["比如", "bǐrú", "for example"],
+        [","],
+        ["去", "qù", "to go"],
+        ["朋友", "péngyou", "friend"],
+        ["家", "jiā", "home"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["可以", "kěyǐ", "can"],
+        ["带", "dài", "to bring"],
+        ["水果", "shuǐguǒ", "fruit"],
+        [","],
+        ["数字", "shùzì", "number"],
+        ["最好", "zuìhǎo", "had better"],
+        ["是", "shì", "to be"],
+        ["双数", "shuāngshù", "even number"],
+        [","],
+        ["因为", "yīnwèi", "because"],
+        ["双数", "shuāngshù", "even number"],
+        ["表示", "biǎoshì", "to represent"],
+        ["好事", "hǎoshì", "good things"],
+        ["。"]
+      ],
+      "en": "For example, when visiting a friend's home you can bring fruit, and the number had better be even, because even numbers represent good things."
+    },
+    {
+      "t": [
+        ["有些", "yǒuxiē", "some"],
+        ["东西", "dōngxi", "things"],
+        ["不能", "bù néng", "must not"],
+        ["随便", "suíbiàn", "casually"],
+        ["送", "sòng", "to give"],
+        [":"],
+        ["钟表", "zhōngbiǎo", "clocks"],
+        ["不行", "bù xíng", "not okay"],
+        [","],
+        ["伞", "sǎn", "umbrella"],
+        ["也", "yě", "also"],
+        ["不行", "bù xíng", "not okay"],
+        [","],
+        ["因为", "yīnwèi", "because"],
+        ["它们", "tāmen", "they (things)"],
+        ["的", "de", "(particle: possessive)"],
+        ["发音", "fāyīn", "pronunciation"],
+        ["让", "ràng", "to make; let"],
+        ["人", "rén", "people"],
+        ["想到", "xiǎngdào", "to think of"],
+        ["不好", "bù hǎo", "bad"],
+        ["的", "de", "(particle: possessive)"],
+        ["意思", "yìsi", "meaning"],
+        ["。"]
+      ],
+      "en": "Some things must not be given casually: clocks are out, and so are umbrellas, because their pronunciation makes people think of unlucky meanings."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(particle: possessive)"],
+        ["外国", "wàiguó", "foreign"],
+        ["朋友", "péngyou", "friend"],
+        ["听了", "tīngle", "heard"],
+        ["很", "hěn", "very"],
+        ["吃惊", "chījīng", "surprised"],
+        [","],
+        ["他", "tā", "he"],
+        ["说", "shuō", "to say"],
+        ["在", "zài", "at; in"],
+        ["他", "tā", "he; his"],
+        ["的", "de", "(particle: possessive)"],
+        ["国家", "guójiā", "country"],
+        [","],
+        ["送", "sòng", "to give"],
+        ["什么", "shénme", "what; anything"],
+        ["都", "dōu", "all"],
+        ["可以", "kěyǐ", "okay; allowed"],
+        ["。"]
+      ],
+      "en": "My foreign friend was very surprised to hear this; he said that in his country, you can give anything."
+    },
+    {
+      "t": [
+        ["其实", "qíshí", "actually"],
+        [","],
+        ["礼物", "lǐwù", "gift"],
+        ["不用", "bú yòng", "no need to"],
+        ["太", "tài", "too"],
+        ["贵", "guì", "expensive"],
+        [","],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(particle: nominalizer)"],
+        ["是", "shì", "to be"],
+        ["你", "nǐ", "you"],
+        ["的", "de", "(particle: possessive)"],
+        ["心意", "xīnyì", "thoughtfulness; kind intention"],
+        ["。"]
+      ],
+      "en": "Actually, a gift doesn't need to be expensive; what matters is your thoughtfulness."
+    },
+    {
+      "t": [
+        ["收", "shōu", "to receive"],
+        ["礼物", "lǐwù", "gift"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "to have"],
+        ["文化", "wénhuà", "culture"],
+        [":"],
+        ["很多", "hěn duō", "many"],
+        ["中国人", "Zhōngguórén", "Chinese people"],
+        ["会", "huì", "will"],
+        ["先", "xiān", "first"],
+        ["客气", "kèqi", "polite"],
+        ["地", "de", "(particle: adverbial)"],
+        ["说", "shuō", "to say"],
+        ["“"],
+        ["不用了", "bú yòng le", "no need"],
+        ["”"],
+        [","],
+        ["然后", "ránhòu", "then"],
+        ["才", "cái", "only then"],
+        ["收下", "shōuxià", "to accept"],
+        ["。"]
+      ],
+      "en": "Receiving gifts has its culture too: many Chinese people will first politely say \"you shouldn't have,\" and only then accept."
+    },
+    {
+      "t": [
+        ["以前", "yǐqián", "in the past"],
+        [","],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["不会", "bú huì", "would not"],
+        ["马上", "mǎshàng", "immediately"],
+        ["打开", "dǎkāi", "to open"],
+        ["礼物", "lǐwù", "gift"],
+        [","],
+        ["现在", "xiànzài", "now"],
+        ["的", "de", "(particle: possessive)"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["常常", "chángcháng", "often"],
+        ["一边", "yìbiān", "while"],
+        ["打开", "dǎkāi", "to open"],
+        ["一边", "yìbiān", "while"],
+        ["说", "shuō", "to say"],
+        ["谢谢", "xièxie", "thanks"],
+        ["。"]
+      ],
+      "en": "In the past, many people would not open a gift right away; today's young people often open it while saying thank you."
+    },
+    {
+      "t": [
+        ["送礼", "sònglǐ", "gift giving"],
+        ["送", "sòng", "to give"],
+        ["的", "de", "(particle: nominalizer)"],
+        ["不只是", "bù zhǐshì", "not only"],
+        ["东西", "dōngxi", "things"],
+        [","],
+        ["更", "gèng", "even more"],
+        ["是", "shì", "to be"],
+        ["人", "rén", "person"],
+        ["和", "hé", "and"],
+        ["人", "rén", "person"],
+        ["的", "de", "(particle: possessive)"],
+        ["感情", "gǎnqíng", "feelings; affection"],
+        ["。"]
+      ],
+      "en": "What gift giving really gives is not just things, but even more the affection between people."
+    }
+  ],
+  "vocab": [
+    ["送礼", "sònglǐ", "to give gifts"],
+    ["学问", "xuéwen", "art; branch of knowledge"],
+    ["讲究", "jiǎngjiu", "particular rules; to be particular"],
+    ["双数", "shuāngshù", "even number"],
+    ["心意", "xīnyì", "thoughtfulness; kind intention"],
+    ["吃惊", "chījīng", "surprised"]
+  ],
+  "quiz": [
+    {
+      "q": "去朋友家带水果,数字最好是什么?",
+      "a": ["一个", "双数", "越多越好"],
+      "c": 1
+    },
+    {
+      "q": "为什么不能送钟表和伞?",
+      "a": ["因为太便宜", "因为太重", "因为发音让人想到不好的意思"],
+      "c": 2
+    },
+    {
+      "q": "作者觉得礼物最重要的是什么?",
+      "a": ["你的心意", "价钱贵", "东西大"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不用 + V",
+      "e": "'no need to...' — a soft way to say something is unnecessary. Note the tone change: bú yòng.",
+      "x": "礼物不用太贵。"
+    },
+    {
+      "p": "不只是……更是……",
+      "e": "'not only... but even more...' — the second part is the deeper or more important point.",
+      "x": "送礼送的不只是东西,更是人和人的感情。"
+    },
+    {
+      "p": "让人 + V",
+      "e": "'makes people...' — 让 introduces the person affected and the resulting action or feeling.",
+      "x": "它们的发音让人想到不好的意思。"
+    }
+  ]
+}

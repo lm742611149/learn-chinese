@@ -1,0 +1,240 @@
+{
+  "slug": "hsk4-queuing-culture",
+  "level": 4,
+  "title_zh": "排队文化",
+  "title_py": "Páiduì wénhuà",
+  "title_en": "Queuing Culture",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(particle: possessive)"],
+        ["大城市", "dà chéngshì", "big city"],
+        [","],
+        ["排队", "páiduì", "to queue; line up"],
+        ["是", "shì", "to be"],
+        ["生活", "shēnghuó", "life"],
+        ["中", "zhōng", "in; among"],
+        ["最", "zuì", "most"],
+        ["普遍", "pǔbiàn", "common; widespread"],
+        ["的", "de", "(particle: possessive)"],
+        ["事情", "shìqing", "thing"],
+        [":"],
+        ["买东西", "mǎi dōngxi", "shopping"],
+        ["要", "yào", "must"],
+        ["排队", "páiduì", "to queue"],
+        [","],
+        ["坐车", "zuò chē", "taking the bus"],
+        ["要", "yào", "must"],
+        ["排队", "páiduì", "to queue"],
+        [","],
+        ["去", "qù", "to go"],
+        ["医院", "yīyuàn", "hospital"],
+        ["也", "yě", "also"],
+        ["要", "yào", "must"],
+        ["排队", "páiduì", "to queue"],
+        ["。"]
+      ],
+      "en": "In China's big cities, queuing is one of the most common things in life: you queue to shop, you queue for the bus, and you queue at the hospital too."
+    },
+    {
+      "t": [
+        ["有的人", "yǒude rén", "some people"],
+        ["排队", "páiduì", "to queue"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["很", "hěn", "very"],
+        ["有", "yǒu", "to have"],
+        ["耐心", "nàixīn", "patience"],
+        [","],
+        ["一边", "yìbiān", "while"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "mobile phone"],
+        [","],
+        ["一边", "yìbiān", "while"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["等", "děng", "to wait"],
+        ["。"]
+      ],
+      "en": "Some people are very patient in line, looking at their phones while slowly waiting."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["也", "yě", "also"],
+        ["有人", "yǒu rén", "some people"],
+        ["不想", "bù xiǎng", "don't want to"],
+        ["等", "děng", "to wait"],
+        [","],
+        ["看见", "kànjiàn", "to see"],
+        ["前面", "qiánmiàn", "in front"],
+        ["人", "rén", "people"],
+        ["多", "duō", "many"],
+        [","],
+        ["就", "jiù", "then"],
+        ["直接", "zhíjiē", "directly"],
+        ["插队", "chāduì", "to cut in line"],
+        ["。"]
+      ],
+      "en": "But some people don't want to wait: seeing many people ahead, they simply cut in line."
+    },
+    {
+      "t": [
+        ["插队", "chāduì", "to cut in line"],
+        ["的", "de", "(particle: possessive)"],
+        ["人", "rén", "person"],
+        ["也许", "yěxǔ", "perhaps"],
+        ["觉得", "juéde", "to feel"],
+        ["自己", "zìjǐ", "oneself"],
+        ["聪明", "cōngming", "clever"],
+        [","],
+        ["其实", "qíshí", "actually"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["在", "zài", "at; in"],
+        ["心里", "xīnli", "in the heart"],
+        ["对", "duì", "towards"],
+        ["他", "tā", "him"],
+        ["有", "yǒu", "to have"],
+        ["意见", "yìjiàn", "complaint; objection"],
+        ["。"]
+      ],
+      "en": "People who cut in line may think they are clever, but actually everyone silently resents them."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["见过", "jiànguo", "have seen"],
+        ["一位", "yí wèi", "one (polite measure)"],
+        ["老人", "lǎorén", "elderly person"],
+        ["礼貌", "lǐmào", "polite; politely"],
+        ["地", "de", "(particle: adverbial)"],
+        ["对", "duì", "towards"],
+        ["插队", "chāduì", "to cut in line"],
+        ["的", "de", "(particle: possessive)"],
+        ["年轻人", "niánqīngrén", "young person"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["在", "zài", "(progressive marker)"],
+        ["等", "děng", "to wait"],
+        [","],
+        ["请", "qǐng", "please"],
+        ["你", "nǐ", "you"],
+        ["到", "dào", "to (go) to"],
+        ["后面", "hòumiàn", "the back"],
+        ["去", "qù", "to go"],
+        [","],
+        ["好吗", "hǎo ma", "okay?"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "I once saw an elderly man politely say to a young man who had cut in line: \"We are all waiting — would you please go to the back?\""
+    },
+    {
+      "t": [
+        ["那个", "nàge", "that"],
+        ["年轻人", "niánqīngrén", "young person"],
+        ["脸", "liǎn", "face"],
+        ["红了", "hóngle", "turned red"],
+        [","],
+        ["说了", "shuōle", "said"],
+        ["一声", "yì shēng", "one utterance"],
+        ["“"],
+        ["对不起", "duìbuqǐ", "sorry"],
+        ["”"],
+        [","],
+        ["马上", "mǎshàng", "immediately"],
+        ["站到", "zhàndào", "to go stand at"],
+        ["了", "le", "(particle: completed action)"],
+        ["队伍", "duìwu", "line; queue"],
+        ["的", "de", "(particle: possessive)"],
+        ["最后", "zuìhòu", "the very end"],
+        ["。"]
+      ],
+      "en": "The young man blushed, said \"sorry,\" and immediately went to stand at the end of the line."
+    },
+    {
+      "t": [
+        ["排队", "páiduì", "queuing"],
+        ["看起来", "kàn qǐlai", "seems"],
+        ["是", "shì", "to be"],
+        ["小事", "xiǎoshì", "a small matter"],
+        [","],
+        ["其实", "qíshí", "actually"],
+        ["最", "zuì", "most"],
+        ["能", "néng", "can"],
+        ["说明", "shuōmíng", "to show; explain"],
+        ["一个", "yí gè", "one"],
+        ["地方", "dìfang", "place"],
+        ["的", "de", "(particle: possessive)"],
+        ["文明", "wénmíng", "civility; civilization"],
+        ["水平", "shuǐpíng", "level"],
+        ["。"]
+      ],
+      "en": "Queuing seems like a small matter, but it actually best shows a place's level of civility."
+    },
+    {
+      "t": [
+        ["你", "nǐ", "you"],
+        ["愿意", "yuànyì", "willing"],
+        ["等", "děng", "to wait"],
+        ["三", "sān", "three"],
+        ["分钟", "fēnzhōng", "minutes"],
+        [","],
+        ["别人", "biérén", "others"],
+        ["也", "yě", "also"],
+        ["会", "huì", "will"],
+        ["愿意", "yuànyì", "willing"],
+        ["为", "wèi", "for"],
+        ["你", "nǐ", "you"],
+        ["等", "děng", "to wait"],
+        ["三", "sān", "three"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["。"]
+      ],
+      "en": "If you are willing to wait three minutes, others will be willing to wait three minutes for you too."
+    }
+  ],
+  "vocab": [
+    ["排队", "páiduì", "to queue; line up"],
+    ["耐心", "nàixīn", "patience"],
+    ["插队", "chāduì", "to cut in line"],
+    ["礼貌", "lǐmào", "polite; manners"],
+    ["队伍", "duìwu", "line; queue"],
+    ["文明", "wénmíng", "civility; civilization"]
+  ],
+  "quiz": [
+    {
+      "q": "大家对插队的人有什么想法?",
+      "a": ["觉得他很聪明", "没有人看见他", "都在心里对他有意见"],
+      "c": 2
+    },
+    {
+      "q": "听了老人的话,年轻人做了什么?",
+      "a": ["生气地走了", "马上站到了队伍的最后", "继续插队"],
+      "c": 1
+    },
+    {
+      "q": "作者觉得排队最能说明什么?",
+      "a": ["一个地方的文明水平", "一个人的工资", "城市的大小"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边……一边……",
+      "e": "'doing A while doing B' — two actions happening at the same time.",
+      "x": "一边看手机,一边慢慢等。"
+    },
+    {
+      "p": "看起来……其实……",
+      "e": "'it seems... but actually...' — contrasts appearance with reality.",
+      "x": "排队看起来是小事,其实最能说明一个地方的文明水平。"
+    }
+  ]
+}

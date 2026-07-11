@@ -1,0 +1,127 @@
+{
+  "slug": "hsk1-going-to-the-shop",
+  "level": 1,
+  "title_zh": "去商店",
+  "title_py": "Qù shāngdiàn",
+  "title_en": "Going to the Shop",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["妈妈", "māma", "mom"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["。"]
+      ],
+      "en": "In the afternoon I go to the shop with Mom."
+    },
+    {
+      "t": [
+        ["商店", "shāngdiàn", "shop; store"],
+        ["里", "lǐ", "inside"],
+        ["东西", "dōngxi", "things"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "There are a lot of things in the shop."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["六个", "liù gè", "six"],
+        ["苹果", "píngguǒ", "apple"],
+        ["和", "hé", "and"],
+        ["一些", "yìxiē", "some"],
+        ["水", "shuǐ", "water"],
+        ["。"]
+      ],
+      "en": "We buy six apples and some water."
+    },
+    {
+      "t": [
+        ["苹果", "píngguǒ", "apple"],
+        ["十", "shí", "ten"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        [","],
+        ["水", "shuǐ", "water"],
+        ["三", "sān", "three"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "The apples are ten kuai, and the water is three kuai."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["这些", "zhèxiē", "these"],
+        ["苹果", "píngguǒ", "apple"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Mom says: \"These apples are very good.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["和", "hé", "with"],
+        ["妈妈", "māma", "mom"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["。"]
+      ],
+      "en": "I really like going to the shop with Mom."
+    }
+  ],
+  "vocab": [
+    ["商店", "shāngdiàn", "shop; store"],
+    ["东西", "dōngxi", "things"],
+    ["买", "mǎi", "to buy"],
+    ["苹果", "píngguǒ", "apple"],
+    ["一些", "yìxiē", "some"],
+    ["喜欢", "xǐhuan", "to like"]
+  ],
+  "quiz": [
+    {
+      "q": "我和谁去商店?",
+      "a": ["妈妈", "爸爸", "同学"],
+      "c": 0
+    },
+    {
+      "q": "我们买了几个苹果?",
+      "a": ["四个", "六个", "十个"],
+      "c": 1
+    },
+    {
+      "q": "苹果多少钱?",
+      "a": ["三块钱", "六块钱", "十块钱"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 和 B + verb",
+      "e": "和 links two people doing something together: 'A does something with B'.",
+      "x": "下午我和妈妈去商店。"
+    },
+    {
+      "p": "verb + 了",
+      "e": "了 right after a verb marks the action as completed.",
+      "x": "我们买了六个苹果和一些水。"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "slug": "hsk5-urbanization",
+  "level": 5,
+  "title_zh": "城市化",
+  "title_py": "Chéngshìhuà",
+  "title_en": "Urbanization",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["最近", "zuìjìn", "recently"],
+        ["几十", "jǐshí", "several tens of"],
+        ["年", "nián", "year"],
+        [","],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(particle: attributive)"],
+        ["农村", "nóngcūn", "countryside"],
+        ["人", "rén", "person; people"],
+        ["离开", "líkāi", "to leave"],
+        ["家乡", "jiāxiāng", "hometown"],
+        [","],
+        ["到", "dào", "to; to arrive"],
+        ["大", "dà", "big"],
+        ["城市", "chéngshì", "city"],
+        ["去", "qù", "to go"],
+        ["工作", "gōngzuò", "to work"],
+        ["和", "hé", "and"],
+        ["生活", "shēnghuó", "to live; life"],
+        ["。"]
+      ],
+      "en": "In recent decades, more and more people from the countryside have left their hometowns to work and live in big cities."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["种", "zhǒng", "kind; type"],
+        ["现象", "xiànxiàng", "phenomenon"],
+        ["叫做", "jiàozuò", "to be called"],
+        ["“"],
+        ["城市化", "chéngshìhuà", "urbanization"],
+        ["”"],
+        [","],
+        ["它", "tā", "it"],
+        ["正在", "zhèngzài", "(in the process of)"],
+        ["改变", "gǎibiàn", "to change"],
+        ["我们", "wǒmen", "we; us"],
+        ["的", "de", "(particle: possessive)"],
+        ["社会", "shèhuì", "society"],
+        ["。"]
+      ],
+      "en": "This phenomenon is called \"urbanization,\" and it is changing our society."
+    },
+    {
+      "t": [
+        ["一方面", "yì fāngmiàn", "on one hand"],
+        [","],
+        ["城市", "chéngshì", "city"],
+        ["能", "néng", "can"],
+        ["提供", "tígōng", "to provide"],
+        ["更", "gèng", "more; even more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(particle: attributive)"],
+        ["工作", "gōngzuò", "job"],
+        ["机会", "jīhuì", "opportunity"],
+        ["和", "hé", "and"],
+        ["更", "gèng", "more; even more"],
+        ["好", "hǎo", "good"],
+        ["的", "de", "(particle: attributive)"],
+        ["教育", "jiàoyù", "education"],
+        ["条件", "tiáojiàn", "conditions"],
+        ["。"]
+      ],
+      "en": "On the one hand, cities can offer more job opportunities and better educational conditions."
+    },
+    {
+      "t": [
+        ["年轻人", "niánqīngrén", "young people"],
+        ["在", "zài", "at; in"],
+        ["城市", "chéngshì", "city"],
+        ["里", "lǐ", "inside"],
+        ["更", "gèng", "more; even more"],
+        ["容易", "róngyì", "easy"],
+        ["实现", "shíxiàn", "to realize; achieve"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(particle: possessive)"],
+        ["理想", "lǐxiǎng", "ideal; dream"],
+        [","],
+        ["收入", "shōurù", "income"],
+        ["也", "yě", "also"],
+        ["比", "bǐ", "than (comparison)"],
+        ["农村", "nóngcūn", "countryside"],
+        ["高", "gāo", "high"],
+        ["得", "de", "(particle: degree)"],
+        ["多", "duō", "much"],
+        ["。"]
+      ],
+      "en": "In the city, young people find it easier to realize their dreams, and incomes are much higher than in the countryside."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["另一方面", "lìng yì fāngmiàn", "on the other hand"],
+        [","],
+        ["城市化", "chéngshìhuà", "urbanization"],
+        ["也", "yě", "also"],
+        ["带来", "dàilái", "to bring"],
+        ["了", "le", "(particle: completed action)"],
+        ["不少", "bù shǎo", "quite a few"],
+        ["问题", "wèntí", "problem"],
+        [","],
+        ["比如", "bǐrú", "for example"],
+        ["交通", "jiāotōng", "traffic"],
+        ["拥挤", "yōngjǐ", "crowded"],
+        ["、"],
+        ["房租", "fángzū", "rent"],
+        ["太", "tài", "too"],
+        ["贵", "guì", "expensive"],
+        ["和", "hé", "and"],
+        ["环境", "huánjìng", "environment"],
+        ["污染", "wūrǎn", "pollution"],
+        ["。"]
+      ],
+      "en": "But on the other hand, urbanization has also brought quite a few problems, such as crowded traffic, expensive rent, and environmental pollution."
+    },
+    {
+      "t": [
+        ["同时", "tóngshí", "at the same time"],
+        [","],
+        ["农村", "nóngcūn", "countryside"],
+        ["只", "zhǐ", "only"],
+        ["剩下", "shèngxià", "to be left (over)"],
+        ["老人", "lǎorén", "elderly people"],
+        ["和", "hé", "and"],
+        ["孩子", "háizi", "child; children"],
+        [","],
+        ["很多", "hěn duō", "many"],
+        ["土地", "tǔdì", "land"],
+        ["没有", "méiyǒu", "to not have"],
+        ["人", "rén", "person; people"],
+        ["种", "zhòng", "to plant; farm"],
+        ["。"]
+      ],
+      "en": "Meanwhile, only the elderly and children remain in the villages, and much of the land has no one to farm it."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["认为", "rènwéi", "to think; believe"],
+        ["应该", "yīnggāi", "should"],
+        ["继续", "jìxù", "to continue"],
+        ["发展", "fāzhǎn", "to develop"],
+        ["大", "dà", "big"],
+        ["城市", "chéngshì", "city"],
+        [","],
+        ["也", "yě", "also"],
+        ["有人", "yǒurén", "some people"],
+        ["主张", "zhǔzhāng", "to advocate"],
+        ["把", "bǎ", "(particle: object marker)"],
+        ["更", "gèng", "more; even more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(particle: attributive)"],
+        ["资源", "zīyuán", "resources"],
+        ["放到", "fàngdào", "to put into"],
+        ["农村", "nóngcūn", "countryside"],
+        ["去", "qù", "(directional: go)"],
+        ["。"]
+      ],
+      "en": "Some people think we should keep developing big cities, while others advocate putting more resources into the countryside."
+    },
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["我", "wǒ", "I; me"],
+        ["看来", "kànlái", "(it) seems; in one's view"],
+        [","],
+        ["城市", "chéngshì", "city"],
+        ["和", "hé", "and"],
+        ["农村", "nóngcūn", "countryside"],
+        ["都", "dōu", "both; all"],
+        ["需要", "xūyào", "to need"],
+        ["发展", "fāzhǎn", "development"],
+        [","],
+        ["关键", "guānjiàn", "key point"],
+        ["是", "shì", "to be"],
+        ["让", "ràng", "to let; allow"],
+        ["人们", "rénmen", "people"],
+        ["自由", "zìyóu", "freely; freedom"],
+        ["地", "de", "(particle: adverbial)"],
+        ["选择", "xuǎnzé", "to choose"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(particle: possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["方式", "fāngshì", "way; mode"],
+        ["。"]
+      ],
+      "en": "In my view, both cities and the countryside need to develop; the key is to let people freely choose their own way of life."
+    }
+  ],
+  "vocab": [
+    ["城市化", "chéngshìhuà", "urbanization"],
+    ["现象", "xiànxiàng", "phenomenon"],
+    ["拥挤", "yōngjǐ", "crowded"],
+    ["污染", "wūrǎn", "pollution"],
+    ["主张", "zhǔzhāng", "to advocate"],
+    ["资源", "zīyuán", "resources"]
+  ],
+  "quiz": [
+    {
+      "q": "越来越多的农村人到大城市去做什么?",
+      "a": ["看朋友", "工作和生活", "学习开车"],
+      "c": 1
+    },
+    {
+      "q": "下面哪个是城市化带来的问题?",
+      "a": ["环境污染", "教育更好", "收入更高"],
+      "c": 0
+    },
+    {
+      "q": "作者认为关键是什么?",
+      "a": ["大家都去城市", "大家都回农村", "让人们自由选择生活方式"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一方面……另一方面……",
+      "e": "'On the one hand... on the other hand' — presents two contrasting sides of an issue, very common in argumentative writing.",
+      "x": "一方面,城市能提供更多的工作机会和更好的教育条件。"
+    },
+    {
+      "p": "在我看来",
+      "e": "'In my view / as I see it' — introduces the speaker's personal opinion, usually at the start of a concluding sentence.",
+      "x": "在我看来,城市和农村都需要发展。"
+    },
+    {
+      "p": "A 比 B + adj + 得多",
+      "e": "'A is much more ... than B' — adding 得多 after the adjective intensifies the comparison.",
+      "x": "收入也比农村高得多。"
+    }
+  ]
+}

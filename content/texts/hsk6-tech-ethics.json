@@ -1,0 +1,64 @@
+{
+  "slug": "hsk6-tech-ethics",
+  "level": 6,
+  "title_zh": "科技伦理",
+  "title_py": "Kējì lúnlǐ",
+  "title_en": "Tech Ethics",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["科学技术","kēxué jìshù","science and technology"],["的","de","(particle: possessive)"],["迅猛","xùnměng","swift and fierce"],["发展","fāzhǎn","development"],[","],["正","zhèng","right now; currently"],["以","yǐ","with; by means of"],["前所未有","qián suǒ wèi yǒu","unprecedented (idiom)"],["的","de","(particle: attributive)"],["速度","sùdù","speed"],["改变","gǎibiàn","to change"],["着","zhe","(particle: ongoing state)"],["人类","rénlèi","humanity"],["的","de","(particle: possessive)"],["生活","shēnghuó","life"],["。"]],
+      "en": "The rapid development of science and technology is changing human life at an unprecedented speed."
+    },
+    {
+      "t": [["人工智能","réngōng zhìnéng","artificial intelligence"],["可以","kěyǐ","can"],["诊断","zhěnduàn","to diagnose"],["疾病","jíbìng","disease"],[","],["基因","jīyīn","gene"],["编辑","biānjí","to edit"],["有望","yǒuwàng","to hold promise"],["根治","gēnzhì","to cure completely"],["遗传","yíchuán","hereditary"],["顽疾","wánjí","stubborn illness"],[","],["前景","qiánjǐng","prospects"],["令人","lìng rén","to make one (feel)"],["振奋","zhènfèn","inspired; heartened"],["。"]],
+      "en": "Artificial intelligence can diagnose diseases, and gene editing promises to cure stubborn hereditary illnesses — the prospects are inspiring."
+    },
+    {
+      "t": [["然而","rán'ér","however"],[","],["技术","jìshù","technology"],["是","shì","to be"],["一把","yì bǎ","one (measure: knives)"],["双刃剑","shuāngrènjiàn","double-edged sword"],[","],["滥用","lànyòng","to abuse; misuse"],["它","tā","it"],["的","de","(particle: possessive)"],["后果","hòuguǒ","consequence"],["同样","tóngyàng","equally"],["不堪设想","bùkān shèxiǎng","too dreadful to imagine (idiom)"],["。"]],
+      "en": "However, technology is a double-edged sword, and the consequences of abusing it are equally unthinkable."
+    },
+    {
+      "t": [["算法","suànfǎ","algorithm"],["可能","kěnéng","may; possibly"],["加剧","jiājù","to intensify"],["偏见","piānjiàn","prejudice; bias"],[","],["人脸识别","rénliǎn shíbié","facial recognition"],["可能","kěnéng","may; possibly"],["侵犯","qīnfàn","to infringe"],["隐私","yǐnsī","privacy"],[","],["数据","shùjù","data"],["一旦","yídàn","once; in case"],["泄露","xièlòu","to leak"],["便","biàn","then (formal)"],["覆水难收","fù shuǐ nán shōu","spilt water cannot be recovered (idiom)"],["。"]],
+      "en": "Algorithms may intensify bias, facial recognition may infringe on privacy, and once data is leaked it can never be recalled, like spilt water."
+    },
+    {
+      "t": [["更","gèng","even more"],["令人","lìng rén","to make one (feel)"],["担忧","dānyōu","worried"],["的","de","(particle: nominalizer)"],["是","shì","to be"],[","],["技术","jìshù","technology"],["的","de","(particle: possessive)"],["迭代","diédài","iteration"],["速度","sùdù","speed"],["远远","yuǎnyuǎn","by far"],["超过","chāoguò","to exceed"],["了","le","(particle: completed)"],["法律","fǎlǜ","law"],["与","yǔ","and"],["道德","dàodé","morality"],["的","de","(particle: possessive)"],["更新","gēngxīn","to update"],["速度","sùdù","speed"],["。"]],
+      "en": "What is even more worrying is that the pace of technological iteration far exceeds the pace at which law and morality are updated."
+    },
+    {
+      "t": [["有人","yǒu rén","some people"],["主张","zhǔzhāng","to advocate"],["技术","jìshù","technology"],["中立","zhōnglì","neutral; neutrality"],[","],["认为","rènwéi","to believe"],["问题","wèntí","problem"],["不在","bú zài","does not lie in"],["工具","gōngjù","tool"],[","],["而","ér","but; rather"],["在","zài","to lie in"],["使用","shǐyòng","to use"],["工具","gōngjù","tool"],["的","de","(particle: attributive)"],["人","rén","person"],["。"]],
+      "en": "Some advocate that technology is neutral, believing the problem lies not in the tool but in the person who uses it."
+    },
+    {
+      "t": [["但","dàn","but"],["在我看来","zài wǒ kànlái","in my view"],[","],["设计者","shèjìzhě","designer"],["从","cóng","from"],["一开始","yì kāishǐ","the very beginning"],["就","jiù","(emphasis: as early as)"],["应当","yīngdāng","ought to"],["把","bǎ","(particle: object marker)"],["伦理","lúnlǐ","ethics"],["考量","kǎoliáng","consideration"],["纳入","nàrù","to incorporate into"],["技术","jìshù","technology"],["之中","zhī zhōng","within"],["。"]],
+      "en": "But in my view, designers ought to build ethical considerations into technology from the very beginning."
+    },
+    {
+      "t": [["科技","kējì","science and technology"],["的","de","(particle: possessive)"],["终极","zhōngjí","ultimate"],["目的","mùdì","purpose"],["是","shì","to be"],["造福","zàofú","to benefit; bring good to"],["人类","rénlèi","humanity"],[","],["而","ér","but; and"],["不是","bú shì","is not"],["把","bǎ","(particle: object marker)"],["人","rén","person"],["变成","biànchéng","to turn into"],["工具","gōngjù","tool"],["的","de","(particle: possessive)"],["奴隶","núlì","slave"],["。"]],
+      "en": "The ultimate purpose of technology is to benefit humanity, not to turn people into slaves of their tools."
+    },
+    {
+      "t": [["当","dāng","when"],["技术","jìshù","technology"],["能够","nénggòu","to be able to"],["做到","zuòdào","to accomplish"],["一切","yíqiè","everything"],["时","shí","when; at the time"],[","],["我们","wǒmen","we"],["更","gèng","all the more"],["需要","xūyào","to need"],["追问","zhuīwèn","to keep asking; probe"],[":"],["什么","shénme","what"],["是","shì","to be"],["不该","bù gāi","should not"],["做","zuò","to do"],["的","de","(particle: nominalizer)"],["?"]],
+      "en": "When technology can do everything, we need all the more to keep asking: what should not be done?"
+    }
+  ],
+  "vocab": [
+    ["伦理","lúnlǐ","ethics"],
+    ["双刃剑","shuāngrènjiàn","double-edged sword"],
+    ["滥用","lànyòng","to abuse; misuse"],
+    ["隐私","yǐnsī","privacy"],
+    ["迭代","diédài","iteration"],
+    ["不堪设想","bùkān shèxiǎng","too dreadful to imagine"]
+  ],
+  "quiz": [
+    {"q": "作者用什么来比喻技术?", "a": ["一座桥", "一把双刃剑", "一面镜子"], "c": 1},
+    {"q": "什么的迭代速度远远超过了法律与道德的更新速度?", "a": ["技术", "人口", "经济"], "c": 0},
+    {"q": "作者认为科技的终极目的是什么?", "a": ["创造利润", "取代人类", "造福人类"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "一旦……便……", "e": "'once... then...' — a formal conditional often signaling serious or irreversible consequences.", "x": "数据一旦泄露便覆水难收。"},
+    {"p": "不在……,而在……", "e": "'lies not in..., but in...' — rejects a false cause and points to the true one.", "x": "问题不在工具,而在使用工具的人。"},
+    {"p": "令人 + verb/adj", "e": "'makes one (feel)...' — a written pattern forming expressions like 令人振奋 (inspiring) and 令人担忧 (worrying).", "x": "前景令人振奋。"}
+  ]
+}

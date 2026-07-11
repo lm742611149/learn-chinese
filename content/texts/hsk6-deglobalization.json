@@ -1,0 +1,64 @@
+{
+  "slug": "hsk6-deglobalization",
+  "level": 6,
+  "title_zh": "全球化的退潮",
+  "title_py": "Quánqiúhuà de tuìcháo",
+  "title_en": "The Ebb of Globalization",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["过去","guòqù","past"],["几十","jǐshí","several tens of"],["年","nián","year"],[","],["全球化","quánqiúhuà","globalization"],["曾","céng","once; formerly"],["被","bèi","(passive marker)"],["视为","shìwéi","to regard as"],["不可逆转","bù kě nìzhuǎn","irreversible"],["的","de","(particle: attributive)"],["历史","lìshǐ","history"],["潮流","cháoliú","trend; tide"],["。"]],
+      "en": "For the past several decades, globalization was regarded as an irreversible tide of history."
+    },
+    {
+      "t": [["商品","shāngpǐn","goods"],["、"],["资本","zīběn","capital"],["与","yǔ","and"],["人才","réncái","talent; skilled people"],["跨越","kuàyuè","to cross over"],["国界","guójiè","national border"],["自由","zìyóu","freely"],["流动","liúdòng","to flow"],[","],["世界","shìjiè","world"],["仿佛","fǎngfú","as if"],["变成","biànchéng","to become"],["了","le","(particle: completed)"],["一个","yí gè","one; a"],["“"],["地球村","dìqiúcūn","global village"],["”"],["。"]],
+      "en": "Goods, capital, and talent flowed freely across borders, as if the world had become a 'global village.'"
+    },
+    {
+      "t": [["然而","rán'ér","however"],[","],["近年来","jìnnián lái","in recent years"],["贸易","màoyì","trade"],["保护主义","bǎohù zhǔyì","protectionism"],["抬头","táitóu","to rear its head"],[","],["不少","bù shǎo","quite a few"],["国家","guójiā","country"],["纷纷","fēnfēn","one after another"],["筑起","zhùqǐ","to build up"],["关税","guānshuì","tariff"],["壁垒","bìlěi","barrier"],["。"]],
+      "en": "In recent years, however, trade protectionism has reared its head, and quite a few countries have built tariff barriers one after another."
+    },
+    {
+      "t": [["疫情","yìqíng","epidemic"],["的","de","(particle: possessive)"],["冲击","chōngjī","impact; shock"],["更","gèng","even more"],["让","ràng","to make; let"],["各国","gè guó","all countries"],["意识到","yìshí dào","to realize"],[","],["过度","guòdù","excessively"],["依赖","yīlài","to rely on"],["全球","quánqiú","global"],["供应链","gōngyìngliàn","supply chain"],["潜藏","qiáncáng","to lurk; hide"],["着","zhe","(particle: ongoing state)"],["巨大","jùdà","enormous"],["风险","fēngxiǎn","risk"],["。"]],
+      "en": "The shock of the pandemic further made countries realize that over-reliance on global supply chains harbors enormous risks."
+    },
+    {
+      "t": [["有人","yǒu rén","some people"],["因此","yīncǐ","therefore"],["断言","duànyán","to assert"],[","],["全球化","quánqiúhuà","globalization"],["已经","yǐjīng","already"],["走到","zǒu dào","to walk to; reach"],["尽头","jìntóu","the end"],["。"]],
+      "en": "Some people therefore assert that globalization has reached its end."
+    },
+    {
+      "t": [["依我看","yī wǒ kàn","in my view"],[","],["这种","zhè zhǒng","this kind of"],["说法","shuōfa","claim; statement"],["未免","wèimiǎn","rather; a bit too"],["言过其实","yán guò qí shí","to overstate (idiom)"],["。"]],
+      "en": "In my view, this claim is rather an exaggeration."
+    },
+    {
+      "t": [["退潮","tuìcháo","to ebb; receding tide"],["的","de","(particle: nominalizer)"],["只是","zhǐshì","only; merely"],["旧","jiù","old"],["模式","móshì","model; pattern"],[","],["人类","rénlèi","humanity"],["在","zài","in; at"],["气候变化","qìhòu biànhuà","climate change"],["等","děng","and so on; etc."],["共同","gòngtóng","common; shared"],["挑战","tiǎozhàn","challenge"],["面前","miànqián","in front of"],[","],["合作","hézuò","cooperation"],["的","de","(particle: possessive)"],["必要性","bìyàoxìng","necessity"],["有增无减","yǒu zēng wú jiǎn","ever-increasing (idiom)"],["。"]],
+      "en": "What is receding is only the old model; in the face of shared challenges such as climate change, the necessity of cooperation is only increasing."
+    },
+    {
+      "t": [["全球化","quánqiúhuà","globalization"],["不会","bú huì","will not"],["消亡","xiāowáng","to die out"],[","],["而是","érshì","but rather"],["在","zài","in; amid"],["曲折","qūzhé","twists and turns"],["中","zhōng","within"],["寻找","xúnzhǎo","to seek"],["新","xīn","new"],["的","de","(particle: attributive)"],["平衡","pínghéng","balance"],["。"]],
+      "en": "Globalization will not die out; rather, it is seeking a new balance amid twists and turns."
+    },
+    {
+      "t": [["面对","miànduì","to face"],["退潮","tuìcháo","receding tide"],["的","de","(particle: attributive)"],["浪花","lànghuā","waves; spray"],[","],["我们","wǒmen","we"],["是","shì","to be"],["选择","xuǎnzé","to choose"],["筑墙","zhù qiáng","to build walls"],[","],["还是","háishi","or (in questions)"],["选择","xuǎnzé","to choose"],["造桥","zào qiáo","to build bridges"],["?"]],
+      "en": "Facing the receding tide, do we choose to build walls, or to build bridges?"
+    }
+  ],
+  "vocab": [
+    ["全球化","quánqiúhuà","globalization"],
+    ["壁垒","bìlěi","barrier"],
+    ["供应链","gōngyìngliàn","supply chain"],
+    ["断言","duànyán","to assert"],
+    ["言过其实","yán guò qí shí","to overstate; exaggerate"],
+    ["有增无减","yǒu zēng wú jiǎn","ever-increasing; growing rather than shrinking"]
+  ],
+  "quiz": [
+    {"q": "近年来,不少国家纷纷筑起了什么?", "a": ["关税壁垒", "地球村", "供应链"], "c": 0},
+    {"q": "作者认为“全球化已经走到尽头”这种说法怎么样?", "a": ["完全正确", "言过其实", "无法判断"], "c": 1},
+    {"q": "作者认为在共同挑战面前,合作的必要性怎么样?", "a": ["有增无减", "逐渐下降", "已经消失"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "未免", "e": "'rather; a bit too' — politely signals that a statement or judgment goes too far.", "x": "这种说法未免言过其实。"},
+    {"p": "被视为", "e": "'to be regarded as' — a formal passive structure very common in written Chinese.", "x": "全球化曾被视为不可逆转的历史潮流。"},
+    {"p": "依我看", "e": "'in my view' — introduces the writer's own opinion, often before a counter-argument.", "x": "依我看,这种说法未免言过其实。"}
+  ]
+}

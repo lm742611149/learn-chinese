@@ -1,0 +1,123 @@
+{
+  "slug": "hsk1-taking-a-taxi",
+  "level": 1,
+  "title_zh": "坐出租车",
+  "title_py": "Zuò chūzūchē",
+  "title_en": "Taking a Taxi",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["上午", "shàngwǔ", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["火车站", "huǒchēzhàn", "train station"],
+        ["。"]
+      ],
+      "en": "This morning I am going to the train station."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["坐", "zuò", "to ride; to take"],
+        ["出租车", "chūzūchē", "taxi"],
+        ["去", "qù", "to go"],
+        ["。"]
+      ],
+      "en": "I go by taxi."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["司机", "sījī", "driver"],
+        [":"],
+        ["“"],
+        ["多少", "duōshao", "how much; how many"],
+        ["钱", "qián", "money"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "I ask the driver: \"How much is it?\""
+    },
+    {
+      "t": [
+        ["司机", "sījī", "driver"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["三十", "sānshí", "thirty"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The driver says: \"Thirty kuai.\""
+    },
+    {
+      "t": [
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minute"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["看见", "kànjiàn", "to see"],
+        ["火车站", "huǒchēzhàn", "train station"],
+        ["了", "le", "(particle: completed action)"],
+        ["。"]
+      ],
+      "en": "Twenty minutes later, I see the train station."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["谢谢", "xièxie", "thank you"],
+        ["!"],
+        ["再见", "zàijiàn", "goodbye"],
+        ["!"],
+        ["”"]
+      ],
+      "en": "I say: \"Thank you! Goodbye!\""
+    }
+  ],
+  "vocab": [
+    ["出租车", "chūzūchē", "taxi"],
+    ["火车站", "huǒchēzhàn", "train station"],
+    ["司机", "sījī", "driver"],
+    ["问", "wèn", "to ask"],
+    ["块", "kuài", "yuan (colloquial)"],
+    ["分钟", "fēnzhōng", "minute"]
+  ],
+  "quiz": [
+    {
+      "q": "我怎么去火车站?",
+      "a": ["坐出租车", "坐飞机", "坐火车"],
+      "c": 0
+    },
+    {
+      "q": "出租车多少钱?",
+      "a": ["二十块钱", "三十块钱", "十三块钱"],
+      "c": 1
+    },
+    {
+      "q": "我坐了多少分钟?",
+      "a": ["十分钟", "三十分钟", "二十分钟"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "坐 + vehicle + 去",
+      "e": "坐 means 'to take/ride' a form of transport. Pattern: 坐 + vehicle + 去 (+ place).",
+      "x": "我坐出租车去。"
+    },
+    {
+      "p": "多少钱?",
+      "e": "多少钱 is the standard way to ask the price: 'How much money?'",
+      "x": "我问司机:“多少钱?”"
+    }
+  ]
+}

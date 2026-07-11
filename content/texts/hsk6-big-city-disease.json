@@ -1,0 +1,64 @@
+{
+  "slug": "hsk6-big-city-disease",
+  "level": 6,
+  "title_zh": "大城市病",
+  "title_py": "Dà chéngshì bìng",
+  "title_en": "Big City Disease",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["高楼林立","gāolóu línlì","high-rises standing like a forest"],["、"],["车水马龙","chē shuǐ mǎ lóng","heavy traffic (idiom)"],[","],["大","dà","big"],["城市","chéngshì","city"],["以","yǐ","with; by means of"],["其","qí","its (formal)"],["繁华","fánhuá","prosperity; bustle"],["吸引","xīyǐn","to attract"],["着","zhe","(particle: ongoing state)"],["无数","wúshù","countless"],["追梦","zhuīmèng","to chase dreams"],["的","de","(particle: attributive)"],["年轻人","niánqīngrén","young people"],["。"]],
+      "en": "With high-rises standing like forests and streets streaming with traffic, big cities attract countless dream-chasing young people with their bustle and prosperity."
+    },
+    {
+      "t": [["然而","rán'ér","however"],[","],["繁荣","fánróng","prosperity"],["的","de","(particle: possessive)"],["背后","bèihòu","behind"],[","],["“"],["大城市病","dà chéngshì bìng","big-city disease"],["”"],["正","zhèng","right now; currently"],["日益","rìyì","increasingly (formal)"],["凸显","tūxiǎn","to become prominent"],["。"]],
+      "en": "Behind the prosperity, however, 'big-city disease' is becoming increasingly prominent."
+    },
+    {
+      "t": [["交通","jiāotōng","traffic"],["拥堵","yōngdǔ","congestion"],["吞噬","tūnshì","to devour"],["着","zhe","(particle: ongoing state)"],["人们","rénmen","people"],["的","de","(particle: possessive)"],["时间","shíjiān","time"],[","],["高昂","gāo'áng","high (price)"],["的","de","(particle: attributive)"],["房价","fángjià","housing prices"],["压","yā","to press; weigh down"],["得","de","(particle: degree)"],["年轻人","niánqīngrén","young people"],["喘不过气来","chuǎn bú guò qì lái","unable to breathe"],["。"]],
+      "en": "Traffic congestion devours people's time, and soaring housing prices leave young people gasping for breath."
+    },
+    {
+      "t": [["空气","kōngqì","air"],["污染","wūrǎn","pollution"],["、"],["噪音","zàoyīn","noise"],["干扰","gānrǎo","disturbance"],[","],["更","gèng","even more"],["使","shǐ","to make; cause"],["城市","chéngshì","city"],["居民","jūmín","resident"],["的","de","(particle: possessive)"],["生活","shēnghuó","life"],["质量","zhìliàng","quality"],["大打折扣","dà dǎ zhékòu","greatly compromised (idiom)"],["。"]],
+      "en": "Air pollution and noise disturbance further leave urban residents' quality of life greatly compromised."
+    },
+    {
+      "t": [["有人","yǒu rén","some people"],["选择","xuǎnzé","to choose"],["逃离","táolí","to flee from"],["“"],["北上广","Běi Shàng Guǎng","Beijing-Shanghai-Guangzhou"],["”"],[","],["回到","huídào","to return to"],["节奏","jiézòu","pace; rhythm"],["舒缓","shūhuǎn","relaxed; gentle"],["的","de","(particle: attributive)"],["中小","zhōngxiǎo","small and medium-sized"],["城市","chéngshì","city"],["。"]],
+      "en": "Some choose to flee 'Beijing, Shanghai, and Guangzhou' and return to smaller cities with a gentler pace."
+    },
+    {
+      "t": [["也","yě","also"],["有人","yǒu rén","some people"],["认为","rènwéi","to believe"],[","],["大","dà","big"],["城市","chéngshì","city"],["的","de","(particle: possessive)"],["机遇","jīyù","opportunity"],["与","yǔ","and"],["资源","zīyuán","resources"],["仍然","réngrán","still"],["无可替代","wú kě tìdài","irreplaceable"],["。"]],
+      "en": "Others believe that the opportunities and resources of big cities remain irreplaceable."
+    },
+    {
+      "t": [["其实","qíshí","actually"],[","],["问题","wèntí","problem"],["的","de","(particle: possessive)"],["根源","gēnyuán","root cause"],["不在","bú zài","does not lie in"],["城市","chéngshì","city"],["规模","guīmó","scale"],["本身","běnshēn","itself"],[","],["而","ér","but; rather"],["在于","zàiyú","to lie in"],["资源","zīyuán","resources"],["分配","fēnpèi","distribution"],["的","de","(particle: possessive)"],["失衡","shīhéng","imbalance"],["。"]],
+      "en": "In fact, the root of the problem lies not in city size itself, but in the imbalance of resource distribution."
+    },
+    {
+      "t": [["唯有","wéiyǒu","only (if)"],["促进","cùjìn","to promote"],["区域","qūyù","region; regional"],["协调","xiétiáo","coordinated"],["发展","fāzhǎn","development"],[","],["让","ràng","to make; let"],["中小","zhōngxiǎo","small and medium-sized"],["城市","chéngshì","city"],["同样","tóngyàng","equally"],["宜居宜业","yí jū yí yè","livable and workable"],[","],["人们","rénmen","people"],["才","cái","only then"],["能","néng","can"],["真正","zhēnzhèng","truly"],["拥有","yōngyǒu","to possess"],["选择","xuǎnzé","to choose; choice"],["的","de","(particle: attributive)"],["自由","zìyóu","freedom"],["。"]],
+      "en": "Only by promoting coordinated regional development and making smaller cities equally good places to live and work can people truly have the freedom to choose."
+    },
+    {
+      "t": [["城市","chéngshì","city"],["的","de","(particle: possessive)"],["价值","jiàzhí","value"],[","],["究竟","jiūjìng","exactly; after all"],["应该","yīnggāi","should"],["用","yòng","to use"],["高度","gāodù","height"],["来","lái","(to; in order to)"],["衡量","héngliáng","to measure"],[","],["还是","háishi","or (in questions)"],["用","yòng","to use"],["居民","jūmín","resident"],["的","de","(particle: possessive)"],["幸福感","xìngfúgǎn","sense of happiness"],["来","lái","(to; in order to)"],["衡量","héngliáng","to measure"],["?"]],
+      "en": "Should a city's value, after all, be measured by its height, or by its residents' sense of happiness?"
+    }
+  ],
+  "vocab": [
+    ["凸显","tūxiǎn","to become prominent"],
+    ["拥堵","yōngdǔ","congestion"],
+    ["吞噬","tūnshì","to devour; engulf"],
+    ["大打折扣","dà dǎ zhékòu","greatly compromised; heavily discounted"],
+    ["失衡","shīhéng","imbalance"],
+    ["衡量","héngliáng","to measure; weigh"]
+  ],
+  "quiz": [
+    {"q": "什么吞噬着人们的时间?", "a": ["交通拥堵", "空气污染", "高昂的房价"], "c": 0},
+    {"q": "作者认为问题的根源在于什么?", "a": ["城市规模本身", "资源分配的失衡", "年轻人太多"], "c": 1},
+    {"q": "有人逃离“北上广”,回到什么样的城市?", "a": ["更大的城市", "国外的城市", "节奏舒缓的中小城市"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "唯有……才……", "e": "'only by... can...' — a formal conditional stating the sole path to a result.", "x": "唯有促进区域协调发展,人们才能真正拥有选择的自由。"},
+    {"p": "V + 得 + complement", "e": "A degree complement paints how far the action goes — here the pressure is so heavy one cannot breathe.", "x": "高昂的房价压得年轻人喘不过气来。"},
+    {"p": "用……来 + verb", "e": "'to (verb) by means of...' — names the standard or tool used for an action.", "x": "城市的价值,究竟应该用高度来衡量,还是用居民的幸福感来衡量?"}
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "hsk1-i-dont-feel-well",
+  "level": 1,
+  "title_zh": "我不舒服",
+  "title_py": "Wǒ bù shūfu",
+  "title_en": "I Don't Feel Well",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["舒服", "shūfu", "comfortable; well"],
+        ["。"]
+      ],
+      "en": "Today I don't feel well."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["我们", "wǒmen", "we; us"],
+        ["去", "qù", "to go"],
+        ["医院", "yīyuàn", "hospital"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Mom says: \"Let's go to the hospital.\""
+    },
+    {
+      "t": [
+        ["医生", "yīshēng", "doctor"],
+        ["看了看", "kàn le kàn", "takes a look at"],
+        ["我", "wǒ", "I; me"],
+        ["。"]
+      ],
+      "en": "The doctor takes a look at me."
+    },
+    {
+      "t": [
+        ["医生", "yīshēng", "doctor"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["请", "qǐng", "please"],
+        ["多", "duō", "more"],
+        ["喝", "hē", "to drink"],
+        ["水", "shuǐ", "water"],
+        [","],
+        ["多", "duō", "more"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The doctor says: \"Please drink more water and sleep more.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["谢谢", "xièxie", "thank you"],
+        ["医生", "yīshēng", "doctor"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I say: \"Thank you, doctor.\""
+    },
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["去", "qù", "to go"],
+        ["学校", "xuéxiào", "school"],
+        ["。"]
+      ],
+      "en": "Tomorrow I want to go to school."
+    }
+  ],
+  "vocab": [
+    ["舒服", "shūfu", "comfortable; well"],
+    ["医院", "yīyuàn", "hospital"],
+    ["医生", "yīshēng", "doctor"],
+    ["请", "qǐng", "please"],
+    ["睡觉", "shuìjiào", "to sleep"],
+    ["明天", "míngtiān", "tomorrow"]
+  ],
+  "quiz": [
+    {
+      "q": "今天我怎么样?",
+      "a": ["不舒服", "很高兴", "很热"],
+      "c": 0
+    },
+    {
+      "q": "我们去哪儿?",
+      "a": ["学校", "医院", "商店"],
+      "c": 1
+    },
+    {
+      "q": "医生请我做什么?",
+      "a": ["多吃饭", "多看书", "多喝水"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不 + adjective",
+      "e": "不 negates verbs and adjectives: 不舒服 means 'not well'.",
+      "x": "今天我不舒服。"
+    },
+    {
+      "p": "多 + verb",
+      "e": "多 before a verb means 'do more of it'.",
+      "x": "请多喝水,多睡觉。"
+    }
+  ]
+}

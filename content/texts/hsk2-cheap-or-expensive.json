@@ -1,0 +1,151 @@
+{
+  "slug": "hsk2-cheap-or-expensive",
+  "level": 2,
+  "title_zh": "便宜还是贵",
+  "title_py": "Piányi háishi guì",
+  "title_en": "Cheap or Expensive",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["上午", "shàngwǔ", "morning"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["买", "mǎi", "to buy"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "This morning I went to a store to buy clothes."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["看见", "kànjiàn", "to see"],
+        ["一件", "yí jiàn", "one (piece of clothing)"],
+        ["白", "bái", "white"],
+        ["衣服", "yīfu", "clothes"],
+        [","],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "pretty"],
+        [","],
+        ["但是", "dànshì", "but"],
+        ["要", "yào", "to cost; ask for"],
+        ["三百", "sānbǎi", "three hundred"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "I saw a white top — very pretty, but it cost three hundred kuai."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["服务员", "fúwùyuán", "shop assistant"],
+        [":"],
+        ["“"],
+        ["有", "yǒu", "to have"],
+        ["便宜", "piányi", "cheap"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["的", "de", "(particle: one that is...)"],
+        ["吗", "ma", "(particle: question)"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "I asked the shop assistant: \"Do you have a slightly cheaper one?\""
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["给", "gěi", "to give"],
+        ["我", "wǒ", "I; me"],
+        ["一件", "yí jiàn", "one (piece of clothing)"],
+        ["黑", "hēi", "black"],
+        ["衣服", "yīfu", "clothes"],
+        [","],
+        ["一百五十", "yìbǎi wǔshí", "one hundred fifty"],
+        ["块", "kuài", "yuan (colloquial)"],
+        [","],
+        ["比", "bǐ", "than (comparison)"],
+        ["白", "bái", "white"],
+        ["的", "de", "(particle: one that is...)"],
+        ["便宜", "piányi", "cheap"],
+        ["。"]
+      ],
+      "en": "She gave me a black top — one hundred fifty kuai, cheaper than the white one."
+    },
+    {
+      "t": [
+        ["黑", "hēi", "black"],
+        ["衣服", "yīfu", "clothes"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "pretty"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["就", "jiù", "so; then"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["它", "tā", "it"],
+        ["。"]
+      ],
+      "en": "The black top was also very pretty, so I bought it."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; think"],
+        [","],
+        ["便宜", "piányi", "cheap"],
+        ["的", "de", "(particle: one that is...)"],
+        ["东西", "dōngxi", "things"],
+        ["也", "yě", "also"],
+        ["可以", "kěyǐ", "can; may"],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "pretty"],
+        ["。"]
+      ],
+      "en": "I think cheap things can be pretty too."
+    }
+  ],
+  "vocab": [
+    ["件", "jiàn", "(measure word for clothes)"],
+    ["白", "bái", "white"],
+    ["黑", "hēi", "black"],
+    ["比", "bǐ", "than (comparison)"],
+    ["便宜", "piányi", "cheap"],
+    ["觉得", "juéde", "to feel; think"]
+  ],
+  "quiz": [
+    {
+      "q": "白衣服多少钱?",
+      "a": ["三百块", "一百五十块", "三十块"],
+      "c": 0
+    },
+    {
+      "q": "我买了什么颜色的衣服?",
+      "a": ["白的", "黑的", "红的"],
+      "c": 1
+    },
+    {
+      "q": "黑衣服比白衣服怎么样?",
+      "a": ["贵一点儿", "便宜", "不漂亮"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 比 B + adj (comparison)",
+      "e": "比 compares two things: A is more ... than B.",
+      "x": "一百五十块,比白的便宜。"
+    },
+    {
+      "p": "adj + 一点儿 (a little more...)",
+      "e": "一点儿 after an adjective softens it: a bit cheaper, a bit bigger.",
+      "x": "有便宜一点儿的吗?"
+    }
+  ]
+}

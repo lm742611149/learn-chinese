@@ -1,0 +1,60 @@
+{
+  "slug": "hsk6-media-literacy",
+  "level": 6,
+  "title_zh": "媒介素养",
+  "title_py": "Méijiè sùyǎng",
+  "title_en": "Media Literacy",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["在","zài","in; at"],["信息","xìnxī","information"],["爆炸","bàozhà","explosion"],["的","de","(particle: attributive)"],["时代","shídài","era"],[","],["人人","rénrén","everyone"],["都","dōu","all"],["是","shì","to be"],["信息","xìnxī","information"],["的","de","(particle: possessive)"],["接收者","jiēshōuzhě","receiver"],[","],["同时","tóngshí","at the same time"],["也","yě","also"],["是","shì","to be"],["传播者","chuánbōzhě","disseminator"],["。"]],
+      "en": "In the era of information explosion, everyone is a receiver of information and, at the same time, a disseminator."
+    },
+    {
+      "t": [["社交媒体","shèjiāo méitǐ","social media"],["带来","dàilái","to bring"],["了","le","(particle: completed)"],["前所未有","qián suǒ wèi yǒu","unprecedented (idiom)"],["的","de","(particle: attributive)"],["便利","biànlì","convenience"],[","],["也","yě","also"],["让","ràng","to make; let"],["谣言","yáoyán","rumor"],["插上","chāshàng","to attach; put on"],["了","le","(particle: completed)"],["翅膀","chìbǎng","wings"],["。"]],
+      "en": "Social media has brought unprecedented convenience, but it has also given rumors wings."
+    },
+    {
+      "t": [["一条","yì tiáo","one (measure: news items)"],["耸人听闻","sǒng rén tīng wén","sensational (idiom)"],["的","de","(particle: attributive)"],["假","jiǎ","fake"],["新闻","xīnwén","news"],[","],["往往","wǎngwǎng","often; tend to"],["比","bǐ","than; compared with"],["严谨","yánjǐn","rigorous"],["的","de","(particle: attributive)"],["辟谣","pìyáo","to refute a rumor"],["传播","chuánbō","to spread"],["得","de","(particle: degree)"],["更快","gèng kuài","faster"],["、"],["更广","gèng guǎng","more widely"],["。"]],
+      "en": "A sensational piece of fake news often spreads faster and wider than a rigorous refutation."
+    },
+    {
+      "t": [["算法","suànfǎ","algorithm"],["根据","gēnjù","according to"],["用户","yònghù","user"],["的","de","(particle: possessive)"],["喜好","xǐhào","preference"],["推送","tuīsòng","to push (content)"],["内容","nèiróng","content"],[","],["使","shǐ","to make; cause"],["人们","rénmen","people"],["不知不觉","bù zhī bù jué","unconsciously (idiom)"],["陷入","xiànrù","to sink into"],["“"],["信息茧房","xìnxī jiǎnfáng","information cocoon"],["”"],["。"]],
+      "en": "Algorithms push content based on users' preferences, causing people to sink unknowingly into an 'information cocoon.'"
+    },
+    {
+      "t": [["久而久之","jiǔ ér jiǔ zhī","as time goes by (idiom)"],[","],["人们","rénmen","people"],["只","zhǐ","only"],["听得进","tīng de jìn","able to take in (listening)"],["与","yǔ","with"],["自己","zìjǐ","oneself"],["立场","lìchǎng","standpoint"],["一致","yízhì","consistent"],["的","de","(particle: attributive)"],["声音","shēngyīn","voice"],[","],["社会","shèhuì","society"],["共识","gòngshí","consensus"],["愈发","yùfā","increasingly (formal)"],["难以","nányǐ","hard to"],["形成","xíngchéng","to form"],["。"]],
+      "en": "Over time, people can only take in voices that match their own position, and social consensus becomes ever harder to form."
+    },
+    {
+      "t": [["因此","yīncǐ","therefore"],[","],["媒介素养","méijiè sùyǎng","media literacy"],["已经","yǐjīng","already"],["成为","chéngwéi","to become"],["现代","xiàndài","modern"],["公民","gōngmín","citizen"],["必备","bìbèi","essential; indispensable"],["的","de","(particle: attributive)"],["基本","jīběn","basic"],["能力","nénglì","ability"],["。"]],
+      "en": "Media literacy has therefore become an essential basic ability for modern citizens."
+    },
+    {
+      "t": [["它","tā","it"],["要求","yāoqiú","to require"],["我们","wǒmen","we; us"],["核实","héshí","to verify"],["来源","láiyuán","source"],["、"],["辨别","biànbié","to distinguish"],["真伪","zhēnwěi","true or false"],[","],["而","ér","but; and"],["不是","bú shì","is not"],["盲目","mángmù","blindly"],["转发","zhuǎnfā","to forward; repost"],["。"]],
+      "en": "It requires us to verify sources and distinguish truth from falsehood, rather than repost blindly."
+    },
+    {
+      "t": [["面对","miànduì","to face"],["屏幕","píngmù","screen"],["上","shàng","on"],["铺天盖地","pū tiān gài dì","overwhelming (idiom)"],["的","de","(particle: attributive)"],["信息","xìnxī","information"],[","],["你","nǐ","you"],["是否","shìfǒu","whether or not (formal)"],["想过","xiǎngguo","to have thought about"],[":"],["是","shì","to be"],["我们","wǒmen","we"],["在","zài","(progressive marker)"],["使用","shǐyòng","to use"],["媒介","méijiè","medium; media"],[","],["还是","háishi","or (in questions)"],["媒介","méijiè","medium; media"],["在","zài","(progressive marker)"],["塑造","sùzào","to shape; mold"],["我们","wǒmen","we; us"],["?"]],
+      "en": "Facing the flood of information on our screens, have you ever wondered: are we using the media, or is the media shaping us?"
+    }
+  ],
+  "vocab": [
+    ["媒介素养","méijiè sùyǎng","media literacy"],
+    ["谣言","yáoyán","rumor"],
+    ["辟谣","pìyáo","to refute a rumor"],
+    ["信息茧房","xìnxī jiǎnfáng","information cocoon"],
+    ["核实","héshí","to verify"],
+    ["铺天盖地","pū tiān gài dì","overwhelming; blotting out sky and earth"]
+  ],
+  "quiz": [
+    {"q": "耸人听闻的假新闻往往比什么传播得更快、更广?", "a": ["严谨的辟谣", "官方新闻", "广告"], "c": 0},
+    {"q": "算法根据什么推送内容?", "a": ["新闻的重要性", "用户的喜好", "内容的真伪"], "c": 1},
+    {"q": "媒介素养要求我们做什么?", "a": ["盲目转发", "只看社交媒体", "核实来源、辨别真伪"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "使 + sb + verb", "e": "'to cause/make somebody do something' — a formal causative common in written argumentation.", "x": "使人们不知不觉陷入“信息茧房”。"},
+    {"p": "愈发", "e": "'increasingly; all the more' — a written synonym of 越来越.", "x": "社会共识愈发难以形成。"},
+    {"p": "是……,还是……?", "e": "'is it A, or is it B?' — an alternative question, here used rhetorically to close the essay.", "x": "是我们在使用媒介,还是媒介在塑造我们?"}
+  ]
+}

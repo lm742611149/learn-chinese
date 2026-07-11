@@ -1,0 +1,159 @@
+{
+  "slug": "hsk2-ordering-food",
+  "level": 2,
+  "title_zh": "点菜",
+  "title_py": "Diǎn cài",
+  "title_en": "Ordering Food",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["同学", "tóngxué", "classmate"],
+        ["去", "qù", "to go"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["。"]
+      ],
+      "en": "At noon my classmate and I go to a restaurant to eat."
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "waiter; server"],
+        ["问", "wèn", "to ask"],
+        ["我们", "wǒmen", "we; us"],
+        [":"],
+        ["“"],
+        ["你们", "nǐmen", "you (plural)"],
+        ["想", "xiǎng", "would like to"],
+        ["吃", "chī", "to eat"],
+        ["什么", "shénme", "what"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "The server asks us: \"What would you like to eat?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["点", "diǎn", "to order (food)"],
+        ["了", "le", "(particle: completed action)"],
+        ["鱼", "yú", "fish"],
+        [","],
+        ["同学", "tóngxué", "classmate"],
+        ["点", "diǎn", "to order (food)"],
+        ["了", "le", "(particle: completed action)"],
+        ["羊肉", "yángròu", "mutton; lamb"],
+        ["和", "hé", "and"],
+        ["米饭", "mǐfàn", "cooked rice"],
+        ["。"]
+      ],
+      "en": "I ordered fish, and my classmate ordered lamb and rice."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["还", "hái", "also; in addition"],
+        ["要", "yào", "to want; order"],
+        ["了", "le", "(particle: completed action)"],
+        ["两", "liǎng", "two"],
+        ["杯", "bēi", "cup (measure word)"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "We also ordered two cups of tea."
+    },
+    {
+      "t": [
+        ["菜", "cài", "dish; food"],
+        ["来", "lái", "to come"],
+        ["得", "de", "(particle: degree)"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast"],
+        [","],
+        ["鱼", "yú", "fish"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["好吃", "hǎochī", "tasty"],
+        ["。"]
+      ],
+      "en": "The food came quickly, and the fish was really delicious."
+    },
+    {
+      "t": [
+        ["吃", "chī", "to eat"],
+        ["完", "wán", "to finish"],
+        ["饭", "fàn", "meal; food"],
+        [","],
+        ["我们", "wǒmen", "we"],
+        ["就", "jiù", "then; right after"],
+        ["回", "huí", "to return"],
+        ["学校", "xuéxiào", "school"],
+        ["上课", "shàngkè", "to attend class"],
+        ["了", "le", "(particle: completion)"],
+        ["。"]
+      ],
+      "en": "After finishing the meal, we went right back to school for class."
+    },
+    {
+      "t": [
+        ["这个", "zhège", "this"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["的", "de", "(particle: possessive)"],
+        ["菜", "cài", "dish; food"],
+        ["好吃", "hǎochī", "tasty"],
+        [","],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["便宜", "piányi", "cheap"],
+        [","],
+        ["我们", "wǒmen", "we"],
+        ["下次", "xià cì", "next time"],
+        ["还", "hái", "still; again"],
+        ["想", "xiǎng", "to want to"],
+        ["来", "lái", "to come"],
+        ["。"]
+      ],
+      "en": "This restaurant's food is tasty and cheap; we want to come again next time."
+    }
+  ],
+  "vocab": [
+    ["点", "diǎn", "to order (food)"],
+    ["饭馆", "fànguǎn", "restaurant"],
+    ["羊肉", "yángròu", "mutton; lamb"],
+    ["完", "wán", "to finish"],
+    ["便宜", "piányi", "cheap"],
+    ["下次", "xià cì", "next time"]
+  ],
+  "quiz": [
+    {
+      "q": "中午我和谁去饭馆吃饭?",
+      "a": ["老师", "同学", "妈妈"],
+      "c": 1
+    },
+    {
+      "q": "同学点了什么?",
+      "a": ["羊肉和米饭", "鱼和茶", "面条"],
+      "c": 0
+    },
+    {
+      "q": "这个饭馆的菜怎么样?",
+      "a": ["有点儿贵", "不好吃", "好吃也便宜"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "V + 完 (finish doing)",
+      "e": "完 after a verb shows the action is finished.",
+      "x": "吃完饭,我们就回学校上课了。"
+    },
+    {
+      "p": "V + 得 + 状态 (degree complement)",
+      "e": "得 links a verb to a description of how the action happens.",
+      "x": "菜来得很快。"
+    }
+  ]
+}

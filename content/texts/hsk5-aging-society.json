@@ -1,0 +1,234 @@
+{
+  "slug": "hsk5-aging-society",
+  "level": 5,
+  "title_zh": "老龄化社会",
+  "title_py": "Lǎolínghuà shèhuì",
+  "title_en": "The Aging Society",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["随着", "suízhe", "along with; as"],
+        ["医学", "yīxué", "medical science"],
+        ["的", "de", "(particle: possessive)"],
+        ["发展", "fāzhǎn", "development"],
+        [","],
+        ["人们", "rénmen", "people"],
+        ["的", "de", "(particle: possessive)"],
+        ["寿命", "shòumìng", "lifespan"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["长", "cháng", "long"],
+        [","],
+        ["社会", "shèhuì", "society"],
+        ["上", "shàng", "on; in"],
+        ["的", "de", "(particle: attributive)"],
+        ["老年人", "lǎoniánrén", "elderly people"],
+        ["也", "yě", "also"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "As medical science develops, people are living longer and longer, and there are more and more elderly people in society."
+    },
+    {
+      "t": [
+        ["很多", "hěn duō", "many"],
+        ["国家", "guójiā", "country"],
+        ["正在", "zhèngzài", "(in the process of)"],
+        ["进入", "jìnrù", "to enter"],
+        ["“"],
+        ["老龄化", "lǎolínghuà", "aging (of population)"],
+        ["社会", "shèhuì", "society"],
+        ["”"],
+        [","],
+        ["这", "zhè", "this"],
+        ["已经", "yǐjīng", "already"],
+        ["成为", "chéngwéi", "to become"],
+        ["一个", "yí gè", "one; a"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(particle: attributive)"],
+        ["社会", "shèhuì", "social"],
+        ["问题", "wèntí", "problem"],
+        ["。"]
+      ],
+      "en": "Many countries are entering an \"aging society,\" and this has already become an important social issue."
+    },
+    {
+      "t": [
+        ["老年人", "lǎoniánrén", "elderly people"],
+        ["越", "yuè", "the more"],
+        ["多", "duō", "many"],
+        [","],
+        ["需要", "xūyào", "to need"],
+        ["照顾", "zhàogù", "to look after"],
+        ["他们", "tāmen", "they; them"],
+        ["的", "de", "(particle: attributive)"],
+        ["人", "rén", "person; people"],
+        ["就", "jiù", "then"],
+        ["越", "yuè", "the more"],
+        ["多", "duō", "many"],
+        [","],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["的", "de", "(particle: possessive)"],
+        ["压力", "yālì", "pressure"],
+        ["自然", "zìrán", "naturally"],
+        ["也", "yě", "also"],
+        ["更", "gèng", "more; even more"],
+        ["大", "dà", "big"],
+        ["。"]
+      ],
+      "en": "The more elderly people there are, the more people are needed to care for them, so naturally the pressure on young people grows too."
+    },
+    {
+      "t": [
+        ["同时", "tóngshí", "at the same time"],
+        [","],
+        ["退休", "tuìxiū", "to retire"],
+        ["的", "de", "(particle: attributive)"],
+        ["人", "rén", "person; people"],
+        ["多", "duō", "many"],
+        ["了", "le", "(particle: change of state)"],
+        [","],
+        ["工作", "gōngzuò", "to work"],
+        ["的", "de", "(particle: attributive)"],
+        ["人", "rén", "person; people"],
+        ["少", "shǎo", "few"],
+        ["了", "le", "(particle: change of state)"],
+        [","],
+        ["国家", "guójiā", "country"],
+        ["的", "de", "(particle: possessive)"],
+        ["经济", "jīngjì", "economy"],
+        ["发展", "fāzhǎn", "development"],
+        ["也", "yě", "also"],
+        ["会", "huì", "will"],
+        ["受到", "shòudào", "to be affected by"],
+        ["影响", "yǐngxiǎng", "influence; effect"],
+        ["。"]
+      ],
+      "en": "At the same time, with more people retired and fewer people working, the country's economic development will also be affected."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        [","],
+        ["老龄化", "lǎolínghuà", "aging (of population)"],
+        ["并", "bìng", "(emphasizes negation)"],
+        ["不", "bù", "not"],
+        ["完全", "wánquán", "completely"],
+        ["是", "shì", "to be"],
+        ["坏事", "huàishì", "bad thing"],
+        ["。"]
+      ],
+      "en": "However, an aging population is not entirely a bad thing."
+    },
+    {
+      "t": [
+        ["许多", "xǔduō", "many"],
+        ["老人", "lǎorén", "elderly people"],
+        ["身体", "shēntǐ", "body; health"],
+        ["健康", "jiànkāng", "healthy"],
+        ["、"],
+        ["经验", "jīngyàn", "experience"],
+        ["丰富", "fēngfù", "rich; abundant"],
+        [","],
+        ["退休", "tuìxiū", "to retire"],
+        ["以后", "yǐhòu", "after"],
+        ["还", "hái", "still"],
+        ["可以", "kěyǐ", "can; may"],
+        ["继续", "jìxù", "to continue"],
+        ["为", "wèi", "for"],
+        ["社会", "shèhuì", "society"],
+        ["做", "zuò", "to make; do"],
+        ["贡献", "gòngxiàn", "contribution"],
+        ["。"]
+      ],
+      "en": "Many elderly people are healthy and rich in experience, and after retiring they can continue to contribute to society."
+    },
+    {
+      "t": [
+        ["有的", "yǒude", "some"],
+        ["专家", "zhuānjiā", "expert"],
+        ["建议", "jiànyì", "to suggest"],
+        ["推迟", "tuīchí", "to postpone"],
+        ["退休", "tuìxiū", "retirement"],
+        ["年龄", "niánlíng", "age"],
+        [","],
+        ["有的", "yǒude", "some"],
+        ["建议", "jiànyì", "to suggest"],
+        ["鼓励", "gǔlì", "to encourage"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["多", "duō", "more"],
+        ["生", "shēng", "to give birth to"],
+        ["孩子", "háizi", "child; children"],
+        ["。"]
+      ],
+      "en": "Some experts suggest raising the retirement age, while others suggest encouraging young people to have more children."
+    },
+    {
+      "t": [
+        ["无论", "wúlùn", "no matter"],
+        ["用", "yòng", "to use"],
+        ["什么", "shénme", "what"],
+        ["办法", "bànfǎ", "method; way"],
+        [","],
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "all; in every case"],
+        ["应该", "yīnggāi", "should"],
+        ["尊重", "zūnzhòng", "to respect"],
+        ["老人", "lǎorén", "elderly people"],
+        [","],
+        ["让", "ràng", "to let; make"],
+        ["他们", "tāmen", "they; them"],
+        ["生活", "shēnghuó", "to live"],
+        ["得", "de", "(particle: degree)"],
+        ["幸福", "xìngfú", "happy; blessed"],
+        ["、"],
+        ["快乐", "kuàilè", "joyful"],
+        ["。"]
+      ],
+      "en": "No matter what methods we use, we should respect the elderly and let them live happy, joyful lives."
+    }
+  ],
+  "vocab": [
+    ["老龄化", "lǎolínghuà", "aging (of population)"],
+    ["寿命", "shòumìng", "lifespan"],
+    ["退休", "tuìxiū", "to retire"],
+    ["压力", "yālì", "pressure"],
+    ["推迟", "tuīchí", "to postpone"],
+    ["贡献", "gòngxiàn", "contribution"]
+  ],
+  "quiz": [
+    {
+      "q": "为什么人们的寿命越来越长?",
+      "a": ["因为医学的发展", "因为年轻人变多了", "因为工作机会多了"],
+      "c": 0
+    },
+    {
+      "q": "有的专家建议什么?",
+      "a": ["提前退休", "推迟退休年龄", "少生孩子"],
+      "c": 1
+    },
+    {
+      "q": "作者认为老龄化完全是坏事吗?",
+      "a": ["是,完全是坏事", "文章没有说", "不是,老人还能为社会做贡献"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着……",
+      "e": "'Along with / as ... (happens)' — indicates that one change accompanies another, usually at the start of the sentence.",
+      "x": "随着医学的发展,人们的寿命越来越长。"
+    },
+    {
+      "p": "越……越……",
+      "e": "'The more... the more...' — two things increase together.",
+      "x": "老年人越多,需要照顾他们的人就越多。"
+    },
+    {
+      "p": "无论……都……",
+      "e": "'No matter... (still)...' — the result holds true in every case.",
+      "x": "无论用什么办法,我们都应该尊重老人。"
+    }
+  ]
+}

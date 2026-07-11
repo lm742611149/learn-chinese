@@ -1,0 +1,152 @@
+{
+  "slug": "hsk2-at-the-hotel",
+  "level": 2,
+  "title_zh": "在酒店",
+  "title_py": "Zài jiǔdiàn",
+  "title_en": "At the Hotel",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["八点", "bā diǎn", "eight o'clock"],
+        [","],
+        ["我们", "wǒmen", "we"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle: completed action)"],
+        ["北京", "Běijīng", "Beijing"],
+        ["的", "de", "(particle: possessive)"],
+        ["酒店", "jiǔdiàn", "hotel"],
+        ["。"]
+      ],
+      "en": "At eight in the evening, we arrived at our hotel in Beijing."
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "staff; attendant"],
+        ["问", "wèn", "to ask"],
+        [":"],
+        ["“"],
+        ["先生", "xiānsheng", "Mr.; sir"],
+        [","],
+        ["您好", "nín hǎo", "hello (polite)"],
+        [","],
+        ["您", "nín", "you (polite)"],
+        ["叫", "jiào", "to be called"],
+        ["什么", "shénme", "what"],
+        ["名字", "míngzi", "name"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "The attendant asked: \"Hello, sir, what is your name?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["告诉", "gàosu", "to tell"],
+        ["他", "tā", "he; him"],
+        ["我", "wǒ", "I; my"],
+        ["的", "de", "(particle: possessive)"],
+        ["名字", "míngzi", "name"],
+        [","],
+        ["他", "tā", "he; him"],
+        ["给", "gěi", "to give"],
+        ["了", "le", "(particle: completed action)"],
+        ["我们", "wǒmen", "we; us"],
+        ["一个", "yí gè", "one"],
+        ["大", "dà", "big"],
+        ["房间", "fángjiān", "room"],
+        ["。"]
+      ],
+      "en": "I told him my name, and he gave us a big room."
+    },
+    {
+      "t": [
+        ["房间", "fángjiān", "room"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["新", "xīn", "new"],
+        [","],
+        ["我们", "wǒmen", "we"],
+        ["都", "dōu", "all; both"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["。"]
+      ],
+      "en": "The room is big and new; we both like it a lot."
+    },
+    {
+      "t": [
+        ["妻子", "qīzi", "wife"],
+        ["说", "shuō", "to say"],
+        ["她", "tā", "she"],
+        ["累", "lèi", "tired"],
+        ["了", "le", "(particle: change of state)"],
+        [","],
+        ["想", "xiǎng", "to want to"],
+        ["休息", "xiūxi", "to rest"],
+        ["。"]
+      ],
+      "en": "My wife said she was tired and wanted to rest."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle: completed action)"],
+        ["一杯", "yì bēi", "one cup of"],
+        ["茶", "chá", "tea"],
+        [","],
+        ["看", "kàn", "to look at"],
+        ["了", "le", "(particle: completed action)"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "cell phone"],
+        [","],
+        ["就", "jiù", "then; right away"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["了", "le", "(particle: completion)"],
+        ["。"]
+      ],
+      "en": "I drank a cup of tea, glanced at my phone, and then went to sleep."
+    }
+  ],
+  "vocab": [
+    ["酒店", "jiǔdiàn", "hotel"],
+    ["到", "dào", "to arrive"],
+    ["告诉", "gàosu", "to tell"],
+    ["房间", "fángjiān", "room"],
+    ["累", "lèi", "tired"],
+    ["休息", "xiūxi", "to rest"]
+  ],
+  "quiz": [
+    {
+      "q": "我们几点到了酒店?",
+      "a": ["晚上八点", "早上八点", "晚上九点"],
+      "c": 0
+    },
+    {
+      "q": "服务员给了我们什么?",
+      "a": ["一杯茶", "一个大房间", "一个手机"],
+      "c": 1
+    },
+    {
+      "q": "谁累了,想休息?",
+      "a": ["我", "服务员", "妻子"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "V 了 V (do briefly)",
+      "e": "Repeating a verb with 了 in between means doing it briefly or casually.",
+      "x": "看了看手机,就睡觉了。"
+    },
+    {
+      "p": "adj + 了 (change of state)",
+      "e": "了 after an adjective shows a new state has appeared: became tired.",
+      "x": "她累了,想休息。"
+    }
+  ]
+}

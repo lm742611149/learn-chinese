@@ -1,0 +1,60 @@
+{
+  "slug": "hsk6-collective-and-individual",
+  "level": 6,
+  "title_zh": "集体与个人",
+  "title_py": "Jítǐ yǔ gèrén",
+  "title_en": "Collective and Individual",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["在","zài","in; at"],["中国","Zhōngguó","China"],["传统","chuántǒng","traditional"],["文化","wénhuà","culture"],["中","zhōng","within"],[","],["集体","jítǐ","collective"],["利益","lìyì","interest; benefit"],["往往","wǎngwǎng","often; tend to"],["被","bèi","(passive marker)"],["置于","zhìyú","to place at"],["个人","gèrén","individual"],["利益","lìyì","interest; benefit"],["之上","zhī shàng","above"],["。"]],
+      "en": "In traditional Chinese culture, collective interests are often placed above individual interests."
+    },
+    {
+      "t": [["俗话","súhuà","common saying"],["说","shuō","to say"],["“"],["众人拾柴火焰高","zhòngrén shí chái huǒyàn gāo","many hands make light work (proverb)"],["”"],[","],["团结","tuánjié","unity; to unite"],["协作","xiézuò","cooperation"],["确实","quèshí","indeed"],["能够","nénggòu","to be able to"],["创造","chuàngzào","to create"],["个人","gèrén","individual"],["无法","wúfǎ","unable to"],["企及","qǐjí","to reach; attain"],["的","de","(particle: attributive)"],["成就","chéngjiù","achievement"],["。"]],
+      "en": "As the saying goes, 'the flame leaps high when everyone gathers firewood' — unity and cooperation can indeed create achievements no individual could ever reach."
+    },
+    {
+      "t": [["然而","rán'ér","however"],[","],["过分","guòfèn","excessively"],["强调","qiángdiào","to emphasize"],["集体","jítǐ","collective"],[","],["难免","nánmiǎn","hard to avoid"],["会","huì","will"],["压抑","yāyì","to suppress"],["个性","gèxìng","individuality"],[","],["使","shǐ","to make; cause"],["个人","gèrén","individual"],["的","de","(particle: possessive)"],["创造力","chuàngzàolì","creativity"],["得不到","dé bú dào","cannot obtain"],["充分","chōngfèn","full; ample"],["发挥","fāhuī","to bring into play"],["。"]],
+      "en": "However, overemphasizing the collective inevitably suppresses individuality, preventing personal creativity from being fully brought into play."
+    },
+    {
+      "t": [["相反","xiāngfǎn","on the contrary"],[","],["西方","Xīfāng","the West"],["社会","shèhuì","society"],["崇尚","chóngshàng","to advocate; uphold"],["个人主义","gèrén zhǔyì","individualism"],[","],["却","què","yet; however"],["也","yě","also"],["因此","yīncǐ","therefore"],["面临","miànlín","to face"],["人情","rénqíng","human warmth"],["淡薄","dànbó","thin; weak"],["、"],["社会","shèhuì","society"],["凝聚力","níngjùlì","cohesion"],["下降","xiàjiàng","to decline"],["的","de","(particle: attributive)"],["困境","kùnjìng","predicament"],["。"]],
+      "en": "Conversely, Western societies uphold individualism, yet as a result face the predicament of fading human warmth and declining social cohesion."
+    },
+    {
+      "t": [["由此可见","yóu cǐ kě jiàn","from this it can be seen"],[","],["集体","jítǐ","collective"],["与","yǔ","and; with"],["个人","gèrén","individual"],["并非","bìngfēi","by no means"],["水火不容","shuǐ huǒ bù róng","utterly incompatible (idiom)"],[","],["而是","érshì","but rather"],["相辅相成","xiāngfǔ xiāngchéng","to complement each other (idiom)"],["的","de","(particle: attributive)"],["关系","guānxi","relationship"],["。"]],
+      "en": "From this we can see that the collective and the individual are by no means incompatible like fire and water, but rather complement each other."
+    },
+    {
+      "t": [["一个","yí gè","one; a"],["健康","jiànkāng","healthy"],["的","de","(particle: attributive)"],["社会","shèhuì","society"],[","],["既","jì","both (既…也…)"],["要","yào","must; need to"],["保障","bǎozhàng","to safeguard"],["个人","gèrén","individual"],["的","de","(particle: possessive)"],["自由","zìyóu","freedom"],["与","yǔ","and"],["尊严","zūnyán","dignity"],[","],["也","yě","also"],["要","yào","must; need to"],["培养","péiyǎng","to cultivate"],["公民","gōngmín","citizen"],["的","de","(particle: possessive)"],["责任感","zérèngǎn","sense of responsibility"],["。"]],
+      "en": "A healthy society must both safeguard individual freedom and dignity, and cultivate citizens' sense of responsibility."
+    },
+    {
+      "t": [["关键","guānjiàn","the key"],["在于","zàiyú","to lie in"],["把握","bǎwò","to grasp"],["分寸","fēncun","proper measure"],[":"],["集体","jítǐ","collective"],["不应","bù yīng","should not"],["吞没","tūnmò","to engulf"],["个人","gèrén","individual"],[","],["个人","gèrén","individual"],["也","yě","also"],["不该","bù gāi","should not"],["凌驾","língjià","to override; place oneself above"],["于","yú","(preposition: at; above)"],["集体","jítǐ","collective"],["之上","zhī shàng","above"],["。"]],
+      "en": "The key lies in striking the right balance: the collective should not engulf the individual, nor should the individual place itself above the collective."
+    },
+    {
+      "t": [["那么","nàme","then; so"],[","],["当","dāng","when"],["集体","jítǐ","collective"],["利益","lìyì","interest"],["与","yǔ","and"],["个人","gèrén","individual"],["利益","lìyì","interest"],["发生","fāshēng","to occur"],["冲突","chōngtū","conflict"],["时","shí","when; at the time"],[","],["我们","wǒmen","we"],["究竟","jiūjìng","exactly; after all"],["应该","yīnggāi","should"],["如何","rúhé","how (formal)"],["取舍","qǔshě","to choose between"],["呢","ne","(particle: question)"],["?"]],
+      "en": "So when collective and individual interests clash, how exactly should we choose between them?"
+    }
+  ],
+  "vocab": [
+    ["集体","jítǐ","collective"],
+    ["凝聚力","níngjùlì","cohesion"],
+    ["压抑","yāyì","to suppress"],
+    ["相辅相成","xiāngfǔ xiāngchéng","to complement each other"],
+    ["分寸","fēncun","proper measure; sense of proportion"],
+    ["取舍","qǔshě","to choose between; accept or reject"]
+  ],
+  "quiz": [
+    {"q": "在中国传统文化中,什么往往被置于个人利益之上?", "a": ["集体利益", "经济利益", "家庭利益"], "c": 0},
+    {"q": "作者认为集体与个人是什么关系?", "a": ["水火不容", "相辅相成", "毫无关系"], "c": 1},
+    {"q": "西方社会崇尚个人主义,因此面临什么困境?", "a": ["社会凝聚力下降", "创造力得不到发挥", "个性受到压抑"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "并非……,而是……", "e": "'is by no means..., but rather...' — a formal written pattern that rejects one description and asserts another.", "x": "集体与个人并非水火不容,而是相辅相成的关系。"},
+    {"p": "既……也……", "e": "'both... and...' — links two parallel requirements or qualities in one sentence.", "x": "既要保障个人的自由与尊严,也要培养公民的责任感。"},
+    {"p": "关键在于……", "e": "'the key lies in...' — a formal way to introduce the decisive factor in an argument.", "x": "关键在于把握分寸。"}
+  ]
+}

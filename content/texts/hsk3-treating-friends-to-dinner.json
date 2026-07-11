@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-treating-friends-to-dinner",
+  "level": 3,
+  "title_zh": "请客吃饭",
+  "title_py": "Qǐngkè chīfàn",
+  "title_en": "Treating Friends to Dinner",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last (week/month)"],["个","gè","(measure word)"],["月","yuè","month"],["我","wǒ","I; me"],["找到","zhǎodào","to find"],["了","le","(particle: completed)"],["新","xīn","new"],["工作","gōngzuò","job; work"],[","],["所以","suǒyǐ","so; therefore"],["这个","zhège","this"],["周六","zhōuliù","Saturday"],["我","wǒ","I; me"],["请","qǐng","to invite; to treat"],["朋友们","péngyoumen","friends"],["吃饭","chīfàn","to have a meal"],["。"]],
+      "en": "Last month I found a new job, so this Saturday I treated my friends to dinner."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["去","qù","to go"],["了","le","(particle: completed)"],["公司","gōngsī","company"],["附近","fùjìn","nearby"],["的","de","(particle: attributive)"],["一家","yì jiā","one (measure for shops)"],["饭馆","fànguǎn","restaurant"],[","],["那里","nàlǐ","there"],["的","de","(particle: attributive)"],["菜","cài","dish; food"],["又","yòu","both (又...又...)"],["好吃","hǎochī","tasty"],["又","yòu","and (又...又...)"],["便宜","piányi","cheap"],["。"]],
+      "en": "We went to a restaurant near my company; the food there is both tasty and cheap."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["先","xiān","first"],["看","kàn","to look at"],["菜单","càidān","menu"],[","],["给","gěi","for; to"],["大家","dàjiā","everyone"],["点","diǎn","to order (food)"],["了","le","(particle: completed)"],["六","liù","six"],["个","gè","(measure word)"],["菜","cài","dish"],["和","hé","and"],["一些","yìxiē","some"],["啤酒","píjiǔ","beer"],["。"]],
+      "en": "I looked at the menu first and ordered six dishes and some beer for everyone."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(particle: possessive)"],["朋友","péngyou","friend"],["小李","Xiǎo Lǐ","Xiao Li (name)"],["不","bù","not"],["喝","hē","to drink"],["啤酒","píjiǔ","beer"],[","],["只","zhǐ","only"],["要","yào","to want"],["了","le","(particle: completed)"],["一杯","yì bēi","one cup of"],["甜甜的","tiántián de","sweet"],["果汁","guǒzhī","fruit juice"],["。"]],
+      "en": "My friend Xiao Li doesn't drink beer; he only asked for a glass of sweet fruit juice."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["一边","yìbiān","while (doing A)"],["吃饭","chīfàn","to eat"],[","],["一边","yìbiān","while (doing B)"],["聊天儿","liáotiānr","to chat"],[","],["大家","dàjiā","everyone"],["都","dōu","all"],["非常","fēicháng","very; extremely"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "We chatted while eating, and everyone was very happy."
+    },
+    {
+      "t": [["吃","chī","to eat"],["完","wán","to finish"],["饭","fàn","meal"],[","],["朋友们","péngyoumen","friends"],["要","yào","to want to"],["给","gěi","to give"],["钱","qián","money"],[","],["我","wǒ","I; me"],["笑","xiào","to smile; to laugh"],["着","zhe","(particle: ongoing state)"],["说","shuō","to say"],[":"],["“"],["今天","jīntiān","today"],["我","wǒ","I; me"],["请客","qǐngkè","to treat (pay for others)"],[","],["谁","shéi","who; anyone"],["的","de","(particle: possessive)"],["钱","qián","money"],["都","dōu","all; (emphasis) at all"],["不","bù","not"],["要","yào","to want"],["!"],["”"]],
+      "en": "After the meal, my friends wanted to pay, but I said with a smile: \"Today it's my treat — I won't take anyone's money!\""
+    },
+    {
+      "t": [["他们","tāmen","they"],["说","shuō","to say"],["下","xià","next"],["次","cì","time (occurrence)"],["他们","tāmen","they"],["请","qǐng","to invite; to treat"],["我","wǒ","I; me"],[","],["我们","wǒmen","we; us"],["就","jiù","then"],["这样","zhèyàng","this way; so"],["决定","juédìng","to decide"],["了","le","(particle: completed)"],["。"]],
+      "en": "They said next time they would treat me, and that's what we decided."
+    }
+  ],
+  "vocab": [
+    ["请客","qǐngkè","to treat (pay for others)"],
+    ["菜单","càidān","menu"],
+    ["点","diǎn","to order (food)"],
+    ["啤酒","píjiǔ","beer"],
+    ["聊天儿","liáotiānr","to chat"],
+    ["决定","juédìng","to decide"]
+  ],
+  "quiz": [
+    {"q": "我为什么请朋友们吃饭?", "a": ["找到了新工作", "今天过生日", "买了新手机"], "c": 0},
+    {"q": "小李喝了什么?", "a": ["啤酒", "果汁", "茶"], "c": 1},
+    {"q": "最后谁给了钱?", "a": ["小李", "朋友们", "我"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "又……又……", "e": "'Both ... and ...' — links two qualities of the same thing.", "x": "那里的菜又好吃又便宜。"},
+    {"p": "一边……一边……", "e": "'While doing A, also doing B' — two actions happening at the same time.", "x": "我们一边吃饭,一边聊天儿。"},
+    {"p": "谁……都 + 不/没", "e": "A question word + 都 + negative means 'no one / nothing at all'.", "x": "谁的钱都不要!"}
+  ]
+}

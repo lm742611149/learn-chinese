@@ -1,0 +1,139 @@
+{
+  "slug": "hsk2-visiting-a-friend",
+  "level": 2,
+  "title_zh": "去朋友家做客",
+  "title_py": "Qù péngyou jiā zuòkè",
+  "title_en": "Visiting a Friend",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["下午", "xiàwǔ", "afternoon"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["朋友", "péngyou", "friend"],
+        ["家", "jiā", "home"],
+        ["做客", "zuòkè", "to visit as a guest"],
+        ["。"]
+      ],
+      "en": "On Saturday afternoon I go to my friend's home as a guest."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["一些", "yìxiē", "some"],
+        ["苹果", "píngguǒ", "apple"],
+        ["和", "hé", "and"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["送给", "sònggěi", "to give (as a gift)"],
+        ["他", "tā", "he; him"],
+        ["。"]
+      ],
+      "en": "I bought some apples and a watermelon to give him."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["的", "de", "(particle: possessive)"],
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make; cook"],
+        ["了", "le", "(particle: completed action)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["好吃", "hǎochī", "tasty"],
+        ["的", "de", "(particle: one that is...)"],
+        ["菜", "cài", "dish; food"],
+        ["。"]
+      ],
+      "en": "My friend's mom cooked a lot of delicious dishes."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        [","],
+        ["说", "shuō", "to say; talk"],
+        ["了", "le", "(particle: completed action)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["话", "huà", "words; talk"],
+        ["。"]
+      ],
+      "en": "We ate together and talked a lot."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["家", "jiā", "home"],
+        ["的", "de", "(particle: possessive)"],
+        ["小猫", "xiǎomāo", "kitten"],
+        ["很", "hěn", "very"],
+        ["漂亮", "piàoliang", "pretty"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["它", "tā", "it"],
+        ["。"]
+      ],
+      "en": "The kitten at his home is very pretty; I like it a lot."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["九点", "jiǔ diǎn", "nine o'clock"],
+        ["我", "wǒ", "I; me"],
+        ["回家", "huí jiā", "to go home"],
+        [","],
+        ["今天", "jīntiān", "today"],
+        ["我", "wǒ", "I; me"],
+        ["玩", "wán", "to play; have fun"],
+        ["得", "de", "(particle: degree)"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "At nine in the evening I went home; today I had a really great time."
+    }
+  ],
+  "vocab": [
+    ["做客", "zuòkè", "to visit as a guest"],
+    ["一些", "yìxiē", "some"],
+    ["西瓜", "xīguā", "watermelon"],
+    ["好吃", "hǎochī", "tasty"],
+    ["一起", "yìqǐ", "together"],
+    ["非常", "fēicháng", "very; extremely"]
+  ],
+  "quiz": [
+    {
+      "q": "我星期六下午去哪儿?",
+      "a": ["朋友家", "学校", "商店"],
+      "c": 0
+    },
+    {
+      "q": "我买了什么送给朋友?",
+      "a": ["咖啡和茶", "苹果和西瓜", "牛奶和鸡蛋"],
+      "c": 1
+    },
+    {
+      "q": "谁做了很多好吃的菜?",
+      "a": ["我", "朋友", "朋友的妈妈"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "V + 得 + 状态 (degree complement)",
+      "e": "得 after a verb links it to a description of how the action goes.",
+      "x": "今天我玩得非常高兴。"
+    },
+    {
+      "p": "V + 了 (completed action)",
+      "e": "了 right after a verb marks the action as completed.",
+      "x": "我买了一些苹果和西瓜送给他。"
+    }
+  ]
+}

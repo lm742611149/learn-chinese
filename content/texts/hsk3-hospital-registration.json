@@ -1,0 +1,55 @@
+{
+  "slug": "hsk3-hospital-registration",
+  "level": 3,
+  "title_zh": "医院挂号",
+  "title_py": "Yīyuàn guàhào",
+  "title_en": "Hospital Registration",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["昨天","zuótiān","yesterday"],["晚上","wǎnshang","evening; night"],["我","wǒ","I; me"],["有点儿","yǒudiǎnr","a little (+ negative feeling)"],["发烧","fāshāo","to have a fever"],[","],["头","tóu","head"],["也","yě","also"],["很","hěn","very"],["疼","téng","to hurt; painful"],["。"]],
+      "en": "Last night I had a slight fever, and my head hurt a lot too."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],[","],["我","wǒ","I; me"],["和","hé","and; with"],["同事","tóngshì","colleague"],["一起","yìqǐ","together"],["去","qù","to go"],["医院","yīyuàn","hospital"],["看病","kànbìng","to see a doctor"],["。"]],
+      "en": "This morning, I went to the hospital with a colleague to see a doctor."
+    },
+    {
+      "t": [["医院","yīyuàn","hospital"],["里","lǐ","inside"],["人","rén","person; people"],["真","zhēn","really"],["多","duō","many"],[","],["我们","wǒmen","we; us"],["先","xiān","first"],["在","zài","at; in"],["一楼","yī lóu","first floor"],["挂号","guàhào","to register (at hospital)"],["。"]],
+      "en": "The hospital was really crowded; we first registered on the first floor."
+    },
+    {
+      "t": [["挂号","guàhào","to register (at hospital)"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],[","],["阿姨","āyí","auntie (older woman)"],["问","wèn","to ask"],["我","wǒ","I; me"],[":"],["“"],["你","nǐ","you"],["哪里","nǎlǐ","where"],["不","bù","not"],["舒服","shūfu","comfortable; well"],["?"],["”"]],
+      "en": "While registering, the lady asked me: \"Where do you feel unwell?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],[":"],["“"],["我","wǒ","I; me"],["发烧","fāshāo","to have a fever"],["了","le","(particle: new situation)"],[","],["可能","kěnéng","maybe; probably"],["是","shì","to be"],["感冒","gǎnmào","to catch a cold"],["。"],["”"]],
+      "en": "I said: \"I have a fever; it's probably a cold.\""
+    },
+    {
+      "t": [["医生","yīshēng","doctor"],["给","gěi","for; to"],["我","wǒ","I; me"],["做","zuò","to do"],["了","le","(particle: completed)"],["检查","jiǎnchá","examination; check-up"],[","],["说","shuō","to say"],["问题","wèntí","problem"],["不","bú","not"],["大","dà","big"],[","],["让","ràng","to let; to ask (sb to do)"],["我","wǒ","I; me"],["多","duō","more"],["喝水","hē shuǐ","to drink water"],["、"],["多","duō","more"],["休息","xiūxi","to rest"],["。"]],
+      "en": "The doctor examined me and said it was nothing serious, telling me to drink more water and get more rest."
+    },
+    {
+      "t": [["拿","ná","to take; to pick up"],["了","le","(particle: completed)"],["药","yào","medicine"],["以后","yǐhòu","after"],[","],["我","wǒ","I; me"],["就","jiù","then"],["回家","huí jiā","to go home"],["睡觉","shuìjiào","to sleep"],["了","le","(particle: completed)"],[","],["现在","xiànzài","now"],["觉得","juéde","to feel"],["好","hǎo","good; well"],["多","duō","much (more)"],["了","le","(particle: new situation)"],["。"]],
+      "en": "After picking up the medicine, I went home to sleep, and now I feel much better."
+    }
+  ],
+  "vocab": [
+    ["挂号","guàhào","to register (at hospital)"],
+    ["发烧","fāshāo","to have a fever"],
+    ["感冒","gǎnmào","to catch a cold"],
+    ["检查","jiǎnchá","examination; to examine"],
+    ["舒服","shūfu","comfortable; well"],
+    ["同事","tóngshì","colleague"]
+  ],
+  "quiz": [
+    {"q": "我昨天晚上哪里不舒服?", "a": ["发烧、头疼", "肚子疼", "脚疼"], "c": 0},
+    {"q": "我和谁一起去医院?", "a": ["妈妈", "同事", "朋友"], "c": 1},
+    {"q": "医生让我做什么?", "a": ["多吃饭", "多运动", "多喝水、多休息"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "adj + 多了", "e": "Placed after an adjective, 多了 means 'much more (adj)' — used for a big change compared with before.", "x": "现在觉得好多了。"},
+    {"p": "多 + verb", "e": "Before a verb, 多 means 'do more of' the action, common in advice.", "x": "让我多喝水、多休息。"}
+  ]
+}

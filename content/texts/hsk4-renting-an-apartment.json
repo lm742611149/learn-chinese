@@ -1,0 +1,239 @@
+{
+  "slug": "hsk4-renting-an-apartment",
+  "level": 4,
+  "title_zh": "租房记",
+  "title_py": "Zūfáng jì",
+  "title_en": "Renting an Apartment",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个月", "shàng gè yuè", "last month"],
+        ["我", "wǒ", "I; me"],
+        ["换了", "huànle", "changed"],
+        ["工作", "gōngzuò", "job"],
+        [","],
+        ["新", "xīn", "new"],
+        ["公司", "gōngsī", "company"],
+        ["离", "lí", "away from"],
+        ["原来", "yuánlái", "original"],
+        ["的", "de", "(particle: possessive)"],
+        ["家", "jiā", "home"],
+        ["太", "tài", "too"],
+        ["远", "yuǎn", "far"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["决定", "juédìng", "to decide"],
+        ["在", "zài", "at; in"],
+        ["公司", "gōngsī", "company"],
+        ["附近", "fùjìn", "nearby"],
+        ["租房", "zūfáng", "to rent a place"],
+        ["。"]
+      ],
+      "en": "Last month I changed jobs, and the new company was too far from my old home, so I decided to rent a place near the office."
+    },
+    {
+      "t": [
+        ["网上", "wǎngshàng", "online"],
+        ["的", "de", "(particle: possessive)"],
+        ["信息", "xìnxī", "information"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        [","],
+        ["可是", "kěshì", "but"],
+        ["有的", "yǒude", "some"],
+        ["照片", "zhàopiàn", "photo"],
+        ["跟", "gēn", "with"],
+        ["实际", "shíjì", "actual"],
+        ["情况", "qíngkuàng", "situation"],
+        ["完全", "wánquán", "completely"],
+        ["不", "bù", "not"],
+        ["一样", "yíyàng", "the same"],
+        ["。"]
+      ],
+      "en": "There was plenty of information online, but some photos were completely different from the real thing."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["看了", "kànle", "looked at"],
+        ["五", "wǔ", "five"],
+        ["个", "gè", "(measure word)"],
+        ["房子", "fángzi", "apartment; house"],
+        [","],
+        ["不是", "bú shì", "if not"],
+        ["太", "tài", "too"],
+        ["贵", "guì", "expensive"],
+        [","],
+        ["就是", "jiùshì", "then it's"],
+        ["太", "tài", "too"],
+        ["旧", "jiù", "old (of things)"],
+        ["。"]
+      ],
+      "en": "I looked at five apartments; they were either too expensive or too old."
+    },
+    {
+      "t": [
+        ["最后", "zuìhòu", "finally"],
+        ["我", "wǒ", "I; me"],
+        ["找到", "zhǎodào", "found"],
+        ["一个", "yí gè", "one"],
+        ["合适", "héshì", "suitable"],
+        ["的", "de", "(particle: possessive)"],
+        ["房间", "fángjiān", "room"],
+        [","],
+        ["离", "lí", "away from"],
+        ["公司", "gōngsī", "company"],
+        ["只有", "zhǐyǒu", "only"],
+        ["一站", "yí zhàn", "one stop"],
+        [","],
+        ["厨房", "chúfáng", "kitchen"],
+        ["和", "hé", "and"],
+        ["洗手间", "xǐshǒujiān", "bathroom"],
+        ["都", "dōu", "both; all"],
+        ["很", "hěn", "very"],
+        ["干净", "gānjìng", "clean"],
+        ["。"]
+      ],
+      "en": "Finally I found a suitable room, only one stop from the office, with a clean kitchen and bathroom."
+    },
+    {
+      "t": [
+        ["房东", "fángdōng", "landlord"],
+        ["是", "shì", "to be"],
+        ["一位", "yí wèi", "one (polite measure)"],
+        ["热情", "rèqíng", "warm; friendly"],
+        ["的", "de", "(particle: possessive)"],
+        ["阿姨", "āyí", "auntie"],
+        [","],
+        ["她", "tā", "she"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["房租", "fángzū", "rent"],
+        ["每月", "měi yuè", "every month"],
+        ["两千", "liǎngqiān", "two thousand"],
+        [","],
+        ["水", "shuǐ", "water"],
+        ["和", "hé", "and"],
+        ["电", "diàn", "electricity"],
+        ["的", "de", "(particle: possessive)"],
+        ["钱", "qián", "money"],
+        ["你", "nǐ", "you"],
+        ["自己", "zìjǐ", "oneself"],
+        ["交", "jiāo", "to pay; hand over"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The landlord was a friendly auntie who said: \"The rent is two thousand a month, and you pay for water and electricity yourself.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["跟", "gēn", "with"],
+        ["她", "tā", "she; her"],
+        ["商量", "shāngliang", "to discuss; negotiate"],
+        [","],
+        ["能不能", "néng bu néng", "whether or not (one) can"],
+        ["便宜", "piányi", "cheap"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        [","],
+        ["她", "tā", "she"],
+        ["笑着", "xiàozhe", "smiling"],
+        ["同意", "tóngyì", "to agree"],
+        ["每月", "měi yuè", "every month"],
+        ["少", "shǎo", "less"],
+        ["收", "shōu", "to charge; collect"],
+        ["一百", "yìbǎi", "one hundred"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["。"]
+      ],
+      "en": "I discussed with her whether it could be a bit cheaper, and she smiled and agreed to charge one hundred kuai less per month."
+    },
+    {
+      "t": [
+        ["签合同", "qiān hétong", "to sign a contract"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["把", "bǎ", "(particle: object marker)"],
+        ["每", "měi", "every"],
+        ["一条", "yì tiáo", "one item; clause"],
+        ["都", "dōu", "all"],
+        ["认真", "rènzhēn", "carefully"],
+        ["地", "de", "(particle: adverbial)"],
+        ["看了", "kànle", "read"],
+        ["一遍", "yí biàn", "once through"],
+        ["。"]
+      ],
+      "en": "When signing the contract, I carefully read through every single clause."
+    },
+    {
+      "t": [
+        ["住进", "zhùjìn", "to move into"],
+        ["新家", "xīn jiā", "new home"],
+        ["的", "de", "(particle: possessive)"],
+        ["那天", "nà tiān", "that day"],
+        ["晚上", "wǎnshang", "evening"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["又", "yòu", "both"],
+        ["累", "lèi", "tired"],
+        ["又", "yòu", "and"],
+        ["高兴", "gāoxìng", "happy"],
+        [","],
+        ["生活", "shēnghuó", "life"],
+        ["好像", "hǎoxiàng", "as if"],
+        ["重新", "chóngxīn", "anew; afresh"],
+        ["开始", "kāishǐ", "to begin"],
+        ["了", "le", "(particle: completed action)"],
+        ["。"]
+      ],
+      "en": "The evening I moved into my new home, I felt both tired and happy, as if life were starting all over again."
+    }
+  ],
+  "vocab": [
+    ["租房", "zūfáng", "to rent a place"],
+    ["房东", "fángdōng", "landlord"],
+    ["房租", "fángzū", "rent (money)"],
+    ["合适", "héshì", "suitable"],
+    ["商量", "shāngliang", "to discuss; negotiate"],
+    ["签合同", "qiān hétong", "to sign a contract"]
+  ],
+  "quiz": [
+    {
+      "q": "我为什么决定租房?",
+      "a": ["新公司离原来的家太远", "原来的房子太旧", "想跟朋友一起住"],
+      "c": 0
+    },
+    {
+      "q": "房东同意每月少收多少钱?",
+      "a": ["两千块", "一百块", "五十块"],
+      "c": 1
+    },
+    {
+      "q": "最后找到的房间离公司有多远?",
+      "a": ["只有一站", "五站", "很远"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不是……就是……",
+      "e": "'if not A, then B' — the situation is always one of two (often undesirable) options.",
+      "x": "不是太贵,就是太旧。"
+    },
+    {
+      "p": "把 + O + V + 了一遍",
+      "e": "The 把 structure moves the object before the verb; 一遍 means doing the action once from start to finish.",
+      "x": "我把每一条都认真地看了一遍。"
+    },
+    {
+      "p": "又……又……",
+      "e": "'both... and...' — links two adjectives or states that are true at the same time.",
+      "x": "我觉得又累又高兴。"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "slug": "hsk4-qr-code-life",
+  "level": 4,
+  "title_zh": "二维码生活",
+  "title_py": "Èrwéimǎ shēnghuó",
+  "title_en": "QR Code Life",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["今天", "jīntiān", "today"],
+        ["的", "de", "(particle: possessive)"],
+        ["中国", "Zhōngguó", "China"],
+        [","],
+        ["一个", "yí gè", "one"],
+        ["小小的", "xiǎoxiǎo de", "tiny"],
+        ["二维码", "èrwéimǎ", "QR code"],
+        ["几乎", "jīhū", "almost"],
+        ["改变", "gǎibiàn", "to change"],
+        ["了", "le", "(particle: completed action)"],
+        ["生活", "shēnghuó", "life"],
+        ["的", "de", "(particle: possessive)"],
+        ["每个", "měi gè", "every"],
+        ["方面", "fāngmiàn", "aspect"],
+        ["。"]
+      ],
+      "en": "In today's China, a tiny QR code has changed almost every aspect of life."
+    },
+    {
+      "t": [
+        ["买菜", "mǎi cài", "buying groceries"],
+        ["、"],
+        ["坐车", "zuò chē", "taking the bus"],
+        ["、"],
+        ["吃饭", "chīfàn", "eating out"],
+        ["、"],
+        ["看病", "kànbìng", "seeing a doctor"],
+        [","],
+        ["只要", "zhǐyào", "as long as"],
+        ["拿出", "náchū", "to take out"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["扫一扫", "sǎo yi sǎo", "give it a scan"],
+        [","],
+        ["马上", "mǎshàng", "immediately"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["完成", "wánchéng", "to complete"],
+        ["支付", "zhīfù", "payment"],
+        ["。"]
+      ],
+      "en": "Groceries, buses, restaurants, the doctor — as long as you take out your phone and scan, the payment is done in an instant."
+    },
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        [","],
+        ["服务员", "fúwùyuán", "waiter; server"],
+        ["不再", "bú zài", "no longer"],
+        ["给", "gěi", "to give"],
+        ["你", "nǐ", "you"],
+        ["菜单", "càidān", "menu"],
+        [","],
+        ["而是", "érshì", "but instead"],
+        ["请", "qǐng", "to ask; invite"],
+        ["你", "nǐ", "you"],
+        ["扫", "sǎo", "to scan"],
+        ["桌子", "zhuōzi", "table"],
+        ["上", "shàng", "on"],
+        ["的", "de", "(particle: possessive)"],
+        ["二维码", "èrwéimǎ", "QR code"],
+        ["点菜", "diǎn cài", "to order food"],
+        ["。"]
+      ],
+      "en": "In restaurants, the waiter no longer hands you a menu, but instead asks you to scan the QR code on the table to order."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["奶奶", "nǎinai", "grandma"],
+        ["第一次", "dì-yī cì", "the first time"],
+        ["用", "yòng", "to use"],
+        ["二维码", "èrwéimǎ", "QR code"],
+        ["买东西", "mǎi dōngxi", "to buy things"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        [","],
+        ["紧张", "jǐnzhāng", "nervous"],
+        ["得", "de", "(particle: degree)"],
+        ["手", "shǒu", "hand"],
+        ["都", "dōu", "even"],
+        ["出汗", "chūhàn", "to sweat"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "The first time my grandma used a QR code to buy something, she was so nervous her hands were sweating."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["她", "tā", "she"],
+        ["学会", "xuéhuì", "to learn (successfully)"],
+        ["了", "le", "(particle: completed action)"],
+        [","],
+        ["现在", "xiànzài", "now"],
+        ["连", "lián", "even"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["卖", "mài", "to sell"],
+        ["水果", "shuǐguǒ", "fruit"],
+        ["的", "de", "(particle: possessive)"],
+        ["老人", "lǎorén", "elderly person"],
+        ["都", "dōu", "all; even"],
+        ["用", "yòng", "to use"],
+        ["二维码", "èrwéimǎ", "QR code"],
+        ["收钱", "shōu qián", "to collect money"],
+        ["。"]
+      ],
+      "en": "Later she mastered it — nowadays even the old man selling fruit downstairs uses a QR code to collect money."
+    },
+    {
+      "t": [
+        ["当然", "dāngrán", "of course"],
+        [","],
+        ["方便", "fāngbiàn", "convenient"],
+        ["的", "de", "(particle: possessive)"],
+        ["后面", "hòumiàn", "behind"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "to have"],
+        ["问题", "wèntí", "problem"],
+        [":"],
+        ["一些", "yìxiē", "some"],
+        ["老人", "lǎorén", "elderly people"],
+        ["没有", "méiyǒu", "to not have"],
+        ["智能手机", "zhìnéng shǒujī", "smartphone"],
+        [","],
+        ["买东西", "mǎi dōngxi", "to buy things"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["就", "jiù", "then"],
+        ["很", "hěn", "very"],
+        ["困难", "kùnnan", "difficult"],
+        ["。"]
+      ],
+      "en": "Of course, behind the convenience there are problems too: some elderly people have no smartphone, and shopping becomes very difficult for them."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["现在", "xiànzài", "now"],
+        ["很多", "hěn duō", "many"],
+        ["商店", "shāngdiàn", "shop"],
+        ["的", "de", "(particle: possessive)"],
+        ["门口", "ménkǒu", "entrance; doorway"],
+        ["写着", "xiězhe", "has written (on it)"],
+        [":"],
+        ["“"],
+        ["欢迎", "huānyíng", "welcome"],
+        ["使用", "shǐyòng", "to use"],
+        ["现金", "xiànjīn", "cash"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "So now many shops have a sign at the entrance: \"Cash welcome.\""
+    },
+    {
+      "t": [
+        ["新", "xīn", "new"],
+        ["技术", "jìshù", "technology"],
+        ["应该", "yīnggāi", "should"],
+        ["让", "ràng", "to make; let"],
+        ["每个人", "měi gè rén", "everyone"],
+        ["的", "de", "(particle: possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["都", "dōu", "all"],
+        ["更", "gèng", "even more"],
+        ["方便", "fāngbiàn", "convenient"],
+        [","],
+        ["而不是", "ér bú shì", "rather than"],
+        ["只", "zhǐ", "only"],
+        ["方便", "fāngbiàn", "to make convenient"],
+        ["一部分", "yí bùfen", "a part of"],
+        ["人", "rén", "people"],
+        ["。"]
+      ],
+      "en": "New technology should make everyone's life more convenient, rather than convenient for only some people."
+    }
+  ],
+  "vocab": [
+    ["二维码", "èrwéimǎ", "QR code"],
+    ["扫", "sǎo", "to scan"],
+    ["支付", "zhīfù", "payment; to pay"],
+    ["现金", "xiànjīn", "cash"],
+    ["智能手机", "zhìnéng shǒujī", "smartphone"],
+    ["改变", "gǎibiàn", "to change"]
+  ],
+  "quiz": [
+    {
+      "q": "在饭馆,服务员请你做什么?",
+      "a": ["扫桌子上的二维码点菜", "看纸的菜单", "去门口付现金"],
+      "c": 0
+    },
+    {
+      "q": "奶奶第一次用二维码的时候怎么样?",
+      "a": ["觉得很容易", "紧张得手都出汗了", "非常高兴"],
+      "c": 1
+    },
+    {
+      "q": "现在很多商店的门口写着什么?",
+      "a": ["欢迎使用现金", "只能用手机支付", "今天不开门"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "连……都……",
+      "e": "'even...' — highlights an extreme or surprising example.",
+      "x": "连楼下卖水果的老人都用二维码收钱。"
+    },
+    {
+      "p": "不再……而是……",
+      "e": "'no longer A, but instead B' — an old way replaced by a new one.",
+      "x": "服务员不再给你菜单,而是请你扫桌子上的二维码点菜。"
+    },
+    {
+      "p": "adj + 得 + complement",
+      "e": "得 links an adjective to a phrase describing its degree or result.",
+      "x": "紧张得手都出汗了。"
+    }
+  ]
+}

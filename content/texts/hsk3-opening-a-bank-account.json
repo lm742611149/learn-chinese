@@ -1,0 +1,55 @@
+{
+  "slug": "hsk3-opening-a-bank-account",
+  "level": 3,
+  "title_zh": "银行开户",
+  "title_py": "Yínháng kāihù",
+  "title_en": "Opening a Bank Account",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["刚","gāng","just; recently"],["来","lái","to come"],["北京","Běijīng","Beijing"],["工作","gōngzuò","to work"],[","],["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["去","qù","to go"],["银行","yínháng","bank"],["开户","kāihù","to open an account"],["。"]],
+      "en": "I just came to Beijing for work, and this morning I went to the bank to open an account."
+    },
+    {
+      "t": [["银行","yínháng","bank"],["里","lǐ","inside"],["人","rén","person; people"],["很","hěn","very"],["多","duō","many"],[","],["我","wǒ","I; me"],["拿","ná","to take"],["了","le","(particle: completed)"],["号","hào","number (ticket)"],["以后","yǐhòu","after"],[","],["坐","zuò","to sit"],["着","zhe","(particle: ongoing state)"],["等","děng","to wait"],["了","le","(particle: completed)"],["半","bàn","half"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["。"]],
+      "en": "There were a lot of people in the bank; after taking a number, I sat waiting for half an hour."
+    },
+    {
+      "t": [["工作人员","gōngzuò rényuán","staff member"],["问","wèn","to ask"],["我","wǒ","I; me"],[":"],["“"],["您","nín","you (polite)"],["带","dài","to bring"],["护照","hùzhào","passport"],["了","le","(particle: completed)"],["吗","ma","(particle: question)"],["?"],["”"]],
+      "en": "The staff member asked me: \"Did you bring your passport?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],[":"],["“"],["带","dài","to bring"],["了","le","(particle: completed)"],[","],["这","zhè","this"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(particle: possessive)"],["护照","hùzhào","passport"],["和","hé","and"],["手机","shǒujī","mobile phone"],["号码","hàomǎ","number"],["。"],["”"]],
+      "en": "I said: \"Yes, here are my passport and my phone number.\""
+    },
+    {
+      "t": [["她","tā","she"],["让","ràng","to let; to ask (sb to do)"],["我","wǒ","I; me"],["写","xiě","to write"],["名字","míngzi","name"],[","],["还","hái","also; in addition"],["让","ràng","to let; to ask (sb to do)"],["我","wǒ","I; me"],["想","xiǎng","to think of"],["一个","yí gè","one (measure)"],["密码","mìmǎ","password"],["。"]],
+      "en": "She had me write my name and also asked me to think of a password."
+    },
+    {
+      "t": [["十五","shíwǔ","fifteen"],["分钟","fēnzhōng","minute"],["以后","yǐhòu","after"],[","],["我","wǒ","I; me"],["就","jiù","then; right away"],["拿到","nádào","to get; to receive"],["了","le","(particle: completed)"],["新","xīn","new"],["的","de","(particle: attributive)"],["银行卡","yínhángkǎ","bank card"],["。"]],
+      "en": "Fifteen minutes later, I got my new bank card."
+    },
+    {
+      "t": [["有","yǒu","to have"],["了","le","(particle: completed)"],["银行卡","yínhángkǎ","bank card"],[","],["我","wǒ","I; me"],["就","jiù","then"],["可以","kěyǐ","can; may"],["用","yòng","to use"],["手机","shǒujī","mobile phone"],["花钱","huā qián","to spend money"],["买","mǎi","to buy"],["东西","dōngxi","things"],["了","le","(particle: new situation)"],[","],["真","zhēn","really"],["方便","fāngbiàn","convenient"],["!"]],
+      "en": "With a bank card, I can now spend money with my phone to buy things — so convenient!"
+    }
+  ],
+  "vocab": [
+    ["银行","yínháng","bank"],
+    ["开户","kāihù","to open an account"],
+    ["工作人员","gōngzuò rényuán","staff member"],
+    ["护照","hùzhào","passport"],
+    ["密码","mìmǎ","password"],
+    ["银行卡","yínhángkǎ","bank card"]
+  ],
+  "quiz": [
+    {"q": "我今天上午去哪儿了?", "a": ["医院", "银行", "学校"], "c": 1},
+    {"q": "我在银行等了多长时间?", "a": ["半个小时", "十五分钟", "一个小时"], "c": 0},
+    {"q": "工作人员让我想什么?", "a": ["一个名字", "一个号码", "一个密码"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "……以后,就……", "e": "'After ..., (then) ...' — 以后 follows a time or action; 就 signals that the next thing happens right away.", "x": "十五分钟以后,我就拿到了新的银行卡。"},
+    {"p": "让 + sb + verb", "e": "让 means 'to have / ask someone to do something', introducing the person before the action.", "x": "她让我写名字,还让我想一个密码。"}
+  ]
+}

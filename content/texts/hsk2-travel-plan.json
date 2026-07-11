@@ -1,0 +1,150 @@
+{
+  "slug": "hsk2-travel-plan",
+  "level": 2,
+  "title_zh": "旅游计划",
+  "title_py": "Lǚyóu jìhuà",
+  "title_en": "Travel Plan",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["下个月", "xià gè yuè", "next month"],
+        [","],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["妻子", "qīzi", "wife"],
+        ["想", "xiǎng", "to want to"],
+        ["去", "qù", "to go"],
+        ["北京", "Běijīng", "Beijing"],
+        ["旅游", "lǚyóu", "to travel"],
+        ["。"]
+      ],
+      "en": "Next month my wife and I want to travel to Beijing."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["是", "shì", "to be"],
+        ["我们", "wǒmen", "we; our"],
+        ["的", "de", "(particle: possessive)"],
+        ["旅游", "lǚyóu", "travel"],
+        ["计划", "jìhuà", "plan"],
+        [":"],
+        ["我们", "wǒmen", "we"],
+        ["准备", "zhǔnbèi", "to plan; prepare"],
+        ["玩", "wán", "to play; have fun"],
+        ["一个", "yí gè", "one"],
+        ["星期", "xīngqī", "week"],
+        ["。"]
+      ],
+      "en": "This is our travel plan: we intend to spend a week having fun."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; on"],
+        ["手机", "shǒujī", "cell phone"],
+        ["上", "shàng", "on"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["飞机票", "fēijī piào", "plane ticket"],
+        [","],
+        ["不太", "bú tài", "not too"],
+        ["贵", "guì", "expensive"],
+        ["。"]
+      ],
+      "en": "I bought the plane tickets on my phone; they were not too expensive."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["还", "hái", "also; in addition"],
+        ["找", "zhǎo", "to look for; find"],
+        ["了", "le", "(particle: completed action)"],
+        ["一个", "yí gè", "one"],
+        ["宾馆", "bīnguǎn", "hotel"],
+        [","],
+        ["离", "lí", "from (distance)"],
+        ["火车站", "huǒchēzhàn", "train station"],
+        ["很", "hěn", "very"],
+        ["近", "jìn", "close; near"],
+        ["。"]
+      ],
+      "en": "We also found a hotel that is very close to the train station."
+    },
+    {
+      "t": [
+        ["妻子", "qīzi", "wife"],
+        ["说", "shuō", "to say"],
+        [","],
+        ["北京", "Běijīng", "Beijing"],
+        ["有", "yǒu", "to have"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["好吃", "hǎochī", "tasty"],
+        ["的", "de", "(particle: one that is...)"],
+        ["东西", "dōngxi", "things"],
+        [","],
+        ["她", "tā", "she"],
+        ["都", "dōu", "all"],
+        ["想", "xiǎng", "to want to"],
+        ["吃", "chī", "to eat"],
+        ["。"]
+      ],
+      "en": "My wife says Beijing has lots of tasty food, and she wants to try it all."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["希望", "xīwàng", "to hope"],
+        ["天气", "tiānqì", "weather"],
+        ["晴", "qíng", "sunny"],
+        [","],
+        ["我们", "wǒmen", "we"],
+        ["能", "néng", "can; be able to"],
+        ["玩", "wán", "to play; have fun"],
+        ["得", "de", "(particle: degree)"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "I hope the weather is sunny so we can have a very happy time."
+    }
+  ],
+  "vocab": [
+    ["计划", "jìhuà", "plan"],
+    ["旅游", "lǚyóu", "to travel"],
+    ["准备", "zhǔnbèi", "to plan; prepare"],
+    ["宾馆", "bīnguǎn", "hotel"],
+    ["离", "lí", "from (distance)"],
+    ["希望", "xīwàng", "to hope"]
+  ],
+  "quiz": [
+    {
+      "q": "我们想去哪儿旅游?",
+      "a": ["火车站", "北京", "宾馆"],
+      "c": 1
+    },
+    {
+      "q": "我们准备玩多长时间?",
+      "a": ["一天", "五天", "一个星期"],
+      "c": 2
+    },
+    {
+      "q": "宾馆离哪儿很近?",
+      "a": ["火车站", "机场", "商店"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 离 B + 近/远 (distance)",
+      "e": "离 states the distance between A and B, followed by 近 (near) or 远 (far).",
+      "x": "宾馆离火车站很近。"
+    },
+    {
+      "p": "希望 + clause",
+      "e": "希望 introduces a whole sentence expressing what you hope for.",
+      "x": "我希望天气晴,我们能玩得很快乐。"
+    }
+  ]
+}

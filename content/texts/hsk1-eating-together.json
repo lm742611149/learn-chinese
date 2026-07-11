@@ -1,0 +1,130 @@
+{
+  "slug": "hsk1-eating-together",
+  "level": 1,
+  "title_zh": "三口人吃饭",
+  "title_py": "Sān kǒu rén chīfàn",
+  "title_en": "A Family of Three Eats Together",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "family; home"],
+        ["有", "yǒu", "to have"],
+        ["三", "sān", "three"],
+        ["口", "kǒu", "(measure: family members)"],
+        ["人", "rén", "person; people"],
+        [":"],
+        ["爸爸", "bàba", "dad"],
+        ["、"],
+        ["妈妈", "māma", "mom"],
+        ["和", "hé", "and"],
+        ["我", "wǒ", "I; me"],
+        ["。"]
+      ],
+      "en": "There are three people in my family: Dad, Mom, and me."
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["我们", "wǒmen", "we; us"],
+        ["在", "zài", "at; in"],
+        ["家", "jiā", "home"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["。"]
+      ],
+      "en": "At noon we eat at home."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make; to do"],
+        ["了", "le", "(particle: completed action)"],
+        ["很多", "hěn duō", "a lot of"],
+        ["菜", "cài", "dish; food"],
+        ["和", "hé", "and"],
+        ["米饭", "mǐfàn", "cooked rice"],
+        ["。"]
+      ],
+      "en": "Mom made a lot of dishes and rice."
+    },
+    {
+      "t": [
+        ["爸爸", "bàba", "dad"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["这些", "zhèxiē", "these"],
+        ["菜", "cài", "dish; food"],
+        ["很", "hěn", "very"],
+        ["好吃", "hǎochī", "tasty (food)"],
+        ["!"],
+        ["”"]
+      ],
+      "en": "Dad says: \"These dishes are delicious!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle: completed action)"],
+        ["很多", "hěn duō", "a lot of"],
+        ["米饭", "mǐfàn", "cooked rice"],
+        [","],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle: completed action)"],
+        ["一杯", "yì bēi", "one cup of"],
+        ["水", "shuǐ", "water"],
+        ["。"]
+      ],
+      "en": "I ate a lot of rice and drank a cup of water."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "We are all very happy."
+    }
+  ],
+  "vocab": [
+    ["口", "kǒu", "(measure: family members)"],
+    ["中午", "zhōngwǔ", "noon"],
+    ["菜", "cài", "dish; food"],
+    ["米饭", "mǐfàn", "cooked rice"],
+    ["好吃", "hǎochī", "tasty (food)"],
+    ["都", "dōu", "all"]
+  ],
+  "quiz": [
+    {
+      "q": "我家有几口人?",
+      "a": ["三口人", "四口人", "五口人"],
+      "c": 0
+    },
+    {
+      "q": "谁做了菜?",
+      "a": ["爸爸", "我", "妈妈"],
+      "c": 2
+    },
+    {
+      "q": "中午我们在哪儿吃饭?",
+      "a": ["饭馆", "学校", "家"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "家 + 有 + number + 口 + 人",
+      "e": "口 is the measure word for counting family members.",
+      "x": "我家有三口人。"
+    },
+    {
+      "p": "都",
+      "e": "都 means 'all/both' and goes before the verb or adjective.",
+      "x": "我们都很高兴。"
+    }
+  ]
+}

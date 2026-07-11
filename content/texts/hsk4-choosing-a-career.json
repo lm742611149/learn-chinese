@@ -1,0 +1,227 @@
+{
+  "slug": "hsk4-choosing-a-career",
+  "level": 4,
+  "title_zh": "职业选择",
+  "title_py": "Zhíyè xuǎnzé",
+  "title_en": "Choosing a Career",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["大学", "dàxué", "university"],
+        ["毕业", "bìyè", "to graduate"],
+        ["以后", "yǐhòu", "after"],
+        [","],
+        ["每个人", "měi gè rén", "everyone"],
+        ["都", "dōu", "all"],
+        ["会", "huì", "will"],
+        ["遇到", "yùdào", "to encounter"],
+        ["一个", "yí gè", "one"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(particle: possessive)"],
+        ["问题", "wèntí", "question; problem"],
+        [":"],
+        ["选择", "xuǎnzé", "to choose"],
+        ["什么样", "shénmeyàng", "what kind"],
+        ["的", "de", "(particle: possessive)"],
+        ["职业", "zhíyè", "career; profession"],
+        ["。"]
+      ],
+      "en": "After graduating from university, everyone runs into an important question: what kind of career to choose."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(particle: possessive)"],
+        ["父母", "fùmǔ", "parents"],
+        ["希望", "xīwàng", "to hope"],
+        ["我", "wǒ", "I; me"],
+        ["当", "dāng", "to be; work as"],
+        ["老师", "lǎoshī", "teacher"],
+        [","],
+        ["因为", "yīnwèi", "because"],
+        ["这个", "zhège", "this"],
+        ["工作", "gōngzuò", "job"],
+        ["稳定", "wěndìng", "stable"],
+        [","],
+        ["压力", "yālì", "pressure; stress"],
+        ["也", "yě", "also"],
+        ["小", "xiǎo", "small"],
+        ["。"]
+      ],
+      "en": "My parents hope I will become a teacher, because the job is stable and the pressure is low."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["对", "duì", "towards"],
+        ["电脑", "diànnǎo", "computer"],
+        ["技术", "jìshù", "technology"],
+        ["特别", "tèbié", "especially"],
+        ["感兴趣", "gǎn xìngqù", "to be interested in"],
+        [","],
+        ["想", "xiǎng", "to want to"],
+        ["去", "qù", "to go"],
+        ["大城市", "dà chéngshì", "big city"],
+        ["找", "zhǎo", "to look for"],
+        ["一份", "yí fèn", "one (measure: jobs)"],
+        ["跟", "gēn", "with"],
+        ["网络", "wǎngluò", "internet; network"],
+        ["有关系", "yǒu guānxi", "related to"],
+        ["的", "de", "(particle: possessive)"],
+        ["工作", "gōngzuò", "job"],
+        ["。"]
+      ],
+      "en": "But I am especially interested in computer technology and want to go to a big city to find a job related to the internet."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "I; me"],
+        [","],
+        ["选", "xuǎn", "to choose"],
+        ["职业", "zhíyè", "career"],
+        ["的", "de", "(particle: possessive)"],
+        ["时候", "shíhou", "time; when"],
+        [","],
+        ["工资", "gōngzī", "salary"],
+        ["当然", "dāngrán", "of course"],
+        ["重要", "zhòngyào", "important"],
+        [","],
+        ["但是", "dànshì", "but"],
+        ["兴趣", "xìngqù", "interest"],
+        ["更", "gèng", "even more"],
+        ["重要", "zhòngyào", "important"],
+        ["。"]
+      ],
+      "en": "A friend told me that when choosing a career, salary matters of course, but interest matters even more."
+    },
+    {
+      "t": [
+        ["如果", "rúguǒ", "if"],
+        ["你", "nǐ", "you"],
+        ["每天", "měi tiān", "every day"],
+        ["做", "zuò", "to do"],
+        ["自己", "zìjǐ", "oneself"],
+        ["不", "bù", "not"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["的", "de", "(particle: possessive)"],
+        ["事情", "shìqing", "things"],
+        [","],
+        ["再", "zài", "no matter how"],
+        ["高", "gāo", "high"],
+        ["的", "de", "(particle: possessive)"],
+        ["工资", "gōngzī", "salary"],
+        ["也", "yě", "also; still"],
+        ["不能", "bù néng", "cannot"],
+        ["让", "ràng", "to make; let"],
+        ["你", "nǐ", "you"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "If you spend every day doing things you don't like, no salary, however high, can make you happy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["想了", "xiǎngle", "thought"],
+        ["很久", "hěn jiǔ", "a long time"],
+        [","],
+        ["决定", "juédìng", "to decide"],
+        ["先", "xiān", "first"],
+        ["去", "qù", "to go"],
+        ["一家", "yì jiā", "one (measure: companies)"],
+        ["网络", "wǎngluò", "internet"],
+        ["公司", "gōngsī", "company"],
+        ["试试", "shìshi", "to give it a try"],
+        [","],
+        ["积累", "jīlěi", "to accumulate"],
+        ["一些", "yìxiē", "some"],
+        ["经验", "jīngyàn", "experience"],
+        ["。"]
+      ],
+      "en": "I thought for a long time and decided to first try working at an internet company to gain some experience."
+    },
+    {
+      "t": [
+        ["爸爸", "bàba", "dad"],
+        ["妈妈", "māma", "mom"],
+        ["虽然", "suīrán", "although"],
+        ["有点儿", "yǒudiǎnr", "a little"],
+        ["失望", "shīwàng", "disappointed"],
+        [","],
+        ["但是", "dànshì", "but"],
+        ["最后", "zuìhòu", "in the end"],
+        ["还是", "háishi", "still; after all"],
+        ["支持", "zhīchí", "to support"],
+        ["了", "le", "(particle: completed action)"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(particle: possessive)"],
+        ["决定", "juédìng", "decision"],
+        ["。"]
+      ],
+      "en": "Although Mom and Dad were a little disappointed, in the end they still supported my decision."
+    },
+    {
+      "t": [
+        ["职业", "zhíyè", "career"],
+        ["就像", "jiù xiàng", "just like"],
+        ["鞋子", "xiézi", "shoes"],
+        [","],
+        ["合不合适", "hé bu héshì", "whether it fits"],
+        [","],
+        ["只有", "zhǐyǒu", "only"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(particle: possessive)"],
+        ["脚", "jiǎo", "foot"],
+        ["知道", "zhīdào", "to know"],
+        ["。"]
+      ],
+      "en": "A career is just like a pair of shoes: only your own feet know whether it fits."
+    }
+  ],
+  "vocab": [
+    ["职业", "zhíyè", "career; profession"],
+    ["稳定", "wěndìng", "stable"],
+    ["压力", "yālì", "pressure; stress"],
+    ["工资", "gōngzī", "salary"],
+    ["积累", "jīlěi", "to accumulate"],
+    ["支持", "zhīchí", "to support"]
+  ],
+  "quiz": [
+    {
+      "q": "父母希望我做什么工作?",
+      "a": ["老师", "医生", "跟网络有关系的工作"],
+      "c": 0
+    },
+    {
+      "q": "朋友觉得选职业的时候什么更重要?",
+      "a": ["工资", "兴趣", "城市大小"],
+      "c": 1
+    },
+    {
+      "q": "我最后的决定是什么?",
+      "a": ["当老师", "先去一家网络公司试试", "回家帮父母工作"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "对……感兴趣",
+      "e": "'to be interested in...' — the object of interest goes after 对, before 感兴趣.",
+      "x": "我对电脑技术特别感兴趣。"
+    },
+    {
+      "p": "再 + adj + 也……",
+      "e": "'no matter how (adj), still...' — an extreme degree that still cannot change the result.",
+      "x": "再高的工资也不能让你快乐。"
+    },
+    {
+      "p": "虽然……但是……",
+      "e": "'although... but...' — Chinese uses both connectors together in one sentence.",
+      "x": "爸爸妈妈虽然有点儿失望,但是最后还是支持了我的决定。"
+    }
+  ]
+}

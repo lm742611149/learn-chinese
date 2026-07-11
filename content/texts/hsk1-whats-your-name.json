@@ -1,0 +1,130 @@
+{
+  "slug": "hsk1-whats-your-name",
+  "level": 1,
+  "title_zh": "你叫什么名字",
+  "title_py": "Nǐ jiào shénme míngzi",
+  "title_en": "What's Your Name",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["学校", "xuéxiào", "school"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle: completed action)"],
+        ["一个", "yí gè", "one; a"],
+        ["同学", "tóngxué", "classmate"],
+        ["。"]
+      ],
+      "en": "At school I got to know a classmate."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        [":"],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["叫", "jiào", "to be called"],
+        ["什么", "shénme", "what"],
+        ["名字", "míngzi", "name"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "He asks me: \"What's your name?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["叫", "jiào", "to be called"],
+        ["王小明", "Wáng Xiǎomíng", "Wang Xiaoming (name)"],
+        [","],
+        ["你", "nǐ", "you"],
+        ["呢", "ne", "(particle: and you?)"],
+        ["?"],
+        ["”"]
+      ],
+      "en": "I say: \"My name is Wang Xiaoming. And you?\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        [":"],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["叫", "jiào", "to be called"],
+        ["李明", "Lǐ Míng", "Li Ming (name)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He says: \"My name is Li Ming.\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["二十", "èrshí", "twenty"],
+        ["岁", "suì", "years old"],
+        [","],
+        ["是", "shì", "to be"],
+        ["中国人", "Zhōngguórén", "Chinese person"],
+        ["。"]
+      ],
+      "en": "He is twenty years old and is Chinese."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["现在", "xiànzài", "now"],
+        ["是", "shì", "to be"],
+        ["好", "hǎo", "good"],
+        ["朋友", "péngyou", "friend"],
+        ["。"]
+      ],
+      "en": "We are good friends now."
+    }
+  ],
+  "vocab": [
+    ["认识", "rènshi", "to get to know"],
+    ["同学", "tóngxué", "classmate"],
+    ["问", "wèn", "to ask"],
+    ["名字", "míngzi", "name"],
+    ["岁", "suì", "years old"],
+    ["朋友", "péngyou", "friend"]
+  ],
+  "quiz": [
+    {
+      "q": "我在哪儿认识他?",
+      "a": ["学校", "医院", "火车站"],
+      "c": 0
+    },
+    {
+      "q": "他叫什么名字?",
+      "a": ["王小明", "李明", "王明"],
+      "c": 1
+    },
+    {
+      "q": "他多少岁?",
+      "a": ["十二岁", "三十岁", "二十岁"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "你呢?",
+      "e": "呢 bounces the same question back to the other person: 'and you?'",
+      "x": "我叫王小明,你呢?"
+    },
+    {
+      "p": "叫 + name",
+      "e": "Use 叫 to give your name: 我叫 + name.",
+      "x": "我叫李明。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "hsk3-getting-lost",
+  "level": 3,
+  "title_zh": "迷路",
+  "title_py": "Mílù",
+  "title_en": "Getting Lost",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last (week/month)"],["个","gè","(measure word)"],["周末","zhōumò","weekend"],[","],["我","wǒ","I; me"],["一个人","yí gè rén","alone; by oneself"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["去","qù","to go"],["公园","gōngyuán","park"],["玩儿","wánr","to have fun"],["。"]],
+      "en": "Last weekend, I rode my bike to the park alone to have some fun."
+    },
+    {
+      "t": [["回家","huí jiā","to go home"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],[","],["天","tiān","sky; day"],["黑","hēi","dark; black"],["了","le","(particle: new situation)"],[","],["我","wǒ","I; me"],["发现","fāxiàn","to discover; to find"],["自己","zìjǐ","oneself"],["迷路","mílù","to get lost"],["了","le","(particle: new situation)"],["。"]],
+      "en": "On the way home, it got dark, and I found that I was lost."
+    },
+    {
+      "t": [["手机","shǒujī","mobile phone"],["也","yě","also"],["没","méi","not have; without"],["电","diàn","electricity; battery"],["了","le","(particle: new situation)"],[","],["不","bù","not"],["能","néng","can; to be able to"],["看","kàn","to look at"],["地图","dìtú","map"],[","],["我","wǒ","I; me"],["非常","fēicháng","very; extremely"],["着急","zháojí","worried; anxious"],["。"]],
+      "en": "My phone was out of battery too, so I couldn't check the map, and I was extremely anxious."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["路","lù","road"],["边","biān","side"],["的","de","(particle: attributive)"],["一位","yí wèi","one (polite measure)"],["老人","lǎorén","elderly person"],[":"],["“"],["请问","qǐngwèn","excuse me; may I ask"],[","],["去","qù","to go"],["中山路","Zhōngshān Lù","Zhongshan Road"],["怎么","zěnme","how"],["走","zǒu","to walk; to go"],["?"],["”"]],
+      "en": "I asked an elderly man by the road: \"Excuse me, how do I get to Zhongshan Road?\""
+    },
+    {
+      "t": [["他","tā","he"],["热情","rèqíng","warm; friendly"],["地","de","(particle: adverbial)"],["说","shuō","to say"],[":"],["“"],["你","nǐ","you"],["一直","yìzhí","straight; all along"],["向","xiàng","toward"],["前","qián","front; ahead"],["走","zǒu","to walk"],[","],["到","dào","to arrive"],["了","le","(particle: completed)"],["红绿灯","hónglǜdēng","traffic light"],[","],["再","zài","then; again"],["向","xiàng","toward"],["右边","yòubian","right side"],["走","zǒu","to walk"],["十","shí","ten"],["分钟","fēnzhōng","minute"],["就","jiù","then; right away"],["到","dào","to arrive"],["了","le","(particle: completed)"],["。"],["”"]],
+      "en": "He said warmly: \"Keep walking straight ahead; when you reach the traffic light, walk to the right for ten minutes and you'll be there.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["快","kuài","fast; quickly"],["就","jiù","then; soon"],["找到","zhǎodào","to find"],["了","le","(particle: completed)"],["回家","huí jiā","to go home"],["的","de","(particle: attributive)"],["路","lù","road; way"],[","],["心里","xīnli","in one's heart"],["终于","zhōngyú","finally"],["放心","fàngxīn","to feel relieved"],["了","le","(particle: new situation)"],["。"]],
+      "en": "I soon found the way home, and my heart was finally at ease."
+    },
+    {
+      "t": [["以后","yǐhòu","from now on; later"],["我","wǒ","I; me"],["每","měi","every"],["次","cì","time (occurrence)"],["出门","chūmén","to go out"],[","],["都","dōu","all; always"],["会","huì","will"],["先","xiān","first"],["看","kàn","to look at"],["好","hǎo","well (result)"],["地图","dìtú","map"],["。"]],
+      "en": "From now on, every time I go out, I will check the map carefully first."
+    }
+  ],
+  "vocab": [
+    ["迷路","mílù","to get lost"],
+    ["地图","dìtú","map"],
+    ["着急","zháojí","worried; anxious"],
+    ["一直","yìzhí","straight; all along"],
+    ["红绿灯","hónglǜdēng","traffic light"],
+    ["终于","zhōngyú","finally"]
+  ],
+  "quiz": [
+    {"q": "我周末骑什么去公园?", "a": ["自行车", "摩托车", "马"], "c": 0},
+    {"q": "我为什么不能看地图?", "a": ["没带手机", "手机没电了", "不会看地图"], "c": 1},
+    {"q": "老人让我到了红绿灯以后怎么走?", "a": ["向左边走", "一直向前走", "向右边走十分钟"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "一直 + verb", "e": "一直 means 'straight' with direction verbs, or 'continuously' with other verbs.", "x": "你一直向前走,到了红绿灯,再向右边走十分钟就到了。"},
+    {"p": "adj + 地 + verb", "e": "地 turns an adjective into an adverb describing how an action is done.", "x": "他热情地说。"}
+  ]
+}
