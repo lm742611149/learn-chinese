@@ -1,0 +1,122 @@
+{
+  "slug": "hsk1-sunday",
+  "level": 1,
+  "title_zh": "星期天",
+  "title_py": "Xīngqītiān",
+  "title_en": "Sunday",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["是", "shì", "to be"],
+        ["星期天", "xīngqītiān", "Sunday"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["工作", "gōngzuò", "to work"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "Today is Sunday — I don't work, and I'm very happy."
+    },
+    {
+      "t": [
+        ["上午", "shàngwǔ", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["家", "jiā", "home"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["看", "kàn", "to read; to look at"],
+        ["书", "shū", "book"],
+        ["。"]
+      ],
+      "en": "In the morning I stay home, drinking tea and reading."
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["朋友", "péngyou", "friend"],
+        ["去", "qù", "to go"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["吃饭", "chī fàn", "to eat (a meal)"],
+        ["，"],
+        ["菜", "cài", "dish; food"],
+        ["很", "hěn", "very"],
+        ["好吃", "hǎochī", "delicious"],
+        ["。"]
+      ],
+      "en": "At noon my friend and I go to a restaurant, and the food is delicious."
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我们", "wǒmen", "we; us"],
+        ["去", "qù", "to go"],
+        ["看", "kàn", "to watch"],
+        ["电影", "diànyǐng", "movie"],
+        ["。"]
+      ],
+      "en": "In the afternoon we go to see a movie."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "all; both"],
+        ["爱", "ài", "to love"],
+        ["星期天", "xīngqītiān", "Sunday"],
+        ["！"]
+      ],
+      "en": "We all love Sundays!"
+    }
+  ],
+  "vocab": [
+    ["星期天", "xīngqītiān", "Sunday"],
+    ["工作", "gōngzuò", "to work"],
+    ["饭馆", "fànguǎn", "restaurant"],
+    ["好吃", "hǎochī", "delicious"],
+    ["电影", "diànyǐng", "movie"],
+    ["高兴", "gāoxìng", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "Why is the narrator happy today?",
+      "a": ["It's Sunday and there's no work", "It's a friend's birthday", "The weather is hot"],
+      "c": 0
+    },
+    {
+      "q": "Where does the narrator eat lunch?",
+      "a": ["At home", "At school", "At a restaurant"],
+      "c": 2
+    },
+    {
+      "q": "What do the narrator and the friend do in the afternoon?",
+      "a": ["Drink coffee", "Watch a movie", "Read books"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 是 B",
+      "e": "是 links two nouns to say A is B, like an equals sign: 今天是星期天 = today is Sunday.",
+      "x": "今天是星期天。 — Today is Sunday."
+    },
+    {
+      "p": "很 + adjective",
+      "e": "Chinese adjectives usually take 很 before them instead of 是: 我很高兴 = I am happy, not 我是高兴.",
+      "x": "我很高兴。 — I am very happy."
+    },
+    {
+      "p": "A 和 B",
+      "e": "和 joins two nouns, like English 'and': 我和朋友 = my friend and I. It does not join whole sentences.",
+      "x": "中午我和朋友去饭馆吃饭。 — At noon my friend and I go to a restaurant to eat."
+    }
+  ]
+}

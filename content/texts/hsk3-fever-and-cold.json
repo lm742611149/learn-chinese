@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-fever-and-cold",
+  "level": 3,
+  "title_zh": "发烧感冒",
+  "title_py": "Fāshāo gǎnmào",
+  "title_en": "Fever and Cold",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["前天","qiántiān","the day before yesterday"],["晚上","wǎnshang","evening; night"],["下","xià","to fall (rain)"],["大雨","dàyǔ","heavy rain"],["，"],["我","wǒ","I; me"],["没","méi","did not"],["带","dài","to bring"],["伞","sǎn","umbrella"],["，"],["回到","huídào","to return to"],["家","jiā","home"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["衣服","yīfu","clothes"],["上","shang","on"],["都","dōu","all"],["是","shì","to be"],["水","shuǐ","water"],["。"]],
+      "en": "The night before last it rained heavily and I hadn't brought an umbrella; by the time I got home, my clothes were soaked."
+    },
+    {
+      "t": [["昨天","zuótiān","yesterday"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["一","yì","as soon as"],["起床","qǐchuáng","to get up"],["就","jiù","then (right away)"],["觉得","juéde","to feel"],["头疼","tóuténg","to have a headache"],["，"],["一直","yìzhí","all along; continuously"],["想","xiǎng","to want"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "Yesterday morning, as soon as I got up, my head hurt and I kept wanting to sleep."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["想","xiǎng","to think"],["自己","zìjǐ","oneself"],["可能","kěnéng","possibly; maybe"],["是","shì","to be"],["感冒","gǎnmào","to catch a cold"],["了","le","(particle: new situation)"],["，"],["就","jiù","so; then"],["吃","chī","to take (medicine)"],["了","le","(particle: completed)"],["一点儿","yìdiǎnr","a little"],["药","yào","medicine"],["，"],["可是","kěshì","but"],["到","dào","to reach"],["了","le","(particle: completed)"],["晚上","wǎnshang","evening; night"],["，"],["我","wǒ","I; me"],["开始","kāishǐ","to start"],["发烧","fāshāo","to have a fever"],["。"]],
+      "en": "I thought I might have caught a cold, so I took a little medicine, but by evening I had started running a fever."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["，"],["我","wǒ","I; me"],["请","qǐng","to request"],["了","le","(particle: completed)"],["假","jià","leave (from work)"],["，"],["去","qù","to go"],["医院","yīyuàn","hospital"],["看","kàn","to see (a doctor)"],["医生","yīshēng","doctor"],["。"]],
+      "en": "This morning I took the day off work and went to the hospital to see a doctor."
+    },
+    {
+      "t": [["医生","yīshēng","doctor"],["给","gěi","for; to"],["我","wǒ","I; me"],["做","zuò","to do"],["了","le","(particle: completed)"],["检查","jiǎnchá","examination; check-up"],["，"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["感冒","gǎnmào","to catch a cold"],["了","le","(particle: new situation)"],["，"],["还","hái","also; in addition"],["发烧","fāshāo","to have a fever"],["三十八","sānshíbā","thirty-eight"],["度","dù","degree"],["。"],["”"]],
+      "en": "The doctor examined me and said: \"You have a cold, and you're running a fever of thirty-eight degrees.\""
+    },
+    {
+      "t": [["他","tā","he"],["让","ràng","to tell (sb to do)"],["我","wǒ","I; me"],["先","xiān","first"],["吃","chī","to take (medicine)"],["三","sān","three"],["天","tiān","day"],["药","yào","medicine"],["，"],["然后","ránhòu","then; after that"],["在","zài","at"],["家","jiā","home"],["好好","hǎohǎo","well; properly"],["休息","xiūxi","to rest"],["，"],["多","duō","more"],["喝","hē","to drink"],["水","shuǐ","water"],["。"]],
+      "en": "He told me to take medicine for three days first, then rest well at home and drink plenty of water."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["吃","chī","to take (medicine)"],["了","le","(particle: completed)"],["药","yào","medicine"],["，"],["睡","shuì","to lie; to sleep"],["在","zài","at; on"],["床","chuáng","bed"],["上","shang","on"],["，"],["觉得","juéde","to feel"],["比","bǐ","than (comparison)"],["昨天","zuótiān","yesterday"],["好","hǎo","good; well"],["多了","duō le","much (better)"],["。"]],
+      "en": "Now I've taken my medicine and I'm lying in bed, feeling much better than yesterday."
+    },
+    {
+      "t": [["以后","yǐhòu","from now on"],["下雨","xiàyǔ","to rain"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["我","wǒ","I; me"],["一定","yídìng","definitely"],["要","yào","must"],["带","dài","to bring"],["伞","sǎn","umbrella"],["，"],["身体","shēntǐ","body; health"],["健康","jiànkāng","healthy"],["最","zuì","most"],["重要","zhòngyào","important"],["！"]],
+      "en": "From now on, when it rains I'll definitely bring an umbrella — good health matters most!"
+    }
+  ],
+  "vocab": [
+    ["感冒","gǎnmào","to catch a cold"],
+    ["发烧","fāshāo","to have a fever"],
+    ["头疼","tóuténg","to have a headache"],
+    ["检查","jiǎnchá","examination; check-up"],
+    ["请假","qǐngjià","to ask for leave"],
+    ["度","dù","degree (temperature)"]
+  ],
+  "quiz": [
+    {"q": "How did the narrator probably get sick?", "a": ["He ate something bad", "He got caught in heavy rain without an umbrella", "He exercised too much"], "c": 1},
+    {"q": "What was his temperature at the hospital?", "a": ["Thirty-seven degrees", "Thirty-nine degrees", "Thirty-eight degrees"], "c": 2},
+    {"q": "What did the doctor tell him to do?", "a": ["Take medicine for three days and rest at home", "Stay in the hospital for a week", "Come back for another check-up tomorrow"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "一 + verb1 + 就 + verb2", "e": "一…就… means 'as soon as A happens, B happens' — the second action follows the first immediately, e.g. 我一到家就给你打电话.", "x": "我一起床就觉得头疼。 — As soon as I got up, my head hurt."},
+    {"p": "先……，然后……", "e": "先…然后… lays out steps in order: 'first ..., then ...'. Each part is a full verb phrase, e.g. 先做检查，然后拿药.", "x": "他让我先吃三天药，然后在家好好休息。 — He told me to take medicine for three days first, then rest well at home."},
+    {"p": "A 比 B + adjective + 多了", "e": "比 compares two things; adding 多了 after the adjective means 'much (more) ...', a big difference, e.g. 今天比昨天冷多了.", "x": "我觉得比昨天好多了。 — I feel much better than yesterday."}
+  ]
+}

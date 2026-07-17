@@ -1,0 +1,283 @@
+{
+  "slug": "hsk6-deep-work",
+  "level": 6,
+  "title_zh": "深度工作",
+  "title_py": "Shēndù gōngzuò",
+  "title_en": "Deep Work",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in; at"],
+        ["信息", "xìnxī", "information"],
+        ["爆炸", "bàozhà", "explosion"],
+        ["的", "de", "(possessive particle)"],
+        ["时代", "shídài", "era"],
+        ["，"],
+        ["注意力", "zhùyìlì", "attention"],
+        ["已经", "yǐjīng", "already"],
+        ["成为", "chéngwéi", "to become"],
+        ["最", "zuì", "most"],
+        ["稀缺", "xīquē", "scarce"],
+        ["的", "de", "(possessive particle)"],
+        ["资源", "zīyuán", "resource"],
+        ["之一", "zhīyī", "one of"],
+        ["。"]
+      ],
+      "en": "In an age of information explosion, attention has become one of our scarcest resources."
+    },
+    {
+      "t": [
+        ["许多", "xǔduō", "many"],
+        ["人", "rén", "people"],
+        ["整天", "zhěngtiān", "all day long"],
+        ["忙忙碌碌", "mángmáng lùlù", "bustling about"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["发现", "fāxiàn", "to discover"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(possessive particle)"],
+        ["工作", "gōngzuò", "work"],
+        ["几乎", "jīhū", "almost"],
+        ["没有", "méiyǒu", "not have"],
+        ["推进", "tuījìn", "to advance; push forward"],
+        ["。"]
+      ],
+      "en": "Many people bustle about all day, only to find that their genuinely important work has barely moved forward."
+    },
+    {
+      "t": [
+        ["原因", "yuányīn", "reason"],
+        ["很", "hěn", "very"],
+        ["简单", "jiǎndān", "simple"],
+        ["："],
+        ["他们", "tāmen", "they"],
+        ["的", "de", "(possessive particle)"],
+        ["时间", "shíjiān", "time"],
+        ["被", "bèi", "(passive marker)"],
+        ["邮件", "yóujiàn", "email"],
+        ["、"],
+        ["会议", "huìyì", "meeting"],
+        ["和", "hé", "and"],
+        ["各种", "gèzhǒng", "all kinds of"],
+        ["通知", "tōngzhī", "notification"],
+        ["切割", "qiēgē", "to cut; slice"],
+        ["成", "chéng", "into"],
+        ["了", "le", "(completed action)"],
+        ["碎片", "suìpiàn", "fragments"],
+        ["。"]
+      ],
+      "en": "The reason is simple: their time has been sliced into fragments by email, meetings, and endless notifications."
+    },
+    {
+      "t": [
+        ["所谓", "suǒwèi", "so-called"],
+        ["“"],
+        ["深度", "shēndù", "deep; depth"],
+        ["工作", "gōngzuò", "work"],
+        ["”"],
+        ["，"],
+        ["指的是", "zhǐ de shì", "refers to"],
+        ["在", "zài", "in; under"],
+        ["不受", "bú shòu", "not subject to"],
+        ["干扰", "gānrǎo", "disturbance; interference"],
+        ["的", "de", "(possessive particle)"],
+        ["状态", "zhuàngtài", "state; condition"],
+        ["下", "xià", "under"],
+        ["，"],
+        ["长时间", "cháng shíjiān", "for a long time"],
+        ["专注", "zhuānzhù", "to concentrate"],
+        ["于", "yú", "on (literary)"],
+        ["一项", "yí xiàng", "one (measure for tasks)"],
+        ["高价值", "gāo jiàzhí", "high-value"],
+        ["任务", "rènwù", "task"],
+        ["的", "de", "(possessive particle)"],
+        ["能力", "nénglì", "ability"],
+        ["。"]
+      ],
+      "en": "So-called \"deep work\" is the ability to concentrate without distraction on a single high-value task for an extended period."
+    },
+    {
+      "t": [
+        ["一位", "yí wèi", "one (polite measure word)"],
+        ["作家", "zuòjiā", "writer"],
+        ["朋友", "péngyou", "friend"],
+        ["的", "de", "(possessive particle)"],
+        ["做法", "zuòfǎ", "approach; practice"],
+        ["颇", "pō", "quite (formal)"],
+        ["有", "yǒu", "to have"],
+        ["启发", "qǐfā", "inspiration"],
+        ["："],
+        ["他", "tā", "he"],
+        ["每天", "měitiān", "every day"],
+        ["清晨", "qīngchén", "early morning"],
+        ["把", "bǎ", "(object marker)"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["锁进", "suǒjìn", "to lock into"],
+        ["抽屉", "chōuti", "drawer"],
+        ["，"],
+        ["连续", "liánxù", "continuously"],
+        ["写作", "xiězuò", "to write"],
+        ["三个", "sān ge", "three"],
+        ["小时", "xiǎoshí", "hour"],
+        ["，"],
+        ["之后", "zhīhòu", "afterwards"],
+        ["才", "cái", "only then"],
+        ["处理", "chǔlǐ", "to deal with"],
+        ["琐事", "suǒshì", "trivial matters"],
+        ["。"]
+      ],
+      "en": "A writer friend of mine has an instructive habit: every morning he locks his phone in a drawer, writes for three hours straight, and only then deals with trivial matters."
+    },
+    {
+      "t": [
+        ["结果", "jiéguǒ", "as a result"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["一年", "yì nián", "one year"],
+        ["完成", "wánchéng", "to complete"],
+        ["的", "de", "(possessive particle)"],
+        ["作品", "zuòpǐn", "works (of writing)"],
+        ["，"],
+        ["比", "bǐ", "compared with"],
+        ["过去", "guòqù", "past"],
+        ["三年", "sān nián", "three years"],
+        ["加起来", "jiā qǐlái", "added together"],
+        ["还", "hái", "even"],
+        ["多", "duō", "more"],
+        ["。"]
+      ],
+      "en": "As a result, what he finished in one year exceeded the previous three years combined."
+    },
+    {
+      "t": [
+        ["深度", "shēndù", "deep; depth"],
+        ["工作", "gōngzuò", "work"],
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["稀少", "xīshǎo", "rare; scarce"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["它", "tā", "it"],
+        ["违背", "wéibèi", "to go against"],
+        ["了", "le", "(completed action)"],
+        ["大脑", "dànǎo", "brain"],
+        ["追求", "zhuīqiú", "to seek; pursue"],
+        ["新鲜", "xīnxiān", "fresh; novel"],
+        ["刺激", "cìjī", "stimulation"],
+        ["的", "de", "(possessive particle)"],
+        ["本能", "běnnéng", "instinct"],
+        ["，"],
+        ["需要", "xūyào", "to require"],
+        ["刻意", "kèyì", "deliberate"],
+        ["训练", "xùnliàn", "training"],
+        ["。"]
+      ],
+      "en": "Deep work is rare precisely because it goes against the brain's instinct to seek fresh stimulation, and therefore requires deliberate training."
+    },
+    {
+      "t": [
+        ["一旦", "yídàn", "once; as soon as"],
+        ["你", "nǐ", "you"],
+        ["尝到", "chángdào", "to taste; experience"],
+        ["了", "le", "(completed action)"],
+        ["全神贯注", "quán shén guàn zhù", "total absorption"],
+        ["的", "de", "(possessive particle)"],
+        ["甜头", "tiántou", "sweetness; benefit"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["很难", "hěn nán", "very hard"],
+        ["再", "zài", "again; any longer"],
+        ["忍受", "rěnshòu", "to endure; tolerate"],
+        ["浅薄", "qiǎnbó", "shallow"],
+        ["而", "ér", "and (formal)"],
+        ["零碎", "língsuì", "fragmentary"],
+        ["的", "de", "(possessive particle)"],
+        ["忙碌", "mánglù", "busyness"],
+        ["。"]
+      ],
+      "en": "Once you have tasted the rewards of total absorption, it becomes hard to tolerate shallow, fragmented busyness again."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["抱怨", "bàoyuàn", "to complain"],
+        ["时间", "shíjiān", "time"],
+        ["不够", "bú gòu", "not enough"],
+        ["，"],
+        ["不如", "bùrú", "better to"],
+        ["问问", "wènwen", "to ask"],
+        ["自己", "zìjǐ", "oneself"],
+        ["："],
+        ["今天", "jīntiān", "today"],
+        ["有没有", "yǒu méiyǒu", "whether or not (one has)"],
+        ["留出", "liúchū", "to set aside"],
+        ["一段", "yí duàn", "a stretch of"],
+        ["完整", "wánzhěng", "complete; whole"],
+        ["的", "de", "(possessive particle)"],
+        ["、"],
+        ["不", "bú", "not"],
+        ["被", "bèi", "(passive marker)"],
+        ["打扰", "dǎrǎo", "to disturb"],
+        ["的", "de", "(possessive particle)"],
+        ["时间", "shíjiān", "time"],
+        ["？"]
+      ],
+      "en": "Rather than complaining that there is never enough time, ask yourself: did you set aside one whole, uninterrupted block of time today?"
+    }
+  ],
+  "vocab": [
+    ["稀缺", "xīquē", "scarce; in short supply"],
+    ["干扰", "gānrǎo", "disturbance; to interfere"],
+    ["琐事", "suǒshì", "trivial matters; chores"],
+    ["本能", "běnnéng", "instinct"],
+    ["全神贯注", "quán shén guàn zhù", "to be fully absorbed; rapt concentration"],
+    ["零碎", "língsuì", "fragmentary; scrappy"]
+  ],
+  "quiz": [
+    {
+      "q": "Why do many people find their important work barely advances, according to the text?",
+      "a": [
+        "They lack the necessary professional skills",
+        "They spend too much time sleeping",
+        "Their time is sliced into fragments by email, meetings, and notifications"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What does the writer friend do every morning?",
+      "a": [
+        "He locks his phone in a drawer and writes for three hours straight",
+        "He answers all his emails before starting to write",
+        "He goes for a long run to clear his mind"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Why is deep work rare, according to the text?",
+      "a": [
+        "Because most jobs do not allow employees any quiet time",
+        "Because it goes against the brain's instinct to seek fresh stimulation",
+        "Because only writers and artists are capable of it"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "之所以…，是因为…",
+      "e": "A formal pattern that states a result first and then its cause: 'the reason why A is that B'. It puts emphasis on the explanation. 例：他之所以成功，是因为坚持。",
+      "x": "深度工作之所以稀少，是因为它违背了大脑追求新鲜刺激的本能。 — Deep work is rare precisely because it goes against the brain's instinct to seek fresh stimulation."
+    },
+    {
+      "p": "一旦…，就…",
+      "e": "'Once A happens, B follows.' 一旦 marks a hypothetical or future trigger event, and 就 introduces the inevitable consequence.",
+      "x": "一旦你尝到了全神贯注的甜头，就很难再忍受浅薄而零碎的忙碌。 — Once you have tasted the rewards of total absorption, it becomes hard to tolerate shallow, fragmented busyness again."
+    },
+    {
+      "p": "与其…，不如…",
+      "e": "A comparison of two options meaning 'rather than A, it would be better to B'. The option after 不如 is the one recommended.",
+      "x": "与其抱怨时间不够，不如问问自己：今天有没有留出一段完整的、不被打扰的时间？ — Rather than complaining that there is never enough time, ask yourself: did you set aside one whole, uninterrupted block of time today?"
+    }
+  ]
+}

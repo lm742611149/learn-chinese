@@ -1,0 +1,149 @@
+{
+  "slug": "hsk1-fun-numbers",
+  "level": 1,
+  "title_zh": "数字真有趣",
+  "title_py": "Shùzì zhēn yǒuqù",
+  "title_en": "Numbers Are Fun",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["爱", "ài", "to love"],
+        ["学习", "xuéxí", "to study"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["，"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["的", "de", "(possessive)"],
+        ["数字", "shùzì", "number"],
+        ["真", "zhēn", "really"],
+        ["有趣", "yǒuqù", "interesting; fun"],
+        ["！"]
+      ],
+      "en": "I love studying Chinese, and Chinese numbers are really fun!"
+    },
+    {
+      "t": [
+        ["你", "nǐ", "you"],
+        ["看", "kàn", "to look"],
+        ["，"],
+        ["一", "yī", "one"],
+        ["，"],
+        ["二", "èr", "two"],
+        ["，"],
+        ["三", "sān", "three"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "easy (to)"],
+        ["写", "xiě", "to write"],
+        ["。"]
+      ],
+      "en": "Look — one, two, and three are all easy to write."
+    },
+    {
+      "t": [
+        ["十", "shí", "ten"],
+        ["和", "hé", "and"],
+        ["一", "yī", "one"],
+        ["是", "shì", "to be"],
+        ["十一", "shíyī", "eleven"],
+        ["，"],
+        ["十", "shí", "ten"],
+        ["和", "hé", "and"],
+        ["二", "èr", "two"],
+        ["是", "shì", "to be"],
+        ["十二", "shí'èr", "twelve"],
+        ["。"]
+      ],
+      "en": "Ten and one make eleven; ten and two make twelve."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["今年", "jīnnián", "this year"],
+        ["三十", "sānshí", "thirty"],
+        ["岁", "suì", "years old"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["女儿", "nǚ'ér", "daughter"],
+        ["三", "sān", "three"],
+        ["岁", "suì", "years old"],
+        ["。"]
+      ],
+      "en": "I'm thirty this year, and my daughter is three."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["会", "huì", "can; to know how to"],
+        ["说", "shuō", "to say"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["数字", "shùzì", "number"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "She can already say lots of numbers, which makes us all very happy."
+    },
+    {
+      "t": [
+        ["你", "nǐ", "you"],
+        ["会", "huì", "can; to know how to"],
+        ["写", "xiě", "to write"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["的", "de", "(possessive)"],
+        ["数字", "shùzì", "number"],
+        ["吗", "ma", "(question particle)"],
+        ["？"]
+      ],
+      "en": "Can you write numbers in Chinese?"
+    }
+  ],
+  "vocab": [
+    ["数字", "shùzì", "number"],
+    ["真", "zhēn", "really"],
+    ["有趣", "yǒuqù", "interesting; fun"],
+    ["写", "xiě", "to write"],
+    ["岁", "suì", "years old"],
+    ["女儿", "nǚ'ér", "daughter"]
+  ],
+  "quiz": [
+    {
+      "q": "How old is the narrator this year?",
+      "a": ["Thirty", "Thirteen", "Three"],
+      "c": 0
+    },
+    {
+      "q": "Who can say lots of numbers?",
+      "a": ["The narrator's teacher", "The narrator's son", "The narrator's daughter"],
+      "c": 2
+    },
+    {
+      "q": "According to the text, which numbers are easy to write?",
+      "a": ["Ten, eleven, and twelve", "One, two, and three", "Thirty and three"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "会 + verb",
+      "e": "会 means someone can do something because they learned it: 会说 = can say, 会写 = can write.",
+      "x": "她会说很多数字。 — She can say lots of numbers."
+    },
+    {
+      "p": "person + number + 岁",
+      "e": "Ages need no verb in Chinese — just put the number and 岁 right after the person: 我三十岁 = I am thirty.",
+      "x": "我女儿三岁。 — My daughter is three years old."
+    },
+    {
+      "p": "sentence + 吗？",
+      "e": "Add 吗 to the end of a statement to turn it into a yes/no question — the word order stays the same.",
+      "x": "你会写汉语的数字吗？ — Can you write numbers in Chinese?"
+    }
+  ]
+}

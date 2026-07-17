@@ -1,0 +1,196 @@
+{
+  "slug": "hsk2-watch-and-time",
+  "level": 2,
+  "title_zh": "手表和时间",
+  "title_py": "Shǒubiǎo hé shíjiān",
+  "title_en": "The Watch and Time",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["丈夫", "zhàngfu", "husband"],
+        ["有", "yǒu", "to have"],
+        ["一", "yí", "one"],
+        ["块", "kuài", "(measure word for watches)"],
+        ["旧", "jiù", "old (of things)"],
+        ["手表", "shǒubiǎo", "wristwatch"],
+        ["，"],
+        ["是", "shì", "(是…的 emphasis)"],
+        ["他", "tā", "he; him"],
+        ["爸爸", "bàba", "dad"],
+        ["给", "gěi", "to give"],
+        ["他", "tā", "he; him"],
+        ["的", "de", "(是…的 structure)"],
+        ["。"]
+      ],
+      "en": "My husband has an old watch that his father gave him."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["块", "kuài", "(measure word for watches)"],
+        ["手表", "shǒubiǎo", "wristwatch"],
+        ["每天", "měi tiān", "every day"],
+        ["慢", "màn", "slow"],
+        ["五", "wǔ", "five"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["。"]
+      ],
+      "en": "The watch runs five minutes slow every day."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["他", "tā", "he; him"],
+        ["每天", "měi tiān", "every day"],
+        ["都", "dōu", "all; always"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["现在", "xiànzài", "now"],
+        ["几", "jǐ", "what; how many"],
+        ["点", "diǎn", "o'clock"],
+        ["了", "le", "(change of state)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "So every day he asks me: \"What time is it now?\""
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["早上", "zǎoshang", "morning"],
+        ["他", "tā", "he; him"],
+        ["看", "kàn", "to look at"],
+        ["手表", "shǒubiǎo", "wristwatch"],
+        ["是", "shì", "to be"],
+        ["七", "qī", "seven"],
+        ["点", "diǎn", "o'clock"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["时间", "shíjiān", "time"],
+        ["已经", "yǐjīng", "already"],
+        ["是", "shì", "to be"],
+        ["七", "qī", "seven"],
+        ["点", "diǎn", "o'clock"],
+        ["十", "shí", "ten"],
+        ["分", "fēn", "minute"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "Yesterday morning his watch said seven o'clock, but it was actually already ten past seven."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["到", "dào", "to arrive"],
+        ["公司", "gōngsī", "company; office"],
+        ["的时候", "de shíhou", "when; by the time"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["开始", "kāishǐ", "to start"],
+        ["工作", "gōngzuò", "to work"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "By the time he got to the office, everyone had already started working."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["对", "duì", "to; toward"],
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["买", "mǎi", "to buy"],
+        ["一", "yí", "one"],
+        ["块", "kuài", "(measure word for watches)"],
+        ["新", "xīn", "new"],
+        ["手表", "shǒubiǎo", "wristwatch"],
+        ["吧", "ba", "(suggestion particle)"],
+        ["，"],
+        ["不", "bú", "not"],
+        ["贵", "guì", "expensive"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said to him: \"Buy a new watch — they're not expensive.\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["笑", "xiào", "to smile; to laugh"],
+        ["着", "zhe", "(ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["不", "bù", "not"],
+        ["买", "mǎi", "to buy"],
+        ["！"],
+        ["这", "zhè", "this"],
+        ["是", "shì", "to be"],
+        ["爸爸", "bàba", "dad"],
+        ["的", "de", "(possessive)"],
+        ["手表", "shǒubiǎo", "wristwatch"],
+        ["。"],
+        ["从", "cóng", "from"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["开始", "kāishǐ", "to start"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["早", "zǎo", "early"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "He smiled and said: \"No! This is Dad's watch. Starting tomorrow, I'll just get up a little earlier!\""
+    }
+  ],
+  "vocab": [
+    ["手表", "shǒubiǎo", "wristwatch"],
+    ["时间", "shíjiān", "time"],
+    ["丈夫", "zhàngfu", "husband"],
+    ["慢", "màn", "slow"],
+    ["开始", "kāishǐ", "to start; to begin"],
+    ["起床", "qǐchuáng", "to get up"]
+  ],
+  "quiz": [
+    {
+      "q": "Where did the husband's watch come from?",
+      "a": ["He bought it five years ago", "His father gave it to him", "His wife gave it to him"],
+      "c": 1
+    },
+    {
+      "q": "What is wrong with the watch?",
+      "a": ["It runs five minutes slow every day", "It stopped working", "It is too heavy"],
+      "c": 0
+    },
+    {
+      "q": "What is the husband's plan?",
+      "a": ["Buy a new watch", "Ask his wife for the time forever", "Get up a little earlier"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "…的时候 (when…)",
+      "e": "Put 的时候 after a phrase to mean 'when / by the time that…', e.g. 吃饭的时候 (while eating).",
+      "x": "他到公司的时候，大家都开始工作了。 — By the time he got to the office, everyone had started working."
+    },
+    {
+      "p": "从…开始",
+      "e": "从 + time + 开始 means 'starting from…', e.g. 从今天开始 (starting today).",
+      "x": "从明天开始，我早一点儿起床！ — Starting tomorrow, I'll get up a little earlier!"
+    },
+    {
+      "p": "已经…了 (already)",
+      "e": "已经 pairs with sentence-final 了 to say something has already happened or is already the case.",
+      "x": "时间已经是七点十分了。 — It was already ten past seven."
+    }
+  ]
+}

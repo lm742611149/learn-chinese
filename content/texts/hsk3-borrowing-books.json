@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-borrowing-books",
+  "level": 3,
+  "title_zh": "借书",
+  "title_py": "Jiè shū",
+  "title_en": "Borrowing Books",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["看书","kànshū","to read books"],["，"],["但是","dànshì","but"],["书","shū","book"],["太","tài","too"],["贵","guì","expensive"],["了","le","(particle)"],["，"],["所以","suǒyǐ","so; therefore"],["我","wǒ","I; me"],["经常","jīngcháng","often"],["去","qù","to go"],["图书馆","túshūguǎn","library"],["借书","jièshū","to borrow books"],["。"]],
+      "en": "I love reading, but books are too expensive, so I often go to the library to borrow them."
+    },
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["上午","shàngwǔ","morning"],["，"],["我","wǒ","I; me"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["去","qù","to go"],["了","le","(particle: completed)"],["学校","xuéxiào","school"],["旁边","pángbiān","beside; next to"],["的","de","(particle: attributive)"],["图书馆","túshūguǎn","library"],["。"]],
+      "en": "On Saturday morning, I rode my bike to the library next to the school."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["想","xiǎng","to want"],["借","jiè","to borrow"],["的","de","(particle: attributive)"],["那","nà","that"],["本","běn","(measure word for books)"],["书","shū","book"],["很","hěn","very"],["有名","yǒumíng","famous"],["，"],["可是","kěshì","but"],["我","wǒ","I; me"],["找","zhǎo","to look for"],["了","le","(particle: completed)"],["半天","bàntiān","a long time"],["也","yě","still; also"],["没","méi","not"],["找到","zhǎodào","to find"],["。"]],
+      "en": "The book I wanted to borrow is very famous, but I searched for ages and still couldn't find it."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["工作人员","gōngzuò rényuán","staff member"],["："],["“"],["请问","qǐngwèn","excuse me; may I ask"],["，"],["那","nà","that"],["本","běn","(measure word for books)"],["书","shū","book"],["在","zài","to be at"],["哪儿","nǎr","where"],["？"],["”"]],
+      "en": "I asked the staff member: \"Excuse me, where is that book?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["那","nà","that"],["本","běn","(measure word for books)"],["书","shū","book"],["被","bèi","(passive marker)"],["人","rén","someone"],["借走","jièzǒu","to borrow (and take away)"],["了","le","(particle: completed)"],["，"],["下","xià","next"],["星期一","xīngqīyī","Monday"],["才","cái","only then; not until"],["会","huì","will"],["还回来","huán huílai","to be returned"],["。"],["”"]],
+      "en": "She said: \"That book has been borrowed by someone; it won't be back until next Monday.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["先","xiān","first"],["借","jiè","to borrow"],["了","le","(particle: completed)"],["两","liǎng","two"],["本","běn","(measure word for books)"],["别的","biéde","other"],["书","shū","book"],["，"],["然后","ránhòu","then; after that"],["把","bǎ","(marker: object before verb)"],["名字","míngzi","name"],["写","xiě","to write"],["在","zài","at; on"],["借书卡","jièshūkǎ","library card"],["上","shang","on"],["。"]],
+      "en": "I first borrowed two other books, then wrote my name on the library card."
+    },
+    {
+      "t": [["工作人员","gōngzuò rényuán","staff member"],["告诉","gàosu","to tell"],["我","wǒ","I; me"],["，"],["一","yì","one"],["本","běn","(measure word for books)"],["书","shū","book"],["可以","kěyǐ","can; may"],["借","jiè","to borrow"],["一个","yí gè","one (measure)"],["月","yuè","month"],["，"],["到","dào","to reach; up to"],["时间","shíjiān","time"],["一定","yídìng","definitely"],["要","yào","must"],["还","huán","to return (sth)"],["。"]],
+      "en": "The staff member told me a book can be borrowed for one month, and it must be returned on time."
+    },
+    {
+      "t": [["下","xià","next"],["星期一","xīngqīyī","Monday"],["我","wǒ","I; me"],["要","yào","will; be going to"],["再","zài","again"],["去","qù","to go"],["一","yí","one"],["次","cì","time (occurrence)"],["，"],["希望","xīwàng","to hope"],["能","néng","can; be able to"],["借到","jièdào","to succeed in borrowing"],["那","nà","that"],["本","běn","(measure word for books)"],["有名","yǒumíng","famous"],["的","de","(particle: attributive)"],["书","shū","book"],["。"]],
+      "en": "Next Monday I'll go one more time — I hope I can get that famous book."
+    }
+  ],
+  "vocab": [
+    ["借","jiè","to borrow"],
+    ["还","huán","to return (sth)"],
+    ["图书馆","túshūguǎn","library"],
+    ["有名","yǒumíng","famous"],
+    ["工作人员","gōngzuò rényuán","staff member"],
+    ["借书卡","jièshūkǎ","library card"]
+  ],
+  "quiz": [
+    {"q": "Why does the narrator often borrow books from the library?", "a": ["Books are too expensive to buy", "The library is next to his home", "His teacher asked him to"], "c": 0},
+    {"q": "Why couldn't he find the famous book?", "a": ["The library was closed", "Someone had already borrowed it", "He forgot his library card"], "c": 1},
+    {"q": "How long can a book be borrowed for?", "a": ["One week", "Two weeks", "One month"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "A + 被 (+ B) + verb", "e": "The 被 passive puts the thing acted on first; the doer comes after 被 and can be vague, like 人 'someone'. For example, 书被人借走了 means 'the book was borrowed by someone'.", "x": "那本书被人借走了。 — That book has been borrowed by someone."},
+    {"p": "先……，然后……", "e": "先…然后… links two actions in order: 'first ..., then ...'. Each part is a full verb phrase, e.g. 先吃饭，然后看书.", "x": "我先借了两本别的书，然后把名字写在借书卡上。 — I first borrowed two other books, then wrote my name on the library card."},
+    {"p": "……才 + verb", "e": "才 marks that something happens later than hoped or expected — 'not until'. It goes right before the verb, e.g. 他十点才起床.", "x": "那本书下星期一才会还回来。 — The book won't be returned until next Monday."}
+  ]
+}

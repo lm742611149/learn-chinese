@@ -1,0 +1,175 @@
+{
+  "slug": "hsk2-the-library",
+  "level": 2,
+  "title_zh": "图书馆",
+  "title_py": "Túshūguǎn",
+  "title_en": "The Library",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["离", "lí", "(distance) from"],
+        ["图书馆", "túshūguǎn", "library"],
+        ["很", "hěn", "very"],
+        ["近", "jìn", "near; close"],
+        ["，"],
+        ["走路", "zǒulù", "to walk"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "(sooner than expected)"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "My home is very close to the library — it's only a ten-minute walk."
+    },
+    {
+      "t": [
+        ["每", "měi", "every"],
+        ["个", "gè", "(measure word)"],
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["上午", "shàngwǔ", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["都", "dōu", "all; always"],
+        ["去", "qù", "to go"],
+        ["那儿", "nàr", "there"],
+        ["看", "kàn", "to read; to look at"],
+        ["书", "shū", "book"],
+        ["。"]
+      ],
+      "en": "Every Saturday morning I go there to read."
+    },
+    {
+      "t": [
+        ["图书馆", "túshūguǎn", "library"],
+        ["里", "lǐ", "inside"],
+        ["人", "rén", "person; people"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["没有", "méiyǒu", "there is not"],
+        ["人", "rén", "person; people"],
+        ["说话", "shuōhuà", "to talk; to speak"],
+        ["。"]
+      ],
+      "en": "There are lots of people in the library, but nobody talks."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["我", "wǒ", "I; me"],
+        ["借", "jiè", "to borrow"],
+        ["了", "le", "(completed action)"],
+        ["三", "sān", "three"],
+        ["本", "běn", "(measure word for books)"],
+        ["书", "shū", "book"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["。"]
+      ],
+      "en": "Yesterday I borrowed three books, and they're all really interesting."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["最", "zuì", "most"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["的", "de", "(nominalizer: the one)"],
+        ["是", "shì", "to be"],
+        ["一", "yì", "one"],
+        ["本", "běn", "(measure word for books)"],
+        ["介绍", "jièshào", "to introduce"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["的", "de", "(descriptive particle)"],
+        ["书", "shū", "book"],
+        ["。"]
+      ],
+      "en": "My favorite is a book about coffee."
+    },
+    {
+      "t": [
+        ["看", "kàn", "to read"],
+        ["完", "wán", "to finish"],
+        ["了", "le", "(completed action)"],
+        ["书", "shū", "book"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["图书馆", "túshūguǎn", "library"],
+        ["旁边", "pángbiān", "beside; next to"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup (of)"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["。"]
+      ],
+      "en": "After finishing my book, I had a cup of coffee next to the library."
+    },
+    {
+      "t": [
+        ["书", "shū", "book"],
+        ["和", "hé", "and"],
+        ["咖啡", "kāfēi", "coffee"],
+        ["，"],
+        ["就", "jiù", "exactly; just"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "I; me"],
+        ["最", "zuì", "most"],
+        ["快乐", "kuàilè", "happy"],
+        ["的", "de", "(descriptive particle)"],
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["。"]
+      ],
+      "en": "Books and coffee — that's my happiest kind of Saturday."
+    }
+  ],
+  "vocab": [
+    ["图书馆", "túshūguǎn", "library"],
+    ["借", "jiè", "to borrow (HSK 3)"],
+    ["离", "lí", "(distance) from"],
+    ["近", "jìn", "near; close"],
+    ["有意思", "yǒu yìsi", "interesting"],
+    ["介绍", "jièshào", "to introduce"]
+  ],
+  "quiz": [
+    {
+      "q": "How long does it take to walk from the writer's home to the library?",
+      "a": ["Ten minutes", "Thirty minutes", "One hour"],
+      "c": 0
+    },
+    {
+      "q": "How many books did the writer borrow yesterday?",
+      "a": ["Two", "Three", "Five"],
+      "c": 1
+    },
+    {
+      "q": "What did the writer do after finishing the book?",
+      "a": ["Borrowed more books", "Went home to sleep", "Drank a coffee next to the library"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 离 B + 近/远",
+      "e": "离 marks the distance between two places; put 近 (close) or 远 (far) after it, e.g. 我家离商店很远.",
+      "x": "我家离图书馆很近。 — My home is very close to the library."
+    },
+    {
+      "p": "就 (sooner or easier than expected)",
+      "e": "就 before a verb signals that something happens quickly or easily, e.g. 五分钟就好了 (ready in just five minutes).",
+      "x": "走路十分钟就到了。 — It's only a ten-minute walk and you're there."
+    },
+    {
+      "p": "最 + adjective/verb (superlative)",
+      "e": "最 means 'the most' and goes before an adjective or a verb like 喜欢, e.g. 最好, 最喜欢.",
+      "x": "我最喜欢的是一本介绍咖啡的书。 — My favorite is a book about coffee."
+    }
+  ]
+}

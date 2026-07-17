@@ -1,0 +1,138 @@
+{
+  "slug": "hsk1-my-chinese-name",
+  "level": 1,
+  "title_zh": "我的中国名字",
+  "title_py": "Wǒ de Zhōngguó míngzi",
+  "title_en": "My Chinese Name",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["不", "bú", "not"],
+        ["是", "shì", "to be"],
+        ["中国人", "Zhōngguórén", "Chinese (person)"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["学校", "xuéxiào", "school"],
+        ["学习", "xuéxí", "to study"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["。"]
+      ],
+      "en": "I'm not Chinese — I study Mandarin at school."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive)"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["老师", "lǎoshī", "teacher"],
+        ["是", "shì", "to be"],
+        ["北京人", "Běijīngrén", "a Beijinger"],
+        ["。"]
+      ],
+      "en": "My Chinese teacher is from Beijing."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["她", "tā", "she"],
+        ["给", "gěi", "to give"],
+        ["我", "wǒ", "I; me"],
+        ["一个", "yí gè", "one; a"],
+        ["中国", "Zhōngguó", "China; Chinese"],
+        ["名字", "míngzi", "name"],
+        ["，"],
+        ["叫", "jiào", "to be called"],
+        ["“"],
+        ["明月", "Míngyuè", "Mingyue (a given name)"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "Yesterday she gave me a Chinese name: Mingyue."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["明", "míng", "ming (bright)"],
+        ["是", "shì", "to be"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["的", "de", "(possessive)"],
+        ["明", "míng", "ming (bright)"],
+        ["，"],
+        ["月", "yuè", "yue (moon; month)"],
+        ["是", "shì", "to be"],
+        ["一月", "yīyuè", "January"],
+        ["的", "de", "(possessive)"],
+        ["月", "yuè", "yue (moon; month)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "She said, \"Ming is the ming in 'tomorrow', and yue is the yue in 'January'.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["爱", "ài", "to love"],
+        ["这个", "zhège", "this"],
+        ["名字", "míngzi", "name"],
+        ["，"],
+        ["朋友", "péngyou", "friend"],
+        ["现在", "xiànzài", "now"],
+        ["都", "dōu", "all"],
+        ["叫", "jiào", "to call"],
+        ["我", "wǒ", "I; me"],
+        ["明月", "Míngyuè", "Mingyue (a given name)"],
+        ["。"]
+      ],
+      "en": "I love this name, and now my friends all call me Mingyue."
+    }
+  ],
+  "vocab": [
+    ["名字", "míngzi", "name"],
+    ["汉语", "Hànyǔ", "Chinese (language)"],
+    ["学习", "xuéxí", "to study"],
+    ["老师", "lǎoshī", "teacher"],
+    ["给", "gěi", "to give"],
+    ["叫", "jiào", "to be called; to call"]
+  ],
+  "quiz": [
+    {
+      "q": "Where is the narrator's teacher from?",
+      "a": ["Shanghai", "Beijing", "America"],
+      "c": 1
+    },
+    {
+      "q": "What Chinese name did the teacher give the narrator?",
+      "a": ["Mingtian", "Yiyue", "Mingyue"],
+      "c": 2
+    },
+    {
+      "q": "What do the narrator's friends call the narrator now?",
+      "a": ["Mingyue", "Teacher", "Beijinger"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "叫 — to be called",
+      "e": "叫 introduces a name: 我叫明月 = I'm called Mingyue. It also works as 'to call someone something'.",
+      "x": "昨天她给我一个中国名字，叫“明月”。 — Yesterday she gave me a Chinese name: Mingyue."
+    },
+    {
+      "p": "的 — possessive",
+      "e": "的 links the owner and the thing owned: 我的老师 = my teacher, 我的名字 = my name.",
+      "x": "我的汉语老师是北京人。 — My Chinese teacher is from Beijing."
+    },
+    {
+      "p": "都 + verb",
+      "e": "都 goes right before the verb and means 'all/both', covering everyone mentioned before it: 朋友都叫我 = my friends all call me.",
+      "x": "朋友现在都叫我明月。 — Now my friends all call me Mingyue."
+    }
+  ]
+}

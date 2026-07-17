@@ -1,0 +1,277 @@
+{
+  "slug": "hsk4-charming-lijiang",
+  "level": 4,
+  "title_zh": "迷人的丽江",
+  "title_py": "Mírén de Lìjiāng",
+  "title_en": "Charming Lijiang",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今年", "jīnnián", "this year"],
+        ["五月", "wǔyuè", "May"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["去", "qù", "to go"],
+        ["了", "le", "(particle)"],
+        ["云南", "Yúnnán", "Yunnan (province)"],
+        ["的", "de", "(particle)"],
+        ["丽江", "Lìjiāng", "Lijiang"],
+        ["，"],
+        ["那", "nà", "that"],
+        ["是", "shì", "is"],
+        ["一座", "yí zuò", "one (city)"],
+        ["有", "yǒu", "to have"],
+        ["八百", "bābǎi", "eight hundred"],
+        ["多", "duō", "more than"],
+        ["年", "nián", "years"],
+        ["历史", "lìshǐ", "history"],
+        ["的", "de", "(particle)"],
+        ["古城", "gǔchéng", "ancient town"],
+        ["。"]
+      ],
+      "en": "This May I went to Lijiang in Yunnan, an ancient town with more than eight hundred years of history."
+    },
+    {
+      "t": [
+        ["古城", "gǔchéng", "the old town"],
+        ["里", "lǐ", "inside"],
+        ["没有", "méiyǒu", "there are no"],
+        ["汽车", "qìchē", "cars"],
+        ["，"],
+        ["只有", "zhǐyǒu", "only"],
+        ["安静", "ānjìng", "quiet"],
+        ["的", "de", "(particle)"],
+        ["老街", "lǎojiē", "old streets"],
+        ["和", "hé", "and"],
+        ["清清", "qīngqīng", "crystal-clear"],
+        ["的", "de", "(particle)"],
+        ["河水", "héshuǐ", "river water"],
+        ["，"],
+        ["河水", "héshuǐ", "the water"],
+        ["从", "cóng", "from"],
+        ["每条", "měi tiáo", "every (street)"],
+        ["街", "jiē", "street"],
+        ["的", "de", "(particle)"],
+        ["旁边", "pángbiān", "the side"],
+        ["流过", "liúguò", "to flow past"],
+        ["。"]
+      ],
+      "en": "There are no cars in the old town, only quiet old streets and crystal-clear water that flows along the side of every street."
+    },
+    {
+      "t": [
+        ["白天", "báitiān", "in the daytime"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["在", "zài", "on"],
+        ["老街", "lǎojiē", "the old streets"],
+        ["上", "shàng", "on"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["地", "de", "(adverbial)"],
+        ["走", "zǒu", "to walk"],
+        ["，"],
+        ["累", "lèi", "tired"],
+        ["了", "le", "(particle)"],
+        ["就", "jiù", "then"],
+        ["找", "zhǎo", "to find"],
+        ["一家", "yì jiā", "a (shop)"],
+        ["茶馆", "cháguǎn", "teahouse"],
+        ["坐下", "zuòxia", "to sit down"],
+        ["，"],
+        ["看", "kàn", "to watch"],
+        ["来来往往", "láilái wǎngwǎng", "coming and going"],
+        ["的", "de", "(particle)"],
+        ["游客", "yóukè", "tourists"],
+        ["。"]
+      ],
+      "en": "During the day I strolled along the old streets, and when I got tired I would find a teahouse, sit down, and watch the tourists come and go."
+    },
+    {
+      "t": [
+        ["天气", "tiānqì", "weather"],
+        ["好", "hǎo", "good"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "when"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["城里", "chénglǐ", "in town"],
+        ["就", "jiù", "right away"],
+        ["能", "néng", "can"],
+        ["看见", "kànjiàn", "to see"],
+        ["远处", "yuǎnchù", "the distance"],
+        ["的", "de", "(particle)"],
+        ["雪山", "xuěshān", "snow mountain"],
+        ["，"],
+        ["蓝天", "lántiān", "blue sky"],
+        ["下面", "xiàmiàn", "beneath"],
+        ["，"],
+        ["雪山", "xuěshān", "the snow mountain"],
+        ["白", "bái", "white"],
+        ["得", "de", "(complement)"],
+        ["发亮", "fāliàng", "shining"],
+        ["。"]
+      ],
+      "en": "In good weather you can see the snow mountain in the distance right from town; under the blue sky, its snow shines bright white."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "at night"],
+        ["的", "de", "(particle)"],
+        ["丽江", "Lìjiāng", "Lijiang"],
+        ["完全", "wánquán", "completely"],
+        ["是", "shì", "is"],
+        ["另", "lìng", "another"],
+        ["一个", "yí ge", "one"],
+        ["样子", "yàngzi", "appearance"],
+        ["，"],
+        ["到处", "dàochù", "everywhere"],
+        ["是", "shì", "there are"],
+        ["灯光", "dēngguāng", "lights"],
+        ["和", "hé", "and"],
+        ["音乐", "yīnyuè", "music"],
+        ["，"],
+        ["热闹", "rènao", "lively"],
+        ["得", "de", "(complement)"],
+        ["像", "xiàng", "like"],
+        ["过节", "guòjié", "celebrating a festival"],
+        ["一样", "yíyàng", "the same as"],
+        ["。"]
+      ],
+      "en": "At night Lijiang is a completely different place: lights and music everywhere, as lively as a festival."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["在", "zài", "at"],
+        ["那里", "nàli", "there"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle)"],
+        ["一位", "yí wèi", "one (person)"],
+        ["开", "kāi", "to run"],
+        ["小", "xiǎo", "small"],
+        ["旅馆", "lǚguǎn", "inn"],
+        ["的", "de", "(particle)"],
+        ["老人", "lǎorén", "old man"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["说", "shuō", "to say"],
+        ["他", "tā", "he"],
+        ["在", "zài", "in"],
+        ["丽江", "Lìjiāng", "Lijiang"],
+        ["住", "zhù", "to live"],
+        ["了", "le", "(particle)"],
+        ["一辈子", "yíbèizi", "a whole lifetime"],
+        ["，"],
+        ["从来", "cónglái", "ever"],
+        ["没", "méi", "never"],
+        ["想", "xiǎng", "to think of"],
+        ["过", "guo", "(experience)"],
+        ["离开", "líkāi", "to leave"],
+        ["。"]
+      ],
+      "en": "There I got to know an old man who runs a small inn; he said he has lived in Lijiang his whole life and has never once thought of leaving."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["笑着", "xiàozhe", "smilingly"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["城市", "chéngshì", "cities"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["丽江", "Lìjiāng", "Lijiang"],
+        ["一直", "yìzhí", "always"],
+        ["很", "hěn", "very"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["慢", "màn", "slowness"],
+        ["就是", "jiùshì", "is exactly"],
+        ["我们", "wǒmen", "our"],
+        ["的", "de", "(particle)"],
+        ["生活", "shēnghuó", "life"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said with a smile: 'Cities get faster and faster, but Lijiang has always been slow — slow is simply our way of life.'"
+    },
+    {
+      "t": [
+        ["离开", "líkāi", "to leave"],
+        ["的", "de", "(particle)"],
+        ["那天", "nà tiān", "that day"],
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I"],
+        ["想", "xiǎng", "to think"],
+        ["，"],
+        ["丽江", "Lìjiāng", "Lijiang"],
+        ["迷人", "mírén", "charming"],
+        ["的", "de", "(particle)"],
+        ["地方", "dìfang", "the thing about"],
+        ["，"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["美丽", "měilì", "beautiful"],
+        ["的", "de", "(particle)"],
+        ["风景", "fēngjǐng", "scenery"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["是", "shì", "is"],
+        ["那种", "nà zhǒng", "that kind of"],
+        ["让", "ràng", "to make"],
+        ["人", "rén", "people"],
+        ["慢下来", "màn xiàlai", "to slow down"],
+        ["的", "de", "(particle)"],
+        ["生活", "shēnghuó", "life"],
+        ["。"]
+      ],
+      "en": "On the morning I left, I thought: what makes Lijiang so charming is not only its beautiful scenery, but also the kind of life that makes people slow down."
+    }
+  ],
+  "vocab": [
+    ["迷人", "mírén", "charming; enchanting"],
+    ["古城", "gǔchéng", "ancient town"],
+    ["游客", "yóukè", "tourist"],
+    ["热闹", "rènao", "lively; bustling"],
+    ["风景", "fēngjǐng", "scenery"],
+    ["一辈子", "yíbèizi", "a whole lifetime"]
+  ],
+  "quiz": [
+    {
+      "q": "What can you see from the town when the weather is good?",
+      "a": ["The ocean", "A snow mountain in the distance", "A big modern bridge"],
+      "c": 1
+    },
+    {
+      "q": "How is Lijiang different at night?",
+      "a": ["It is full of lights and music, as lively as a festival", "It becomes completely silent", "All the tourists leave the town"],
+      "c": 0
+    },
+    {
+      "q": "According to the author, what makes Lijiang charming?",
+      "a": ["Only its long history", "Its cheap little inns", "Not just the scenery, but also the slow way of life"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不仅……而且……",
+      "e": "\"Not only A, but also B\" — the 而且 part adds something further and often more important, as in 不仅是美丽的风景，而且是那种让人慢下来的生活.",
+      "x": "丽江迷人的地方，不仅是美丽的风景，而且是那种让人慢下来的生活。 — What makes Lijiang charming is not only the beautiful scenery, but also the kind of life that makes people slow down."
+    },
+    {
+      "p": "越来越 + adjective",
+      "e": "越来越 before an adjective means something keeps increasing over time, like \"more and more\", as in 城市越来越快.",
+      "x": "城市越来越快，可是丽江一直很慢。 — Cities get faster and faster, but Lijiang has always been slow."
+    },
+    {
+      "p": "adjective + 得 + complement",
+      "e": "得 after an adjective introduces a complement describing the degree, often with a vivid comparison, as in 热闹得像过节一样 or 白得发亮.",
+      "x": "到处是灯光和音乐，热闹得像过节一样。 — Lights and music everywhere, as lively as a festival."
+    }
+  ]
+}

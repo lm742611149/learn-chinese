@@ -1,0 +1,301 @@
+{
+  "slug": "hsk6-survivorship-bias",
+  "level": 6,
+  "title_zh": "幸存者偏差",
+  "title_py": "Xìngcúnzhě piānchā",
+  "title_en": "Survivorship Bias",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["第二次", "dì'èr cì", "the second"],
+        ["世界大战", "shìjiè dàzhàn", "world war"],
+        ["期间", "qījiān", "during; period"],
+        ["，"],
+        ["盟军", "méngjūn", "the Allied forces"],
+        ["想", "xiǎng", "wanted to"],
+        ["给", "gěi", "for; to"],
+        ["轰炸机", "hōngzhàjī", "bomber (aircraft)"],
+        ["加装", "jiāzhuāng", "to install additionally"],
+        ["装甲", "zhuāngjiǎ", "armor"],
+        ["，"],
+        ["以", "yǐ", "in order to (formal)"],
+        ["减少", "jiǎnshǎo", "to reduce"],
+        ["损失", "sǔnshī", "losses"],
+        ["。"]
+      ],
+      "en": "During the Second World War, the Allies wanted to add armor to their bombers in order to reduce losses."
+    },
+    {
+      "t": [
+        ["统计", "tǒngjì", "statistics"],
+        ["人员", "rényuán", "personnel; staff"],
+        ["检查", "jiǎnchá", "to examine"],
+        ["了", "le", "(completed action)"],
+        ["返航", "fǎnháng", "to return from a flight"],
+        ["的", "de", "(possessive particle)"],
+        ["飞机", "fēijī", "airplane"],
+        ["，"],
+        ["发现", "fāxiàn", "to find"],
+        ["机翼", "jīyì", "wing (of a plane)"],
+        ["上", "shàng", "on"],
+        ["弹孔", "dànkǒng", "bullet hole"],
+        ["密布", "mìbù", "densely covered"],
+        ["，"],
+        ["于是", "yúshì", "so; thereupon"],
+        ["建议", "jiànyì", "to suggest"],
+        ["加固", "jiāgù", "to reinforce"],
+        ["机翼", "jīyì", "wing (of a plane)"],
+        ["。"]
+      ],
+      "en": "The statisticians examined the planes that made it back, found the wings riddled with bullet holes, and so proposed reinforcing the wings."
+    },
+    {
+      "t": [
+        ["一位", "yí wèi", "one (polite measure word)"],
+        ["名叫", "míngjiào", "named"],
+        ["瓦尔德", "Wǎ'ěrdé", "Wald (name)"],
+        ["的", "de", "(possessive particle)"],
+        ["统计学家", "tǒngjìxuéjiā", "statistician"],
+        ["却", "què", "however"],
+        ["提出", "tíchū", "to put forward"],
+        ["了", "le", "(completed action)"],
+        ["相反", "xiāngfǎn", "opposite"],
+        ["的", "de", "(possessive particle)"],
+        ["意见", "yìjiàn", "opinion"],
+        ["："],
+        ["应该", "yīnggāi", "should"],
+        ["加固", "jiāgù", "to reinforce"],
+        ["的", "de", "(nominalizing particle)"],
+        ["是", "shì", "is"],
+        ["弹孔", "dànkǒng", "bullet hole"],
+        ["最少", "zuì shǎo", "fewest"],
+        ["的", "de", "(possessive particle)"],
+        ["发动机", "fādòngjī", "engine"],
+        ["部位", "bùwèi", "area; part"],
+        ["。"]
+      ],
+      "en": "But a statistician named Wald argued the opposite: what needed reinforcing was the engine area, where the fewest bullet holes were found."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["的", "de", "(possessive particle)"],
+        ["理由", "lǐyóu", "reasoning; grounds"],
+        ["令人", "lìng rén", "to make people"],
+        ["拍案叫绝", "pāi àn jiào jué", "to gasp in admiration"],
+        ["："],
+        ["机翼", "jīyì", "wing (of a plane)"],
+        ["中弹", "zhòngdàn", "to be hit by a bullet"],
+        ["还", "hái", "still"],
+        ["能", "néng", "can"],
+        ["飞", "fēi", "to fly"],
+        ["回来", "huílái", "back"],
+        ["，"],
+        ["说明", "shuōmíng", "to show; indicate"],
+        ["那里", "nàlǐ", "there"],
+        ["挨打", "áidǎ", "to take hits"],
+        ["没关系", "méi guānxi", "does not matter"],
+        ["；"],
+        ["而", "ér", "whereas"],
+        ["发动机", "fādòngjī", "engine"],
+        ["中弹", "zhòngdàn", "to be hit by a bullet"],
+        ["的", "de", "(possessive particle)"],
+        ["飞机", "fēijī", "airplane"],
+        ["，"],
+        ["根本", "gēnběn", "simply; at all"],
+        ["没有", "méiyǒu", "did not have"],
+        ["机会", "jīhuì", "chance"],
+        ["返航", "fǎnháng", "to return from a flight"],
+        ["。"]
+      ],
+      "en": "His reasoning was brilliant: a plane hit in the wings could still fly home, which meant those areas could take punishment; but a plane hit in the engine never got the chance to return at all."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["就是", "jiùshì", "is precisely"],
+        ["著名", "zhùmíng", "famous"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["幸存者", "xìngcúnzhě", "survivor"],
+        ["偏差", "piānchā", "bias"],
+        ["”"],
+        ["："],
+        ["我们", "wǒmen", "we"],
+        ["只", "zhǐ", "only"],
+        ["看得见", "kàn de jiàn", "able to see"],
+        ["幸存", "xìngcún", "to survive"],
+        ["下来", "xiàlái", "(indicates surviving through)"],
+        ["的", "de", "(possessive particle)"],
+        ["样本", "yàngběn", "sample"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["忽略", "hūlüè", "to overlook"],
+        ["了", "le", "(completed action)"],
+        ["那些", "nàxiē", "those"],
+        ["沉默", "chénmò", "silent"],
+        ["的", "de", "(possessive particle)"],
+        ["失败者", "shībàizhě", "the failed; losers"],
+        ["。"]
+      ],
+      "en": "This is the famous \"survivorship bias\": we see only the samples that survived, and overlook the silent failures."
+    },
+    {
+      "t": [
+        ["生活", "shēnghuó", "life"],
+        ["中", "zhōng", "in; within"],
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["偏差", "piānchā", "bias"],
+        ["无处不在", "wú chù bú zài", "to be everywhere"],
+        ["："],
+        ["媒体", "méitǐ", "the media"],
+        ["热衷于", "rèzhōng yú", "to be keen on"],
+        ["报道", "bàodào", "to report"],
+        ["辍学", "chuòxué", "to drop out of school"],
+        ["创业", "chuàngyè", "to start a business"],
+        ["的", "de", "(possessive particle)"],
+        ["亿万富翁", "yìwàn fùwēng", "billionaire"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["很少", "hěn shǎo", "rarely"],
+        ["提及", "tíjí", "to mention (formal)"],
+        ["成千上万", "chéng qiān shàng wàn", "thousands upon thousands"],
+        ["个", "ge", "(measure word)"],
+        ["失败", "shībài", "failed"],
+        ["的", "de", "(possessive particle)"],
+        ["创业者", "chuàngyèzhě", "entrepreneur; founder"],
+        ["。"]
+      ],
+      "en": "This bias is everywhere in daily life: the media love stories of dropout billionaires, yet rarely mention the tens of thousands of founders who failed."
+    },
+    {
+      "t": [
+        ["于是", "yúshì", "thus; consequently"],
+        ["有人", "yǒurén", "some people"],
+        ["得出", "déchū", "to draw (a conclusion)"],
+        ["“"],
+        ["读书", "dúshū", "studying; education"],
+        ["无用", "wúyòng", "useless"],
+        ["”"],
+        ["的", "de", "(possessive particle)"],
+        ["结论", "jiélùn", "conclusion"],
+        ["，"],
+        ["殊不知", "shūbùzhī", "little do they know"],
+        ["这", "zhè", "this"],
+        ["恰恰", "qiàqià", "precisely; exactly"],
+        ["是", "shì", "is"],
+        ["被", "bèi", "(passive marker)"],
+        ["幸存者", "xìngcúnzhě", "survivor"],
+        ["蒙蔽", "méngbì", "to blind; deceive"],
+        ["了", "le", "(completed action)"],
+        ["双眼", "shuāngyǎn", "both eyes"],
+        ["。"]
+      ],
+      "en": "Some then conclude that education is useless — little knowing that this is precisely a case of being blinded by the survivors."
+    },
+    {
+      "t": [
+        ["下次", "xià cì", "next time"],
+        ["听到", "tīngdào", "to hear"],
+        ["某个", "mǒu ge", "a certain"],
+        ["成功", "chénggōng", "success"],
+        ["故事", "gùshi", "story"],
+        ["时", "shí", "when (formal)"],
+        ["，"],
+        ["不妨", "bùfáng", "might as well"],
+        ["先", "xiān", "first"],
+        ["问", "wèn", "to ask"],
+        ["一句", "yí jù", "one (measure for sentences)"],
+        ["："],
+        ["那些", "nàxiē", "those"],
+        ["没有", "méiyǒu", "did not"],
+        ["成功", "chénggōng", "to succeed"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "people"],
+        ["，"],
+        ["经历", "jīnglì", "to experience"],
+        ["了", "le", "(completed action)"],
+        ["什么", "shénme", "what"],
+        ["？"]
+      ],
+      "en": "The next time you hear a success story, it is worth first asking: what happened to the people who did not succeed?"
+    },
+    {
+      "t": [
+        ["只有", "zhǐyǒu", "only if"],
+        ["把", "bǎ", "(object marker)"],
+        ["沉默", "chénmò", "silent"],
+        ["的", "de", "(possessive particle)"],
+        ["证据", "zhèngjù", "evidence"],
+        ["也", "yě", "also"],
+        ["纳入", "nàrù", "to bring into"],
+        ["视野", "shìyě", "field of vision"],
+        ["，"],
+        ["我们", "wǒmen", "our"],
+        ["的", "de", "(possessive particle)"],
+        ["判断", "pànduàn", "judgment"],
+        ["才", "cái", "only then"],
+        ["可能", "kěnéng", "possibly"],
+        ["接近", "jiējìn", "to approach; come close to"],
+        ["真相", "zhēnxiàng", "the truth"],
+        ["。"]
+      ],
+      "en": "Only when the silent evidence is also brought into view can our judgments come close to the truth."
+    }
+  ],
+  "vocab": [
+    ["幸存者", "xìngcúnzhě", "survivor"],
+    ["轰炸机", "hōngzhàjī", "bomber (aircraft)"],
+    ["装甲", "zhuāngjiǎ", "armor"],
+    ["弹孔", "dànkǒng", "bullet hole"],
+    ["蒙蔽", "méngbì", "to blind; to deceive"],
+    ["纳入", "nàrù", "to bring into; to incorporate"]
+  ],
+  "quiz": [
+    {
+      "q": "Where did Wald say the bombers should be reinforced?",
+      "a": [
+        "The wings, where the most bullet holes were found",
+        "The cockpit, to protect the pilots",
+        "The engine area, where the fewest bullet holes were found"
+      ],
+      "c": 2
+    },
+    {
+      "q": "Why did the surveyed planes show so few bullet holes around the engine?",
+      "a": [
+        "Planes hit in the engine never made it back to be examined",
+        "The engine was already protected by thick armor",
+        "Enemy gunners deliberately avoided aiming at the engine"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the text say about media stories of dropout billionaires?",
+      "a": [
+        "They prove that formal education is unnecessary for success",
+        "They rarely mention the tens of thousands of founders who failed",
+        "They are usually invented by the billionaires themselves"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "…，以 + verb",
+      "e": "In formal writing, 以 before a verb means 'in order to; so as to', linking an action to its purpose. 例：公司降低价格，以吸引更多顾客。",
+      "x": "盟军想给轰炸机加装装甲，以减少损失。 — The Allies wanted to add armor to their bombers in order to reduce losses."
+    },
+    {
+      "p": "殊不知",
+      "e": "A literary connector meaning 'little do they know; what they fail to realize is'. It introduces a truth that contradicts the belief just stated.",
+      "x": "有人得出“读书无用”的结论，殊不知这恰恰是被幸存者蒙蔽了双眼。 — Some conclude that education is useless, little knowing that this is precisely a case of being blinded by the survivors."
+    },
+    {
+      "p": "只有…，才…",
+      "e": "'Only if A, then B' — states a necessary condition. The clause after 才 cannot happen unless the 只有 condition is met.",
+      "x": "只有把沉默的证据也纳入视野，我们的判断才可能接近真相。 — Only when the silent evidence is also brought into view can our judgments come close to the truth."
+    }
+  ]
+}

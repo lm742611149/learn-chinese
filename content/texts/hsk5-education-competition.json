@@ -1,0 +1,261 @@
+{
+  "slug": "hsk5-education-competition",
+  "level": 5,
+  "title_zh": "教育竞争",
+  "title_py": "Jiàoyù jìngzhēng",
+  "title_en": "Competition in Education",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["教育", "jiàoyù", "education"],
+        ["竞争", "jìngzhēng", "competition"],
+        ["的", "de", "(possessive)"],
+        ["激烈", "jīliè", "intense"],
+        ["程度", "chéngdù", "degree"],
+        ["，"],
+        ["常常", "chángcháng", "often"],
+        ["让", "ràng", "makes"],
+        ["外国", "wàiguó", "foreign"],
+        ["朋友", "péngyou", "friends"],
+        ["感到", "gǎndào", "feel"],
+        ["吃惊", "chījīng", "astonished"],
+        ["。"]
+      ],
+      "en": "In China, the intensity of educational competition often astonishes my foreign friends."
+    },
+    {
+      "t": [
+        ["许多", "xǔduō", "many"],
+        ["孩子", "háizi", "children"],
+        ["从", "cóng", "from"],
+        ["幼儿园", "yòu'éryuán", "kindergarten"],
+        ["开始", "kāishǐ", "starting"],
+        ["，"],
+        ["就", "jiù", "already"],
+        ["要", "yào", "have to"],
+        ["参加", "cānjiā", "attend"],
+        ["各种各样", "gè zhǒng gè yàng", "all kinds of"],
+        ["的", "de", "(attributive)"],
+        ["培训班", "péixùnbān", "training classes"],
+        ["。"]
+      ],
+      "en": "Many children start attending all kinds of extra classes as early as kindergarten."
+    },
+    {
+      "t": [
+        ["家长", "jiāzhǎng", "parents"],
+        ["们", "men", "(plural)"],
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["这么", "zhème", "so"],
+        ["焦虑", "jiāolǜ", "anxious"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["他们", "tāmen", "they"],
+        ["相信", "xiāngxìn", "believe"],
+        ["教育", "jiàoyù", "education"],
+        ["是", "shì", "is"],
+        ["改变", "gǎibiàn", "to change"],
+        ["命运", "mìngyùn", "fate"],
+        ["的", "de", "(attributive)"],
+        ["唯一", "wéiyī", "only"],
+        ["机会", "jīhuì", "chance"],
+        ["。"]
+      ],
+      "en": "The reason parents are so anxious is that they believe education is the only chance to change one's fate."
+    },
+    {
+      "t": [
+        ["一位", "yí wèi", "a"],
+        ["母亲", "mǔqīn", "mother"],
+        ["曾经", "céngjīng", "once"],
+        ["对", "duì", "to"],
+        ["我", "wǒ", "me"],
+        ["说", "shuō", "said"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I"],
+        ["也", "yě", "also"],
+        ["知道", "zhīdào", "know"],
+        ["孩子", "háizi", "my child"],
+        ["太", "tài", "too"],
+        ["累", "lèi", "tired"],
+        ["了", "le", "(degree)"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["别人", "biéren", "everyone else"],
+        ["都", "dōu", "all"],
+        ["在", "zài", "(progressive)"],
+        ["学", "xué", "studying"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["不", "bù", "not"],
+        ["敢", "gǎn", "dare"],
+        ["停", "tíng", "stop"],
+        ["下来", "xiàlai", "(complement)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "One mother once told me: \"I know my child is exhausted, but everyone else is studying, so we don't dare to stop.\""
+    },
+    {
+      "t": [
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["现象", "xiànxiàng", "phenomenon"],
+        ["有", "yǒu", "has"],
+        ["一个", "yí gè", "a"],
+        ["形象", "xíngxiàng", "vivid"],
+        ["的", "de", "(attributive)"],
+        ["名字", "míngzi", "name"],
+        ["，"],
+        ["叫做", "jiàozuò", "called"],
+        ["“"],
+        ["内卷", "nèijuǎn", "involution"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "This phenomenon has a vivid name: \"neijuan\", or involution."
+    },
+    {
+      "t": [
+        ["一方面", "yì fāngmiàn", "on one hand"],
+        ["，"],
+        ["竞争", "jìngzhēng", "competition"],
+        ["推动", "tuīdòng", "pushes"],
+        ["孩子", "háizi", "children"],
+        ["努力", "nǔlì", "hard"],
+        ["学习", "xuéxí", "to study"],
+        ["，"],
+        ["另一方面", "lìng yì fāngmiàn", "on the other hand"],
+        ["，"],
+        ["过大", "guò dà", "excessive"],
+        ["的", "de", "(attributive)"],
+        ["压力", "yālì", "pressure"],
+        ["影响", "yǐngxiǎng", "harms"],
+        ["了", "le", "(completed)"],
+        ["他们", "tāmen", "their"],
+        ["的", "de", "(possessive)"],
+        ["身体", "shēntǐ", "physical"],
+        ["和", "hé", "and"],
+        ["心理", "xīnlǐ", "mental"],
+        ["健康", "jiànkāng", "health"],
+        ["。"]
+      ],
+      "en": "On the one hand, competition pushes children to study hard; on the other hand, excessive pressure harms their physical and mental health."
+    },
+    {
+      "t": [
+        ["近几年", "jìn jǐ nián", "in recent years"],
+        ["，"],
+        ["政府", "zhèngfǔ", "the government"],
+        ["制定", "zhìdìng", "formulated"],
+        ["了", "le", "(completed)"],
+        ["一些", "yìxiē", "some"],
+        ["政策", "zhèngcè", "policies"],
+        ["，"],
+        ["减轻", "jiǎnqīng", "to lighten"],
+        ["学生", "xuésheng", "students'"],
+        ["的", "de", "(possessive)"],
+        ["负担", "fùdān", "burden"],
+        ["。"]
+      ],
+      "en": "In recent years, the government has introduced policies to lighten students' burden."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["让", "ràng", "make"],
+        ["孩子", "háizi", "children"],
+        ["学", "xué", "study"],
+        ["得", "de", "(complement)"],
+        ["那么", "nàme", "so"],
+        ["痛苦", "tòngkǔ", "painfully"],
+        ["，"],
+        ["不如", "bùrú", "better to"],
+        ["让", "ràng", "let"],
+        ["他们", "tāmen", "them"],
+        ["保持", "bǎochí", "keep"],
+        ["对", "duì", "toward"],
+        ["学习", "xuéxí", "learning"],
+        ["的", "de", "(attributive)"],
+        ["兴趣", "xìngqù", "interest"],
+        ["。"]
+      ],
+      "en": "Rather than making children study in such misery, it would be better to help them keep their interest in learning."
+    },
+    {
+      "t": [
+        ["毕竟", "bìjìng", "after all"],
+        ["，"],
+        ["人生", "rénshēng", "life"],
+        ["是", "shì", "is"],
+        ["一场", "yì chǎng", "a"],
+        ["长跑", "chángpǎo", "long-distance race"],
+        ["，"],
+        ["而", "ér", "and"],
+        ["不是", "bú shì", "not"],
+        ["一场", "yì chǎng", "a"],
+        ["短跑", "duǎnpǎo", "sprint"],
+        ["。"]
+      ],
+      "en": "After all, life is a marathon, not a sprint."
+    }
+  ],
+  "vocab": [
+    ["竞争", "jìngzhēng", "competition"],
+    ["激烈", "jīliè", "intense, fierce"],
+    ["焦虑", "jiāolǜ", "anxious"],
+    ["命运", "mìngyùn", "fate, destiny"],
+    ["内卷", "nèijuǎn", "involution (rat-race competition)"],
+    ["负担", "fùdān", "burden"]
+  ],
+  "quiz": [
+    {
+      "q": "Why are Chinese parents so anxious about education, according to the text?",
+      "a": [
+        "They believe education is the only chance to change one's fate",
+        "Schools punish parents whose children get low grades",
+        "They want their children to leave home early"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the mother in the text say?",
+      "a": [
+        "Her child enjoys the training classes very much",
+        "She thinks other parents study too little",
+        "She knows her child is exhausted, but she dare not stop"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What does the author suggest at the end?",
+      "a": [
+        "Children should attend more training classes",
+        "It is better to keep children interested in learning than to make studying painful",
+        "Sprinting is a healthier sport than long-distance running"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "之所以…，是因为…",
+      "e": "Puts the result first and the cause second: 'the reason why A is that B'. It highlights the explanation, e.g. 我之所以学汉语，是因为想去中国工作.",
+      "x": "家长们之所以这么焦虑，是因为他们相信教育是改变命运的唯一机会。 — The reason parents are so anxious is that they believe education is the only chance to change one's fate."
+    },
+    {
+      "p": "与其…，不如…",
+      "e": "Compares two options and prefers the second: 'rather than A, it is better to B', e.g. 与其在家等着，不如出去找他.",
+      "x": "与其让孩子学得那么痛苦，不如让他们保持对学习的兴趣。 — Rather than making children study in such misery, it is better to help them keep their interest in learning."
+    },
+    {
+      "p": "毕竟",
+      "e": "Means 'after all' — reminds the listener of an essential fact that supports the speaker's point, e.g. 别怪他了，他毕竟还是个孩子.",
+      "x": "毕竟，人生是一场长跑，而不是一场短跑。 — After all, life is a marathon, not a sprint."
+    }
+  ]
+}

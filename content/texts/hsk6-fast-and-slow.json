@@ -1,0 +1,274 @@
+{
+  "slug": "hsk6-fast-and-slow",
+  "level": 6,
+  "title_zh": "快与慢的辩证",
+  "title_py": "Kuài yǔ màn de biànzhèng",
+  "title_en": "The Dialectic of Fast and Slow",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["现代人", "xiàndàirén", "modern people"],
+        ["似乎", "sìhū", "seemingly"],
+        ["陷入", "xiànrù", "to fall into"],
+        ["了", "le", "(completed action)"],
+        ["一个", "yí ge", "one; a"],
+        ["悖论", "bèilùn", "paradox"],
+        ["："],
+        ["交通", "jiāotōng", "transportation"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["通讯", "tōngxùn", "communications"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["便捷", "biànjié", "convenient"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["却", "què", "yet"],
+        ["总", "zǒng", "always"],
+        ["觉得", "juéde", "to feel"],
+        ["时间", "shíjiān", "time"],
+        ["不够用", "bú gòu yòng", "not enough (to use)"],
+        ["。"]
+      ],
+      "en": "Modern life seems caught in a paradox: transport gets ever faster and communication ever more convenient, yet we always feel short of time."
+    },
+    {
+      "t": [
+        ["快", "kuài", "speed; being fast"],
+        ["固然", "gùrán", "admittedly"],
+        ["带来", "dàilái", "to bring"],
+        ["了", "le", "(completed action)"],
+        ["效率", "xiàolǜ", "efficiency"],
+        ["，"],
+        ["但", "dàn", "but"],
+        ["也", "yě", "also"],
+        ["让", "ràng", "to make"],
+        ["许多", "xǔduō", "many"],
+        ["人", "rén", "people"],
+        ["失去", "shīqù", "to lose"],
+        ["了", "le", "(completed action)"],
+        ["从容", "cóngróng", "unhurried; calm"],
+        ["思考", "sīkǎo", "to think"],
+        ["的", "de", "(possessive particle)"],
+        ["空间", "kōngjiān", "space; room"],
+        ["。"]
+      ],
+      "en": "Speed has admittedly brought efficiency, but it has also cost many people the room to think calmly."
+    },
+    {
+      "t": [
+        ["意大利", "Yìdàlì", "Italy"],
+        ["曾", "céng", "once; formerly"],
+        ["兴起", "xīngqǐ", "to rise; spring up"],
+        ["一场", "yì chǎng", "one (measure for events)"],
+        ["“"],
+        ["慢食", "mànshí", "slow food"],
+        ["运动", "yùndòng", "movement"],
+        ["”"],
+        ["，"],
+        ["倡导", "chàngdǎo", "to advocate"],
+        ["人们", "rénmen", "people"],
+        ["坐下来", "zuò xiàlái", "to sit down"],
+        ["细细", "xìxì", "carefully; slowly"],
+        ["品味", "pǐnwèi", "to savor"],
+        ["一顿", "yí dùn", "one (measure for meals)"],
+        ["饭", "fàn", "meal"],
+        ["，"],
+        ["而不是", "ér bú shì", "rather than"],
+        ["用", "yòng", "to use"],
+        ["快餐", "kuàicān", "fast food"],
+        ["匆匆", "cōngcōng", "hurriedly"],
+        ["打发", "dǎfa", "to get through; dispatch"],
+        ["肠胃", "chángwèi", "stomach (lit. intestines and stomach)"],
+        ["。"]
+      ],
+      "en": "Italy once saw the rise of a \"slow food\" movement, urging people to sit down and truly savor a meal instead of hastily silencing their stomachs with fast food."
+    },
+    {
+      "t": [
+        ["这场", "zhè chǎng", "this (event)"],
+        ["运动", "yùndòng", "movement"],
+        ["的", "de", "(possessive particle)"],
+        ["意义", "yìyì", "significance"],
+        ["并不", "bìngbú", "by no means"],
+        ["在于", "zàiyú", "to lie in"],
+        ["反对", "fǎnduì", "to oppose"],
+        ["速度", "sùdù", "speed"],
+        ["本身", "běnshēn", "itself"],
+        ["，"],
+        ["而", "ér", "but rather"],
+        ["在于", "zàiyú", "to lie in"],
+        ["提醒", "tíxǐng", "to remind"],
+        ["我们", "wǒmen", "us"],
+        ["："],
+        ["生活", "shēnghuó", "life"],
+        ["的", "de", "(possessive particle)"],
+        ["质量", "zhìliàng", "quality"],
+        ["不能", "bùnéng", "cannot"],
+        ["完全", "wánquán", "entirely"],
+        ["由", "yóu", "by"],
+        ["速度", "sùdù", "speed"],
+        ["来", "lái", "(introduces the verb)"],
+        ["衡量", "héngliang", "to measure; weigh"],
+        ["。"]
+      ],
+      "en": "The point of the movement was not to oppose speed itself, but to remind us that the quality of life cannot be measured by speed alone."
+    },
+    {
+      "t": [
+        ["快", "kuài", "fast"],
+        ["与", "yǔ", "and (formal)"],
+        ["慢", "màn", "slow"],
+        ["其实", "qíshí", "actually"],
+        ["是", "shì", "is"],
+        ["辩证", "biànzhèng", "dialectical"],
+        ["的", "de", "(adjectival particle)"],
+        ["："],
+        ["该", "gāi", "should; ought to"],
+        ["快", "kuài", "fast"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; moment"],
+        ["拖泥带水", "tuō ní dài shuǐ", "sluggish; dragging one's feet"],
+        ["，"],
+        ["会", "huì", "will"],
+        ["错失", "cuòshī", "to miss (a chance)"],
+        ["机会", "jīhuì", "opportunity"],
+        ["；"],
+        ["该", "gāi", "should; ought to"],
+        ["慢", "màn", "slow"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; moment"],
+        ["急于求成", "jí yú qiú chéng", "impatient for quick success"],
+        ["，"],
+        ["则", "zé", "then (formal)"],
+        ["容易", "róngyì", "easily"],
+        ["埋下", "máixià", "to bury; plant (a seed of)"],
+        ["隐患", "yǐnhuàn", "hidden danger"],
+        ["。"]
+      ],
+      "en": "Fast and slow are in fact dialectical: drag your feet when speed is needed and you miss opportunities; rush when patience is needed and you plant hidden dangers."
+    },
+    {
+      "t": [
+        ["譬如", "pìrú", "for example (formal)"],
+        ["学习", "xuéxí", "to learn"],
+        ["一门", "yì mén", "one (measure for skills)"],
+        ["技能", "jìnéng", "skill"],
+        ["，"],
+        ["基础", "jīchǔ", "foundation"],
+        ["阶段", "jiēduàn", "stage; phase"],
+        ["越是", "yuèshì", "the more"],
+        ["慢工出细活", "màn gōng chū xì huó", "slow work yields fine craft"],
+        ["，"],
+        ["后期", "hòuqī", "later stage"],
+        ["进步", "jìnbù", "progress"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["越", "yuè", "the more"],
+        ["快", "kuài", "fast"],
+        ["。"]
+      ],
+      "en": "Take learning a skill: the more patiently you work through the basics, the faster you progress later on."
+    },
+    {
+      "t": [
+        ["真正", "zhēnzhèng", "truly"],
+        ["成熟", "chéngshú", "mature"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "person"],
+        ["，"],
+        ["懂得", "dǒngde", "to know how to"],
+        ["在", "zài", "in; at"],
+        ["快", "kuài", "fast"],
+        ["与", "yǔ", "and (formal)"],
+        ["慢", "màn", "slow"],
+        ["之间", "zhījiān", "between"],
+        ["自如", "zìrú", "with ease; freely"],
+        ["切换", "qiēhuàn", "to switch"],
+        ["，"],
+        ["而不是", "ér bú shì", "rather than"],
+        ["被", "bèi", "(passive marker)"],
+        ["时代", "shídài", "era; the times"],
+        ["的", "de", "(possessive particle)"],
+        ["节奏", "jiézòu", "rhythm; pace"],
+        ["牵着鼻子走", "qiān zhe bízi zǒu", "to be led by the nose"],
+        ["。"]
+      ],
+      "en": "A truly mature person knows how to switch freely between fast and slow, instead of being led by the nose by the pace of the times."
+    },
+    {
+      "t": [
+        ["不妨", "bùfáng", "might as well"],
+        ["问问", "wènwen", "to ask"],
+        ["自己", "zìjǐ", "oneself"],
+        ["："],
+        ["生活", "shēnghuó", "life"],
+        ["中", "zhōng", "in; within"],
+        ["有", "yǒu", "there are"],
+        ["哪些", "nǎxiē", "which; what"],
+        ["事", "shì", "things; matters"],
+        ["，"],
+        ["值得", "zhíde", "to be worth"],
+        ["你", "nǐ", "you"],
+        ["刻意", "kèyì", "deliberately"],
+        ["慢下来", "màn xiàlái", "to slow down"],
+        ["？"]
+      ],
+      "en": "It is worth asking yourself: what in your life deserves to be deliberately slowed down?"
+    }
+  ],
+  "vocab": [
+    ["悖论", "bèilùn", "paradox"],
+    ["便捷", "biànjié", "convenient; quick and easy"],
+    ["从容", "cóngróng", "unhurried; calm and composed"],
+    ["衡量", "héngliang", "to measure; to weigh up"],
+    ["隐患", "yǐnhuàn", "hidden danger; latent risk"],
+    ["辩证", "biànzhèng", "dialectical; viewing both sides"]
+  ],
+  "quiz": [
+    {
+      "q": "What paradox does the text describe at the beginning?",
+      "a": [
+        "Transport and communication keep getting faster, yet people feel they have less time",
+        "People travel more but enjoy their trips less",
+        "Technology is cheaper but harder to use than before"
+      ],
+      "c": 0
+    },
+    {
+      "q": "According to the text, what was the real point of Italy's slow food movement?",
+      "a": [
+        "To ban fast-food restaurants from city centers",
+        "To remind people that the quality of life cannot be measured by speed alone",
+        "To prove that traditional cooking is healthier than modern food"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the text say about learning a new skill?",
+      "a": [
+        "The fastest learners always skip the basics",
+        "Progress depends mostly on natural talent",
+        "The more patiently you work through the basics, the faster you progress later"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "固然…，但(也)…",
+      "e": "A formal concessive pattern: 'admittedly / it is true that A, but B'. It concedes a point before pivoting to the speaker's real emphasis. 例：这个办法固然省钱，但风险不小。",
+      "x": "快固然带来了效率，但也让许多人失去了从容思考的空间。 — Speed has admittedly brought efficiency, but it has also cost many people the room to think calmly."
+    },
+    {
+      "p": "并不在于…，而在于…",
+      "e": "A formal way to correct an assumption about where the essence of something lies: 'lies not in A, but in B'. 并不 makes the denial emphatic.",
+      "x": "这场运动的意义并不在于反对速度本身，而在于提醒我们：生活的质量不能完全由速度来衡量。 — The point of the movement was not to oppose speed itself, but to remind us that the quality of life cannot be measured by speed alone."
+    },
+    {
+      "p": "不妨 + verb",
+      "e": "A soft, polite suggestion meaning 'might as well; there is no harm in doing something'. Common in essays when inviting the reader to try an idea.",
+      "x": "不妨问问自己：生活中有哪些事，值得你刻意慢下来？ — It is worth asking yourself: what in your life deserves to be deliberately slowed down?"
+    }
+  ]
+}

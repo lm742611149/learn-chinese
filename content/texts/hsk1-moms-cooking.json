@@ -1,0 +1,140 @@
+{
+  "slug": "hsk1-moms-cooking",
+  "level": 1,
+  "title_zh": "妈妈做的菜",
+  "title_py": "Māma zuò de cài",
+  "title_en": "Mom's Cooking",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["妈妈", "māma", "mom"],
+        ["很", "hěn", "very"],
+        ["会", "huì", "to know how to"],
+        ["做菜", "zuò cài", "to cook"],
+        ["。"]
+      ],
+      "en": "My mom is a wonderful cook."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["中午", "zhōngwǔ", "noon"],
+        ["她", "tā", "she"],
+        ["做", "zuò", "to make"],
+        ["了", "le", "(completed action)"],
+        ["三", "sān", "three"],
+        ["个", "gè", "(measure word)"],
+        ["菜", "cài", "dish"],
+        ["。"]
+      ],
+      "en": "Today at noon she made three dishes."
+    },
+    {
+      "t": [
+        ["米饭", "mǐfàn", "(cooked) rice"],
+        ["很", "hěn", "very"],
+        ["热", "rè", "hot"],
+        ["，"],
+        ["菜", "cài", "dish; food"],
+        ["很", "hěn", "very"],
+        ["好吃", "hǎochī", "delicious"],
+        ["。"]
+      ],
+      "en": "The rice was hot and the food was delicious."
+    },
+    {
+      "t": [
+        ["爸爸", "bàba", "dad"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make"],
+        ["的", "de", "(links maker and dish)"],
+        ["菜", "cài", "dish; food"],
+        ["太", "tài", "too; so"],
+        ["好吃", "hǎochī", "delicious"],
+        ["了", "le", "(with 太: emphasis)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Dad said, \"The food your mom makes is just so delicious!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(completed action)"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "much; a lot"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "I ate a lot, and I was very happy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["爱", "ài", "to love"],
+        ["妈妈", "māma", "mom"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["爱", "ài", "to love"],
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make"],
+        ["的", "de", "(links maker and dish)"],
+        ["菜", "cài", "dish; food"],
+        ["。"]
+      ],
+      "en": "I love my mom, and I love her cooking too."
+    }
+  ],
+  "vocab": [
+    ["做菜", "zuò cài", "to cook"],
+    ["米饭", "mǐfàn", "(cooked) rice"],
+    ["热", "rè", "hot"],
+    ["好吃", "hǎochī", "delicious"],
+    ["太", "tài", "too; so"],
+    ["也", "yě", "also"]
+  ],
+  "quiz": [
+    {
+      "q": "How many dishes did Mom make at noon?",
+      "a": ["Two", "Three", "Four"],
+      "c": 1
+    },
+    {
+      "q": "Who said the food was so delicious?",
+      "a": ["Dad", "The narrator", "A friend"],
+      "c": 0
+    },
+    {
+      "q": "How did the narrator feel after eating a lot?",
+      "a": ["Tired", "Cold", "Very happy"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "会 + verb",
+      "e": "会 means someone knows how to do something they learned. Adding 很 (很会) turns it into 'is really good at': 很会做菜 = cooks really well.",
+      "x": "我妈妈很会做菜。 — My mom is a wonderful cook."
+    },
+    {
+      "p": "太 + adjective + 了",
+      "e": "太…了 wraps an adjective to say 'so…!' or 'too…', adding strong feeling: 太好吃了 = so delicious!",
+      "x": "太好吃了！ — It's so delicious!"
+    },
+    {
+      "p": "verb phrase + 的 + noun",
+      "e": "A short phrase plus 的 can describe a noun: 妈妈做的菜 = the food that Mom makes.",
+      "x": "我爱妈妈做的菜。 — I love the food my mom makes."
+    }
+  ]
+}

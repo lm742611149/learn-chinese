@@ -1,0 +1,147 @@
+{
+  "slug": "hsk1-on-the-plane",
+  "level": 1,
+  "title_zh": "在飞机上",
+  "title_py": "Zài fēijī shang",
+  "title_en": "On the Plane",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["现在", "xiànzài", "now"],
+        ["在", "zài", "at; on"],
+        ["飞机", "fēijī", "airplane"],
+        ["上", "shang", "on; on board"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["北京", "Běijīng", "Beijing"],
+        ["看", "kàn", "to see; to visit"],
+        ["朋友", "péngyou", "friend"],
+        ["。"]
+      ],
+      "en": "I'm on a plane right now, going to Beijing to see a friend."
+    },
+    {
+      "t": [
+        ["飞机", "fēijī", "airplane"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["飞机", "fēijī", "airplane"],
+        ["上", "shang", "on; on board"],
+        ["人", "rén", "person; people"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "The plane is big, and there are a lot of people on board."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["看", "kàn", "to read; to watch"],
+        ["书", "shū", "book"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["看", "kàn", "to watch"],
+        ["电影", "diànyǐng", "movie"],
+        ["。"]
+      ],
+      "en": "I read my book and watch a movie too."
+    },
+    {
+      "t": [
+        ["小姐", "xiǎojiě", "miss; young lady"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["先生", "xiānsheng", "sir; Mr."],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["喝", "hē", "to drink"],
+        ["什么", "shénme", "what"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The flight attendant says, \"Sir, what would you like to drink?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["喝", "hē", "to drink"],
+        ["一杯", "yì bēi", "a cup of"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["谢谢", "xièxie", "thank you"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I say, \"A cup of tea, thank you!\""
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["三点", "sān diǎn", "three o'clock"],
+        ["，"],
+        ["飞机", "fēijī", "airplane"],
+        ["到", "dào", "to arrive"],
+        ["北京", "Běijīng", "Beijing"],
+        ["了", "le", "(new situation)"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "At three in the afternoon the plane arrives in Beijing, and I'm so happy."
+    }
+  ],
+  "vocab": [
+    ["飞机", "fēijī", "airplane"],
+    ["北京", "Běijīng", "Beijing"],
+    ["小姐", "xiǎojiě", "miss; young lady"],
+    ["先生", "xiānsheng", "sir; Mr."],
+    ["到", "dào", "to arrive"],
+    ["现在", "xiànzài", "now"]
+  ],
+  "quiz": [
+    {
+      "q": "Why is the narrator going to Beijing?",
+      "a": ["For work", "To study Chinese", "To see a friend"],
+      "c": 2
+    },
+    {
+      "q": "What does the narrator drink on the plane?",
+      "a": ["A cup of tea", "A cup of coffee", "A glass of water"],
+      "c": 0
+    },
+    {
+      "q": "When does the plane arrive in Beijing?",
+      "a": ["At noon", "At three in the afternoon", "At three in the morning"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "在 + place (+ 上)",
+      "e": "在 puts someone or something at a place, and 上 after the place means 'on/aboard': 在飞机上 = on the plane.",
+      "x": "我现在在飞机上。 — I'm on the plane right now."
+    },
+    {
+      "p": "…什么？",
+      "e": "什么 means 'what' and sits exactly where the answer would go — no word-order change is needed for a question.",
+      "x": "你喝什么？ — What would you like to drink?"
+    },
+    {
+      "p": "sentence + 了",
+      "e": "了 at the end of a sentence signals that something has happened or a new situation has arrived: 到北京了 = we've arrived in Beijing.",
+      "x": "飞机到北京了。 — The plane has arrived in Beijing."
+    }
+  ]
+}

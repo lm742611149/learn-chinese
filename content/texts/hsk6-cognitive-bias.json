@@ -1,0 +1,292 @@
+{
+  "slug": "hsk6-cognitive-bias",
+  "level": 6,
+  "title_zh": "认知偏差",
+  "title_py": "Rènzhī piānchā",
+  "title_en": "Cognitive Bias",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["总", "zǒng", "always"],
+        ["以为", "yǐwéi", "to assume (often wrongly)"],
+        ["自己", "zìjǐ", "one's own"],
+        ["的", "de", "(possessive particle)"],
+        ["判断", "pànduàn", "judgment"],
+        ["客观", "kèguān", "objective"],
+        ["理性", "lǐxìng", "rational"],
+        ["，"],
+        ["然而", "rán'ér", "however"],
+        ["心理学", "xīnlǐxué", "psychology"],
+        ["研究", "yánjiū", "research"],
+        ["表明", "biǎomíng", "to show; indicate"],
+        ["，"],
+        ["人脑", "rénnǎo", "human brain"],
+        ["天生", "tiānshēng", "innately; by nature"],
+        ["带着", "dàizhe", "carrying"],
+        ["各种各样", "gè zhǒng gè yàng", "all kinds of"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["认知", "rènzhī", "cognitive; cognition"],
+        ["偏差", "piānchā", "bias; deviation"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "We like to assume our judgments are objective and rational, yet psychological research shows the human brain comes equipped with all sorts of \"cognitive biases.\""
+    },
+    {
+      "t": [
+        ["所谓", "suǒwèi", "so-called"],
+        ["认知", "rènzhī", "cognitive"],
+        ["偏差", "piānchā", "bias"],
+        ["，"],
+        ["是指", "shì zhǐ", "refers to"],
+        ["思维", "sīwéi", "thinking; the mind"],
+        ["在", "zài", "in; while"],
+        ["处理", "chǔlǐ", "to process"],
+        ["信息", "xìnxī", "information"],
+        ["时", "shí", "when (formal)"],
+        ["出现", "chūxiàn", "to appear; occur"],
+        ["的", "de", "(possessive particle)"],
+        ["系统性", "xìtǒngxìng", "systematic"],
+        ["偏离", "piānlí", "deviation"],
+        ["。"]
+      ],
+      "en": "A cognitive bias is a systematic deviation that occurs when the mind processes information."
+    },
+    {
+      "t": [
+        ["举", "jǔ", "to give (an example)"],
+        ["个", "ge", "(measure word)"],
+        ["常见", "chángjiàn", "common"],
+        ["的", "de", "(possessive particle)"],
+        ["例子", "lìzi", "example"],
+        ["："],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["某个", "mǒu ge", "a certain"],
+        ["品牌", "pǐnpái", "brand"],
+        ["的", "de", "(possessive particle)"],
+        ["车", "chē", "car"],
+        ["之后", "zhīhòu", "after"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["会", "huì", "will"],
+        ["突然", "tūrán", "suddenly"],
+        ["发现", "fāxiàn", "to discover"],
+        ["满街", "mǎn jiē", "all over the street"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "are"],
+        ["同款", "tóngkuǎn", "the same model"],
+        ["车", "chē", "car"],
+        ["。"]
+      ],
+      "en": "Here is a common example: after buying a car of a certain brand, you suddenly notice the same model everywhere on the street."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["并不是", "bìng bú shì", "by no means is"],
+        ["车", "chē", "car"],
+        ["变多", "biàn duō", "to become more numerous"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["你", "nǐ", "you"],
+        ["的", "de", "(possessive particle)"],
+        ["注意力", "zhùyìlì", "attention"],
+        ["被", "bèi", "(passive marker)"],
+        ["“"],
+        ["确认", "quèrèn", "confirmation"],
+        ["偏差", "piānchā", "bias"],
+        ["”"],
+        ["牵引", "qiānyǐn", "to pull; draw"],
+        ["，"],
+        ["只", "zhǐ", "only"],
+        ["看见", "kànjiàn", "to see"],
+        ["支持", "zhīchí", "to support"],
+        ["自己", "zìjǐ", "one's own"],
+        ["选择", "xuǎnzé", "choice"],
+        ["的", "de", "(possessive particle)"],
+        ["证据", "zhèngjù", "evidence"],
+        ["。"]
+      ],
+      "en": "It is not that there are suddenly more of those cars; rather, your attention is being pulled by \"confirmation bias,\" so you only see evidence that supports your own choice."
+    },
+    {
+      "t": [
+        ["又如", "yòu rú", "another example (formal)"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["往往", "wǎngwǎng", "often; tend to"],
+        ["高估", "gāogū", "to overestimate"],
+        ["自己", "zìjǐ", "one's own"],
+        ["的", "de", "(possessive particle)"],
+        ["水平", "shuǐpíng", "level; ability"],
+        ["，"],
+        ["越是", "yuèshì", "the more"],
+        ["无知", "wúzhī", "ignorant"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "person"],
+        ["，"],
+        ["反而", "fǎn'ér", "paradoxically"],
+        ["越", "yuè", "the more"],
+        ["自信", "zìxìn", "confident"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["被", "bèi", "(passive marker)"],
+        ["称为", "chēngwéi", "to be called"],
+        ["“"],
+        ["达克", "Dákè", "Dunning-Kruger (transliteration)"],
+        ["效应", "xiàoyìng", "effect"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "Another example: people tend to overestimate their own ability, and paradoxically, the more ignorant a person is, the more confident they tend to be — the so-called \"Dunning-Kruger effect.\""
+    },
+    {
+      "t": [
+        ["认知", "rènzhī", "cognitive"],
+        ["偏差", "piānchā", "bias"],
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["难以", "nányǐ", "hard to (formal)"],
+        ["克服", "kèfú", "to overcome"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["它", "tā", "it"],
+        ["运行", "yùnxíng", "to operate; run"],
+        ["在", "zài", "in; at"],
+        ["意识", "yìshí", "consciousness"],
+        ["之外", "zhīwài", "outside of"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["察觉", "chájué", "to perceive; detect"],
+        ["不到", "bú dào", "unable to"],
+        ["自己", "zìjǐ", "oneself"],
+        ["正", "zhèng", "right now; in the process of"],
+        ["被", "bèi", "(passive marker)"],
+        ["它", "tā", "it"],
+        ["左右", "zuǒyòu", "to sway; control"],
+        ["。"]
+      ],
+      "en": "The reason cognitive biases are so hard to overcome is that they operate outside our awareness; we cannot perceive that we are being swayed by them."
+    },
+    {
+      "t": [
+        ["好消息", "hǎo xiāoxi", "good news"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["偏差", "piānchā", "bias"],
+        ["虽然", "suīrán", "although"],
+        ["无法", "wúfǎ", "unable to (formal)"],
+        ["彻底", "chèdǐ", "thoroughly"],
+        ["消除", "xiāochú", "to eliminate"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["可以", "kěyǐ", "can"],
+        ["通过", "tōngguò", "through; by means of"],
+        ["训练", "xùnliàn", "training"],
+        ["来", "lái", "(introduces the verb)"],
+        ["削弱", "xuēruò", "to weaken"],
+        ["："],
+        ["多", "duō", "more; additionally"],
+        ["问", "wèn", "to ask"],
+        ["一句", "yí jù", "one (measure for sentences)"],
+        ["“"],
+        ["我", "wǒ", "I"],
+        ["有没有", "yǒu méiyǒu", "whether or not"],
+        ["可能", "kěnéng", "possibly"],
+        ["错", "cuò", "wrong"],
+        ["了", "le", "(change of state)"],
+        ["”"],
+        ["，"],
+        ["主动", "zhǔdòng", "actively; on one's own initiative"],
+        ["寻找", "xúnzhǎo", "to look for"],
+        ["相反", "xiāngfǎn", "opposite; contrary"],
+        ["的", "de", "(possessive particle)"],
+        ["证据", "zhèngjù", "evidence"],
+        ["。"]
+      ],
+      "en": "The good news is that although biases can never be fully eliminated, they can be weakened through practice: ask yourself one more question — \"Could I be wrong?\" — and actively look for evidence against your view."
+    },
+    {
+      "t": [
+        ["承认", "chéngrèn", "to admit"],
+        ["自己", "zìjǐ", "oneself"],
+        ["会", "huì", "may; can"],
+        ["犯错", "fàncuò", "to make mistakes"],
+        ["，"],
+        ["并不", "bìngbù", "by no means"],
+        ["丢人", "diūrén", "shameful; embarrassing"],
+        ["；"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["危险", "wēixiǎn", "dangerous"],
+        ["的", "de", "(nominalizing particle)"],
+        ["，"],
+        ["是", "shì", "is"],
+        ["对", "duì", "towards; regarding"],
+        ["自身", "zìshēn", "one's own"],
+        ["的", "de", "(possessive particle)"],
+        ["盲点", "mángdiǎn", "blind spot"],
+        ["一无所知", "yì wú suǒ zhī", "to know nothing at all"],
+        ["。"]
+      ],
+      "en": "Admitting that you can be wrong is nothing to be ashamed of; what is truly dangerous is knowing nothing about your own blind spots."
+    }
+  ],
+  "vocab": [
+    ["认知", "rènzhī", "cognition; cognitive"],
+    ["偏差", "piānchā", "bias; deviation"],
+    ["系统性", "xìtǒngxìng", "systematic"],
+    ["高估", "gāogū", "to overestimate"],
+    ["察觉", "chájué", "to perceive; to become aware of"],
+    ["盲点", "mángdiǎn", "blind spot"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what really happens after you buy a car of a certain brand?",
+      "a": [
+        "The brand actually sells more cars in your city",
+        "Confirmation bias pulls your attention toward cars of the same model",
+        "You start to regret your choice and notice better cars"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why are cognitive biases so hard to overcome?",
+      "a": [
+        "They operate outside our awareness, so we cannot feel them swaying us",
+        "They are taught to us in childhood and reinforced at school",
+        "Most people simply refuse to study psychology"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the text suggest for weakening one's biases?",
+      "a": [
+        "Avoiding making important decisions alone",
+        "Trusting statistics instead of personal experience",
+        "Asking \"could I be wrong?\" and actively seeking contrary evidence"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "所谓…，是指…",
+      "e": "A formal defining pattern: 'what is called A refers to B'. Essays use it to introduce and then define a technical term. 例：所谓内卷，是指无意义的过度竞争。",
+      "x": "所谓认知偏差，是指思维在处理信息时出现的系统性偏离。 — A cognitive bias is a systematic deviation that occurs when the mind processes information."
+    },
+    {
+      "p": "并不是…，而是…",
+      "e": "An emphatic correction: 'it is by no means A; rather, it is B'. 并 strengthens the negation, often countering what the reader might assume.",
+      "x": "这并不是车变多了，而是你的注意力被“确认偏差”牵引。 — It is not that there are more of those cars; rather, your attention is being pulled by confirmation bias."
+    },
+    {
+      "p": "越是…，(反而)越…",
+      "e": "'The more A, the more B' — 越是 fronts the condition for emphasis, and 反而 adds a note of paradox when the result is the opposite of what one would expect.",
+      "x": "越是无知的人，反而越自信。 — Paradoxically, the more ignorant a person is, the more confident they tend to be."
+    }
+  ]
+}

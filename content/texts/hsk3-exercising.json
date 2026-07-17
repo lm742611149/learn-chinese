@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-exercising",
+  "level": 3,
+  "title_zh": "锻炼身体",
+  "title_py": "Duànliàn shēntǐ",
+  "title_en": "Exercising",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at"],["公司","gōngsī","company"],["工作","gōngzuò","to work"],["，"],["每天","měitiān","every day"],["要","yào","to have to"],["坐","zuò","to sit"],["八","bā","eight"],["九","jiǔ","nine"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["，"],["最近","zuìjìn","recently"],["总是","zǒngshì","always"],["觉得","juéde","to feel"],["特别","tèbié","especially"],["累","lèi","tired"],["。"]],
+      "en": "I work at a company, sitting eight or nine hours a day, and lately I've been feeling especially tired all the time."
+    },
+    {
+      "t": [["上个","shàng gè","last (week/month)"],["星期","xīngqī","week"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["医院","yīyuàn","hospital"],["检查","jiǎnchá","to examine; check"],["身体","shēntǐ","body; health"],["，"],["医生","yīshēng","doctor"],["说","shuō","to say"],["我","wǒ","I; me"],["太","tài","too"],["胖","pàng","fat; overweight"],["了","le","(particle)"],["，"],["应该","yīnggāi","should"],["多","duō","more"],["锻炼","duànliàn","to exercise"],["。"]],
+      "en": "Last week I had a check-up at the hospital; the doctor said I was too heavy and should exercise more."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["决定","juédìng","to decide"],["每天","měitiān","every day"],["早上","zǎoshang","morning"],["六点半","liù diǎn bàn","half past six"],["起床","qǐchuáng","to get up"],["，"],["去","qù","to go"],["家","jiā","home"],["旁边","pángbiān","beside; nearby"],["的","de","(particle: attributive)"],["公园","gōngyuán","park"],["跑步","pǎobù","to jog; to run"],["。"]],
+      "en": "I decided to get up at six thirty every morning and go jogging in the park near my home."
+    },
+    {
+      "t": [["第一","dì yī","first"],["天","tiān","day"],["跑完","pǎowán","to finish running"],["步","bù","(part of 跑步: jog)"],["，"],["我","wǒ","I; me"],["的","de","(particle: possessive)"],["腿","tuǐ","leg"],["疼","téng","to ache; to hurt"],["得","de","(degree particle)"],["不","bù","not"],["想","xiǎng","to want"],["走路","zǒulù","to walk"],["，"],["可是","kěshì","but"],["我","wǒ","I; me"],["还是","háishi","still; nevertheless"],["每天","měitiān","every day"],["都","dōu","all; every time"],["去","qù","to go"],["。"]],
+      "en": "After my first run, my legs ached so much I didn't want to walk, but I still went every day."
+    },
+    {
+      "t": [["周末","zhōumò","weekend"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["我","wǒ","I; me"],["经常","jīngcháng","often"],["和","hé","with"],["朋友","péngyou","friend"],["一起","yìqǐ","together"],["去","qù","to go"],["爬山","páshān","to climb a mountain; hike"],["，"],["或者","huòzhě","or"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["。"]],
+      "en": "On weekends I often go hiking with friends, or we ride bikes."
+    },
+    {
+      "t": [["爬山","páshān","to climb a mountain; hike"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["我们","wǒmen","we; us"],["一边","yìbiān","while (doing one thing)"],["爬","pá","to climb"],["一边","yìbiān","while (doing another)"],["说话","shuōhuà","to talk; to chat"],["，"],["又","yòu","both (又…又…)"],["锻炼","duànliàn","to exercise"],["了","le","(particle: completed)"],["身体","shēntǐ","body; health"],["，"],["又","yòu","and also (又…又…)"],["玩","wán","to play; have fun"],["得","de","(degree particle)"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "While hiking, we climb and chat at the same time — we get exercise and have a great time."
+    },
+    {
+      "t": [["一个","yí gè","one (measure)"],["月","yuè","month"],["以后","yǐhòu","after; later"],["，"],["锻炼","duànliàn","to exercise"],["已经","yǐjīng","already"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(particle: possessive)"],["习惯","xíguàn","habit"],["了","le","(particle: new situation)"],["，"],["我","wǒ","I; me"],["的","de","(particle: possessive)"],["身体","shēntǐ","body; health"],["也","yě","also"],["越来越","yuè lái yuè","more and more"],["健康","jiànkāng","healthy"],["。"]],
+      "en": "A month later, exercising had already become a habit, and I was getting healthier and healthier."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["很","hěn","very"],["少","shǎo","seldom; rarely"],["感冒","gǎnmào","to catch a cold"],["，"],["工作","gōngzuò","to work"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["也","yě","also"],["没有","méiyǒu","not as (comparison)"],["以前","yǐqián","before; in the past"],["那么","nàme","that; so"],["累","lèi","tired"],["了","le","(particle: new situation)"],["。"]],
+      "en": "Now I rarely catch colds, and I don't get as tired at work as I used to."
+    }
+  ],
+  "vocab": [
+    ["锻炼","duànliàn","to exercise; to work out"],
+    ["健康","jiànkāng","healthy; health"],
+    ["习惯","xíguàn","habit"],
+    ["跑步","pǎobù","to jog; to run"],
+    ["爬山","páshān","to climb a mountain; hike"],
+    ["胖","pàng","fat; overweight"]
+  ],
+  "quiz": [
+    {"q": "Why did the narrator start exercising?", "a": ["The doctor said he was too heavy", "His friends invited him", "He wanted to save money"], "c": 0},
+    {"q": "How did he feel after his first run?", "a": ["Full of energy", "His legs ached so much he didn't want to walk", "He wanted to run again right away"], "c": 1},
+    {"q": "What does he do with friends on weekends?", "a": ["Watch movies", "Play basketball", "Go hiking or ride bikes"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "又……又……", "e": "又 A 又 B links two qualities or results that are true at the same time: 'both A and B', e.g. 这个菜又便宜又好吃.", "x": "又锻炼了身体，又玩得很高兴。 — We both get exercise and have a great time."},
+    {"p": "verb/adjective + 得 + degree", "e": "得 after a verb or adjective introduces how far the action or state goes — its degree or result, e.g. 他跑得很快.", "x": "我的腿疼得不想走路。 — My legs ached so much that I didn't want to walk."},
+    {"p": "越来越 + adjective", "e": "越来越 means 'more and more', describing a quality that keeps growing over time, e.g. 他汉语说得越来越好.", "x": "我的身体也越来越健康。 — I was getting healthier and healthier."}
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "slug": "hsk5-school-district-housing",
+  "level": 5,
+  "title_zh": "学区房",
+  "title_py": "Xuéqūfáng",
+  "title_en": "School-District Housing",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China's"],
+        ["的", "de", "(possessive)"],
+        ["大", "dà", "big"],
+        ["城市", "chéngshì", "cities"],
+        ["，"],
+        ["有", "yǒu", "there is"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["特别", "tèbié", "special"],
+        ["的", "de", "(attributive)"],
+        ["房子", "fángzi", "house"],
+        ["，"],
+        ["叫做", "jiàozuò", "called"],
+        ["“"],
+        ["学区房", "xuéqūfáng", "school-district housing"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "In China's big cities there is a special kind of home, known as \"school-district housing\"."
+    },
+    {
+      "t": [
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["房子", "fángzi", "house"],
+        ["本身", "běnshēn", "itself"],
+        ["可能", "kěnéng", "may be"],
+        ["又", "yòu", "both"],
+        ["小", "xiǎo", "small"],
+        ["又", "yòu", "and"],
+        ["旧", "jiù", "old"],
+        ["，"],
+        ["价格", "jiàgé", "the price"],
+        ["却", "què", "yet"],
+        ["贵", "guì", "expensive"],
+        ["得", "de", "(complement)"],
+        ["让", "ràng", "makes"],
+        ["人", "rén", "people"],
+        ["吃惊", "chījīng", "shocked"],
+        ["。"]
+      ],
+      "en": "The house itself may be small and old, yet the price is shockingly high."
+    },
+    {
+      "t": [
+        ["原因", "yuányīn", "the reason"],
+        ["很", "hěn", "very"],
+        ["简单", "jiǎndān", "simple"],
+        ["："],
+        ["买", "mǎi", "buy"],
+        ["了", "le", "(completed)"],
+        ["它", "tā", "it"],
+        ["，"],
+        ["孩子", "háizi", "the child"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["进入", "jìnrù", "enter"],
+        ["附近", "fùjìn", "nearby"],
+        ["最好", "zuì hǎo", "the best"],
+        ["的", "de", "(attributive)"],
+        ["学校", "xuéxiào", "school"],
+        ["。"]
+      ],
+      "en": "The reason is simple: buy it, and your child can enter the best school in the area."
+    },
+    {
+      "t": [
+        ["为了", "wèile", "for the sake of"],
+        ["孩子", "háizi", "the child's"],
+        ["的", "de", "(possessive)"],
+        ["教育", "jiàoyù", "education"],
+        ["，"],
+        ["许多", "xǔduō", "many"],
+        ["家长", "jiāzhǎng", "parents"],
+        ["不得不", "bùdébù", "have no choice but"],
+        ["花光", "huāguāng", "to spend all of"],
+        ["所有", "suǒyǒu", "all"],
+        ["的", "de", "(attributive)"],
+        ["积蓄", "jīxù", "savings"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["借", "jiè", "borrow"],
+        ["很多", "hěn duō", "a lot of"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "For their children's education, many parents have no choice but to spend all their savings, or even borrow heavily."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["的", "de", "(possessive)"],
+        ["一位", "yí wèi", "one"],
+        ["同事", "tóngshì", "colleague"],
+        ["就是", "jiùshì", "is exactly"],
+        ["这样", "zhèyàng", "like this"],
+        ["："],
+        ["他", "tā", "he"],
+        ["卖掉", "màidiào", "sold off"],
+        ["了", "le", "(completed)"],
+        ["宽敞", "kuānchang", "spacious"],
+        ["的", "de", "(attributive)"],
+        ["大", "dà", "big"],
+        ["房子", "fángzi", "house"],
+        ["，"],
+        ["搬进", "bānjìn", "moved into"],
+        ["了", "le", "(completed)"],
+        ["一套", "yí tào", "a (apartment)"],
+        ["五十", "wǔshí", "fifty"],
+        ["平方米", "píngfāngmǐ", "square meters"],
+        ["的", "de", "(attributive)"],
+        ["老", "lǎo", "old"],
+        ["房子", "fángzi", "apartment"],
+        ["。"]
+      ],
+      "en": "One of my colleagues did exactly that: he sold his spacious house and moved into a fifty-square-meter old apartment."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["笑", "xiào", "smiling"],
+        ["着", "zhe", "(manner)"],
+        ["说", "shuō", "said"],
+        ["："],
+        ["“"],
+        ["房子", "fángzi", "the house"],
+        ["是", "shì", "indeed"],
+        ["旧", "jiù", "old"],
+        ["了", "le", "(degree)"],
+        ["点儿", "diǎnr", "a bit"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["孩子", "háizi", "the child's"],
+        ["的", "de", "(possessive)"],
+        ["未来", "wèilái", "future"],
+        ["不", "bù", "cannot"],
+        ["能", "néng", "can"],
+        ["等", "děng", "wait"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said with a smile: \"The place is a bit old, sure, but my child's future can't wait.\""
+    },
+    {
+      "t": [
+        ["学区房", "xuéqūfáng", "school-district housing"],
+        ["现象", "xiànxiàng", "phenomenon"],
+        ["反映", "fǎnyìng", "reflects"],
+        ["了", "le", "(completed)"],
+        ["教育", "jiàoyù", "educational"],
+        ["资源", "zīyuán", "resources"],
+        ["分配", "fēnpèi", "distribution"],
+        ["不", "bù", "not"],
+        ["平均", "píngjūn", "even"],
+        ["的", "de", "(attributive)"],
+        ["问题", "wèntí", "problem"],
+        ["。"]
+      ],
+      "en": "The school-district housing phenomenon reflects the uneven distribution of educational resources."
+    },
+    {
+      "t": [
+        ["凡是", "fánshì", "wherever"],
+        ["好", "hǎo", "good"],
+        ["学校", "xuéxiào", "schools"],
+        ["集中", "jízhōng", "are concentrated"],
+        ["的", "de", "(attributive)"],
+        ["地方", "dìfang", "places"],
+        ["，"],
+        ["房价", "fángjià", "housing prices"],
+        ["就", "jiù", "then"],
+        ["一定", "yídìng", "certainly"],
+        ["特别", "tèbié", "especially"],
+        ["高", "gāo", "high"],
+        ["。"]
+      ],
+      "en": "Wherever good schools are concentrated, housing prices are invariably sky-high."
+    },
+    {
+      "t": [
+        ["近年来", "jìn nián lái", "in recent years"],
+        ["，"],
+        ["政府", "zhèngfǔ", "the government"],
+        ["正在", "zhèngzài", "is currently"],
+        ["想", "xiǎng", "thinking of"],
+        ["办法", "bànfǎ", "ways"],
+        ["让", "ràng", "to make"],
+        ["教育", "jiàoyù", "educational"],
+        ["资源", "zīyuán", "resources"],
+        ["更加", "gèngjiā", "more"],
+        ["公平", "gōngpíng", "fair"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["要", "yào", "to"],
+        ["彻底", "chèdǐ", "thoroughly"],
+        ["解决", "jiějué", "solve"],
+        ["这个", "zhège", "this"],
+        ["问题", "wèntí", "problem"],
+        ["，"],
+        ["恐怕", "kǒngpà", "I'm afraid"],
+        ["还", "hái", "still"],
+        ["需要", "xūyào", "will take"],
+        ["很", "hěn", "very"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["。"]
+      ],
+      "en": "In recent years the government has been looking for ways to make educational resources fairer, but solving the problem completely will, I'm afraid, take a very long time."
+    }
+  ],
+  "vocab": [
+    ["学区房", "xuéqūfáng", "school-district housing"],
+    ["积蓄", "jīxù", "savings"],
+    ["资源", "zīyuán", "resources"],
+    ["分配", "fēnpèi", "to distribute; distribution"],
+    ["平均", "píngjūn", "even, equal"],
+    ["彻底", "chèdǐ", "thorough(ly), complete(ly)"]
+  ],
+  "quiz": [
+    {
+      "q": "Why is school-district housing so expensive?",
+      "a": [
+        "Because the apartments are newly built and spacious",
+        "Because buying one lets the child enter the best nearby school",
+        "Because they are all close to subway stations"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did the author's colleague do?",
+      "a": [
+        "He borrowed money to start a company",
+        "He moved abroad for his child's education",
+        "He sold his spacious house and moved into a small old apartment"
+      ],
+      "c": 2
+    },
+    {
+      "q": "According to the text, what does the school-district housing phenomenon reflect?",
+      "a": [
+        "Educational resources are not evenly distributed",
+        "Chinese people prefer old houses to new ones",
+        "House prices in big cities are falling"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "凡是…，就/都…",
+      "e": "Means 'whatever / whoever / wherever...' — states a rule that applies to every case in a category, e.g. 凡是他说的话，大家都相信.",
+      "x": "凡是好学校集中的地方，房价就一定特别高。 — Wherever good schools are concentrated, housing prices are invariably especially high."
+    },
+    {
+      "p": "又…又…",
+      "e": "Links two qualities that are true at the same time: 'both A and B', e.g. 这个孩子又聪明又可爱.",
+      "x": "这种房子本身可能又小又旧，价格却贵得让人吃惊。 — The house itself may be both small and old, yet the price is shockingly high."
+    },
+    {
+      "p": "恐怕",
+      "e": "Means 'I'm afraid that...' — expresses a worried estimate about something probably negative, e.g. 现在出发，恐怕已经来不及了.",
+      "x": "要彻底解决这个问题，恐怕还需要很长时间。 — To solve this problem completely will, I'm afraid, still take a very long time."
+    }
+  ]
+}

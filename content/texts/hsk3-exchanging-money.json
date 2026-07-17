@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-exchanging-money",
+  "level": 3,
+  "title_zh": "换钱",
+  "title_py": "Huàn qián",
+  "title_en": "Exchanging Money",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下个月","xià gè yuè","next month"],["，"],["我","wǒ","I; me"],["打算","dǎsuàn","to plan"],["去","qù","to go"],["国外","guówài","abroad"],["旅游","lǚyóu","to travel (for pleasure)"],["，"],["所以","suǒyǐ","so; therefore"],["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["我","wǒ","I; me"],["去","qù","to go"],["银行","yínháng","bank"],["换钱","huànqián","to exchange money"],["。"]],
+      "en": "Next month I plan to travel abroad, so this morning I went to the bank to exchange money."
+    },
+    {
+      "t": [["银行","yínháng","bank"],["里","lǐ","inside"],["人","rén","person; people"],["特别","tèbié","especially"],["多","duō","many"],["，"],["我","wǒ","I; me"],["拿","ná","to take"],["了","le","(particle: completed)"],["号","hào","number (ticket)"],["以后","yǐhòu","after"],["，"],["等","děng","to wait"],["了","le","(particle: completed)"],["四十","sìshí","forty"],["分钟","fēnzhōng","minute"],["才","cái","only then; not until"],["见到","jiàndào","to see; to meet"],["工作人员","gōngzuò rényuán","staff member"],["。"]],
+      "en": "The bank was especially crowded; after taking a number, I waited forty minutes before I got to see a staff member."
+    },
+    {
+      "t": [["她","tā","she"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["您好","nín hǎo","hello (polite)"],["，"],["您","nín","you (polite)"],["需要","xūyào","to need"],["换","huàn","to exchange"],["多少","duōshao","how much"],["钱","qián","money"],["？"],["”"]],
+      "en": "She asked me: \"Hello, how much money would you like to exchange?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["想","xiǎng","to want"],["用","yòng","to use"],["五千","wǔqiān","five thousand"],["块","kuài","yuan (colloquial)"],["人民币","rénmínbì","RMB (Chinese yuan)"],["换","huàn","to exchange"],["美元","měiyuán","US dollar"],["。"],["”"]],
+      "en": "I said: \"I'd like to exchange five thousand yuan for US dollars.\""
+    },
+    {
+      "t": [["她","tā","she"],["让","ràng","to ask (sb to do)"],["我","wǒ","I; me"],["把","bǎ","(marker: object before verb)"],["护照","hùzhào","passport"],["给","gěi","to give"],["她","tā","she; her"],["看","kàn","to look at"],["一下","yíxià","briefly; a bit"],["，"],["然后","ránhòu","then; after that"],["让","ràng","to ask (sb to do)"],["我","wǒ","I; me"],["写","xiě","to write"],["自己","zìjǐ","oneself"],["的","de","(particle: possessive)"],["名字","míngzi","name"],["。"]],
+      "en": "She asked me to show her my passport, then had me write my name."
+    },
+    {
+      "t": [["十几","shí jǐ","a dozen or so"],["分钟","fēnzhōng","minute"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["就","jiù","then; right away"],["拿到","nádào","to get; to receive"],["了","le","(particle: completed)"],["七百","qībǎi","seven hundred"],["多","duō","more than"],["美元","měiyuán","US dollar"],["。"]],
+      "en": "A dozen or so minutes later, I had a little over seven hundred US dollars in hand."
+    },
+    {
+      "t": [["从","cóng","from"],["银行","yínháng","bank"],["出来","chūlai","to come out"],["，"],["我","wǒ","I; me"],["一边","yìbiān","while (doing one thing)"],["走","zǒu","to walk"],["一边","yìbiān","while (doing another)"],["想","xiǎng","to think"],["："],["钱","qián","money"],["换好","huànhǎo","exchanged (successfully)"],["了","le","(particle: completed)"],["，"],["就","jiù","just; then"],["等着","děngzhe","waiting (for)"],["去","qù","to go"],["旅游","lǚyóu","to travel (for pleasure)"],["了","le","(particle: new situation)"],["！"]],
+      "en": "Walking out of the bank, I thought to myself: the money is all exchanged — now I'm just waiting for my trip!"
+    }
+  ],
+  "vocab": [
+    ["换","huàn","to exchange; to change"],
+    ["银行","yínháng","bank"],
+    ["人民币","rénmínbì","RMB (Chinese yuan)"],
+    ["美元","měiyuán","US dollar"],
+    ["护照","hùzhào","passport"],
+    ["打算","dǎsuàn","to plan; to intend"]
+  ],
+  "quiz": [
+    {"q": "Why did the narrator go to the bank?", "a": ["To open an account", "To pay back a loan", "To exchange money for a trip abroad"], "c": 2},
+    {"q": "How long did he wait before being served?", "a": ["Forty minutes", "Fifteen minutes", "An hour"], "c": 0},
+    {"q": "What did the staff member ask to see?", "a": ["His bank card", "His passport", "His plane ticket"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "……才 + verb", "e": "才 before the verb signals that something happened later than expected — 'only after / not until'. It often follows a duration, e.g. 等了很久才来.", "x": "我等了四十分钟才见到工作人员。 — I waited forty minutes before I got to see a staff member."},
+    {"p": "一边……一边……", "e": "一边 A 一边 B describes two actions happening at the same time, each 一边 followed by a verb, e.g. 他一边吃饭一边看电视.", "x": "我一边走一边想：钱换好了！ — As I walked, I thought: the money is all exchanged!"},
+    {"p": "verb + 好 (resultative)", "e": "Adding 好 after a verb shows the action is finished successfully or brought to a good state, e.g. 饭做好了 'the food is ready'.", "x": "钱换好了，就等着去旅游了！ — The money is all exchanged; now I'm just waiting for my trip!"}
+  ]
+}

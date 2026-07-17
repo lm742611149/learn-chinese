@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-paying-back-money",
+  "level": 3,
+  "title_zh": "还钱",
+  "title_py": "Huán qián",
+  "title_en": "Paying Back Money",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上个月","shàng gè yuè","last month"],["，"],["我","wǒ","I; me"],["的","de","(particle: possessive)"],["手机","shǒujī","mobile phone"],["突然","tūrán","suddenly"],["坏","huài","broken"],["了","le","(particle: completed)"],["，"],["我","wǒ","I; me"],["需要","xūyào","to need"],["马上","mǎshàng","right away"],["买","mǎi","to buy"],["一个","yí gè","one (measure)"],["新","xīn","new"],["的","de","(particle: nominalizer)"],["。"]],
+      "en": "Last month my phone suddenly broke, and I needed to buy a new one right away."
+    },
+    {
+      "t": [["可是","kěshì","but"],["我","wǒ","I; me"],["没有","méiyǒu","to not have"],["那么","nàme","that; so"],["多","duō","much; many"],["钱","qián","money"],["，"],["所以","suǒyǐ","so; therefore"],["我","wǒ","I; me"],["向","xiàng","from (a person)"],["同事","tóngshì","colleague"],["小王","Xiǎo Wáng","Xiao Wang (name)"],["借","jiè","to borrow"],["了","le","(particle: completed)"],["一千","yìqiān","one thousand"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],["。"]],
+      "en": "But I didn't have that much money, so I borrowed a thousand yuan from my colleague Xiao Wang."
+    },
+    {
+      "t": [["小王","Xiǎo Wáng","Xiao Wang (name)"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it doesn't matter"],["，"],["你","nǐ","you"],["什么时候","shénme shíhou","when; whenever"],["有","yǒu","to have"],["钱","qián","money"],["，"],["什么时候","shénme shíhou","when; whenever"],["还","huán","to pay back"],["我","wǒ","I; me"],["。"],["”"]],
+      "en": "Xiao Wang said with a smile: \"No problem — pay me back whenever you have the money.\""
+    },
+    {
+      "t": [["昨天","zuótiān","yesterday"],["，"],["我","wǒ","I; me"],["终于","zhōngyú","finally"],["拿到","nádào","to get; to receive"],["了","le","(particle: completed)"],["这个","zhège","this"],["月","yuè","month"],["的","de","(particle: possessive)"],["工资","gōngzī","salary"],["。"]],
+      "en": "Yesterday I finally got this month's salary."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["做","zuò","to do"],["的","de","(particle: attributive)"],["第一","dì yī","first"],["件","jiàn","(measure word for matters)"],["事情","shìqing","thing; matter"],["，"],["就是","jiùshì","is exactly"],["去","qù","to go"],["找","zhǎo","to look for"],["小王","Xiǎo Wáng","Xiao Wang (name)"],["还钱","huánqián","to pay back money"],["。"]],
+      "en": "The first thing I did was go find Xiao Wang to pay him back."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["把","bǎ","(marker: object before verb)"],["一千","yìqiān","one thousand"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],["还给","huángěi","to give back to"],["了","le","(particle: completed)"],["他","tā","he; him"],["，"],["还","hái","also; in addition"],["请","qǐng","to treat; to invite"],["他","tā","he; him"],["喝","hē","to drink"],["了","le","(particle: completed)"],["一","yì","one"],["杯","bēi","cup (measure word)"],["咖啡","kāfēi","coffee"],["。"]],
+      "en": "I gave the thousand yuan back to him and also treated him to a cup of coffee."
+    },
+    {
+      "t": [["小王","Xiǎo Wáng","Xiao Wang (name)"],["高兴","gāoxìng","happy"],["地","de","(adverbial particle)"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thanks"],["，"],["你","nǐ","you"],["真","zhēn","really"],["是","shì","to be"],["个","gè","(measure word)"],["好","hǎo","good"],["朋友","péngyou","friend"],["！"],["”"]],
+      "en": "Xiao Wang said happily: \"Thanks — you really are a good friend!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["觉得","juéde","to feel; to think"],["，"],["借钱","jièqián","to borrow money"],["容易","róngyì","easy"],["，"],["还钱","huánqián","to pay back money"],["更","gèng","even more"],["要","yào","should; must"],["快","kuài","fast; quick"],["，"],["这样","zhèyàng","this way"],["朋友","péngyou","friend"],["关系","guānxi","relationship"],["才","cái","only then"],["会","huì","will"],["越来越","yuè lái yuè","more and more"],["好","hǎo","good"],["。"]],
+      "en": "I think borrowing money is easy, but you should be even quicker about paying it back — only then will a friendship get better and better."
+    }
+  ],
+  "vocab": [
+    ["借","jiè","to borrow"],
+    ["还","huán","to pay back; to return"],
+    ["同事","tóngshì","colleague"],
+    ["突然","tūrán","suddenly"],
+    ["终于","zhōngyú","finally"],
+    ["工资","gōngzī","salary; wages"]
+  ],
+  "quiz": [
+    {"q": "Why did the narrator borrow money from Xiao Wang?", "a": ["To pay his rent", "To buy a new phone", "To take a trip"], "c": 1},
+    {"q": "What did Xiao Wang say when he lent the money?", "a": ["Pay me back next week", "Pay me back with a little extra", "Pay me back whenever you have money"], "c": 2},
+    {"q": "Besides returning the money, what did the narrator do?", "a": ["Treated Xiao Wang to a coffee", "Cooked dinner for Xiao Wang", "Bought Xiao Wang a book"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "什么时候……，什么时候……", "e": "Repeating a question word like 什么时候 turns it into 'whenever / whatever': the second clause happens at the same (unspecified) time as the first, e.g. 你什么时候来，我什么时候等你.", "x": "你什么时候有钱，什么时候还我。 — Pay me back whenever you have the money."},
+    {"p": "把 + object + 还给 + sb", "e": "In a 把-sentence the object moves before the verb to show what is being handled; 还给 'return to' then names the receiver, e.g. 请把书还给老师.", "x": "我把一千块钱还给了他。 — I gave the thousand yuan back to him."},
+    {"p": "越来越 + adjective", "e": "越来越 means 'more and more', showing that a quality keeps increasing over time, e.g. 天气越来越热.", "x": "这样朋友关系才会越来越好。 — Only then will a friendship get better and better."}
+  ]
+}

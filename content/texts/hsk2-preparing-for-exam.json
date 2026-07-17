@@ -1,0 +1,180 @@
+{
+  "slug": "hsk2-preparing-for-exam",
+  "level": 2,
+  "title_zh": "准备考试",
+  "title_py": "Zhǔnbèi kǎoshì",
+  "title_en": "Preparing for an Exam",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["下", "xià", "next"],
+        ["个", "gè", "(measure word)"],
+        ["星期三", "xīngqīsān", "Wednesday"],
+        ["我", "wǒ", "I; me"],
+        ["有", "yǒu", "to have"],
+        ["一", "yí", "one"],
+        ["个", "gè", "(measure word)"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["考试", "kǎoshì", "exam"],
+        ["。"]
+      ],
+      "en": "Next Wednesday I have a Chinese exam."
+    },
+    {
+      "t": [
+        ["因为", "yīnwèi", "because"],
+        ["题", "tí", "exam question; problem"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měi tiān", "every day"],
+        ["晚上", "wǎnshang", "evening"],
+        ["都", "dōu", "all; always"],
+        ["准备", "zhǔnbèi", "to prepare"],
+        ["两", "liǎng", "two"],
+        ["个", "gè", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["。"]
+      ],
+      "en": "There are a lot of questions, so I study for two hours every evening."
+    },
+    {
+      "t": [
+        ["有的", "yǒude", "some"],
+        ["问题", "wèntí", "question; problem"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["懂", "dǒng", "to understand"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["去", "qù", "to go"],
+        ["问", "wèn", "to ask"],
+        ["老师", "lǎoshī", "teacher"],
+        ["。"]
+      ],
+      "en": "When there are questions I don't understand, I go and ask my teacher."
+    },
+    {
+      "t": [
+        ["老师", "lǎoshī", "teacher"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["已经", "yǐjīng", "already"],
+        ["学", "xué", "to study; to learn"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good; well"],
+        ["了", "le", "(change of state)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My teacher told me: \"You've already learned it very well.\""
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["学", "xué", "to study; to learn"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["想", "xiǎng", "to want to"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "But all this studying has worn me out — I really want to sleep."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive)"],
+        ["书", "shū", "book"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["见", "jiàn", "to see; to meet"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Last night I said to my books: \"See you tomorrow!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["希望", "xīwàng", "to hope"],
+        ["考试", "kǎoshì", "exam"],
+        ["快", "kuài", "quickly; soon"],
+        ["点儿", "diǎnr", "a bit"],
+        ["来", "lái", "to come"],
+        ["，"],
+        ["考", "kǎo", "to take (an exam)"],
+        ["完", "wán", "to finish"],
+        ["了", "le", "(completed action)"],
+        ["我", "wǒ", "I; me"],
+        ["要", "yào", "will; to want"],
+        ["睡", "shuì", "to sleep"],
+        ["十", "shí", "ten"],
+        ["个", "gè", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["！"]
+      ],
+      "en": "I hope the exam comes soon — once it's over, I'm going to sleep for ten hours!"
+    }
+  ],
+  "vocab": [
+    ["考试", "kǎoshì", "exam; test"],
+    ["准备", "zhǔnbèi", "to prepare"],
+    ["题", "tí", "exam question; problem"],
+    ["懂", "dǒng", "to understand"],
+    ["已经", "yǐjīng", "already"],
+    ["希望", "xīwàng", "to hope"]
+  ],
+  "quiz": [
+    {
+      "q": "When is the writer's Chinese exam?",
+      "a": ["Next Monday", "Next Wednesday", "Tomorrow"],
+      "c": 1
+    },
+    {
+      "q": "What does the writer do with questions she doesn't understand?",
+      "a": ["Skips them", "Looks them up in a book", "Asks the teacher"],
+      "c": 2
+    },
+    {
+      "q": "What does the writer plan to do after the exam?",
+      "a": ["Sleep for ten hours", "Study two more hours", "Buy new books"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "因为…，所以…",
+      "e": "This pair links a reason and its result. Unlike English, Chinese often uses both words together, e.g. 因为下雨，所以我不去.",
+      "x": "因为题很多，所以我每天晚上都准备两个小时。 — Because there are a lot of questions, I prepare for two hours every evening."
+    },
+    {
+      "p": "verb + 得 + adjective",
+      "e": "得 after a verb introduces a comment on how the action is done, e.g. 说得很快 (speaks fast), 学得很好 (has learned well).",
+      "x": "你已经学得很好了。 — You've already learned it very well."
+    },
+    {
+      "p": "verb + 完 (result: finished)",
+      "e": "完 after a verb shows the action is completed, e.g. 吃完 (finish eating), 做完 (finish doing).",
+      "x": "考完了我要睡十个小时！ — Once the exam is over, I'm going to sleep for ten hours!"
+    }
+  ]
+}

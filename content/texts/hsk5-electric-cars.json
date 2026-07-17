@@ -1,0 +1,273 @@
+{
+  "slug": "hsk5-electric-cars",
+  "level": 5,
+  "title_zh": "新能源汽车",
+  "title_py": "Xīnnéngyuán qìchē",
+  "title_en": "Electric Vehicles",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["十年", "shí nián", "ten years"],
+        ["前", "qián", "ago"],
+        ["，"],
+        ["在", "zài", "on"],
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(possessive)"],
+        ["大街", "dàjiē", "streets"],
+        ["上", "shang", "on"],
+        ["，"],
+        ["几乎", "jīhū", "almost"],
+        ["看不到", "kàn bu dào", "could not see"],
+        ["新能源", "xīnnéngyuán", "new energy"],
+        ["汽车", "qìchē", "cars"],
+        ["。"]
+      ],
+      "en": "Ten years ago, you could hardly see any new energy vehicles on the streets of China."
+    },
+    {
+      "t": [
+        ["如今", "rújīn", "nowadays"],
+        ["，"],
+        ["情况", "qíngkuàng", "the situation"],
+        ["完全", "wánquán", "completely"],
+        ["不同", "bùtóng", "different"],
+        ["了", "le", "(change)"],
+        ["："],
+        ["路上", "lùshang", "on the road"],
+        ["到处", "dàochù", "everywhere"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "are"],
+        ["绿色", "lǜsè", "green"],
+        ["的", "de", "(attributive)"],
+        ["电动", "diàndòng", "electric"],
+        ["汽车", "qìchē", "cars"],
+        ["。"]
+      ],
+      "en": "Today the situation is completely different: green-plated electric cars are everywhere on the roads."
+    },
+    {
+      "t": [
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["发展", "fāzhǎn", "develop"],
+        ["得", "de", "(complement)"],
+        ["这么", "zhème", "so"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["政府", "zhèngfǔ", "the government"],
+        ["大力", "dàlì", "vigorously"],
+        ["支持", "zhīchí", "supports"],
+        ["，"],
+        ["技术", "jìshù", "technology"],
+        ["也", "yě", "also"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["成熟", "chéngshú", "mature"],
+        ["。"]
+      ],
+      "en": "The reason they have developed so quickly is that the government strongly supports them and the technology keeps maturing."
+    },
+    {
+      "t": [
+        ["一方面", "yì fāngmiàn", "on one hand"],
+        ["，"],
+        ["电动", "diàndòng", "electric"],
+        ["汽车", "qìchē", "cars"],
+        ["不", "bù", "do not"],
+        ["污染", "wūrǎn", "pollute"],
+        ["空气", "kōngqì", "the air"],
+        ["，"],
+        ["对", "duì", "for"],
+        ["环保", "huánbǎo", "environmental protection"],
+        ["有", "yǒu", "have"],
+        ["很大", "hěn dà", "great"],
+        ["的", "de", "(attributive)"],
+        ["好处", "hǎochu", "benefit"],
+        ["，"],
+        ["另一方面", "lìng yì fāngmiàn", "on the other hand"],
+        ["，"],
+        ["它", "tā", "their"],
+        ["的", "de", "(possessive)"],
+        ["使用", "shǐyòng", "usage"],
+        ["成本", "chéngběn", "cost"],
+        ["也", "yě", "also"],
+        ["比", "bǐ", "than"],
+        ["传统", "chuántǒng", "traditional"],
+        ["汽车", "qìchē", "cars"],
+        ["低", "dī", "lower"],
+        ["。"]
+      ],
+      "en": "On the one hand, electric cars do not pollute the air, which is a great benefit for the environment; on the other hand, they also cost less to run than traditional cars."
+    },
+    {
+      "t": [
+        ["当然", "dāngrán", "of course"],
+        ["，"],
+        ["问题", "wèntí", "problems"],
+        ["也", "yě", "also"],
+        ["不少", "bù shǎo", "quite a few"],
+        ["，"],
+        ["比如", "bǐrú", "for example"],
+        ["充电", "chōngdiàn", "charging"],
+        ["不", "bú", "not"],
+        ["太", "tài", "very"],
+        ["方便", "fāngbiàn", "convenient"],
+        ["，"],
+        ["冬天", "dōngtiān", "in winter"],
+        ["电池", "diànchí", "the battery"],
+        ["的", "de", "(possessive)"],
+        ["表现", "biǎoxiàn", "performance"],
+        ["也", "yě", "also"],
+        ["让", "ràng", "makes"],
+        ["人", "rén", "people"],
+        ["担心", "dānxīn", "worried"],
+        ["。"]
+      ],
+      "en": "Of course, there are still plenty of problems: charging is not very convenient, and battery performance in winter is a real worry."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["的", "de", "(possessive)"],
+        ["一个", "yí gè", "a"],
+        ["朋友", "péngyou", "friend"],
+        ["去年", "qùnián", "last year"],
+        ["买", "mǎi", "bought"],
+        ["了", "le", "(completed)"],
+        ["一辆", "yí liàng", "a (vehicle)"],
+        ["电动车", "diàndòngchē", "electric car"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["说", "shuō", "says"],
+        ["再也", "zài yě", "never again"],
+        ["不", "bù", "not"],
+        ["想", "xiǎng", "want"],
+        ["回到", "huídào", "return to"],
+        ["加油", "jiāyóu", "refueling"],
+        ["的", "de", "(attributive)"],
+        ["日子", "rìzi", "days"],
+        ["了", "le", "(change)"],
+        ["。"]
+      ],
+      "en": "A friend of mine bought an electric car last year, and he says he never wants to go back to the days of filling up with gas."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["他", "tā", "he"],
+        ["也", "yě", "also"],
+        ["承认", "chéngrèn", "admits"],
+        ["，"],
+        ["每次", "měi cì", "every time"],
+        ["长途", "chángtú", "long-distance"],
+        ["旅行", "lǚxíng", "travel"],
+        ["，"],
+        ["都", "dōu", "always"],
+        ["不得不", "bùdébù", "have no choice but"],
+        ["提前", "tíqián", "in advance"],
+        ["计划", "jìhuà", "plan"],
+        ["好", "hǎo", "well"],
+        ["充电", "chōngdiàn", "charging"],
+        ["的", "de", "(attributive)"],
+        ["地方", "dìfang", "places"],
+        ["。"]
+      ],
+      "en": "But he also admits that before every long trip, he has no choice but to plan out the charging stops in advance."
+    },
+    {
+      "t": [
+        ["随着", "suízhe", "as"],
+        ["充电站", "chōngdiànzhàn", "charging stations"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["普及", "pǔjí", "widespread"],
+        ["，"],
+        ["这些", "zhèxiē", "these"],
+        ["问题", "wèntí", "problems"],
+        ["会", "huì", "will"],
+        ["慢慢", "mànmàn", "gradually"],
+        ["得到", "dédào", "get"],
+        ["解决", "jiějué", "solved"],
+        ["。"]
+      ],
+      "en": "As charging stations become more and more widespread, these problems will gradually be solved."
+    },
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["我", "wǒ", "my"],
+        ["看来", "kànlái", "view"],
+        ["，"],
+        ["新能源", "xīnnéngyuán", "new energy"],
+        ["汽车", "qìchē", "vehicles"],
+        ["代表", "dàibiǎo", "represent"],
+        ["着", "zhe", "(ongoing)"],
+        ["未来", "wèilái", "the future"],
+        ["的", "de", "(possessive)"],
+        ["趋势", "qūshì", "trend"],
+        ["，"],
+        ["而", "ér", "and"],
+        ["这个", "zhège", "this"],
+        ["变化", "biànhuà", "change"],
+        ["才", "cái", "only"],
+        ["刚刚", "gānggāng", "just"],
+        ["开始", "kāishǐ", "begun"],
+        ["。"]
+      ],
+      "en": "In my view, new energy vehicles represent the trend of the future, and this change has only just begun."
+    }
+  ],
+  "vocab": [
+    ["能源", "néngyuán", "energy (source)"],
+    ["环保", "huánbǎo", "environmental protection"],
+    ["充电", "chōngdiàn", "to charge (a battery)"],
+    ["成本", "chéngběn", "cost"],
+    ["普及", "pǔjí", "to become widespread"],
+    ["趋势", "qūshì", "trend"]
+  ],
+  "quiz": [
+    {
+      "q": "Why have electric vehicles developed so quickly in China?",
+      "a": [
+        "The government strongly supports them and the technology has matured",
+        "Gasoline is no longer sold in China",
+        "Traditional cars are banned in big cities"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the author's friend have to do before every long trip?",
+      "a": [
+        "Rent a gasoline car instead",
+        "Plan the charging stops in advance",
+        "Replace the battery"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the author think about new energy vehicles?",
+      "a": [
+        "They are a temporary fashion that will pass",
+        "They are worse than traditional cars in every way",
+        "They represent the trend of the future"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "之所以…，是因为…",
+      "e": "States a result first and then gives its cause: 'the reason why A is because B'. It sounds slightly formal and is common in written explanations, e.g. 他之所以迟到，是因为堵车.",
+      "x": "之所以发展得这么快，是因为政府大力支持，技术也越来越成熟。 — The reason they have developed so quickly is that the government strongly supports them and the technology keeps maturing."
+    },
+    {
+      "p": "一方面…，另一方面…",
+      "e": "Presents two sides or aspects of the same topic, like 'on the one hand... on the other hand...', e.g. 学汉语一方面有趣，另一方面也很难.",
+      "x": "一方面，电动汽车不污染空气，对环保有很大的好处，另一方面，它的使用成本也比传统汽车低。 — On the one hand, electric cars do not pollute the air, which greatly benefits the environment; on the other hand, they also cost less to run than traditional cars."
+    },
+    {
+      "p": "不得不",
+      "e": "Means 'to have no choice but to do something' — the action is forced by circumstances, e.g. 天太晚了，我不得不回家.",
+      "x": "每次长途旅行，都不得不提前计划好充电的地方。 — Before every long trip, he has no choice but to plan out the charging stops in advance."
+    }
+  ]
+}

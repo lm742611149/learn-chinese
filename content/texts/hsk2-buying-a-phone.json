@@ -1,0 +1,198 @@
+{
+  "slug": "hsk2-buying-a-phone",
+  "level": 2,
+  "title_zh": "买手机",
+  "title_py": "Mǎi shǒujī",
+  "title_en": "Buying a Phone",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive)"],
+        ["手机", "shǒujī", "cell phone"],
+        ["是", "shì", "(是…的 emphasis)"],
+        ["五", "wǔ", "five"],
+        ["年", "nián", "year"],
+        ["前", "qián", "ago; before"],
+        ["买", "mǎi", "to buy"],
+        ["的", "de", "(是…的 structure)"],
+        ["，"],
+        ["太", "tài", "too"],
+        ["旧", "jiù", "old (of things)"],
+        ["了", "le", "(with 太: excessive)"],
+        ["。"]
+      ],
+      "en": "I bought my phone five years ago — it's really old."
+    },
+    {
+      "t": [
+        ["它", "tā", "it"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["等", "děng", "to wait"],
+        ["它", "tā", "it"],
+        ["的时候", "de shíhou", "when; while"],
+        ["，"],
+        ["可以", "kěyǐ", "can; may"],
+        ["喝", "hē", "to drink"],
+        ["完", "wán", "to finish"],
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup (of)"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "It's so slow that while I wait for it, I can finish a whole cup of tea."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["昨天", "zuótiān", "yesterday"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["看", "kàn", "to look at"],
+        ["新", "xīn", "new"],
+        ["手机", "shǒujī", "cell phone"],
+        ["。"]
+      ],
+      "en": "So yesterday afternoon I went to the shop to look at new phones."
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "shop assistant"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["这", "zhè", "this"],
+        ["个", "gè", "(measure word)"],
+        ["手机", "shǒujī", "cell phone"],
+        ["是", "shì", "to be"],
+        ["今年", "jīnnián", "this year"],
+        ["最", "zuì", "most"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(nominalizer: the one)"],
+        ["，"],
+        ["白色", "báisè", "white"],
+        ["的", "de", "(nominalizer: the one)"],
+        ["和", "hé", "and"],
+        ["黑色", "hēisè", "black"],
+        ["的", "de", "(nominalizer: the one)"],
+        ["都", "dōu", "both; all"],
+        ["有", "yǒu", "to have"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The shop assistant said: \"This is this year's newest phone — we have it in white and in black.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["："],
+        ["“"],
+        ["它", "tā", "it"],
+        ["比", "bǐ", "than (comparison)"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive)"],
+        ["旧", "jiù", "old (of things)"],
+        ["手机", "shǒujī", "cell phone"],
+        ["快", "kuài", "fast"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I asked: \"Is it faster than my old phone?\""
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "shop assistant"],
+        ["笑", "xiào", "to smile; to laugh"],
+        ["着", "zhe", "(ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["快", "kuài", "fast"],
+        ["得", "de", "(complement particle)"],
+        ["多", "duō", "much (more)"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不", "bú", "not"],
+        ["贵", "guì", "expensive"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "The assistant said with a smile: \"Much faster — and it's not expensive!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["个", "gè", "(measure word)"],
+        ["黑色", "hēisè", "black"],
+        ["的", "de", "(nominalizer: the one)"],
+        ["，"],
+        ["虽然", "suīrán", "although"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive)"],
+        ["钱", "qián", "money"],
+        ["少", "shǎo", "few; less"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["高兴", "gāoxìng", "happy; glad"],
+        ["！"]
+      ],
+      "en": "I bought a black one — my wallet is lighter now, but I'm really happy!"
+    }
+  ],
+  "vocab": [
+    ["手机", "shǒujī", "cell phone"],
+    ["旧", "jiù", "old (of things)"],
+    ["慢", "màn", "slow"],
+    ["比", "bǐ", "than (comparison)"],
+    ["服务员", "fúwùyuán", "shop assistant; server"],
+    ["黑色", "hēisè", "black"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the writer want a new phone?",
+      "a": ["The old one was lost", "The old one was old and very slow", "The old one was too big"],
+      "c": 1
+    },
+    {
+      "q": "What colors did the shop have?",
+      "a": ["White and black", "Red and black", "White and red"],
+      "c": 0
+    },
+    {
+      "q": "How did the writer feel after buying the phone?",
+      "a": ["Sorry about the color", "Angry at the shop assistant", "Happy, even with less money"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 比 B + adjective",
+      "e": "比 compares two things: A 比 B 快 means 'A is faster than B'. Don't add 很 before the adjective in a 比 sentence.",
+      "x": "它比我的旧手机快吗？ — Is it faster than my old phone?"
+    },
+    {
+      "p": "是…的 (emphasizing time/place/manner of a past event)",
+      "e": "Use 是…的 to highlight when, where, or how something already happened, e.g. 我是坐飞机来的 (I came by plane).",
+      "x": "我的手机是五年前买的。 — I bought my phone five years ago."
+    },
+    {
+      "p": "虽然…，但是…",
+      "e": "This pair means 'although… , (but)…'. Chinese keeps both words in the sentence, e.g. 虽然很贵，但是很好.",
+      "x": "虽然我的钱少了，但是我非常高兴！ — Although I have less money now, I'm really happy!"
+    }
+  ]
+}
