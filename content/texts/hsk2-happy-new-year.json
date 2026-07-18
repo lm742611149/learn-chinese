@@ -1,0 +1,188 @@
+{
+  "slug": "hsk2-happy-new-year",
+  "level": 2,
+  "title_zh": "新年快乐",
+  "title_py": "Xīnnián kuàilè",
+  "title_en": "Happy New Year",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["新年", "xīnnián", "New Year"],
+        ["要", "yào", "will (soon)"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "The New Year is almost here, and everyone is very happy."
+    },
+    {
+      "t": [
+        ["每", "měi", "every"],
+        ["年", "nián", "year"],
+        ["新年", "xīnnián", "New Year"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["都", "dōu", "always"],
+        ["回家", "huíjiā", "to go home"],
+        ["看", "kàn", "to visit; to see"],
+        ["爸爸", "bàba", "dad"],
+        ["妈妈", "māma", "mom"],
+        ["。"]
+      ],
+      "en": "Every New Year, I go home to visit my mom and dad."
+    },
+    {
+      "t": [
+        ["今年", "jīnnián", "this year"],
+        ["我", "wǒ", "I"],
+        ["给", "gěi", "for; to"],
+        ["他们", "tāmen", "them"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["茶", "chá", "tea"],
+        ["和", "hé", "and"],
+        ["衣服", "yīfu", "clothes"],
+        ["，"],
+        ["还有", "háiyǒu", "and also"],
+        ["一些", "yìxiē", "some"],
+        ["水果", "shuǐguǒ", "fruit"],
+        ["。"]
+      ],
+      "en": "This year I bought them tea and clothes, and also some fruit."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make"],
+        ["了", "le", "(completed action)"],
+        ["很多", "hěn duō", "a lot of"],
+        ["好吃", "hǎochī", "delicious"],
+        ["的", "de", "(particle)"],
+        ["菜", "cài", "dishes"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["都", "dōu", "all"],
+        ["吃", "chī", "to eat"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "Mom made lots of delicious dishes, and we all ate happily."
+    },
+    {
+      "t": [
+        ["爸爸", "bàba", "dad"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["祝", "zhù", "to wish"],
+        ["你", "nǐ", "you"],
+        ["新年", "xīnnián", "New Year"],
+        ["快乐", "kuàilè", "happy"],
+        ["，"],
+        ["工作", "gōngzuò", "work"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["身体", "shēntǐ", "health; body"],
+        ["好", "hǎo", "good"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Dad said to me: \"Happy New Year — may your work go well and your health be good!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["也", "yě", "also"],
+        ["祝", "zhù", "to wish"],
+        ["你们", "nǐmen", "you (plural)"],
+        ["新年", "xīnnián", "New Year"],
+        ["快乐", "kuàilè", "happy"],
+        ["！"],
+        ["希望", "xīwàng", "to hope"],
+        ["你们", "nǐmen", "you (plural)"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["都", "dōu", "always"],
+        ["高兴", "gāoxìng", "happy"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said: \"Happy New Year to you too! I hope you're happy every single day!\""
+    },
+    {
+      "t": [
+        ["新年", "xīnnián", "New Year"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["和", "hé", "with"],
+        ["爸爸", "bàba", "dad"],
+        ["妈妈", "māma", "mom"],
+        ["在", "zài", "to be (at)"],
+        ["一起", "yìqǐ", "together"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to feel"],
+        ["最", "zuì", "most"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "At New Year, being together with my mom and dad is when I feel happiest."
+    }
+  ],
+  "vocab": [
+    ["新年", "xīnnián", "New Year"],
+    ["快乐", "kuàilè", "happy"],
+    ["祝", "zhù", "to wish (someone something)"],
+    ["希望", "xīwàng", "to hope"],
+    ["身体", "shēntǐ", "health; body"],
+    ["水果", "shuǐguǒ", "fruit"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the narrator do every New Year?",
+      "a": ["Goes home to visit his parents", "Travels with friends", "Stays at work"],
+      "c": 0
+    },
+    {
+      "q": "What did he buy for his parents this year?",
+      "a": ["A big cake", "Tea, clothes and some fruit", "A new phone"],
+      "c": 1
+    },
+    {
+      "q": "What did Dad wish him?",
+      "a": ["A happy birthday", "Good luck with his studies", "A happy New Year, good work and good health"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "要 … 了",
+      "e": "要…了 says something is about to happen soon, e.g. 火车要开了 'the train is about to leave'.",
+      "x": "新年要到了。 — The New Year is almost here."
+    },
+    {
+      "p": "每 … 都 …",
+      "e": "每 (měi) 'every' is almost always paired with 都 (dōu) before the verb, e.g. 我每天都喝茶.",
+      "x": "每年新年，我都回家看爸爸妈妈。 — Every New Year, I go home to visit my mom and dad."
+    },
+    {
+      "p": "Verb + 得 + adjective",
+      "e": "得 (de) after a verb introduces how the action is done, e.g. 他说得很好 'he speaks very well'.",
+      "x": "我们都吃得很高兴。 — We all ate happily."
+    }
+  ]
+}

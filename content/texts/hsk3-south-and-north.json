@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-south-and-north",
+  "level": 3,
+  "title_zh": "南方和北方",
+  "title_py": "Nánfāng hé běifāng",
+  "title_en": "South and North",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["是","shì","to be"],["北方","běifāng","the North"],["人","rén","person"],["，"],["去年","qùnián","last year"],["因为","yīnwèi","because of"],["工作","gōngzuò","work"],["，"],["我","wǒ","I; me"],["搬","bān","to move (house)"],["到","dào","to (a place)"],["了","le","(particle: completed)"],["南方","nánfāng","the South"],["的","de","(particle: attributive)"],["一个","yí gè","one; a"],["城市","chéngshì","city"],["。"]],
+      "en": "I'm a northerner, but last year I moved to a city in the south because of work."
+    },
+    {
+      "t": [["刚","gāng","just; recently"],["来","lái","to come"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["不","bù","not"],["习惯","xíguàn","to be used to"],["这里","zhèlǐ","here"],["的","de","(particle: attributive)"],["天气","tiānqì","weather"],["和","hé","and"],["吃","chī","to eat"],["的","de","(particle: nominalizer)"],["东西","dōngxi","things"],["。"]],
+      "en": "When I first arrived, I really wasn't used to the weather or the food here."
+    },
+    {
+      "t": [["北方","běifāng","the North"],["的","de","(particle: attributive)"],["冬天","dōngtiān","winter"],["很","hěn","very"],["冷","lěng","cold"],["，"],["经常","jīngcháng","often"],["下雪","xiàxuě","to snow"],["，"],["可是","kěshì","but"],["南方","nánfāng","the South"],["的","de","(particle: attributive)"],["冬天","dōngtiān","winter"],["常常","chángcháng","often"],["下雨","xiàyǔ","to rain"],["，"],["很","hěn","very"],["少","shǎo","seldom"],["下雪","xiàxuě","to snow"],["。"]],
+      "en": "Winters in the north are very cold and it often snows, but in the south winter often brings rain and it rarely snows."
+    },
+    {
+      "t": [["吃","chī","to eat"],["的","de","(particle: nominalizer)"],["也","yě","also"],["不","bù","not"],["一样","yíyàng","the same"],["："],["北方","běifāng","the North"],["人","rén","people"],["爱","ài","to love"],["吃","chī","to eat"],["面条","miàntiáo","noodles"],["，"],["南方","nánfāng","the South"],["人","rén","people"],["爱","ài","to love"],["吃","chī","to eat"],["米饭","mǐfàn","rice"],["。"]],
+      "en": "The food is different too: northerners love noodles, while southerners love rice."
+    },
+    {
+      "t": [["这里","zhèlǐ","here"],["的","de","(particle: attributive)"],["人","rén","people"],["说话","shuōhuà","to speak"],["很","hěn","very"],["快","kuài","fast"],["，"],["刚","gāng","just"],["开始","kāishǐ","at the beginning"],["我","wǒ","I; me"],["几乎","jīhū","almost"],["听不懂","tīng bu dǒng","cannot understand (by listening)"],["他们","tāmen","they"],["说","shuō","to say"],["的","de","(particle)"],["话","huà","words; speech"],["。"]],
+      "en": "People here speak very fast; at first I could hardly understand what they were saying."
+    },
+    {
+      "t": [["但是","dànshì","but"],["这个","zhège","this"],["城市","chéngshì","city"],["又","yòu","both"],["干净","gānjìng","clean"],["又","yòu","and"],["安静","ānjìng","quiet"],["，"],["公园","gōngyuán","park"],["很","hěn","very"],["多","duō","many"],["，"],["环境","huánjìng","environment"],["特别","tèbié","especially"],["好","hǎo","good"],["。"]],
+      "en": "But this city is clean and quiet, with lots of parks and a wonderful environment."
+    },
+    {
+      "t": [["慢慢","mànmàn","slowly; gradually"],["地","de","(particle: adverbial)"],["，"],["我","wǒ","I; me"],["越来越","yuè lái yuè","more and more"],["喜欢","xǐhuan","to like"],["这里","zhèlǐ","here"],["，"],["也","yě","also"],["认识","rènshi","to get to know"],["了","le","(particle: completed)"],["很","hěn","very"],["多","duō","many"],["热情","rèqíng","warm; friendly"],["的","de","(particle: attributive)"],["南方","nánfāng","the South"],["朋友","péngyou","friend"],["。"]],
+      "en": "Slowly, I came to like it here more and more, and I made many warm-hearted southern friends."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["朋友","péngyou","friend"],["问","wèn","to ask"],["我","wǒ","I; me"],["南方","nánfāng","the South"],["好","hǎo","good"],["还是","háishi","or"],["北方","běifāng","the North"],["好","hǎo","good"],["，"],["我","wǒ","I; me"],["笑","xiào","to smile"],["着","zhe","(particle: ongoing)"],["说","shuō","to say"],["："],["“"],["都","dōu","both"],["好","hǎo","good"],["，"],["因为","yīnwèi","because"],["都","dōu","both"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(particle)"],["家","jiā","home"],["。"],["”"]],
+      "en": "Now when friends ask me whether the south or the north is better, I say with a smile: \"Both are good, because both are home to me.\""
+    }
+  ],
+  "vocab": [
+    ["北方","běifāng","the North"],
+    ["南方","nánfāng","the South"],
+    ["搬","bān","to move (house)"],
+    ["习惯","xíguàn","to be used to"],
+    ["环境","huánjìng","environment"],
+    ["热情","rèqíng","warm; friendly"]
+  ],
+  "quiz": [
+    {"q": "Why did the narrator move to the south?", "a": ["Because of work", "To study Chinese", "To be near family"], "c": 0},
+    {"q": "What do people in the north love to eat?", "a": ["Rice", "Noodles", "Fish"], "c": 1},
+    {"q": "How does the narrator feel about the south now?", "a": ["He wants to move back north", "He still can't get used to it", "He likes it more and more"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "verb + 不懂", "e": "不懂 after 听 or 看 means you cannot understand what you hear or read: 听不懂 'can't understand (by listening)', 看不懂 'can't understand (by reading)'.", "x": "刚开始我几乎听不懂他们说的话。 — At first I could hardly understand what they were saying."},
+    {"p": "A 还是 B", "e": "还是 puts two choices in one question: 'A or B?'. It is used in questions, e.g. 你喝茶还是喝咖啡？", "x": "朋友问我南方好还是北方好。 — My friend asked me whether the south or the north is better."},
+    {"p": "adjective + 地 + verb", "e": "地 turns an adjective into an adverb describing how an action happens, e.g. 慢慢地走 'walk slowly', 认真地学习 'study seriously'.", "x": "慢慢地，我越来越喜欢这里。 — Slowly, I came to like it here more and more."}
+  ]
+}

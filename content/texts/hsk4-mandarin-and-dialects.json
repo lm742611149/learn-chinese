@@ -1,0 +1,272 @@
+{
+  "slug": "hsk4-mandarin-and-dialects",
+  "level": 4,
+  "title_zh": "普通话与方言",
+  "title_py": "Pǔtōnghuà yǔ fāngyán",
+  "title_en": "Mandarin and Dialects",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["上学", "shàngxué", "to attend school"],
+        ["、"],
+        ["工作", "gōngzuò", "to work"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["说", "shuō", "to speak"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["一", "yì", "as soon as"],
+        ["回", "huí", "to return"],
+        ["家", "jiā", "home"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["说", "shuō", "to speak"],
+        ["的", "de", "(nominalizer)"],
+        ["就", "jiù", "then"],
+        ["是", "shì", "is"],
+        ["方言", "fāngyán", "dialect"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "In China, people speak Mandarin at school and at work, but the moment they get home, what many of them speak is their dialect."
+    },
+    {
+      "t": [
+        ["方言", "fāngyán", "dialect"],
+        ["就", "jiù", "exactly"],
+        ["是", "shì", "is"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["地方", "dìfang", "place"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["话", "huà", "speech"],
+        ["，"],
+        ["比如", "bǐrú", "for example"],
+        ["上海话", "Shànghǎihuà", "Shanghainese"],
+        ["、"],
+        ["广东话", "Guǎngdōnghuà", "Cantonese"],
+        ["，"],
+        ["它们", "tāmen", "they"],
+        ["和", "hé", "and"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["的", "de", "(possessive)"],
+        ["区别", "qūbié", "difference"],
+        ["有时候", "yǒushíhou", "sometimes"],
+        ["非常", "fēicháng", "extremely"],
+        ["大", "dà", "big"],
+        ["。"]
+      ],
+      "en": "A dialect is a region's own way of speaking — Shanghainese or Cantonese, for example — and the difference from Mandarin can sometimes be huge."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["奶奶", "nǎinai", "grandma"],
+        ["只", "zhǐ", "only"],
+        ["会", "huì", "can"],
+        ["说", "shuō", "to speak"],
+        ["家乡", "jiāxiāng", "hometown"],
+        ["的", "de", "(possessive)"],
+        ["方言", "fāngyán", "dialect"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["一", "yì", "as soon as"],
+        ["开口", "kāikǒu", "to open one's mouth"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["就", "jiù", "then"],
+        ["觉得", "juéde", "to feel"],
+        ["特别", "tèbié", "especially"],
+        ["亲切", "qīnqiè", "warm and familiar"],
+        ["。"]
+      ],
+      "en": "My grandma can only speak our hometown dialect; the moment she opens her mouth, I feel a special warmth."
+    },
+    {
+      "t": [
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["让", "ràng", "to let"],
+        ["来自", "láizì", "to come from"],
+        ["不同", "bùtóng", "different"],
+        ["地方", "dìfang", "places"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["能", "néng", "can"],
+        ["容易", "róngyì", "easily"],
+        ["地", "de", "(adverbial particle)"],
+        ["交流", "jiāoliú", "to communicate"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["当然", "dāngrán", "of course"],
+        ["非常", "fēicháng", "very"],
+        ["重要", "zhòngyào", "important"],
+        ["。"]
+      ],
+      "en": "Mandarin lets people from different places communicate easily, and that of course is very important."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["现在", "xiànzài", "now"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["在", "zài", "in"],
+        ["城市", "chéngshì", "city"],
+        ["里", "li", "inside"],
+        ["长大", "zhǎngdà", "to grow up"],
+        ["的", "de", "(possessive)"],
+        ["孩子", "háizi", "children"],
+        ["，"],
+        ["竟然", "jìngrán", "surprisingly"],
+        ["已经", "yǐjīng", "already"],
+        ["听不懂", "tīng bu dǒng", "cannot understand (by listening)"],
+        ["爷爷", "yéye", "grandpa"],
+        ["奶奶", "nǎinai", "grandma"],
+        ["的", "de", "(possessive)"],
+        ["方言", "fāngyán", "dialect"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "But nowadays, many children who grow up in cities surprisingly can no longer understand their grandparents' dialect."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["担心", "dānxīn", "to worry"],
+        ["，"],
+        ["再", "zài", "further"],
+        ["过", "guò", "to pass"],
+        ["几十", "jǐshí", "several tens of"],
+        ["年", "nián", "years"],
+        ["，"],
+        ["一些", "yìxiē", "some"],
+        ["方言", "fāngyán", "dialects"],
+        ["可能", "kěnéng", "may"],
+        ["会", "huì", "will"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["消失", "xiāoshī", "to disappear"],
+        ["。"]
+      ],
+      "en": "Some people worry that in a few more decades, certain dialects may slowly disappear."
+    },
+    {
+      "t": [
+        ["其实", "qíshí", "actually"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["不", "bù", "not"],
+        ["需要", "xūyào", "to need"],
+        ["在", "zài", "between"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["和", "hé", "and"],
+        ["方言", "fāngyán", "dialect"],
+        ["中间", "zhōngjiān", "between; middle"],
+        ["只", "zhǐ", "only"],
+        ["选", "xuǎn", "to choose"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["："],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["帮", "bāng", "to help"],
+        ["我们", "wǒmen", "us"],
+        ["走", "zǒu", "to go"],
+        ["得", "de", "(degree particle)"],
+        ["更", "gèng", "more"],
+        ["远", "yuǎn", "far"],
+        ["，"],
+        ["方言", "fāngyán", "dialect"],
+        ["让", "ràng", "to make"],
+        ["我们", "wǒmen", "us"],
+        ["记得", "jìde", "to remember"],
+        ["自己", "zìjǐ", "oneself"],
+        ["从", "cóng", "from"],
+        ["哪里", "nǎli", "where"],
+        ["来", "lái", "to come"],
+        ["。"]
+      ],
+      "en": "Actually, we don't have to choose between Mandarin and dialects: Mandarin helps us go farther, while dialects remind us where we come from."
+    },
+    {
+      "t": [
+        ["如果", "rúguǒ", "if"],
+        ["你", "nǐ", "you"],
+        ["去", "qù", "to go"],
+        ["中国", "Zhōngguó", "China"],
+        ["旅行", "lǚxíng", "to travel"],
+        ["，"],
+        ["除了", "chúle", "besides"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["以外", "yǐwài", "apart from"],
+        ["，"],
+        ["再", "zài", "additionally"],
+        ["学", "xué", "to learn"],
+        ["几", "jǐ", "a few"],
+        ["句", "jù", "(measure word for sentences)"],
+        ["当地", "dāngdì", "local"],
+        ["的", "de", "(possessive)"],
+        ["方言", "fāngyán", "dialect"],
+        ["，"],
+        ["当地", "dāngdì", "local"],
+        ["人", "rén", "people"],
+        ["一定", "yídìng", "certainly"],
+        ["会", "huì", "will"],
+        ["对", "duì", "toward"],
+        ["你", "nǐ", "you"],
+        ["特别", "tèbié", "especially"],
+        ["热情", "rèqíng", "warm; friendly"],
+        ["。"]
+      ],
+      "en": "If you travel in China, learn a few phrases of the local dialect besides Mandarin — the locals are sure to be especially warm to you."
+    }
+  ],
+  "vocab": [
+    ["方言", "fāngyán", "dialect"],
+    ["交流", "jiāoliú", "to communicate"],
+    ["消失", "xiāoshī", "to disappear"],
+    ["亲切", "qīnqiè", "warm and familiar"],
+    ["当地", "dāngdì", "local"],
+    ["区别", "qūbié", "difference"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, when do many people in China switch to their dialect?",
+      "a": ["As soon as they get home", "When they are at work", "When they travel to other cities"],
+      "c": 0
+    },
+    {
+      "q": "How does the author feel when her grandma speaks their hometown dialect?",
+      "a": ["Embarrassed", "A special warmth", "Confused"],
+      "c": 1
+    },
+    {
+      "q": "What does the author suggest travelers to China do?",
+      "a": ["Speak only English to be safe", "Avoid regions with strong dialects", "Learn a few phrases of the local dialect"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一……就……",
+      "e": "\"As soon as A, then B\" — B happens right after A: 她一开口，我就觉得特别亲切。",
+      "x": "他一下课就回家了。 — He went home as soon as class ended."
+    },
+    {
+      "p": "竟然",
+      "e": "\"Surprisingly; unexpectedly\" marks something contrary to what you would expect: 很多城市里长大的孩子竟然听不懂爷爷奶奶的方言了。",
+      "x": "他学了三年汉语，竟然没去过中国。 — He has studied Chinese for three years, yet surprisingly has never been to China."
+    },
+    {
+      "p": "除了……以外，再/还……",
+      "e": "\"Besides A, also B\" adds something on top of what is already there: 除了普通话以外，再学几句当地的方言。",
+      "x": "除了米饭以外，我们还点了一个汤。 — Besides rice, we also ordered a soup."
+    }
+  ]
+}

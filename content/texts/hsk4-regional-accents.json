@@ -1,0 +1,279 @@
+{
+  "slug": "hsk4-regional-accents",
+  "level": 4,
+  "title_zh": "地方口音",
+  "title_py": "Dìfāng kǒuyīn",
+  "title_en": "Regional Accents",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["中国", "Zhōngguó", "China"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["每", "měi", "every"],
+        ["个", "ge", "(measure word)"],
+        ["地方", "dìfang", "place"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["说", "shuō", "to speak"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["可能", "kěnéng", "may"],
+        ["带", "dài", "to carry"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["口音", "kǒuyīn", "accent"],
+        ["。"]
+      ],
+      "en": "China is huge — when people from different places speak Mandarin, each may carry a little accent of their own."
+    },
+    {
+      "t": [
+        ["比如", "bǐrú", "for example"],
+        ["，"],
+        ["有些", "yǒuxiē", "some"],
+        ["南方", "nánfāng", "southern"],
+        ["朋友", "péngyou", "friends"],
+        ["分不清", "fēn bu qīng", "cannot tell apart"],
+        ["“"],
+        ["四", "sì", "four"],
+        ["”"],
+        ["和", "hé", "and"],
+        ["“"],
+        ["十", "shí", "ten"],
+        ["”"],
+        ["，"],
+        ["他们", "tāmen", "they"],
+        ["说", "shuō", "to say"],
+        ["“"],
+        ["四十", "sìshí", "forty"],
+        ["”"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["听", "tīng", "to listen"],
+        ["的", "de", "(nominalizer)"],
+        ["人", "rén", "person"],
+        ["常常", "chángcháng", "often"],
+        ["要", "yào", "to need to"],
+        ["想一想", "xiǎng yi xiǎng", "to think it over"],
+        ["。"]
+      ],
+      "en": "For example, some southern friends can't tell \"si\" (four) from \"shi\" (ten); when they say \"forty\", listeners often have to think for a second."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["刚", "gāng", "just"],
+        ["到", "dào", "to arrive"],
+        ["北京", "Běijīng", "Beijing"],
+        ["上", "shàng", "to attend"],
+        ["大学", "dàxué", "university"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["同学们", "tóngxuémen", "classmates"],
+        ["一", "yì", "as soon as"],
+        ["听", "tīng", "to hear"],
+        ["我", "wǒ", "me"],
+        ["说话", "shuōhuà", "to speak"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["笑着", "xiàozhe", "smilingly"],
+        ["问", "wèn", "to ask"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["是", "shì", "are"],
+        ["南方人", "nánfāngrén", "southerner"],
+        ["吧", "ba", "(particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "When I first went to Beijing for university, the moment my classmates heard me talk, they would ask with a smile: \"You're from the south, right?\""
+    },
+    {
+      "t": [
+        ["那", "nà", "that"],
+        ["时候", "shíhou", "time"],
+        ["我", "wǒ", "I"],
+        ["有点儿", "yǒudiǎnr", "a bit"],
+        ["不好意思", "bù hǎoyìsi", "embarrassed"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["不", "bù", "not"],
+        ["太", "tài", "too"],
+        ["想", "xiǎng", "to want"],
+        ["在", "zài", "in"],
+        ["班", "bān", "class"],
+        ["里", "li", "inside"],
+        ["说话", "shuōhuà", "to speak"],
+        ["。"]
+      ],
+      "en": "Back then I felt a bit embarrassed, and didn't even really want to speak up in class."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["一", "yí", "one"],
+        ["位", "wèi", "(measure word, polite)"],
+        ["老师", "lǎoshī", "teacher"],
+        ["对", "duì", "to"],
+        ["我", "wǒ", "me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["口音", "kǒuyīn", "accent"],
+        ["不", "bú", "not"],
+        ["是", "shì", "is"],
+        ["缺点", "quēdiǎn", "shortcoming"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["说明", "shuōmíng", "to show"],
+        ["你", "nǐ", "you"],
+        ["有", "yǒu", "to have"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["家乡", "jiāxiāng", "hometown"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Later a teacher said to me: \"An accent is not a flaw — it shows you have a hometown of your own.\""
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I"],
+        ["发现", "fāxiàn", "to discover"],
+        ["，"],
+        ["口音", "kǒuyīn", "accent"],
+        ["让", "ràng", "to make"],
+        ["语言", "yǔyán", "language"],
+        ["变得", "biàn de", "to become"],
+        ["更", "gèng", "more"],
+        ["丰富", "fēngfù", "rich"],
+        ["，"],
+        ["就", "jiù", "just"],
+        ["像", "xiàng", "like"],
+        ["同", "tóng", "same"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["菜", "cài", "dish"],
+        ["在", "zài", "in"],
+        ["不同", "bùtóng", "different"],
+        ["的", "de", "(possessive)"],
+        ["地方", "dìfang", "place"],
+        ["有", "yǒu", "to have"],
+        ["不同", "bùtóng", "different"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "flavor"],
+        ["。"]
+      ],
+      "en": "Now I find that accents make a language richer, just as the same dish tastes different in different places."
+    },
+    {
+      "t": [
+        ["对", "duì", "for"],
+        ["学", "xué", "to learn"],
+        ["中文", "Zhōngwén", "Chinese"],
+        ["的", "de", "(possessive)"],
+        ["你", "nǐ", "you"],
+        ["来说", "lái shuō", "as for"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不用", "búyòng", "no need"],
+        ["害怕", "hàipà", "to fear"],
+        ["自己", "zìjǐ", "own"],
+        ["的", "de", "(possessive)"],
+        ["口音", "kǒuyīn", "accent"],
+        ["，"],
+        ["只要", "zhǐyào", "as long as"],
+        ["别人", "biéren", "other people"],
+        ["能", "néng", "can"],
+        ["听懂", "tīngdǒng", "to understand (by listening)"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["就", "jiù", "then"],
+        ["已经", "yǐjīng", "already"],
+        ["说", "shuō", "to speak"],
+        ["得", "de", "(degree particle)"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "well"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "For you as a Chinese learner, there's no need to fear your own accent either — as long as people can understand you, you're already speaking well."
+    },
+    {
+      "t": [
+        ["越", "yuè", "the more"],
+        ["敢", "gǎn", "to dare"],
+        ["开口", "kāikǒu", "to open one's mouth"],
+        ["，"],
+        ["进步", "jìnbù", "progress"],
+        ["就", "jiù", "then"],
+        ["越", "yuè", "the more"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["比", "bǐ", "compared to"],
+        ["标准", "biāozhǔn", "standard"],
+        ["的", "de", "(possessive)"],
+        ["发音", "fāyīn", "pronunciation"],
+        ["重要", "zhòngyào", "important"],
+        ["得", "de", "(degree particle)"],
+        ["多", "duō", "much more"],
+        ["。"]
+      ],
+      "en": "The more you dare to speak up, the faster you improve — and that matters far more than perfect pronunciation."
+    }
+  ],
+  "vocab": [
+    ["口音", "kǒuyīn", "accent"],
+    ["普通话", "pǔtōnghuà", "Mandarin (standard Chinese)"],
+    ["分不清", "fēn bu qīng", "cannot tell apart"],
+    ["缺点", "quēdiǎn", "shortcoming; flaw"],
+    ["家乡", "jiāxiāng", "hometown"],
+    ["发音", "fāyīn", "pronunciation"]
+  ],
+  "quiz": [
+    {
+      "q": "Why do listeners sometimes need a moment when some southern speakers say \"forty\"?",
+      "a": ["They speak too quietly", "They may not clearly distinguish \"si\" (four) and \"shi\" (ten)", "They mix Chinese with English"],
+      "c": 1
+    },
+    {
+      "q": "What did the teacher tell the author about accents?",
+      "a": ["An accent must be corrected as quickly as possible", "Only Beijing speech is correct", "An accent shows you have a hometown of your own"],
+      "c": 2
+    },
+    {
+      "q": "According to the author, what matters more than standard pronunciation?",
+      "a": ["Daring to open your mouth and speak", "Memorizing more characters", "Watching more Chinese movies"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "只要……就……",
+      "e": "\"As long as A, then B\" — B follows whenever the simple condition A is met: 只要别人能听懂，你就已经说得很好了。",
+      "x": "只要你每天练习，就一定会进步。 — As long as you practice every day, you will definitely improve."
+    },
+    {
+      "p": "越……越……",
+      "e": "\"The more ... the more ...\" shows two things increasing together: 越敢开口，进步就越快。",
+      "x": "汉语越学越有意思。 — The more you study Chinese, the more interesting it gets."
+    },
+    {
+      "p": "甚至",
+      "e": "\"Even\" introduces an extreme example that pushes the point further: 我有点儿不好意思，甚至不太想在班里说话。",
+      "x": "他忙得甚至忘了吃饭。 — He was so busy that he even forgot to eat."
+    }
+  ]
+}

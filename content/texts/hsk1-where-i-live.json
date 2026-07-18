@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-where-i-live",
+  "level": 1,
+  "title_zh": "我住在哪儿",
+  "title_py": "Wǒ zhù zài nǎr",
+  "title_en": "Where Do I Live?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["你","nǐ","you"],["住","zhù","to live"],["在","zài","in, at"],["哪儿","nǎr","where"],["？"]],
+      "en": "Where do you live?"
+    },
+    {
+      "t": [["我","wǒ","I"],["住","zhù","to live"],["在","zài","in"],["北京","Běijīng","Beijing"],["，"],["北京","Běijīng","Beijing"],["很","hěn","very"],["大","dà","big"],["。"]],
+      "en": "I live in Beijing — Beijing is very big."
+    },
+    {
+      "t": [["我","wǒ","my"],["家","jiā","home"],["不","bú","not"],["大","dà","big"],["，"],["我","wǒ","my"],["的","de","(possessive particle)"],["猫","māo","cat"],["很","hěn","very"],["漂亮","piàoliang","pretty"],["。"]],
+      "en": "My home is not big, but my cat is very pretty."
+    },
+    {
+      "t": [["我","wǒ","I"],["爱","ài","love"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃","chī","to eat"],["米饭","mǐfàn","rice"],["和","hé","and"],["菜","cài","dishes, food"],["。"]],
+      "en": "I love going to restaurants to eat rice and good food."
+    },
+    {
+      "t": [["明天","míngtiān","tomorrow"],["我","wǒ","my"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["来","lái","to come"],["我","wǒ","my"],["家","jiā","home"],["，"],["我","wǒ","I"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "Tomorrow my friend is coming to my home, and I am very happy."
+    },
+    {
+      "t": [["你","nǐ","you"],["想","xiǎng","would like"],["来","lái","to come"],["北京","Běijīng","Beijing"],["吗","ma","(question particle)"],["？"]],
+      "en": "Would you like to come to Beijing?"
+    }
+  ],
+  "vocab": [
+    ["住","zhù","to live (somewhere)"],
+    ["哪儿","nǎr","where"],
+    ["北京","Běijīng","Beijing"],
+    ["家","jiā","home"],
+    ["饭馆","fànguǎn","restaurant"],
+    ["高兴","gāoxìng","happy"]
+  ],
+  "quiz": [
+    {"q":"Where does the speaker live?","a":["Beijing","At a school","At a restaurant"],"c":0},
+    {"q":"Who is coming to the speaker's home tomorrow?","a":["Their teacher","Their friend","Their mother"],"c":1},
+    {"q":"What is the speaker's home like?","a":["Very big","Very far away","Not big"],"c":2}
+  ],
+  "grammar": [
+    {"p":"住在 + place","e":"To say where someone lives, use 住在 followed directly by the place.","x":"我住在北京。 — I live in Beijing."},
+    {"p":"哪儿 (where)","e":"哪儿 asks about a place and sits where the place word would go in the answer.","x":"你住在哪儿？ — Where do you live?"},
+    {"p":"Statement + 吗","e":"Add 吗 to the end of a statement to turn it into a yes-no question.","x":"你想来北京吗？ — Would you like to come to Beijing?"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-lost-passport",
+  "level": 3,
+  "title_zh": "护照丢了",
+  "title_py": "Hùzhào diū le",
+  "title_en": "The Lost Passport",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last"],["个","gè","(measure word)"],["星期","xīngqī","week"],["，"],["我","wǒ","I; me"],["一个人","yí gè rén","alone; by oneself"],["去","qù","to go"],["北京","Běijīng","Beijing"],["旅行","lǚxíng","to travel"],["，"],["每天","měi tiān","every day"],["都","dōu","all"],["玩","wán","to have fun"],["得","de","(particle: degree)"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "Last week I traveled to Beijing by myself and had a great time every day."
+    },
+    {
+      "t": [["星期四","xīngqīsì","Thursday"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["要","yào","to be about to"],["去","qù","to go"],["银行","yínháng","bank"],["换","huàn","to exchange"],["钱","qián","money"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["突然","tūrán","suddenly"],["发现","fāxiàn","to discover"],["我","wǒ","I; me"],["的","de","(particle: attributive)"],["护照","hùzhào","passport"],["丢","diū","to lose"],["了","le","(particle: completed)"],["！"]],
+      "en": "On Thursday morning, just as I was about to go to the bank to change money, I suddenly discovered my passport was lost!"
+    },
+    {
+      "t": [["我","wǒ","I; me"],["把","bǎ","(marker: object before verb)"],["包","bāo","bag"],["里","li","inside"],["的","de","(particle: attributive)"],["东西","dōngxi","things"],["都","dōu","all"],["拿","ná","to take"],["了","le","(particle: completed)"],["出来","chūlai","out"],["，"],["可是","kěshì","but"],["没有","méiyǒu","to not have"],["护照","hùzhào","passport"],["。"]],
+      "en": "I took everything out of my bag, but the passport wasn't there."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at; in"],["房间","fángjiān","room"],["里","li","inside"],["找","zhǎo","to look for"],["了","le","(particle: completed)"],["很","hěn","very"],["久","jiǔ","long (time)"],["，"],["床","chuáng","bed"],["上","shang","on"],["、"],["桌子","zhuōzi","table"],["下面","xiàmiàn","under; below"],["都","dōu","all"],["看","kàn","to check; to look"],["了","le","(particle: completed)"],["，"],["还是","háishi","still"],["找不到","zhǎo bu dào","cannot find"],["。"]],
+      "en": "I searched the room for a long time — on the bed, under the table — and still couldn't find it."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["非常","fēicháng","very; extremely"],["着急","zháojí","anxious"],["，"],["因为","yīnwèi","because"],["没有","méiyǒu","without"],["护照","hùzhào","passport"],["，"],["我","wǒ","I; me"],["就","jiù","then"],["不","bù","not"],["能","néng","can"],["坐","zuò","to take"],["飞机","fēijī","airplane"],["回家","huíjiā","to go home"],["了","le","(particle)"],["。"]],
+      "en": "I was extremely worried, because without a passport I wouldn't be able to fly home."
+    },
+    {
+      "t": [["饭店","fàndiàn","hotel"],["的","de","(particle: attributive)"],["工作人员","gōngzuò rényuán","staff member"],["对","duì","to; toward"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["担心","dānxīn","to worry"],["，"],["您","nín","you (polite)"],["可以","kěyǐ","can; may"],["去","qù","to go"],["附近","fùjìn","nearby"],["的","de","(particle: attributive)"],["派出所","pàichūsuǒ","local police station"],["问问","wènwen","to ask (casually)"],["。"],["”"]],
+      "en": "The hotel staff member said to me: \"Don't worry, you can go ask at the nearby police station.\""
+    },
+    {
+      "t": [["到","dào","to arrive"],["了","le","(particle: completed)"],["派出所","pàichūsuǒ","local police station"],["，"],["警察","jǐngchá","police officer"],["笑","xiào","to smile"],["着","zhe","(particle: ongoing)"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["一","yí","one"],["位","wèi","(measure word for people, polite)"],["出租车","chūzūchē","taxi"],["司机","sījī","driver"],["刚才","gāngcái","just now"],["送来","sònglai","to bring over"],["了","le","(particle: completed)"],["一","yì","one"],["本","běn","(measure word)"],["护照","hùzhào","passport"],["，"],["是","shì","to be"],["您","nín","you (polite)"],["的","de","(particle)"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "When I got to the police station, the officer asked me with a smile: \"A taxi driver just brought in a passport — is it yours?\""
+    },
+    {
+      "t": [["那","nà","that"],["就","jiù","exactly; precisely"],["是","shì","to be"],["我","wǒ","I; me"],["的","de","(particle)"],["护照","hùzhào","passport"],["！"],["我","wǒ","I; me"],["高兴","gāoxìng","happy"],["极了","jíle","extremely"],["，"],["一直","yìzhí","continuously"],["对","duì","to"],["警察","jǐngchá","police officer"],["说","shuō","to say"],["谢谢","xièxie","thanks"],["。"]],
+      "en": "It was exactly my passport! I was overjoyed and kept saying thank you to the officer."
+    }
+  ],
+  "vocab": [
+    ["护照","hùzhào","passport"],
+    ["丢","diū","to lose"],
+    ["旅行","lǚxíng","to travel"],
+    ["派出所","pàichūsuǒ","local police station"],
+    ["警察","jǐngchá","police officer"],
+    ["着急","zháojí","anxious; worried"]
+  ],
+  "quiz": [
+    {"q": "Why was the narrator so worried?", "a": ["He had no money left", "Without a passport he couldn't fly home", "The hotel was closing"], "c": 1},
+    {"q": "What did the hotel staff suggest?", "a": ["Going to the nearby police station", "Calling the airline", "Buying a new passport"], "c": 0},
+    {"q": "Who brought the passport to the police station?", "a": ["A hotel worker", "A friend", "A taxi driver"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "把 + object + verb + complement", "e": "The 把 sentence moves the object before the verb to show what you do to it; the verb needs a result or direction after it, e.g. 把门关好 'close the door properly'.", "x": "我把包里的东西都拿了出来。 — I took everything out of the bag."},
+    {"p": "verb + 不到", "e": "不到 after a verb means the action cannot achieve its result: 找不到 'cannot find', 买不到 'cannot manage to buy'.", "x": "我找了很久，还是找不到。 — I searched for a long time and still couldn't find it."},
+    {"p": "……的时候", "e": "的时候 after a phrase means 'when/while ...', setting the time of the main event, e.g. 吃饭的时候别看手机.", "x": "我要去银行换钱的时候，突然发现护照丢了。 — Just when I was about to go to the bank to change money, I suddenly found my passport was lost."}
+  ]
+}

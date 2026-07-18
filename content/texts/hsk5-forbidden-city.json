@@ -1,0 +1,163 @@
+{
+  "slug": "hsk5-forbidden-city",
+  "level": 5,
+  "title_zh": "故宫的故事",
+  "title_py": "Gùgōng de gùshi",
+  "title_en": "Stories of the Forbidden City",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在","zài","in"], ["北京","Běijīng","Beijing"], ["的","de","(particle)"],
+        ["中心","zhōngxīn","center"], ["，"],
+        ["有","yǒu","there is"], ["一","yí","one"], ["座","zuò","(measure for buildings)"],
+        ["世界","shìjiè","world"], ["上","shang","in"], ["最","zuì","most"], ["大","dà","large"],
+        ["的","de","(particle)"], ["宫殿","gōngdiàn","palace"], ["建筑群","jiànzhùqún","building complex"], ["，"],
+        ["它","tā","it"], ["就","jiù","exactly"], ["是","shì","is"], ["故宫","Gùgōng","the Forbidden City"], ["。"]
+      ],
+      "en": "In the center of Beijing stands the largest palace complex in the world: the Forbidden City."
+    },
+    {
+      "t": [
+        ["故宫","Gùgōng","the Forbidden City"], ["从","cóng","from"],
+        ["1406年","yī sì líng liù nián","the year 1406"], ["开始","kāishǐ","to begin"],
+        ["修建","xiūjiàn","to build"], ["，"],
+        ["到","dào","until"], ["1420年","yī sì èr líng nián","the year 1420"],
+        ["完成","wánchéng","to complete"], ["，"],
+        ["前后","qiánhòu","altogether"], ["用","yòng","to take"], ["了","le","(particle)"],
+        ["十四","shísì","fourteen"], ["年","nián","year"], ["。"]
+      ],
+      "en": "Construction of the Forbidden City began in 1406 and was completed in 1420, taking fourteen years in all."
+    },
+    {
+      "t": [
+        ["从","cóng","from"], ["明朝","Míngcháo","the Ming dynasty"], ["到","dào","to"],
+        ["清朝","Qīngcháo","the Qing dynasty"], ["，"],
+        ["先后","xiānhòu","in succession"], ["有","yǒu","there were"],
+        ["二十四","èrshísì","twenty-four"], ["位","wèi","(measure for people)"],
+        ["皇帝","huángdì","emperor"], ["在","zài","in"], ["这里","zhèlǐ","here"],
+        ["生活","shēnghuó","to live"], ["和","hé","and"],
+        ["处理","chǔlǐ","to handle"], ["国家","guójiā","state"], ["大事","dàshì","major affairs"], ["。"]
+      ],
+      "en": "From the Ming dynasty to the Qing dynasty, twenty-four emperors in succession lived here and handled the affairs of state."
+    },
+    {
+      "t": [
+        ["传说","chuánshuō","legend has it"], ["故宫","Gùgōng","the Forbidden City"],
+        ["有","yǒu","to have"], ["九千九百九十九","jiǔqiān jiǔbǎi jiǔshíjiǔ","nine thousand nine hundred ninety-nine"],
+        ["间","jiān","(measure for rooms)"], ["半","bàn","half"], ["房间","fángjiān","room"], ["，"],
+        ["实际","shíjì","actual"], ["数字","shùzì","number"],
+        ["虽然","suīrán","although"], ["没有","méiyǒu","not"],
+        ["那么","nàme","that"], ["多","duō","many"], ["，"],
+        ["但","dàn","but"], ["也","yě","also"], ["足够","zúgòu","enough"],
+        ["让","ràng","to make"], ["人","rén","people"], ["吃惊","chījīng","amazed"], ["。"]
+      ],
+      "en": "Legend says the Forbidden City has nine thousand nine hundred ninety-nine and a half rooms; the actual number is not that high, but it is still enough to amaze people."
+    },
+    {
+      "t": [
+        ["故宫","Gùgōng","the Forbidden City"], ["的","de","(particle)"],
+        ["屋顶","wūdǐng","roof"], ["大多","dàduō","mostly"], ["是","shì","is"],
+        ["黄色","huángsè","yellow"], ["的","de","(particle)"], ["，"],
+        ["因为","yīnwèi","because"], ["在","zài","in"], ["古代","gǔdài","ancient times"], ["，"],
+        ["黄色","huángsè","yellow"], ["是","shì","is"],
+        ["只有","zhǐyǒu","only"], ["皇帝","huángdì","emperor"], ["才","cái","only then"],
+        ["能","néng","can"], ["使用","shǐyòng","to use"], ["的","de","(particle)"],
+        ["颜色","yánsè","color"], ["。"]
+      ],
+      "en": "Most of the roofs of the Forbidden City are yellow, because in ancient times yellow was a color that only the emperor could use."
+    },
+    {
+      "t": [
+        ["1925年","yī jiǔ èr wǔ nián","the year 1925"], ["，"],
+        ["故宫","Gùgōng","the Forbidden City"], ["变成","biànchéng","to turn into"],
+        ["了","le","(particle)"], ["博物馆","bówùguǎn","museum"], ["，"],
+        ["普通人","pǔtōngrén","ordinary people"], ["第一次","dì-yī cì","for the first time"],
+        ["可以","kěyǐ","can"], ["走进","zǒujìn","to walk into"],
+        ["皇帝","huángdì","emperor"], ["的","de","(particle)"], ["家","jiā","home"], ["。"]
+      ],
+      "en": "In 1925, the Forbidden City became a museum, and ordinary people could walk into the emperor's home for the first time."
+    },
+    {
+      "t": [
+        ["冬天","dōngtiān","winter"], ["下雪","xiàxuě","to snow"], ["的","de","(particle)"],
+        ["时候","shíhou","time"], ["，"],
+        ["红色","hóngsè","red"], ["的","de","(particle)"], ["墙","qiáng","wall"], ["、"],
+        ["白色","báisè","white"], ["的","de","(particle)"], ["雪","xuě","snow"],
+        ["和","hé","and"], ["金色","jīnsè","golden"], ["的","de","(particle)"],
+        ["屋顶","wūdǐng","roof"], ["合","hé","to come together"], ["在","zài","in"],
+        ["一起","yìqǐ","together"], ["，"],
+        ["美","měi","beautiful"], ["得","de","(degree particle)"],
+        ["像","xiàng","like"], ["一","yì","one"], ["幅","fú","(measure for paintings)"],
+        ["画","huà","painting"], ["。"]
+      ],
+      "en": "When it snows in winter, the red walls, white snow, and golden roofs come together, as beautiful as a painting."
+    },
+    {
+      "t": [
+        ["如今","rújīn","today"], ["，"],
+        ["每","měi","every"], ["年","nián","year"], ["有","yǒu","there are"],
+        ["上千万","shàng qiānwàn","over ten million"], ["游客","yóukè","tourist"],
+        ["来","lái","to come"], ["这里","zhèlǐ","here"], ["参观","cānguān","to visit"], ["，"],
+        ["感受","gǎnshòu","to experience"], ["六百","liùbǎi","six hundred"],
+        ["年","nián","year"], ["的","de","(particle)"], ["历史","lìshǐ","history"], ["。"]
+      ],
+      "en": "Today, over ten million visitors come here every year to experience six hundred years of history."
+    },
+    {
+      "t": [
+        ["从","cóng","from"], ["皇帝","huángdì","emperor"], ["的","de","(particle)"],
+        ["家","jiā","home"], ["到","dào","to"], ["人民","rénmín","the people"],
+        ["的","de","(particle)"], ["博物馆","bówùguǎn","museum"], ["，"],
+        ["这","zhè","this"], ["座","zuò","(measure for buildings)"],
+        ["宫殿","gōngdiàn","palace"], ["的","de","(particle)"], ["变化","biànhuà","change"], ["，"],
+        ["本身","běnshēn","itself"], ["就","jiù","exactly"], ["是","shì","is"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["动人","dòngrén","moving"],
+        ["的","de","(particle)"], ["故事","gùshi","story"], ["。"]
+      ],
+      "en": "From the emperor's home to the people's museum, the transformation of this palace is itself a moving story."
+    }
+  ],
+  "vocab": [
+    ["宫殿","gōngdiàn","palace"],
+    ["修建","xiūjiàn","to build; to construct"],
+    ["皇帝","huángdì","emperor"],
+    ["屋顶","wūdǐng","roof"],
+    ["传说","chuánshuō","legend; it is said"],
+    ["动人","dòngrén","moving; touching"]
+  ],
+  "quiz": [
+    {
+      "q": "How long did it take to build the Forbidden City?",
+      "a": ["Fourteen years, from 1406 to 1420", "Twenty-four years, from 1406 to 1430", "Six hundred years"],
+      "c": 0
+    },
+    {
+      "q": "Why are most of the roofs in the Forbidden City yellow?",
+      "a": ["Yellow paint lasted longest in ancient times", "Yellow made the palace easier to see from far away", "In ancient times only the emperor could use the color yellow"],
+      "c": 2
+    },
+    {
+      "q": "What happened to the Forbidden City in 1925?",
+      "a": ["The last emperor moved back in", "It became a museum open to ordinary people", "Its roofs were painted gold"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "只有…才… (only if / only… can…)",
+      "e": "只有 states the one necessary condition, and 才 marks its result: 黄色是只有皇帝才能使用的颜色。",
+      "x": "只有努力练习，才能学好汉语。 — Only by practicing hard can you learn Chinese well."
+    },
+    {
+      "p": "先后 (in succession; one after another)",
+      "e": "An adverb showing that events happened one after another over time: 先后有二十四位皇帝在这里生活。",
+      "x": "他先后去过五个国家工作。 — He has worked in five countries, one after another."
+    },
+    {
+      "p": "A + 得 + 像 + B (so A that it is like B)",
+      "e": "A degree complement comparing the result to something vivid: 美得像一幅画。",
+      "x": "他高兴得像个孩子。 — He was as happy as a child."
+    }
+  ]
+}

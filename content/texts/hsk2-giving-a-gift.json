@@ -1,0 +1,186 @@
+{
+  "slug": "hsk2-giving-a-gift",
+  "level": 2,
+  "title_zh": "送礼物",
+  "title_py": "Sòng lǐwù",
+  "title_en": "Giving a Gift",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["是", "shì", "to be"],
+        ["妈妈", "māma", "mom"],
+        ["的", "de", "(possessive particle)"],
+        ["生日", "shēngrì", "birthday"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["想", "xiǎng", "want to"],
+        ["送", "sòng", "to give (as a gift)"],
+        ["她", "tā", "her"],
+        ["一", "yí", "one"],
+        ["件", "jiàn", "(measure word)"],
+        ["礼物", "lǐwù", "gift"],
+        ["。"]
+      ],
+      "en": "Tomorrow is my mom's birthday, and I want to give her a gift."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["不", "bù", "not"],
+        ["知道", "zhīdào", "to know"],
+        ["买", "mǎi", "to buy"],
+        ["什么", "shénme", "what"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["问", "wèn", "to ask"],
+        ["了", "le", "(completed action)"],
+        ["姐姐", "jiějie", "older sister"],
+        ["。"]
+      ],
+      "en": "I didn't know what to buy, so I asked my older sister."
+    },
+    {
+      "t": [
+        ["姐姐", "jiějie", "older sister"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["妈妈", "māma", "mom"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["早上", "zǎoshang", "morning"],
+        ["都", "dōu", "always"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["送", "sòng", "to give (as a gift)"],
+        ["她", "tā", "her"],
+        ["一些", "yìxiē", "some"],
+        ["好", "hǎo", "good"],
+        ["茶", "chá", "tea"],
+        ["吧", "ba", "(particle: suggestion)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "My sister said: \"Mom drinks tea every morning — why not give her some good tea?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["件", "jiàn", "(measure word)"],
+        ["漂亮", "piàoliang", "pretty"],
+        ["的", "de", "(particle)"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "I went to a shop and bought tea, and I also bought a pretty piece of clothing."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["看到", "kàndào", "to see"],
+        ["礼物", "lǐwù", "gift"],
+        ["，"],
+        ["非常", "fēicháng", "extremely"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "When Mom saw the gifts, she was overjoyed."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["茶", "chá", "tea"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["衣服", "yīfu", "clothes"],
+        ["有点儿", "yǒudiǎnr", "a little bit"],
+        ["大", "dà", "big"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "She said: \"The tea is lovely, but the clothes are a bit big.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["笑", "xiào", "to laugh"],
+        ["了", "le", "(particle)"],
+        ["："],
+        ["“"],
+        ["没关系", "méi guānxi", "it doesn't matter"],
+        ["，"],
+        ["明年", "míngnián", "next year"],
+        ["我", "wǒ", "I"],
+        ["再", "zài", "again"],
+        ["送", "sòng", "to give (as a gift)"],
+        ["你", "nǐ", "you"],
+        ["一", "yí", "one"],
+        ["件", "jiàn", "(measure word)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I laughed: \"No problem — next year I'll give you another one!\""
+    }
+  ],
+  "vocab": [
+    ["送", "sòng", "to give (as a gift)"],
+    ["礼物", "lǐwù", "gift; present"],
+    ["生日", "shēngrì", "birthday"],
+    ["茶", "chá", "tea"],
+    ["衣服", "yīfu", "clothes"],
+    ["有点儿", "yǒudiǎnr", "a little bit (+ adjective)"]
+  ],
+  "quiz": [
+    {
+      "q": "Whose birthday is tomorrow?",
+      "a": ["Mom's", "The older sister's", "The narrator's"],
+      "c": 0
+    },
+    {
+      "q": "What does Mom do every morning?",
+      "a": ["Buys clothes", "Drinks tea", "Goes to the shop"],
+      "c": 1
+    },
+    {
+      "q": "What was the problem with the clothes?",
+      "a": ["They were too expensive", "They were too small", "They were a bit big"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "送 + person + object",
+      "e": "送 (sòng) takes two objects: first the person, then the thing given, e.g. 送他一本书 'give him a book (as a gift)'.",
+      "x": "我想送她一件礼物。 — I want to give her a gift."
+    },
+    {
+      "p": "…，所以…",
+      "e": "所以 (suǒyǐ) introduces the result of what was said before: '..., so ...', e.g. 天气不好，所以我们不去了.",
+      "x": "我不知道买什么，所以问了姐姐。 — I didn't know what to buy, so I asked my older sister."
+    },
+    {
+      "p": "有点儿 + adjective",
+      "e": "有点儿 (yǒudiǎnr) before an adjective means 'a bit (too) ...', usually about something not ideal, e.g. 有点儿贵.",
+      "x": "衣服有点儿大。 — The clothes are a bit big."
+    }
+  ]
+}

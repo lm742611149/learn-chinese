@@ -1,0 +1,310 @@
+{
+  "slug": "hsk6-language-and-thought",
+  "level": 6,
+  "title_zh": "语言与思维",
+  "title_py": "Yǔyán yǔ sīwéi",
+  "title_en": "Language and Thought",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["语言", "yǔyán", "language"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["交流", "jiāoliú", "communication"],
+        ["的", "de", "(possessive particle)"],
+        ["工具", "gōngjù", "tool"],
+        ["，"],
+        ["更", "gèng", "even more"],
+        ["是", "shì", "is"],
+        ["思维", "sīwéi", "thought; thinking"],
+        ["的", "de", "(possessive particle)"],
+        ["载体", "zàitǐ", "vehicle; carrier"],
+        ["："],
+        ["我们", "wǒmen", "we"],
+        ["用", "yòng", "to use"],
+        ["什么", "shénme", "what; which"],
+        ["语言", "yǔyán", "language"],
+        ["思考", "sīkǎo", "to think"],
+        ["，"],
+        ["往往", "wǎngwǎng", "often; tend to"],
+        ["决定", "juédìng", "to determine"],
+        ["了", "le", "(completed action)"],
+        ["我们", "wǒmen", "we"],
+        ["如何", "rúhé", "how (formal)"],
+        ["看待", "kàndài", "to regard; view"],
+        ["世界", "shìjiè", "world"],
+        ["。"]
+      ],
+      "en": "Language is not merely a tool for communication; it is, even more, the vehicle of thought: the language we think in often determines how we see the world."
+    },
+    {
+      "t": [
+        ["语言学家", "yǔyánxuéjiā", "linguist"],
+        ["曾", "céng", "once; formerly"],
+        ["提出", "tíchū", "to propose"],
+        ["一个", "yí ge", "one; a"],
+        ["著名", "zhùmíng", "famous"],
+        ["的", "de", "(possessive particle)"],
+        ["假说", "jiǎshuō", "hypothesis"],
+        ["："],
+        ["不同", "bùtóng", "different"],
+        ["语言", "yǔyán", "language"],
+        ["的", "de", "(possessive particle)"],
+        ["结构", "jiégòu", "structure"],
+        ["，"],
+        ["会", "huì", "will"],
+        ["潜移默化", "qián yí mò huà", "to influence imperceptibly"],
+        ["地", "de", "(adverbial particle)"],
+        ["塑造", "sùzào", "to shape; mold"],
+        ["使用者", "shǐyòngzhě", "user; speaker"],
+        ["的", "de", "(possessive particle)"],
+        ["认知", "rènzhī", "cognition"],
+        ["方式", "fāngshì", "way; manner"],
+        ["。"]
+      ],
+      "en": "Linguists once proposed a famous hypothesis: the structure of each language imperceptibly shapes the way its speakers perceive things."
+    },
+    {
+      "t": [
+        ["举", "jǔ", "to give (an example)"],
+        ["个", "ge", "(measure word)"],
+        ["例子", "lìzi", "example"],
+        ["，"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["说", "shuō", "to say"],
+        ["“"],
+        ["上个月", "shàng ge yuè", "last month (lit. the month above)"],
+        ["”"],
+        ["“"],
+        ["下个月", "xià ge yuè", "next month (lit. the month below)"],
+        ["”"],
+        ["，"],
+        ["仿佛", "fǎngfú", "as if"],
+        ["时间", "shíjiān", "time"],
+        ["是", "shì", "is"],
+        ["一条", "yì tiáo", "one (measure for rivers)"],
+        ["自上而下", "zì shàng ér xià", "from top to bottom"],
+        ["流动", "liúdòng", "to flow"],
+        ["的", "de", "(possessive particle)"],
+        ["河", "hé", "river"],
+        ["；"],
+        ["而", "ér", "whereas"],
+        ["英语", "Yīngyǔ", "English (language)"],
+        ["则", "zé", "on the other hand"],
+        ["习惯", "xíguàn", "to be accustomed to"],
+        ["把", "bǎ", "(object marker)"],
+        ["未来", "wèilái", "future"],
+        ["放在", "fàngzài", "to place at"],
+        ["身体", "shēntǐ", "body"],
+        ["的", "de", "(possessive particle)"],
+        ["前方", "qiánfāng", "the front; ahead"],
+        ["。"]
+      ],
+      "en": "For example, Chinese calls last month \"the month above\" and next month \"the month below,\" as if time were a river flowing downward, whereas English habitually places the future in front of the body."
+    },
+    {
+      "t": [
+        ["再", "zài", "again; further"],
+        ["比如", "bǐrú", "for example"],
+        ["，"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["的", "de", "(possessive particle)"],
+        ["亲属", "qīnshǔ", "kin; relatives"],
+        ["称谓", "chēngwèi", "form of address; term"],
+        ["极其", "jíqí", "extremely (formal)"],
+        ["精细", "jīngxì", "fine-grained; precise"],
+        ["，"],
+        ["舅舅", "jiùjiu", "maternal uncle"],
+        ["、"],
+        ["叔叔", "shūshu", "father's younger brother"],
+        ["、"],
+        ["伯伯", "bóbo", "father's elder brother"],
+        ["各", "gè", "each"],
+        ["有", "yǒu", "to have"],
+        ["其", "qí", "its (formal)"],
+        ["名", "míng", "name"],
+        ["，"],
+        ["说话人", "shuōhuàrén", "the speaker"],
+        ["不得不", "bùdébù", "to have no choice but to"],
+        ["时刻", "shíkè", "constantly"],
+        ["留意", "liúyì", "to pay attention to"],
+        ["亲属", "qīnshǔ", "kin; relatives"],
+        ["关系", "guānxì", "relationship"],
+        ["的", "de", "(possessive particle)"],
+        ["远近", "yuǎnjìn", "closeness; degree of relation"],
+        ["。"]
+      ],
+      "en": "Another example: Chinese kinship terms are extremely fine-grained — a maternal uncle, a father's younger brother, and a father's elder brother each have their own word — so speakers must constantly attend to exactly how relatives are related."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["并非", "bìngfēi", "by no means is (formal)"],
+        ["意味着", "yìwèizhe", "to mean; imply"],
+        ["语言", "yǔyán", "language"],
+        ["是", "shì", "is"],
+        ["一座", "yí zuò", "one (measure for buildings)"],
+        ["监狱", "jiānyù", "prison"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["思想", "sīxiǎng", "thought; ideas"],
+        ["牢牢", "láoláo", "firmly"],
+        ["锁住", "suǒzhù", "to lock up"],
+        ["；"],
+        ["它", "tā", "it"],
+        ["更", "gèng", "more"],
+        ["像", "xiàng", "to resemble"],
+        ["一副", "yí fù", "one (measure for glasses)"],
+        ["眼镜", "yǎnjìng", "glasses; spectacles"],
+        ["，"],
+        ["让", "ràng", "to make; let"],
+        ["某些", "mǒu xiē", "certain; some"],
+        ["细节", "xìjié", "detail"],
+        ["变得", "biànde", "to become"],
+        ["格外", "géwài", "especially"],
+        ["清晰", "qīngxī", "clear; distinct"],
+        ["。"]
+      ],
+      "en": "This by no means implies that language is a prison locking thought firmly inside; it is more like a pair of glasses that makes certain details exceptionally clear."
+    },
+    {
+      "t": [
+        ["掌握", "zhǎngwò", "to master"],
+        ["第二", "dì èr", "second"],
+        ["种", "zhǒng", "kind (measure word)"],
+        ["语言", "yǔyán", "language"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "person"],
+        ["常常", "chángcháng", "often"],
+        ["发现", "fāxiàn", "to discover"],
+        ["，"],
+        ["在", "zài", "in; at"],
+        ["两", "liǎng", "two"],
+        ["种", "zhǒng", "kind (measure word)"],
+        ["语言", "yǔyán", "language"],
+        ["之间", "zhījiān", "between"],
+        ["切换", "qiēhuàn", "to switch"],
+        ["时", "shí", "when (formal)"],
+        ["，"],
+        ["自己", "zìjǐ", "one's own"],
+        ["的", "de", "(possessive particle)"],
+        ["性格", "xìnggé", "personality"],
+        ["与", "yǔ", "and (formal)"],
+        ["语气", "yǔqì", "tone of voice"],
+        ["也", "yě", "also"],
+        ["随之", "suízhī", "along with it (formal)"],
+        ["发生", "fāshēng", "to undergo"],
+        ["微妙", "wēimiào", "subtle"],
+        ["的", "de", "(possessive particle)"],
+        ["变化", "biànhuà", "change"],
+        ["。"]
+      ],
+      "en": "People who master a second language often find that when they switch between the two, their personality and tone undergo a subtle change as well."
+    },
+    {
+      "t": [
+        ["与其说", "yǔqí shuō", "rather than saying"],
+        ["我们", "wǒmen", "we"],
+        ["在", "zài", "(progressive marker)"],
+        ["学习", "xuéxí", "to learn"],
+        ["一门", "yì mén", "one (measure for disciplines)"],
+        ["外语", "wàiyǔ", "foreign language"],
+        ["，"],
+        ["不如说", "bùrú shuō", "it is better to say"],
+        ["我们", "wǒmen", "we"],
+        ["在", "zài", "(progressive marker)"],
+        ["学习", "xuéxí", "to learn"],
+        ["另", "lìng", "another"],
+        ["一种", "yì zhǒng", "one kind of"],
+        ["打量", "dǎliang", "to look at; size up"],
+        ["世界", "shìjiè", "world"],
+        ["的", "de", "(possessive particle)"],
+        ["目光", "mùguāng", "gaze; way of looking"],
+        ["。"]
+      ],
+      "en": "Learning a foreign language is not so much acquiring new words as acquiring another gaze with which to look at the world."
+    },
+    {
+      "t": [
+        ["下次", "xiàcì", "next time"],
+        ["说", "shuō", "to speak"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["时", "shí", "when (formal)"],
+        ["，"],
+        ["不妨", "bùfáng", "might as well"],
+        ["留意", "liúyì", "to take note"],
+        ["："],
+        ["这", "zhè", "this"],
+        ["门", "mén", "(measure for languages)"],
+        ["语言", "yǔyán", "language"],
+        ["正在", "zhèngzài", "in the process of"],
+        ["悄悄", "qiāoqiāo", "quietly"],
+        ["地", "de", "(adverbial particle)"],
+        ["引导", "yǐndǎo", "to guide"],
+        ["你", "nǐ", "you"],
+        ["注意", "zhùyì", "to notice"],
+        ["什么", "shénme", "what"],
+        ["、"],
+        ["忽略", "hūlüè", "to overlook; ignore"],
+        ["什么", "shénme", "what"],
+        ["。"]
+      ],
+      "en": "Next time you speak Chinese, take a moment to notice what this language is quietly steering you to pay attention to, and what it is letting you overlook."
+    }
+  ],
+  "vocab": [
+    ["载体", "zàitǐ", "vehicle; carrier (of ideas)"],
+    ["潜移默化", "qián yí mò huà", "to influence imperceptibly"],
+    ["塑造", "sùzào", "to shape; to mold"],
+    ["称谓", "chēngwèi", "form of address; appellation"],
+    ["微妙", "wēimiào", "subtle; delicate"],
+    ["打量", "dǎliang", "to look someone/something over; to size up"]
+  ],
+  "quiz": [
+    {
+      "q": "How does the text say Chinese talks about months?",
+      "a": [
+        "As the month above and the month below, like a river flowing downward",
+        "As locations in front of and behind the body",
+        "As a circle that repeats every year"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What is the point of the glasses metaphor?",
+      "a": [
+        "Learning languages tires the eyes over time",
+        "Language does not imprison thought; it makes certain details especially clear",
+        "Only bilingual people can see the world accurately"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What do people who master a second language often notice, according to the text?",
+      "a": [
+        "They start forgetting kinship terms in their mother tongue",
+        "Their memory becomes noticeably stronger",
+        "Their personality and tone shift subtly when they switch languages"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不仅…，更…",
+      "e": "A climactic pair: 'not only A, but even more, B'. 更 upgrades the second clause above the first, stronger than plain 而且. 例：他不仅是老师，更是朋友。",
+      "x": "语言不仅是交流的工具，更是思维的载体。 — Language is not merely a tool for communication; it is, even more, the vehicle of thought."
+    },
+    {
+      "p": "并非",
+      "e": "Formal, emphatic negation: 'by no means is / is not at all', typically correcting a likely misreading; 并 reinforces 非 (the literary 不是). 例：成功并非偶然。",
+      "x": "这并非意味着语言是一座监狱。 — This by no means implies that language is a prison."
+    },
+    {
+      "p": "与其说…，不如说…",
+      "e": "'It is not so much A as B' — weighs two descriptions and declares the second more accurate. A staple of essay-style reflection. 例：与其说是运气，不如说是坚持。",
+      "x": "与其说我们在学习一门外语，不如说我们在学习另一种打量世界的目光。 — Learning a foreign language is not so much acquiring words as acquiring another way of looking at the world."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-its-raining",
+  "level": 1,
+  "title_zh": "下雨了",
+  "title_py": "Xià yǔ le",
+  "title_en": "It's Raining",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],["，"],["我","wǒ","I"],["想","xiǎng","want to"],["去","qù","to go"],["商店","shāngdiàn","shop"],["买","mǎi","to buy"],["东西","dōngxi","things"],["。"]],
+      "en": "This morning the weather was lovely, and I wanted to go shopping."
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["下雨","xià yǔ","to rain"],["了","le","(change particle)"],["，"],["我","wǒ","I"],["不","bù","not"],["能","néng","can"],["去","qù","to go"],["商店","shāngdiàn","shop"],["了","le","(change particle)"],["。"]],
+      "en": "At noon it started to rain, so I couldn't go to the shop anymore."
+    },
+    {
+      "t": [["我","wǒ","I"],["在","zài","at"],["家","jiā","home"],["看","kàn","to watch"],["电视","diànshì","TV"],["，"],["喝","hē","to drink"],["了","le","(completed action)"],["一","yì","one"],["杯","bēi","cup (of)"],["热","rè","hot"],["茶","chá","tea"],["。"]],
+      "en": "I watched TV at home and drank a cup of hot tea."
+    },
+    {
+      "t": [["我","wǒ","my"],["的","de","(possessive particle)"],["猫","māo","cat"],["在","zài","on, at"],["椅子","yǐzi","chair"],["上","shàng","on top of"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "My cat slept on the chair."
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["不","bú","not"],["下雨","xià yǔ","to rain"],["了","le","(change particle)"],["，"],["天气","tiānqì","weather"],["好","hǎo","good"],["了","le","(change particle)"],["。"]],
+      "en": "In the afternoon the rain stopped and the weather turned nice again."
+    },
+    {
+      "t": [["我","wǒ","I"],["和","hé","and"],["我","wǒ","my"],["的","de","(possessive particle)"],["狗","gǒu","dog"],["去","qù","to go"],["商店","shāngdiàn","shop"],["买","mǎi","to buy"],["东西","dōngxi","things"],["，"],["我们","wǒmen","we"],["都","dōu","both"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "My dog and I went to the shop to buy things, and we were both very happy."
+    }
+  ],
+  "vocab": [
+    ["下雨","xià yǔ","to rain"],
+    ["天气","tiānqì","weather"],
+    ["能","néng","can, to be able to"],
+    ["电视","diànshì","TV"],
+    ["睡觉","shuìjiào","to sleep"],
+    ["商店","shāngdiàn","shop, store"]
+  ],
+  "quiz": [
+    {"q":"Why couldn't the speaker go to the shop at noon?","a":["It started raining","They were sleeping","The shop was closed"],"c":0},
+    {"q":"What did the speaker drink at home?","a":["Coffee","Hot tea","Cold water"],"c":1},
+    {"q":"Who went to the shop in the afternoon?","a":["The speaker's friend","The speaker and the cat","The speaker and the dog"],"c":2}
+  ],
+  "grammar": [
+    {"p":"…了 (change of state)","e":"了 at the end of a sentence signals that a situation has changed — something new is happening now.","x":"中午下雨了。 — At noon it started to rain."},
+    {"p":"不能 + verb","e":"能 means \"can\"; put 不 in front to say something is not possible.","x":"我不能去商店了。 — I couldn't go to the shop anymore."},
+    {"p":"在 + place + verb","e":"To say where an action happens, put 在 + place before the verb, not after it.","x":"我在家看电视。 — I watched TV at home."}
+  ]
+}

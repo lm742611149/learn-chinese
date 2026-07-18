@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-what-is-this",
+  "level": 1,
+  "title_zh": "这是什么",
+  "title_py": "Zhè shì shénme",
+  "title_en": "What Is This?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["你","nǐ","you"],["看","kàn","look"],["，"],["这","zhè","this"],["是","shì","is"],["什么","shénme","what"],["？"]],
+      "en": "Look, what is this?"
+    },
+    {
+      "t": [["这","zhè","this"],["是","shì","is"],["我","wǒ","I, my"],["的","de","(possessive particle)"],["杯子","bēizi","cup"],["，"],["我","wǒ","I"],["很","hěn","very"],["爱","ài","love"],["喝","hē","to drink"],["茶","chá","tea"],["。"]],
+      "en": "This is my cup — I really love drinking tea."
+    },
+    {
+      "t": [["那","nà","that"],["是","shì","is"],["什么","shénme","what"],["？"],["那","nà","that"],["是","shì","is"],["我","wǒ","my"],["的","de","(possessive particle)"],["书","shū","book"],["。"]],
+      "en": "What is that? That is my book."
+    },
+    {
+      "t": [["我","wǒ","my"],["的","de","(possessive particle)"],["书","shū","book"],["是","shì","is"],["汉语","Hànyǔ","Chinese (language)"],["书","shū","book"],["，"],["我","wǒ","I"],["在","zài","(am doing)"],["学习","xuéxí","to study"],["汉语","Hànyǔ","Chinese (language)"],["。"]],
+      "en": "My book is a Chinese book — I am studying Chinese."
+    },
+    {
+      "t": [["我","wǒ","my"],["的","de","(possessive particle)"],["桌子","zhuōzi","desk"],["很","hěn","very"],["小","xiǎo","small"],["，"],["我","wǒ","my"],["的","de","(possessive particle)"],["电脑","diànnǎo","computer"],["很","hěn","very"],["大","dà","big"],["。"]],
+      "en": "My desk is small, but my computer is big."
+    },
+    {
+      "t": [["你","nǐ","you"],["呢","ne","(and you? particle)"],["？"],["你","nǐ","you"],["有","yǒu","to have"],["什么","shénme","what"],["东西","dōngxi","things"],["？"]],
+      "en": "How about you? What things do you have?"
+    }
+  ],
+  "vocab": [
+    ["这","zhè","this"],
+    ["什么","shénme","what"],
+    ["杯子","bēizi","cup"],
+    ["茶","chá","tea"],
+    ["书","shū","book"],
+    ["东西","dōngxi","thing(s)"]
+  ],
+  "quiz": [
+    {"q":"What does the speaker love to drink?","a":["Tea","Coffee","Water"],"c":0},
+    {"q":"What kind of book does the speaker have?","a":["An English book","A Chinese book","A picture book"],"c":1},
+    {"q":"What does the speaker say is big?","a":["The desk","The cup","The computer"],"c":2}
+  ],
+  "grammar": [
+    {"p":"这 / 那 + 是 + noun","e":"Use 这 (this) and 那 (that) with 是 (to be) to point things out and say what they are.","x":"这是我的杯子。 — This is my cup."},
+    {"p":"什么 stays in place","e":"In Chinese, the question word 什么 (what) sits exactly where the answer would go — no word-order change is needed.","x":"这是什么？ — What is this?"},
+    {"p":"的 for possession","e":"Put 的 after a person to show that something belongs to them, like adding apostrophe-s in English.","x":"那是我的书。 — That is my book."}
+  ]
+}

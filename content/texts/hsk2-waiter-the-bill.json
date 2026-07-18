@@ -1,0 +1,178 @@
+{
+  "slug": "hsk2-waiter-the-bill",
+  "level": 2,
+  "title_zh": "服务员，买单",
+  "title_py": "Fúwùyuán, mǎidān",
+  "title_en": "Waiter, the Bill!",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["中午", "zhōngwǔ", "noon"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["和", "hé", "and"],
+        ["朋友", "péngyou", "friend"],
+        ["去", "qù", "to go"],
+        ["饭店", "fàndiàn", "restaurant"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(completed action)"],
+        ["很多", "hěn duō", "a lot of"],
+        ["菜", "cài", "dishes"],
+        ["。"]
+      ],
+      "en": "Yesterday at noon, my friend and I went to a restaurant and ate a lot of dishes."
+    },
+    {
+      "t": [
+        ["吃", "chī", "to eat"],
+        ["完", "wán", "to finish"],
+        ["了", "le", "(completed action)"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["对", "duì", "to; toward"],
+        ["服务员", "fúwùyuán", "waiter"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["服务员", "fúwùyuán", "waiter"],
+        ["，"],
+        ["买单", "mǎidān", "the bill, please"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "When we finished eating, I said to the waiter: \"Waiter, the bill, please!\""
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "waiter"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["一共", "yígòng", "in total"],
+        ["九十八", "jiǔshíbā", "ninety-eight"],
+        ["块", "kuài", "kuai (yuan)"],
+        ["钱", "qián", "money"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "The waiter said: \"That's ninety-eight kuai in total.\""
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["想", "xiǎng", "want to"],
+        ["给", "gěi", "to give"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["也", "yě", "also"],
+        ["想", "xiǎng", "want to"],
+        ["给", "gěi", "to give"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "My friend wanted to pay, and I wanted to pay too."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["上次", "shàngcì", "last time"],
+        ["是", "shì", "was (emphasis)"],
+        ["你", "nǐ", "you"],
+        ["给", "gěi", "to give (pay)"],
+        ["的", "de", "(particle)"],
+        ["，"],
+        ["这次", "zhècì", "this time"],
+        ["我", "wǒ", "I"],
+        ["来", "lái", "(let me) do it"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said: \"Last time you paid — this time it's on me!\""
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["笑", "xiào", "to laugh"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["好", "hǎo", "okay"],
+        ["吧", "ba", "(particle: agreement)"],
+        ["，"],
+        ["下次", "xiàcì", "next time"],
+        ["我", "wǒ", "I"],
+        ["请", "qǐng", "to treat (someone)"],
+        ["你", "nǐ", "you"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "My friend laughed and said: \"Alright, next time it's my treat!\""
+    },
+    {
+      "t": [
+        ["和", "hé", "with"],
+        ["朋友", "péngyou", "friend"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["，"],
+        ["给", "gěi", "to give (pay)"],
+        ["钱", "qián", "money"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "When you eat with a good friend, even paying the bill feels happy."
+    }
+  ],
+  "vocab": [
+    ["买单", "mǎidān", "to pay the bill (at a restaurant)"],
+    ["一共", "yígòng", "in total; altogether"],
+    ["菜", "cài", "dish; food"],
+    ["次", "cì", "time; occasion"],
+    ["请", "qǐng", "to treat (someone to a meal)"],
+    ["给", "gěi", "to give"]
+  ],
+  "quiz": [
+    {
+      "q": "How much did the meal cost in total?",
+      "a": ["Eighty-nine kuai", "Ninety-eight kuai", "One hundred and eight kuai"],
+      "c": 1
+    },
+    {
+      "q": "Who paid last time?",
+      "a": ["The friend", "The narrator", "They split the bill"],
+      "c": 0
+    },
+    {
+      "q": "What does the friend promise to do next time?",
+      "a": ["Cook at home", "Order less food", "Treat the narrator"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "Verb + 完 (+ 了)",
+      "e": "完 (wán) after a verb means the action is finished, e.g. 做完 'finish doing', 吃完 'finish eating'.",
+      "x": "吃完了，我对服务员说：“买单！” — When we finished eating, I said to the waiter: \"The bill, please!\""
+    },
+    {
+      "p": "上次 / 这次 / 下次",
+      "e": "次 (cì) is the measure word for times or occasions: 上次 'last time', 这次 'this time', 下次 'next time', e.g. 下次再来.",
+      "x": "上次是你给的，这次我来！ — Last time you paid; this time it's on me!"
+    },
+    {
+      "p": "对 + person + 说",
+      "e": "对 (duì) marks the person you speak to: 对某人说 'say to someone', e.g. 老师对我说.",
+      "x": "我对服务员说：“服务员，买单！” — I said to the waiter: \"Waiter, the bill, please!\""
+    }
+  ]
+}

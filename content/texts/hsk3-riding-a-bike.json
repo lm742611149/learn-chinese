@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-riding-a-bike",
+  "level": 3,
+  "title_zh": "骑自行车",
+  "title_py": "Qí zìxíngchē",
+  "title_en": "Riding a Bike",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["家","jiā","home"],["离","lí","from (distance)"],["公司","gōngsī","company"],["不","bú","not"],["太","tài","too"],["远","yuǎn","far"],["，"],["但是","dànshì","but"],["每天","měi tiān","every day"],["坐","zuò","to take (transport)"],["公共汽车","gōnggòng qìchē","bus"],["上班","shàngbān","to go to work"],["，"],["车","chē","vehicle"],["上","shang","on"],["人","rén","people"],["很","hěn","very"],["多","duō","many"],["。"]],
+      "en": "My home isn't too far from my company, but I take the bus to work every day, and it's always crowded."
+    },
+    {
+      "t": [["上个月","shàng gè yuè","last month"],["，"],["同事","tóngshì","colleague"],["对","duì","to; toward"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["为什么","wèishénme","why"],["不","bù","not"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["上班","shàngbān","to go to work"],["呢","ne","(particle)"],["？"],["又","yòu","both"],["方便","fāngbiàn","convenient"],["又","yòu","and also"],["能","néng","can"],["锻炼","duànliàn","to exercise"],["身体","shēntǐ","body; health"],["。"],["”"]],
+      "en": "Last month a colleague said to me: \"Why don't you ride a bike to work? It's convenient and it's good exercise.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["觉得","juéde","to feel; to think"],["他","tā","he"],["说","shuō","to say"],["得","de","(particle: degree)"],["对","duì","right; correct"],["，"],["就","jiù","then; so"],["买","mǎi","to buy"],["了","le","(particle: completed)"],["一","yí","one"],["辆","liàng","(measure word for vehicles)"],["新","xīn","new"],["自行车","zìxíngchē","bicycle"],["。"]],
+      "en": "I thought he was right, so I bought a new bicycle."
+    },
+    {
+      "t": [["第一天","dì yī tiān","the first day"],["骑车","qíchē","to ride a bike"],["的","de","(particle)"],["时候","shíhou","time; moment"],["，"],["我","wǒ","I; me"],["的","de","(particle: attributive)"],["腿","tuǐ","leg"],["很","hěn","very"],["疼","téng","to ache; sore"],["，"],["骑","qí","to ride"],["得","de","(particle: degree)"],["也","yě","also"],["很","hěn","very"],["慢","màn","slow"],["。"]],
+      "en": "The first day I rode, my legs were sore and I rode very slowly."
+    },
+    {
+      "t": [["可是","kěshì","but"],["我","wǒ","I; me"],["每天","měi tiān","every day"],["都","dōu","all; always"],["骑","qí","to ride"],["，"],["一个","yí gè","one"],["星期","xīngqī","week"],["以后","yǐhòu","after; later"],["，"],["我","wǒ","I; me"],["骑","qí","to ride"],["得","de","(particle: degree)"],["越来越","yuè lái yuè","more and more"],["快","kuài","fast"],["了","le","(particle: change)"],["。"]],
+      "en": "But I rode every day, and after a week I was riding faster and faster."
+    },
+    {
+      "t": [["每天","měi tiān","every day"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["一边","yìbiān","while; at the same time"],["骑车","qíchē","to ride a bike"],["，"],["一边","yìbiān","while"],["看","kàn","to look at"],["街道","jiēdào","street"],["旁边","pángbiān","beside"],["的","de","(particle: attributive)"],["树","shù","tree"],["和","hé","and"],["花","huā","flower"],["，"],["觉得","juéde","to feel"],["很","hěn","very"],["舒服","shūfu","comfortable"],["。"]],
+      "en": "Every morning I look at the trees and flowers along the street while I ride, and it feels wonderful."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["已经","yǐjīng","already"],["习惯","xíguàn","to be used to"],["了","le","(particle)"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["上班","shàngbān","to go to work"],["，"],["身体","shēntǐ","health; body"],["也","yě","also"],["比","bǐ","than; compared to"],["以前","yǐqián","before"],["好","hǎo","good"],["多","duō","much"],["了","le","(particle: change)"],["。"]],
+      "en": "Now I'm used to biking to work, and my health is much better than before."
+    },
+    {
+      "t": [["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["对","duì","for; to"],["环境","huánjìng","environment"],["也","yě","also"],["好","hǎo","good"],["，"],["我","wǒ","I; me"],["打算","dǎsuàn","to plan"],["以后","yǐhòu","in the future"],["一直","yìzhí","always; continuously"],["骑","qí","to ride"],["下去","xiàqu","to continue"],["。"]],
+      "en": "Riding a bike is also good for the environment, and I plan to keep riding from now on."
+    }
+  ],
+  "vocab": [
+    ["骑","qí","to ride"],
+    ["自行车","zìxíngchē","bicycle"],
+    ["锻炼","duànliàn","to exercise"],
+    ["街道","jiēdào","street"],
+    ["习惯","xíguàn","to be used to"],
+    ["环境","huánjìng","environment"]
+  ],
+  "quiz": [
+    {"q": "Who suggested riding a bike to work?", "a": ["His wife", "A colleague", "His doctor"], "c": 1},
+    {"q": "What happened on the first day of riding?", "a": ["His legs were sore and he rode slowly", "He fell off the bike", "It started to rain"], "c": 0},
+    {"q": "What does the narrator plan to do in the future?", "a": ["Buy a car", "Take the bus again", "Keep riding his bike"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "又……又……", "e": "又 A 又 B links two qualities or benefits of the same thing: 'both A and B'. For example, 这个菜又便宜又好吃.", "x": "骑自行车上班又方便又能锻炼身体。 — Riding a bike to work is both convenient and good exercise."},
+    {"p": "一边……一边……", "e": "一边 A 一边 B describes two actions happening at the same time, e.g. 一边吃饭一边看电视 'eat while watching TV'.", "x": "我一边骑车，一边看街道旁边的树和花。 — I look at the trees and flowers along the street while I ride."},
+    {"p": "越来越 + adjective", "e": "越来越 before an adjective means something keeps increasing: 'more and more'. For example, 天气越来越热.", "x": "一个星期以后，我骑得越来越快了。 — After a week, I was riding faster and faster."}
+  ]
+}

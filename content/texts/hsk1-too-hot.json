@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-too-hot",
+  "level": 1,
+  "title_zh": "太热了",
+  "title_py": "Tài rè le",
+  "title_en": "Too Hot!",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["天气","tiānqì","weather"],["太","tài","too"],["热","rè","hot"],["了","le","(with 太: emphasis)"],["！"]],
+      "en": "The weather today is way too hot!"
+    },
+    {
+      "t": [["我","wǒ","I"],["不","bù","not"],["想","xiǎng","want to"],["工作","gōngzuò","to work"],["，"],["我","wǒ","I"],["想","xiǎng","want to"],["喝","hē","to drink"],["水","shuǐ","water"],["。"]],
+      "en": "I don't want to work — I just want to drink water."
+    },
+    {
+      "t": [["我","wǒ","I"],["喝","hē","to drink"],["了","le","(completed action)"],["三","sān","three"],["杯","bēi","cup (of)"],["水","shuǐ","water"],["，"],["吃","chī","to eat"],["了","le","(completed action)"],["一","yí","one"],["个","gè","(measure word)"],["大","dà","big"],["苹果","píngguǒ","apple"],["。"]],
+      "en": "I drank three cups of water and ate a big apple."
+    },
+    {
+      "t": [["我","wǒ","my"],["的","de","(possessive particle)"],["狗","gǒu","dog"],["很","hěn","very"],["热","rè","hot"],["，"],["不","bù","not"],["想","xiǎng","want to"],["吃","chī","to eat"],["东西","dōngxi","things, food"],["。"]],
+      "en": "My dog is hot too and doesn't want to eat anything."
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["我们","wǒmen","we"],["不","bú","not"],["去","qù","to go"],["商店","shāngdiàn","shop"],["，"],["在","zài","at"],["家","jiā","home"],["看","kàn","to watch"],["电影","diànyǐng","movie"],["。"]],
+      "en": "In the afternoon we won't go to the shop — we'll watch a movie at home."
+    },
+    {
+      "t": [["明天","míngtiān","tomorrow"],["天气","tiānqì","weather"],["怎么样","zěnmeyàng","how"],["？"],["我","wǒ","I"],["想","xiǎng","think"],["明天","míngtiān","tomorrow"],["不","bú","not"],["太","tài","too"],["热","rè","hot"],["！"]],
+      "en": "What will the weather be like tomorrow? I think it won't be too hot!"
+    }
+  ],
+  "vocab": [
+    ["太","tài","too, excessively"],
+    ["热","rè","hot"],
+    ["水","shuǐ","water"],
+    ["苹果","píngguǒ","apple"],
+    ["电影","diànyǐng","movie"],
+    ["怎么样","zěnmeyàng","how, how about"]
+  ],
+  "quiz": [
+    {"q":"How many cups of water did the speaker drink?","a":["Two","Three","Four"],"c":1},
+    {"q":"What does the dog not want to do?","a":["Sleep","Go outside","Eat"],"c":2},
+    {"q":"What will they do in the afternoon?","a":["Watch a movie at home","Go to the shop","Go to work"],"c":0}
+  ],
+  "grammar": [
+    {"p":"太 + adjective + 了","e":"太…了 wraps around an adjective to say something is excessive — \"way too…\". It works for complaints and for strong praise.","x":"今天天气太热了！ — The weather today is way too hot!"},
+    {"p":"想 + verb","e":"想 before a verb means \"want to / would like to\"; 不想 means you don't feel like doing it.","x":"我不想工作，我想喝水。 — I don't want to work; I want to drink water."},
+    {"p":"verb + 了 (completed action)","e":"了 right after a verb shows the action is finished, often with an amount after it.","x":"我喝了三杯水。 — I drank three cups of water."}
+  ]
+}

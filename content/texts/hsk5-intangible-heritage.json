@@ -1,0 +1,155 @@
+{
+  "slug": "hsk5-intangible-heritage",
+  "level": 5,
+  "title_zh": "非物质文化遗产",
+  "title_py": "Fēiwùzhì wénhuà yíchǎn",
+  "title_en": "Intangible Cultural Heritage",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["你","nǐ","you"], ["听说","tīngshuō","to hear of"], ["过","guo","(experience particle)"], ["“"],
+        ["非物质","fēiwùzhì","intangible"], ["文化","wénhuà","culture"], ["遗产","yíchǎn","heritage"], ["”"],
+        ["吗","ma","(question particle)"], ["？"]
+      ],
+      "en": "Have you ever heard of \"intangible cultural heritage\"?"
+    },
+    {
+      "t": [
+        ["它","tā","it"], ["指","zhǐ","to refer to"], ["的","de","(particle)"], ["是","shì","is"],
+        ["那些","nàxiē","those"], ["看不见","kànbujiàn","cannot be seen"], ["、"],
+        ["摸不着","mōbuzháo","cannot be touched"], ["，"],
+        ["却","què","yet"], ["一代一代","yí dài yí dài","generation after generation"],
+        ["传下来","chuánxiàlai","passed down"], ["的","de","(particle)"], ["文化","wénhuà","culture"], ["，"],
+        ["比如","bǐrú","for example"], ["剪纸","jiǎnzhǐ","paper cutting"], ["、"],
+        ["皮影戏","píyǐngxì","shadow puppetry"], ["和","hé","and"],
+        ["传统","chuántǒng","traditional"], ["节日","jiérì","festival"], ["。"]
+      ],
+      "en": "It refers to culture that cannot be seen or touched, yet has been passed down generation after generation, such as paper cutting, shadow puppetry, and traditional festivals."
+    },
+    {
+      "t": [
+        ["2001年","èr líng líng yī nián","the year 2001"], ["，"],
+        ["中国","Zhōngguó","China"], ["的","de","(particle)"], ["昆曲","Kūnqǔ","Kunqu opera"],
+        ["被","bèi","(passive marker)"], ["联合国","Liánhéguó","the United Nations"],
+        ["列入","lièrù","to be put on"], ["了","le","(particle)"],
+        ["世界","shìjiè","world"], ["非物质","fēiwùzhì","intangible"],
+        ["文化","wénhuà","culture"], ["遗产","yíchǎn","heritage"],
+        ["名单","míngdān","list"], ["。"]
+      ],
+      "en": "In 2001, China's Kunqu opera was placed by the United Nations on the world intangible cultural heritage list."
+    },
+    {
+      "t": [
+        ["后来","hòulái","later"], ["，"],
+        ["端午节","Duānwǔjié","the Dragon Boat Festival"], ["、"],
+        ["京剧","jīngjù","Peking opera"], ["和","hé","and"],
+        ["中医","zhōngyī","traditional Chinese medicine"], ["针灸","zhēnjiǔ","acupuncture"],
+        ["也","yě","also"], ["先后","xiānhòu","one after another"],
+        ["成为","chéngwéi","to become"], ["世界级","shìjièjí","world-level"],
+        ["的","de","(particle)"], ["文化","wénhuà","culture"], ["遗产","yíchǎn","heritage"], ["。"]
+      ],
+      "en": "Later, the Dragon Boat Festival, Peking opera, and Chinese acupuncture also became world-level cultural heritage one after another."
+    },
+    {
+      "t": [
+        ["之所以","zhīsuǒyǐ","the reason why"], ["要","yào","must"],
+        ["保护","bǎohù","to protect"], ["这些","zhèxiē","these"], ["文化","wénhuà","culture"], ["，"],
+        ["是","shì","is"], ["因为","yīnwèi","because"],
+        ["它们","tāmen","they"], ["一旦","yídàn","once"], ["消失","xiāoshī","to disappear"], ["，"],
+        ["就","jiù","then"], ["永远","yǒngyuǎn","forever"], ["无法","wúfǎ","unable to"],
+        ["恢复","huīfù","to recover"], ["。"]
+      ],
+      "en": "The reason these cultures must be protected is that once they disappear, they can never be recovered."
+    },
+    {
+      "t": [
+        ["在","zài","in"], ["南方","nánfāng","the south"], ["的","de","(particle)"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["小镇","xiǎozhèn","small town"], ["上","shang","in"], ["，"],
+        ["我","wǒ","I"], ["看","kàn","to watch"], ["过","guo","(experience particle)"],
+        ["一","yí","one"], ["位","wèi","(measure for people)"], ["老人","lǎorén","old man"],
+        ["表演","biǎoyǎn","to perform"], ["皮影戏","píyǐngxì","shadow puppetry"], ["。"]
+      ],
+      "en": "In a small town in the south, I once watched an old man perform shadow puppetry."
+    },
+    {
+      "t": [
+        ["灯光","dēngguāng","lamplight"], ["下","xià","under"], ["，"],
+        ["他","tā","he"], ["用","yòng","to use"], ["一","yì","one"], ["双","shuāng","pair of"],
+        ["手","shǒu","hand"], ["让","ràng","to make"], ["影子","yǐngzi","shadow"],
+        ["在","zài","on"], ["白布","báibù","white cloth"], ["上","shang","on"],
+        ["唱歌","chànggē","to sing"], ["、"], ["跳舞","tiàowǔ","to dance"], ["，"],
+        ["观众","guānzhòng","audience"], ["看","kàn","to watch"],
+        ["得","de","(degree particle)"], ["入迷","rùmí","entranced"], ["。"]
+      ],
+      "en": "Under the lamplight, with just a pair of hands he made the shadows sing and dance on a white cloth, and the audience watched, entranced."
+    },
+    {
+      "t": [
+        ["现在","xiànzài","now"], ["，"],
+        ["很多","hěn duō","many"], ["学校","xuéxiào","school"],
+        ["邀请","yāoqǐng","to invite"], ["民间","mínjiān","folk"], ["艺人","yìrén","performer; artisan"],
+        ["给","gěi","for"], ["孩子们","háizimen","children"], ["上课","shàngkè","to give lessons"], ["，"],
+        ["让","ràng","to let"], ["他们","tāmen","they"], ["从小","cóngxiǎo","from a young age"],
+        ["接触","jiēchù","to come into contact with"], ["这些","zhèxiē","these"],
+        ["传统","chuántǒng","tradition"], ["。"]
+      ],
+      "en": "Now, many schools invite folk performers to give lessons, letting children come into contact with these traditions from a young age."
+    },
+    {
+      "t": [
+        ["保护","bǎohù","to protect"], ["遗产","yíchǎn","heritage"],
+        ["不","bù","not"], ["等于","děngyú","to equal"],
+        ["把","bǎ","(object marker)"], ["它们","tāmen","they"],
+        ["放进","fàngjìn","to put into"], ["博物馆","bówùguǎn","museum"], ["，"],
+        ["而是","érshì","but rather"], ["让","ràng","to let"], ["它们","tāmen","they"],
+        ["继续","jìxù","to continue"], ["活","huó","to live"],
+        ["在","zài","in"], ["人们","rénmen","people"], ["的","de","(particle)"],
+        ["生活","shēnghuó","life"], ["中","zhōng","in"], ["。"]
+      ],
+      "en": "Protecting heritage does not mean putting it into a museum, but rather letting it continue to live in people's daily lives."
+    }
+  ],
+  "vocab": [
+    ["遗产","yíchǎn","heritage; legacy"],
+    ["剪纸","jiǎnzhǐ","paper cutting"],
+    ["皮影戏","píyǐngxì","shadow puppetry"],
+    ["昆曲","Kūnqǔ","Kunqu opera"],
+    ["针灸","zhēnjiǔ","acupuncture"],
+    ["民间","mínjiān","folk; among the people"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, why must intangible cultural heritage be protected?",
+      "a": ["Once it disappears, it can never be recovered", "It brings in a lot of tourist money", "The United Nations requires every country to do so"],
+      "c": 0
+    },
+    {
+      "q": "What happened to Kunqu opera in 2001?",
+      "a": ["It was performed in a small southern town", "It was placed on the world intangible cultural heritage list", "It was moved into a museum"],
+      "c": 1
+    },
+    {
+      "q": "What does the writer say real protection of heritage means?",
+      "a": ["Putting it safely into museums", "Stopping foreigners from copying it", "Letting it continue to live in people's daily lives"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "之所以…是因为… (the reason why… is that…)",
+      "e": "States a result first, then its cause: 之所以要保护这些文化，是因为它们一旦消失，就永远无法恢复。",
+      "x": "他之所以成功，是因为他从来不放弃。 — The reason he succeeded is that he never gives up."
+    },
+    {
+      "p": "一旦…就… (once…, then…)",
+      "e": "一旦 marks a condition whose result follows immediately and often irreversibly: 它们一旦消失，就永远无法恢复。",
+      "x": "一旦开始，就不能停下来。 — Once you start, you cannot stop."
+    },
+    {
+      "p": "不等于…而是… (does not mean…, but rather…)",
+      "e": "Rejects one interpretation and gives the correct one: 保护遗产不等于把它们放进博物馆，而是让它们继续活在人们的生活中。",
+      "x": "安静不等于同意，而是他还在考虑。 — Staying silent does not mean agreement; rather, he is still thinking it over."
+    }
+  ]
+}

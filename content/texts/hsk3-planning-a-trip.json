@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-planning-a-trip",
+  "level": 3,
+  "title_zh": "打算去旅行",
+  "title_py": "Dǎsuàn qù lǚxíng",
+  "title_en": "Planning a Trip",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["夏天","xiàtiān","summer"],["快","kuài","soon"],["到","dào","to arrive"],["了","le","(particle)"],["，"],["我","wǒ","I; me"],["和","hé","and"],["妻子","qīzi","wife"],["打算","dǎsuàn","to plan"],["出去","chūqu","to go out"],["旅行","lǚxíng","to travel"],["一","yí","one"],["次","cì","time (occurrence)"],["。"]],
+      "en": "Summer is almost here, and my wife and I are planning to take a trip."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["想","xiǎng","to want"],["去","qù","to go"],["南方","nánfāng","the South"],["的","de","(particle: attributive)"],["城市","chéngshì","city"],["看看","kànkan","to have a look"],["，"],["可是","kěshì","but"],["妻子","qīzi","wife"],["更","gèng","even more"],["想","xiǎng","to want"],["去","qù","to go"],["爬山","páshān","to climb mountains"],["。"]],
+      "en": "I want to visit a city in the south, but my wife would rather go mountain climbing."
+    },
+    {
+      "t": [["后来","hòulái","later; afterwards"],["我们","wǒmen","we"],["决定","juédìng","to decide"],["，"],["先","xiān","first"],["去","qù","to go"],["南方","nánfāng","the South"],["的","de","(particle: attributive)"],["城市","chéngshì","city"],["玩","wán","to have fun"],["三","sān","three"],["天","tiān","day"],["，"],["然后","ránhòu","then"],["再","zài","then; again"],["去","qù","to go"],["爬山","páshān","to climb mountains"],["。"]],
+      "en": "In the end we decided to first spend three days in the southern city, and then go mountain climbing."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at; on"],["网上","wǎngshàng","online"],["看","kàn","to look at"],["了","le","(particle: completed)"],["很","hěn","very"],["多","duō","many"],["照片","zhàopiàn","photo"],["，"],["那个","nàge","that"],["城市","chéngshì","city"],["又","yòu","both"],["干净","gānjìng","clean"],["又","yòu","and"],["漂亮","piàoliang","pretty"],["，"],["街道","jiēdào","street"],["旁边","pángbiān","beside"],["都","dōu","all"],["是","shì","to be"],["树","shù","tree"],["。"]],
+      "en": "I looked at many photos online; the city is clean and beautiful, with trees all along the streets."
+    },
+    {
+      "t": [["妻子","qīzi","wife"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we"],["要","yào","must; should"],["早","zǎo","early"],["点儿","diǎnr","a bit"],["买","mǎi","to buy"],["飞机票","fēijī piào","plane ticket"],["，"],["最近","zuìjìn","recently"],["坐","zuò","to take"],["飞机","fēijī","airplane"],["的","de","(particle: attributive)"],["人","rén","people"],["越来越","yuè lái yuè","more and more"],["多","duō","many"],["。"],["”"]],
+      "en": "My wife said: \"We should buy the plane tickets early — more and more people are flying these days.\""
+    },
+    {
+      "t": [["买","mǎi","to buy"],["好","hǎo","(complement: done)"],["票","piào","ticket"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["把","bǎ","(marker: object before verb)"],["地图","dìtú","map"],["和","hé","and"],["照相机","zhàoxiàngjī","camera"],["都","dōu","all"],["放","fàng","to put"],["进","jìn","into"],["了","le","(particle: completed)"],["行李箱","xínglixiāng","suitcase"],["。"]],
+      "en": "After buying the tickets, I put the map and the camera into the suitcase."
+    },
+    {
+      "t": [["如果","rúguǒ","if"],["爬山","páshān","to climb mountains"],["那天","nà tiān","that day"],["下雨","xiàyǔ","to rain"],["，"],["我们","wǒmen","we"],["就","jiù","then"],["在","zài","at; in"],["城市","chéngshì","city"],["里","li","inside"],["多","duō","more"],["玩","wán","to have fun"],["一","yì","one"],["天","tiān","day"],["。"]],
+      "en": "If it rains on the day of the climb, we'll just spend one more day in the city."
+    },
+    {
+      "t": [["还","hái","still"],["有","yǒu","to have"],["两","liǎng","two"],["个","gè","(measure word)"],["星期","xīngqī","week"],["我们","wǒmen","we"],["就要","jiùyào","to be about to"],["去","qù","to go"],["旅行","lǚxíng","to travel"],["了","le","(particle)"],["，"],["我","wǒ","I; me"],["和","hé","and"],["妻子","qīzi","wife"],["都","dōu","both"],["非常","fēicháng","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "In just two weeks we'll be off on our trip, and my wife and I are both really excited."
+    }
+  ],
+  "vocab": [
+    ["打算","dǎsuàn","to plan; to intend"],
+    ["旅行","lǚxíng","to travel"],
+    ["决定","juédìng","to decide"],
+    ["爬山","páshān","to climb mountains"],
+    ["照相机","zhàoxiàngjī","camera"],
+    ["行李箱","xínglixiāng","suitcase"]
+  ],
+  "quiz": [
+    {"q": "What did the couple decide to do first?", "a": ["Visit a southern city", "Climb the mountain", "Visit the wife's parents"], "c": 0},
+    {"q": "Why does the wife want to buy plane tickets early?", "a": ["Tickets are cheaper in the morning", "More and more people are flying recently", "The airline is closing"], "c": 1},
+    {"q": "What will they do if it rains on the hiking day?", "a": ["Cancel the whole trip", "Climb the mountain anyway", "Spend one more day in the city"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "如果……，就……", "e": "如果 introduces a condition and 就 introduces the result: 'if ..., then ...'. For example, 如果明天下雨，我们就不去.", "x": "如果爬山那天下雨，我们就在城市里多玩一天。 — If it rains on the day of the climb, we'll spend one more day in the city."},
+    {"p": "就要……了", "e": "就要…了 says something is about to happen soon, often with a time word before it, e.g. 火车就要开了 'the train is about to leave'.", "x": "还有两个星期我们就要去旅行了。 — In just two weeks we'll be going on our trip."},
+    {"p": "把 + object + verb + 进/好", "e": "In a 把 sentence, a direction or result word like 进 or 好 follows the verb to show where the object ends up, e.g. 把书放进包里.", "x": "我把地图和照相机都放进了行李箱。 — I put the map and the camera into the suitcase."}
+  ]
+}

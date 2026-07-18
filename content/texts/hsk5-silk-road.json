@@ -1,0 +1,152 @@
+{
+  "slug": "hsk5-silk-road",
+  "level": 5,
+  "title_zh": "丝绸之路",
+  "title_py": "Sīchóu zhī lù",
+  "title_en": "The Silk Road",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["两千","liǎngqiān","two thousand"], ["多","duō","more than"], ["年","nián","year"],
+        ["前","qián","ago"], ["的","de","(particle)"], ["汉朝","Hàncháo","the Han dynasty"], ["，"],
+        ["一","yí","one"], ["位","wèi","(measure for people)"], ["叫","jiào","named"],
+        ["张骞","Zhāng Qiān","Zhang Qian"], ["的","de","(particle)"], ["使者","shǐzhě","envoy"],
+        ["从","cóng","from"], ["长安","Cháng'ān","Chang'an"], ["出发","chūfā","to set out"], ["，"],
+        ["一直","yìzhí","all the way"], ["向","xiàng","toward"], ["西","xī","west"],
+        ["走","zǒu","to walk"], ["去","qù","to go"], ["。"]
+      ],
+      "en": "Over two thousand years ago, in the Han dynasty, an envoy named Zhang Qian set out from Chang'an and headed all the way west."
+    },
+    {
+      "t": [
+        ["他","tā","his"], ["的","de","(particle)"], ["旅程","lǚchéng","journey"],
+        ["十分","shífēn","extremely"], ["艰苦","jiānkǔ","arduous"], ["，"],
+        ["但","dàn","but"], ["打开","dǎkāi","to open up"], ["了","le","(particle)"],
+        ["一","yì","one"], ["条","tiáo","(measure)"],
+        ["连接","liánjiē","to connect"], ["中国","Zhōngguó","China"],
+        ["与","yǔ","and; with"], ["西方","xīfāng","the West"], ["的","de","(particle)"],
+        ["通道","tōngdào","passage"], ["。"]
+      ],
+      "en": "His journey was extremely hard, but it opened up a passage connecting China with the West."
+    },
+    {
+      "t": [
+        ["因为","yīnwèi","because"], ["中国","Zhōngguó","China"], ["的","de","(particle)"],
+        ["丝绸","sīchóu","silk"], ["在","zài","on"], ["这","zhè","this"], ["条","tiáo","(measure)"],
+        ["路","lù","road"], ["上","shang","on"], ["最","zuì","most"], ["有名","yǒumíng","famous"], ["，"],
+        ["后人","hòurén","later generations"], ["就","jiù","then"],
+        ["把","bǎ","(object marker)"], ["它","tā","it"], ["称为","chēngwéi","to call"], ["“"],
+        ["丝绸之路","Sīchóu zhī Lù","the Silk Road"], ["”"], ["。"]
+      ],
+      "en": "Because Chinese silk was the most famous thing on this road, later generations called it the \"Silk Road.\""
+    },
+    {
+      "t": [
+        ["商人们","shāngrénmen","merchants"], ["赶","gǎn","to drive (animals)"],
+        ["着","zhe","(particle)"], ["骆驼","luòtuo","camel"], ["，"],
+        ["把","bǎ","(object marker)"], ["丝绸","sīchóu","silk"], ["、"],
+        ["茶叶","cháyè","tea"], ["和","hé","and"], ["瓷器","cíqì","porcelain"],
+        ["运","yùn","to transport"], ["往","wǎng","toward"], ["西方","xīfāng","the West"], ["。"]
+      ],
+      "en": "Merchants drove camels, transporting silk, tea, and porcelain to the West."
+    },
+    {
+      "t": [
+        ["与此同时","yǔcǐ tóngshí","at the same time"], ["，"],
+        ["葡萄","pútao","grape"], ["、"],
+        ["西方","xīfāng","the West"], ["的","de","(particle)"], ["好","hǎo","fine"],
+        ["马","mǎ","horse"], ["等","děng","and so on"],
+        ["也","yě","also"], ["传入","chuánrù","to be introduced into"],
+        ["了","le","(particle)"], ["中国","Zhōngguó","China"], ["。"]
+      ],
+      "en": "At the same time, grapes, fine Western horses, and other things were introduced into China."
+    },
+    {
+      "t": [
+        ["这","zhè","this"], ["条","tiáo","(measure)"], ["路","lù","road"],
+        ["上","shang","on"], ["交流","jiāoliú","to exchange"], ["的","de","(particle)"],
+        ["不仅","bùjǐn","not only"], ["是","shì","is"], ["商品","shāngpǐn","goods"], ["，"],
+        ["还有","háiyǒu","there are also"], ["思想","sīxiǎng","ideas"], ["、"],
+        ["音乐","yīnyuè","music"], ["和","hé","and"], ["技术","jìshù","technology"], ["。"]
+      ],
+      "en": "What was exchanged along this road was not only goods, but also ideas, music, and technology."
+    },
+    {
+      "t": [
+        ["佛教","Fójiào","Buddhism"], ["就","jiù","exactly"], ["是","shì","is"],
+        ["沿着","yánzhe","along"], ["这","zhè","this"], ["条","tiáo","(measure)"],
+        ["路","lù","road"], ["，"],
+        ["从","cóng","from"], ["印度","Yìndù","India"],
+        ["传到","chuándào","to spread to"], ["中国","Zhōngguó","China"],
+        ["的","de","(particle)"], ["。"]
+      ],
+      "en": "Buddhism, in fact, spread from India to China along this very road."
+    },
+    {
+      "t": [
+        ["想象","xiǎngxiàng","to imagine"], ["一下","yíxià","for a moment"], ["："],
+        ["在","zài","in"], ["沙漠","shāmò","desert"], ["的","de","(particle)"],
+        ["夜里","yèli","at night"], ["，"],
+        ["骆驼队","luòtuoduì","camel caravan"], ["在","zài","under"],
+        ["星空","xīngkōng","starry sky"], ["下","xià","beneath"],
+        ["慢慢","mànmàn","slowly"], ["前进","qiánjìn","to advance"], ["，"],
+        ["一","yì","once"], ["走","zǒu","to walk"], ["就","jiù","then"],
+        ["是","shì","is"], ["几","jǐ","several"], ["个","gè","(measure)"], ["月","yuè","month"], ["。"]
+      ],
+      "en": "Imagine it: in the desert night, a camel caravan advances slowly under the starry sky, walking for months at a stretch."
+    },
+    {
+      "t": [
+        ["一","yì","one"], ["条","tiáo","(measure)"], ["路","lù","road"],
+        ["让","ràng","to let"], ["不同","bùtóng","different"], ["的","de","(particle)"],
+        ["文明","wénmíng","civilization"], ["相遇","xiāngyù","to meet"], ["，"],
+        ["也","yě","also"], ["改变","gǎibiàn","to change"], ["了","le","(particle)"],
+        ["世界","shìjiè","world"], ["的","de","(particle)"], ["历史","lìshǐ","history"], ["。"]
+      ],
+      "en": "One road allowed different civilizations to meet, and it changed the history of the world."
+    }
+  ],
+  "vocab": [
+    ["丝绸","sīchóu","silk"],
+    ["使者","shǐzhě","envoy; emissary"],
+    ["通道","tōngdào","passage; channel"],
+    ["骆驼","luòtuo","camel"],
+    ["瓷器","cíqì","porcelain"],
+    ["佛教","Fójiào","Buddhism"]
+  ],
+  "quiz": [
+    {
+      "q": "Who opened the route that later became the Silk Road?",
+      "a": ["A merchant driving camels to the West", "Zhang Qian, an envoy of the Han dynasty", "A monk traveling from India"],
+      "c": 1
+    },
+    {
+      "q": "According to the text, what came from the West into China?",
+      "a": ["Grapes and fine horses", "Tea and porcelain", "Silk and music"],
+      "c": 0
+    },
+    {
+      "q": "How did Buddhism reach China?",
+      "a": ["It was brought by sea from the south", "It was invented in Chang'an", "It spread from India along the Silk Road"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "与此同时 (at the same time)",
+      "e": "A formal connector adding a simultaneous event: 与此同时，葡萄、西方的好马等也传入了中国。",
+      "x": "他在学习汉语，与此同时，他也在教英语。 — He is studying Chinese; at the same time, he is also teaching English."
+    },
+    {
+      "p": "不仅…还有… (not only… but also…)",
+      "e": "Extends a statement beyond the first item: 交流的不仅是商品，还有思想、音乐和技术。",
+      "x": "这个城市不仅有现代建筑，还有很多古老的街道。 — This city has not only modern buildings, but also many old streets."
+    },
+    {
+      "p": "一 + V + 就是 + duration (once you start, it lasts…)",
+      "e": "Emphasizes how long an action continues once begun: 一走就是几个月。",
+      "x": "他一工作就是十个小时。 — Once he starts working, it's ten hours straight."
+    }
+  ]
+}

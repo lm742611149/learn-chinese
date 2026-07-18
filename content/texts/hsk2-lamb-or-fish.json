@@ -1,0 +1,177 @@
+{
+  "slug": "hsk2-lamb-or-fish",
+  "level": 2,
+  "title_zh": "羊肉还是鱼",
+  "title_py": "Yángròu háishi yú",
+  "title_en": "Lamb or Fish?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["和", "hé", "and"],
+        ["妻子", "qīzi", "wife"],
+        ["去", "qù", "to go"],
+        ["饭店", "fàndiàn", "restaurant"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["。"]
+      ],
+      "en": "This evening my wife and I went to a restaurant for dinner."
+    },
+    {
+      "t": [
+        ["服务员", "fúwùyuán", "waiter"],
+        ["问", "wèn", "to ask"],
+        ["："],
+        ["“"],
+        ["你们", "nǐmen", "you (plural)"],
+        ["想", "xiǎng", "would like to"],
+        ["吃", "chī", "to eat"],
+        ["羊肉", "yángròu", "lamb"],
+        ["还是", "háishi", "or"],
+        ["鱼", "yú", "fish"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The waiter asked: \"Would you like lamb or fish?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["想", "xiǎng", "want to"],
+        ["吃", "chī", "to eat"],
+        ["羊肉", "yángròu", "lamb"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["妻子", "qīzi", "wife"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["羊肉", "yángròu", "lamb"],
+        ["太", "tài", "too"],
+        ["贵", "guì", "expensive"],
+        ["了", "le", "(particle)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I wanted lamb, but my wife said: \"Lamb is too expensive!\""
+    },
+    {
+      "t": [
+        ["鱼", "yú", "fish"],
+        ["二十", "èrshí", "twenty"],
+        ["块", "kuài", "kuai (yuan)"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["羊肉", "yángròu", "lamb"],
+        ["四十", "sìshí", "forty"],
+        ["块", "kuài", "kuai (yuan)"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["鱼", "yú", "fish"],
+        ["比", "bǐ", "than (comparison)"],
+        ["羊肉", "yángròu", "lamb"],
+        ["便宜", "piányi", "cheap"],
+        ["。"]
+      ],
+      "en": "The fish was twenty kuai and the lamb was forty — the fish was cheaper than the lamb."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["虽然", "suīrán", "although"],
+        ["羊肉", "yángròu", "lamb"],
+        ["贵", "guì", "expensive"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["很", "hěn", "very"],
+        ["好吃", "hǎochī", "delicious"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said: \"Lamb may be expensive, but it's really delicious.\""
+    },
+    {
+      "t": [
+        ["妻子", "qīzi", "wife"],
+        ["笑", "xiào", "to laugh"],
+        ["了", "le", "(particle)"],
+        ["："],
+        ["“"],
+        ["好", "hǎo", "okay"],
+        ["，"],
+        ["两", "liǎng", "two"],
+        ["个", "gè", "(measure word)"],
+        ["菜", "cài", "dish"],
+        ["我们", "wǒmen", "we"],
+        ["都", "dōu", "both"],
+        ["要", "yào", "to order"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "My wife laughed: \"Fine, let's order both dishes!\""
+    },
+    {
+      "t": [
+        ["那天", "nà tiān", "that day"],
+        ["的", "de", "(possessive particle)"],
+        ["羊肉", "yángròu", "lamb"],
+        ["和", "hé", "and"],
+        ["鱼", "yú", "fish"],
+        ["都", "dōu", "both"],
+        ["非常", "fēicháng", "extremely"],
+        ["好吃", "hǎochī", "delicious"],
+        ["。"]
+      ],
+      "en": "That day, both the lamb and the fish were absolutely delicious."
+    }
+  ],
+  "vocab": [
+    ["羊肉", "yángròu", "lamb; mutton"],
+    ["鱼", "yú", "fish"],
+    ["服务员", "fúwùyuán", "waiter; server"],
+    ["贵", "guì", "expensive"],
+    ["便宜", "piányi", "cheap"],
+    ["好吃", "hǎochī", "delicious; tasty"]
+  ],
+  "quiz": [
+    {
+      "q": "Where did the narrator and his wife go this evening?",
+      "a": ["To a restaurant", "To a shop", "To a friend's house"],
+      "c": 0
+    },
+    {
+      "q": "Why didn't the wife want to order lamb?",
+      "a": ["It doesn't taste good", "It was too expensive", "She only eats vegetables"],
+      "c": 1
+    },
+    {
+      "q": "What did they order in the end?",
+      "a": ["Only the fish", "Only the lamb", "Both dishes"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 还是 B？",
+      "e": "还是 (háishi) links two options in an alternative question — 'A or B?'. Unlike English 'or', it is only used in questions, e.g. 你喝茶还是咖啡？",
+      "x": "你们想吃羊肉还是鱼？ — Would you like to eat lamb or fish?"
+    },
+    {
+      "p": "A 比 B + adjective",
+      "e": "比 (bǐ) compares two things: A is more [adjective] than B. Don't add 很 before the adjective, e.g. 他比我高.",
+      "x": "鱼比羊肉便宜。 — Fish is cheaper than lamb."
+    },
+    {
+      "p": "太 + adjective + 了",
+      "e": "太…了 means 'too / so [adjective]', often with a tone of complaint or surprise, e.g. 太好了！",
+      "x": "羊肉太贵了！ — Lamb is too expensive!"
+    }
+  ]
+}

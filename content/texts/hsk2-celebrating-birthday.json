@@ -1,0 +1,162 @@
+{
+  "slug": "hsk2-celebrating-birthday",
+  "level": 2,
+  "title_zh": "过生日",
+  "title_py": "Guò shēngrì",
+  "title_en": "Celebrating a Birthday",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "my"],
+        ["的", "de", "(possessive particle)"],
+        ["生日", "shēngrì", "birthday"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["三十", "sānshí", "thirty"],
+        ["岁", "suì", "years old"],
+        ["了", "le", "(particle: new state)"],
+        ["。"]
+      ],
+      "en": "Yesterday was my birthday — I turned thirty."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["朋友们", "péngyoumen", "friends"],
+        ["来", "lái", "to come"],
+        ["我", "wǒ", "my"],
+        ["家", "jiā", "home"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chīfàn", "to eat (a meal)"],
+        ["，"],
+        ["一起", "yìqǐ", "together"],
+        ["唱歌", "chànggē", "to sing"],
+        ["。"]
+      ],
+      "en": "In the evening my friends came to my home, and we ate and sang together."
+    },
+    {
+      "t": [
+        ["妻子", "qīzi", "wife"],
+        ["给", "gěi", "for"],
+        ["我", "wǒ", "me"],
+        ["做", "zuò", "to make"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["个", "gè", "(measure word)"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["的", "de", "(particle)"],
+        ["蛋糕", "dàngāo", "cake"],
+        ["。"]
+      ],
+      "en": "My wife made me a very big cake."
+    },
+    {
+      "t": [
+        ["大家", "dàjiā", "everyone"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["祝", "zhù", "to wish"],
+        ["你", "nǐ", "you"],
+        ["生日", "shēngrì", "birthday"],
+        ["快乐", "kuàilè", "happy"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Everyone said to me: \"Happy birthday!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["谢谢", "xièxie", "thank you"],
+        ["大家", "dàjiā", "everyone"],
+        ["！"],
+        ["希望", "xīwàng", "to hope"],
+        ["明年", "míngnián", "next year"],
+        ["我们", "wǒmen", "we"],
+        ["再", "zài", "again"],
+        ["一起", "yìqǐ", "together"],
+        ["过", "guò", "to celebrate; to spend"],
+        ["生日", "shēngrì", "birthday"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said: \"Thank you, everyone! I hope we can celebrate my birthday together again next year!\""
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["我", "wǒ", "I"],
+        ["已经", "yǐjīng", "already"],
+        ["三十", "sānshí", "thirty"],
+        ["岁", "suì", "years old"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to feel"],
+        ["我", "wǒ", "I"],
+        ["还是", "háishi", "still"],
+        ["二十", "èrshí", "twenty"],
+        ["岁", "suì", "years old"],
+        ["！"]
+      ],
+      "en": "Although I'm already thirty, I feel like I'm still twenty!"
+    }
+  ],
+  "vocab": [
+    ["生日", "shēngrì", "birthday"],
+    ["岁", "suì", "years old"],
+    ["祝", "zhù", "to wish (someone something)"],
+    ["快乐", "kuàilè", "happy"],
+    ["希望", "xīwàng", "to hope"],
+    ["蛋糕", "dàngāo", "cake"]
+  ],
+  "quiz": [
+    {
+      "q": "How old did the narrator turn?",
+      "a": ["Twenty", "Thirty", "Forty"],
+      "c": 1
+    },
+    {
+      "q": "What did his wife make for him?",
+      "a": ["A very big cake", "A fish dish", "A cup of tea"],
+      "c": 0
+    },
+    {
+      "q": "What did everyone say to him?",
+      "a": ["Happy New Year", "Congratulations on the new job", "Happy birthday"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "祝 + person + wish",
+      "e": "祝 (zhù) introduces a good wish for someone: 祝 + person + the thing you wish them, e.g. 祝你工作快乐.",
+      "x": "祝你生日快乐！ — Happy birthday to you!"
+    },
+    {
+      "p": "已经 … 了",
+      "e": "已经 (yǐjīng) with 了 at the end means something has 'already' happened or is already the case, e.g. 他已经走了.",
+      "x": "我已经三十岁了。 — I'm already thirty years old."
+    },
+    {
+      "p": "虽然…，但是…",
+      "e": "虽然…但是… means 'although ..., (but) ...'. Chinese uses both words together, e.g. 虽然很忙，但是很快乐.",
+      "x": "虽然我已经三十岁了，但是我觉得我还是二十岁！ — Although I'm already thirty, I feel like I'm still twenty!"
+    }
+  ]
+}

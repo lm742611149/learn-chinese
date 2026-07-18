@@ -1,0 +1,262 @@
+{
+  "slug": "hsk4-hotpot-and-friends",
+  "level": 4,
+  "title_zh": "火锅与朋友",
+  "title_py": "Huǒguō yǔ péngyou",
+  "title_en": "Hotpot and Friends",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind"],
+        ["吃饭", "chīfàn", "to eat"],
+        ["的", "de", "(possessive)"],
+        ["方式", "fāngshì", "way; method"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["是", "shì", "is"],
+        ["和", "hé", "with"],
+        ["朋友", "péngyou", "friends"],
+        ["见面", "jiànmiàn", "to meet"],
+        ["的", "de", "(possessive)"],
+        ["好", "hǎo", "good"],
+        ["机会", "jīhuì", "opportunity"],
+        ["。"]
+      ],
+      "en": "In China, hotpot is not only a way of eating, but also a great chance to get together with friends."
+    },
+    {
+      "t": [
+        ["天气", "tiānqì", "weather"],
+        ["一", "yì", "as soon as"],
+        ["冷", "lěng", "cold"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["就", "jiù", "then"],
+        ["想", "xiǎng", "to want"],
+        ["找", "zhǎo", "to find"],
+        ["几", "jǐ", "several"],
+        ["个", "ge", "(measure word)"],
+        ["老", "lǎo", "old"],
+        ["朋友", "péngyou", "friends"],
+        ["，"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["吃", "chī", "to eat"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["。"]
+      ],
+      "en": "As soon as the weather turns cold, I want to round up a few old friends and go eat hotpot together."
+    },
+    {
+      "t": [
+        ["一", "yì", "one"],
+        ["张", "zhāng", "(measure word)"],
+        ["桌子", "zhuōzi", "table"],
+        ["，"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["热热", "rèrè", "steaming hot"],
+        ["的", "de", "(possessive)"],
+        ["锅", "guō", "pot"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["把", "bǎ", "(object marker)"],
+        ["肉", "ròu", "meat"],
+        ["和", "hé", "and"],
+        ["菜", "cài", "vegetables"],
+        ["放", "fàng", "to put"],
+        ["进去", "jìnqu", "in"],
+        ["，"],
+        ["边", "biān", "while"],
+        ["吃", "chī", "to eat"],
+        ["边", "biān", "while"],
+        ["聊天", "liáotiān", "to chat"],
+        ["。"]
+      ],
+      "en": "One table, one steaming pot — everyone drops in meat and vegetables, eating and chatting at the same time."
+    },
+    {
+      "t": [
+        ["吃", "chī", "to eat"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["几乎", "jīhū", "almost"],
+        ["没有", "méiyǒu", "there is not"],
+        ["人", "rén", "person"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["忙着", "mángzhe", "busy with"],
+        ["从", "cóng", "from"],
+        ["锅", "guō", "pot"],
+        ["里", "li", "inside"],
+        ["找", "zhǎo", "to find"],
+        ["好吃", "hǎochī", "tasty"],
+        ["的", "de", "(nominalizer)"],
+        ["。"]
+      ],
+      "en": "While eating hotpot, almost nobody looks at their phone, because everyone is busy fishing tasty things out of the pot."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["辣", "là", "spicy"],
+        ["的", "de", "(nominalizer)"],
+        ["，"],
+        ["有人", "yǒurén", "some people"],
+        ["怕", "pà", "to fear"],
+        ["辣", "là", "spicy"],
+        ["，"],
+        ["没关系", "méi guānxi", "it doesn't matter"],
+        ["，"],
+        ["锅", "guō", "pot"],
+        ["可以", "kěyǐ", "can"],
+        ["分成", "fēnchéng", "to divide into"],
+        ["两", "liǎng", "two"],
+        ["半", "bàn", "halves"],
+        ["，"],
+        ["一半", "yíbàn", "one half"],
+        ["辣", "là", "spicy"],
+        ["，"],
+        ["一半", "yíbàn", "one half"],
+        ["不", "bú", "not"],
+        ["辣", "là", "spicy"],
+        ["。"]
+      ],
+      "en": "Some people love spicy food and some are afraid of it — no problem, the pot can be split in two: one half spicy, one half mild."
+    },
+    {
+      "t": [
+        ["对", "duì", "for"],
+        ["我", "wǒ", "me"],
+        ["来说", "lái shuō", "as for"],
+        ["，"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "flavor"],
+        ["就", "jiù", "exactly"],
+        ["是", "shì", "is"],
+        ["朋友", "péngyou", "friends"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "flavor"],
+        ["，"],
+        ["桌子", "zhuōzi", "table"],
+        ["上", "shang", "on"],
+        ["越", "yuè", "the more"],
+        ["热闹", "rènao", "lively"],
+        ["，"],
+        ["心里", "xīnli", "in one's heart"],
+        ["越", "yuè", "the more"],
+        ["暖和", "nuǎnhuo", "warm"],
+        ["。"]
+      ],
+      "en": "For me, the taste of hotpot is the taste of friendship — the livelier the table, the warmer my heart."
+    },
+    {
+      "t": [
+        ["即使", "jíshǐ", "even if"],
+        ["工作", "gōngzuò", "work"],
+        ["再", "zài", "no matter how"],
+        ["忙", "máng", "busy"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["也", "yě", "still"],
+        ["应该", "yīnggāi", "should"],
+        ["常常", "chángcháng", "often"],
+        ["和", "hé", "with"],
+        ["朋友", "péngyou", "friends"],
+        ["坐下来", "zuò xiàlai", "to sit down"],
+        ["，"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["吃", "chī", "to eat"],
+        ["一", "yí", "one"],
+        ["顿", "dùn", "(measure word for meals)"],
+        ["火锅", "huǒguō", "hotpot"],
+        ["。"]
+      ],
+      "en": "Even if work is ever so busy, we should still sit down with friends often and enjoy a slow hotpot meal."
+    },
+    {
+      "t": [
+        ["因为", "yīnwèi", "because"],
+        ["最", "zuì", "most"],
+        ["好吃", "hǎochī", "tasty"],
+        ["的", "de", "(nominalizer)"],
+        ["，"],
+        ["从来", "cónglái", "ever; always"],
+        ["不", "bú", "not"],
+        ["是", "shì", "is"],
+        ["锅", "guō", "pot"],
+        ["里", "li", "inside"],
+        ["的", "de", "(possessive)"],
+        ["东西", "dōngxi", "things"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at"],
+        ["你", "nǐ", "you"],
+        ["旁边", "pángbiān", "beside"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["。"]
+      ],
+      "en": "Because the most delicious thing has never been what's in the pot, but the people sitting beside you."
+    }
+  ],
+  "vocab": [
+    ["火锅", "huǒguō", "hotpot"],
+    ["锅", "guō", "pot"],
+    ["方式", "fāngshì", "way; method"],
+    ["热闹", "rènao", "lively; bustling"],
+    ["暖和", "nuǎnhuo", "warm"],
+    ["顿", "dùn", "(measure word for meals)"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what do people rarely do while eating hotpot?",
+      "a": ["Chat with each other", "Eat vegetables", "Look at their phones"],
+      "c": 2
+    },
+    {
+      "q": "What solution does the text give for friends who cannot eat spicy food?",
+      "a": ["Split the pot into a spicy half and a mild half", "Order a different dish for them", "Let them drink tea instead"],
+      "c": 0
+    },
+    {
+      "q": "What does the author say is the most delicious part of hotpot?",
+      "a": ["The meat in the pot", "The people sitting beside you", "The spicy soup"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不仅……而且……",
+      "e": "\"Not only ... but also ...\" links two qualities of the same topic: 火锅不仅是一种吃饭的方式，而且是和朋友见面的好机会。",
+      "x": "他不仅会说汉语，而且说得很流利。 — He not only speaks Chinese, but also speaks it fluently."
+    },
+    {
+      "p": "一……就……",
+      "e": "\"As soon as A happens, B happens\" — the second thing follows the first immediately: 天气一冷，我就想找几个老朋友吃火锅。",
+      "x": "我一到家就给妈妈打电话。 — As soon as I get home, I call my mom."
+    },
+    {
+      "p": "不是……而是……",
+      "e": "\"Not A, but B\" corrects a wrong idea and replaces it with the right one: 最好吃的不是锅里的东西，而是坐在你旁边的人。",
+      "x": "他不是不想来，而是太忙了。 — It's not that he doesn't want to come; it's that he is too busy."
+    }
+  ]
+}

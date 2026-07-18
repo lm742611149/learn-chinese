@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-traffic-jam",
+  "level": 3,
+  "title_zh": "堵车",
+  "title_py": "Dǔchē",
+  "title_en": "Traffic Jam",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last"],["个","gè","(measure word)"],["星期五","xīngqīwǔ","Friday"],["，"],["朋友","péngyou","friend"],["请","qǐng","to invite"],["我","wǒ","I; me"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to have a meal"],["，"],["因为","yīnwèi","because"],["那天","nà tiān","that day"],["是","shì","to be"],["她","tā","she"],["的","de","(particle: attributive)"],["生日","shēngrì","birthday"],["。"]],
+      "en": "Last Friday, my friend invited me to a restaurant for dinner, because it was her birthday."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["五","wǔ","five"],["点","diǎn","o'clock"],["就","jiù","as early as"],["离开","líkāi","to leave"],["了","le","(particle: completed)"],["家","jiā","home"],["，"],["坐","zuò","to get in"],["上","shàng","(complement: onto)"],["了","le","(particle: completed)"],["一","yí","one"],["辆","liàng","(measure word for vehicles)"],["出租车","chūzūchē","taxi"],["。"]],
+      "en": "I left home at five o'clock and got into a taxi."
+    },
+    {
+      "t": [["刚","gāng","just; at first"],["开始","kāishǐ","to start"],["车","chē","car"],["开","kāi","to drive"],["得","de","(particle: degree)"],["很","hěn","very"],["快","kuài","fast"],["，"],["可是","kěshì","but"],["突然","tūrán","suddenly"],["，"],["前面","qiánmiàn","in front"],["的","de","(particle: attributive)"],["车","chē","car"],["都","dōu","all"],["不","bù","not"],["走","zǒu","to move; to go"],["了","le","(particle: change)"],["，"],["堵车","dǔchē","traffic jam"],["了","le","(particle: change)"],["！"]],
+      "en": "At first the car went fast, but suddenly the cars in front all stopped moving — a traffic jam!"
+    },
+    {
+      "t": [["司机","sījī","driver"],["说","shuō","to say"],["："],["“"],["今天","jīntiān","today"],["是","shì","to be"],["星期五","xīngqīwǔ","Friday"],["，"],["又","yòu","also; on top of that"],["下雨","xiàyǔ","to rain"],["，"],["路","lù","road"],["上","shang","on"],["的","de","(particle: attributive)"],["车","chē","car"],["特别","tèbié","especially"],["多","duō","many"],["。"],["”"]],
+      "en": "The driver said: \"Today is Friday, and it's raining too, so there are especially many cars on the road.\""
+    },
+    {
+      "t": [["我们","wǒmen","we"],["等","děng","to wait"],["了","le","(particle: completed)"],["半","bàn","half"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["，"],["车","chē","car"],["只","zhǐ","only"],["走","zǒu","to move"],["了","le","(particle: completed)"],["一点儿","yìdiǎnr","a little"],["，"],["我","wǒ","I; me"],["越来越","yuè lái yuè","more and more"],["着急","zháojí","anxious; worried"],["。"]],
+      "en": "We waited half an hour and the car only moved a little; I got more and more anxious."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to look"],["了","le","(particle: completed)"],["看","kàn","to look"],["地图","dìtú","map"],["，"],["发现","fāxiàn","to discover"],["附近","fùjìn","nearby"],["有","yǒu","there is"],["一个","yí gè","one; a"],["地铁","dìtiě","subway"],["站","zhàn","station"],["，"],["就","jiù","then"],["下","xià","to get off"],["了","le","(particle: completed)"],["车","chē","car"],["。"]],
+      "en": "I took a look at the map, found there was a subway station nearby, and got out of the taxi."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["先","xiān","first"],["坐","zuò","to take"],["地铁","dìtiě","subway"],["，"],["然后","ránhòu","then; after that"],["走","zǒu","to walk"],["了","le","(particle: completed)"],["十","shí","ten"],["分钟","fēnzhōng","minute"],["，"],["六","liù","six"],["点","diǎn","o'clock"],["半","bàn","half"],["终于","zhōngyú","finally"],["到","dào","to arrive"],["了","le","(particle: completed)"],["饭馆","fànguǎn","restaurant"],["。"]],
+      "en": "I first took the subway, then walked for ten minutes, and finally arrived at the restaurant at six thirty."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["笑","xiào","to smile"],["着","zhe","(particle: ongoing)"],["说","shuō","to say"],["："],["“"],["太","tài","so; too"],["好","hǎo","good"],["了","le","(particle)"],["，"],["你","nǐ","you"],["没","méi","not"],["迟到","chídào","to be late"],["！"],["”"],["我","wǒ","I; me"],["想","xiǎng","to think"],["，"],["以后","yǐhòu","in the future"],["还是","háishi","had better"],["坐","zuò","to take"],["地铁","dìtiě","subway"],["吧","ba","(particle: suggestion)"],["。"]],
+      "en": "My friend said with a smile: \"Great, you're not late!\" I thought, next time I'd better just take the subway."
+    }
+  ],
+  "vocab": [
+    ["堵车","dǔchē","traffic jam; to be stuck in traffic"],
+    ["司机","sījī","driver"],
+    ["突然","tūrán","suddenly"],
+    ["着急","zháojí","anxious; worried"],
+    ["终于","zhōngyú","finally"],
+    ["迟到","chídào","to be late"]
+  ],
+  "quiz": [
+    {"q": "Why were there so many cars on the road?", "a": ["It was a holiday", "It was Friday and it was raining", "There was an accident"], "c": 1},
+    {"q": "What did the narrator do when the taxi stopped moving?", "a": ["Got out and took the subway", "Waited in the taxi until seven", "Walked the whole way"], "c": 0},
+    {"q": "Was the narrator late for the dinner?", "a": ["Yes, one hour late", "Yes, ten minutes late", "No, he arrived in time"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "先……，然后……", "e": "先…然后… links two actions in order: 'first ..., then ...'. Each part is a full verb phrase, e.g. 先吃饭，然后看电影.", "x": "我先坐地铁，然后走了十分钟。 — I first took the subway, then walked for ten minutes."},
+    {"p": "V1 + 着 + V2", "e": "着 after the first verb shows the manner or state in which the second action happens, e.g. 站着说话 'talk while standing'.", "x": "朋友笑着说：“太好了，你没迟到！” — My friend said with a smile: \"Great, you're not late!\""},
+    {"p": "verb + 了 + duration", "e": "To say how long an action lasted, put the length of time after the verb and 了, e.g. 我们等了半个小时 'we waited for half an hour'.", "x": "我们等了半个小时，车只走了一点儿。 — We waited half an hour and the car only moved a little."}
+  ]
+}

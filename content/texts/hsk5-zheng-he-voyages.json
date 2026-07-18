@@ -1,0 +1,165 @@
+{
+  "slug": "hsk5-zheng-he-voyages",
+  "level": 5,
+  "title_zh": "郑和下西洋",
+  "title_py": "Zhèng Hé xià Xīyáng",
+  "title_en": "Zheng He's Voyages",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["六百","liùbǎi","six hundred"], ["多","duō","more than"], ["年","nián","year"],
+        ["前","qián","ago"], ["的","de","(particle)"], ["明朝","Míngcháo","the Ming dynasty"], ["，"],
+        ["中国","Zhōngguó","China"], ["有","yǒu","to have"],
+        ["一","yí","one"], ["位","wèi","(measure for people)"],
+        ["伟大","wěidà","great"], ["的","de","(particle)"],
+        ["航海家","hánghǎijiā","navigator"], ["，"],
+        ["名叫","míngjiào","named"], ["郑和","Zhèng Hé","Zheng He"], ["。"]
+      ],
+      "en": "Over six hundred years ago, in the Ming dynasty, China had a great navigator named Zheng He."
+    },
+    {
+      "t": [
+        ["从","cóng","from"], ["1405年","yī sì líng wǔ nián","the year 1405"],
+        ["到","dào","to"], ["1433年","yī sì sān sān nián","the year 1433"], ["，"],
+        ["他","tā","he"], ["率领","shuàilǐng","to lead"], ["船队","chuánduì","fleet"],
+        ["七","qī","seven"], ["次","cì","time"], ["下","xià","to sail down to"],
+        ["西洋","Xīyáng","the Western Seas"], ["，"],
+        ["访问","fǎngwèn","to visit"], ["了","le","(particle)"],
+        ["三十","sānshí","thirty"], ["多","duō","more than"], ["个","gè","(measure)"],
+        ["国家","guójiā","country"], ["和","hé","and"], ["地区","dìqū","region"], ["。"]
+      ],
+      "en": "From 1405 to 1433, he led fleets on seven voyages to the Western Seas, visiting more than thirty countries and regions."
+    },
+    {
+      "t": [
+        ["他","tā","his"], ["的","de","(particle)"], ["船队","chuánduì","fleet"],
+        ["规模","guīmó","scale"], ["巨大","jùdà","huge"], ["，"],
+        ["最多","zuìduō","at most"], ["的","de","(particle)"], ["时候","shíhou","time"],
+        ["有","yǒu","to have"], ["两百","liǎngbǎi","two hundred"], ["多","duō","more than"],
+        ["条","tiáo","(measure)"], ["船","chuán","ship"], ["、"],
+        ["两万七千","liǎngwàn qīqiān","twenty-seven thousand"], ["多","duō","more than"],
+        ["人","rén","people"], ["。"]
+      ],
+      "en": "His fleet was enormous in scale: at its largest it had over two hundred ships and more than twenty-seven thousand people."
+    },
+    {
+      "t": [
+        ["其中","qízhōng","among them"], ["最","zuì","most"], ["大","dà","large"],
+        ["的","de","(particle)"], ["船","chuán","ship"],
+        ["被","bèi","(passive marker)"], ["称为","chēngwéi","to be called"], ["“"],
+        ["宝船","bǎochuán","treasure ship"], ["”"], ["，"],
+        ["据说","jùshuō","it is said"], ["长","cháng","long"],
+        ["一百","yìbǎi","one hundred"], ["多","duō","more than"], ["米","mǐ","meter"], ["，"],
+        ["像","xiàng","like"], ["一","yí","one"], ["座","zuò","(measure for buildings)"],
+        ["海上","hǎishàng","on the sea"], ["的","de","(particle)"],
+        ["宫殿","gōngdiàn","palace"], ["。"]
+      ],
+      "en": "The largest of these ships were called \"treasure ships\"; they are said to have been over a hundred meters long, like palaces on the sea."
+    },
+    {
+      "t": [
+        ["船队","chuánduì","fleet"], ["带","dài","to carry"], ["去","qù","to (go)"],
+        ["了","le","(particle)"], ["丝绸","sīchóu","silk"], ["、"],
+        ["瓷器","cíqì","porcelain"], ["和","hé","and"], ["茶叶","cháyè","tea"], ["，"],
+        ["也","yě","also"], ["带","dài","to bring"], ["回","huí","back"],
+        ["了","le","(particle)"], ["香料","xiāngliào","spices"], ["等","děng","and so on"],
+        ["各地","gèdì","various places"], ["的","de","(particle)"],
+        ["特产","tèchǎn","local specialty"], ["。"]
+      ],
+      "en": "The fleet carried silk, porcelain, and tea abroad, and also brought back spices and other local specialties from many lands."
+    },
+    {
+      "t": [
+        ["最","zuì","most"], ["有意思","yǒuyìsi","interesting"], ["的","de","(particle)"],
+        ["是","shì","is"], ["，"],
+        ["有","yǒu","there was"], ["一","yí","one"], ["次","cì","time"],
+        ["船队","chuánduì","fleet"], ["带","dài","to bring"], ["回来","huílai","back"],
+        ["一","yì","one"], ["只","zhī","(measure for animals)"],
+        ["长颈鹿","chángjǐnglù","giraffe"], ["，"],
+        ["全","quán","whole"], ["城","chéng","city"], ["的","de","(particle)"],
+        ["人","rén","people"], ["都","dōu","all"], ["跑","pǎo","to run"],
+        ["去","qù","to go"], ["看","kàn","to see"], ["这","zhè","this"],
+        ["只","zhī","(measure for animals)"], ["神奇","shénqí","magical"],
+        ["的","de","(particle)"], ["动物","dòngwù","animal"], ["。"]
+      ],
+      "en": "Most interestingly, on one voyage the fleet brought back a giraffe, and the whole city ran to see this magical animal."
+    },
+    {
+      "t": [
+        ["凡是","fánshì","every; all"], ["船队","chuánduì","fleet"],
+        ["到","dào","to arrive"], ["过","guo","(experience particle)"],
+        ["的","de","(particle)"], ["地方","dìfang","place"], ["，"],
+        ["大多","dàduō","mostly"], ["留下","liúxià","to leave behind"],
+        ["了","le","(particle)"], ["友好","yǒuhǎo","friendly"],
+        ["的","de","(particle)"], ["记忆","jìyì","memory"], ["。"]
+      ],
+      "en": "Nearly everywhere the fleet went, it left behind friendly memories."
+    },
+    {
+      "t": [
+        ["郑和","Zhèng Hé","Zheng He"], ["去世","qùshì","to pass away"],
+        ["以后","yǐhòu","after"], ["，"],
+        ["这样","zhèyàng","such"], ["大","dà","large"], ["规模","guīmó","scale"],
+        ["的","de","(particle)"], ["航海","hánghǎi","ocean voyage"],
+        ["就","jiù","then"], ["停止","tíngzhǐ","to stop"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "After Zheng He passed away, ocean voyages on such a large scale came to an end."
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"], ["，"],
+        ["人们","rénmen","people"], ["仍然","réngrán","still"],
+        ["纪念","jìniàn","to commemorate"], ["他","tā","him"], ["，"],
+        ["因为","yīnwèi","because"], ["他","tā","he"],
+        ["证明","zhèngmíng","to prove"], ["了","le","(particle)"],
+        ["海洋","hǎiyáng","ocean"], ["能","néng","can"],
+        ["把","bǎ","(object marker)"], ["世界","shìjiè","world"],
+        ["连","lián","to link"], ["在","zài","in"], ["一起","yìqǐ","together"], ["。"]
+      ],
+      "en": "Today people still commemorate him, because he proved that the ocean can link the world together."
+    }
+  ],
+  "vocab": [
+    ["航海家","hánghǎijiā","navigator; seafarer"],
+    ["率领","shuàilǐng","to lead; to command"],
+    ["船队","chuánduì","fleet"],
+    ["瓷器","cíqì","porcelain"],
+    ["香料","xiāngliào","spice"],
+    ["长颈鹿","chángjǐnglù","giraffe"]
+  ],
+  "quiz": [
+    {
+      "q": "How many voyages did Zheng He lead between 1405 and 1433?",
+      "a": ["Three", "Twenty-four", "Seven"],
+      "c": 2
+    },
+    {
+      "q": "What animal did the fleet once bring back to China?",
+      "a": ["A giraffe", "A camel", "A fine Western horse"],
+      "c": 0
+    },
+    {
+      "q": "What happened after Zheng He passed away?",
+      "a": ["The treasure ships were made even bigger", "Voyages on such a large scale stopped", "The fleet moved to the Western Seas forever"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "凡是…都/大多… (every; whatever…)",
+      "e": "凡是 sweeps in a whole category without exception: 凡是船队到过的地方，大多留下了友好的记忆。",
+      "x": "凡是来过这里的人，都很喜欢这个地方。 — Everyone who has been here likes this place."
+    },
+    {
+      "p": "被称为… (to be called / known as…)",
+      "e": "A passive pattern for naming: 其中最大的船被称为“宝船”。",
+      "x": "苏州被称为“东方的威尼斯”。 — Suzhou is known as the \"Venice of the East.\""
+    },
+    {
+      "p": "据说… (it is said that…)",
+      "e": "Reports information from hearsay or tradition, without naming the source: 据说长一百多米。",
+      "x": "据说这座桥有一千年的历史了。 — It is said that this bridge is a thousand years old."
+    }
+  ]
+}

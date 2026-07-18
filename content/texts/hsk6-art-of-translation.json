@@ -1,0 +1,303 @@
+{
+  "slug": "hsk6-art-of-translation",
+  "level": 6,
+  "title_zh": "翻译的艺术",
+  "title_py": "Fānyì de yìshù",
+  "title_en": "The Art of Translation",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["翻译", "fānyì", "translation"],
+        ["远非", "yuǎnfēi", "far from being (formal)"],
+        ["把", "bǎ", "(object marker)"],
+        ["一种", "yì zhǒng", "one kind of"],
+        ["语言", "yǔyán", "language"],
+        ["的", "de", "(possessive particle)"],
+        ["词", "cí", "word"],
+        ["换成", "huànchéng", "to exchange into"],
+        ["另", "lìng", "another"],
+        ["一种", "yì zhǒng", "one kind of"],
+        ["语言", "yǔyán", "language"],
+        ["的", "de", "(possessive particle)"],
+        ["词", "cí", "word"],
+        ["那么", "nàme", "so; that"],
+        ["简单", "jiǎndān", "simple"],
+        ["；"],
+        ["它", "tā", "it"],
+        ["是", "shì", "is"],
+        ["在", "zài", "in; between"],
+        ["两", "liǎng", "two"],
+        ["种", "zhǒng", "kind (measure word)"],
+        ["文化", "wénhuà", "culture"],
+        ["之间", "zhījiān", "between"],
+        ["架起", "jiàqǐ", "to build; erect (a bridge)"],
+        ["桥梁", "qiáoliáng", "bridge (figurative)"],
+        ["的", "de", "(possessive particle)"],
+        ["艺术", "yìshù", "art"],
+        ["。"]
+      ],
+      "en": "Translation is far from a simple matter of swapping the words of one language for those of another; it is the art of building a bridge between two cultures."
+    },
+    {
+      "t": [
+        ["西方", "Xīfāng", "the West"],
+        ["有", "yǒu", "there is"],
+        ["句", "jù", "(measure for sentences)"],
+        ["名言", "míngyán", "famous saying"],
+        ["："],
+        ["“"],
+        ["翻译", "fānyì", "to translate"],
+        ["即", "jí", "is precisely (formal)"],
+        ["背叛", "bèipàn", "betrayal"],
+        ["”"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["任何", "rènhé", "any"],
+        ["译文", "yìwén", "translated text"],
+        ["都", "dōu", "all"],
+        ["无法", "wúfǎ", "unable to (formal)"],
+        ["完全", "wánquán", "completely"],
+        ["忠实", "zhōngshí", "faithful"],
+        ["于", "yú", "to (formal)"],
+        ["原文", "yuánwén", "the original text"],
+        ["。"]
+      ],
+      "en": "In the West there is a famous saying — \"to translate is to betray\" — because no translation can ever be completely faithful to the original."
+    },
+    {
+      "t": [
+        ["以", "yǐ", "taking (formal)"],
+        ["“"],
+        ["缘分", "yuánfèn", "fateful affinity between people"],
+        ["”"],
+        ["一", "yì", "one"],
+        ["词", "cí", "word"],
+        ["为例", "wéi lì", "as an example (formal)"],
+        ["："],
+        ["英语", "Yīngyǔ", "English (language)"],
+        ["里", "lǐ", "in; inside"],
+        ["找不到", "zhǎobudào", "unable to find"],
+        ["现成", "xiànchéng", "ready-made"],
+        ["的", "de", "(possessive particle)"],
+        ["对应词", "duìyìngcí", "corresponding word; equivalent"],
+        ["，"],
+        ["译者", "yìzhě", "translator"],
+        ["只能", "zhǐ néng", "can only"],
+        ["用", "yòng", "to use"],
+        ["一", "yì", "one"],
+        ["整", "zhěng", "whole; entire"],
+        ["句", "jù", "(measure for sentences)"],
+        ["话", "huà", "words; sentence"],
+        ["去", "qù", "to go (and do)"],
+        ["解释", "jiěshì", "to explain"],
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["妙不可言", "miào bù kě yán", "too wonderful for words"],
+        ["的", "de", "(possessive particle)"],
+        ["联系", "liánxì", "connection"],
+        ["。"]
+      ],
+      "en": "Take the word yuanfen: English has no ready-made equivalent, so the translator can only spend a whole sentence explaining this connection too wonderful for words."
+    },
+    {
+      "t": [
+        ["同样", "tóngyàng", "likewise"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["英语", "Yīngyǔ", "English (language)"],
+        ["的", "de", "(possessive particle)"],
+        ["幽默", "yōumò", "humor"],
+        ["直译", "zhíyì", "to translate literally"],
+        ["成", "chéng", "into"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["，"],
+        ["笑点", "xiàodiǎn", "the funny part; punchline"],
+        ["往往", "wǎngwǎng", "often; usually"],
+        ["荡然无存", "dàng rán wú cún", "to vanish without a trace"],
+        ["；"],
+        ["高明", "gāomíng", "brilliant; masterly"],
+        ["的", "de", "(possessive particle)"],
+        ["译者", "yìzhě", "translator"],
+        ["会", "huì", "will"],
+        ["另起炉灶", "lìng qǐ lú zào", "to start from scratch (idiom)"],
+        ["，"],
+        ["用", "yòng", "to use"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["自身", "zìshēn", "its own (formal)"],
+        ["的", "de", "(possessive particle)"],
+        ["方式", "fāngshì", "way; manner"],
+        ["逗笑", "dòuxiào", "to make (someone) laugh"],
+        ["读者", "dúzhě", "reader"],
+        ["。"]
+      ],
+      "en": "Likewise, translate English humor literally into Chinese and the joke usually vanishes without a trace; a masterly translator will start from scratch and make readers laugh in Chinese's own way."
+    },
+    {
+      "t": [
+        ["翻译界", "fānyìjiè", "the translation world"],
+        ["有", "yǒu", "to have"],
+        ["三", "sān", "three"],
+        ["个", "ge", "(measure word)"],
+        ["字", "zì", "character"],
+        ["的", "de", "(possessive particle)"],
+        ["标准", "biāozhǔn", "standard"],
+        ["："],
+        ["信", "xìn", "faithfulness"],
+        ["、"],
+        ["达", "dá", "expressiveness; fluency"],
+        ["、"],
+        ["雅", "yǎ", "elegance"],
+        ["，"],
+        ["即", "jí", "namely (formal)"],
+        ["忠实", "zhōngshí", "faithful"],
+        ["原意", "yuányì", "original meaning"],
+        ["、"],
+        ["通顺", "tōngshùn", "smooth and coherent"],
+        ["流畅", "liúchàng", "fluent"],
+        ["、"],
+        ["保留", "bǎoliú", "to preserve"],
+        ["原文", "yuánwén", "the original text"],
+        ["的", "de", "(possessive particle)"],
+        ["神韵", "shényùn", "spirit; charm"],
+        ["。"]
+      ],
+      "en": "The translation world has a three-character standard — xin, da, ya: be faithful to the original meaning, read smoothly and fluently, and preserve the spirit of the original."
+    },
+    {
+      "t": [
+        ["这", "zhè", "these"],
+        ["三者", "sānzhě", "the three (of them, formal)"],
+        ["常常", "chángcháng", "often"],
+        ["互相", "hùxiāng", "mutually"],
+        ["冲突", "chōngtū", "to conflict"],
+        ["，"],
+        ["译者", "yìzhě", "translator"],
+        ["不得不", "bùdébù", "to have no choice but to"],
+        ["在", "zài", "between"],
+        ["忠实", "zhōngshí", "faithfulness"],
+        ["与", "yǔ", "and (formal)"],
+        ["优美", "yōuměi", "graceful; beautiful"],
+        ["之间", "zhījiān", "between"],
+        ["做出", "zuòchū", "to make (a decision)"],
+        ["艰难", "jiānnán", "difficult; hard"],
+        ["的", "de", "(possessive particle)"],
+        ["取舍", "qǔshě", "trade-off; what to keep or drop"],
+        ["。"]
+      ],
+      "en": "The three often conflict with one another, and the translator is forced to make painful trade-offs between faithfulness and beauty."
+    },
+    {
+      "t": [
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["说", "shuō", "to say"],
+        ["翻译", "fānyì", "translation"],
+        ["是", "shì", "is"],
+        ["艺术", "yìshù", "art"],
+        ["而", "ér", "and yet; but (formal)"],
+        ["非", "fēi", "not (literary)"],
+        ["技术", "jìshù", "technique; technology"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["它", "tā", "it"],
+        ["没有", "méiyǒu", "does not have"],
+        ["唯一", "wéiyī", "sole; only"],
+        ["的", "de", "(possessive particle)"],
+        ["标准", "biāozhǔn", "standard"],
+        ["答案", "dá'àn", "answer"],
+        ["，"],
+        ["每", "měi", "every"],
+        ["一次", "yí cì", "one time"],
+        ["翻译", "fānyì", "translation"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "is"],
+        ["一次", "yí cì", "one time"],
+        ["再创作", "zàichuàngzuò", "re-creation"],
+        ["。"]
+      ],
+      "en": "The reason we call translation an art rather than a technique is that it has no single correct answer: every translation is an act of re-creation."
+    },
+    {
+      "t": [
+        ["一旦", "yídàn", "once; as soon as"],
+        ["你", "nǐ", "you"],
+        ["尝试", "chángshì", "to attempt"],
+        ["把", "bǎ", "(object marker)"],
+        ["母语", "mǔyǔ", "mother tongue"],
+        ["里", "lǐ", "in; inside"],
+        ["最", "zuì", "most"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["的", "de", "(possessive particle)"],
+        ["一", "yí", "one"],
+        ["句", "jù", "(measure for sentences)"],
+        ["诗", "shī", "poem; line of poetry"],
+        ["译成", "yìchéng", "to translate into"],
+        ["汉语", "Hànyǔ", "Chinese (language)"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["会", "huì", "will"],
+        ["立刻", "lìkè", "immediately"],
+        ["体会", "tǐhuì", "to appreciate; realize"],
+        ["到", "dào", "(result complement)"],
+        ["译者", "yìzhě", "translator"],
+        ["的", "de", "(possessive particle)"],
+        ["甘苦", "gānkǔ", "joys and hardships"],
+        ["。"]
+      ],
+      "en": "The moment you try translating your favorite line of poetry from your mother tongue into Chinese, you will immediately taste the translator's joys and hardships."
+    }
+  ],
+  "vocab": [
+    ["背叛", "bèipàn", "betrayal; to betray"],
+    ["现成", "xiànchéng", "ready-made; off the shelf"],
+    ["荡然无存", "dàng rán wú cún", "to vanish without a trace"],
+    ["神韵", "shényùn", "spirit; charm (of a work)"],
+    ["取舍", "qǔshě", "trade-off; choosing what to keep and what to drop"],
+    ["甘苦", "gānkǔ", "joys and hardships"]
+  ],
+  "quiz": [
+    {
+      "q": "Why is the word 缘分 hard to translate, according to the text?",
+      "a": [
+        "English has no ready-made equivalent, so a whole sentence is needed to explain it",
+        "It is an archaic word that even native speakers no longer use",
+        "Its pronunciation cannot be written in the Latin alphabet"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What is the three-character standard of the Chinese translation world?",
+      "a": [
+        "Speed, accuracy, and low cost",
+        "Grammar, vocabulary, and style",
+        "Faithfulness, fluency, and elegance"
+      ],
+      "c": 2
+    },
+    {
+      "q": "Why does the text call translation an art rather than a technique?",
+      "a": [
+        "Because translators must also study painting and music",
+        "Because it has no single correct answer, and every translation is a re-creation",
+        "Because machines already handle all the technical parts"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "以…为例",
+      "e": "A formal way to introduce an illustration: 'taking … as an example'. Common in expository writing before a concrete case. 例：以北京为例，房价十年翻了一倍。",
+      "x": "以“缘分”一词为例：英语里找不到现成的对应词。 — Take the word yuanfen as an example: English has no ready-made equivalent."
+    },
+    {
+      "p": "之所以…，是因为…",
+      "e": "States a result first, then its cause: 'the reason why A is that B'. Fronting the result gives the explanation extra weight. 例：他之所以迟到，是因为路上堵车。",
+      "x": "之所以说翻译是艺术而非技术，是因为它没有唯一的标准答案。 — The reason we call translation an art rather than a technique is that it has no single correct answer."
+    },
+    {
+      "p": "一旦…，就…",
+      "e": "'Once/as soon as A happens, B follows' — presents B as the immediate, almost automatic consequence of A. 例：一旦养成习惯，就很难改掉。",
+      "x": "一旦你尝试把母语里最喜欢的一句诗译成汉语，就会立刻体会到译者的甘苦。 — The moment you try translating your favorite line of poetry into Chinese, you will immediately taste the translator's joys and hardships."
+    }
+  ]
+}

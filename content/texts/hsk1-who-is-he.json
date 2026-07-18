@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-who-is-he",
+  "level": 1,
+  "title_zh": "他是谁",
+  "title_py": "Tā shì shéi",
+  "title_en": "Who Is He?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["你","nǐ","you"],["看","kàn","look"],["，"],["这个","zhège","this (one)"],["人","rén","person"],["是","shì","is"],["谁","shéi","who"],["？"]],
+      "en": "Look, who is this person?"
+    },
+    {
+      "t": [["他","tā","he"],["是","shì","is"],["我","wǒ","my"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["，"],["他","tā","he"],["是","shì","is"],["汉语","Hànyǔ","Chinese (language)"],["老师","lǎoshī","teacher"],["。"]],
+      "en": "He is my friend, and he is a Chinese teacher."
+    },
+    {
+      "t": [["他","tā","he"],["在","zài","at"],["学校","xuéxiào","school"],["工作","gōngzuò","to work"],["，"],["他","tā","his"],["的","de","(possessive particle)"],["学生","xuésheng","student(s)"],["很","hěn","very"],["多","duō","many"],["。"]],
+      "en": "He works at a school and has many students."
+    },
+    {
+      "t": [["他","tā","he"],["有","yǒu","to have"],["一","yí","one"],["个","gè","(measure word)"],["女儿","nǚ'ér","daughter"],["，"],["女儿","nǚ'ér","daughter"],["五","wǔ","five"],["岁","suì","years old"],["。"]],
+      "en": "He has a daughter, and she is five years old."
+    },
+    {
+      "t": [["他","tā","his"],["的","de","(possessive particle)"],["女儿","nǚ'ér","daughter"],["很","hěn","very"],["小","xiǎo","little"],["，"],["很","hěn","very much"],["爱","ài","love"],["看","kàn","to watch, read"],["书","shū","book(s)"],["和","hé","and"],["电视","diànshì","TV"],["。"]],
+      "en": "His daughter is little — she loves books and TV."
+    },
+    {
+      "t": [["他们","tāmen","they"],["都","dōu","all, both"],["是","shì","are"],["我","wǒ","my"],["的","de","(possessive particle)"],["好","hǎo","good"],["朋友","péngyou","friend(s)"],["。"]],
+      "en": "They are both my good friends."
+    }
+  ],
+  "vocab": [
+    ["谁","shéi","who"],
+    ["朋友","péngyou","friend"],
+    ["老师","lǎoshī","teacher"],
+    ["学校","xuéxiào","school"],
+    ["工作","gōngzuò","to work"],
+    ["女儿","nǚ'ér","daughter"]
+  ],
+  "quiz": [
+    {"q":"What is the friend's job?","a":["Doctor","Chinese teacher","Shop worker"],"c":1},
+    {"q":"How old is his daughter?","a":["Five","Eight","Ten"],"c":0},
+    {"q":"What does the daughter love?","a":["Drinking coffee","Sleeping","Books and TV"],"c":2}
+  ],
+  "grammar": [
+    {"p":"…是谁？","e":"To ask who someone is, put 谁 (who) right where the answer would be — the word order does not change.","x":"这个人是谁？ — Who is this person?"},
+    {"p":"的 for possession","e":"的 links a person to what belongs to them, including family and friends.","x":"他是我的朋友。 — He is my friend."},
+    {"p":"都 (all / both)","e":"都 goes before the verb to say the whole group does or is something.","x":"他们都是我的好朋友。 — They are both my good friends."}
+  ]
+}

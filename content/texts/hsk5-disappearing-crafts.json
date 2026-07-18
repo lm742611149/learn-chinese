@@ -1,0 +1,157 @@
+{
+  "slug": "hsk5-disappearing-crafts",
+  "level": 5,
+  "title_zh": "传统手艺的消失",
+  "title_py": "Chuántǒng shǒuyì de xiāoshī",
+  "title_en": "The Disappearance of Traditional Crafts",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["随着","suízhe","along with"], ["时代","shídài","era; times"], ["的","de","(particle)"],
+        ["发展","fāzhǎn","development"], ["，"],
+        ["很多","hěn duō","many"], ["传统","chuántǒng","traditional"], ["手艺","shǒuyì","craft"],
+        ["正在","zhèngzài","(in progress)"], ["慢慢","mànmàn","slowly"], ["消失","xiāoshī","to disappear"], ["。"]
+      ],
+      "en": "With the development of the times, many traditional crafts are slowly disappearing."
+    },
+    {
+      "t": [
+        ["我","wǒ","my"], ["的","de","(particle)"], ["爷爷","yéye","grandfather"],
+        ["是","shì","is"], ["一","yí","one"], ["位","wèi","(measure for people)"],
+        ["木匠","mùjiàng","carpenter"], ["，"],
+        ["他","tā","he"], ["做","zuò","to make"], ["的","de","(particle)"],
+        ["家具","jiājù","furniture"], ["不用","búyòng","to not use"],
+        ["一","yì","one"], ["颗","kē","(measure for small round things)"], ["钉子","dīngzi","nail"], ["，"],
+        ["却","què","yet"], ["结实","jiēshi","sturdy"], ["得","de","(degree particle)"],
+        ["能","néng","can"], ["用","yòng","to use"], ["几十","jǐshí","dozens of"], ["年","nián","year"], ["。"]
+      ],
+      "en": "My grandfather is a carpenter; the furniture he makes uses not a single nail, yet it is sturdy enough to last for decades."
+    },
+    {
+      "t": [
+        ["过去","guòqù","in the past"], ["，"],
+        ["几乎","jīhū","almost"], ["每","měi","every"], ["条","tiáo","(measure)"],
+        ["老街","lǎojiē","old street"], ["上","shang","on"], ["都","dōu","all"],
+        ["有","yǒu","to have"], ["铁匠","tiějiàng","blacksmith"], ["、"],
+        ["裁缝","cáiféng","tailor"], ["和","hé","and"],
+        ["修","xiū","to repair"], ["鞋","xié","shoe"], ["的","de","(particle)"],
+        ["师傅","shīfu","master craftsman"], ["。"]
+      ],
+      "en": "In the past, almost every old street had a blacksmith, a tailor, and a shoe-repair master."
+    },
+    {
+      "t": [
+        ["如今","rújīn","nowadays"], ["，"],
+        ["工厂","gōngchǎng","factory"], ["生产","shēngchǎn","to produce"], ["的","de","(particle)"],
+        ["商品","shāngpǐn","goods"], ["又","yòu","both"], ["便宜","piányi","cheap"],
+        ["又","yòu","and"], ["方便","fāngbiàn","convenient"], ["，"],
+        ["愿意","yuànyì","willing"], ["学","xué","to learn"], ["手艺","shǒuyì","craft"],
+        ["的","de","(particle)"], ["年轻人","niánqīngrén","young people"],
+        ["越来越","yuèláiyuè","more and more"], ["少","shǎo","few"], ["。"]
+      ],
+      "en": "Nowadays factory-made goods are both cheap and convenient, and fewer and fewer young people are willing to learn a craft."
+    },
+    {
+      "t": [
+        ["一","yì","one"], ["门","mén","(measure for skills)"], ["手艺","shǒuyì","craft"],
+        ["往往","wǎngwǎng","often"], ["需要","xūyào","to require"],
+        ["十几","shíjǐ","a dozen or so"], ["年","nián","year"], ["的","de","(particle)"],
+        ["练习","liànxí","practice"], ["，"],
+        ["收入","shōurù","income"], ["却","què","however"], ["不","bù","not"], ["高","gāo","high"], ["，"],
+        ["这","zhè","this"], ["是","shì","is"], ["它","tā","it"],
+        ["消失","xiāoshī","to disappear"], ["的","de","(particle)"],
+        ["主要","zhǔyào","main"], ["原因","yuányīn","reason"], ["。"]
+      ],
+      "en": "A craft often takes more than a decade of practice, yet the income is not high; this is the main reason it is disappearing."
+    },
+    {
+      "t": [
+        ["爷爷","yéye","grandfather"], ["常","cháng","often"], ["说","shuō","to say"], ["："], ["“"],
+        ["机器","jīqì","machine"], ["做","zuò","to work"], ["得","de","(degree particle)"],
+        ["快","kuài","fast"], ["，"],
+        ["但","dàn","but"], ["做不出","zuòbuchū","cannot produce"],
+        ["手","shǒu","hand"], ["上","shang","on"], ["的","de","(particle)"],
+        ["温度","wēndù","warmth"], ["。"], ["”"]
+      ],
+      "en": "Grandpa often says, \"Machines work fast, but they cannot produce the warmth of human hands.\""
+    },
+    {
+      "t": [
+        ["幸运","xìngyùn","fortunate"], ["的","de","(particle)"], ["是","shì","is"], ["，"],
+        ["一些","yìxiē","some"], ["人","rén","people"], ["开始","kāishǐ","to begin"],
+        ["在","zài","on"], ["网上","wǎngshàng","the internet"],
+        ["记录","jìlù","to record"], ["这些","zhèxiē","these"],
+        ["老","lǎo","old"], ["手艺","shǒuyì","craft"], ["，"],
+        ["吸引","xīyǐn","to attract"], ["了","le","(particle)"],
+        ["不少","bùshǎo","quite a few"], ["观众","guānzhòng","viewers"], ["。"]
+      ],
+      "en": "Fortunately, some people have begun recording these old crafts online, attracting quite a few viewers."
+    },
+    {
+      "t": [
+        ["有的","yǒude","some"], ["年轻人","niánqīngrén","young people"],
+        ["看","kàn","to watch"], ["了","le","(particle)"], ["以后","yǐhòu","after"], ["，"],
+        ["专门","zhuānmén","specially"], ["跑","pǎo","to travel"], ["到","dào","to"],
+        ["乡下","xiāngxia","countryside"], ["去","qù","to go"],
+        ["向","xiàng","from"], ["老","lǎo","old"], ["师傅","shīfu","master craftsman"],
+        ["学习","xuéxí","to learn"], ["。"]
+      ],
+      "en": "After watching, some young people make special trips to the countryside to learn from the old masters."
+    },
+    {
+      "t": [
+        ["传统","chuántǒng","traditional"], ["手艺","shǒuyì","craft"],
+        ["不仅","bùjǐn","not only"], ["是","shì","is"],
+        ["一","yì","one"], ["种","zhǒng","kind of"], ["技术","jìshù","skill"], ["，"],
+        ["还是","háishì","but also"],
+        ["一代又一代","yí dài yòu yí dài","generation after generation"],
+        ["人","rén","people"], ["生活","shēnghuó","life"], ["的","de","(particle)"],
+        ["记忆","jìyì","memory"], ["。"]
+      ],
+      "en": "Traditional crafts are not only a kind of skill, but also the living memory of generation after generation."
+    }
+  ],
+  "vocab": [
+    ["手艺","shǒuyì","craft; handicraft skill"],
+    ["木匠","mùjiàng","carpenter"],
+    ["钉子","dīngzi","nail"],
+    ["铁匠","tiějiàng","blacksmith"],
+    ["裁缝","cáiféng","tailor"],
+    ["记忆","jìyì","memory"]
+  ],
+  "quiz": [
+    {
+      "q": "What is special about the furniture the writer's grandfather makes?",
+      "a": ["It is made by machine very quickly", "It is sold in an online shop", "It uses no nails yet lasts for decades"],
+      "c": 2
+    },
+    {
+      "q": "According to the text, what is the main reason traditional crafts are disappearing?",
+      "a": ["They take many years to learn but earn little money", "Young people are not allowed to learn them", "Old masters refuse to teach students"],
+      "c": 0
+    },
+    {
+      "q": "What hopeful development does the text mention?",
+      "a": ["The government pays every craftsman a salary", "People record old crafts online and attract viewers", "Factories have started making handmade furniture"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着… (along with…)",
+      "e": "随着 introduces an ongoing change that causes another change: 随着时代的发展，很多传统手艺正在慢慢消失。",
+      "x": "随着经济的发展，人们的生活水平提高了。 — Along with economic development, people's living standards have risen."
+    },
+    {
+      "p": "不仅…还… (not only… but also…)",
+      "e": "Adds a second, often more important layer: 传统手艺不仅是一种技术，还是一代又一代人生活的记忆。",
+      "x": "他不仅会说汉语，还会写漂亮的汉字。 — He not only speaks Chinese, but also writes beautiful characters."
+    },
+    {
+      "p": "…，却… (yet; however)",
+      "e": "却 marks an unexpected contrast inside a sentence: 一门手艺往往需要十几年的练习，收入却不高。",
+      "x": "他学了很多年，却没有放弃。 — He studied for many years, yet he never gave up."
+    }
+  ]
+}
