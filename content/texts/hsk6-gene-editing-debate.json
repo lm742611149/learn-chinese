@@ -1,0 +1,315 @@
+{
+  "slug": "hsk6-gene-editing-debate",
+  "level": 6,
+  "title_zh": "基因编辑之争",
+  "title_py": "Jīyīn biānjí zhī zhēng",
+  "title_en": "The Gene-Editing Debate",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["二〇一八", "èr líng yī bā", "2018"],
+        ["年", "nián", "year"],
+        ["，"],
+        ["一", "yí", "one"],
+        ["位", "wèi", "(polite measure word for people)"],
+        ["中国", "Zhōngguó", "Chinese"],
+        ["科学家", "kēxuéjiā", "scientist"],
+        ["宣布", "xuānbù", "to announce"],
+        ["世界上", "shìjiè shang", "in the world"],
+        ["第一", "dì-yī", "first"],
+        ["对", "duì", "(measure word for pairs)"],
+        ["“"],
+        ["基因", "jīyīn", "gene"],
+        ["编辑", "biānjí", "editing"],
+        ["婴儿", "yīng'ér", "baby"],
+        ["”"],
+        ["诞生", "dànshēng", "to be born"],
+        ["，"],
+        ["随即", "suíjí", "immediately afterwards"],
+        ["引发", "yǐnfā", "to trigger"],
+        ["了", "le", "(completed action)"],
+        ["全球", "quánqiú", "global"],
+        ["范围", "fànwéi", "scope; range"],
+        ["的", "de", "(possessive particle)"],
+        ["强烈", "qiángliè", "strong; fierce"],
+        ["谴责", "qiǎnzé", "condemnation"],
+        ["。"]
+      ],
+      "en": "In 2018 a Chinese scientist announced the birth of the world's first \"gene-edited babies,\" which immediately drew fierce condemnation worldwide."
+    },
+    {
+      "t": [
+        ["争论", "zhēnglùn", "debate; controversy"],
+        ["的", "de", "(possessive particle)"],
+        ["核心", "héxīn", "core"],
+        ["并", "bìng", "actually (emphasizing negation)"],
+        ["不在于", "bú zàiyú", "does not lie in"],
+        ["技术", "jìshù", "technology"],
+        ["本身", "běnshēn", "itself"],
+        ["，"],
+        ["而在于", "ér zàiyú", "but lies in"],
+        ["人类", "rénlèi", "humankind"],
+        ["是否", "shìfǒu", "whether"],
+        ["有", "yǒu", "to have"],
+        ["资格", "zīgé", "the standing; qualification"],
+        ["改写", "gǎixiě", "to rewrite"],
+        ["生命", "shēngmìng", "life"],
+        ["的", "de", "(possessive particle)"],
+        ["说明书", "shuōmíngshū", "instruction manual"],
+        ["。"]
+      ],
+      "en": "The heart of the dispute lies not in the technology itself, but in whether human beings have the standing to rewrite the instruction manual of life."
+    },
+    {
+      "t": [
+        ["支持者", "zhīchízhě", "supporter"],
+        ["指出", "zhǐchū", "to point out"],
+        ["，"],
+        ["如果", "rúguǒ", "if"],
+        ["一", "yí", "one"],
+        ["项", "xiàng", "(measure word for items)"],
+        ["技术", "jìshù", "technology"],
+        ["能", "néng", "can"],
+        ["让", "ràng", "to let"],
+        ["孩子", "háizi", "child"],
+        ["免于", "miǎn yú", "to be spared from"],
+        ["遗传", "yíchuán", "hereditary"],
+        ["疾病", "jíbìng", "disease"],
+        ["的", "de", "(possessive particle)"],
+        ["折磨", "zhémó", "torment"],
+        ["，"],
+        ["放弃", "fàngqì", "to give up"],
+        ["使用", "shǐyòng", "to use"],
+        ["它", "tā", "it"],
+        ["同样", "tóngyàng", "equally"],
+        ["是", "shì", "is"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind (measure word)"],
+        ["残忍", "cánrěn", "cruelty; cruel"],
+        ["。"]
+      ],
+      "en": "Supporters point out that if a technology can spare a child the torment of a hereditary disease, refusing to use it is a cruelty of its own."
+    },
+    {
+      "t": [
+        ["反对者", "fǎnduìzhě", "opponent"],
+        ["则", "zé", "on the other hand (formal)"],
+        ["担心", "dānxīn", "to worry"],
+        ["，"],
+        ["一旦", "yídàn", "once"],
+        ["编辑", "biānjí", "to edit"],
+        ["生殖细胞", "shēngzhí xìbāo", "reproductive cells"],
+        ["的", "de", "(possessive particle)"],
+        ["口子", "kǒuzi", "opening; gap"],
+        ["被", "bèi", "(passive marker)"],
+        ["打开", "dǎkāi", "to open"],
+        ["，"],
+        ["“"],
+        ["治病", "zhìbìng", "to cure illness"],
+        ["”"],
+        ["与", "yǔ", "and (formal)"],
+        ["“"],
+        ["改良", "gǎiliáng", "to improve; enhance"],
+        ["”"],
+        ["之间", "zhījiān", "between"],
+        ["的", "de", "(possessive particle)"],
+        ["界限", "jièxiàn", "boundary; line"],
+        ["就", "jiù", "then"],
+        ["会", "huì", "will"],
+        ["越来越", "yuèláiyuè", "increasingly"],
+        ["模糊", "móhu", "blurred; vague"],
+        ["。"]
+      ],
+      "en": "Opponents, for their part, worry that once the door to editing reproductive cells is opened, the line between \"curing\" and \"enhancing\" will grow ever blurrier."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["允许", "yǔnxǔ", "to permit"],
+        ["修改", "xiūgǎi", "to modify"],
+        ["致病", "zhìbìng", "disease-causing"],
+        ["基因", "jīyīn", "gene"],
+        ["，"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["是否", "shìfǒu", "whether"],
+        ["就要", "jiù yào", "will then"],
+        ["挑选", "tiāoxuǎn", "to select; pick"],
+        ["身高", "shēngāo", "height"],
+        ["和", "hé", "and"],
+        ["智商", "zhìshāng", "IQ"],
+        ["？"]
+      ],
+      "en": "If modifying disease-causing genes is permitted today, will we be choosing height and IQ tomorrow?"
+    },
+    {
+      "t": [
+        ["更", "gèng", "even more"],
+        ["现实", "xiànshí", "practical; real-world"],
+        ["的", "de", "(possessive particle)"],
+        ["问题", "wèntí", "problem"],
+        ["是", "shì", "is"],
+        ["费用", "fèiyòng", "cost"],
+        ["："],
+        ["昂贵", "ángguì", "expensive"],
+        ["的", "de", "(possessive particle)"],
+        ["技术", "jìshù", "technology"],
+        ["往往", "wǎngwǎng", "tends to"],
+        ["先", "xiān", "first"],
+        ["服务于", "fúwù yú", "to serve"],
+        ["富人", "fùrén", "the rich"],
+        ["，"],
+        ["从而", "cóng'ér", "thereby"],
+        ["可能", "kěnéng", "may"],
+        ["把", "bǎ", "(object marker)"],
+        ["社会", "shèhuì", "social"],
+        ["差距", "chājù", "gap; disparity"],
+        ["刻", "kè", "to carve"],
+        ["进", "jìn", "into"],
+        ["基因", "jīyīn", "genes"],
+        ["里", "lǐ", "in; inside"],
+        ["。"]
+      ],
+      "en": "An even more practical worry is cost: expensive technology tends to serve the wealthy first, and could thereby carve social inequality into our genes."
+    },
+    {
+      "t": [
+        ["值得", "zhídé", "worth"],
+        ["注意", "zhùyì", "noting"],
+        ["的", "de", "(nominalizing particle)"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["用于", "yòng yú", "used for"],
+        ["治疗", "zhìliáo", "to treat"],
+        ["成年", "chéngnián", "adult"],
+        ["病人", "bìngrén", "patient"],
+        ["的", "de", "(possessive particle)"],
+        ["基因", "jīyīn", "gene"],
+        ["疗法", "liáofǎ", "therapy"],
+        ["争议", "zhēngyì", "controversy"],
+        ["要", "yào", "(comparative marker)"],
+        ["小", "xiǎo", "small"],
+        ["得多", "de duō", "much (more)"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["它", "tā", "its"],
+        ["的", "de", "(possessive particle)"],
+        ["影响", "yǐngxiǎng", "effect"],
+        ["不会", "bú huì", "will not"],
+        ["传", "chuán", "to pass"],
+        ["给", "gěi", "to"],
+        ["下一代", "xià yí dài", "the next generation"],
+        ["。"]
+      ],
+      "en": "It is worth noting that gene therapies used to treat adult patients are far less controversial, because their effects are not passed on to the next generation."
+    },
+    {
+      "t": [
+        ["无论", "wúlùn", "no matter"],
+        ["支持", "zhīchí", "to support"],
+        ["还是", "háishi", "or"],
+        ["反对", "fǎnduì", "to oppose"],
+        ["，"],
+        ["双方", "shuāngfāng", "both sides"],
+        ["至少", "zhìshǎo", "at least"],
+        ["在", "zài", "on"],
+        ["一", "yì", "one"],
+        ["点", "diǎn", "point"],
+        ["上", "shàng", "on"],
+        ["是", "shì", "are"],
+        ["一致", "yízhì", "in agreement"],
+        ["的", "de", "(sentence particle)"],
+        ["："],
+        ["这类", "zhè lèi", "this sort of"],
+        ["决定", "juédìng", "decision"],
+        ["不该", "bù gāi", "should not"],
+        ["由", "yóu", "by"],
+        ["某", "mǒu", "a certain"],
+        ["个", "ge", "(measure word)"],
+        ["实验室", "shíyànshì", "laboratory"],
+        ["单独", "dāndú", "on its own"],
+        ["作出", "zuòchū", "to make"],
+        ["。"]
+      ],
+      "en": "Whether they support it or oppose it, both sides agree on at least one point: a decision like this should not be made by a single laboratory alone."
+    },
+    {
+      "t": [
+        ["技术", "jìshù", "technology"],
+        ["跑", "pǎo", "to run"],
+        ["得", "de", "(complement particle)"],
+        ["越", "yuè", "the more"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["社会", "shèhuì", "society"],
+        ["就", "jiù", "then"],
+        ["越", "yuè", "the more"],
+        ["需要", "xūyào", "to need"],
+        ["停", "tíng", "to stop"],
+        ["下来", "xiàlái", "(directional complement)"],
+        ["，"],
+        ["先", "xiān", "first"],
+        ["把", "bǎ", "(object marker)"],
+        ["规则", "guīzé", "rules"],
+        ["讨论", "tǎolùn", "to discuss"],
+        ["清楚", "qīngchu", "clearly"],
+        ["。"]
+      ],
+      "en": "The faster the technology runs, the more society needs to stop and talk the rules through first."
+    }
+  ],
+  "vocab": [
+    ["基因", "jīyīn", "gene"],
+    ["谴责", "qiǎnzé", "to condemn; condemnation"],
+    ["遗传", "yíchuán", "hereditary; to pass on genetically"],
+    ["界限", "jièxiàn", "boundary; dividing line"],
+    ["模糊", "móhu", "blurred; vague"],
+    ["疗法", "liáofǎ", "therapy; course of treatment"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, where does the heart of the gene-editing dispute lie?",
+      "a": [
+        "In whether humans have the standing to rewrite life's instruction manual",
+        "In whether the technology actually works",
+        "In which country announced the experiment first"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What argument do supporters of the technology make?",
+      "a": [
+        "That editing genes will make the country richer",
+        "That refusing to use a technology that could spare a child a hereditary disease is itself cruel",
+        "That scientists should not be regulated by governments"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why does the text say gene therapy for adult patients is far less controversial?",
+      "a": [
+        "Because it is much cheaper than editing embryos",
+        "Because adults can pay for it themselves",
+        "Because its effects are not passed on to the next generation"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不在于…，而在于…",
+      "e": "'It lies not in A, but in B' — a formal way to redirect the reader from a false focus to the real one, common in argumentative essays. 例：成功不在于速度，而在于方向。",
+      "x": "争论的核心并不在于技术本身，而在于人类是否有资格改写生命的说明书。 — The core of the debate lies not in the technology itself but in whether humans have the standing to rewrite the manual of life."
+    },
+    {
+      "p": "一旦…，就…",
+      "e": "'Once A happens, B follows' — 一旦 introduces a hypothetical but consequential turning point; the clause with 就 states the result that then becomes hard to stop. 例：一旦养成习惯，就很难改掉。",
+      "x": "一旦编辑生殖细胞的口子被打开，界限就会越来越模糊。 — Once the door to editing reproductive cells is opened, the line will grow ever blurrier."
+    },
+    {
+      "p": "越 A，就越 B",
+      "e": "'The more A, the more B' — links two variables that rise together. Each 越 attaches directly to a verb or adjective. 例：他越解释，大家就越糊涂。",
+      "x": "技术跑得越快，社会就越需要停下来。 — The faster technology runs, the more society needs to stop."
+    }
+  ]
+}

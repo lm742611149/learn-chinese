@@ -1,0 +1,302 @@
+{
+  "slug": "hsk6-confucianism-in-the-workplace",
+  "level": 6,
+  "title_zh": "儒家与现代职场",
+  "title_py": "Rújiā yǔ xiàndài zhíchǎng",
+  "title_en": "Confucianism and the Modern Workplace",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["提起", "tíqǐ", "to bring up; mention"],
+        ["儒家", "Rújiā", "Confucianism; the Confucian school"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["会", "huì", "will"],
+        ["想到", "xiǎngdào", "to think of"],
+        ["古老", "gǔlǎo", "ancient"],
+        ["的", "de", "(possessive particle)"],
+        ["经典", "jīngdiǎn", "classics"],
+        ["和", "hé", "and"],
+        ["繁琐", "fánsuǒ", "tedious; overly elaborate"],
+        ["的", "de", "(possessive particle)"],
+        ["礼节", "lǐjié", "etiquette; ceremony"],
+        ["，"],
+        ["似乎", "sìhū", "seemingly"],
+        ["与", "yǔ", "with (formal)"],
+        ["今天", "jīntiān", "today"],
+        ["的", "de", "(possessive particle)"],
+        ["写字楼", "xiězìlóu", "office building"],
+        ["毫不相干", "háo bù xiānggān", "to have nothing to do with each other"],
+        ["。"]
+      ],
+      "en": "Mention Confucianism and many people picture ancient classics and elaborate rituals, seemingly with nothing to do with today's office towers."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["无论是", "wúlùn shì", "whether it be"],
+        ["团队", "tuánduì", "team"],
+        ["合作", "hézuò", "cooperation"],
+        ["还是", "háishi", "or"],
+        ["上下级", "shàngxiàjí", "superior and subordinate"],
+        ["关系", "guānxi", "relationship"],
+        ["，"],
+        ["现代", "xiàndài", "modern"],
+        ["职场", "zhíchǎng", "the workplace"],
+        ["中", "zhōng", "in (formal)"],
+        ["处处", "chùchù", "everywhere"],
+        ["都", "dōu", "all; still"],
+        ["能", "néng", "can"],
+        ["看到", "kàndào", "to see"],
+        ["儒家", "Rújiā", "Confucianism"],
+        ["思想", "sīxiǎng", "thought; ideas"],
+        ["的", "de", "(possessive particle)"],
+        ["影子", "yǐngzi", "shadow; trace"],
+        ["。"]
+      ],
+      "en": "Yet whether in teamwork or in relations between boss and subordinate, traces of Confucian thinking can be found everywhere in the modern workplace."
+    },
+    {
+      "t": [
+        ["比如", "bǐrú", "for example"],
+        ["“"],
+        ["己所不欲", "jǐ suǒ bú yù", "what you do not want for yourself"],
+        ["，"],
+        ["勿施于人", "wù shī yú rén", "do not impose on others"],
+        ["”"],
+        ["，"],
+        ["放", "fàng", "to place"],
+        ["在", "zài", "in"],
+        ["今天", "jīntiān", "today"],
+        ["就是", "jiùshì", "is precisely"],
+        ["："],
+        ["不要", "bú yào", "do not"],
+        ["把", "bǎ", "(object marker)"],
+        ["自己", "zìjǐ", "oneself"],
+        ["不愿意", "bú yuànyì", "unwilling to"],
+        ["做", "zuò", "to do"],
+        ["的", "de", "(possessive particle)"],
+        ["杂事", "záshì", "odd jobs; chores"],
+        ["，"],
+        ["理直气壮", "lǐ zhí qì zhuàng", "with perfect self-assurance (idiom)"],
+        ["地", "de", "(adverbial particle)"],
+        ["推给", "tuī gěi", "to push onto"],
+        ["同事", "tóngshì", "colleague"],
+        ["。"]
+      ],
+      "en": "Take \"do not impose on others what you do not want for yourself\": translated into today's terms, it means don't shove the chores you dislike onto a colleague as if you had every right to."
+    },
+    {
+      "t": [
+        ["又如", "yòu rú", "another example is"],
+        ["“"],
+        ["和为贵", "hé wéi guì", "harmony is what matters most"],
+        ["”"],
+        ["的", "de", "(possessive particle)"],
+        ["观念", "guānniàn", "notion; mindset"],
+        ["，"],
+        ["使得", "shǐde", "to cause"],
+        ["不少", "bùshǎo", "quite a few"],
+        ["员工", "yuángōng", "employee"],
+        ["在", "zài", "at"],
+        ["会议", "huìyì", "meeting"],
+        ["上", "shàng", "on; at"],
+        ["宁可", "nìngkě", "would rather"],
+        ["保持", "bǎochí", "to maintain"],
+        ["沉默", "chénmò", "silence"],
+        ["，"],
+        ["也", "yě", "also (paired with 宁可)"],
+        ["不愿", "bú yuàn", "to be unwilling to"],
+        ["当众", "dāngzhòng", "in front of everyone"],
+        ["反驳", "fǎnbó", "to refute; contradict"],
+        ["领导", "lǐngdǎo", "boss; leader"],
+        ["。"]
+      ],
+      "en": "Or take the idea that \"harmony is what matters most\": it leads plenty of employees to stay silent in meetings rather than contradict the boss in front of everyone."
+    },
+    {
+      "t": [
+        ["这种", "zhè zhǒng", "this kind of"],
+        ["做法", "zuòfǎ", "approach; practice"],
+        ["固然", "gùrán", "admittedly; it is true that"],
+        ["有利于", "yǒulì yú", "to be conducive to"],
+        ["维持", "wéichí", "to maintain"],
+        ["表面", "biǎomiàn", "surface"],
+        ["的", "de", "(possessive particle)"],
+        ["和谐", "héxié", "harmony"],
+        ["，"],
+        ["却", "què", "yet; however"],
+        ["可能", "kěnéng", "may"],
+        ["让", "ràng", "to let"],
+        ["真正", "zhēnzhèng", "real; genuine"],
+        ["的", "de", "(possessive particle)"],
+        ["问题", "wèntí", "problem"],
+        ["被", "bèi", "(passive marker)"],
+        ["一再", "yízài", "again and again"],
+        ["拖延", "tuōyán", "to delay; put off"],
+        ["。"]
+      ],
+      "en": "Admittedly this keeps the surface calm, yet it can also leave the real problems postponed again and again."
+    },
+    {
+      "t": [
+        ["也", "yě", "also"],
+        ["有人", "yǒurén", "some people"],
+        ["主张", "zhǔzhāng", "to advocate"],
+        ["彻底", "chèdǐ", "thoroughly; completely"],
+        ["抛弃", "pāoqì", "to abandon; throw away"],
+        ["这", "zhè", "this"],
+        ["套", "tào", "(measure word for sets)"],
+        ["传统", "chuántǒng", "tradition"],
+        ["，"],
+        ["全面", "quánmiàn", "wholesale; across the board"],
+        ["照搬", "zhàobān", "to copy mechanically"],
+        ["有话直说", "yǒu huà zhí shuō", "to say what is on one's mind"],
+        ["的", "de", "(possessive particle)"],
+        ["沟通", "gōutōng", "communication"],
+        ["方式", "fāngshì", "style; manner"],
+        ["。"]
+      ],
+      "en": "Others argue for dumping the whole tradition and importing a blunt, say-what-you-think style of communication instead."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["简单", "jiǎndān", "simply"],
+        ["地", "de", "(adverbial particle)"],
+        ["否定", "fǒudìng", "to reject; negate"],
+        ["，"],
+        ["不如", "bùrú", "it is better to"],
+        ["把", "bǎ", "(object marker)"],
+        ["“"],
+        ["尊重", "zūnzhòng", "respect"],
+        ["”"],
+        ["留下", "liúxià", "to keep"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["“"],
+        ["论资排辈", "lùn zī pái bèi", "to rank people by seniority (idiom)"],
+        ["”"],
+        ["放下", "fàngxià", "to put down; let go of"],
+        ["。"]
+      ],
+      "en": "Rather than simply rejecting it, it is better to keep the \"respect\" and let go of the \"rank by seniority.\""
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["位", "wèi", "(polite measure word for people)"],
+        ["年轻", "niánqīng", "young"],
+        ["的", "de", "(possessive particle)"],
+        ["项目", "xiàngmù", "project"],
+        ["经理", "jīnglǐ", "manager"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["开会", "kāihuì", "to hold a meeting"],
+        ["时", "shí", "when (formal)"],
+        ["总是", "zǒngshì", "always"],
+        ["先", "xiān", "first"],
+        ["请", "qǐng", "to invite"],
+        ["最", "zuì", "most"],
+        ["沉默", "chénmò", "silent"],
+        ["的", "de", "(possessive particle)"],
+        ["实习生", "shíxíshēng", "intern"],
+        ["发言", "fāyán", "to speak up"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["既", "jì", "both (paired with 也)"],
+        ["保住", "bǎozhù", "to preserve"],
+        ["了", "le", "(completed action)"],
+        ["礼貌", "lǐmào", "politeness"],
+        ["，"],
+        ["也", "yě", "also (paired with 既)"],
+        ["逼", "bī", "to force"],
+        ["出", "chū", "out"],
+        ["了", "le", "(completed action)"],
+        ["真话", "zhēnhuà", "honest words; the truth"],
+        ["。"]
+      ],
+      "en": "One young project manager says that at meetings she always asks the quietest intern to speak first: this preserves the courtesy and forces out the honest words at the same time."
+    },
+    {
+      "t": [
+        ["传统", "chuántǒng", "tradition"],
+        ["未必", "wèibì", "not necessarily"],
+        ["是", "shì", "is"],
+        ["束缚", "shùfù", "a constraint; fetters"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["更像", "gèng xiàng", "is more like"],
+        ["一", "yí", "one"],
+        ["套", "tào", "(measure word for sets)"],
+        ["需要", "xūyào", "to need"],
+        ["不断", "búduàn", "continually"],
+        ["被", "bèi", "(passive marker)"],
+        ["重新", "chóngxīn", "anew"],
+        ["翻译", "fānyì", "to translate"],
+        ["的", "de", "(possessive particle)"],
+        ["语言", "yǔyán", "language"],
+        ["。"]
+      ],
+      "en": "Tradition is not necessarily a constraint; it is more like a language that has to be translated afresh again and again."
+    }
+  ],
+  "vocab": [
+    ["儒家", "Rújiā", "Confucianism; the Confucian school"],
+    ["繁琐", "fánsuǒ", "tedious; overly elaborate"],
+    ["理直气壮", "lǐ zhí qì zhuàng", "with perfect self-assurance; as if fully in the right"],
+    ["抛弃", "pāoqì", "to abandon; to throw away"],
+    ["论资排辈", "lùn zī pái bèi", "to rank and promote people by seniority"],
+    ["束缚", "shùfù", "constraint; fetters; to bind"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what does the idea of 和为贵 lead many employees to do in meetings?",
+      "a": [
+        "Argue with the boss until the problem is solved",
+        "Stay silent rather than contradict the boss in public",
+        "Refuse to attend meetings altogether"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the writer see as the downside of keeping the surface calm?",
+      "a": [
+        "Real problems get postponed again and again",
+        "Employees get promoted too quickly",
+        "Meetings become far too long"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the young project manager do at her meetings?",
+      "a": [
+        "She bans junior staff from speaking",
+        "She asks everyone to submit written comments only",
+        "She asks the quietest intern to speak first"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "宁可…，也不…",
+      "e": "'Would rather A than B' — 宁可 marks the option the speaker accepts (often an unpleasant one), and 也不 marks the option rejected even more strongly. 例：他宁可自己吃亏，也不愿意跟人争。",
+      "x": "不少员工在会议上宁可保持沉默，也不愿当众反驳领导。 — Plenty of employees would rather keep silent in a meeting than contradict the boss in public."
+    },
+    {
+      "p": "固然…，却/但…",
+      "e": "'Admittedly A, but B' — 固然 concedes a point that is true before the writer pivots to the more important qualification. Common in argumentative writing. 例：这个办法固然省钱，却太费时间。",
+      "x": "这种做法固然有利于维持表面的和谐，却可能让真正的问题被一再拖延。 — Admittedly this practice helps maintain surface harmony, but it may leave the real problems postponed again and again."
+    },
+    {
+      "p": "与其…，不如…",
+      "e": "'Rather than A, better to B' — compares two courses of action and recommends the second. 与其 introduces the rejected option. 例：与其抱怨环境，不如改变自己。",
+      "x": "与其简单地否定，不如把“尊重”留下，把“论资排辈”放下。 — Rather than simply rejecting it, better to keep the \"respect\" and let go of \"ranking by seniority.\""
+    }
+  ]
+}

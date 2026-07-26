@@ -1,0 +1,225 @@
+{
+  "slug": "hsk4-face-culture",
+  "level": 4,
+  "title_zh": "面子",
+  "title_py": "Miànzi",
+  "title_en": "Face",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["面子", "miànzi", "face (social standing)"],
+        ["是", "shì", "is"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["非常", "fēicháng", "extremely"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(possessive)"],
+        ["词", "cí", "word"],
+        ["。"]
+      ],
+      "en": "In China, 'face' is an extremely important word."
+    },
+    {
+      "t": [
+        ["面子", "miànzi", "face (social standing)"],
+        ["不是", "bú shì", "is not"],
+        ["你", "nǐ", "your"],
+        ["的", "de", "(possessive)"],
+        ["脸", "liǎn", "face (physical)"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["别人", "biéren", "other people"],
+        ["对", "duì", "toward"],
+        ["你", "nǐ", "you"],
+        ["的", "de", "(possessive)"],
+        ["看法", "kànfǎ", "view; opinion"],
+        ["。"]
+      ],
+      "en": "Face is not your actual face, but how other people see you."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friends"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chīfàn", "to eat a meal"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["常常", "chángcháng", "often"],
+        ["抢", "qiǎng", "to fight over; grab"],
+        ["着", "zhe", "(aspect particle)"],
+        ["付", "fù", "to pay"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["谁", "shéi", "whoever"],
+        ["付", "fù", "to pay"],
+        ["了", "le", "(particle)"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["谁", "shéi", "that person"],
+        ["就", "jiù", "then"],
+        ["有", "yǒu", "to have"],
+        ["面子", "miànzi", "face (social standing)"],
+        ["。"]
+      ],
+      "en": "When friends eat out together, everyone often fights to pay the bill — whoever pays gains face."
+    },
+    {
+      "t": [
+        ["如果", "rúguǒ", "if"],
+        ["你", "nǐ", "you"],
+        ["在", "zài", "in"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["面前", "miànqián", "in front of"],
+        ["批评", "pīpíng", "to criticize"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["人", "rén", "person"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["会", "huì", "will"],
+        ["觉得", "juéde", "to feel"],
+        ["自己", "zìjǐ", "oneself"],
+        ["丢", "diū", "to lose"],
+        ["了", "le", "(particle)"],
+        ["面子", "miànzi", "face (social standing)"],
+        ["，"],
+        ["可能", "kěnéng", "maybe"],
+        ["再", "zài", "again"],
+        ["也", "yě", "also"],
+        ["不", "bù", "not"],
+        ["想", "xiǎng", "to want"],
+        ["跟", "gēn", "with"],
+        ["你", "nǐ", "you"],
+        ["做", "zuò", "to be"],
+        ["朋友", "péngyou", "friend"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "If you criticize someone in front of many people, he will feel he has lost face and may never want to be your friend again."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so"],
+        ["中国人", "Zhōngguórén", "Chinese people"],
+        ["提", "tí", "to raise; put forward"],
+        ["意见", "yìjiàn", "opinion; suggestion"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["说", "shuō", "to speak"],
+        ["得", "de", "(degree particle)"],
+        ["客气", "kèqi", "polite"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["，"],
+        ["先", "xiān", "first"],
+        ["说", "shuō", "to say"],
+        ["优点", "yōudiǎn", "strong point"],
+        ["，"],
+        ["再", "zài", "then"],
+        ["说", "shuō", "to say"],
+        ["问题", "wèntí", "problem"],
+        ["。"]
+      ],
+      "en": "So when Chinese people give feedback, they like to put it politely — strengths first, problems second."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["觉得", "juéde", "to feel"],
+        ["太", "tài", "too"],
+        ["讲", "jiǎng", "to care about"],
+        ["面子", "miànzi", "face (social standing)"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tiring"],
+        ["，"],
+        ["请客", "qǐngkè", "to treat guests"],
+        ["、"],
+        ["送", "sòng", "to give"],
+        ["礼物", "lǐwù", "gift"],
+        ["都", "dōu", "all"],
+        ["要", "yào", "must"],
+        ["花", "huā", "to spend"],
+        ["很多", "hěn duō", "a lot of"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "Some people find caring too much about face exhausting — treating guests and giving gifts all cost a lot of money."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to think"],
+        ["，"],
+        ["面子", "miànzi", "face (social standing)"],
+        ["就", "jiù", "just"],
+        ["像", "xiàng", "like"],
+        ["衣服", "yīfu", "clothes"],
+        ["一样", "yíyàng", "the same as"],
+        ["："],
+        ["穿", "chuān", "to wear"],
+        ["得", "de", "(degree particle)"],
+        ["合适", "héshì", "fitting; suitable"],
+        ["让", "ràng", "to make"],
+        ["人", "rén", "people"],
+        ["舒服", "shūfu", "comfortable"],
+        ["，"],
+        ["穿", "chuān", "to wear"],
+        ["得", "de", "(degree particle)"],
+        ["太", "tài", "too"],
+        ["多", "duō", "much"],
+        ["就", "jiù", "then"],
+        ["会", "huì", "will"],
+        ["热", "rè", "hot"],
+        ["得", "de", "(degree particle)"],
+        ["受不了", "shòu bu liǎo", "unbearable"],
+        ["。"]
+      ],
+      "en": "I think face is like clothing: worn right, it makes people comfortable; worn in too many layers, you get unbearably hot."
+    }
+  ],
+  "vocab": [
+    ["面子", "miànzi", "face; social standing"],
+    ["抢", "qiǎng", "to fight over; to grab"],
+    ["批评", "pīpíng", "to criticize"],
+    ["意见", "yìjiàn", "opinion; suggestion"],
+    ["优点", "yōudiǎn", "strong point; merit"],
+    ["受不了", "shòu bu liǎo", "cannot bear"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what is 'face'?",
+      "a": ["The front part of your head", "How other people see you", "A kind of traditional clothing"],
+      "c": 1
+    },
+    {
+      "q": "When friends eat out together, who gains face?",
+      "a": ["Whoever pays the bill", "Whoever orders the most dishes", "Whoever arrives first"],
+      "c": 0
+    },
+    {
+      "q": "How do Chinese people prefer to give feedback?",
+      "a": ["Say the problems loudly in front of everyone", "Say nothing at all", "Politely, mentioning strengths first and problems second"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "谁……，谁就……",
+      "e": "A question word used twice means \"whoever / whichever\": 谁付了钱，谁就有面子。",
+      "x": "谁先到，谁就先点菜。— Whoever arrives first orders first."
+    },
+    {
+      "p": "V + 得 + adjective",
+      "e": "得 after a verb introduces how the action is done or to what degree: 说得客气一点儿；热得受不了。",
+      "x": "他汉语说得非常好。— He speaks Chinese very well."
+    }
+  ]
+}

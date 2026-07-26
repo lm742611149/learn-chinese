@@ -1,0 +1,331 @@
+{
+  "slug": "hsk6-space-exploration",
+  "level": 6,
+  "title_zh": "太空探索值得吗",
+  "title_py": "Tàikōng tànsuǒ zhídé ma",
+  "title_en": "Is Space Exploration Worth It?",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每当", "měi dāng", "whenever"],
+        ["有", "yǒu", "there is"],
+        ["火箭", "huǒjiàn", "rocket"],
+        ["升空", "shēngkōng", "to lift off"],
+        ["，"],
+        ["社交", "shèjiāo", "social"],
+        ["媒体", "méitǐ", "media"],
+        ["上", "shàng", "on"],
+        ["总会", "zǒng huì", "always"],
+        ["出现", "chūxiàn", "to appear"],
+        ["同", "tóng", "the same"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["质疑", "zhìyí", "challenge; questioning"],
+        ["："],
+        ["地球", "dìqiú", "the Earth"],
+        ["上", "shàng", "on"],
+        ["还", "hái", "still"],
+        ["有", "yǒu", "there are"],
+        ["那么", "nàme", "so"],
+        ["多", "duō", "many"],
+        ["问题", "wèntí", "problem"],
+        ["没", "méi", "not"],
+        ["解决", "jiějué", "to solve"],
+        ["，"],
+        ["为什么", "wèishénme", "why"],
+        ["要", "yào", "should"],
+        ["花钱", "huāqián", "to spend money"],
+        ["去", "qù", "to go to"],
+        ["太空", "tàikōng", "outer space"],
+        ["？"]
+      ],
+      "en": "Whenever a rocket lifts off, the same challenge shows up on social media: there are still so many unsolved problems on Earth, so why spend money going into space?"
+    },
+    {
+      "t": [
+        ["这个", "zhège", "this"],
+        ["问题", "wèntí", "question"],
+        ["听起来", "tīng qǐlái", "sounds"],
+        ["很", "hěn", "very"],
+        ["有道理", "yǒu dàolǐ", "reasonable"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["忽略", "hūlüè", "to overlook"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["事实", "shìshí", "fact"],
+        ["："],
+        ["航天", "hángtiān", "spaceflight; aerospace"],
+        ["投入", "tóurù", "investment; input"],
+        ["并没有", "bìng méiyǒu", "has not in fact"],
+        ["被", "bèi", "(passive marker)"],
+        ["“"],
+        ["扔", "rēng", "to throw"],
+        ["进", "jìn", "into"],
+        ["太空", "tàikōng", "space"],
+        ["”"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["最终", "zuìzhōng", "ultimately"],
+        ["花", "huā", "to spend"],
+        ["在", "zài", "on"],
+        ["了", "le", "(completed action)"],
+        ["地面上", "dìmiàn shang", "on the ground"],
+        ["的", "de", "(possessive particle)"],
+        ["工程师", "gōngchéngshī", "engineer"],
+        ["和", "hé", "and"],
+        ["工厂", "gōngchǎng", "factory"],
+        ["身上", "shēnshang", "on"],
+        ["。"]
+      ],
+      "en": "The question sounds reasonable, but it overlooks one fact: money put into spaceflight is not actually \"thrown into space\" — it ends up being spent on engineers and factories here on the ground."
+    },
+    {
+      "t": [
+        ["更何况", "gèng hékuàng", "what is more"],
+        ["，"],
+        ["许多", "xǔduō", "many"],
+        ["今天", "jīntiān", "today"],
+        ["离不开", "lí bu kāi", "cannot do without"],
+        ["的", "de", "(possessive particle)"],
+        ["东西", "dōngxi", "things"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["来自", "láizì", "come from"],
+        ["航天", "hángtiān", "aerospace"],
+        ["技术", "jìshù", "technology"],
+        ["的", "de", "(possessive particle)"],
+        ["意外", "yìwài", "unexpected"],
+        ["收获", "shōuhuò", "gains; spin-offs"],
+        ["，"],
+        ["比如", "bǐrú", "for instance"],
+        ["卫星", "wèixīng", "satellite"],
+        ["导航", "dǎoháng", "navigation"],
+        ["、"],
+        ["气象", "qìxiàng", "weather"],
+        ["预报", "yùbào", "forecast"],
+        ["，"],
+        ["以及", "yǐjí", "as well as"],
+        ["医院", "yīyuàn", "hospital"],
+        ["里", "lǐ", "in; inside"],
+        ["的", "de", "(possessive particle)"],
+        ["一", "yí", "one"],
+        ["部分", "bùfen", "part"],
+        ["成像", "chéngxiàng", "imaging"],
+        ["设备", "shèbèi", "equipment"],
+        ["。"]
+      ],
+      "en": "What is more, many things we cannot do without today came out of the unexpected spin-offs of aerospace technology: satellite navigation, weather forecasting, and some of the imaging equipment in hospitals."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["，"],
+        ["怀疑者", "huáiyízhě", "the skeptics"],
+        ["的", "de", "(possessive particle)"],
+        ["担忧", "dānyōu", "concern; worry"],
+        ["也", "yě", "also"],
+        ["不是", "bú shì", "is not"],
+        ["没有", "méiyǒu", "without"],
+        ["道理", "dàolǐ", "reason; sense"],
+        ["。"]
+      ],
+      "en": "That said, the skeptics' worries are not without foundation either."
+    },
+    {
+      "t": [
+        ["当", "dāng", "when"],
+        ["亿万富翁", "yìwàn fùwēng", "billionaire"],
+        ["把", "bǎ", "(object marker)"],
+        ["飞船", "fēichuán", "spacecraft"],
+        ["当成", "dàngchéng", "to treat as"],
+        ["个人", "gèrén", "personal"],
+        ["玩具", "wánjù", "toy"],
+        ["的", "de", "(possessive particle)"],
+        ["时候", "shíhou", "time"],
+        ["，"],
+        ["普通人", "pǔtōngrén", "ordinary people"],
+        ["很难", "hěn nán", "find it hard to"],
+        ["感到", "gǎndào", "to feel"],
+        ["这", "zhè", "this"],
+        ["是", "shì", "is"],
+        ["“"],
+        ["人类", "rénlèi", "humankind"],
+        ["的", "de", "(possessive particle)"],
+        ["探索", "tànsuǒ", "exploration"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "When billionaires treat spacecraft as personal toys, ordinary people find it hard to feel that this is \"humanity's exploration.\""
+    },
+    {
+      "t": [
+        ["近地", "jìndì", "near-Earth"],
+        ["轨道", "guǐdào", "orbit"],
+        ["上", "shàng", "on"],
+        ["越来越", "yuèláiyuè", "increasingly"],
+        ["拥挤", "yōngjǐ", "crowded"],
+        ["的", "de", "(possessive particle)"],
+        ["卫星", "wèixīng", "satellite"],
+        ["和", "hé", "and"],
+        ["碎片", "suìpiàn", "debris; fragments"],
+        ["，"],
+        ["同样", "tóngyàng", "equally"],
+        ["是", "shì", "is"],
+        ["一", "yì", "one"],
+        ["笔", "bǐ", "(measure word for sums)"],
+        ["迟早", "chízǎo", "sooner or later"],
+        ["要", "yào", "must"],
+        ["还", "huán", "to repay"],
+        ["的", "de", "(possessive particle)"],
+        ["账", "zhàng", "debt; account"],
+        ["。"]
+      ],
+      "en": "The satellites and debris crowding low Earth orbit are likewise a bill that will have to be paid sooner or later."
+    },
+    {
+      "t": [
+        ["或许", "huòxǔ", "perhaps"],
+        ["更", "gèng", "more"],
+        ["值得", "zhídé", "worth"],
+        ["讨论", "tǎolùn", "discussing"],
+        ["的", "de", "(nominalizing particle)"],
+        ["不是", "bú shì", "is not"],
+        ["要不要", "yào bu yào", "whether to"],
+        ["去", "qù", "to go"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["怎么", "zěnme", "how"],
+        ["去", "qù", "to go"],
+        ["、"],
+        ["由", "yóu", "by"],
+        ["谁", "shéi", "whom"],
+        ["决定", "juédìng", "to decide"],
+        ["去", "qù", "to go"],
+        ["。"]
+      ],
+      "en": "Perhaps what deserves discussion is not whether to go, but how to go and who gets to decide."
+    },
+    {
+      "t": [
+        ["一九六八", "yī jiǔ liù bā", "1968"],
+        ["年", "nián", "year"],
+        ["，"],
+        ["阿波罗", "Ābōluó", "Apollo"],
+        ["八号", "bā hào", "number eight"],
+        ["的", "de", "(possessive particle)"],
+        ["宇航员", "yǔhángyuán", "astronaut"],
+        ["从", "cóng", "from"],
+        ["月球", "yuèqiú", "the Moon"],
+        ["轨道", "guǐdào", "orbit"],
+        ["拍", "pāi", "to take (a photo)"],
+        ["下", "xià", "(resultative complement)"],
+        ["了", "le", "(completed action)"],
+        ["那", "nà", "that"],
+        ["张", "zhāng", "(measure word for photos)"],
+        ["著名", "zhùmíng", "famous"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["地球升起", "dìqiú shēngqǐ", "Earthrise"],
+        ["”"],
+        ["，"],
+        ["第一次", "dì-yī cì", "for the first time"],
+        ["让", "ràng", "to let"],
+        ["人类", "rénlèi", "humankind"],
+        ["看清", "kànqīng", "to see clearly"],
+        ["自己", "zìjǐ", "oneself"],
+        ["住", "zhù", "to live"],
+        ["在", "zài", "on"],
+        ["一", "yì", "one"],
+        ["颗", "kē", "(measure word for planets)"],
+        ["多么", "duōme", "how"],
+        ["小", "xiǎo", "small"],
+        ["的", "de", "(possessive particle)"],
+        ["星球", "xīngqiú", "planet"],
+        ["上", "shàng", "on"],
+        ["。"]
+      ],
+      "en": "In 1968 the astronauts of Apollo 8 took the famous \"Earthrise\" photograph from lunar orbit, letting humankind see for the first time just how small a planet it lives on."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"],
+        ["这个", "zhège", "this"],
+        ["角度", "jiǎodù", "angle"],
+        ["看", "kàn", "to look"],
+        ["，"],
+        ["探索", "tànsuǒ", "to explore"],
+        ["太空", "tàikōng", "space"],
+        ["与", "yǔ", "and (formal)"],
+        ["照顾", "zhàogù", "to look after"],
+        ["地球", "dìqiú", "the Earth"],
+        ["，"],
+        ["未必", "wèibì", "not necessarily"],
+        ["是", "shì", "is"],
+        ["一", "yí", "one"],
+        ["道", "dào", "(measure word for questions)"],
+        ["非此即彼", "fēi cǐ jí bǐ", "either one or the other (idiom)"],
+        ["的", "de", "(possessive particle)"],
+        ["选择题", "xuǎnzétí", "multiple-choice question"],
+        ["。"]
+      ],
+      "en": "Seen from that angle, exploring space and caring for the Earth are not necessarily an either-or question."
+    }
+  ],
+  "vocab": [
+    ["质疑", "zhìyí", "to question; to challenge; a challenge"],
+    ["航天", "hángtiān", "spaceflight; aerospace"],
+    ["忽略", "hūlüè", "to overlook; to neglect"],
+    ["卫星", "wèixīng", "satellite"],
+    ["轨道", "guǐdào", "orbit; track"],
+    ["碎片", "suìpiàn", "fragments; debris"]
+  ],
+  "quiz": [
+    {
+      "q": "What fact does the writer say the common objection overlooks?",
+      "a": [
+        "Space budgets are actually tiny compared with military spending",
+        "The money is ultimately spent on engineers and factories on the ground",
+        "Rockets can be reused many times"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Which examples does the text give of unexpected spin-offs from aerospace technology?",
+      "a": [
+        "Satellite navigation, weather forecasting and some hospital imaging equipment",
+        "Electric cars, solar panels and wind turbines",
+        "Mobile games, streaming video and online shopping"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the writer suggest is the more useful question to debate?",
+      "a": [
+        "Which country should reach Mars first",
+        "Whether astronauts should be paid more",
+        "Not whether to go, but how to go and who decides"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "每当…，总…",
+      "e": "'Whenever A, B always happens' — 每当 marks a recurring occasion (more formal than 每次), and 总(会/是) states the regular outcome. 例：每当想起那段日子，他总是笑着摇头。",
+      "x": "每当有火箭升空，社交媒体上总会出现同一个质疑。 — Whenever a rocket lifts off, the same challenge always appears on social media."
+    },
+    {
+      "p": "更何况",
+      "e": "'What is more; let alone' — adds a further, stronger reason after an argument has already been made, pushing the conclusion harder. 例：他连简单的句子都听不懂，更何况这样的长篇报告。",
+      "x": "更何况，许多今天离不开的东西，都来自航天技术的意外收获。 — What is more, many things we cannot do without today came from the unexpected spin-offs of aerospace technology."
+    },
+    {
+      "p": "也不是没有…（双重否定）",
+      "e": "A double negative that concedes a point mildly: 'it is not that there is no…', i.e. there is some. Softer and more balanced than a flat affirmative. 例：这个计划也不是没有风险，只是风险可以控制。",
+      "x": "怀疑者的担忧也不是没有道理。 — The skeptics' worries are not without foundation either."
+    }
+  ]
+}

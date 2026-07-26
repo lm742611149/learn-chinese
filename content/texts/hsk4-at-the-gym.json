@@ -1,0 +1,244 @@
+{
+  "slug": "hsk4-at-the-gym",
+  "level": 4,
+  "title_zh": "健身房",
+  "title_py": "Jiànshēnfáng",
+  "title_en": "At the Gym",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["去年", "qùnián", "last year"],
+        ["冬天", "dōngtiān", "winter"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["发现", "fāxiàn", "to discover"],
+        ["裤子", "kùzi", "trousers"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["紧", "jǐn", "tight"],
+        ["，"],
+        ["于是", "yúshì", "so; thereupon"],
+        ["决定", "juédìng", "to decide"],
+        ["去", "qù", "to go"],
+        ["健身房", "jiànshēnfáng", "gym"],
+        ["锻炼", "duànliàn", "to work out"],
+        ["。"]
+      ],
+      "en": "Last winter I found my trousers getting tighter and tighter, so I decided to go work out at a gym."
+    },
+    {
+      "t": [
+        ["第一", "dì-yī", "first"],
+        ["天", "tiān", "day"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["兴奋", "xīngfèn", "excited"],
+        ["地", "de", "(adverbial particle)"],
+        ["办", "bàn", "to get (a card) issued"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["的", "de", "(possessive)"],
+        ["卡", "kǎ", "card"],
+        ["，"],
+        ["还", "hái", "also"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle)"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(possessive)"],
+        ["运动", "yùndòng", "sports"],
+        ["鞋", "xié", "shoes"],
+        ["。"]
+      ],
+      "en": "On day one, I excitedly signed up for a one-year card and even bought new sports shoes."
+    },
+    {
+      "t": [
+        ["教练", "jiàoliàn", "coach"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["想", "xiǎng", "to want"],
+        ["有", "yǒu", "to have"],
+        ["效果", "xiàoguǒ", "effect; results"],
+        ["，"],
+        ["每", "měi", "every"],
+        ["个", "ge", "(measure word)"],
+        ["星期", "xīngqī", "week"],
+        ["至少", "zhìshǎo", "at least"],
+        ["要", "yào", "must"],
+        ["来", "lái", "to come"],
+        ["三", "sān", "three"],
+        ["次", "cì", "times"],
+        ["。"]
+      ],
+      "en": "The coach said that to see results, you must come at least three times a week."
+    },
+    {
+      "t": [
+        ["前", "qián", "first; previous"],
+        ["两", "liǎng", "two"],
+        ["个", "ge", "(measure word)"],
+        ["星期", "xīngqī", "weeks"],
+        ["我", "wǒ", "I"],
+        ["天天", "tiāntiān", "every day"],
+        ["去", "qù", "to go"],
+        ["，"],
+        ["疼", "téng", "sore; to ache"],
+        ["得", "de", "(degree particle)"],
+        ["连", "lián", "even"],
+        ["楼梯", "lóutī", "stairs"],
+        ["都", "dōu", "all"],
+        ["爬", "pá", "to climb"],
+        ["不", "bu", "not"],
+        ["动", "dòng", "(potential: able to move)"],
+        ["。"]
+      ],
+      "en": "For the first two weeks I went every day, and was so sore I couldn't even climb the stairs."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "later"],
+        ["天气", "tiānqì", "weather"],
+        ["冷", "lěng", "cold"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["开始", "kāishǐ", "to start"],
+        ["找", "zhǎo", "to look for"],
+        ["各种", "gè zhǒng", "all kinds of"],
+        ["理由", "lǐyóu", "reasons; excuses"],
+        ["："],
+        ["今天", "jīntiān", "today"],
+        ["下雨", "xià yǔ", "to rain"],
+        ["，"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["加班", "jiābān", "to work overtime"],
+        ["，"],
+        ["后天", "hòutiān", "the day after tomorrow"],
+        ["再说", "zàishuō", "we'll see; talk later"],
+        ["吧", "ba", "(suggestion particle)"],
+        ["。"]
+      ],
+      "en": "Later, when the weather turned cold, I started finding all kinds of excuses: it's raining today, overtime tomorrow, and the day after — we'll see."
+    },
+    {
+      "t": [
+        ["三", "sān", "three"],
+        ["个", "ge", "(measure word)"],
+        ["月", "yuè", "months"],
+        ["以后", "yǐhòu", "later"],
+        ["，"],
+        ["健身房", "jiànshēnfáng", "gym"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "me"],
+        ["打", "dǎ", "to make (a call)"],
+        ["电话", "diànhuà", "phone call"],
+        ["，"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I"],
+        ["是不是", "shì bu shì", "whether or not"],
+        ["把", "bǎ", "(object marker)"],
+        ["卡", "kǎ", "card"],
+        ["丢", "diū", "to lose"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Three months later, the gym called to ask whether I had lost my card."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["不好意思", "bù hǎoyìsi", "embarrassed"],
+        ["地", "de", "(adverbial particle)"],
+        ["又", "yòu", "again"],
+        ["去", "qù", "to go"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["次", "cì", "time"],
+        ["不", "bú", "not"],
+        ["再", "zài", "anymore"],
+        ["要求", "yāoqiú", "to demand"],
+        ["自己", "zìjǐ", "oneself"],
+        ["天天", "tiāntiān", "every day"],
+        ["去", "qù", "to go"],
+        ["，"],
+        ["只", "zhǐ", "only"],
+        ["要求", "yāoqiú", "to demand"],
+        ["每", "měi", "every"],
+        ["次", "cì", "time"],
+        ["都", "dōu", "all"],
+        ["认真", "rènzhēn", "seriously"],
+        ["练", "liàn", "to train"],
+        ["。"]
+      ],
+      "en": "Embarrassed, I went back — this time not demanding that I go every day, only that I train seriously each time."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I"],
+        ["明白", "míngbai", "to understand"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["办", "bàn", "to get (a card) issued"],
+        ["卡", "kǎ", "card"],
+        ["容易", "róngyì", "easy"],
+        ["，"],
+        ["坚持", "jiānchí", "to persist"],
+        ["难", "nán", "hard"],
+        ["；"],
+        ["锻炼", "duànliàn", "to exercise"],
+        ["身体", "shēntǐ", "body"],
+        ["需要", "xūyào", "to need"],
+        ["的", "de", "(possessive)"],
+        ["是", "shì", "is"],
+        ["习惯", "xíguàn", "habit"],
+        ["，"],
+        ["不是", "bú shì", "is not"],
+        ["那", "nà", "that"],
+        ["张", "zhāng", "(measure word)"],
+        ["卡", "kǎ", "card"],
+        ["。"]
+      ],
+      "en": "Now I understand: signing up is easy, keeping at it is hard; getting fit takes a habit, not that card."
+    }
+  ],
+  "vocab": [
+    ["健身房", "jiànshēnfáng", "gym"],
+    ["紧", "jǐn", "tight"],
+    ["教练", "jiàoliàn", "coach"],
+    ["效果", "xiàoguǒ", "effect; results"],
+    ["理由", "lǐyóu", "reason; excuse"],
+    ["坚持", "jiānchí", "to persist; to keep at it"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the author decide to go to the gym?",
+      "a": ["The doctor told them to exercise", "Their trousers were getting tighter and tighter", "A friend invited them to go together"],
+      "c": 1
+    },
+    {
+      "q": "According to the coach, how often should you come to see results?",
+      "a": ["At least three times a week", "Every single day", "Once a month is enough"],
+      "c": 0
+    },
+    {
+      "q": "Why did the gym call the author after three months?",
+      "a": ["To sell a more expensive card", "To say the coach had left", "To ask whether the card had been lost"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "……，于是……",
+      "e": "于是 links a situation to the action that naturally followed, \"so / thereupon\": 裤子越来越紧，于是决定去健身房锻炼。",
+      "x": "商店关门了，于是我们去了别的地方。— The shop had closed, so we went somewhere else."
+    },
+    {
+      "p": "V + 不 + 动",
+      "e": "The potential complement 不动 means you lack the strength to do the action: 疼得连楼梯都爬不动。",
+      "x": "行李太重了，我一个人拿不动。— The luggage is too heavy; I can't carry it by myself."
+    }
+  ]
+}

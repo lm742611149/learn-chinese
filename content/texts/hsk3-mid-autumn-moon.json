@@ -1,0 +1,79 @@
+{
+  "slug": "hsk3-mid-autumn-moon",
+  "level": 3,
+  "title_zh": "中秋节的月亮",
+  "title_py": "Zhōngqiūjié de yuèliang",
+  "title_en": "The Mid-Autumn Moon",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["昨天", "zuótiān", "yesterday"], ["是", "shì", "to be"], ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["，"], ["我", "wǒ", "I; me"], ["的", "de", "(particle: possessive)"], ["中国", "Zhōngguó", "China"], ["朋友", "péngyou", "friend"], ["请", "qǐng", "to invite"], ["我", "wǒ", "I; me"], ["去", "qù", "to go"], ["他", "tā", "he; him"], ["家", "jiā", "home"], ["吃饭", "chīfàn", "to have a meal"], ["。"]],
+      "en": "Yesterday was the Mid-Autumn Festival, and my Chinese friend invited me to his home for dinner."
+    },
+    {
+      "t": [["晚饭", "wǎnfàn", "dinner"], ["以后", "yǐhòu", "after"], ["，"], ["我们", "wǒmen", "we; us"], ["坐", "zuò", "to sit"], ["在", "zài", "at; in"], ["外面", "wàimiàn", "outside"], ["，"], ["一边", "yìbiān", "while (doing A)"], ["吃", "chī", "to eat"], ["月饼", "yuèbing", "mooncake"], ["，"], ["一边", "yìbiān", "while (doing B)"], ["看", "kàn", "to look at"], ["月亮", "yuèliang", "moon"], ["。"]],
+      "en": "After dinner, we sat outside, eating mooncakes while watching the moon."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"], ["的", "de", "(particle: possessive)"], ["奶奶", "nǎinai", "grandma"], ["说", "shuō", "to say"], ["："], ["“"], ["一年", "yì nián", "one year"], ["里", "lǐ", "in; within"], ["，"], ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["的", "de", "(particle: attributive)"], ["月亮", "yuèliang", "moon"], ["最", "zuì", "most"], ["圆", "yuán", "round"], ["。"], ["”"]],
+      "en": "My friend's grandma said, \"In the whole year, the Mid-Autumn moon is the roundest.\""
+    },
+    {
+      "t": [["她", "tā", "she; her"], ["还", "hái", "also"], ["给", "gěi", "for; to"], ["我们", "wǒmen", "we; us"], ["讲", "jiǎng", "to tell"], ["了", "le", "(particle: completed action)"], ["一个", "yí ge", "one"], ["月亮", "yuèliang", "moon"], ["上", "shàng", "on"], ["的", "de", "(particle: attributive)"], ["老", "lǎo", "old"], ["故事", "gùshi", "story"], ["，"], ["非常", "fēicháng", "very; extremely"], ["有意思", "yǒu yìsi", "interesting"], ["。"]],
+      "en": "She also told us an old story about the moon; it was really interesting."
+    },
+    {
+      "t": [["月饼", "yuèbing", "mooncake"], ["有点儿", "yǒudiǎnr", "a little"], ["甜", "tián", "sweet"], ["，"], ["我", "wǒ", "I; me"], ["吃", "chī", "to eat"], ["了", "le", "(particle: completed action)"], ["两", "liǎng", "two"], ["块", "kuài", "piece (measure word)"], ["，"], ["还", "hái", "also"], ["喝", "hē", "to drink"], ["了", "le", "(particle: completed action)"], ["一杯", "yì bēi", "one cup of"], ["热", "rè", "hot"], ["茶", "chá", "tea"], ["。"]],
+      "en": "The mooncakes were a little sweet; I ate two pieces and also drank a cup of hot tea."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"], ["告诉", "gàosu", "to tell"], ["我", "wǒ", "I; me"], ["，"], ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["家人", "jiārén", "family members"], ["要", "yào", "should; to want to"], ["在", "zài", "at; to be at"], ["一起", "yìqǐ", "together"], ["，"], ["这", "zhè", "this"], ["叫", "jiào", "to be called"], ["“"], ["团圆", "tuányuán", "family reunion"], ["”"], ["。"]],
+      "en": "My friend told me that at Mid-Autumn Festival, the family should be together — this is called \"tuanyuan\", reunion."
+    },
+    {
+      "t": [["看", "kàn", "to look at"], ["着", "zhe", "(particle: ongoing state)"], ["又", "yòu", "both (又…又…)"], ["大", "dà", "big"], ["又", "yòu", "and (又…又…)"], ["圆", "yuán", "round"], ["的", "de", "(particle: attributive)"], ["月亮", "yuèliang", "moon"], ["，"], ["我", "wǒ", "I; me"], ["也", "yě", "also"], ["想", "xiǎng", "to miss"], ["家", "jiā", "home"], ["了", "le", "(particle: change of state)"], ["，"], ["就", "jiù", "so; then"], ["给", "gěi", "to; for"], ["妈妈", "māma", "mom"], ["打", "dǎ", "to make (a call)"], ["了", "le", "(particle: completed action)"], ["一个", "yí ge", "one"], ["电话", "diànhuà", "phone call"], ["。"]],
+      "en": "Looking at the big, round moon, I started to miss home too, so I gave my mom a call."
+    },
+    {
+      "t": [["妈妈", "māma", "mom"], ["笑", "xiào", "to smile"], ["着", "zhe", "(particle: ongoing state)"], ["说", "shuō", "to say"], ["："], ["“"], ["虽然", "suīrán", "although"], ["你", "nǐ", "you"], ["离", "lí", "(distance) from"], ["家", "jiā", "home"], ["很", "hěn", "very"], ["远", "yuǎn", "far"], ["，"], ["但是", "dànshì", "but"], ["我们", "wǒmen", "we; us"], ["看", "kàn", "to look at"], ["的", "de", "(particle: nominalizer)"], ["月亮", "yuèliang", "moon"], ["是", "shì", "to be"], ["一样", "yíyàng", "the same"], ["的", "de", "(particle)"], ["。"], ["”"]],
+      "en": "Mom said with a smile, \"Although you are far from home, the moon we see is the same one.\""
+    }
+  ],
+  "vocab": [
+    ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"],
+    ["月亮", "yuèliang", "moon"],
+    ["月饼", "yuèbing", "mooncake"],
+    ["圆", "yuán", "round"],
+    ["团圆", "tuányuán", "family reunion"],
+    ["讲", "jiǎng", "to tell (a story)"]
+  ],
+  "quiz": [
+    {
+      "q": "According to Grandma, when is the moon the roundest?",
+      "a": ["At Mid-Autumn Festival", "In spring", "At New Year"],
+      "c": 0
+    },
+    {
+      "q": "How many pieces of mooncake did the writer eat?",
+      "a": ["One", "Two", "Three"],
+      "c": 1
+    },
+    {
+      "q": "Who did the writer call that evening?",
+      "a": ["Grandma", "A friend", "Mom"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边 A 一边 B — doing A and B at the same time",
+      "e": "Two actions happening together: 我们一边吃月饼，一边看月亮。",
+      "x": "他一边走路，一边听音乐。 — He listens to music while walking."
+    },
+    {
+      "p": "Verb + 着 — ongoing state or manner",
+      "e": "着 shows a continuing state, often describing how another action is done: 妈妈笑着说……",
+      "x": "他站着看书。 — He reads standing up."
+    }
+  ]
+}

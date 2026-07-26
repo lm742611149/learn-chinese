@@ -1,0 +1,307 @@
+{
+  "slug": "hsk6-dao-follows-nature",
+  "level": 6,
+  "title_zh": "道法自然",
+  "title_py": "Dào fǎ zìrán",
+  "title_en": "The Way Follows Nature",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["《"],
+        ["道德经", "Dàodéjīng", "the Dao De Jing (Laozi's classic)"],
+        ["》"],
+        ["里", "lǐ", "in; inside"],
+        ["“"],
+        ["道法自然", "dào fǎ zìrán", "the Way follows what is naturally so"],
+        ["”"],
+        ["这", "zhè", "this"],
+        ["四", "sì", "four"],
+        ["个", "ge", "(measure word)"],
+        ["字", "zì", "character"],
+        ["，"],
+        ["常", "cháng", "often"],
+        ["被", "bèi", "(passive marker)"],
+        ["译", "yì", "to translate"],
+        ["成", "chéng", "into"],
+        ["“"],
+        ["顺其自然", "shùn qí zìrán", "to let nature take its course (idiom)"],
+        ["”"],
+        ["，"],
+        ["其实", "qíshí", "in fact"],
+        ["远", "yuǎn", "far"],
+        ["比", "bǐ", "than"],
+        ["这样", "zhèyàng", "this"],
+        ["的", "de", "(possessive particle)"],
+        ["翻译", "fānyì", "translation"],
+        ["复杂", "fùzá", "complicated"],
+        ["。"]
+      ],
+      "en": "The four characters 道法自然 from the Dao De Jing are often rendered as \"let nature take its course,\" but they are in fact far more complicated than that translation suggests."
+    },
+    {
+      "t": [
+        ["老子", "Lǎozǐ", "Laozi"],
+        ["所", "suǒ", "(nominalizing particle, formal)"],
+        ["说", "shuō", "to say"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["自然", "zìrán", "nature; what is naturally so"],
+        ["”"],
+        ["，"],
+        ["并不是", "bìng bú shì", "is by no means"],
+        ["山川", "shānchuān", "mountains and rivers"],
+        ["草木", "cǎomù", "grass and trees"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["事物", "shìwù", "things"],
+        ["“"],
+        ["本来如此", "běnlái rúcǐ", "being just as it originally is"],
+        ["”"],
+        ["的", "de", "(possessive particle)"],
+        ["那", "nà", "that"],
+        ["种", "zhǒng", "kind (measure word)"],
+        ["状态", "zhuàngtài", "state; condition"],
+        ["。"]
+      ],
+      "en": "The \"nature\" Laozi speaks of is by no means mountains, rivers, grass and trees, but rather the state of things being just as they originally are."
+    },
+    {
+      "t": [
+        ["换句话说", "huàn jù huà shuō", "in other words"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["强调", "qiángdiào", "to emphasize"],
+        ["的", "de", "(nominalizing particle)"],
+        ["是", "shì", "is"],
+        ["："],
+        ["不要", "bú yào", "do not"],
+        ["用", "yòng", "to use"],
+        ["蛮力", "mánlì", "brute force"],
+        ["去", "qù", "to go (and do)"],
+        ["扭曲", "niǔqū", "to distort; twist"],
+        ["事物", "shìwù", "things"],
+        ["本来", "běnlái", "original"],
+        ["的", "de", "(possessive particle)"],
+        ["节奏", "jiézòu", "rhythm; pace"],
+        ["。"]
+      ],
+      "en": "In other words, what it stresses is this: do not use brute force to twist the original rhythm of things."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["一", "yì", "one"],
+        ["点", "diǎn", "point"],
+        ["在", "zài", "in"],
+        ["城市", "chéngshì", "city"],
+        ["规划", "guīhuà", "planning"],
+        ["中", "zhōng", "in (formal)"],
+        ["体现", "tǐxiàn", "to be embodied; reflected"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["清楚", "qīngchu", "clear"],
+        ["："],
+        ["一", "yì", "one"],
+        ["条", "tiáo", "(measure word for rivers)"],
+        ["被", "bèi", "(passive marker)"],
+        ["水泥", "shuǐní", "concrete"],
+        ["封死", "fēngsǐ", "to seal off completely"],
+        ["的", "de", "(possessive particle)"],
+        ["河", "hé", "river"],
+        ["，"],
+        ["遇到", "yùdào", "to encounter"],
+        ["暴雨", "bàoyǔ", "torrential rain"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["更", "gèng", "more"],
+        ["容易", "róngyì", "likely to"],
+        ["泛滥", "fànlàn", "to flood; overflow"],
+        ["。"]
+      ],
+      "en": "This shows up clearly in city planning: a river sealed in concrete is actually more likely to flood when a downpour comes."
+    },
+    {
+      "t": [
+        ["近年来", "jìnnián lái", "in recent years"],
+        ["流行", "liúxíng", "popular; in fashion"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["海绵城市", "hǎimián chéngshì", "sponge city"],
+        ["”"],
+        ["让", "ràng", "to let"],
+        ["雨水", "yǔshuǐ", "rainwater"],
+        ["重新", "chóngxīn", "once again"],
+        ["渗", "shèn", "to seep"],
+        ["进", "jìn", "into"],
+        ["土壤", "tǔrǎng", "soil"],
+        ["，"],
+        ["某种程度上", "mǒu zhǒng chéngdù shang", "to some extent"],
+        ["正是", "zhèng shì", "is precisely"],
+        ["古老", "gǔlǎo", "ancient"],
+        ["智慧", "zhìhuì", "wisdom"],
+        ["的", "de", "(possessive particle)"],
+        ["现代", "xiàndài", "modern"],
+        ["版本", "bǎnběn", "version"],
+        ["。"]
+      ],
+      "en": "The \"sponge cities\" fashionable in recent years let rainwater seep back into the soil, which is to some extent a modern version of that ancient wisdom."
+    },
+    {
+      "t": [
+        ["当然", "dāngrán", "of course"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["“"],
+        ["道法自然", "dào fǎ zìrán", "the Way follows what is naturally so"],
+        ["”"],
+        ["理解", "lǐjiě", "to understand"],
+        ["成", "chéng", "as"],
+        ["什么", "shénme", "anything"],
+        ["都", "dōu", "all"],
+        ["不", "bù", "not"],
+        ["做", "zuò", "to do"],
+        ["，"],
+        ["未免", "wèimiǎn", "a bit too; rather"],
+        ["过于", "guòyú", "excessively"],
+        ["消极", "xiāojí", "passive; negative"],
+        ["。"]
+      ],
+      "en": "Of course, reading 道法自然 as an excuse to do nothing at all is rather too passive."
+    },
+    {
+      "t": [
+        ["老子", "Lǎozǐ", "Laozi"],
+        ["讲", "jiǎng", "to speak of"],
+        ["的", "de", "(possessive particle)"],
+        ["“"],
+        ["无为", "wúwéi", "non-action; not forcing things"],
+        ["”"],
+        ["，"],
+        ["指", "zhǐ", "to refer to"],
+        ["的", "de", "(nominalizing particle)"],
+        ["是", "shì", "is"],
+        ["不", "bú", "not"],
+        ["妄为", "wàngwéi", "to act rashly"],
+        ["，"],
+        ["而", "ér", "rather than (formal)"],
+        ["不是", "bú shì", "is not"],
+        ["不", "bú", "not"],
+        ["作为", "zuòwéi", "to take action"],
+        ["。"]
+      ],
+      "en": "The 无为 Laozi talks about means not acting rashly, not refusing to act at all."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["位", "wèi", "(polite measure word for people)"],
+        ["种地", "zhòngdì", "to farm"],
+        ["的", "de", "(possessive particle)"],
+        ["朋友", "péngyou", "friend"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "me"],
+        ["，"],
+        ["务农", "wùnóng", "to work the land"],
+        ["最", "zuì", "most"],
+        ["要紧", "yàojǐn", "important; critical"],
+        ["的", "de", "(possessive particle)"],
+        ["本事", "běnshi", "skill; ability"],
+        ["，"],
+        ["是", "shì", "is"],
+        ["知道", "zhīdào", "to know"],
+        ["什么时候", "shénme shíhou", "when"],
+        ["该", "gāi", "should"],
+        ["动手", "dòngshǒu", "to get to work"],
+        ["，"],
+        ["什么时候", "shénme shíhou", "when"],
+        ["该", "gāi", "should"],
+        ["等", "děng", "to wait"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["。"]
+      ],
+      "en": "A friend who farms told me that the most critical skill in working the land is knowing when to get to work and when to simply wait."
+    },
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["节奏", "jiézòu", "pace"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["快", "kuài", "fast"],
+        ["的", "de", "(possessive particle)"],
+        ["生活", "shēnghuó", "life"],
+        ["里", "lǐ", "in; inside"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["不妨", "bùfáng", "might as well"],
+        ["偶尔", "ǒu'ěr", "occasionally"],
+        ["停", "tíng", "to stop"],
+        ["下来", "xiàlái", "(directional complement)"],
+        ["，"],
+        ["看看", "kànkan", "to take a look"],
+        ["事情", "shìqing", "things; matters"],
+        ["本来", "běnlái", "originally"],
+        ["想", "xiǎng", "to want"],
+        ["往", "wǎng", "toward"],
+        ["哪个", "nǎge", "which"],
+        ["方向", "fāngxiàng", "direction"],
+        ["生长", "shēngzhǎng", "to grow"],
+        ["。"]
+      ],
+      "en": "In a life that keeps speeding up, we might as well stop now and then and look at which direction things wanted to grow in the first place."
+    }
+  ],
+  "vocab": [
+    ["顺其自然", "shùn qí zìrán", "to let nature take its course; to go with the flow"],
+    ["蛮力", "mánlì", "brute force"],
+    ["扭曲", "niǔqū", "to distort; to twist"],
+    ["泛滥", "fànlàn", "to flood; to overflow; to spread unchecked"],
+    ["无为", "wúwéi", "non-action; refraining from forcing things (Daoist term)"],
+    ["消极", "xiāojí", "passive; negative; unenthusiastic"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what does Laozi's 自然 actually refer to?",
+      "a": [
+        "Mountains, rivers, grass and trees",
+        "The state of things being just as they originally are",
+        "A form of nature worship"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why does the text mention rivers sealed in concrete?",
+      "a": [
+        "To show that forcing things against their nature can backfire, as such rivers flood more easily",
+        "To argue that concrete is too expensive for city budgets",
+        "To praise modern engineering for eliminating floods"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How does the writer explain 无为?",
+      "a": [
+        "It means doing nothing and letting others decide",
+        "It means working as hard as possible at all times",
+        "It means not acting rashly, rather than not acting at all"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "并不是…，而是…",
+      "e": "'It is by no means A, but rather B' — 并 before 不是 strengthens the denial, correcting an assumption the reader may hold; 而是 supplies the accurate version. 例：他并不是不想去，而是没有时间。",
+      "x": "老子所说的“自然”，并不是山川草木，而是事物“本来如此”的那种状态。 — The \"nature\" Laozi speaks of is by no means mountains and rivers, but the state of things being just as they originally are."
+    },
+    {
+      "p": "未免 + 太/过于 + adj.",
+      "e": "'That is rather too…' — 未免 softens a criticism, marking a judgment as somewhat excessive. It comments on a situation, never on a request. 例：这样批评一个孩子，未免太严厉了。",
+      "x": "把“道法自然”理解成什么都不做，未免过于消极。 — Reading 道法自然 as doing nothing at all is rather too passive."
+    },
+    {
+      "p": "不妨 + verb",
+      "e": "'Might as well; there is no harm in doing…' — a gentle suggestion that the action costs little and may help. 例：如果拿不定主意，不妨先问问专业人士。",
+      "x": "我们不妨偶尔停下来，看看事情本来想往哪个方向生长。 — We might as well stop now and then and see which way things wanted to grow."
+    }
+  ]
+}

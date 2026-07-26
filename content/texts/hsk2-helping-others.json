@@ -1,0 +1,164 @@
+{
+  "slug": "hsk2-helping-others",
+  "level": 2,
+  "title_zh": "帮助别人",
+  "title_py": "Bāngzhù biérén",
+  "title_en": "Helping Others",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["朋友", "péngyou", "friend"],
+        ["生病", "shēngbìng", "to get sick"],
+        ["了", "le", "(particle: completed action)"],
+        ["，"],
+        ["不", "bù", "not"],
+        ["能", "néng", "can; to be able to"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["。"]
+      ],
+      "en": "Yesterday morning my friend got sick and couldn't get out of bed."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "I; me"],
+        ["打电话", "dǎ diànhuà", "to make a phone call"],
+        ["，"],
+        ["让", "ràng", "to ask; to let"],
+        ["我", "wǒ", "I; me"],
+        ["帮助", "bāngzhù", "to help"],
+        ["她", "tā", "she; her"],
+        ["。"]
+      ],
+      "en": "She called me and asked me to help her."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["去", "qù", "to go"],
+        ["商店", "shāngdiàn", "shop; store"],
+        ["给", "gěi", "for"],
+        ["她", "tā", "she; her"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle: completed action)"],
+        ["药", "yào", "medicine"],
+        ["和", "hé", "and"],
+        ["水果", "shuǐguǒ", "fruit"],
+        ["。"]
+      ],
+      "en": "I went to the shop and bought her medicine and fruit."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["还", "hái", "also; in addition"],
+        ["给", "gěi", "for"],
+        ["她", "tā", "she; her"],
+        ["做", "zuò", "to make; to cook"],
+        ["了", "le", "(particle: completed action)"],
+        ["面条", "miàntiáo", "noodles"],
+        ["和", "hé", "and"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["。"]
+      ],
+      "en": "I also made her noodles and eggs."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle: completed action)"],
+        ["药", "yào", "medicine"],
+        ["，"],
+        ["休息", "xiūxi", "to rest"],
+        ["了", "le", "(particle: completed action)"],
+        ["一天", "yì tiān", "one day"],
+        ["，"],
+        ["现在", "xiànzài", "now"],
+        ["好多了", "hǎo duō le", "much better"],
+        ["。"]
+      ],
+      "en": "My friend took the medicine, rested for a day, and is now much better."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["笑", "xiào", "to smile; to laugh"],
+        ["着", "zhe", "(particle: ongoing state)"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["谢谢", "xièxie", "thank you"],
+        ["你", "nǐ", "you"],
+        ["！"],
+        ["”"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["帮助", "bāngzhù", "to help"],
+        ["别人", "biérén", "other people"],
+        ["真", "zhēn", "really"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "She smiled and said to me, \"Thank you!\" I feel that helping others is a real joy."
+    }
+  ],
+  "vocab": [
+    ["帮助", "bāngzhù", "to help"],
+    ["生病", "shēngbìng", "to get sick"],
+    ["药", "yào", "medicine"],
+    ["休息", "xiūxi", "to rest"],
+    ["别人", "biérén", "other people"],
+    ["快乐", "kuàilè", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the friend call the writer?",
+      "a": [
+        "She was sick and needed help",
+        "She wanted to watch a movie",
+        "She wanted to go shopping together"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the writer cook for the friend?",
+      "a": [
+        "Rice and fish",
+        "Noodles and eggs",
+        "Fruit and coffee"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How does the writer feel about helping others?",
+      "a": [
+        "It is very tiring",
+        "It takes too much time",
+        "It is a real joy"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "让 — to ask / let someone do something",
+      "e": "让 + person + verb means to have or ask someone to do something: 她让我帮助她.",
+      "x": "她让我帮助她。— She asked me to help her."
+    },
+    {
+      "p": "给 + person + verb — do something for someone",
+      "e": "给 puts the person who benefits before the verb: 给她买药 (buy medicine for her), 给他做饭 (cook for him).",
+      "x": "我给她买了药和水果。— I bought medicine and fruit for her."
+    }
+  ]
+}

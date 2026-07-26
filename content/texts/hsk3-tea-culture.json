@@ -1,0 +1,79 @@
+{
+  "slug": "hsk3-tea-culture",
+  "level": 3,
+  "title_zh": "茶文化",
+  "title_py": "Chá wénhuà",
+  "title_en": "Tea Culture",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期天", "xīngqītiān", "Sunday"], ["，"], ["朋友", "péngyou", "friend"], ["小张", "Xiǎo Zhāng", "Xiao Zhang (name)"], ["带", "dài", "to take (someone somewhere)"], ["我", "wǒ", "I; me"], ["去", "qù", "to go"], ["了", "le", "(particle: completed action)"], ["一家", "yì jiā", "one (measure for shops)"], ["很", "hěn", "very"], ["老", "lǎo", "old"], ["的", "de", "(particle: attributive)"], ["茶馆", "cháguǎn", "teahouse"], ["。"]],
+      "en": "On Sunday, my friend Xiao Zhang took me to a very old teahouse."
+    },
+    {
+      "t": [["他", "tā", "he; him"], ["的", "de", "(particle: possessive)"], ["爷爷", "yéye", "grandpa"], ["常常", "chángcháng", "often"], ["在", "zài", "at"], ["那里", "nàlǐ", "there"], ["喝", "hē", "to drink"], ["茶", "chá", "tea"], ["，"], ["爷爷", "yéye", "grandpa"], ["说", "shuō", "to say"], ["："], ["“"], ["在", "zài", "in"], ["中国", "Zhōngguó", "China"], ["，"], ["喝", "hē", "to drink"], ["茶", "chá", "tea"], ["不", "bù", "not"], ["只", "zhǐ", "only"], ["是", "shì", "to be"], ["喝", "hē", "to drink"], ["水", "shuǐ", "water"], ["，"], ["也", "yě", "also"], ["是", "shì", "to be"], ["一种", "yì zhǒng", "a kind of"], ["文化", "wénhuà", "culture"], ["。"], ["”"]],
+      "en": "His grandpa often drinks tea there. Grandpa said, \"In China, drinking tea is not just drinking water — it is also a culture.\""
+    },
+    {
+      "t": [["中国", "Zhōngguó", "China"], ["茶", "chá", "tea"], ["有", "yǒu", "to have"], ["很", "hěn", "very"], ["多", "duō", "many"], ["种", "zhǒng", "kind; type"], ["，"], ["绿茶", "lǜchá", "green tea"], ["、"], ["红茶", "hóngchá", "black tea (lit. red tea)"], ["都", "dōu", "all"], ["很", "hěn", "very"], ["有名", "yǒumíng", "famous"], ["。"]],
+      "en": "There are many kinds of Chinese tea; green tea and black tea are both very famous."
+    },
+    {
+      "t": [["爷爷", "yéye", "grandpa"], ["教", "jiāo", "to teach"], ["我", "wǒ", "I; me"], ["倒", "dào", "to pour"], ["茶", "chá", "tea"], ["："], ["给", "gěi", "for; to"], ["客人", "kèrén", "guest"], ["倒", "dào", "to pour"], ["茶", "chá", "tea"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["不要", "búyào", "don't"], ["倒", "dào", "to pour"], ["得", "de", "(particle: degree complement)"], ["太", "tài", "too"], ["满", "mǎn", "full"], ["。"]],
+      "en": "Grandpa taught me how to pour tea: when pouring tea for a guest, don't fill the cup too full."
+    },
+    {
+      "t": [["他", "tā", "he; him"], ["笑", "xiào", "to smile"], ["着", "zhe", "(particle: ongoing state)"], ["说", "shuō", "to say"], ["："], ["“"], ["杯子", "bēizi", "cup"], ["太", "tài", "too"], ["满", "mǎn", "full"], ["，"], ["客人", "kèrén", "guest"], ["就", "jiù", "then"], ["不", "bù", "not"], ["好", "hǎo", "easy (to do)"], ["拿", "ná", "to hold; to pick up"], ["了", "le", "(particle: change of state)"], ["。"], ["”"]],
+      "en": "He said with a smile, \"If the cup is too full, it becomes hard for the guest to pick up.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we; us"], ["一边", "yìbiān", "while (doing A)"], ["喝", "hē", "to drink"], ["茶", "chá", "tea"], ["，"], ["一边", "yìbiān", "while (doing B)"], ["听", "tīng", "to listen to"], ["爷爷", "yéye", "grandpa"], ["讲", "jiǎng", "to tell"], ["过去", "guòqù", "the past"], ["的", "de", "(particle: attributive)"], ["事", "shì", "thing; matter"], ["，"], ["一个", "yí ge", "one"], ["下午", "xiàwǔ", "afternoon"], ["很", "hěn", "very"], ["快", "kuài", "quickly"], ["就", "jiù", "then; soon"], ["过去", "guòqù", "to pass (of time)"], ["了", "le", "(particle: completed action)"], ["。"]],
+      "en": "We drank tea while listening to Grandpa's stories about the past, and the whole afternoon slipped by quickly."
+    },
+    {
+      "t": [["第一", "dì yī", "first"], ["杯", "bēi", "cup (measure word)"], ["茶", "chá", "tea"], ["有点儿", "yǒudiǎnr", "a little"], ["热", "rè", "hot"], ["，"], ["我", "wǒ", "I; me"], ["喝", "hē", "to drink"], ["得", "de", "(particle: degree complement)"], ["很", "hěn", "very"], ["慢", "màn", "slow"], ["，"], ["但是", "dànshì", "but"], ["越", "yuè", "the more (越…越…)"], ["喝", "hē", "to drink"], ["越", "yuè", "the more (越…越…)"], ["觉得", "juéde", "to feel"], ["好喝", "hǎohē", "good to drink; tasty"], ["。"]],
+      "en": "The first cup of tea was a little hot, so I drank it slowly — but the more I drank, the better it tasted."
+    },
+    {
+      "t": [["回家", "huíjiā", "to go home"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["爷爷", "yéye", "grandpa"], ["送", "sòng", "to give (as a gift)"], ["了", "le", "(particle: completed action)"], ["我", "wǒ", "I; me"], ["一点儿", "yìdiǎnr", "a little"], ["茶", "chá", "tea"], ["，"], ["还", "hái", "also"], ["说", "shuō", "to say"], ["："], ["“"], ["茶馆", "cháguǎn", "teahouse"], ["的", "de", "(particle: possessive)"], ["门", "mén", "door"], ["天天", "tiāntiān", "every day"], ["开", "kāi", "to open"], ["着", "zhe", "(particle: continuing state)"], ["，"], ["欢迎", "huānyíng", "to welcome"], ["你", "nǐ", "you"], ["常", "cháng", "often"], ["来", "lái", "to come"], ["！"], ["”"]],
+      "en": "When I was leaving, Grandpa gave me a little tea and said, \"The teahouse door is open every day — you're welcome to come often!\""
+    }
+  ],
+  "vocab": [
+    ["茶馆", "cháguǎn", "teahouse"],
+    ["文化", "wénhuà", "culture"],
+    ["倒", "dào", "to pour"],
+    ["满", "mǎn", "full"],
+    ["客人", "kèrén", "guest"],
+    ["有名", "yǒumíng", "famous"]
+  ],
+  "quiz": [
+    {
+      "q": "Who took the writer to the teahouse?",
+      "a": ["Grandpa", "Xiao Zhang", "A teacher"],
+      "c": 1
+    },
+    {
+      "q": "When pouring tea for a guest, what should you NOT do?",
+      "a": ["Fill the cup too full", "Use a small cup", "Pour too slowly"],
+      "c": 0
+    },
+    {
+      "q": "What did Grandpa give the writer to take home?",
+      "a": ["A teacup", "A book", "A little tea"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "越 A 越 B — the more A, the more B",
+      "e": "Shows one thing growing along with another: 我越喝越觉得好喝。",
+      "x": "雨越下越大。 — The rain is getting heavier and heavier."
+    },
+    {
+      "p": "Verb + 着 — a state that continues",
+      "e": "着 after a verb shows a lasting state, not an action: 茶馆的门天天开着。",
+      "x": "商店的灯还开着。 — The shop's lights are still on."
+    }
+  ]
+}

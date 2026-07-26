@@ -1,0 +1,302 @@
+{
+  "slug": "hsk6-zen-and-daily-life",
+  "level": 6,
+  "title_zh": "禅与生活",
+  "title_py": "Chán yǔ shēnghuó",
+  "title_en": "Zen and Everyday Life",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["有人", "yǒurén", "someone"],
+        ["问", "wèn", "to ask"],
+        ["禅师", "chánshī", "Zen master"],
+        ["什么", "shénme", "what"],
+        ["是", "shì", "is"],
+        ["禅", "chán", "Zen; Chan Buddhism"],
+        ["，"],
+        ["禅师", "chánshī", "Zen master"],
+        ["回答", "huídá", "to answer"],
+        ["："],
+        ["饿", "è", "hungry"],
+        ["了", "le", "(change of state)"],
+        ["吃饭", "chīfàn", "to eat"],
+        ["，"],
+        ["困", "kùn", "sleepy"],
+        ["了", "le", "(change of state)"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "Someone asked a Zen master what Zen is, and the master answered: when hungry, eat; when sleepy, sleep."
+    },
+    {
+      "t": [
+        ["提问", "tíwèn", "to ask a question"],
+        ["的", "de", "(nominalizing particle)"],
+        ["人", "rén", "person"],
+        ["有些", "yǒuxiē", "somewhat"],
+        ["不服气", "bù fúqì", "unconvinced; refusing to accept it"],
+        ["："],
+        ["这", "zhè", "this"],
+        ["谁", "shéi", "who"],
+        ["不", "bú", "not"],
+        ["会", "huì", "to know how to"],
+        ["呢", "ne", "(rhetorical particle)"],
+        ["？"]
+      ],
+      "en": "The questioner was not convinced: who doesn't know how to do that?"
+    },
+    {
+      "t": [
+        ["禅师", "chánshī", "Zen master"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["多数", "duōshù", "most"],
+        ["人", "rén", "people"],
+        ["吃饭", "chīfàn", "to eat"],
+        ["时", "shí", "when (formal)"],
+        ["想", "xiǎng", "to think"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["工作", "gōngzuò", "work"],
+        ["，"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["时", "shí", "when (formal)"],
+        ["想", "xiǎng", "to think"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["，"],
+        ["所以", "suǒyǐ", "so"],
+        ["他们", "tāmen", "they"],
+        ["既", "jì", "neither (paired with 也)"],
+        ["没有", "méiyǒu", "did not"],
+        ["真正", "zhēnzhèng", "really"],
+        ["吃饭", "chīfàn", "to eat"],
+        ["，"],
+        ["也", "yě", "nor (paired with 既)"],
+        ["没有", "méiyǒu", "did not"],
+        ["真正", "zhēnzhèng", "really"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "The master said: most people think about work while eating and about tomorrow while sleeping, so they neither truly eat nor truly sleep."
+    },
+    {
+      "t": [
+        ["这个", "zhège", "this"],
+        ["古老", "gǔlǎo", "ancient"],
+        ["的", "de", "(possessive particle)"],
+        ["故事", "gùshi", "story"],
+        ["，"],
+        ["放", "fàng", "to put"],
+        ["到", "dào", "into"],
+        ["今天", "jīntiān", "today"],
+        ["简直", "jiǎnzhí", "simply; practically"],
+        ["像是", "xiàng shì", "seems like"],
+        ["为", "wèi", "for"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["时代", "shídài", "era"],
+        ["量身定做", "liàng shēn dìng zuò", "tailor-made (idiom)"],
+        ["的", "de", "(possessive particle)"],
+        ["。"]
+      ],
+      "en": "Placed in the present, this ancient story seems practically tailor-made for the smartphone era."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["一边", "yìbiān", "while (paired with 一边)"],
+        ["刷", "shuā", "to scroll through"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["短视频", "duǎn shìpín", "short videos"],
+        ["，"],
+        ["一边", "yìbiān", "while (paired with 一边)"],
+        ["扒", "bā", "to shovel (food into one's mouth)"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["碗", "wǎn", "bowl"],
+        ["里", "lǐ", "in; inside"],
+        ["的", "de", "(possessive particle)"],
+        ["饭", "fàn", "rice; food"],
+        ["，"],
+        ["事后", "shìhòu", "afterwards"],
+        ["连", "lián", "even"],
+        ["自己", "zìjǐ", "oneself"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(completed action)"],
+        ["什么", "shénme", "what"],
+        ["都", "dōu", "even (paired with 连)"],
+        ["想不起来", "xiǎng bu qǐlái", "cannot recall"],
+        ["。"]
+      ],
+      "en": "We scroll through short videos while shovelling down the food in our bowl, and afterwards cannot even recall what we ate."
+    },
+    {
+      "t": [
+        ["禅", "chán", "Zen"],
+        ["并不", "bìng bù", "by no means"],
+        ["要求", "yāoqiú", "to require"],
+        ["人", "rén", "one"],
+        ["躲", "duǒ", "to hide"],
+        ["进", "jìn", "into"],
+        ["深山", "shēnshān", "remote mountains"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["关心", "guānxīn", "to care about"],
+        ["的", "de", "(nominalizing particle)"],
+        ["只是", "zhǐshì", "is only"],
+        ["："],
+        ["此刻", "cǐkè", "at this moment"],
+        ["你", "nǐ", "your"],
+        ["的", "de", "(possessive particle)"],
+        ["心", "xīn", "mind; heart"],
+        ["在不在", "zài bu zài", "is it here or not"],
+        ["这里", "zhèlǐ", "here"],
+        ["。"]
+      ],
+      "en": "Zen by no means demands that you hide away in the mountains; all it cares about is whether your mind is here at this moment."
+    },
+    {
+      "t": [
+        ["当然", "dāngrán", "of course"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["专注", "zhuānzhù", "focus; concentration"],
+        ["当成", "dàngchéng", "to treat as"],
+        ["又", "yòu", "yet another"],
+        ["一", "yí", "one"],
+        ["项", "xiàng", "(measure word for tasks)"],
+        ["必须", "bìxū", "must"],
+        ["完成", "wánchéng", "to complete"],
+        ["的", "de", "(possessive particle)"],
+        ["任务", "rènwu", "task"],
+        ["，"],
+        ["本身", "běnshēn", "in itself"],
+        ["就", "jiù", "precisely"],
+        ["违背", "wéibèi", "to go against; violate"],
+        ["了", "le", "(completed action)"],
+        ["禅", "chán", "Zen"],
+        ["的", "de", "(possessive particle)"],
+        ["本意", "běnyì", "original intent"],
+        ["。"]
+      ],
+      "en": "Of course, treating concentration as yet another task that must be completed already goes against what Zen was about."
+    },
+    {
+      "t": [
+        ["比起", "bǐqǐ", "compared with"],
+        ["强迫", "qiǎngpò", "to force"],
+        ["自己", "zìjǐ", "oneself"],
+        ["“"],
+        ["什么", "shénme", "anything"],
+        ["都", "dōu", "all"],
+        ["不", "bù", "not"],
+        ["想", "xiǎng", "to think"],
+        ["”"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["认真", "rènzhēn", "carefully"],
+        ["洗", "xǐ", "to wash"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["碗", "wǎn", "bowl"],
+        ["、"],
+        ["安静", "ānjìng", "quietly"],
+        ["走", "zǒu", "to walk"],
+        ["一", "yí", "one"],
+        ["段", "duàn", "(measure word for stretches)"],
+        ["路", "lù", "road"],
+        ["开始", "kāishǐ", "to begin"],
+        ["，"],
+        ["也许", "yěxǔ", "perhaps"],
+        ["更", "gèng", "more"],
+        ["容易", "róngyì", "easy"],
+        ["让", "ràng", "to let"],
+        ["注意力", "zhùyìlì", "attention"],
+        ["回到", "huídào", "to return to"],
+        ["身体", "shēntǐ", "the body"],
+        ["上", "shàng", "onto"],
+        ["。"]
+      ],
+      "en": "Compared with forcing yourself to \"think of nothing,\" starting by washing one bowl carefully or walking one stretch of road quietly may make it easier to bring your attention back into your body."
+    },
+    {
+      "t": [
+        ["据说", "jùshuō", "it is said"],
+        ["有", "yǒu", "there was"],
+        ["位", "wèi", "(polite measure word for people)"],
+        ["老", "lǎo", "old"],
+        ["和尚", "héshang", "monk"],
+        ["常", "cháng", "often"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["担水", "dān shuǐ", "to carry water"],
+        ["砍柴", "kǎn chái", "to chop firewood"],
+        ["，"],
+        ["无非", "wúfēi", "nothing other than"],
+        ["妙道", "miàodào", "the profound Way"],
+        ["，"],
+        ["生活", "shēnghuó", "life"],
+        ["本身", "běnshēn", "itself"],
+        ["就是", "jiùshì", "is precisely"],
+        ["修行", "xiūxíng", "spiritual practice"],
+        ["的", "de", "(possessive particle)"],
+        ["地方", "dìfang", "place"],
+        ["。"]
+      ],
+      "en": "An old monk, it is said, often remarked that carrying water and chopping firewood are nothing other than the profound Way: life itself is where the practice happens."
+    }
+  ],
+  "vocab": [
+    ["禅", "chán", "Zen; Chan Buddhism"],
+    ["不服气", "bù fúqì", "unconvinced; refusing to accept something"],
+    ["量身定做", "liàng shēn dìng zuò", "tailor-made; custom-fitted"],
+    ["专注", "zhuānzhù", "to concentrate; focused attention"],
+    ["违背", "wéibèi", "to go against; to violate"],
+    ["修行", "xiūxíng", "spiritual practice; cultivation"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the Zen master say most people neither truly eat nor truly sleep?",
+      "a": [
+        "Because they eat too little and sleep too late",
+        "Because their minds are on work or on tomorrow while they do it",
+        "Because they refuse to follow the master's instructions"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the text say Zen requires of a person?",
+      "a": [
+        "Not hiding away in the mountains, but having the mind present at this moment",
+        "Living in a temple for at least a year",
+        "Giving up all use of mobile phones"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What problem does the writer see in treating concentration as a task to complete?",
+      "a": [
+        "It takes up too much time in a busy schedule",
+        "It makes people fall asleep during practice",
+        "It already goes against the original intent of Zen"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "既没有…，也没有…",
+      "e": "'Neither A nor B' — the negative use of the 既…也… pair, listing two things that equally failed to happen. 例：那次会议既没有解决问题，也没有安排下一步。",
+      "x": "他们既没有真正吃饭，也没有真正睡觉。 — They neither truly ate nor truly slept."
+    },
+    {
+      "p": "连…都…",
+      "e": "'Even…' — 连 fronts the most extreme or most basic item, and 都 (or 也) marks it as included, implying everything lesser follows. 例：他连自己的生日都忘了。",
+      "x": "事后连自己吃了什么都想不起来。 — Afterwards you cannot even recall what you ate."
+    },
+    {
+      "p": "把 A 当成 B",
+      "e": "'To treat A as B' — 把 fronts the object, 当成 (also 当作) states the identity assigned to it, often a mistaken one. 例：别把客气话当成承诺。",
+      "x": "把专注当成又一项必须完成的任务，本身就违背了禅的本意。 — Treating concentration as yet another task to be completed already goes against the point of Zen."
+    }
+  ]
+}

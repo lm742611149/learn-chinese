@@ -1,0 +1,168 @@
+{
+  "slug": "hsk5-four-great-inventions",
+  "level": 5,
+  "title_zh": "四大发明",
+  "title_py": "Sì dà fāmíng",
+  "title_en": "The Four Great Inventions",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["你","nǐ","you"], ["每天","měitiān","every day"], ["用","yòng","to use"],
+        ["的","de","(particle)"], ["纸","zhǐ","paper"], ["、"],
+        ["手机","shǒujī","mobile phone"], ["里","li","in"], ["的","de","(particle)"],
+        ["地图","dìtú","map"], ["，"],
+        ["其实","qíshí","actually"], ["都","dōu","all"], ["和","hé","with"],
+        ["一千","yìqiān","one thousand"], ["多","duō","more than"], ["年","nián","year"],
+        ["前","qián","ago"], ["的","de","(particle)"], ["中国","Zhōngguó","China"],
+        ["发明","fāmíng","invention"], ["有","yǒu","to have"], ["关系","guānxi","connection"], ["。"]
+      ],
+      "en": "The paper you use every day and the map in your phone are actually connected to Chinese inventions from more than a thousand years ago."
+    },
+    {
+      "t": [
+        ["中国","Zhōngguó","China"], ["古代","gǔdài","ancient times"], ["的","de","(particle)"],
+        ["四","sì","four"], ["大","dà","great"], ["发明","fāmíng","invention"], ["，"],
+        ["是","shì","is"], ["由","yóu","by; from"],
+        ["造纸术","zàozhǐshù","papermaking"], ["、"],
+        ["印刷术","yìnshuāshù","printing"], ["、"],
+        ["火药","huǒyào","gunpowder"], ["和","hé","and"],
+        ["指南针","zhǐnánzhēn","compass"], ["组成","zǔchéng","to be composed of"],
+        ["的","de","(particle)"], ["。"]
+      ],
+      "en": "China's Four Great Inventions of ancient times are made up of papermaking, printing, gunpowder, and the compass."
+    },
+    {
+      "t": [
+        ["在","zài","in"], ["纸","zhǐ","paper"], ["发明","fāmíng","to be invented"],
+        ["以前","yǐqián","before"], ["，"],
+        ["人们","rénmen","people"], ["把","bǎ","(object marker)"], ["字","zì","character"],
+        ["写","xiě","to write"], ["在","zài","on"], ["竹子","zhúzi","bamboo"], ["上","shang","on"], ["，"],
+        ["一","yì","one"], ["本","běn","(measure for books)"], ["书","shū","book"],
+        ["重","zhòng","heavy"], ["得","de","(degree particle)"],
+        ["要","yào","must"], ["用","yòng","to use"], ["车","chē","cart"],
+        ["来","lái","to (in order to)"], ["拉","lā","to pull"], ["。"]
+      ],
+      "en": "Before paper was invented, people wrote characters on bamboo, and a single book was so heavy that a cart was needed to pull it."
+    },
+    {
+      "t": [
+        ["汉代","Hàndài","the Han dynasty"], ["的","de","(particle)"],
+        ["蔡伦","Cài Lún","Cai Lun"], ["改进","gǎijìn","to improve"], ["了","le","(particle)"],
+        ["造纸术","zàozhǐshù","papermaking"], ["，"],
+        ["从此","cóngcǐ","from then on"], ["普通","pǔtōng","ordinary"], ["人","rén","people"],
+        ["也","yě","also"], ["读","dú","to read"], ["得起","deqǐ","can afford to"],
+        ["书","shū","book"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "Cai Lun of the Han dynasty improved papermaking, and from then on ordinary people could also afford to read books."
+    },
+    {
+      "t": [
+        ["印刷术","yìnshuāshù","printing"], ["出现","chūxiàn","to appear"],
+        ["以后","yǐhòu","after"], ["，"],
+        ["书","shū","book"], ["变","biàn","to become"], ["得","de","(degree particle)"],
+        ["越来越","yuèláiyuè","more and more"], ["便宜","piányi","cheap"], ["，"],
+        ["知识","zhīshi","knowledge"], ["也","yě","also"], ["很","hěn","very"],
+        ["快","kuài","quickly"], ["传","chuán","to spread"], ["到","dào","to"],
+        ["了","le","(particle)"], ["更","gèng","even"], ["多","duō","more"],
+        ["人","rén","people"], ["的","de","(particle)"], ["手","shǒu","hand"],
+        ["里","li","in"], ["。"]
+      ],
+      "en": "After printing appeared, books became cheaper and cheaper, and knowledge quickly spread into the hands of more people."
+    },
+    {
+      "t": [
+        ["火药","huǒyào","gunpowder"], ["是","shì","is"], ["人们","rénmen","people"],
+        ["找","zhǎo","to look for"], ["药","yào","medicine"], ["的","de","(particle)"],
+        ["时候","shíhou","time"], ["偶然","ǒurán","by chance"],
+        ["发现","fāxiàn","to discover"], ["的","de","(particle)"], ["，"],
+        ["后来","hòulái","later"], ["却","què","yet"],
+        ["变成","biànchéng","to turn into"], ["了","le","(particle)"],
+        ["节日","jiérì","festival"], ["里","li","in"],
+        ["美丽","měilì","beautiful"], ["的","de","(particle)"],
+        ["烟花","yānhuā","fireworks"], ["。"]
+      ],
+      "en": "Gunpowder was discovered by chance while people were searching for medicine, yet later it turned into the beautiful fireworks of festivals."
+    },
+    {
+      "t": [
+        ["指南针","zhǐnánzhēn","compass"], ["帮助","bāngzhù","to help"],
+        ["船","chuán","ship"], ["在","zài","on"], ["大海","dàhǎi","the sea"],
+        ["上","shang","on"], ["找到","zhǎodào","to find"],
+        ["方向","fāngxiàng","direction"], ["，"],
+        ["凡是","fánshì","all; every (without exception)"], ["去","qù","to go"],
+        ["远方","yuǎnfāng","faraway places"], ["的","de","(particle)"],
+        ["船","chuán","ship"], ["，"],
+        ["都","dōu","all"], ["离不开","líbukāi","cannot do without"],
+        ["它","tā","it"], ["。"]
+      ],
+      "en": "The compass helped ships find their direction on the sea; every ship that sailed far away could not do without it."
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"], ["手机","shǒujī","mobile phone"],
+        ["里","li","in"], ["的","de","(particle)"], ["地图","dìtú","map"], ["，"],
+        ["其实","qíshí","actually"], ["就","jiù","exactly"], ["是","shì","is"],
+        ["指南针","zhǐnánzhēn","compass"], ["的","de","(particle)"], ["“"],
+        ["孙子","sūnzi","grandson"], ["”"], ["。"]
+      ],
+      "en": "The map in today's mobile phone is really the compass's \"grandson\"."
+    },
+    {
+      "t": [
+        ["一","yì","one"], ["张","zhāng","(measure for flat objects)"], ["纸","zhǐ","paper"], ["、"],
+        ["一","yì","one"], ["本","běn","(measure for books)"], ["书","shū","book"], ["、"],
+        ["一","yí","one"], ["次","cì","(measure for times)"], ["旅行","lǚxíng","trip"], ["，"],
+        ["都","dōu","all"], ["在","zài","(progressive)"],
+        ["提醒","tíxǐng","to remind"], ["我们","wǒmen","us"], ["："],
+        ["伟大","wěidà","great"], ["的","de","(particle)"], ["发明","fāmíng","invention"],
+        ["往往","wǎngwǎng","often"], ["来自","láizì","to come from"],
+        ["生活","shēnghuó","life"], ["中","zhōng","in"], ["的","de","(particle)"],
+        ["小","xiǎo","small"], ["问题","wèntí","problem"], ["。"]
+      ],
+      "en": "A sheet of paper, a book, a trip — they all remind us that great inventions often come from small problems in daily life."
+    }
+  ],
+  "vocab": [
+    ["造纸术","zàozhǐshù","papermaking"],
+    ["印刷术","yìnshuāshù","printing"],
+    ["火药","huǒyào","gunpowder"],
+    ["指南针","zhǐnánzhēn","compass"],
+    ["蔡伦","Cài Lún","Cai Lun (Han dynasty inventor)"],
+    ["烟花","yānhuā","fireworks"]
+  ],
+  "quiz": [
+    {
+      "q": "What are the Four Great Inventions made up of?",
+      "a": ["Papermaking, printing, gunpowder, and the compass", "Paper, silk, tea, and porcelain", "The cart, the ship, the map, and the phone"],
+      "c": 0
+    },
+    {
+      "q": "What changed after Cai Lun improved papermaking?",
+      "a": ["Books became heavier than before", "Ordinary people could also afford to read books", "People stopped writing on paper"],
+      "c": 1
+    },
+    {
+      "q": "How was gunpowder discovered?",
+      "a": ["Soldiers invented it for war", "A sailor found it at sea", "People found it by chance while searching for medicine"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "由…组成 (to be made up of…)",
+      "e": "由 introduces the parts, and 组成 states that they form the whole: 四大发明是由造纸术、印刷术、火药和指南针组成的。",
+      "x": "这个班由二十个学生组成。 — This class is made up of twenty students."
+    },
+    {
+      "p": "凡是…都… (every…, all without exception)",
+      "e": "凡是 marks a whole category, and 都 confirms that the statement covers every member: 凡是去远方的船，都离不开它。",
+      "x": "凡是来过这里的人，都喜欢这个城市。 — Everyone who has been here loves this city."
+    },
+    {
+      "p": "V + 得起 (can afford to)",
+      "e": "A potential complement showing one has the money or ability for the action: 普通人也读得起书了。",
+      "x": "现在大家都买得起手机了。 — Now everyone can afford to buy a mobile phone."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "hsk2-waiting-for-the-bus",
+  "level": 2,
+  "title_zh": "等公共汽车",
+  "title_py": "Děng gōnggòng qìchē",
+  "title_en": "Waiting for the Bus",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每天", "měi tiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["坐", "zuò", "to take (transport); to sit"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["去", "qù", "to go"],
+        ["上班", "shàngbān", "to go to work"],
+        ["。"]
+      ],
+      "en": "Every morning I take the bus to work."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["是", "shì", "to be"],
+        ["阴天", "yīntiān", "overcast day"],
+        ["，"],
+        ["等", "děng", "to wait"],
+        ["车", "chē", "vehicle; bus"],
+        ["的", "de", "(particle: one that...)"],
+        ["人", "rén", "person; people"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "Today is overcast, and there are a lot of people waiting for the bus."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["等", "děng", "to wait"],
+        ["了", "le", "(particle: completed action)"],
+        ["三十", "sānshí", "thirty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["，"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["还", "hái", "still"],
+        ["没", "méi", "not (yet)"],
+        ["来", "lái", "to come"],
+        ["。"]
+      ],
+      "en": "I waited for thirty minutes, and the bus still hadn't come."
+    },
+    {
+      "t": [
+        ["旁边", "pángbiān", "beside; next to"],
+        ["一个", "yí ge", "one; a"],
+        ["女孩儿", "nǚháir", "girl"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["也", "yě", "also"],
+        ["在", "zài", "(in the middle of)"],
+        ["等", "děng", "to wait"],
+        ["三路", "sān lù", "route 3"],
+        ["车", "chē", "bus"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "A girl next to me asked, \"Are you waiting for the route 3 bus too?\""
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["说话", "shuōhuà", "to talk; to chat"],
+        ["，"],
+        ["等", "děng", "to wait"],
+        ["车", "chē", "vehicle; bus"],
+        ["的", "de", "(possessive particle)"],
+        ["时间", "shíjiān", "time"],
+        ["过", "guò", "to pass"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast"],
+        ["。"]
+      ],
+      "en": "We chatted together, and the waiting time passed quickly."
+    },
+    {
+      "t": [
+        ["车", "chē", "vehicle; bus"],
+        ["来", "lái", "to come"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy; glad"],
+        ["。"]
+      ],
+      "en": "When the bus came, everyone was very happy."
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["我", "wǒ", "I; me"],
+        ["等", "děng", "to wait"],
+        ["了", "le", "(particle: completed action)"],
+        ["很", "hěn", "very"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle: completed action)"],
+        ["一个", "yí ge", "one; a"],
+        ["新", "xīn", "new"],
+        ["朋友", "péngyou", "friend"],
+        ["。"]
+      ],
+      "en": "Although I waited a long time, I made a new friend."
+    }
+  ],
+  "vocab": [
+    ["等", "děng", "to wait"],
+    ["公共汽车", "gōnggòng qìchē", "bus"],
+    ["阴天", "yīntiān", "overcast day"],
+    ["非常", "fēicháng", "very; extremely"],
+    ["时间", "shíjiān", "time"],
+    ["新", "xīn", "new"]
+  ],
+  "quiz": [
+    {
+      "q": "What was the weather like today?",
+      "a": [
+        "Sunny",
+        "Snowy",
+        "Overcast"
+      ],
+      "c": 2
+    },
+    {
+      "q": "How long had the writer waited when the bus still hadn't come?",
+      "a": [
+        "Thirty minutes",
+        "Thirteen minutes",
+        "Three minutes"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What good thing came out of the long wait?",
+      "a": [
+        "A free bus ticket",
+        "A new friend",
+        "A new phone"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "还没 + verb — not yet",
+      "e": "还没 before a verb means something has still not happened: 车还没来 (the bus hasn't come yet).",
+      "x": "公共汽车还没来。— The bus still hasn't come."
+    },
+    {
+      "p": "虽然…但是… — although… but…",
+      "e": "虽然 starts the first clause and 但是 starts the second; unlike English, both words appear together.",
+      "x": "虽然等了很长时间，但是我很高兴。— Although I waited a long time, I was happy."
+    }
+  ]
+}

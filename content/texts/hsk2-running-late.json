@@ -1,0 +1,174 @@
+{
+  "slug": "hsk2-running-late",
+  "level": 2,
+  "title_zh": "迟到了",
+  "title_py": "Chídào le",
+  "title_en": "Running Late",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["晚", "wǎn", "late"],
+        ["了", "le", "(particle: change of state)"],
+        ["，"],
+        ["已经", "yǐjīng", "already"],
+        ["八点", "bā diǎn", "eight o'clock"],
+        ["十分", "shí fēn", "ten minutes (past)"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "This morning I got up late — it was already ten past eight."
+    },
+    {
+      "t": [
+        ["九点", "jiǔ diǎn", "nine o'clock"],
+        ["公司", "gōngsī", "company"],
+        ["开始", "kāishǐ", "to start"],
+        ["上班", "shàngbān", "to go to work; work starts"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["路", "lù", "road; way"],
+        ["很", "hěn", "very"],
+        ["远", "yuǎn", "far"],
+        ["。"]
+      ],
+      "en": "Work starts at nine at my company, but the way there is long."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["没", "méi", "not (did not)"],
+        ["吃", "chī", "to eat"],
+        ["早饭", "zǎofàn", "breakfast"],
+        ["就", "jiù", "then; right away"],
+        ["出门", "chūmén", "to go out; to leave home"],
+        ["了", "le", "(particle: completed action)"],
+        ["。"]
+      ],
+      "en": "I left home without eating breakfast."
+    },
+    {
+      "t": [
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["上", "shang", "on"],
+        ["人", "rén", "person; people"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["车", "chē", "vehicle; bus"],
+        ["开", "kāi", "to drive"],
+        ["得", "de", "(complement particle)"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["慢", "màn", "slow"],
+        ["。"]
+      ],
+      "en": "There were a lot of people on the bus, and it was moving very slowly too."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["九点", "jiǔ diǎn", "nine o'clock"],
+        ["二十分", "èrshí fēn", "twenty minutes (past)"],
+        ["到", "dào", "to arrive"],
+        ["公司", "gōngsī", "company"],
+        ["，"],
+        ["迟到", "chídào", "to be late"],
+        ["了", "le", "(particle: completed action)"],
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["。"]
+      ],
+      "en": "I got to the company at nine twenty — twenty minutes late."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["对", "duì", "to; toward"],
+        ["大家", "dàjiā", "everyone"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["对不起", "duìbuqǐ", "sorry"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["来", "lái", "to come"],
+        ["晚", "wǎn", "late"],
+        ["了", "le", "(particle: change of state)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "I said to everyone, \"Sorry, I'm late!\""
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["开始", "kāishǐ", "to start"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["要", "yào", "will; to be going to"],
+        ["早点儿", "zǎo diǎnr", "a bit earlier"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["，"],
+        ["早点儿", "zǎo diǎnr", "a bit earlier"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["。"]
+      ],
+      "en": "Starting tomorrow, I'm going to go to bed a bit earlier and get up a bit earlier."
+    }
+  ],
+  "vocab": [
+    ["迟到", "chídào", "to be late"],
+    ["上班", "shàngbān", "to go to work"],
+    ["公司", "gōngsī", "company"],
+    ["已经", "yǐjīng", "already"],
+    ["慢", "màn", "slow"],
+    ["大家", "dàjiā", "everyone"]
+  ],
+  "quiz": [
+    {
+      "q": "What time did the writer get up?",
+      "a": [
+        "Ten to eight",
+        "Ten past eight",
+        "Twenty past nine"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How late was the writer for work?",
+      "a": [
+        "Ten minutes",
+        "Thirty minutes",
+        "Twenty minutes"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What does the writer plan to do starting tomorrow?",
+      "a": [
+        "Sleep earlier and get up earlier",
+        "Buy a car",
+        "Eat a bigger breakfast"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "没…就… — did B without doing A",
+      "e": "没 + verb A + 就 + verb B shows B happened right away, skipping A: 我没吃早饭就出门了.",
+      "x": "我没吃早饭就出门了。— I left home without eating breakfast."
+    },
+    {
+      "p": "从…开始 — starting from…",
+      "e": "从 + time + 开始 marks when a new habit or plan begins: 从明天开始, 从今年开始.",
+      "x": "从明天开始，我要早点儿起床。— Starting tomorrow, I'll get up a bit earlier."
+    }
+  ]
+}

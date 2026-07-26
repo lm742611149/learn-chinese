@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-reading-books",
+  "level": 1,
+  "title_zh": "读书",
+  "title_py": "Dú shū",
+  "title_en": "Reading Books",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","my"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["叫","jiào","to be called"],["王小明","Wáng Xiǎomíng","Wang Xiaoming (a name)"],["，"],["他","tā","he"],["很","hěn","very"],["爱","ài","to love"],["读","dú","to read"],["书","shū","book"],["。"]],
+      "en": "My friend is called Wang Xiaoming, and he really loves reading books."
+    },
+    {
+      "t": [["他","tā","his"],["家","jiā","home"],["有","yǒu","to have; there is"],["很","hěn","very"],["多","duō","many"],["书","shū","book"],["，"],["桌子","zhuōzi","table"],["上","shàng","on top of"],["有","yǒu","there is"],["书","shū","book"],["，"],["椅子","yǐzi","chair"],["上","shàng","on top of"],["有","yǒu","there is"],["书","shū","book"],["。"]],
+      "en": "He has many books at home — there are books on the table and books on the chair."
+    },
+    {
+      "t": [["星期天","xīngqītiān","Sunday"],["他","tā","he"],["不","bù","not"],["工作","gōngzuò","to work"],["，"],["他","tā","he"],["在","zài","at"],["家","jiā","home"],["读","dú","to read"],["书","shū","book"],["。"]],
+      "en": "On Sundays he does not work; he reads books at home."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["有","yǒu","to have"],["多少","duōshao","how many"],["书","shū","book"],["？"],["”"],["他","tā","he"],["说","shuō","to say"],["："],["“"],["很","hěn","very"],["多","duō","many"],["很","hěn","very"],["多","duō","many"],["！"],["”"]],
+      "en": "I say, \"How many books do you have?\" He says, \"Many, many!\""
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["书","shū","book"],["里","lǐ","inside"],["有","yǒu","there is"],["很","hěn","very"],["多","duō","many"],["好","hǎo","good"],["东西","dōngxi","thing"],["，"],["你","nǐ","you"],["读","dú","to read"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "He says, \"There are many good things inside books — do you read?\""
+    },
+    {
+      "t": [["现在","xiànzài","now"],["，"],["星期天","xīngqītiān","Sunday"],["我","wǒ","I; me"],["和","hé","and"],["他","tā","he"],["都","dōu","both"],["在","zài","at"],["家","jiā","home"],["读","dú","to read"],["书","shū","book"],["。"]],
+      "en": "Now, on Sundays he and I both read books at home."
+    }
+  ],
+  "vocab": [
+    ["读","dú","to read"],
+    ["书","shū","book"],
+    ["星期天","xīngqītiān","Sunday"],
+    ["多少","duōshao","how many"],
+    ["东西","dōngxi","thing"],
+    ["桌子","zhuōzi","table"]
+  ],
+  "quiz": [
+    {"q":"What does Wang Xiaoming love doing?","a":["Reading books","Watching TV","Drinking tea"],"c":0},
+    {"q":"What does he do on Sundays?","a":["He works","He reads books at home","He goes to the store"],"c":1},
+    {"q":"Where are his books?","a":["Only at his school","On the table and on the chair","At his friend's home"],"c":1}
+  ],
+  "grammar": [
+    {"p":"在 + place + verb","e":"To say where an action happens, put 在 + place before the verb: 在家读书 = read books at home.","x":"他在家读书。 — He reads books at home."},
+    {"p":"多少 — how many","e":"Use 多少 to ask about a number, usually a big or unknown one. It goes right before the noun.","x":"你有多少书？ — How many books do you have?"}
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "hsk3-giving-mooncakes",
+  "level": 3,
+  "title_zh": "送月饼",
+  "title_py": "Sòng yuèbing",
+  "title_en": "Giving Mooncakes",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["快", "kuài", "soon; almost"], ["到", "dào", "to arrive"], ["了", "le", "(particle: imminent)"], ["，"], ["商店", "shāngdiàn", "shop; store"], ["里", "lǐ", "inside"], ["都", "dōu", "all"], ["在", "zài", "(progressive marker)"], ["卖", "mài", "to sell"], ["月饼", "yuèbing", "mooncake"], ["。"]],
+      "en": "Mid-Autumn Festival was coming, and all the shops were selling mooncakes."
+    },
+    {
+      "t": [["中国", "Zhōngguó", "China"], ["同事", "tóngshì", "colleague"], ["告诉", "gàosu", "to tell"], ["我", "wǒ", "I; me"], ["，"], ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["人们", "rénmen", "people"], ["会", "huì", "will; would"], ["送", "sòng", "to give (as a gift)"], ["月饼", "yuèbing", "mooncake"], ["给", "gěi", "to; for"], ["家人", "jiārén", "family members"], ["和", "hé", "and"], ["朋友", "péngyou", "friend"], ["。"]],
+      "en": "My Chinese colleague told me that at Mid-Autumn Festival, people give mooncakes to family and friends."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"], ["买", "mǎi", "to buy"], ["了", "le", "(particle: completed action)"], ["两", "liǎng", "two"], ["盒", "hé", "box (measure word)"], ["月饼", "yuèbing", "mooncake"], ["，"], ["一", "yì", "one"], ["盒", "hé", "box (measure word)"], ["给", "gěi", "to give; for"], ["汉语", "Hànyǔ", "Chinese (language)"], ["老师", "lǎoshī", "teacher"], ["，"], ["一", "yì", "one"], ["盒", "hé", "box (measure word)"], ["给", "gěi", "to give; for"], ["楼下", "lóuxià", "downstairs"], ["的", "de", "(particle: attributive)"], ["邻居", "línjū", "neighbor"], ["。"]],
+      "en": "I bought two boxes of mooncakes — one for my Chinese teacher, and one for the neighbor downstairs."
+    },
+    {
+      "t": [["月饼", "yuèbing", "mooncake"], ["有", "yǒu", "to have"], ["很", "hěn", "very"], ["多", "duō", "many"], ["种", "zhǒng", "kind; type"], ["，"], ["有的", "yǒude", "some"], ["是", "shì", "to be"], ["甜", "tián", "sweet"], ["的", "de", "(particle)"], ["，"], ["里面", "lǐmiàn", "inside"], ["有", "yǒu", "to have"], ["水果", "shuǐguǒ", "fruit"], ["，"], ["有的", "yǒude", "some"], ["里面", "lǐmiàn", "inside"], ["还", "hái", "even; also"], ["有", "yǒu", "to have"], ["鸡蛋", "jīdàn", "egg"], ["。"]],
+      "en": "There are many kinds of mooncakes: some are sweet with fruit inside, and some even have egg inside."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"], ["把", "bǎ", "(particle: moves object before verb)"], ["月饼", "yuèbing", "mooncake"], ["送给", "sòng gěi", "to give to"], ["老师", "lǎoshī", "teacher"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["她", "tā", "she; her"], ["笑", "xiào", "to smile"], ["着", "zhe", "(particle: ongoing state)"], ["说", "shuō", "to say"], ["："], ["“"], ["你", "nǐ", "you"], ["越来越", "yuè lái yuè", "more and more"], ["像", "xiàng", "to be like; to resemble"], ["中国人", "Zhōngguórén", "Chinese person"], ["了", "le", "(particle: change of state)"], ["！"], ["”"]],
+      "en": "When I gave the mooncakes to my teacher, she said with a smile, \"You're becoming more and more like a Chinese person!\""
+    },
+    {
+      "t": [["楼下", "lóuxià", "downstairs"], ["的", "de", "(particle: attributive)"], ["邻居", "línjū", "neighbor"], ["阿姨", "āyí", "auntie (friendly address)"], ["也", "yě", "also"], ["很", "hěn", "very"], ["高兴", "gāoxìng", "happy"], ["，"], ["第二天", "dì èr tiān", "the next day"], ["她", "tā", "she; her"], ["送", "sòng", "to give (as a gift)"], ["了", "le", "(particle: completed action)"], ["我们", "wǒmen", "we; us"], ["一些", "yìxiē", "some"], ["苹果", "píngguǒ", "apple"], ["。"]],
+      "en": "The auntie downstairs was also very happy; the next day she gave us some apples."
+    },
+    {
+      "t": [["同事", "tóngshì", "colleague"], ["说", "shuō", "to say"], ["，"], ["送", "sòng", "to give (as a gift)"], ["月饼", "yuèbing", "mooncake"], ["的", "de", "(particle: attributive)"], ["意思", "yìsi", "meaning"], ["是", "shì", "to be"], ["："], ["虽然", "suīrán", "although"], ["不", "bù", "not"], ["能", "néng", "can"], ["常常", "chángcháng", "often"], ["见面", "jiànmiàn", "to meet"], ["，"], ["但是", "dànshì", "but"], ["我", "wǒ", "I; me"], ["想", "xiǎng", "to think of; to miss"], ["着", "zhe", "(particle: ongoing state)"], ["你", "nǐ", "you"], ["。"]],
+      "en": "My colleague said that giving mooncakes means: although we can't meet often, you are on my mind."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"], ["觉得", "juéde", "to feel; to think"], ["这个", "zhège", "this"], ["文化", "wénhuà", "culture"], ["真", "zhēn", "really"], ["有意思", "yǒu yìsi", "interesting"], ["，"], ["明年", "míngnián", "next year"], ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"], ["我", "wǒ", "I; me"], ["还", "hái", "still; again"], ["要", "yào", "to want to"], ["送", "sòng", "to give (as a gift)"], ["月饼", "yuèbing", "mooncake"], ["。"]],
+      "en": "I think this custom is really lovely — next Mid-Autumn Festival I want to give mooncakes again."
+    }
+  ],
+  "vocab": [
+    ["月饼", "yuèbing", "mooncake"],
+    ["中秋节", "Zhōngqiūjié", "Mid-Autumn Festival"],
+    ["盒", "hé", "box (measure word)"],
+    ["邻居", "línjū", "neighbor"],
+    ["像", "xiàng", "to be like; to resemble"],
+    ["文化", "wénhuà", "culture"]
+  ],
+  "quiz": [
+    {
+      "q": "How many boxes of mooncakes did the writer buy?",
+      "a": ["One", "Two", "Three"],
+      "c": 1
+    },
+    {
+      "q": "Who received the mooncakes?",
+      "a": ["The teacher and the downstairs neighbor", "The writer's parents", "Two colleagues"],
+      "c": 0
+    },
+    {
+      "q": "What did the neighbor give back the next day?",
+      "a": ["Mooncakes", "Tea", "Some apples"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "有的……有的…… — some… others…",
+      "e": "Talks about different members of a group: 有的月饼是甜的，有的里面还有鸡蛋。",
+      "x": "有的人喜欢喝茶，有的人喜欢喝咖啡。 — Some people like tea; others like coffee."
+    },
+    {
+      "p": "把 + object + verb — the 把 sentence",
+      "e": "把 moves the object before the verb to show what you do with it: 我把月饼送给老师。",
+      "x": "请把门开开。 — Please open the door."
+    }
+  ]
+}

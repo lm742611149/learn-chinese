@@ -1,0 +1,189 @@
+{
+  "slug": "hsk2-swimming",
+  "level": 2,
+  "title_zh": "游泳",
+  "title_py": "Yóuyǒng",
+  "title_en": "Swimming",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["以前", "yǐqián", "before; in the past"],
+        ["不", "bú", "not"],
+        ["会", "huì", "can (learned skill)"],
+        ["游泳", "yóuyǒng", "to swim"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["丈夫", "zhàngfu", "husband"],
+        ["游", "yóu", "to swim"],
+        ["得", "de", "(complement particle)"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["好", "hǎo", "good; well"],
+        ["。"]
+      ],
+      "en": "I couldn't swim before, but my husband swims very well."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["游泳", "yóuyǒng", "to swim; swimming"],
+        ["对", "duì", "good for"],
+        ["身体", "shēntǐ", "body; health"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["和", "hé", "and; with"],
+        ["我", "wǒ", "I; me"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["吧", "ba", "(particle: suggestion)"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "He said to me, \"Swimming is good for your health — come with me!\""
+    },
+    {
+      "t": [
+        ["上个月", "shàng ge yuè", "last month"],
+        ["我们", "wǒmen", "we; us"],
+        ["开始", "kāishǐ", "to start"],
+        ["每", "měi", "every"],
+        ["个", "ge", "(measure word)"],
+        ["星期", "xīngqī", "week"],
+        ["去", "qù", "to go"],
+        ["游", "yóu", "to swim"],
+        ["两", "liǎng", "two"],
+        ["次", "cì", "time (occurrence)"],
+        ["。"]
+      ],
+      "en": "Last month we started going swimming twice every week."
+    },
+    {
+      "t": [
+        ["开始", "kāishǐ", "to start; beginning"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["游", "yóu", "to swim"],
+        ["一", "yì", "one"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "then; as soon as"],
+        ["累", "lèi", "tired"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "At the beginning, I got tired after swimming for just one minute."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["已经", "yǐjīng", "already"],
+        ["能", "néng", "can; to be able to"],
+        ["游", "yóu", "to swim"],
+        ["很", "hěn", "very"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "Now I can already swim for a long time."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["丈夫", "zhàngfu", "husband"],
+        ["看", "kàn", "to watch; to look at"],
+        ["我", "wǒ", "I; me"],
+        ["游泳", "yóuyǒng", "to swim"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["笑", "xiào", "to smile; to laugh"],
+        ["着", "zhe", "(particle: ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["游", "yóu", "to swim"],
+        ["得", "de", "(complement particle)"],
+        ["真", "zhēn", "really"],
+        ["好", "hǎo", "good; well"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Yesterday my husband watched me swim, and he said with a smile, \"You swim really well!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["游泳", "yóuyǒng", "swimming"],
+        ["是", "shì", "to be"],
+        ["最", "zuì", "the most"],
+        ["快乐", "kuàilè", "happy"],
+        ["的", "de", "(particle)"],
+        ["运动", "yùndòng", "exercise; sports"],
+        ["。"]
+      ],
+      "en": "I think swimming is the happiest sport of all."
+    }
+  ],
+  "vocab": [
+    ["游泳", "yóuyǒng", "to swim; swimming"],
+    ["丈夫", "zhàngfu", "husband"],
+    ["会", "huì", "can (learned skill)"],
+    ["次", "cì", "time (occurrence)"],
+    ["累", "lèi", "tired"],
+    ["最", "zuì", "the most"]
+  ],
+  "quiz": [
+    {
+      "q": "Who swims very well?",
+      "a": [
+        "The writer's husband",
+        "The writer",
+        "The writer's friend"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How often do they go swimming?",
+      "a": [
+        "Once a month",
+        "Twice every week",
+        "Every day"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the writer think of swimming now?",
+      "a": [
+        "It is too tiring",
+        "It is too expensive",
+        "It is the happiest sport"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "会 — a skill you have learned",
+      "e": "会 means 'can' for learned skills like swimming or speaking a language: 我以前不会游泳，现在会了.",
+      "x": "我以前不会游泳。— I couldn't swim before."
+    },
+    {
+      "p": "次 — measure word for times",
+      "e": "次 counts how many times something happens; the number goes before it: 两次 (twice), 每个星期去两次.",
+      "x": "我们每个星期去游两次。— We go swimming twice every week."
+    }
+  ]
+}

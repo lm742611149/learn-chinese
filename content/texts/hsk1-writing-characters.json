@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-writing-characters",
+  "level": 1,
+  "title_zh": "写汉字",
+  "title_py": "Xiě Hànzì",
+  "title_en": "Writing Chinese Characters",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["学习","xuéxí","to study"],["汉语","Hànyǔ","Chinese (language)"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["爱","ài","to love"],["写","xiě","to write"],["汉字","Hànzì","Chinese character(s)"],["。"]],
+      "en": "I study Chinese, and I really love writing Chinese characters."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["，"],["老师","lǎoshī","teacher"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we"],["写","xiě","to write"],["汉字","Hànzì","Chinese character(s)"],["，"],["好","hǎo","good; okay"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "This morning, the teacher says, \"Let's write Chinese characters, okay?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["写","xiě","to write"],["“"],["大","dà","big"],["”"],["，"],["写","xiě","to write"],["“"],["小","xiǎo","small"],["”"],["，"],["写","xiě","to write"],["“"],["人","rén","person"],["”"],["，"],["这些","zhèxiē","these"],["字","zì","character(s)"],["很","hěn","very"],["好写","hǎo xiě","easy to write"],["。"]],
+      "en": "I write 大, 小, and 人 — these characters are easy to write."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["写","xiě","to write"],["的","de","(particle)"],["字","zì","character(s)"],["不","bú","not"],["太","tài","too; very"],["漂亮","piàoliang","pretty"],["，"],["老师","lǎoshī","teacher"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it doesn't matter"],["！"],["”"]],
+      "en": "The characters I write are not very pretty; the teacher says, \"It doesn't matter!\""
+    },
+    {
+      "t": [["老师","lǎoshī","teacher"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["多","duō","more"],["写","xiě","to write"],["，"],["字","zì","character(s)"],["能","néng","can"],["很","hěn","very"],["漂亮","piàoliang","pretty"],["。"],["”"]],
+      "en": "The teacher says, \"Write more, and your characters can be very pretty.\""
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["在","zài","at"],["家","jiā","home"],["写","xiě","to write"],["汉字","Hànzì","Chinese character(s)"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "Now I write Chinese characters at home, and I am very happy."
+    }
+  ],
+  "vocab": [
+    ["写","xiě","to write"],
+    ["汉字","Hànzì","Chinese character(s)"],
+    ["字","zì","character; word"],
+    ["漂亮","piàoliang","pretty"],
+    ["没关系","méi guānxi","it doesn't matter"],
+    ["能","néng","can; to be able to"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator love doing?","a":["Writing Chinese characters","Watching movies","Buying books"],"c":0},
+    {"q":"What does the teacher say about the narrator's characters?","a":["They are too big","\"It doesn't matter!\"","They are very pretty now"],"c":1},
+    {"q":"What does the teacher tell the narrator to do?","a":["Write more","Sleep more","Read more"],"c":0}
+  ],
+  "grammar": [
+    {"p":"…，好吗？ — making a suggestion","e":"Add 好吗？ after a sentence to suggest something and ask if the other person agrees, like 'okay?' in English.","x":"我们写汉字，好吗？ — Let's write Chinese characters, okay?"},
+    {"p":"不太 + adjective — not very","e":"不太 before an adjective softens it: 不太漂亮 = not very pretty. Note that 不 is read bú here, before the fourth tone of 太.","x":"我写的字不太漂亮。 — The characters I write are not very pretty."}
+  ]
+}

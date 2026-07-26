@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-i-love-sleeping",
+  "level": 1,
+  "title_zh": "我爱睡觉",
+  "title_py": "Wǒ ài shuìjiào",
+  "title_en": "I Love Sleeping",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["叫","jiào","to be called"],["李明","Lǐ Míng","Li Ming (a name)"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["爱","ài","to love"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "My name is Li Ming, and I really love sleeping."
+    },
+    {
+      "t": [["我","wǒ","my"],["家","jiā","home"],["有","yǒu","to have; there is"],["猫","māo","cat"],["，"],["猫","māo","cat"],["和","hé","and"],["我","wǒ","I; me"],["都","dōu","both; all"],["爱","ài","to love"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "There is a cat at my home — the cat and I both love sleeping."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["我","wǒ","I; me"],["睡觉","shuìjiào","to sleep"],["，"],["中午","zhōngwǔ","noon"],["我","wǒ","I; me"],["睡觉","shuìjiào","to sleep"],["，"],["下午","xiàwǔ","afternoon"],["我","wǒ","I; me"],["想","xiǎng","to want to"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "This morning I slept, at noon I slept, and in the afternoon I want to sleep."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["现在","xiànzài","now"],["不","bù","not"],["能","néng","can; may"],["睡觉","shuìjiào","to sleep"],["，"],["去","qù","to go"],["学习","xuéxí","to study"],["！"],["”"]],
+      "en": "Mom says, \"You may not sleep now — go study!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to read; to look at"],["书","shū","book"],["的时候","de shíhou","when; while"],["，"],["我","wǒ","my"],["的","de","(possessive particle)"],["猫","māo","cat"],["在","zài","at; on"],["我","wǒ","my"],["的","de","(possessive particle)"],["书","shū","book"],["上","shàng","on top of"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "When I read my book, my cat sleeps on my book."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["，"],["我","wǒ","my"],["的","de","(possessive particle)"],["猫","māo","cat"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(particle)"],["！"]],
+      "en": "I am very happy — my cat is so great!"
+    }
+  ],
+  "vocab": [
+    ["睡觉","shuìjiào","to sleep"],
+    ["爱","ài","to love"],
+    ["猫","māo","cat"],
+    ["想","xiǎng","to want to"],
+    ["学习","xuéxí","to study"],
+    ["时候","shíhou","time; moment"]
+  ],
+  "quiz": [
+    {"q":"What does Li Ming love doing?","a":["Working","Sleeping","Buying things"],"c":1},
+    {"q":"Who also loves sleeping?","a":["His cat","His teacher","His mom"],"c":0},
+    {"q":"What does Mom tell him to do?","a":["Go study","Go eat","Go sleep"],"c":0}
+  ],
+  "grammar": [
+    {"p":"想 + verb — want to","e":"想 before a verb means 'want to' or 'would like to' do something.","x":"下午我想睡觉。 — In the afternoon I want to sleep."},
+    {"p":"太…了 — so / too","e":"Put an adjective between 太 and 了 to say something is 'so …' or 'too …'. It often shows strong feeling.","x":"我的猫太好了！ — My cat is so great!"}
+  ]
+}

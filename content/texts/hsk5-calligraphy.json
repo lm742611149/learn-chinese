@@ -1,0 +1,175 @@
+{
+  "slug": "hsk5-calligraphy",
+  "level": 5,
+  "title_zh": "写字的艺术",
+  "title_py": "Xiězì de yìshù",
+  "title_en": "The Art of Writing: Calligraphy",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在","zài","in"], ["中国人","Zhōngguórén","Chinese people"],
+        ["眼里","yǎnli","in the eyes of"], ["，"],
+        ["写","xiě","to write"], ["字","zì","character"],
+        ["不","bù","not"], ["只是","zhǐshì","merely"],
+        ["记录","jìlù","to record"], ["语言","yǔyán","language"], ["，"],
+        ["更","gèng","even more"], ["是","shì","is"],
+        ["一","yì","one"], ["门","mén","(measure for arts)"],
+        ["艺术","yìshù","art"], ["，"],
+        ["它","tā","it"], ["叫","jiào","to be called"],
+        ["书法","shūfǎ","calligraphy"], ["。"]
+      ],
+      "en": "In the eyes of Chinese people, writing characters is not merely recording language; it is, even more, an art, called calligraphy."
+    },
+    {
+      "t": [
+        ["书法家","shūfǎjiā","calligrapher"], ["用","yòng","to use"],
+        ["毛笔","máobǐ","writing brush"], ["和","hé","and"], ["墨","mò","ink"], ["，"],
+        ["在","zài","on"], ["纸","zhǐ","paper"], ["上","shang","on"],
+        ["写出","xiěchū","to write out"], ["各种","gèzhǒng","all kinds of"],
+        ["风格","fēnggé","style"], ["的","de","(particle)"], ["字","zì","character"], ["："],
+        ["有的","yǒude","some"], ["像","xiàng","like"], ["大山","dàshān","great mountain"],
+        ["一样","yíyàng","as; the same as"], ["安静","ānjìng","calm"], ["，"],
+        ["有的","yǒude","some"], ["像","xiàng","like"], ["流水","liúshuǐ","flowing water"],
+        ["一样","yíyàng","as; the same as"], ["自由","zìyóu","free"], ["。"]
+      ],
+      "en": "Calligraphers use a brush and ink to write characters in all kinds of styles on paper: some are as calm as a great mountain, others as free as flowing water."
+    },
+    {
+      "t": [
+        ["古代","gǔdài","ancient times"], ["的","de","(particle)"],
+        ["孩子","háizi","child"], ["一","yí","as soon as"],
+        ["进","jìn","to enter"], ["学校","xuéxiào","school"], ["，"],
+        ["首先","shǒuxiān","first"], ["要","yào","must"], ["学","xué","to learn"],
+        ["的","de","(particle)"], ["就","jiù","exactly"], ["是","shì","is"],
+        ["怎么","zěnme","how"], ["握","wò","to hold; to grip"],
+        ["笔","bǐ","pen; brush"], ["。"]
+      ],
+      "en": "In ancient times, as soon as children entered school, the first thing they had to learn was how to hold the brush."
+    },
+    {
+      "t": [
+        ["人们","rénmen","people"], ["相信","xiāngxìn","to believe"], ["“"],
+        ["字如其人","zì rú qí rén","the writing is like the person"], ["”"], ["："],
+        ["看","kàn","to look at"], ["一","yí","one"], ["个","gè","(measure)"],
+        ["人","rén","person"], ["的","de","(particle)"], ["字","zì","handwriting"], ["，"],
+        ["就","jiù","then"], ["能","néng","can"],
+        ["看出","kànchū","to discern"], ["他","tā","he"],
+        ["的","de","(particle)"], ["性格","xìnggé","personality"], ["。"]
+      ],
+      "en": "People believe that \"the writing is like the person\": by looking at someone's handwriting, you can tell their personality."
+    },
+    {
+      "t": [
+        ["最","zuì","most"], ["有名","yǒumíng","famous"], ["的","de","(particle)"],
+        ["书法家","shūfǎjiā","calligrapher"], ["，"],
+        ["是","shì","is"], ["一千六百","yìqiān liùbǎi","one thousand six hundred"],
+        ["多","duō","more than"], ["年","nián","year"], ["前","qián","ago"],
+        ["的","de","(particle)"], ["王羲之","Wáng Xīzhī","Wang Xizhi"], ["。"]
+      ],
+      "en": "The most famous calligrapher is Wang Xizhi, who lived more than one thousand six hundred years ago."
+    },
+    {
+      "t": [
+        ["传说","chuánshuō","legend has it"], ["他","tā","he"],
+        ["练","liàn","to practice"], ["字","zì","character"],
+        ["练","liàn","to practice"], ["得","de","(degree particle)"],
+        ["太","tài","too"], ["认真","rènzhēn","diligent"], ["，"],
+        ["洗","xǐ","to wash"], ["毛笔","máobǐ","writing brush"],
+        ["的","de","(particle)"], ["水","shuǐ","water"], ["，"],
+        ["把","bǎ","(object marker)"], ["家","jiā","home"],
+        ["门口","ménkǒu","doorway"], ["的","de","(particle)"],
+        ["一","yì","one"], ["池","chí","pool of"], ["水","shuǐ","water"],
+        ["都","dōu","all"], ["变","biàn","to change"],
+        ["黑","hēi","black"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "Legend says he practiced so diligently that the water from washing his brushes turned a whole pool by his door black."
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"], ["，"],
+        ["虽然","suīrán","although"], ["大家","dàjiā","everyone"],
+        ["都","dōu","all"], ["用","yòng","to use"],
+        ["电脑","diànnǎo","computer"], ["和","hé","and"],
+        ["手机","shǒujī","mobile phone"], ["打字","dǎzì","to type"], ["，"],
+        ["但是","dànshì","but"], ["学","xué","to learn"],
+        ["书法","shūfǎ","calligraphy"], ["的","de","(particle)"],
+        ["人","rén","people"], ["不但","búdàn","not only"],
+        ["没有","méiyǒu","have not"], ["减少","jiǎnshǎo","to decrease"], ["，"],
+        ["反而","fǎn'ér","on the contrary"],
+        ["越来越","yuèláiyuè","more and more"], ["多","duō","many"], ["。"]
+      ],
+      "en": "Today, although everyone types on computers and phones, the number of people learning calligraphy has not decreased; on the contrary, it keeps growing."
+    },
+    {
+      "t": [
+        ["很多","hěn duō","many"], ["外国","wàiguó","foreign"],
+        ["朋友","péngyou","friend"], ["也","yě","also"],
+        ["开始","kāishǐ","to begin"], ["学","xué","to learn"],
+        ["书法","shūfǎ","calligraphy"], ["，"],
+        ["他们","tāmen","they"], ["说","shuō","to say"], ["，"],
+        ["写","xiě","to write"], ["字","zì","character"],
+        ["的","de","(particle)"], ["时候","shíhou","time"], ["，"],
+        ["心","xīn","heart; mind"], ["会","huì","will"],
+        ["慢慢","mànmàn","slowly"], ["安静","ānjìng","calm"],
+        ["下来","xiàlai","(settle) down"], ["。"]
+      ],
+      "en": "Many foreign friends have also begun learning calligraphy; they say that while writing, the mind slowly calms down."
+    },
+    {
+      "t": [
+        ["一","yì","one"], ["支","zhī","(measure for pens)"], ["笔","bǐ","brush"], ["、"],
+        ["一","yì","one"], ["张","zhāng","(measure for flat objects)"], ["纸","zhǐ","paper"], ["，"],
+        ["就","jiù","then; just"], ["能","néng","can"], ["让","ràng","to make"],
+        ["人","rén","person"], ["放下","fàngxià","to put down"],
+        ["手机","shǒujī","mobile phone"], ["，"],
+        ["享受","xiǎngshòu","to enjoy"], ["一","yí","one"],
+        ["段","duàn","(measure for a period)"], ["安静","ānjìng","quiet"],
+        ["的","de","(particle)"], ["时间","shíjiān","time"], ["。"]
+      ],
+      "en": "Just one brush and one sheet of paper can make a person put down the phone and enjoy a stretch of quiet time."
+    }
+  ],
+  "vocab": [
+    ["书法","shūfǎ","calligraphy"],
+    ["毛笔","máobǐ","writing brush"],
+    ["墨","mò","ink; ink stick"],
+    ["字如其人","zì rú qí rén","the writing is like the person (idiom)"],
+    ["王羲之","Wáng Xīzhī","Wang Xizhi (the most famous calligrapher)"],
+    ["池","chí","pool; pond"]
+  ],
+  "quiz": [
+    {
+      "q": "According to legend, what happened because Wang Xizhi practiced so diligently?",
+      "a": ["The water from washing his brushes turned a whole pool black", "He wrote a poem on his door", "He broke one thousand six hundred brushes"],
+      "c": 0
+    },
+    {
+      "q": "What does \"the writing is like the person\" mean in the text?",
+      "a": ["Everyone's handwriting looks the same", "You can tell a person's personality from their handwriting", "Only calligraphers may write with a brush"],
+      "c": 1
+    },
+    {
+      "q": "In the age of typing, what has happened to the number of people learning calligraphy?",
+      "a": ["It has decreased quickly", "It has stayed exactly the same", "It has not decreased; on the contrary, it keeps growing"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不但没有…反而… (not only did not…, on the contrary…)",
+      "e": "States that something not only failed to happen, but the opposite happened: 学书法的人不但没有减少，反而越来越多。",
+      "x": "吃了药，他的病不但没有好，反而更重了。 — After taking the medicine, his illness not only did not improve; on the contrary, it got worse."
+    },
+    {
+      "p": "像…一样 + adj. (as… as…)",
+      "e": "Compares the subject to something vivid, with the adjective after 一样: 有的像大山一样安静，有的像流水一样自由。",
+      "x": "她的声音像音乐一样好听。 — Her voice is as pleasant as music."
+    },
+    {
+      "p": "Adj. + 下来 (to settle into a state)",
+      "e": "下来 after certain adjectives or verbs shows a gradual change into a calmer or lower state: 心会慢慢安静下来。",
+      "x": "听了他的话，大家都安静了下来。 — After hearing his words, everyone quieted down."
+    }
+  ]
+}

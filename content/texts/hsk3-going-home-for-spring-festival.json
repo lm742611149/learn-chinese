@@ -1,0 +1,79 @@
+{
+  "slug": "hsk3-going-home-for-spring-festival",
+  "level": 3,
+  "title_zh": "春节回家",
+  "title_py": "Chūnjié huíjiā",
+  "title_en": "Going Home for Spring Festival",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["春节", "Chūnjié", "Spring Festival; Chinese New Year"], ["快要", "kuàiyào", "soon; about to"], ["到", "dào", "to arrive"], ["了", "le", "(particle: imminent)"], ["，"], ["我", "wǒ", "I; me"], ["决定", "juédìng", "to decide"], ["回家", "huíjiā", "to go home"], ["看", "kàn", "to see; to visit"], ["爸爸", "bàba", "dad"], ["妈妈", "māma", "mom"], ["。"]],
+      "en": "Spring Festival was coming soon, so I decided to go home to see my parents."
+    },
+    {
+      "t": [["春节", "Chūnjié", "Spring Festival"], ["前", "qián", "before"], ["的", "de", "(particle: attributive)"], ["火车票", "huǒchēpiào", "train ticket"], ["非常", "fēicháng", "very; extremely"], ["难", "nán", "hard; difficult"], ["买", "mǎi", "to buy"], ["，"], ["我", "wǒ", "I; me"], ["在", "zài", "at; on"], ["网上", "wǎngshàng", "online"], ["看", "kàn", "to look"], ["了", "le", "(particle: completed action)"], ["三天", "sān tiān", "three days"], ["，"], ["才", "cái", "only then (later than expected)"], ["买到", "mǎidào", "to manage to buy"], ["一张", "yì zhāng", "one (measure for tickets)"], ["。"]],
+      "en": "Train tickets before Spring Festival are extremely hard to get; I searched online for three days before I finally got one."
+    },
+    {
+      "t": [["那天", "nà tiān", "that day"], ["火车站", "huǒchēzhàn", "train station"], ["里", "lǐ", "inside"], ["人", "rén", "people"], ["很", "hěn", "very"], ["多", "duō", "many"], ["，"], ["大家", "dàjiā", "everyone"], ["都", "dōu", "all"], ["拿", "ná", "to carry"], ["着", "zhe", "(particle: ongoing state)"], ["很", "hěn", "very"], ["多", "duō", "many"], ["东西", "dōngxi", "things"], ["，"], ["脸上", "liǎn shang", "on the face"], ["带", "dài", "to carry; to wear"], ["着", "zhe", "(particle: ongoing state)"], ["笑", "xiào", "smile"], ["。"]],
+      "en": "That day the train station was packed; everyone was carrying lots of bags, with smiles on their faces."
+    },
+    {
+      "t": [["火车", "huǒchē", "train"], ["开", "kāi", "to run; to drive"], ["了", "le", "(particle: completed action)"], ["十", "shí", "ten"], ["个", "gè", "(measure word)"], ["小时", "xiǎoshí", "hour"], ["，"], ["我", "wǒ", "I; me"], ["一直", "yìzhí", "the whole time; continuously"], ["看", "kàn", "to watch"], ["着", "zhe", "(particle: ongoing state)"], ["外面", "wàimiàn", "outside"], ["的", "de", "(particle: attributive)"], ["雪", "xuě", "snow"], ["。"]],
+      "en": "The train ran for ten hours, and I kept watching the snow outside the whole way."
+    },
+    {
+      "t": [["到", "dào", "to arrive"], ["家", "jiā", "home"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["已经", "yǐjīng", "already"], ["是", "shì", "to be"], ["晚上", "wǎnshang", "evening"], ["了", "le", "(particle)"], ["，"], ["妈妈", "māma", "mom"], ["做好", "zuòhǎo", "to finish making"], ["了", "le", "(particle: completed action)"], ["一桌", "yì zhuō", "a table of"], ["菜", "cài", "dish; food"], ["，"], ["还", "hái", "also"], ["包", "bāo", "to wrap; to make (dumplings)"], ["了", "le", "(particle: completed action)"], ["我", "wǒ", "I; me"], ["最", "zuì", "most"], ["爱", "ài", "to love"], ["吃", "chī", "to eat"], ["的", "de", "(particle: attributive)"], ["饺子", "jiǎozi", "dumplings"], ["。"]],
+      "en": "It was already evening when I got home; Mom had made a whole table of dishes and had also wrapped my favorite dumplings."
+    },
+    {
+      "t": [["爸爸", "bàba", "dad"], ["看", "kàn", "to look at"], ["着", "zhe", "(particle: ongoing state)"], ["我", "wǒ", "I; me"], ["说", "shuō", "to say"], ["："], ["“"], ["一年", "yì nián", "one year"], ["不", "bú", "not"], ["见", "jiàn", "to see; to meet"], ["，"], ["你", "nǐ", "you"], ["瘦", "shòu", "thin"], ["了", "le", "(particle: change of state)"], ["，"], ["要", "yào", "should"], ["多", "duō", "more"], ["吃", "chī", "to eat"], ["一点儿", "yìdiǎnr", "a little"], ["！"], ["”"]],
+      "en": "Dad looked at me and said, \"A whole year without seeing you — you've gotten thinner. Eat more!\""
+    },
+    {
+      "t": [["吃", "chī", "to eat"], ["完", "wán", "to finish"], ["饭", "fàn", "meal"], ["，"], ["我们", "wǒmen", "we; us"], ["一起", "yìqǐ", "together"], ["看", "kàn", "to watch"], ["电视", "diànshì", "TV"], ["，"], ["说", "shuō", "to talk"], ["了", "le", "(particle: completed action)"], ["很", "hěn", "very"], ["多", "duō", "many"], ["话", "huà", "words; talk"], ["，"], ["一直", "yìzhí", "continuously; up until"], ["到", "dào", "until"], ["很", "hěn", "very"], ["晚", "wǎn", "late"], ["。"]],
+      "en": "After dinner we watched TV together and talked and talked, late into the night."
+    },
+    {
+      "t": [["回家", "huíjiā", "to go home"], ["的", "de", "(particle: attributive)"], ["路", "lù", "road; journey"], ["虽然", "suīrán", "although"], ["很", "hěn", "very"], ["长", "cháng", "long"], ["，"], ["但是", "dànshì", "but"], ["能", "néng", "can; to be able to"], ["和", "hé", "with"], ["家人", "jiārén", "family members"], ["一起", "yìqǐ", "together"], ["过", "guò", "to spend; to celebrate"], ["春节", "Chūnjié", "Spring Festival"], ["，"], ["比", "bǐ", "than; compared with"], ["什么", "shénme", "anything"], ["都", "dōu", "all; (emphasis)"], ["好", "hǎo", "good"], ["。"]],
+      "en": "Although the journey home is long, spending Spring Festival with my family is better than anything."
+    }
+  ],
+  "vocab": [
+    ["春节", "Chūnjié", "Spring Festival; Chinese New Year"],
+    ["火车票", "huǒchēpiào", "train ticket"],
+    ["才", "cái", "only then (later than expected)"],
+    ["一直", "yìzhí", "continuously; the whole time"],
+    ["饺子", "jiǎozi", "dumplings"],
+    ["瘦", "shòu", "thin"]
+  ],
+  "quiz": [
+    {
+      "q": "How long did the writer search online before getting a train ticket?",
+      "a": ["One day", "Three days", "A week"],
+      "c": 1
+    },
+    {
+      "q": "What did Mom make that the writer loves most?",
+      "a": ["Noodles", "Fish", "Dumplings"],
+      "c": 2
+    },
+    {
+      "q": "What did Dad say about the writer?",
+      "a": ["You've gotten thinner", "You've gotten taller", "You talk too much"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "快要……了 — about to; soon",
+      "e": "Says something is going to happen very soon: 春节快要到了。",
+      "x": "火车快要开了，我们快走吧！ — The train is about to leave; let's hurry!"
+    },
+    {
+      "p": "才 — later or harder than expected",
+      "e": "才 before a verb shows the result came late or took effort: 我看了三天，才买到一张票。",
+      "x": "他晚上十二点才睡觉。 — He didn't go to bed until midnight."
+    }
+  ]
+}

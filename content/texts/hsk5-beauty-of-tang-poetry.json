@@ -1,0 +1,164 @@
+{
+  "slug": "hsk5-beauty-of-tang-poetry",
+  "level": 5,
+  "title_zh": "唐诗之美",
+  "title_py": "Tángshī zhī měi",
+  "title_en": "The Beauty of Tang Poetry",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["一千三百","yìqiān sānbǎi","one thousand three hundred"], ["多","duō","more than"],
+        ["年","nián","year"], ["前","qián","ago"], ["的","de","(particle)"],
+        ["唐朝","Tángcháo","the Tang dynasty"], ["，"],
+        ["是","shì","is"], ["中国","Zhōngguó","China"], ["诗","shī","poetry"],
+        ["的","de","(particle)"], ["黄金","huángjīn","golden"],
+        ["时代","shídài","era"], ["。"]
+      ],
+      "en": "The Tang dynasty, more than one thousand three hundred years ago, was the golden age of Chinese poetry."
+    },
+    {
+      "t": [
+        ["那","nà","that"], ["时候","shíhou","time"], ["，"],
+        ["几乎","jīhū","almost"], ["人人","rénrén","everyone"], ["都","dōu","all"],
+        ["会","huì","can"], ["写","xiě","to write"], ["诗","shī","poem"], ["："],
+        ["皇帝","huángdì","emperor"], ["写","xiě","to write"], ["，"],
+        ["士兵","shìbīng","soldier"], ["写","xiě","to write"], ["，"],
+        ["连","lián","even"], ["卖","mài","to sell"], ["酒","jiǔ","wine"],
+        ["的","de","(particle)"], ["人","rén","person"], ["也","yě","also"],
+        ["写","xiě","to write"], ["。"]
+      ],
+      "en": "At that time, almost everyone could write poems: emperors wrote them, soldiers wrote them, and even wine sellers wrote them."
+    },
+    {
+      "t": [
+        ["《"], ["全唐诗","Quán Táng Shī","the Complete Tang Poems"], ["》"],
+        ["里","li","in"], ["保存","bǎocún","to preserve"], ["了","le","(particle)"],
+        ["将近","jiāngjìn","nearly"], ["五万","wǔwàn","fifty thousand"],
+        ["首","shǒu","(measure for poems)"], ["诗","shī","poem"], ["，"],
+        ["作者","zuòzhě","author"], ["超过","chāoguò","to exceed"],
+        ["两千","liǎngqiān","two thousand"], ["人","rén","person"], ["。"]
+      ],
+      "en": "The Complete Tang Poems preserves nearly fifty thousand poems, by more than two thousand authors."
+    },
+    {
+      "t": [
+        ["唐诗","Tángshī","Tang poetry"], ["的","de","(particle)"], ["美","měi","beauty"], ["，"],
+        ["首先","shǒuxiān","first of all"], ["在于","zàiyú","to lie in"],
+        ["它","tā","it"], ["的","de","(particle)"], ["声音","shēngyīn","sound"], ["："],
+        ["每","měi","every"], ["首","shǒu","(measure for poems)"], ["诗","shī","poem"],
+        ["都","dōu","all"], ["像","xiàng","like"], ["一","yì","one"],
+        ["首","shǒu","(measure for songs)"], ["小小","xiǎoxiǎo","tiny"],
+        ["的","de","(particle)"], ["歌","gē","song"], ["，"],
+        ["读","dú","to read"], ["出来","chūlai","out (aloud)"],
+        ["特别","tèbié","especially"], ["好听","hǎotīng","pleasant to hear"], ["。"]
+      ],
+      "en": "The beauty of Tang poetry lies first of all in its sound: every poem is like a tiny song, and reading it aloud is especially pleasant."
+    },
+    {
+      "t": [
+        ["其次","qícì","secondly"], ["，"],
+        ["诗人","shīrén","poet"], ["们","men","(plural)"],
+        ["善于","shànyú","to be good at"], ["用","yòng","to use"],
+        ["最","zuì","most"], ["简单","jiǎndān","simple"], ["的","de","(particle)"],
+        ["字","zì","character"], ["，"],
+        ["表达","biǎodá","to express"], ["最","zuì","most"], ["深","shēn","deep"],
+        ["的","de","(particle)"], ["感情","gǎnqíng","feeling"], ["。"]
+      ],
+      "en": "Secondly, the poets were good at using the simplest characters to express the deepest feelings."
+    },
+    {
+      "t": [
+        ["比如","bǐrú","for example"], ["想","xiǎng","to miss"], ["家","jiā","home"],
+        ["的","de","(particle)"], ["时候","shíhou","time"], ["，"],
+        ["他们","tāmen","they"], ["不","bù","not"], ["说","shuō","to say"], ["“"],
+        ["我","wǒ","I"], ["很","hěn","very"], ["难过","nánguò","sad"], ["”"], ["，"],
+        ["而是","érshì","but rather"], ["写","xiě","to write about"],
+        ["月亮","yuèliang","the moon"], ["、"],
+        ["写","xiě","to write about"], ["秋天","qiūtiān","autumn"],
+        ["的","de","(particle)"], ["树叶","shùyè","tree leaves"], ["。"]
+      ],
+      "en": "For example, when they missed home, they did not say \"I am sad\", but instead wrote about the moon, or about autumn leaves."
+    },
+    {
+      "t": [
+        ["今天","jīntiān","today"], ["，"],
+        ["中国","Zhōngguó","China"], ["孩子","háizi","child"],
+        ["上学","shàngxué","to start school"], ["后","hòu","after"],
+        ["背","bèi","to recite from memory"], ["的","de","(particle)"],
+        ["第一","dì-yī","first"], ["首","shǒu","(measure for poems)"],
+        ["诗","shī","poem"], ["，"],
+        ["往往","wǎngwǎng","usually"], ["还是","háishi","still"],
+        ["唐诗","Tángshī","Tang poetry"], ["。"]
+      ],
+      "en": "Today, the first poem Chinese children memorize after starting school is still usually a Tang poem."
+    },
+    {
+      "t": [
+        ["在","zài","in"], ["手机","shǒujī","mobile phone"], ["时代","shídài","era"], ["，"],
+        ["很多","hěn duō","many"], ["年轻人","niánqīngrén","young people"],
+        ["把","bǎ","(object marker)"], ["唐诗","Tángshī","Tang poems"],
+        ["做成","zuòchéng","to make into"], ["音乐","yīnyuè","music"],
+        ["和","hé","and"], ["短视频","duǎnshìpín","short video"], ["，"],
+        ["古老","gǔlǎo","ancient"], ["的","de","(particle)"], ["诗","shī","poem"],
+        ["又","yòu","again"], ["活","huó","to live"], ["了","le","(particle)"],
+        ["过来","guòlai","(come) back"], ["。"]
+      ],
+      "en": "In the smartphone era, many young people turn Tang poems into music and short videos, and the ancient poems have come back to life."
+    },
+    {
+      "t": [
+        ["也许","yěxǔ","perhaps"], ["这","zhè","this"], ["就","jiù","exactly"],
+        ["是","shì","is"], ["唐诗","Tángshī","Tang poetry"],
+        ["的","de","(particle)"], ["美","měi","beauty"], ["："],
+        ["时间","shíjiān","time"], ["一直","yìzhí","all along"],
+        ["在","zài","(progressive)"], ["变","biàn","to change"], ["，"],
+        ["人","rén","people"], ["的","de","(particle)"], ["感情","gǎnqíng","feeling"],
+        ["却","què","yet"], ["没有","méiyǒu","have not"], ["变","biàn","to change"], ["。"]
+      ],
+      "en": "Perhaps this is the beauty of Tang poetry: time keeps changing, yet human feelings have not."
+    }
+  ],
+  "vocab": [
+    ["唐朝","Tángcháo","the Tang dynasty"],
+    ["全唐诗","Quán Táng Shī","the Complete Tang Poems (anthology)"],
+    ["首","shǒu","(measure word for poems and songs)"],
+    ["背","bèi","to recite from memory"],
+    ["短视频","duǎnshìpín","short video"],
+    ["古老","gǔlǎo","ancient; age-old"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, where does the beauty of Tang poetry lie first of all?",
+      "a": ["In its sound — every poem is like a tiny song", "In its beautiful handwriting", "In its long and detailed stories"],
+      "c": 0
+    },
+    {
+      "q": "How many poems does the Complete Tang Poems preserve?",
+      "a": ["More than two thousand", "Nearly fifty thousand", "One thousand three hundred"],
+      "c": 1
+    },
+    {
+      "q": "How are the ancient poems coming back to life today?",
+      "a": ["Schools have stopped teaching them", "Emperors and soldiers write them again", "Young people turn them into music and short videos"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "在于 (to lie in; to consist in)",
+      "e": "Points out where the essence or key of something is found: 唐诗的美，首先在于它的声音。",
+      "x": "学好外语的关键在于每天练习。 — The key to mastering a foreign language lies in daily practice."
+    },
+    {
+      "p": "善于 (to be good at)",
+      "e": "A more formal way to say someone does something skillfully, usually followed by a verb phrase: 诗人们善于用最简单的字，表达最深的感情。",
+      "x": "她善于跟不同的人交流。 — She is good at communicating with different kinds of people."
+    },
+    {
+      "p": "连…也… (even…)",
+      "e": "连 highlights an extreme example, and 也 (or 都) completes it: 连卖酒的人也写。",
+      "x": "他忙得连饭也忘了吃。 — He was so busy that he even forgot to eat."
+    }
+  ]
+}

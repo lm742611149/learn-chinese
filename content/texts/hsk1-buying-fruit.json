@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-buying-fruit",
+  "level": 1,
+  "title_zh": "买水果",
+  "title_py": "Mǎi shuǐguǒ",
+  "title_en": "Buying Fruit",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["商店","shāngdiàn","store"],["买","mǎi","to buy"],["水果","shuǐguǒ","fruit"],["。"]],
+      "en": "This afternoon, I go to the store to buy fruit."
+    },
+    {
+      "t": [["商店","shāngdiàn","store"],["里","lǐ","inside"],["的","de","(possessive particle)"],["水果","shuǐguǒ","fruit"],["很","hěn","very"],["多","duō","many"],["，"],["有","yǒu","there is"],["大","dà","big"],["苹果","píngguǒ","apple"],["，"],["有","yǒu","there is"],["小","xiǎo","small"],["苹果","píngguǒ","apple"],["。"]],
+      "en": "There is a lot of fruit in the store — there are big apples and small apples."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["苹果","píngguǒ","apple"],["多少","duōshao","how much"],["钱","qián","money"],["一","yí","one"],["个","gè","(measure word)"],["？"],["”"]],
+      "en": "I say, \"How much is one apple?\""
+    },
+    {
+      "t": [["商店","shāngdiàn","store"],["的","de","(possessive particle)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["大","dà","big"],["苹果","píngguǒ","apple"],["三","sān","three"],["块","kuài","kuai (unit of money)"],["钱","qián","money"],["一","yí","one"],["个","gè","(measure word)"],["，"],["小","xiǎo","small"],["苹果","píngguǒ","apple"],["一","yí","one"],["块","kuài","kuai (unit of money)"],["钱","qián","money"],["一","yí","one"],["个","gè","(measure word)"],["。"],["”"]],
+      "en": "The person at the store says, \"Big apples are three kuai each, and small apples are one kuai each.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["五","wǔ","five"],["个","gè","(measure word)"],["小","xiǎo","small"],["苹果","píngguǒ","apple"],["。"]],
+      "en": "I bought five small apples."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["回","huí","to return"],["家","jiā","home"],["和","hé","with; and"],["妈妈","māma","mom"],["吃","chī","to eat"],["苹果","píngguǒ","apple"],["，"],["苹果","píngguǒ","apple"],["很","hěn","very"],["好吃","hǎochī","delicious"],["。"]],
+      "en": "I go home and eat the apples with my mom — the apples are delicious."
+    }
+  ],
+  "vocab": [
+    ["水果","shuǐguǒ","fruit"],
+    ["苹果","píngguǒ","apple"],
+    ["买","mǎi","to buy"],
+    ["商店","shāngdiàn","store"],
+    ["钱","qián","money"],
+    ["块","kuài","kuai (unit of money)"]
+  ],
+  "quiz": [
+    {"q":"Where does the narrator go this afternoon?","a":["To the hospital","To the store","To the school"],"c":1},
+    {"q":"How much is one small apple?","a":["One kuai","Three kuai","Five kuai"],"c":0},
+    {"q":"What does the narrator buy?","a":["Three big apples","Five small apples","One big apple"],"c":1}
+  ],
+  "grammar": [
+    {"p":"多少钱一个？ — asking the price","e":"To ask a price, say the thing + 多少钱 + measure: 苹果多少钱一个？ = How much is one apple?","x":"苹果多少钱一个？ — How much is one apple?"},
+    {"p":"verb + 了 — completed action","e":"了 right after a verb shows the action is finished or has happened: 买了 = bought.","x":"我买了五个小苹果。 — I bought five small apples."}
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "hsk5-li-bai-and-the-moon",
+  "level": 5,
+  "title_zh": "李白与月亮",
+  "title_py": "Lǐ Bái yǔ yuèliang",
+  "title_en": "Li Bai and the Moon",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在","zài","in"], ["中国","Zhōngguó","China"], ["，"],
+        ["几乎","jīhū","almost"], ["没有","méiyǒu","there is no"],
+        ["人","rén","person"], ["不","bù","not"], ["知道","zhīdào","to know"],
+        ["李白","Lǐ Bái","Li Bai"], ["的","de","(particle)"],
+        ["名字","míngzi","name"], ["。"]
+      ],
+      "en": "In China, there is almost no one who does not know the name Li Bai."
+    },
+    {
+      "t": [
+        ["他","tā","he"], ["是","shì","is"], ["唐朝","Tángcháo","the Tang dynasty"],
+        ["最","zuì","most"], ["有名","yǒumíng","famous"], ["的","de","(particle)"],
+        ["诗人","shīrén","poet"], ["之一","zhīyī","one of"], ["，"],
+        ["人们","rénmen","people"], ["叫","jiào","to call"], ["他","tā","him"], ["“"],
+        ["诗仙","Shīxiān","the Immortal Poet"], ["”"], ["。"]
+      ],
+      "en": "He was one of the most famous poets of the Tang dynasty, and people call him the \"Immortal Poet\"."
+    },
+    {
+      "t": [
+        ["李白","Lǐ Bái","Li Bai"], ["一生","yìshēng","lifetime"],
+        ["写","xiě","to write"], ["了","le","(particle)"],
+        ["大约","dàyuē","about"], ["一千","yìqiān","one thousand"],
+        ["首","shǒu","(measure for poems)"], ["诗","shī","poem"], ["，"],
+        ["其中","qízhōng","among them"], ["很多","hěn duō","many"],
+        ["都","dōu","all"], ["和","hé","with"], ["月亮","yuèliang","the moon"],
+        ["有关","yǒuguān","to be related to"], ["。"]
+      ],
+      "en": "In his lifetime, Li Bai wrote about one thousand poems, many of which are related to the moon."
+    },
+    {
+      "t": [
+        ["一","yí","one"], ["个","gè","(measure)"], ["安静","ānjìng","quiet"],
+        ["的","de","(particle)"], ["夜晚","yèwǎn","night"], ["，"],
+        ["他","tā","he"], ["看","kàn","to watch"], ["着","zhe","(aspect particle)"],
+        ["床","chuáng","bed"], ["前","qián","in front of"], ["的","de","(particle)"],
+        ["月光","yuèguāng","moonlight"], ["，"],
+        ["想起","xiǎngqǐ","to recall"], ["了","le","(particle)"],
+        ["远方","yuǎnfāng","faraway"], ["的","de","(particle)"],
+        ["家","jiā","home"], ["。"]
+      ],
+      "en": "One quiet night, watching the moonlight before his bed, he thought of his faraway home."
+    },
+    {
+      "t": [
+        ["于是","yúshì","so"], ["他","tā","he"], ["写下","xiěxià","to write down"],
+        ["了","le","(particle)"], ["著名","zhùmíng","famous"], ["的","de","(particle)"],
+        ["《"], ["静夜思","Jìngyèsī","Quiet Night Thoughts"], ["》"], ["："], ["“"],
+        ["举","jǔ","to raise"], ["头","tóu","head"], ["望","wàng","to gaze at"],
+        ["明月","míngyuè","the bright moon"], ["，"],
+        ["低","dī","to lower"], ["头","tóu","head"], ["思","sī","to think of"],
+        ["故乡","gùxiāng","hometown"], ["。"], ["”"]
+      ],
+      "en": "So he wrote the famous \"Quiet Night Thoughts\": \"Raising my head, I gaze at the bright moon; lowering my head, I think of my hometown.\""
+    },
+    {
+      "t": [
+        ["短短","duǎnduǎn","merely; just"], ["十","shí","ten"], ["个","gè","(measure)"],
+        ["字","zì","character"], ["，"],
+        ["就","jiù","then; already"], ["把","bǎ","(object marker)"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["人","rén","person"],
+        ["在","zài","in"], ["外地","wàidì","another part of the country"],
+        ["想","xiǎng","to miss"], ["家","jiā","home"], ["的","de","(particle)"],
+        ["心情","xīnqíng","mood; feeling"],
+        ["写","xiě","to write"], ["得","de","(degree particle)"],
+        ["清清楚楚","qīngqīng-chǔchǔ","perfectly clear"], ["。"]
+      ],
+      "en": "In just ten characters, it captures with perfect clarity the feeling of missing home while far away."
+    },
+    {
+      "t": [
+        ["传说","chuánshuō","legend has it"], ["李白","Lǐ Bái","Li Bai"],
+        ["特别","tèbié","especially"], ["爱","ài","to love"],
+        ["喝","hē","to drink"], ["酒","jiǔ","wine"], ["，"],
+        ["喝","hē","to drink"], ["了","le","(particle)"], ["酒","jiǔ","wine"],
+        ["以后","yǐhòu","after"], ["，"],
+        ["他","tā","he"], ["常常","chángcháng","often"],
+        ["对","duì","facing"], ["着","zhe","(aspect particle)"],
+        ["月亮","yuèliang","the moon"], ["举起","jǔqǐ","to raise"],
+        ["酒杯","jiǔbēi","wine cup"], ["，"],
+        ["把","bǎ","(object marker)"], ["月亮","yuèliang","the moon"],
+        ["当成","dàngchéng","to treat as"], ["自己","zìjǐ","oneself"],
+        ["的","de","(particle)"], ["朋友","péngyou","friend"], ["。"]
+      ],
+      "en": "Legend says Li Bai especially loved wine; after drinking, he would often raise his cup to the moon and treat it as his own friend."
+    },
+    {
+      "t": [
+        ["甚至","shènzhì","even"], ["有","yǒu","there are"], ["人","rén","people"],
+        ["说","shuō","to say"], ["，"],
+        ["他","tā","he"], ["最后","zuìhòu","in the end"], ["是","shì","is"],
+        ["为了","wèile","in order to"], ["抓住","zhuāzhù","to grab hold of"],
+        ["水","shuǐ","water"], ["里","li","in"], ["的","de","(particle)"],
+        ["月亮","yuèliang","the moon"], ["，"],
+        ["才","cái","only then"], ["掉进","diàojìn","to fall into"],
+        ["了","le","(particle)"], ["河","hé","river"], ["里","li","in"], ["。"]
+      ],
+      "en": "Some even say that in the end, it was while trying to grab hold of the moon in the water that he fell into a river."
+    },
+    {
+      "t": [
+        ["一千","yìqiān","one thousand"], ["多","duō","more than"],
+        ["年","nián","year"], ["过去","guòqù","to pass"], ["了","le","(particle)"], ["，"],
+        ["每当","měidāng","whenever"], ["人们","rénmen","people"],
+        ["抬头","táitóu","to raise one's head"], ["看见","kànjiàn","to see"],
+        ["月亮","yuèliang","the moon"], ["，"],
+        ["还是","háishi","still"], ["会","huì","will"],
+        ["想起","xiǎngqǐ","to recall"], ["这","zhè","this"],
+        ["位","wèi","(measure for people)"], ["爱","ài","to love"],
+        ["月亮","yuèliang","the moon"], ["的","de","(particle)"],
+        ["诗人","shīrén","poet"], ["。"]
+      ],
+      "en": "More than a thousand years have passed, yet whenever people raise their heads and see the moon, they still think of this poet who loved it."
+    }
+  ],
+  "vocab": [
+    ["李白","Lǐ Bái","Li Bai (Tang dynasty poet)"],
+    ["诗仙","Shīxiān","the Immortal Poet (Li Bai's nickname)"],
+    ["静夜思","Jìngyèsī","\"Quiet Night Thoughts\" (Li Bai's famous poem)"],
+    ["故乡","gùxiāng","hometown; native place"],
+    ["望","wàng","to gaze at; to look into the distance"],
+    ["每当","měidāng","whenever; every time"]
+  ],
+  "quiz": [
+    {
+      "q": "What do people call Li Bai?",
+      "a": ["The Immortal Poet", "The Emperor of Poems", "The Friend of the River"],
+      "c": 0
+    },
+    {
+      "q": "What feeling does \"Quiet Night Thoughts\" express?",
+      "a": ["The joy of drinking wine with friends", "Missing one's hometown while far away", "The fear of falling into a river"],
+      "c": 1
+    },
+    {
+      "q": "According to legend, what did Li Bai often do after drinking?",
+      "a": ["He went to sleep before his bed", "He wrote letters to his family", "He raised his cup to the moon and treated it as his friend"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "几乎没有人不… (there is almost no one who does not…)",
+      "e": "A double negative that strongly means \"almost everyone does\": 几乎没有人不知道李白的名字。",
+      "x": "几乎没有人不喜欢假期。 — There is almost no one who does not like holidays."
+    },
+    {
+      "p": "把…当成… (to treat A as B)",
+      "e": "A 把-sentence in which 当成 states what the object is regarded as: 把月亮当成自己的朋友。",
+      "x": "她把老师当成自己的妈妈。 — She treats her teacher as her own mother."
+    },
+    {
+      "p": "每当…，(就/还是)… (whenever…, …)",
+      "e": "每当 introduces a repeated situation, and the second half gives what always happens then: 每当人们抬头看见月亮，还是会想起这位诗人。",
+      "x": "每当下雨，我就想在家看书。 — Whenever it rains, I feel like reading at home."
+    }
+  ]
+}

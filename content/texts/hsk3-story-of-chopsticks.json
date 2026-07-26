@@ -1,0 +1,79 @@
+{
+  "slug": "hsk3-story-of-chopsticks",
+  "level": 3,
+  "title_zh": "筷子的故事",
+  "title_py": "Kuàizi de gùshi",
+  "title_en": "The Story of Chopsticks",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I; me"], ["第一", "dì yī", "first"], ["次", "cì", "time (occurrence)"], ["用", "yòng", "to use"], ["筷子", "kuàizi", "chopsticks"], ["吃饭", "chīfàn", "to eat a meal"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["吃", "chī", "to eat"], ["得", "de", "(particle: degree complement)"], ["非常", "fēicháng", "very; extremely"], ["慢", "màn", "slow"], ["。"]],
+      "en": "The first time I ate with chopsticks, I ate extremely slowly."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"], ["小王", "Xiǎo Wáng", "Xiao Wang (name)"], ["说", "shuō", "to say"], ["："], ["“"], ["别", "bié", "don't"], ["着急", "zháojí", "to worry; to be anxious"], ["，"], ["我", "wǒ", "I; me"], ["给", "gěi", "for; to"], ["你", "nǐ", "you"], ["讲讲", "jiǎngjiang", "to tell (a bit)"], ["筷子", "kuàizi", "chopsticks"], ["的", "de", "(particle: attributive)"], ["故事", "gùshi", "story"], ["吧", "ba", "(particle: suggestion)"], ["。"], ["”"]],
+      "en": "My friend Xiao Wang said, \"Don't worry — let me tell you the story of chopsticks.\""
+    },
+    {
+      "t": [["很", "hěn", "very"], ["久", "jiǔ", "long (time)"], ["以前", "yǐqián", "ago; before"], ["，"], ["人们", "rénmen", "people"], ["的", "de", "(particle: possessive)"], ["饭", "fàn", "food; meal"], ["很", "hěn", "very"], ["热", "rè", "hot"], ["，"], ["不", "bù", "not"], ["能", "néng", "can"], ["用", "yòng", "to use"], ["手", "shǒu", "hand"], ["拿", "ná", "to take; to hold"], ["，"], ["就", "jiù", "so; then"], ["用", "yòng", "to use"], ["两", "liǎng", "two"], ["个", "gè", "(measure word)"], ["小", "xiǎo", "small"], ["树枝", "shùzhī", "tree branch; twig"], ["吃饭", "chīfàn", "to eat"], ["，"], ["这", "zhè", "this"], ["就是", "jiùshì", "exactly is"], ["最", "zuì", "most"], ["早", "zǎo", "early"], ["的", "de", "(particle: attributive)"], ["筷子", "kuàizi", "chopsticks"], ["。"]],
+      "en": "Long, long ago, people's food was very hot and couldn't be picked up by hand, so they used two small twigs to eat — these were the earliest chopsticks."
+    },
+    {
+      "t": [["中国人", "Zhōngguórén", "Chinese people"], ["用", "yòng", "to use"], ["筷子", "kuàizi", "chopsticks"], ["已经", "yǐjīng", "already"], ["用", "yòng", "to use"], ["了", "le", "(particle: completed action)"], ["几千年", "jǐ qiān nián", "several thousand years"], ["了", "le", "(particle: still continuing)"], ["，"], ["大人", "dàren", "adult"], ["和", "hé", "and"], ["小孩子", "xiǎo háizi", "small child"], ["都", "dōu", "all"], ["会", "huì", "can; to know how to"], ["用", "yòng", "to use"], ["。"]],
+      "en": "Chinese people have been using chopsticks for several thousand years; adults and small children can all use them."
+    },
+    {
+      "t": [["吃饭", "chīfàn", "to eat a meal"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["还", "hái", "also"], ["有", "yǒu", "to have"], ["一些", "yìxiē", "some"], ["习惯", "xíguàn", "habit; custom"], ["，"], ["比如", "bǐrú", "for example"], ["："], ["不", "bù", "not"], ["能", "néng", "can; may"], ["把", "bǎ", "(particle: moves object before verb)"], ["筷子", "kuàizi", "chopsticks"], ["放", "fàng", "to put; to place"], ["在", "zài", "at; in"], ["米饭", "mǐfàn", "cooked rice"], ["里", "lǐ", "inside"], ["。"]],
+      "en": "There are also some table customs — for example, you must not stand your chopsticks in the rice."
+    },
+    {
+      "t": [["开始", "kāishǐ", "to start; at first"], ["练习", "liànxí", "to practice"], ["的", "de", "(particle: attributive)"], ["时候", "shíhou", "time; when"], ["，"], ["我", "wǒ", "I; me"], ["用", "yòng", "to use"], ["筷子", "kuàizi", "chopsticks"], ["夹", "jiā", "to pick up (with chopsticks)"], ["菜", "cài", "dish; food"], ["，"], ["菜", "cài", "dish; food"], ["总是", "zǒngshì", "always"], ["又", "yòu", "again"], ["回到", "huídào", "to return to"], ["了", "le", "(particle: completed action)"], ["盘子", "pánzi", "plate"], ["里", "lǐ", "inside"], ["。"]],
+      "en": "When I first started practicing, every time I picked up food with my chopsticks, it always fell right back onto the plate."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"], ["每天", "měitiān", "every day"], ["在", "zài", "at"], ["家", "jiā", "home"], ["练习", "liànxí", "to practice"], ["，"], ["一个", "yí ge", "one"], ["星期", "xīngqī", "week"], ["以后", "yǐhòu", "after"], ["，"], ["真的", "zhēn de", "really"], ["会", "huì", "can; to know how to"], ["用", "yòng", "to use"], ["筷子", "kuàizi", "chopsticks"], ["了", "le", "(particle: change of state)"], ["。"]],
+      "en": "I practiced at home every day, and after a week, I could really use chopsticks."
+    },
+    {
+      "t": [["现在", "xiànzài", "now"], ["小王", "Xiǎo Wáng", "Xiao Wang (name)"], ["笑", "xiào", "to laugh; to smile"], ["着", "zhe", "(particle: ongoing state)"], ["说", "shuō", "to say"], ["："], ["“"], ["你", "nǐ", "you"], ["用", "yòng", "to use"], ["筷子", "kuàizi", "chopsticks"], ["用", "yòng", "to use"], ["得", "de", "(particle: degree complement)"], ["比", "bǐ", "than; compared with"], ["我", "wǒ", "I; me"], ["还", "hái", "even (more)"], ["好", "hǎo", "good"], ["！"], ["”"]],
+      "en": "Now Xiao Wang says with a laugh, \"You use chopsticks even better than I do!\""
+    }
+  ],
+  "vocab": [
+    ["筷子", "kuàizi", "chopsticks"],
+    ["树枝", "shùzhī", "tree branch; twig"],
+    ["夹", "jiā", "to pick up (with chopsticks)"],
+    ["习惯", "xíguàn", "habit; custom"],
+    ["练习", "liànxí", "to practice"],
+    ["盘子", "pánzi", "plate"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the story, what were the earliest chopsticks?",
+      "a": ["Two small tree branches", "Two small stones", "Two small spoons"],
+      "c": 0
+    },
+    {
+      "q": "Where should you NOT put your chopsticks?",
+      "a": ["On the table", "In the rice", "Next to the plate"],
+      "c": 1
+    },
+    {
+      "q": "How long did the writer practice before really learning to use chopsticks?",
+      "a": ["One day", "One month", "One week"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "Verb + 得 + description — how well something is done",
+      "e": "得 links a verb to a comment on how it is done; repeat the verb after the object: 你用筷子用得比我还好。",
+      "x": "他汉语说得很好。 — He speaks Chinese very well."
+    },
+    {
+      "p": "V + 了 + duration + 了 — has been doing for…",
+      "e": "The second 了 shows the action is still true now: 中国人用筷子已经用了几千年了。",
+      "x": "我学汉语学了两年了。 — I have been studying Chinese for two years (and still am)."
+    }
+  ]
+}

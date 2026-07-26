@@ -1,0 +1,235 @@
+{
+  "slug": "hsk4-cashless-society",
+  "level": 4,
+  "title_zh": "无现金社会",
+  "title_py": "Wú xiànjīn shèhuì",
+  "title_en": "The Cashless Society",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(possessive)"],
+        ["大", "dà", "big"],
+        ["城市", "chéngshì", "city"],
+        ["，"],
+        ["用", "yòng", "to use"],
+        ["现金", "xiànjīn", "cash"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["少", "shǎo", "few"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "In China's big cities, fewer and fewer people use cash."
+    },
+    {
+      "t": [
+        ["买", "mǎi", "to buy"],
+        ["菜", "cài", "groceries"],
+        ["、"],
+        ["坐", "zuò", "to take"],
+        ["车", "chē", "bus; vehicle"],
+        ["、"],
+        ["看病", "kànbìng", "to see a doctor"],
+        ["，"],
+        ["只要", "zhǐyào", "as long as"],
+        ["拿出", "náchū", "to take out"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["扫一扫", "sǎo yi sǎo", "to give a scan"],
+        ["，"],
+        ["几", "jǐ", "a few"],
+        ["秒钟", "miǎozhōng", "seconds"],
+        ["就", "jiù", "then"],
+        ["付", "fù", "to pay"],
+        ["好", "hǎo", "done"],
+        ["了", "le", "(particle)"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "Buying groceries, taking the bus, seeing a doctor — as long as you take out your phone and scan, the payment is done in a few seconds."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["上", "shàng", "last"],
+        ["个", "ge", "(measure word)"],
+        ["月", "yuè", "month"],
+        ["去", "qù", "to go"],
+        ["旅行", "lǚxíng", "to travel"],
+        ["，"],
+        ["钱包", "qiánbāo", "wallet"],
+        ["一", "yí", "one"],
+        ["次", "cì", "time"],
+        ["也", "yě", "even"],
+        ["没", "méi", "not"],
+        ["打开", "dǎkāi", "to open"],
+        ["过", "guo", "(experience particle)"],
+        ["。"]
+      ],
+      "en": "Last month I went traveling, and I never opened my wallet even once."
+    },
+    {
+      "t": [
+        ["不", "bú", "not"],
+        ["带", "dài", "to carry"],
+        ["现金", "xiànjīn", "cash"],
+        ["当然", "dāngrán", "of course"],
+        ["方便", "fāngbiàn", "convenient"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["更", "gèng", "more"],
+        ["安全", "ānquán", "safe"],
+        ["，"],
+        ["听说", "tīngshuō", "it is said"],
+        ["连", "lián", "even"],
+        ["小偷", "xiǎotōu", "thief"],
+        ["都", "dōu", "all"],
+        ["快", "kuài", "soon; about to"],
+        ["找", "zhǎo", "to find"],
+        ["不", "bu", "not"],
+        ["到", "dào", "(result: attain)"],
+        ["工作", "gōngzuò", "work"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Not carrying cash is of course convenient, and safer too — they say even thieves are about to be out of a job."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["，"],
+        ["无", "wú", "without"],
+        ["现金", "xiànjīn", "cash"],
+        ["社会", "shèhuì", "society"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "to have"],
+        ["问题", "wèntí", "problems"],
+        ["："],
+        ["很多", "hěn duō", "many"],
+        ["老人", "lǎorén", "elderly people"],
+        ["不", "bú", "not"],
+        ["会", "huì", "know how to"],
+        ["用", "yòng", "to use"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["付", "fù", "to pay"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["买", "mǎi", "to buy"],
+        ["东西", "dōngxi", "things"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["特别", "tèbié", "especially"],
+        ["着急", "zháojí", "anxious"],
+        ["。"]
+      ],
+      "en": "But a cashless society has problems too: many elderly people don't know how to pay by phone and get really anxious when shopping."
+    },
+    {
+      "t": [
+        ["还有", "háiyǒu", "moreover"],
+        ["，"],
+        ["手机", "shǒujī", "mobile phone"],
+        ["没", "méi", "to have no"],
+        ["电", "diàn", "battery power"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["连", "lián", "even"],
+        ["一", "yì", "one"],
+        ["瓶", "píng", "bottle"],
+        ["水", "shuǐ", "water"],
+        ["都", "dōu", "all"],
+        ["买", "mǎi", "to buy"],
+        ["不", "bu", "not"],
+        ["了", "liǎo", "(potential: able)"],
+        ["。"]
+      ],
+      "en": "And when your phone runs out of battery, you can't even buy a bottle of water."
+    },
+    {
+      "t": [
+        ["尽管", "jǐnguǎn", "although"],
+        ["有", "yǒu", "to have"],
+        ["这些", "zhèxiē", "these"],
+        ["问题", "wèntí", "problems"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["还是", "háishi", "still"],
+        ["觉得", "juéde", "to think"],
+        ["无", "wú", "without"],
+        ["现金", "xiànjīn", "cash"],
+        ["是", "shì", "is"],
+        ["不", "bú", "not"],
+        ["会", "huì", "will"],
+        ["改变", "gǎibiàn", "to change"],
+        ["的", "de", "(possessive)"],
+        ["方向", "fāngxiàng", "direction"],
+        ["。"]
+      ],
+      "en": "Despite these problems, I still think going cashless is a direction that won't change."
+    },
+    {
+      "t": [
+        ["技术", "jìshù", "technology"],
+        ["应该", "yīnggāi", "should"],
+        ["等一等", "děng yi děng", "to wait a bit"],
+        ["走", "zǒu", "to walk"],
+        ["得", "de", "(degree particle)"],
+        ["慢", "màn", "slow"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["，"],
+        ["而", "ér", "and; whereas"],
+        ["不是", "bú shì", "is not"],
+        ["把", "bǎ", "(object marker)"],
+        ["他们", "tāmen", "them"],
+        ["留", "liú", "to leave"],
+        ["在", "zài", "at"],
+        ["后面", "hòumiàn", "behind"],
+        ["。"]
+      ],
+      "en": "Technology should wait a bit for those who walk more slowly, instead of leaving them behind."
+    }
+  ],
+  "vocab": [
+    ["现金", "xiànjīn", "cash"],
+    ["扫一扫", "sǎo yi sǎo", "to scan (a QR code)"],
+    ["钱包", "qiánbāo", "wallet"],
+    ["小偷", "xiǎotōu", "thief"],
+    ["社会", "shèhuì", "society"],
+    ["技术", "jìshù", "technology"]
+  ],
+  "quiz": [
+    {
+      "q": "What happened to the author's wallet during last month's trip?",
+      "a": ["It was stolen by a thief", "It was never opened even once", "It was left at home by mistake"],
+      "c": 1
+    },
+    {
+      "q": "Who gets especially anxious when shopping in a cashless society?",
+      "a": ["Elderly people who can't pay by phone", "Young people without wallets", "Shop owners who prefer cash"],
+      "c": 0
+    },
+    {
+      "q": "What does the author think technology should do?",
+      "a": ["Change direction and go back to cash", "Move even faster than now", "Wait for those who walk more slowly"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "连……都/也……",
+      "e": "\"Even ...\" highlights an extreme case to stress the point: 连小偷都快找不到工作了；连一瓶水都买不了。",
+      "x": "他忙得连饭都忘了吃。— He was so busy he even forgot to eat."
+    },
+    {
+      "p": "尽管……，还是……",
+      "e": "\"Although / despite A, still B\" admits a fact but keeps the conclusion: 尽管有这些问题，我还是觉得方向不会改变。",
+      "x": "尽管下着大雨，他还是准时到了。— Despite the heavy rain, he still arrived on time."
+    }
+  ]
+}

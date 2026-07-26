@@ -1,0 +1,225 @@
+{
+  "slug": "hsk4-trash-sorting",
+  "level": 4,
+  "title_zh": "垃圾分类",
+  "title_py": "Lājī fēnlèi",
+  "title_en": "Trash Sorting",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["从", "cóng", "from; since"],
+        ["去年", "qùnián", "last year"],
+        ["开始", "kāishǐ", "to start"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["住", "zhù", "to live"],
+        ["的", "de", "(possessive)"],
+        ["地方", "dìfang", "place"],
+        ["要求", "yāoqiú", "to require"],
+        ["垃圾", "lājī", "trash"],
+        ["分类", "fēnlèi", "to sort; classify"],
+        ["，"],
+        ["一", "yì", "one"],
+        ["开始", "kāishǐ", "start; beginning"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["觉得", "juéde", "to feel"],
+        ["太", "tài", "too"],
+        ["麻烦", "máfan", "troublesome"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Since last year, where we live has required trash sorting, and at first everyone found it a huge hassle."
+    },
+    {
+      "t": [
+        ["香蕉", "xiāngjiāo", "banana"],
+        ["皮", "pí", "peel; skin"],
+        ["、"],
+        ["塑料袋", "sùliàodài", "plastic bag"],
+        ["、"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle)"],
+        ["一半", "yíbàn", "half"],
+        ["的", "de", "(possessive)"],
+        ["奶茶", "nǎichá", "milk tea"],
+        ["，"],
+        ["应该", "yīnggāi", "should"],
+        ["扔", "rēng", "to throw"],
+        ["到", "dào", "into"],
+        ["哪", "nǎ", "which"],
+        ["个", "ge", "(measure word)"],
+        ["垃圾桶", "lājītǒng", "trash bin"],
+        ["呢", "ne", "(question particle)"],
+        ["？"]
+      ],
+      "en": "A banana peel, a plastic bag, a half-finished milk tea — which bin should each of them go into?"
+    },
+    {
+      "t": [
+        ["楼下", "lóuxià", "downstairs"],
+        ["的", "de", "(possessive)"],
+        ["王", "Wáng", "Wang (surname)"],
+        ["阿姨", "āyí", "auntie"],
+        ["每天", "měi tiān", "every day"],
+        ["站", "zhàn", "to stand"],
+        ["在", "zài", "at"],
+        ["垃圾桶", "lājītǒng", "trash bin"],
+        ["旁边", "pángbiān", "beside"],
+        ["，"],
+        ["像", "xiàng", "like"],
+        ["老师", "lǎoshī", "teacher"],
+        ["检查", "jiǎnchá", "to check"],
+        ["作业", "zuòyè", "homework"],
+        ["一样", "yíyàng", "the same as"],
+        ["检查", "jiǎnchá", "to check"],
+        ["大家", "dàjiā", "everyone"],
+        ["的", "de", "(possessive)"],
+        ["垃圾", "lājī", "trash"],
+        ["。"]
+      ],
+      "en": "Aunt Wang from downstairs stands by the bins every day, inspecting everyone's trash the way a teacher checks homework."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there is"],
+        ["一", "yí", "one"],
+        ["次", "cì", "time"],
+        ["我", "wǒ", "I"],
+        ["把", "bǎ", "(object marker)"],
+        ["电池", "diànchí", "battery"],
+        ["扔", "rēng", "to throw"],
+        ["错", "cuò", "wrong"],
+        ["了", "le", "(particle)"],
+        ["地方", "dìfang", "place"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["认真", "rènzhēn", "earnestly"],
+        ["地", "de", "(adverbial particle)"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "me"],
+        ["上", "shàng", "to give (a lesson)"],
+        ["了", "le", "(particle)"],
+        ["十", "shí", "ten"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["的", "de", "(possessive)"],
+        ["课", "kè", "lesson"],
+        ["。"]
+      ],
+      "en": "Once I threw a battery into the wrong place, and she earnestly gave me a ten-minute lesson."
+    },
+    {
+      "t": [
+        ["慢慢", "mànmàn", "slowly"],
+        ["地", "de", "(adverbial particle)"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["发现", "fāxiàn", "to find"],
+        ["自己", "zìjǐ", "oneself"],
+        ["扔", "rēng", "to throw"],
+        ["垃圾", "lājī", "trash"],
+        ["以前", "yǐqián", "before"],
+        ["真的", "zhēn de", "really"],
+        ["会", "huì", "will"],
+        ["先", "xiān", "first"],
+        ["想一想", "xiǎng yi xiǎng", "to think it over"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Slowly, I found that I really do stop and think first before throwing things away now."
+    },
+    {
+      "t": [
+        ["更", "gèng", "even more"],
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["的", "de", "(possessive)"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["家里", "jiā li", "at home"],
+        ["的", "de", "(possessive)"],
+        ["垃圾", "lājī", "trash"],
+        ["变", "biàn", "to become"],
+        ["少", "shǎo", "less"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["我", "wǒ", "I"],
+        ["买", "mǎi", "to buy"],
+        ["东西", "dōngxi", "things"],
+        ["以前", "yǐqián", "before"],
+        ["也", "yě", "also"],
+        ["开始", "kāishǐ", "to start"],
+        ["问", "wèn", "to ask"],
+        ["自己", "zìjǐ", "oneself"],
+        ["："],
+        ["这", "zhè", "this"],
+        ["个", "ge", "(measure word)"],
+        ["真的", "zhēn de", "really"],
+        ["需要", "xūyào", "to need"],
+        ["吗", "ma", "(question particle)"],
+        ["？"]
+      ],
+      "en": "Even more interesting, the trash at home has decreased, because before buying anything I have also started asking myself: do I really need this?"
+    },
+    {
+      "t": [
+        ["垃圾", "lājī", "trash"],
+        ["分类", "fēnlèi", "to sort; classify"],
+        ["麻烦", "máfan", "troublesome"],
+        ["是", "shì", "is"],
+        ["麻烦", "máfan", "troublesome"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["它", "tā", "it"],
+        ["让", "ràng", "to make"],
+        ["我们", "wǒmen", "us"],
+        ["重新", "chóngxīn", "anew; again"],
+        ["认识", "rènshi", "to get to know"],
+        ["了", "le", "(particle)"],
+        ["自己", "zìjǐ", "one's own"],
+        ["的", "de", "(possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["。"]
+      ],
+      "en": "Trash sorting is a hassle, sure — but it has made us see our own lives anew."
+    }
+  ],
+  "vocab": [
+    ["分类", "fēnlèi", "to sort; to classify"],
+    ["塑料袋", "sùliàodài", "plastic bag"],
+    ["皮", "pí", "peel; skin"],
+    ["奶茶", "nǎichá", "milk tea"],
+    ["电池", "diànchí", "battery"],
+    ["垃圾桶", "lājītǒng", "trash bin"]
+  ],
+  "quiz": [
+    {
+      "q": "What does Aunt Wang do every day?",
+      "a": ["She teaches homework classes downstairs", "She stands by the bins and inspects everyone's trash", "She collects plastic bags to sell"],
+      "c": 1
+    },
+    {
+      "q": "What happened after the author threw a battery into the wrong place?",
+      "a": ["Aunt Wang gave the author a ten-minute lesson", "The author had to pay some money", "Nobody noticed it at all"],
+      "c": 0
+    },
+    {
+      "q": "Why has the trash at the author's home decreased?",
+      "a": ["The family eats out every day now", "Aunt Wang takes some of it away", "The author started asking 'do I really need this?' before buying things"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "像……一样",
+      "e": "\"Like / the same as ...\" compares one action or thing to another: 像老师检查作业一样检查大家的垃圾。",
+      "x": "他高兴得像个孩子一样。— He was as happy as a child."
+    },
+    {
+      "p": "A 是 A，但是……",
+      "e": "Repeating the adjective concedes a point before turning to what matters more: 麻烦是麻烦，但是它让我们重新认识了自己的生活。",
+      "x": "这个菜辣是辣，但是很好吃。— This dish is spicy, sure, but it's delicious."
+    }
+  ]
+}

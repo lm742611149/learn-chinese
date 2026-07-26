@@ -1,0 +1,175 @@
+{
+  "slug": "hsk2-snowy-day",
+  "level": 2,
+  "title_zh": "雪天",
+  "title_py": "Xuě tiān",
+  "title_en": "Snowy Day",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["看见", "kànjiàn", "to see"],
+        ["外面", "wàimiàn", "outside"],
+        ["下雪", "xià xuě", "to snow"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "When I got up this morning, I saw it was snowing outside."
+    },
+    {
+      "t": [
+        ["雪", "xuě", "snow"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big; heavy (snow)"],
+        ["，"],
+        ["路上", "lùshang", "on the road"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "to be"],
+        ["白色", "báisè", "white (color)"],
+        ["的", "de", "(particle)"],
+        ["，"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["漂亮", "piàoliang", "beautiful"],
+        ["。"]
+      ],
+      "en": "The snow was heavy — the roads were all white, and it was very beautiful."
+    },
+    {
+      "t": [
+        ["天气", "tiānqì", "weather"],
+        ["很", "hěn", "very"],
+        ["冷", "lěng", "cold"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["穿", "chuān", "to wear; to put on"],
+        ["了", "le", "(particle: completed action)"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many; much"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "The weather was very cold, so I put on a lot of clothes."
+    },
+    {
+      "t": [
+        ["孩子们", "háizimen", "children"],
+        ["在", "zài", "at; in"],
+        ["外面", "wàimiàn", "outside"],
+        ["玩", "wán", "to play"],
+        ["雪", "xuě", "snow"],
+        ["，"],
+        ["笑", "xiào", "to laugh"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy; glad"],
+        ["。"]
+      ],
+      "en": "The children were playing in the snow outside, laughing happily."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["朋友", "péngyou", "friend"],
+        ["做", "zuò", "to make"],
+        ["了", "le", "(particle: completed action)"],
+        ["一个", "yí ge", "one; a"],
+        ["大", "dà", "big"],
+        ["雪人", "xuěrén", "snowman"],
+        ["。"]
+      ],
+      "en": "My friend and I made a big snowman."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["雪", "xuě", "snow"],
+        ["还", "hái", "still"],
+        ["在", "zài", "(in the middle of)"],
+        ["下", "xià", "to fall (snow/rain)"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["家里", "jiā li", "at home"],
+        ["喝", "hē", "to drink"],
+        ["热", "rè", "hot"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["看", "kàn", "to read; to look at"],
+        ["书", "shū", "book"],
+        ["。"]
+      ],
+      "en": "In the evening it was still snowing, and I stayed home drinking hot tea and reading."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["下雪", "xià xuě", "to snow"],
+        ["的", "de", "(particle)"],
+        ["天气", "tiānqì", "weather"],
+        ["真", "zhēn", "really"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "I think snowy weather is really lovely."
+    }
+  ],
+  "vocab": [
+    ["下雪", "xià xuě", "to snow"],
+    ["白色", "báisè", "white (color)"],
+    ["冷", "lěng", "cold"],
+    ["穿", "chuān", "to wear; to put on"],
+    ["玩", "wán", "to play"],
+    ["雪人", "xuěrén", "snowman"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the writer see when getting up in the morning?",
+      "a": [
+        "It was raining",
+        "It was snowing",
+        "It was very sunny"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did the writer and the friend make?",
+      "a": [
+        "A big snowman",
+        "A hot meal",
+        "A pot of tea"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the writer do in the evening?",
+      "a": [
+        "Played outside with the children",
+        "Went to work",
+        "Drank hot tea and read at home"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "下雪了 — 了 for a new situation",
+      "e": "了 after a weather verb announces a change: 下雪了 (it has started snowing), 下雨了 (it has started raining).",
+      "x": "外面下雪了。— It's snowing outside (it started to snow)."
+    },
+    {
+      "p": "还在 + verb — still doing",
+      "e": "还 (still) + 在 (in the middle of) means an action is continuing: 雪还在下, 他还在睡觉.",
+      "x": "晚上雪还在下。— In the evening it was still snowing."
+    }
+  ]
+}

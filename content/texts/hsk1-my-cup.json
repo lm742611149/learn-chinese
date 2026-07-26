@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-my-cup",
+  "level": 1,
+  "title_zh": "我的杯子",
+  "title_py": "Wǒ de bēizi",
+  "title_en": "My Cup",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["有","yǒu","to have"],["一","yí","one"],["个","gè","(measure word)"],["杯子","bēizi","cup"],["，"],["是","shì","to be"],["妈妈","māma","mom"],["买","mǎi","to buy"],["的","de","(particle)"],["。"]],
+      "en": "I have a cup — it was my mom who bought it."
+    },
+    {
+      "t": [["杯子","bēizi","cup"],["不","bú","not"],["大","dà","big"],["，"],["很","hěn","very"],["漂亮","piàoliang","pretty"],["，"],["杯子","bēizi","cup"],["上","shàng","on top of"],["有","yǒu","there is"],["一","yí","one"],["个","gè","(measure word)"],["小","xiǎo","little"],["猫","māo","cat"],["。"]],
+      "en": "The cup is not big and is very pretty — there is a little cat on it."
+    },
+    {
+      "t": [["上午","shàngwǔ","morning"],["，"],["我","wǒ","my"],["的","de","(possessive particle)"],["杯子","bēizi","cup"],["里","lǐ","inside"],["是","shì","to be"],["茶","chá","tea"],["；"],["下午","xiàwǔ","afternoon"],["，"],["杯子","bēizi","cup"],["里","lǐ","inside"],["是","shì","to be"],["水","shuǐ","water"],["。"]],
+      "en": "In the morning, there is tea in my cup; in the afternoon, there is water."
+    },
+    {
+      "t": [["天气","tiānqì","weather"],["冷","lěng","cold"],["的时候","de shíhou","when; while"],["，"],["我","wǒ","I; me"],["爱","ài","to love"],["喝","hē","to drink"],["热","rè","hot"],["茶","chá","tea"],["。"]],
+      "en": "When the weather is cold, I love drinking hot tea."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["我","wǒ","my"],["的","de","(possessive particle)"],["同学","tóngxué","classmate"],["看","kàn","to look at"],["我","wǒ","my"],["的","de","(possessive particle)"],["杯子","bēizi","cup"],["，"],["她","tā","she"],["说","shuō","to say"],["："],["“"],["你","nǐ","your"],["的","de","(possessive particle)"],["杯子","bēizi","cup"],["太","tài","too; so"],["漂亮","piàoliang","pretty"],["了","le","(particle)"],["！"],["”"]],
+      "en": "Today my classmate looks at my cup and says, \"Your cup is so pretty!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["是","shì","to be"],["我","wǒ","my"],["妈妈","māma","mom"],["买","mǎi","to buy"],["的","de","(particle)"],["。"],["”"],["我们","wǒmen","we"],["都","dōu","both"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "I say, \"It was my mom who bought it.\" We are both very happy."
+    }
+  ],
+  "vocab": [
+    ["杯子","bēizi","cup"],
+    ["茶","chá","tea"],
+    ["水","shuǐ","water"],
+    ["热","rè","hot"],
+    ["冷","lěng","cold"],
+    ["同学","tóngxué","classmate"]
+  ],
+  "quiz": [
+    {"q":"Who bought the cup?","a":["The narrator's mom","The narrator's teacher","The narrator's classmate"],"c":0},
+    {"q":"What is on the cup?","a":["A little dog","A little cat","An apple"],"c":1},
+    {"q":"What does the narrator love drinking when the weather is cold?","a":["Cold water","Hot tea","Nothing"],"c":1}
+  ],
+  "grammar": [
+    {"p":"是…的 — pointing out who did it","e":"Use 是…的 to stress who did something (or when, where, how it was done): 是妈妈买的 = it was Mom who bought it.","x":"是我妈妈买的。 — It was my mom who bought it."},
+    {"p":"…的时候 — when","e":"Put 的时候 after a phrase to mean 'when / while …': 天气冷的时候 = when the weather is cold.","x":"天气冷的时候，我爱喝热茶。 — When the weather is cold, I love drinking hot tea."}
+  ]
+}
