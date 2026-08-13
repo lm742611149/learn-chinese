@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-looking-for-my-keys",
+  "level": 1,
+  "title_zh": "找钥匙",
+  "title_py": "Zhǎo yàoshi",
+  "title_en": "Looking for My Keys",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["要","yào","want to"],["去","qù","to go"],["学校","xuéxiào","school"],["，"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["钥匙","yàoshi","key"],["呢","ne","(question particle)"],["？"]],
+      "en": "I want to go to school, where are my keys?"
+    },
+    {
+      "t": [["钥匙","yàoshi","key"],["不","bù","not"],["在","zài","at; in"],["桌子","zhuōzi","table"],["上","shàng","on top of"],["。"]],
+      "en": "The keys are not on the table."
+    },
+    {
+      "t": [["钥匙","yàoshi","key"],["也","yě","also"],["不","bù","not"],["在","zài","at; in"],["椅子","yǐzi","chair"],["上","shàng","on top of"],["。"]],
+      "en": "The keys are also not on the chair."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["妈妈","māma","mom"],["："],["“"],["你","nǐ","you"],["看见","kànjiàn","to see"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["钥匙","yàoshi","key"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I ask mom, \"Have you seen my keys?\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["钥匙","yàoshi","key"],["在","zài","at; in"],["你","nǐ","you"],["的","de","(possessive particle)"],["书包","shūbāo","backpack"],["里","lǐ","inside"],["。"],["”"]],
+      "en": "Mom says, \"The keys are inside your backpack.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看见","kànjiàn","to see"],["钥匙","yàoshi","key"],["了","le","(particle: new situation)"],["，"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "I see the keys, I am very happy."
+    }
+  ],
+  "vocab": [
+    ["钥匙","yàoshi","key"],
+    ["桌子","zhuōzi","table"],
+    ["椅子","yǐzi","chair"],
+    ["书包","shūbāo","backpack"],
+    ["问","wèn","to ask"],
+    ["看见","kànjiàn","to see"]
+  ],
+  "quiz": [
+    {"q":"What is the narrator looking for?","a":["His keys","His book","His shoes"],"c":0},
+    {"q":"Where are the keys?","a":["On the table","On the chair","In the backpack"],"c":2},
+    {"q":"Who tells the narrator where the keys are?","a":["Teacher","Mom","Friend"],"c":1}
+  ],
+  "grammar": [
+    {"p":"不在 + place — saying something is not somewhere","e":"To say something isn't in a place, put 不 before 在: 钥匙不在桌子上 = The keys are not on the table.","x":"钥匙不在桌子上。 — The keys are not on the table."},
+    {"p":"吗 — turning a sentence into a yes/no question","e":"Add 吗 to the end of a statement to make a yes/no question: 你看见我的钥匙吗？= Have you seen my keys?","x":"你看见我的钥匙吗？ — Have you seen my keys?"}
+  ]
+}

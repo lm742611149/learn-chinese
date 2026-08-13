@@ -1,0 +1,265 @@
+{
+  "slug": "hsk5-24-solar-terms",
+  "level": 5,
+  "title_zh": "二十四节气",
+  "title_py": "Èrshísì jiéqì",
+  "title_en": "The Twenty-Four Solar Terms",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["二十四节气", "èrshísì jiéqì", "the twenty-four solar terms"],
+        ["是", "shì", "are"],
+        ["中国", "Zhōngguó", "Chinese"],
+        ["古人", "gǔrén", "ancient people"],
+        ["根据", "gēnjù", "based on"],
+        ["太阳", "tàiyáng", "the sun"],
+        ["在", "zài", "in"],
+        ["天空", "tiānkōng", "the sky"],
+        ["中", "zhōng", "in"],
+        ["的", "de", "(attributive)"],
+        ["位置", "wèizhi", "position"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["一年", "yì nián", "a year"],
+        ["划分", "huàfēn", "to divide"],
+        ["成", "chéng", "into"],
+        ["的", "de", "(nominalizer)"],
+        ["二十四个", "èrshísì ge", "twenty-four"],
+        ["时间段", "shíjiānduàn", "time segment"],
+        ["。"]
+      ],
+      "en": "The twenty-four solar terms are the twenty-four segments into which ancient Chinese people divided the year, based on the sun's position in the sky."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"],
+        ["“"],
+        ["立春", "Lìchūn", "Start of Spring"],
+        ["”"],
+        ["到", "dào", "to"],
+        ["“"],
+        ["大寒", "Dàhán", "Greater Cold"],
+        ["”"],
+        ["，"],
+        ["每一个", "měi yí ge", "every"],
+        ["节气", "jiéqì", "solar term"],
+        ["都", "dōu", "all"],
+        ["对应", "duìyìng", "correspond to"],
+        ["着", "zhe", "(ongoing)"],
+        ["气候", "qìhòu", "climate"],
+        ["和", "hé", "and"],
+        ["农作物", "nóngzuòwù", "crops"],
+        ["生长", "shēngzhǎng", "growth"],
+        ["的", "de", "(possessive)"],
+        ["变化", "biànhuà", "changes"],
+        ["。"]
+      ],
+      "en": "From \"Start of Spring\" to \"Greater Cold,\" every solar term corresponds to changes in climate and crop growth."
+    },
+    {
+      "t": [
+        ["古代", "gǔdài", "ancient times"],
+        ["农民", "nóngmín", "farmers"],
+        ["依靠", "yīkào", "rely on"],
+        ["节气", "jiéqì", "solar terms"],
+        ["安排", "ānpái", "arrange"],
+        ["耕种", "gēngzhòng", "farming"],
+        ["和", "hé", "and"],
+        ["收获", "shōuhuò", "harvest"],
+        ["，"],
+        ["比如", "bǐrú", "for example"],
+        ["“"],
+        ["清明", "Qīngmíng", "Tomb-Sweeping Day"],
+        ["前后", "qiánhòu", "around"],
+        ["，"],
+        ["种", "zhòng", "plant"],
+        ["瓜", "guā", "melon"],
+        ["种", "zhòng", "plant"],
+        ["豆", "dòu", "beans"],
+        ["”"],
+        ["就是", "jiùshì", "is exactly"],
+        ["一句", "yí jù", "a (saying)"],
+        ["流传至今", "liúchuán zhìjīn", "passed down to today"],
+        ["的", "de", "(attributive)"],
+        ["农谚", "nóngyàn", "farmers' proverb"],
+        ["。"]
+      ],
+      "en": "In ancient times farmers relied on solar terms to arrange planting and harvesting; for instance, \"around Tomb-Sweeping Day, plant melons and beans\" is a farmers' proverb passed down to this day."
+    },
+    {
+      "t": [
+        ["除了", "chúle", "besides"],
+        ["指导", "zhǐdǎo", "guiding"],
+        ["农业", "nóngyè", "agriculture"],
+        ["，"],
+        ["节气", "jiéqì", "solar terms"],
+        ["还", "hái", "also"],
+        ["深深", "shēnshēn", "deeply"],
+        ["地", "de", "(adverbial)"],
+        ["影响", "yǐngxiǎng", "influence"],
+        ["着", "zhe", "(ongoing)"],
+        ["中国人", "Zhōngguórén", "Chinese people's"],
+        ["的", "de", "(possessive)"],
+        ["日常", "rìcháng", "daily"],
+        ["生活", "shēnghuó", "life"],
+        ["和", "hé", "and"],
+        ["饮食", "yǐnshí", "diet"],
+        ["习惯", "xíguàn", "habits"],
+        ["。"]
+      ],
+      "en": "Besides guiding agriculture, solar terms also deeply influence Chinese people's daily life and eating habits."
+    },
+    {
+      "t": [
+        ["例如", "lìrú", "for example"],
+        ["，"],
+        ["在", "zài", "on"],
+        ["“"],
+        ["冬至", "Dōngzhì", "Winter Solstice"],
+        ["”"],
+        ["这一天", "zhè yì tiān", "this day"],
+        ["，"],
+        ["北方人", "běifāngrén", "northerners"],
+        ["习惯", "xíguàn", "are used to"],
+        ["吃", "chī", "eating"],
+        ["饺子", "jiǎozi", "dumplings"],
+        ["，"],
+        ["南方人", "nánfāngrén", "southerners"],
+        ["则", "zé", "whereas"],
+        ["更", "gèng", "more"],
+        ["喜欢", "xǐhuan", "prefer"],
+        ["吃", "chī", "to eat"],
+        ["汤圆", "tāngyuán", "sweet rice balls"],
+        ["。"]
+      ],
+      "en": "For example, on the day of Winter Solstice, northerners are used to eating dumplings, while southerners prefer to eat sweet rice balls."
+    },
+    {
+      "t": [
+        ["随着", "suízhe", "as; along with"],
+        ["城市化", "chéngshìhuà", "urbanization"],
+        ["的", "de", "(possessive)"],
+        ["发展", "fāzhǎn", "development"],
+        ["，"],
+        ["虽然", "suīrán", "although"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["已经", "yǐjīng", "already"],
+        ["不再", "bú zài", "no longer"],
+        ["从事", "cóngshì", "engage in"],
+        ["农业", "nóngyè", "agriculture"],
+        ["，"],
+        ["节气", "jiéqì", "solar terms"],
+        ["却", "què", "yet"],
+        ["依然", "yīrán", "still"],
+        ["出现", "chūxiàn", "appear"],
+        ["在", "zài", "in"],
+        ["日历", "rìlì", "calendars"],
+        ["和", "hé", "and"],
+        ["天气预报", "tiānqì yùbào", "weather forecasts"],
+        ["中", "zhōng", "in"],
+        ["。"]
+      ],
+      "en": "As urbanization has developed, although many people no longer work in agriculture, solar terms still appear in calendars and weather forecasts."
+    },
+    {
+      "t": [
+        ["有趣的是", "yǒuqù de shì", "interestingly"],
+        ["，"],
+        ["二十四节气", "èrshísì jiéqì", "the twenty-four solar terms"],
+        ["早", "zǎo", "already"],
+        ["在", "zài", "in"],
+        ["2016年", "èr líng yī liù nián", "2016"],
+        ["就", "jiù", "already"],
+        ["被", "bèi", "(passive marker)"],
+        ["联合国教科文组织", "Liánhéguó Jiàokēwén Zǔzhī", "UNESCO"],
+        ["列入", "lièrù", "included in"],
+        ["了", "le", "(completed)"],
+        ["人类", "rénlèi", "human"],
+        ["非物质文化遗产", "fēiwùzhì wénhuà yíchǎn", "intangible cultural heritage"],
+        ["名录", "mínglù", "list"],
+        ["。"]
+      ],
+      "en": "Interestingly, as early as 2016 the twenty-four solar terms were included by UNESCO on the list of human intangible cultural heritage."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["说明", "shuōmíng", "shows"],
+        ["，"],
+        ["古老", "gǔlǎo", "ancient"],
+        ["的", "de", "(attributive)"],
+        ["智慧", "zhìhuì", "wisdom"],
+        ["并", "bìng", "(emphatic negation)"],
+        ["没有", "méiyǒu", "has not"],
+        ["因为", "yīnwèi", "because"],
+        ["时代", "shídài", "the times"],
+        ["的", "de", "(possessive)"],
+        ["变化", "biànhuà", "changes"],
+        ["而", "ér", "and thus"],
+        ["失去", "shīqù", "lose"],
+        ["价值", "jiàzhí", "value"],
+        ["，"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["以", "yǐ", "in"],
+        ["新", "xīn", "new"],
+        ["的", "de", "(attributive)"],
+        ["方式", "fāngshì", "way"],
+        ["延续", "yánxù", "continue"],
+        ["下去", "xiàqù", "onward"],
+        ["。"]
+      ],
+      "en": "This shows that ancient wisdom has not lost its value because of changing times — on the contrary, it continues on in new forms."
+    }
+  ],
+  "vocab": [
+    ["节气", "jiéqì", "solar term"],
+    ["农谚", "nóngyàn", "farmers' proverb"],
+    ["气候", "qìhòu", "climate"],
+    ["依靠", "yīkào", "to rely on"],
+    ["依然", "yīrán", "still; as before"],
+    ["延续", "yánxù", "to continue; carry on"]
+  ],
+  "quiz": [
+    {
+      "q": "What are the twenty-four solar terms based on?",
+      "a": [
+        "The moon's phases each month",
+        "The sun's position in the sky throughout the year",
+        "The number of rainy days in each season"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the text, what do northerners and southerners eat on Winter Solstice?",
+      "a": [
+        "Northerners eat dumplings, southerners eat sweet rice balls",
+        "Both eat the exact same rice cakes",
+        "Northerners eat noodles, southerners eat dumplings"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What happened to the twenty-four solar terms in 2016?",
+      "a": [
+        "They were removed from Chinese calendars",
+        "UNESCO added them to the list of human intangible cultural heritage",
+        "The government banned the related farming proverbs"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "除了…，还…",
+      "e": "'Besides..., also...' adds an extra point beyond what was already mentioned.",
+      "x": "除了指导农业，节气还深深地影响着中国人的日常生活。 — Besides guiding agriculture, solar terms also deeply influence Chinese people's daily life."
+    },
+    {
+      "p": "并没有…，反而…",
+      "e": "'Did not..., but on the contrary...' — negates an expected outcome and states the opposite reality.",
+      "x": "古老的智慧并没有失去价值，反而以新的方式延续下去。 — Ancient wisdom has not lost its value; on the contrary, it continues on in new forms."
+    }
+  ]
+}

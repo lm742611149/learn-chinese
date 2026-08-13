@@ -1,0 +1,59 @@
+{
+  "slug": "hsk3-attending-a-wedding",
+  "level": 3,
+  "title_zh": "参加婚礼",
+  "title_py": "Cānjiā Hūnlǐ",
+  "title_en": "Attending a Wedding",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上个","shàng gè","last"],["星期六","xīngqīliù","Saturday"],["，"],["我","wǒ","I; me"],["第一次","dì yī cì","the first time"],["参加","cānjiā","to attend"],["中国","Zhōngguó","China"],["朋友","péngyou","friend"],["的","de","(particle: possessive)"],["婚礼","hūnlǐ","wedding"],["。"]],
+      "en": "Last Saturday, I attended a Chinese friend's wedding for the first time."
+    },
+    {
+      "t": [["因为","yīnwèi","because"],["不","bù","not"],["知道","zhīdào","to know"],["应该","yīnggāi","should"],["穿","chuān","to wear"],["什么","shénme","what"],["衣服","yīfu","clothes"],["，"],["我","wǒ","I; me"],["提前","tíqián","in advance"],["问","wèn","to ask"],["了","le","(particle: completed action)"],["同事","tóngshì","coworker"],["。"]],
+      "en": "Because I didn't know what to wear, I asked a coworker beforehand."
+    },
+    {
+      "t": [["她","tā","she"],["告诉","gàosu","to tell"],["我","wǒ","I; me"],["："],["“"],["最好","zuìhǎo","had better"],["别","bié","don't"],["穿","chuān","to wear"],["黑色","hēisè","black (color)"],["的","de","(particle: attributive)"],["衣服","yīfu","clothes"],["，"],["红包","hóngbāo","red envelope (gift money)"],["也","yě","also"],["要","yào","need to"],["提前","tíqián","in advance"],["准备","zhǔnbèi","to prepare"],["好","hǎo","(result complement: well)"],["。"],["”"]],
+      "en": "She told me: \"You'd better not wear black clothes, and you also need to prepare the red envelope in advance.\""
+    },
+    {
+      "t": [["婚礼","hūnlǐ","wedding"],["那天","nà tiān","that day"],["，"],["新郎","xīnláng","groom"],["和","hé","and"],["新娘","xīnniáng","bride"],["穿","chuān","to wear"],["得","de","(particle: describes how)"],["非常","fēicháng","very; extremely"],["漂亮","piàoliang","beautiful"],["，"],["客人","kèrén","guest"],["也","yě","also"],["来","lái","to come"],["得","de","(particle: describes how)"],["很","hěn","very"],["多","duō","many"],["。"]],
+      "en": "On the day of the wedding, the bride and groom were dressed beautifully, and a lot of guests came too."
+    },
+    {
+      "t": [["婚礼","hūnlǐ","wedding"],["一","yī","one"],["开始","kāishǐ","to start"],["，"],["新郎","xīnláng","groom"],["就","jiù","then"],["一边","yìbiān","while (doing one)"],["说话","shuōhuà","to speak"],["，"],["一边","yìbiān","while (doing another)"],["流","liú","to flow"],["眼泪","yǎnlèi","tears"],["，"],["现场","xiànchǎng","the scene; on site"],["的","de","(particle: attributive)"],["人","rén","people"],["都","dōu","all"],["笑","xiào","to laugh"],["了","le","(particle: new situation)"],["。"]],
+      "en": "As soon as the wedding started, the groom spoke while shedding tears, and everyone at the scene laughed."
+    },
+    {
+      "t": [["虽然","suīrán","although"],["很多","hěnduō","many"],["习俗","xísú","custom"],["我","wǒ","I; me"],["都","dōu","all"],["看","kàn","to see"],["不","bù","not"],["懂","dǒng","to understand"],["，"],["但是","dànshì","but"],["身边","shēnbiān","by one's side"],["的","de","(particle: attributive)"],["朋友","péngyou","friend"],["都","dōu","all"],["很","hěn","very"],["热情","rèqíng","warm; friendly"],["地","de","(particle: adverbial)"],["给","gěi","to give (for)"],["我","wǒ","I; me"],["解释","jiěshì","to explain"],["。"]],
+      "en": "Although I didn't understand a lot of the customs, the friends beside me warmly explained them to me."
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["的","de","(particle: attributive)"],["婚宴","hūnyàn","wedding banquet"],["上","shàng","at (on top of)"],["，"],["大家","dàjiā","everyone"],["一起","yìqǐ","together"],["敬酒","jìngjiǔ","to toast"],["、"],["唱歌","chànggē","to sing"],["，"],["气氛","qìfēn","atmosphere"],["越来越","yuè lái yuè","more and more"],["热闹","rènao","lively; bustling"],["。"]],
+      "en": "At the wedding banquet in the evening, everyone toasted and sang together, and the atmosphere got livelier and livelier."
+    },
+    {
+      "t": [["这次","zhè cì","this time"],["婚礼","hūnlǐ","wedding"],["让","ràng","to make; to let"],["我","wǒ","I; me"],["更","gèng","more"],["了解","liǎojiě","to understand"],["了","le","(particle: completed action)"],["中国","Zhōngguó","China"],["文化","wénhuà","culture"],["，"],["也","yě","also"],["更","gèng","more"],["喜欢","xǐhuan","to like"],["这个","zhège","this"],["国家","guójiā","country"],["了","le","(particle: change of state)"],["。"]],
+      "en": "This wedding helped me understand Chinese culture better, and made me like this country even more."
+    }
+  ],
+  "vocab": [
+    ["婚礼","hūnlǐ","wedding"],
+    ["新郎","xīnláng","groom"],
+    ["新娘","xīnniáng","bride"],
+    ["红包","hóngbāo","red envelope (gift money)"],
+    ["习俗","xísú","custom"],
+    ["热闹","rènao","lively; bustling"]
+  ],
+  "quiz": [
+    {"q": "What did the coworker tell the narrator to avoid wearing?", "a": ["Red clothes", "Black clothes", "White clothes"], "c": 1},
+    {"q": "What did the groom do while speaking at the wedding?", "a": ["He sang a song", "He cried while talking", "He left the stage"], "c": 1},
+    {"q": "What happened to the atmosphere at the evening banquet?", "a": ["It got quieter", "It stayed the same", "It became livelier and livelier"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "越来越 + adjective — more and more…", "e": "越来越 shows a quality increasing over time.", "x": "气氛越来越热闹。 — The atmosphere got livelier and livelier."},
+    {"p": "verb + 得 + adverb/adjective — describing how an action is done", "e": "得 connects a verb to a phrase describing its manner or extent.", "x": "新郎和新娘穿得非常漂亮。 — The bride and groom were dressed beautifully."}
+  ]
+}

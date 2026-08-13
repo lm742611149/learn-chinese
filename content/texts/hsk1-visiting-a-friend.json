@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-visiting-a-friend",
+  "level": 1,
+  "title_zh": "医院看朋友",
+  "title_py": "Yīyuàn kàn péngyou",
+  "title_en": "Visiting a Friend at the Hospital",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["生病","shēngbìng","to be sick"],["了","le","(particle: new situation)"],["，"],["他","tā","he; him"],["在","zài","at; in"],["医院","yīyuàn","hospital"],["。"]],
+      "en": "My friend got sick, he is at the hospital."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["医院","yīyuàn","hospital"],["看","kàn","to visit"],["他","tā","him"],["。"]],
+      "en": "This afternoon, I go to the hospital to see him."
+    },
+    {
+      "t": [["医院","yīyuàn","hospital"],["很","hěn","very"],["大","dà","big"],["，"],["里面","lǐmiàn","inside"],["有","yǒu","there is; have"],["很","hěn","very"],["多","duō","many"],["人","rén","people"],["。"]],
+      "en": "The hospital is big, there are many people inside."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看见","kànjiàn","to see"],["他","tā","him"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "I see him, I am very happy."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["给","gěi","to give"],["他","tā","him"],["一些","yìxiē","some"],["水果","shuǐguǒ","fruit"],["。"]],
+      "en": "I give him some fruit."
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["来","lái","to come"],["看","kàn","to visit"],["我","wǒ","me"],["。"],["”"]],
+      "en": "He says, \"Thank you for coming to see me.\""
+    }
+  ],
+  "vocab": [
+    ["医院","yīyuàn","hospital"],
+    ["生病","shēngbìng","to be sick"],
+    ["看见","kànjiàn","to see"],
+    ["高兴","gāoxìng","happy"],
+    ["给","gěi","to give"],
+    ["谢谢","xièxie","thank you"]
+  ],
+  "quiz": [
+    {"q":"Where is the narrator's friend?","a":["At school","At the hospital","At the store"],"c":1},
+    {"q":"How does the narrator feel when he sees his friend?","a":["Sad","Happy","Angry"],"c":1},
+    {"q":"What does the narrator give his friend?","a":["Some tea","Some fruit","Some books"],"c":1}
+  ],
+  "grammar": [
+    {"p":"生病了 — expressing a change of state with 了","e":"了 at the end of a sentence often shows a new situation has happened: 他生病了 = He has gotten sick (he wasn't sick before).","x":"我的朋友生病了。 — My friend got sick."},
+    {"p":"给 + person + thing — giving something to someone","e":"给 means 'to give.' The word order is subject + 给 + person + thing: 我给他水果 = I give him fruit.","x":"我给他一些水果。 — I give him some fruit."}
+  ]
+}

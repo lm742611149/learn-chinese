@@ -1,0 +1,59 @@
+{
+  "slug": "hsk3-getting-along-with-roommate",
+  "level": 3,
+  "title_zh": "和室友相处",
+  "title_py": "Hé Shìyǒu Xiāngchǔ",
+  "title_en": "Getting Along with My Roommate",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["和","hé","and; with"],["室友","shìyǒu","roommate"],["刚","gāng","just; recently"],["住","zhù","to live"],["在","zài","at"],["一起","yìqǐ","together"],["的","de","(particle: nominalizer)"],["时候","shíhou","time; when"],["，"],["关系","guānxi","relationship"],["并","bìng","(used with 不 for emphasis)"],["不","bù","not"],["好","hǎo","good"],["。"]],
+      "en": "When my roommate and I first started living together, our relationship wasn't good at all."
+    },
+    {
+      "t": [["她","tā","she"],["喜欢","xǐhuan","to like"],["晚上","wǎnshang","evening"],["很","hěn","very"],["晚","wǎn","late"],["才","cái","only then; not until"],["睡觉","shuìjiào","to sleep"],["，"],["我","wǒ","I; me"],["却","què","however"],["习惯","xíguàn","to be used to; habit"],["早","zǎo","early"],["睡","shuì","to sleep"],["早","zǎo","early"],["起","qǐ","to get up"],["。"]],
+      "en": "She liked to go to sleep very late at night, whereas I was used to going to bed early and getting up early."
+    },
+    {
+      "t": [["因为","yīnwèi","because"],["这个","zhège","this"],["问题","wèntí","problem"],["，"],["我们","wǒmen","we; us"],["吵","chǎo","to argue"],["过","guò","(particle: experienced)"],["几次","jǐ cì","several times"],["，"],["气氛","qìfēn","atmosphere"],["变","biàn","to become"],["得","de","(particle: describes how)"],["越来越","yuè lái yuè","more and more"],["紧张","jǐnzhāng","tense; nervous"],["。"]],
+      "en": "Because of this problem, we argued several times, and the atmosphere became more and more tense."
+    },
+    {
+      "t": [["后来","hòulái","later"],["，"],["我们","wǒmen","we; us"],["决定","juédìng","to decide"],["坐","zuò","to sit"],["下来","xiàlái","(result: down; settle)"],["好好","hǎohǎo","properly; well"],["谈","tán","to talk; to discuss"],["谈","tán","to talk"],["，"],["把","bǎ","(marks object)"],["各自","gèzì","each; respectively"],["的","de","(particle: attributive)"],["想法","xiǎngfǎ","idea; thought"],["都","dōu","all"],["说","shuō","to say"],["出来","chūlái","(result: out)"],["。"]],
+      "en": "Later, we decided to sit down and have a proper talk, and each spoke our own thoughts."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["定","dìng","to set; to decide"],["了","le","(particle: completed action)"],["一个","yí ge","a; one"],["规定","guīdìng","rule"],["："],["十一点","shíyī diǎn","eleven o'clock"],["以后","yǐhòu","after"],["不","bù","not"],["开","kāi","to turn on"],["灯","dēng","light"],["，"],["也","yě","also"],["不","bù","not"],["大声","dàshēng","loudly"],["说话","shuōhuà","to talk"],["。"]],
+      "en": "We set a rule together: after eleven o'clock, no turning on lights, and no talking loudly either."
+    },
+    {
+      "t": [["如果","rúguǒ","if"],["有","yǒu","to have"],["朋友","péngyou","friend"],["要","yào","want to"],["来","lái","to come"],["，"],["就","jiù","then"],["要","yào","need to"],["提前","tíqián","in advance"],["告诉","gàosu","to tell"],["对方","duìfāng","the other party"],["一下","yíxià","a bit; briefly"],["。"]],
+      "en": "If a friend wanted to come over, we would let the other person know in advance."
+    },
+    {
+      "t": [["其实","qíshí","actually"],["她","tā","she"],["人","rén","person"],["很","hěn","very"],["好","hǎo","good; nice"],["，"],["每次","měi cì","every time"],["我","wǒ","I; me"],["生病","shēngbìng","to fall ill"],["，"],["她","tā","she"],["都","dōu","all; always"],["会","huì","will"],["给","gěi","to give (for)"],["我","wǒ","I; me"],["买","mǎi","to buy"],["药","yào","medicine"],["。"]],
+      "en": "Actually she's a really nice person — every time I got sick, she would buy medicine for me."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我们","wǒmen","we; us"],["已经","yǐjīng","already"],["成","chéng","to become"],["了","le","(particle: completed action)"],["好朋友","hǎo péngyou","good friend"],["，"],["我","wǒ","I; me"],["觉得","juéde","to feel"],["互相","hùxiāng","mutually; each other"],["理解","lǐjiě","to understand"],["真的","zhēnde","really"],["很","hěn","very"],["重要","zhòngyào","important"],["。"]],
+      "en": "Now we have already become good friends, and I feel that understanding each other is really important."
+    }
+  ],
+  "vocab": [
+    ["室友","shìyǒu","roommate"],
+    ["紧张","jǐnzhāng","tense; nervous"],
+    ["想法","xiǎngfǎ","idea; thought"],
+    ["规定","guīdìng","rule"],
+    ["互相","hùxiāng","mutually; each other"],
+    ["重要","zhòngyào","important"]
+  ],
+  "quiz": [
+    {"q": "What caused conflict between the narrator and the roommate?", "a": ["Different sleep schedules", "Different food preferences", "Different study habits"], "c": 0},
+    {"q": "What did they finally do to solve the problem?", "a": ["One of them moved out", "They sat down and talked, then made a rule", "They stopped speaking to each other"], "c": 1},
+    {"q": "How does the narrator feel about the roommate now?", "a": ["Still doesn't like her", "They have become good friends", "They rarely see each other now"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "如果…就… — if…, then…", "e": "如果 introduces a condition, and 就 introduces the result that follows.", "x": "如果有朋友要来，就要提前告诉对方一下。 — If a friend wants to come over, let the other person know in advance."},
+    {"p": "把 + object + verb + 出来 — expressing things out (result complement)", "e": "把 moves the object before the verb, and 出来 shows the result of the action bringing something out.", "x": "我们把各自的想法都说出来。 — We each spoke our own thoughts out loud."}
+  ]
+}

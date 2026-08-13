@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /wordbook.html
+Disallow: /progress.html
+
+Sitemap: https://readmandarin.com/sitemap.xml

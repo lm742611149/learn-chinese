@@ -1,0 +1,190 @@
+{
+  "slug": "hsk2-haircut",
+  "level": 2,
+  "title_zh": "理发",
+  "title_py": "Lǐfà",
+  "title_en": "Getting a Haircut",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["头发", "tóufa", "hair"],
+        ["太", "tài", "too"],
+        ["长", "cháng", "long"],
+        ["了", "le", "(particle: new situation)"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["去", "qù", "to go"],
+        ["理发", "lǐfà", "to get a haircut"],
+        ["。"]
+      ],
+      "en": "My hair is too long — I want to get a haircut."
+    },
+    {
+      "t": [
+        ["理发店", "lǐfàdiàn", "barbershop"],
+        ["离", "lí", "(distance) from"],
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["不", "bù", "not"],
+        ["远", "yuǎn", "far"],
+        ["，"],
+        ["走路", "zǒulù", "to walk"],
+        ["五", "wǔ", "five"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["就", "jiù", "(sooner than expected)"],
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "The barbershop isn't far from home — it's only a five-minute walk."
+    },
+    {
+      "t": [
+        ["理发师", "lǐfàshī", "barber; hairdresser"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["您", "nín", "you (polite)"],
+        ["想", "xiǎng", "to want to"],
+        ["剪", "jiǎn", "to cut"],
+        ["短", "duǎn", "short"],
+        ["一点", "yìdiǎn", "a little"],
+        ["还是", "háishi", "or (in questions)"],
+        ["长", "cháng", "long"],
+        ["一点", "yìdiǎn", "a little"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The barber asked me: \"Would you like it cut shorter, or kept a bit longer?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["剪", "jiǎn", "to cut"],
+        ["短", "duǎn", "short"],
+        ["一点", "yìdiǎn", "a little"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["夏天", "xiàtiān", "summer"],
+        ["太", "tài", "too"],
+        ["热", "rè", "hot"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said: \"Cut it shorter, because summer is too hot.\""
+    },
+    {
+      "t": [
+        ["过", "guò", "to pass"],
+        ["了", "le", "(completed action)"],
+        ["半个", "bàn gè", "half"],
+        ["小时", "xiǎoshí", "hour"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["新", "xīn", "new"],
+        ["发型", "fàxíng", "hairstyle"],
+        ["非常", "fēicháng", "very; extremely"],
+        ["好看", "hǎokàn", "good-looking"],
+        ["。"]
+      ],
+      "en": "After half an hour, my new hairstyle looked great."
+    },
+    {
+      "t": [
+        ["剪", "jiǎn", "to cut"],
+        ["完", "wán", "to finish"],
+        ["了", "le", "(completed action)"],
+        ["头发", "tóufa", "hair"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["照", "zhào", "to look at (mirror)"],
+        ["镜子", "jìngzi", "mirror"],
+        ["，"],
+        ["觉得", "juéde", "to feel"],
+        ["自己", "zìjǐ", "oneself"],
+        ["更", "gèng", "even more"],
+        ["帅", "shuài", "handsome"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "After finishing the haircut, I looked in the mirror and felt more handsome."
+    },
+    {
+      "t": [
+        ["理发", "lǐfà", "haircut"],
+        ["只", "zhǐ", "only"],
+        ["花", "huā", "to spend"],
+        ["了", "le", "(completed action)"],
+        ["五十", "wǔshí", "fifty"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["很", "hěn", "very"],
+        ["便宜", "piányi", "cheap"],
+        ["。"]
+      ],
+      "en": "The haircut only cost fifty kuai — I think that's cheap."
+    }
+  ],
+  "vocab": [
+    ["理发店", "lǐfàdiàn", "barbershop"],
+    ["理发师", "lǐfàshī", "barber; hairdresser"],
+    ["剪", "jiǎn", "to cut"],
+    ["发型", "fàxíng", "hairstyle"],
+    ["帅", "shuài", "handsome"],
+    ["便宜", "piányi", "cheap"]
+  ],
+  "quiz": [
+    {
+      "q": "Why does the writer want the haircut shorter?",
+      "a": [
+        "Because summer is too hot",
+        "Because it's cheaper",
+        "Because his boss told him to"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How long did the haircut take?",
+      "a": [
+        "Ten minutes",
+        "Half an hour",
+        "Two hours"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How much did the haircut cost?",
+      "a": [
+        "Fifteen kuai",
+        "Fifty kuai",
+        "Five hundred kuai"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "因为…，所以… — because, so",
+      "e": "因为 introduces the reason; in casual speech the result can also follow directly without 所以.",
+      "x": "因为夏天太热了，我想剪短一点。 — Because summer is too hot, I want to cut it shorter."
+    },
+    {
+      "p": "V + 完 + 了 — finishing an action",
+      "e": "完 right after a verb shows the action is finished; add 了 to mark it as a completed event.",
+      "x": "剪完了头发，我很高兴。 — After finishing the haircut, I was happy."
+    }
+  ]
+}

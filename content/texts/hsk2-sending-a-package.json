@@ -1,0 +1,191 @@
+{
+  "slug": "hsk2-sending-a-package",
+  "level": 2,
+  "title_zh": "寄快递",
+  "title_py": "Jì kuàidì",
+  "title_en": "Sending a Package",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["本", "běn", "(measure word for books)"],
+        ["书", "shū", "book"],
+        ["给", "gěi", "for; to give"],
+        ["妈妈", "māma", "mom"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["寄", "jì", "to mail; to send"],
+        ["快递", "kuàidì", "express delivery; courier"],
+        ["给", "gěi", "to; for"],
+        ["她", "tā", "she; her"],
+        ["。"]
+      ],
+      "en": "I bought a book for my mom, and I want to send it to her by courier."
+    },
+    {
+      "t": [
+        ["快递公司", "kuàidì gōngsī", "delivery company"],
+        ["在", "zài", "at; in"],
+        ["超市", "chāoshì", "supermarket"],
+        ["旁边", "pángbiān", "next to"],
+        ["，"],
+        ["离", "lí", "(distance) from"],
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["不", "bù", "not"],
+        ["太", "tài", "too"],
+        ["远", "yuǎn", "far"],
+        ["。"]
+      ],
+      "en": "The delivery company is next to the supermarket, not too far from my home."
+    },
+    {
+      "t": [
+        ["工作人员", "gōngzuò rényuán", "staff member"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["您", "nín", "you (polite)"],
+        ["要", "yào", "to want"],
+        ["寄", "jì", "to mail; to send"],
+        ["到", "dào", "to; arrive at"],
+        ["哪儿", "nǎr", "where"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "The staff member asked me: \"Where would you like to send it to?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["寄", "jì", "to mail; to send"],
+        ["到", "dào", "to; arrive at"],
+        ["北京", "Běijīng", "Beijing"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["妈妈", "māma", "mom"],
+        ["住", "zhù", "to live"],
+        ["在", "zài", "at; in"],
+        ["那儿", "nàr", "there"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said: \"Send it to Beijing — my mom lives there.\""
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["说", "shuō", "to say"],
+        ["因为", "yīnwèi", "because"],
+        ["东西", "dōngxi", "thing; item"],
+        ["不", "bù", "not"],
+        ["重", "zhòng", "heavy"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["只", "zhǐ", "only"],
+        ["要", "yào", "to cost; to need"],
+        ["二十", "èrshí", "twenty"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "She said because the item isn't heavy, it only costs twenty kuai."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["付", "fù", "to pay"],
+        ["了", "le", "(completed action)"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["工作人员", "gōngzuò rényuán", "staff member"],
+        ["给", "gěi", "to give"],
+        ["了", "le", "(completed action)"],
+        ["我", "wǒ", "I; me"],
+        ["一", "yì", "one"],
+        ["张", "zhāng", "(measure word for flat things)"],
+        ["单子", "dānzi", "receipt slip"],
+        ["。"]
+      ],
+      "en": "I paid, and the staff member gave me a receipt slip."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["说", "shuō", "to say"],
+        ["三", "sān", "three"],
+        ["天", "tiān", "day"],
+        ["以后", "yǐhòu", "later; after"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["收到", "shōudào", "to receive"],
+        ["这", "zhè", "this"],
+        ["个", "gè", "(measure word)"],
+        ["包裹", "bāoguǒ", "package"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "She said in three days my mom would be able to receive the package."
+    }
+  ],
+  "vocab": [
+    ["快递", "kuàidì", "express delivery; courier"],
+    ["快递公司", "kuàidì gōngsī", "delivery company"],
+    ["工作人员", "gōngzuò rényuán", "staff member"],
+    ["包裹", "bāoguǒ", "package"],
+    ["重", "zhòng", "heavy"],
+    ["单子", "dānzi", "receipt slip"]
+  ],
+  "quiz": [
+    {
+      "q": "Who is the writer sending the package to?",
+      "a": [
+        "His mom in Beijing",
+        "His friend in Shanghai",
+        "His teacher"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Why does the package only cost twenty kuai?",
+      "a": [
+        "It's not heavy",
+        "It's a holiday discount",
+        "He has a membership card"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How many days until the mom receives the package?",
+      "a": [
+        "One day",
+        "Three days",
+        "Ten days"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "因为…，所以… — cause and result",
+      "e": "因为 gives the reason and 所以 gives the result; both can appear together in the same sentence.",
+      "x": "因为东西不重，所以只要二十块钱。 — Because the item isn't heavy, it only costs twenty kuai."
+    },
+    {
+      "p": "V + 到 — reaching a destination",
+      "e": "到 right after a verb like 寄, 走 or 送 marks the place the action reaches.",
+      "x": "快递寄到北京。 — The package is sent to Beijing."
+    }
+  ]
+}

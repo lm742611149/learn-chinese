@@ -1,0 +1,196 @@
+{
+  "slug": "hsk2-cleaning-the-room",
+  "level": 2,
+  "title_zh": "打扫房间",
+  "title_py": "Dǎsǎo fángjiān",
+  "title_en": "Cleaning the Room",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["房间", "fángjiān", "room"],
+        ["太", "tài", "too"],
+        ["乱", "luàn", "messy"],
+        ["了", "le", "(particle: new situation)"],
+        ["，"],
+        ["让", "ràng", "to have (sb do sth)"],
+        ["我", "wǒ", "I; me"],
+        ["打扫", "dǎsǎo", "to clean"],
+        ["一下", "yíxià", "a bit"],
+        ["。"]
+      ],
+      "en": "Saturday morning, mom said the room was too messy and told me to clean it up."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["先", "xiān", "first"],
+        ["整理", "zhěnglǐ", "to tidy up"],
+        ["桌子", "zhuōzi", "desk; table"],
+        ["上", "shàng", "on"],
+        ["的", "de", "(descriptive particle)"],
+        ["书", "shū", "book"],
+        ["，"],
+        ["再", "zài", "then"],
+        ["收拾", "shōushi", "to pack up; tidy"],
+        ["地上", "dìshang", "on the floor"],
+        ["的", "de", "(descriptive particle)"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "First I tidied the books on the desk, then picked up the clothes on the floor."
+    },
+    {
+      "t": [
+        ["打扫", "dǎsǎo", "to clean"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["个", "gè", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["又", "yòu", "both; and"],
+        ["累", "lèi", "tired"],
+        ["又", "yòu", "both; and"],
+        ["饿", "è", "hungry"],
+        ["。"]
+      ],
+      "en": "After cleaning for an hour, I felt both tired and hungry."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["看", "kàn", "to look"],
+        ["了", "le", "(completed action)"],
+        ["看", "kàn", "to look"],
+        ["房间", "fángjiān", "room"],
+        ["，"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(progressive particle)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["打扫", "dǎsǎo", "to clean"],
+        ["得", "de", "(particle before manner complement)"],
+        ["真", "zhēn", "really"],
+        ["干净", "gānjìng", "clean"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Mom looked at the room and smiled, saying: \"You cleaned it really well!\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["也", "yě", "also"],
+        ["擦", "cā", "to wipe"],
+        ["了", "le", "(completed action)"],
+        ["擦", "cā", "to wipe"],
+        ["窗户", "chuānghu", "window"],
+        ["，"],
+        ["房间", "fángjiān", "room"],
+        ["更", "gèng", "even more"],
+        ["亮", "liàng", "bright"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "I also wiped the windows a bit, and the room became brighter."
+    },
+    {
+      "t": [
+        ["因为", "yīnwèi", "because"],
+        ["房间", "fángjiān", "room"],
+        ["干净", "gānjìng", "clean"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["心情", "xīnqíng", "mood"],
+        ["也", "yě", "also"],
+        ["变好", "biàn hǎo", "to get better"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "Because the room was clean, my mood also got better."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["如果", "rúguǒ", "if"],
+        ["每", "měi", "every"],
+        ["个", "gè", "(measure word)"],
+        ["星期", "xīngqī", "week"],
+        ["都", "dōu", "all"],
+        ["打扫", "dǎsǎo", "to clean"],
+        ["，"],
+        ["房间", "fángjiān", "room"],
+        ["就", "jiù", "then"],
+        ["不会", "bú huì", "won't"],
+        ["那么", "nàme", "so"],
+        ["乱", "luàn", "messy"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Mom said if I clean every week, the room won't get so messy."
+    }
+  ],
+  "vocab": [
+    ["打扫", "dǎsǎo", "to clean"],
+    ["房间", "fángjiān", "room"],
+    ["乱", "luàn", "messy"],
+    ["整理", "zhěnglǐ", "to tidy up"],
+    ["干净", "gānjìng", "clean"],
+    ["心情", "xīnqíng", "mood"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did mom tell the writer to clean the room?",
+      "a": [
+        "It was too messy",
+        "Guests were coming",
+        "It was raining outside"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How did the writer feel after cleaning for an hour?",
+      "a": [
+        "Happy and relaxed",
+        "Tired and hungry",
+        "Bored"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did mom say when she saw the clean room?",
+      "a": [
+        "It's still messy",
+        "You cleaned it really well",
+        "Clean it again"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "又…又… — both...and...",
+      "e": "又 + adjective + 又 + adjective describes two qualities happening at the same time.",
+      "x": "我觉得又累又饿。 — I feel both tired and hungry."
+    },
+    {
+      "p": "如果…就… — if...then...",
+      "e": "如果 introduces a condition, and 就 introduces the result that follows.",
+      "x": "如果每个星期都打扫，房间就不会那么乱了。 — If you clean every week, the room won't get so messy."
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "site_name": "Read Chinese Daily",
-  "canonical_url": "https://learn-chinese-3y6.pages.dev",
+  "site_name": "Read Mandarin",
+  "canonical_url": "https://readmandarin.com",
   "tagline": "Real Chinese in 5 minutes a day — free graded readings by a real Chinese teacher",
   "description": "Learn Mandarin Chinese with free HSK-graded short readings. Every text comes with pinyin, tap-to-translate words, audio and English translation.",
-  "facebook_url": "https://www.facebook.com/YOUR_PAGE",
-  "preply_url": "https://preply.com/en/tutor/YOUR_ID",
+  "facebook_url": "https://www.facebook.com/profile.php?id=100006893415469",
+  "preply_url": "https://preply.com/en/tutor/6593385",
   "newsletter_url": "",
   "analytics_snippet": "",
   "firebase": {
@@ -17,6 +17,8 @@
   },
   "auth_providers": ["google", "facebook", "email"],
   "featured": ["hsk2-buying-coffee", "hsk6-power-of-persistence", "hsk4-phones-and-life"],
-  "teacher_name": "Lucas",
+  "teacher_name": "Fei",
+  "teacher_role": "Mandarin teacher · Beijing Language University",
+  "teacher_stats": {"rating": "4.91", "reviews": 34, "lessons": 331},
   "teacher_bio": "I teach Mandarin to students from all over the world on Preply, and share bite-size Chinese lessons with 30,000+ followers on Facebook. I built this site so anyone can read real Chinese — for free."
 }

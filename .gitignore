@@ -1,1 +1,4 @@
 media/
+video/
+__pycache__/
+.DS_Store

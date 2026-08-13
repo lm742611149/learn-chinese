@@ -1,0 +1,242 @@
+{
+  "slug": "hsk4-night-market-culture",
+  "level": 4,
+  "title_zh": "夜市文化",
+  "title_py": "Yèshì wénhuà",
+  "title_en": "Night Market Culture",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["一", "yī", "as soon as"],
+        ["到", "dào", "to arrive at"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["很多", "hěn duō", "many"],
+        ["城市", "chéngshì", "city"],
+        ["的", "de", "(possessive)"],
+        ["老街", "lǎojiē", "old street"],
+        ["就", "jiù", "then"],
+        ["热闹", "rènao", "lively"],
+        ["起来", "qǐlai", "(verb complement: start to)"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["夜市", "yèshì", "night market"],
+        ["开始", "kāishǐ", "to start"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "As soon as evening falls, the old streets in many cities become lively, because the night market has begun."
+    },
+    {
+      "t": [
+        ["无论", "wúlùn", "no matter (whether)"],
+        ["你", "nǐ", "you"],
+        ["想", "xiǎng", "want to"],
+        ["吃", "chī", "to eat"],
+        ["小吃", "xiǎochī", "snacks"],
+        ["，"],
+        ["还是", "háishi", "or"],
+        ["想", "xiǎng", "want to"],
+        ["买", "mǎi", "to buy"],
+        ["便宜", "piányi", "cheap"],
+        ["的", "de", "(possessive)"],
+        ["衣服", "yīfu", "clothes"],
+        ["，"],
+        ["夜市", "yèshì", "night market"],
+        ["都", "dōu", "all"],
+        ["能", "néng", "can"],
+        ["满足", "mǎnzú", "to satisfy"],
+        ["你", "nǐ", "you"],
+        ["。"]
+      ],
+      "en": "Whether you want to eat snacks or buy cheap clothes, the night market can satisfy you."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["最", "zuì", "most"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["的", "de", "the one that"],
+        ["，"],
+        ["是", "shì", "is"],
+        ["空气", "kōngqì", "air"],
+        ["里", "li", "inside"],
+        ["那种", "nà zhǒng", "that kind of"],
+        ["炸鸡", "zhájī", "fried chicken"],
+        ["和", "hé", "and"],
+        ["烤肉", "kǎoròu", "grilled meat"],
+        ["混", "hùn", "to mix"],
+        ["在一起", "zài yìqǐ", "together"],
+        ["的", "de", "(possessive)"],
+        ["香味", "xiāngwèi", "fragrance"],
+        ["。"]
+      ],
+      "en": "What I like best is that fragrance in the air where fried chicken and grilled meat mix together."
+    },
+    {
+      "t": [
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["的是", "de shì", "the thing is"],
+        ["，"],
+        ["夜市", "yèshì", "night market"],
+        ["不只是", "bùzhǐshì", "not only"],
+        ["吃饭", "chīfàn", "eating"],
+        ["购物", "gòuwù", "shopping"],
+        ["的", "de", "(possessive)"],
+        ["地方", "dìfang", "place"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["是", "shì", "is"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["拍照", "pāizhào", "to take photos"],
+        ["、"],
+        ["聊天", "liáotiān", "to chat"],
+        ["、"],
+        ["约会", "yuēhuì", "to date"],
+        ["的", "de", "(possessive)"],
+        ["地方", "dìfang", "place"],
+        ["。"]
+      ],
+      "en": "What's interesting is that the night market is not just a place to eat and shop, but also a place for young people to take photos, chat, and go on dates."
+    },
+    {
+      "t": [
+        ["既然", "jìrán", "since"],
+        ["白天", "báitiān", "daytime"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["在", "zài", "(progressive)"],
+        ["上班", "shàngbān", "to work"],
+        ["上学", "shàngxué", "to go to school"],
+        ["，"],
+        ["晚上", "wǎnshang", "evening"],
+        ["出来", "chūlai", "to come out"],
+        ["放松", "fàngsōng", "to relax"],
+        ["一下", "yíxià", "a bit"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["就", "jiù", "then"],
+        ["成", "chéng", "to become"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind of"],
+        ["生活", "shēnghuó", "life"],
+        ["习惯", "xíguàn", "habit"],
+        ["。"]
+      ],
+      "en": "Since everyone is at work or school during the day, coming out to relax in the evening has become a lifestyle habit."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["，"],
+        ["随着", "suízhe", "along with"],
+        ["城市", "chéngshì", "city"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["现代化", "xiàndàihuà", "modernized"],
+        ["，"],
+        ["一些", "yìxiē", "some"],
+        ["老", "lǎo", "old"],
+        ["夜市", "yèshì", "night market"],
+        ["因为", "yīnwèi", "because"],
+        ["要", "yào", "need to"],
+        ["拆迁", "chāiqiān", "demolish and relocate"],
+        ["而", "ér", "thus"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["消失", "xiāoshī", "to disappear"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "However, as cities become more and more modernized, some old night markets are slowly disappearing due to redevelopment."
+    },
+    {
+      "t": [
+        ["于是", "yúshì", "so; thus"],
+        ["，"],
+        ["有人", "yǒurén", "some people"],
+        ["开始", "kāishǐ", "to start"],
+        ["担心", "dānxīn", "to worry"],
+        ["："],
+        ["如果", "rúguǒ", "if"],
+        ["夜市", "yèshì", "night market"],
+        ["都", "dōu", "all"],
+        ["变成", "biànchéng", "to become"],
+        ["了", "le", "(particle)"],
+        ["商场", "shāngchǎng", "shopping mall"],
+        ["，"],
+        ["那种", "nà zhǒng", "that kind of"],
+        ["热闹", "rènao", "lively"],
+        ["又", "yòu", "and"],
+        ["亲切", "qīnqiè", "warm; friendly"],
+        ["的", "de", "(possessive)"],
+        ["感觉", "gǎnjué", "feeling"],
+        ["还", "hái", "still"],
+        ["能", "néng", "can"],
+        ["找到", "zhǎodào", "to find"],
+        ["吗", "ma", "(question particle)"],
+        ["？"]
+      ],
+      "en": "So, some people have begun to worry: if all night markets turn into shopping malls, will that lively yet warm feeling still be found?"
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to think"],
+        ["，"],
+        ["夜市", "yèshì", "night market"],
+        ["代表", "dàibiǎo", "to represent"],
+        ["的", "de", "the thing that"],
+        ["不只是", "bùzhǐshì", "not only"],
+        ["美食", "měishí", "delicious food"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["一", "yí", "one"],
+        ["座", "zuò", "(measure word for cities)"],
+        ["城市", "chéngshì", "city"],
+        ["晚上", "wǎnshang", "at night"],
+        ["的", "de", "(possessive)"],
+        ["性格", "xìnggé", "character; personality"],
+        ["。"]
+      ],
+      "en": "I think what a night market represents is not just delicious food, but the character of a city at night."
+    }
+  ],
+  "vocab": [
+    ["夜市", "yèshì", "night market"],
+    ["热闹", "rènao", "lively; bustling"],
+    ["小吃", "xiǎochī", "snacks"],
+    ["购物", "gòuwù", "to shop"],
+    ["拆迁", "chāiqiān", "demolish and relocate"],
+    ["性格", "xìnggé", "character; personality"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the author like best about the night market?",
+      "a": ["The fragrance of fried chicken and grilled meat mixed together", "The price of the clothes", "The size of the crowd"],
+      "c": 0
+    },
+    {
+      "q": "According to the text, why do some old night markets disappear?",
+      "a": ["Tourists stopped visiting them", "They are demolished for city redevelopment", "The food became too expensive"],
+      "c": 1
+    },
+    {
+      "q": "What does the author think a night market represents in the end?",
+      "a": ["Only delicious food", "A city's character at night", "A place only for young people"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "无论……都……",
+      "e": "\"No matter (whether) A or B, the result C still holds.\" It shows that a condition doesn't change the outcome: 无论你想吃小吃，还是想买便宜的衣服，夜市都能满足你。",
+      "x": "无论多忙，他都会给妈妈打电话。— No matter how busy he is, he always calls his mom."
+    },
+    {
+      "p": "既然……也就……",
+      "e": "\"Since (a fact is already true), then naturally...\" draws a conclusion from an accepted premise: 既然白天大家都在上班上学，晚上出来放松一下，也就成了一种生活习惯。",
+      "x": "既然你已经决定了，我也就不再劝你了。— Since you've already decided, I won't try to persuade you anymore."
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "hsk5-traditional-chinese-medicine",
+  "level": 5,
+  "title_zh": "中医的现代处境",
+  "title_py": "Zhōngyī de xiàndài chǔjìng",
+  "title_en": "Traditional Chinese Medicine in the Modern Era",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["近几十年来", "jìn jǐshí nián lái", "in recent decades"],
+        ["，"],
+        ["随着", "suízhe", "as; along with"],
+        ["西医", "xīyī", "Western medicine"],
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["的", "de", "(possessive)"],
+        ["普及", "pǔjí", "spread; popularization"],
+        ["，"],
+        ["中医", "zhōngyī", "traditional Chinese medicine"],
+        ["的", "de", "(possessive)"],
+        ["地位", "dìwèi", "status"],
+        ["经历", "jīnglì", "to go through"],
+        ["了", "le", "(completed)"],
+        ["从", "cóng", "from"],
+        ["被", "bèi", "(passive marker)"],
+        ["质疑", "zhìyí", "to be doubted"],
+        ["到", "dào", "to"],
+        ["重新", "chóngxīn", "again"],
+        ["被", "bèi", "(passive marker)"],
+        ["重视", "zhòngshì", "to be valued"],
+        ["的", "de", "(attributive)"],
+        ["过程", "guòchéng", "process"],
+        ["。"]
+      ],
+      "en": "In recent decades, as Western medicine has spread in China, the status of traditional Chinese medicine has gone through a process of being doubted and then re-valued."
+    },
+    {
+      "t": [
+        ["支持者", "zhīchízhě", "supporters"],
+        ["认为", "rènwéi", "to believe"],
+        ["，"],
+        ["中医", "zhōngyī", "Chinese medicine"],
+        ["强调", "qiángdiào", "to emphasize"],
+        ["“"],
+        ["调理", "tiáolǐ", "to regulate the body; nurse back to health"],
+        ["”"],
+        ["和", "hé", "and"],
+        ["“"],
+        ["整体", "zhěngtǐ", "the whole; holistic"],
+        ["”"],
+        ["，"],
+        ["对", "duì", "regarding"],
+        ["一些", "yìxiē", "some"],
+        ["慢性病", "mànxìngbìng", "chronic disease"],
+        ["有", "yǒu", "has"],
+        ["西医", "xīyī", "Western medicine"],
+        ["难以", "nányǐ", "hard to"],
+        ["替代", "tìdài", "to replace"],
+        ["的", "de", "(attributive)"],
+        ["效果", "xiàoguǒ", "effect"],
+        ["。"]
+      ],
+      "en": "Supporters believe that Chinese medicine emphasizes \"regulation\" and \"holism,\" and has effects on certain chronic diseases that Western medicine finds hard to replace."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["反对者", "fǎnduìzhě", "opponents"],
+        ["却", "què", "yet"],
+        ["指出", "zhǐchū", "to point out"],
+        ["，"],
+        ["中医", "zhōngyī", "Chinese medicine"],
+        ["的", "de", "(possessive)"],
+        ["许多", "xǔduō", "many"],
+        ["理论", "lǐlùn", "theories"],
+        ["缺乏", "quēfá", "to lack"],
+        ["科学", "kēxué", "scientific"],
+        ["证据", "zhèngjù", "evidence"],
+        ["，"],
+        ["疗效", "liáoxiào", "therapeutic effect"],
+        ["很", "hěn", "very"],
+        ["难", "nán", "hard"],
+        ["用", "yòng", "using"],
+        ["现代", "xiàndài", "modern"],
+        ["医学", "yīxué", "medicine"],
+        ["的", "de", "(possessive)"],
+        ["标准", "biāozhǔn", "standard"],
+        ["去", "qù", "to go"],
+        ["验证", "yànzhèng", "verify"],
+        ["。"]
+      ],
+      "en": "However, opponents point out that many of Chinese medicine's theories lack scientific evidence, and their effects are hard to verify by modern medical standards."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["奶奶", "nǎinai", "grandmother"],
+        ["常年", "chángnián", "all year round"],
+        ["喝", "hē", "drinks"],
+        ["中药", "zhōngyào", "Chinese herbal medicine"],
+        ["调养", "tiáoyǎng", "to nurse; recuperate"],
+        ["身体", "shēntǐ", "body"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["说", "shuō", "says"],
+        ["中医", "zhōngyī", "Chinese medicine"],
+        ["治", "zhì", "treats"],
+        ["的", "de", "(particle)"],
+        ["是", "shì", "is"],
+        ["“"],
+        ["根本", "gēnběn", "root cause"],
+        ["”"],
+        ["，"],
+        ["西医", "xīyī", "Western medicine"],
+        ["治", "zhì", "treats"],
+        ["的", "de", "(particle)"],
+        ["是", "shì", "is"],
+        ["“"],
+        ["症状", "zhèngzhuàng", "symptoms"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "My grandmother drinks herbal medicine year-round to nurse her body; she says Chinese medicine treats the \"root cause,\" while Western medicine treats the \"symptoms.\""
+    },
+    {
+      "t": [
+        ["与此同时", "yǔ cǐ tóngshí", "at the same time"],
+        ["，"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(attributive)"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["开始", "kāishǐ", "to begin"],
+        ["尝试", "chángshì", "to try"],
+        ["针灸", "zhēnjiǔ", "acupuncture"],
+        ["、"],
+        ["拔罐", "báguàn", "cupping"],
+        ["这些", "zhèxiē", "these"],
+        ["传统", "chuántǒng", "traditional"],
+        ["疗法", "liáofǎ", "therapy"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["它们", "tāmen", "them"],
+        ["当作", "dàngzuò", "to regard as"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["时尚", "shíshàng", "fashionable"],
+        ["的", "de", "(attributive)"],
+        ["养生", "yǎngshēng", "wellness; health preservation"],
+        ["方式", "fāngshì", "way"],
+        ["。"]
+      ],
+      "en": "At the same time, more and more young people are starting to try traditional therapies like acupuncture and cupping, treating them as a fashionable form of wellness."
+    },
+    {
+      "t": [
+        ["不仅", "bùjǐn", "not only"],
+        ["中国人", "Zhōngguórén", "Chinese people"],
+        ["对", "duì", "toward"],
+        ["中医", "zhōngyī", "Chinese medicine"],
+        ["重新", "chóngxīn", "again"],
+        ["产生", "chǎnshēng", "to develop"],
+        ["兴趣", "xìngqù", "interest"],
+        ["，"],
+        ["许多", "xǔduō", "many"],
+        ["外国人", "wàiguórén", "foreigners"],
+        ["也", "yě", "also"],
+        ["开始", "kāishǐ", "to begin"],
+        ["学习", "xuéxí", "to learn"],
+        ["针灸", "zhēnjiǔ", "acupuncture"],
+        ["和", "hé", "and"],
+        ["推拿", "tuīná", "Chinese therapeutic massage"],
+        ["。"]
+      ],
+      "en": "Not only have Chinese people rediscovered their interest in Chinese medicine, many foreigners have also started learning acupuncture and tuina massage."
+    },
+    {
+      "t": [
+        ["从而", "cóng'ér", "thereby"],
+        ["，"],
+        ["中医药", "zhōngyīyào", "traditional Chinese medicine"],
+        ["产业", "chǎnyè", "industry"],
+        ["近年来", "jìnniánlái", "in recent years"],
+        ["发展", "fāzhǎn", "to develop"],
+        ["迅速", "xùnsù", "rapidly"],
+        ["，"],
+        ["相关", "xiāngguān", "related"],
+        ["的", "de", "(attributive)"],
+        ["保健品", "bǎojiànpǐn", "health products"],
+        ["和", "hé", "and"],
+        ["诊所", "zhěnsuǒ", "clinics"],
+        ["在", "zài", "in"],
+        ["城市", "chéngshì", "cities"],
+        ["里", "lǐ", "inside"],
+        ["随处可见", "suíchù kějiàn", "seen everywhere"],
+        ["。"]
+      ],
+      "en": "As a result, the traditional Chinese medicine industry has developed rapidly in recent years, and related health products and clinics can be seen everywhere in cities."
+    },
+    {
+      "t": [
+        ["无论如何", "wúlùn rúhé", "no matter what"],
+        ["，"],
+        ["在", "zài", "under"],
+        ["中西医", "zhōngxīyī", "Chinese and Western medicine"],
+        ["结合", "jiéhé", "combination"],
+        ["的", "de", "(attributive)"],
+        ["背景", "bèijǐng", "background"],
+        ["下", "xià", "under"],
+        ["，"],
+        ["中医", "zhōngyī", "Chinese medicine"],
+        ["想要", "xiǎngyào", "wants to"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["走向", "zǒuxiàng", "head toward"],
+        ["世界", "shìjiè", "the world"],
+        ["，"],
+        ["还", "hái", "still"],
+        ["需要", "xūyào", "needs"],
+        ["更多", "gèng duō", "more"],
+        ["科学", "kēxué", "scientific"],
+        ["的", "de", "(attributive)"],
+        ["验证", "yànzhèng", "verification"],
+        ["。"]
+      ],
+      "en": "In any case, against the backdrop of combining Chinese and Western medicine, if Chinese medicine truly wants to go global, it still needs a great deal more scientific verification."
+    }
+  ],
+  "vocab": [
+    ["中医", "zhōngyī", "traditional Chinese medicine"],
+    ["慢性病", "mànxìngbìng", "chronic disease"],
+    ["疗效", "liáoxiào", "therapeutic effect"],
+    ["针灸", "zhēnjiǔ", "acupuncture"],
+    ["养生", "yǎngshēng", "health preservation; wellness"],
+    ["验证", "yànzhèng", "to verify; verification"]
+  ],
+  "quiz": [
+    {
+      "q": "According to supporters, what is a strength of traditional Chinese medicine?",
+      "a": [
+        "It emphasizes regulation and holistic treatment, with effects on chronic disease that Western medicine finds hard to replace",
+        "It cures every disease faster than Western medicine",
+        "It is always cheaper than Western medicine"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What do opponents point out about Chinese medicine's theories?",
+      "a": [
+        "They were banned by the government decades ago",
+        "Many lack scientific evidence and are hard to verify by modern medical standards",
+        "They have no supporters left in China today"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the text say about young people and therapies like acupuncture and cupping?",
+      "a": [
+        "They avoid them because they seem outdated",
+        "They increasingly try them as a fashionable form of wellness",
+        "They only use them when hospitals are too expensive"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着…，…",
+      "e": "'As / along with...' introduces a change happening in parallel with another development.",
+      "x": "随着西医在中国的普及，中医的地位经历了从被质疑到重新被重视的过程。 — As Western medicine spread in China, the status of Chinese medicine went through a process of being doubted and then re-valued."
+    },
+    {
+      "p": "不仅…，也…",
+      "e": "'Not only..., but also...' links two related facts to show a broader trend.",
+      "x": "不仅中国人对中医重新产生兴趣，许多外国人也开始学习针灸。 — Not only have Chinese people rediscovered interest in Chinese medicine, many foreigners have also started learning acupuncture."
+    }
+  ]
+}

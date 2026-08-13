@@ -1,0 +1,256 @@
+{
+  "slug": "hsk4-hanfu-revival",
+  "level": 4,
+  "title_zh": "汉服复兴",
+  "title_py": "Hànfú fùxīng",
+  "title_en": "The Hanfu Revival",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["最近", "zuìjìn", "recently"],
+        ["几", "jǐ", "several"],
+        ["年", "nián", "years"],
+        ["，"],
+        ["穿着", "chuānzhuó", "wearing"],
+        ["汉服", "hànfú", "hanfu"],
+        ["在", "zài", "at"],
+        ["街上", "jiē shang", "on the street"],
+        ["散步", "sànbù", "to stroll"],
+        ["、"],
+        ["拍照", "pāizhào", "to take photos"],
+        ["的", "de", "(possessive)"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "In recent years, more and more young people have been strolling and taking photos on the streets while wearing hanfu."
+    },
+    {
+      "t": [
+        ["长长", "chángcháng", "long"],
+        ["的", "de", "(possessive)"],
+        ["衣袖", "yīxiù", "sleeves"],
+        ["、"],
+        ["精致", "jīngzhì", "exquisite"],
+        ["的", "de", "(possessive)"],
+        ["花纹", "huāwén", "patterns"],
+        ["，"],
+        ["让", "ràng", "to make"],
+        ["人", "rén", "people"],
+        ["一", "yì", "as soon as"],
+        ["看", "kàn", "look"],
+        ["就", "jiù", "then"],
+        ["想到", "xiǎngdào", "to think of"],
+        ["古代", "gǔdài", "ancient times"],
+        ["的", "de", "(possessive)"],
+        ["诗词", "shīcí", "poetry"],
+        ["和", "hé", "and"],
+        ["故事", "gùshi", "stories"],
+        ["。"]
+      ],
+      "en": "The long sleeves and exquisite patterns make people think of ancient poetry and stories at first glance."
+    },
+    {
+      "t": [
+        ["对", "duì", "for"],
+        ["不少", "bùshǎo", "quite a few"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["来说", "láishuō", "speaking of"],
+        ["，"],
+        ["穿", "chuān", "to wear"],
+        ["汉服", "hànfú", "hanfu"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["好看", "hǎokàn", "good-looking"],
+        ["，"],
+        ["更", "gèng", "even more"],
+        ["是", "shì", "is"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind of"],
+        ["表达", "biǎodá", "to express"],
+        ["对", "duì", "towards"],
+        ["传统", "chuántǒng", "traditional"],
+        ["文化", "wénhuà", "culture"],
+        ["的", "de", "(possessive)"],
+        ["热爱", "rè'ài", "love; passion"],
+        ["。"]
+      ],
+      "en": "For quite a few young people, wearing hanfu is not only about looking good, but also a way of expressing love for traditional culture."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "there are"],
+        ["人", "rén", "people"],
+        ["质疑", "zhìyí", "to question; doubt"],
+        ["："],
+        ["这些", "zhèxiē", "these"],
+        ["人", "rén", "people"],
+        ["是", "shì", "is"],
+        ["真的", "zhēn de", "really"],
+        ["了解", "liǎojiě", "to understand"],
+        ["汉服", "hànfú", "hanfu"],
+        ["背后", "bèihòu", "behind"],
+        ["的", "de", "(possessive)"],
+        ["历史", "lìshǐ", "history"],
+        ["，"],
+        ["还是", "háishi", "or"],
+        ["只是", "zhǐshì", "only"],
+        ["为了", "wèile", "in order to"],
+        ["拍出", "pāichū", "to capture (a photo)"],
+        ["好看", "hǎokàn", "good-looking"],
+        ["的", "de", "(possessive)"],
+        ["照片", "zhàopiàn", "photo"],
+        ["？"]
+      ],
+      "en": "However, some people question: do these people really understand the history behind hanfu, or are they only doing it to take good-looking photos?"
+    },
+    {
+      "t": [
+        ["事实上", "shìshí shang", "in fact"],
+        ["，"],
+        ["一", "yí", "one"],
+        ["件", "jiàn", "(measure word for clothing)"],
+        ["真正", "zhēnzhèng", "genuine"],
+        ["的", "de", "(possessive)"],
+        ["汉服", "hànfú", "hanfu"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["布料", "bùliào", "fabric"],
+        ["到", "dào", "to"],
+        ["剪裁", "jiǎncái", "cutting; tailoring"],
+        ["都", "dōu", "all"],
+        ["有", "yǒu", "have"],
+        ["讲究", "jiǎngjiu", "attention to detail"],
+        ["，"],
+        ["并不是", "bìng bú shì", "is not at all"],
+        ["随便", "suíbiàn", "casually"],
+        ["穿穿", "chuānchuan", "to just wear"],
+        ["就", "jiù", "then"],
+        ["行", "xíng", "okay"],
+        ["的", "de", "(particle)"],
+        ["。"]
+      ],
+      "en": "In fact, a genuine hanfu takes great care from the fabric to the tailoring — it is definitely not something you can just casually put on."
+    },
+    {
+      "t": [
+        ["于是", "yúshì", "so"],
+        ["，"],
+        ["一些", "yìxiē", "some"],
+        ["爱好者", "àihàozhě", "enthusiasts"],
+        ["开始", "kāishǐ", "to start"],
+        ["认真", "rènzhēn", "earnestly"],
+        ["研究", "yánjiū", "to study; research"],
+        ["古代", "gǔdài", "ancient"],
+        ["服饰", "fúshì", "clothing"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["自己", "zìjǐ", "themselves"],
+        ["动手", "dòngshǒu", "to do it by hand"],
+        ["做", "zuò", "to make"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "So, some enthusiasts have started seriously studying ancient clothing, and even make the clothes themselves."
+    },
+    {
+      "t": [
+        ["既然", "jìrán", "since"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["愿意", "yuànyì", "willing"],
+        ["花", "huā", "to spend"],
+        ["时间", "shíjiān", "time"],
+        ["和", "hé", "and"],
+        ["金钱", "jīnqián", "money"],
+        ["去", "qù", "to go"],
+        ["了解", "liǎojiě", "understand"],
+        ["传统", "chuántǒng", "traditional"],
+        ["文化", "wénhuà", "culture"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["本身", "běnshēn", "itself"],
+        ["就是", "jiùshì", "is"],
+        ["一", "yí", "one"],
+        ["件", "jiàn", "(measure word)"],
+        ["值得", "zhídé", "worth"],
+        ["鼓励", "gǔlì", "encouraging"],
+        ["的", "de", "(possessive)"],
+        ["事", "shì", "matter"],
+        ["。"]
+      ],
+      "en": "Since young people are willing to spend time and money to understand traditional culture, this in itself is something worth encouraging."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to think"],
+        ["，"],
+        ["无论", "wúlùn", "no matter"],
+        ["出于", "chūyú", "out of"],
+        ["喜欢", "xǐhuan", "liking"],
+        ["历史", "lìshǐ", "history"],
+        ["还是", "háishi", "or"],
+        ["喜欢", "xǐhuan", "liking"],
+        ["拍照", "pāizhào", "taking photos"],
+        ["，"],
+        ["汉服", "hànfú", "hanfu"],
+        ["热", "rè", "craze"],
+        ["都", "dōu", "all"],
+        ["让", "ràng", "to make"],
+        ["更多", "gèng duō", "more"],
+        ["人", "rén", "people"],
+        ["重新", "chóngxīn", "anew"],
+        ["看到", "kàndào", "to see"],
+        ["了", "le", "(particle)"],
+        ["传统", "chuántǒng", "traditional"],
+        ["文化", "wénhuà", "culture"],
+        ["的", "de", "(possessive)"],
+        ["美", "měi", "beauty"],
+        ["。"]
+      ],
+      "en": "I think, whether out of love for history or love for photography, the hanfu craze has let more people rediscover the beauty of traditional culture."
+    }
+  ],
+  "vocab": [
+    ["汉服", "hànfú", "hanfu; traditional Han clothing"],
+    ["传统", "chuántǒng", "traditional"],
+    ["质疑", "zhìyí", "to question; doubt"],
+    ["讲究", "jiǎngjiu", "attention to detail"],
+    ["爱好者", "àihàozhě", "enthusiast"],
+    ["鼓励", "gǔlì", "to encourage"]
+  ],
+  "quiz": [
+    {
+      "q": "What do young people express by wearing hanfu, according to the text?",
+      "a": ["Only that they think it looks fashionable", "Love for traditional culture", "Their family's wealth"],
+      "c": 1
+    },
+    {
+      "q": "What do some people question about the hanfu trend?",
+      "a": ["Whether wearers really understand its history, or just want good photos", "Whether hanfu is too expensive", "Whether it is illegal to wear in public"],
+      "c": 0
+    },
+    {
+      "q": "What have some hanfu enthusiasts started doing, per the text?",
+      "a": ["Selling hanfu online for profit", "Studying ancient clothing and even making it themselves", "Opening hanfu rental shops in every city"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "对……来说",
+      "e": "\"As for.../from the perspective of...\" introduces whose viewpoint follows: 对不少年轻人来说，穿汉服不仅是好看，更是一种表达对传统文化的热爱。",
+      "x": "对我来说，健康比钱更重要。— To me, health matters more than money."
+    },
+    {
+      "p": "并不是……的",
+      "e": "An emphatic negation meaning \"is definitely not...\": 并不是随便穿穿就行的。",
+      "x": "这件事并不是他一个人的错。— This matter is definitely not his fault alone."
+    }
+  ]
+}

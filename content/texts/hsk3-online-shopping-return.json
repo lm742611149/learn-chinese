@@ -1,0 +1,59 @@
+{
+  "slug": "hsk3-online-shopping-return",
+  "level": 3,
+  "title_zh": "网购退货",
+  "title_py": "Wǎnggòu Tuìhuò",
+  "title_en": "Returning an Online Purchase",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上", "shàng", "last (week/month)"], ["周", "zhōu", "week"], ["，"], ["我", "wǒ", "I; me"], ["在", "zài", "at; on"], ["网上", "wǎngshàng", "online"], ["买", "mǎi", "to buy"], ["了", "le", "(particle: completed action)"], ["一件", "yí jiàn", "one (item of clothing)"], ["大衣", "dàyī", "coat"], ["。"]],
+      "en": "Last week, I bought a coat online."
+    },
+    {
+      "t": [["照片", "zhàopiàn", "photo"], ["上", "shàng", "on"], ["的", "de", "(particle: attributive)"], ["颜色", "yánsè", "color"], ["很", "hěn", "very"], ["好看", "hǎokàn", "good-looking"], ["，"], ["可是", "kěshì", "but"], ["大衣", "dàyī", "coat"], ["到", "dào", "to arrive"], ["了", "le", "(particle: completed action)"], ["以后", "yǐhòu", "after"], ["，"], ["颜色", "yánsè", "color"], ["跟", "gēn", "with; compared to"], ["照片", "zhàopiàn", "photo"], ["完全", "wánquán", "completely"], ["不一样", "bù yíyàng", "different"], ["。"]],
+      "en": "The color in the photo looked great, but after the coat arrived, the color was completely different from the photo."
+    },
+    {
+      "t": [["而且", "érqiě", "moreover"], ["尺码", "chǐmǎ", "size"], ["也", "yě", "also"], ["有点儿", "yǒudiǎnr", "a little"], ["小", "xiǎo", "small"], ["，"], ["我", "wǒ", "I; me"], ["穿", "chuān", "to wear"], ["上", "shàng", "(result: on)"], ["以后", "yǐhòu", "after"], ["觉得", "juéde", "to feel"], ["很", "hěn", "very"], ["不舒服", "bù shūfu", "uncomfortable"], ["。"]],
+      "en": "Moreover, the size was also a little small, and it felt very uncomfortable once I put it on."
+    },
+    {
+      "t": [["于是", "yúshì", "so; thereupon"], ["我", "wǒ", "I; me"], ["决定", "juédìng", "to decide"], ["申请", "shēnqǐng", "to apply for"], ["退货", "tuìhuò", "to return goods"], ["，"], ["就", "jiù", "then"], ["给", "gěi", "to give (to)"], ["客服", "kèfú", "customer service"], ["发", "fā", "to send"], ["了", "le", "(particle: completed action)"], ["一条", "yì tiáo", "one (message)"], ["消息", "xiāoxi", "message"], ["。"]],
+      "en": "So I decided to apply for a return, and sent a message to customer service."
+    },
+    {
+      "t": [["客服", "kèfú", "customer service"], ["回复", "huífù", "to reply"], ["得", "de", "(particle: describes how)"], ["很", "hěn", "very"], ["快", "kuài", "fast"], ["，"], ["让", "ràng", "to let; to have (someone do)"], ["我", "wǒ", "I; me"], ["把", "bǎ", "(marks object)"], ["大衣", "dàyī", "coat"], ["重新", "chóngxīn", "again; anew"], ["包", "bāo", "to wrap"], ["好", "hǎo", "(result: well)"], ["，"], ["寄", "jì", "to mail; to send"], ["回", "huí", "back"], ["去", "qù", "(result: away)"], ["。"]],
+      "en": "Customer service replied very quickly, telling me to wrap the coat up again and mail it back."
+    },
+    {
+      "t": [["虽然", "suīrán", "although"], ["寄", "jì", "to mail"], ["快递", "kuàidì", "express delivery; courier"], ["要", "yào", "need to; cost"], ["花", "huā", "to spend"], ["一点", "yìdiǎn", "a little"], ["时间", "shíjiān", "time"], ["，"], ["但是", "dànshì", "but"], ["整个", "zhěnge", "whole; entire"], ["过程", "guòchéng", "process"], ["并", "bìng", "(used with 不 for emphasis)"], ["不", "bù", "not"], ["麻烦", "máfan", "troublesome"], ["。"]],
+      "en": "Although mailing the courier took a little time, the whole process wasn't troublesome at all."
+    },
+    {
+      "t": [["三天", "sān tiān", "three days"], ["以后", "yǐhòu", "after"], ["，"], ["钱", "qián", "money"], ["就", "jiù", "then; right away"], ["退", "tuì", "to return; to refund"], ["回", "huí", "back"], ["到", "dào", "to (result complement)"], ["我", "wǒ", "I; me"], ["的", "de", "(particle: possessive)"], ["账户", "zhànghù", "account"], ["里", "lǐ", "inside"], ["了", "le", "(particle: change of state)"], ["。"]],
+      "en": "Three days later, the money was refunded to my account."
+    },
+    {
+      "t": [["这", "zhè", "this"], ["次", "cì", "time; instance"], ["经历", "jīnglì", "experience"], ["让", "ràng", "to make; to let"], ["我", "wǒ", "I; me"], ["明白", "míngbai", "to understand"], ["了", "le", "(particle: completed action)"], ["，"], ["网上", "wǎngshàng", "online"], ["买", "mǎi", "to buy"], ["衣服", "yīfu", "clothes"], ["以前", "yǐqián", "before"], ["，"], ["最好", "zuìhǎo", "had better"], ["先", "xiān", "first"], ["看", "kàn", "to look at"], ["清楚", "qīngchu", "clearly"], ["尺码", "chǐmǎ", "size"], ["表", "biǎo", "table; chart"], ["。"]],
+      "en": "This experience taught me that before buying clothes online, it's best to look at the size chart clearly first."
+    }
+  ],
+  "vocab": [
+    ["网购", "wǎnggòu", "online shopping"],
+    ["尺码", "chǐmǎ", "size"],
+    ["退货", "tuìhuò", "to return goods"],
+    ["客服", "kèfú", "customer service"],
+    ["快递", "kuàidì", "express delivery; courier"],
+    ["账户", "zhànghù", "account"]
+  ],
+  "quiz": [
+    {"q": "What were the two problems with the coat?", "a": ["Wrong color and slightly small size", "Wrong material and torn seams", "Late delivery and wrong address"], "c": 0},
+    {"q": "What did customer service ask the narrator to do?", "a": ["Keep the coat and get a partial refund", "Wrap the coat and mail it back", "Exchange it in person at a store"], "c": 1},
+    {"q": "How long did it take for the refund to arrive?", "a": ["One day", "Three days", "One month"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "并 + 不/没 — emphatic negation", "e": "并 strengthens a negative, meaning 'not at all' rather than a simple 'not'.", "x": "整个过程并不麻烦。 — The whole process wasn't troublesome at all."},
+    {"p": "让 + person + verb — to have someone do something", "e": "让 introduces who is being asked or caused to do an action.", "x": "客服让我把大衣重新包好，寄回去。 — Customer service had me wrap the coat again and mail it back."}
+  ]
+}

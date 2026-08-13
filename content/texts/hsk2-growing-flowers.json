@@ -1,0 +1,193 @@
+{
+  "slug": "hsk2-growing-flowers",
+  "level": 2,
+  "title_zh": "养花",
+  "title_py": "Yǎng huā",
+  "title_en": "Growing Flowers",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["去年", "qùnián", "last year"],
+        ["春天", "chūntiān", "spring"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["开始", "kāishǐ", "to start"],
+        ["在", "zài", "at; in"],
+        ["家", "jiā", "home"],
+        ["里", "lǐ", "inside"],
+        ["养", "yǎng", "to grow; to raise"],
+        ["花", "huā", "flower"],
+        ["。"]
+      ],
+      "en": "Last spring, mom started growing flowers at home."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["在", "zài", "at; in"],
+        ["阳台", "yángtái", "balcony"],
+        ["上", "shàng", "on"],
+        ["放", "fàng", "to put"],
+        ["了", "le", "(completed action)"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many"],
+        ["花盆", "huāpén", "flowerpot"],
+        ["，"],
+        ["颜色", "yánsè", "color"],
+        ["都", "dōu", "all"],
+        ["不", "bù", "not"],
+        ["一样", "yíyàng", "the same"],
+        ["。"]
+      ],
+      "en": "She put a lot of flowerpots on the balcony, all different colors."
+    },
+    {
+      "t": [
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["她", "tā", "she; her"],
+        ["都", "dōu", "always"],
+        ["给", "gěi", "for"],
+        ["花", "huā", "flower"],
+        ["浇水", "jiāoshuǐ", "to water (plants)"],
+        ["，"],
+        ["还", "hái", "also"],
+        ["跟", "gēn", "with"],
+        ["它们", "tāmen", "them"],
+        ["说话", "shuōhuà", "to talk"],
+        ["。"]
+      ],
+      "en": "Every morning, she waters the flowers and even talks to them."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["她", "tā", "she; her"],
+        ["："],
+        ["“"],
+        ["花", "huā", "flower"],
+        ["能", "néng", "can"],
+        ["听懂", "tīngdǒng", "to understand (by listening)"],
+        ["你", "nǐ", "you"],
+        ["说话", "shuōhuà", "to talk"],
+        ["吗", "ma", "(question particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "I asked her: \"Can the flowers understand what you say?\""
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(progressive particle)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["可能", "kěnéng", "maybe; probably"],
+        ["不", "bù", "not"],
+        ["能", "néng", "can"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "She smiled and said: \"Maybe not, but it makes me happy.\""
+    },
+    {
+      "t": [
+        ["夏天", "xiàtiān", "summer"],
+        ["的", "de", "(descriptive particle)"],
+        ["时候", "shíhou", "time; moment"],
+        ["，"],
+        ["阳台", "yángtái", "balcony"],
+        ["上", "shàng", "on"],
+        ["的", "de", "(descriptive particle)"],
+        ["花", "huā", "flower"],
+        ["都", "dōu", "all"],
+        ["开", "kāi", "to bloom"],
+        ["了", "le", "(completed action)"],
+        ["，"],
+        ["特别", "tèbié", "especially"],
+        ["漂亮", "piàoliang", "pretty"],
+        ["。"]
+      ],
+      "en": "In summer, the flowers on the balcony all bloomed — especially pretty."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["每次", "měi cì", "every time"],
+        ["回家", "huíjiā", "to go home"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["都", "dōu", "always"],
+        ["先", "xiān", "first"],
+        ["去", "qù", "to go"],
+        ["阳台", "yángtái", "balcony"],
+        ["看看", "kànkan", "to take a look"],
+        ["那些", "nàxiē", "those"],
+        ["花", "huā", "flower"],
+        ["。"]
+      ],
+      "en": "Now every time I go home, I go look at those flowers on the balcony first."
+    }
+  ],
+  "vocab": [
+    ["养花", "yǎng huā", "to grow flowers"],
+    ["阳台", "yángtái", "balcony"],
+    ["花盆", "huāpén", "flowerpot"],
+    ["浇水", "jiāoshuǐ", "to water (plants)"],
+    ["听懂", "tīngdǒng", "to understand (by listening)"],
+    ["快乐", "kuàilè", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "Where does mom keep the flowerpots?",
+      "a": [
+        "On the balcony",
+        "In the kitchen",
+        "In the bedroom"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does mom do every morning?",
+      "a": [
+        "Waters the flowers and talks to them",
+        "Sells flowers at the market",
+        "Buys new flowerpots"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What happened to the flowers in summer?",
+      "a": [
+        "They all died",
+        "They all bloomed",
+        "They were moved indoors"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "跟 + person + verb — with someone",
+      "e": "跟 introduces the person an action is done together with or toward.",
+      "x": "她跟花说话。 — She talks to the flowers."
+    },
+    {
+      "p": "V + 懂 — understanding successfully",
+      "e": "听懂 and 看懂 add 懂 as a result to show the listening or reading was actually understood.",
+      "x": "花能听懂你说话吗？ — Can the flowers understand what you say?"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "slug": "hsk5-sharing-economy-ebb",
+  "level": 5,
+  "title_zh": "共享经济的退潮",
+  "title_py": "Gòngxiǎng jīngjì de tuìcháo",
+  "title_en": "The Ebb of the Sharing Economy",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["十年前", "shí nián qián", "ten years ago"],
+        ["，"],
+        ["共享单车", "gòngxiǎng dānchē", "shared bicycles"],
+        ["、"],
+        ["共享充电宝", "gòngxiǎng chōngdiànbǎo", "shared power banks"],
+        ["、"],
+        ["共享雨伞", "gòngxiǎng yǔsǎn", "shared umbrellas"],
+        ["几乎", "jīhū", "almost"],
+        ["一夜之间", "yíyè zhījiān", "overnight"],
+        ["出现", "chūxiàn", "appeared"],
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China's"],
+        ["的", "de", "(possessive)"],
+        ["大街小巷", "dàjiē xiǎoxiàng", "streets and alleys"],
+        ["。"]
+      ],
+      "en": "Ten years ago, shared bikes, shared power banks, and shared umbrellas appeared almost overnight in the streets and alleys of China."
+    },
+    {
+      "t": [
+        ["当时", "dāngshí", "at that time"],
+        ["几乎", "jīhū", "almost"],
+        ["每个人", "měi ge rén", "everyone"],
+        ["都", "dōu", "all"],
+        ["相信", "xiāngxìn", "believed"],
+        ["，"],
+        ["“"],
+        ["万物皆可共享", "wànwù jiē kě gòngxiǎng", "everything can be shared"],
+        ["”"],
+        ["将", "jiāng", "would"],
+        ["彻底", "chèdǐ", "completely"],
+        ["改变", "gǎibiàn", "change"],
+        ["人们", "rénmen", "people's"],
+        ["的", "de", "(possessive)"],
+        ["生活", "shēnghuó", "life"],
+        ["方式", "fāngshì", "way"],
+        ["。"]
+      ],
+      "en": "At the time, almost everyone believed that \"anything can be shared\" would completely transform people's way of life."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["热潮", "rècháo", "craze"],
+        ["过后", "guòhòu", "after"],
+        ["，"],
+        ["许多", "xǔduō", "many"],
+        ["共享经济", "gòngxiǎng jīngjì", "sharing-economy"],
+        ["企业", "qǐyè", "companies"],
+        ["却", "què", "yet"],
+        ["因为", "yīnwèi", "because of"],
+        ["盈利", "yínglì", "profit"],
+        ["困难", "kùnnan", "difficulty"],
+        ["，"],
+        ["一家接一家", "yì jiā jiē yì jiā", "one after another"],
+        ["地", "de", "(adverbial)"],
+        ["倒闭", "dǎobì", "went bankrupt"],
+        ["了", "le", "(completed)"],
+        ["。"]
+      ],
+      "en": "However, once the craze passed, many sharing-economy companies, unable to turn a profit, went bankrupt one after another."
+    },
+    {
+      "t": [
+        ["以", "yǐ", "taking"],
+        ["共享单车", "gòngxiǎng dānchē", "shared bicycles"],
+        ["为例", "wéi lì", "as an example"],
+        ["，"],
+        ["由于", "yóuyú", "because of"],
+        ["车辆", "chēliàng", "vehicles"],
+        ["损坏", "sǔnhuài", "damage"],
+        ["严重", "yánzhòng", "severe"],
+        ["、"],
+        ["维护", "wéihù", "maintenance"],
+        ["成本", "chéngběn", "cost"],
+        ["过高", "guò gāo", "too high"],
+        ["，"],
+        ["不少", "bùshǎo", "quite a few"],
+        ["公司", "gōngsī", "companies"],
+        ["最终", "zuìzhōng", "ultimately"],
+        ["不得不", "bùdébù", "had no choice but"],
+        ["宣布", "xuānbù", "to declare"],
+        ["破产", "pòchǎn", "bankruptcy"],
+        ["。"]
+      ],
+      "en": "Take shared bikes as an example: because vehicle damage was severe and maintenance costs too high, quite a few companies ultimately had no choice but to declare bankruptcy."
+    },
+    {
+      "t": [
+        ["除此之外", "chú cǐ zhī wài", "besides this"],
+        ["，"],
+        ["用户", "yònghù", "users'"],
+        ["素质", "sùzhì", "quality of conduct"],
+        ["参差不齐", "cēncī bù qí", "uneven; varying widely"],
+        ["也", "yě", "also"],
+        ["是", "shì", "is"],
+        ["一个", "yí ge", "a"],
+        ["不可忽视", "bùkě hūshì", "cannot be ignored"],
+        ["的", "de", "(attributive)"],
+        ["问题", "wèntí", "problem"],
+        ["："],
+        ["有人", "yǒurén", "some people"],
+        ["故意", "gùyì", "deliberately"],
+        ["损坏", "sǔnhuài", "damage"],
+        ["车辆", "chēliàng", "vehicles"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["把", "bǎ", "(object marker)"],
+        ["车", "chē", "the bike"],
+        ["藏", "cáng", "hide"],
+        ["起来", "qǐlái", "(directional complement)"],
+        ["私用", "sīyòng", "use privately"],
+        ["。"]
+      ],
+      "en": "Besides this, the uneven conduct of users was also a problem that could not be ignored: some people deliberately damaged bikes, even hiding them away for private use."
+    },
+    {
+      "t": [
+        ["与此相比", "yǔ cǐ xiāngbǐ", "by contrast"],
+        ["，"],
+        ["共享充电宝", "gòngxiǎng chōngdiànbǎo", "shared power banks"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["活", "huó", "survived"],
+        ["了", "le", "(completed)"],
+        ["下来", "xiàlái", "through to now"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["它", "tā", "it"],
+        ["满足", "mǎnzú", "satisfied"],
+        ["了", "le", "(completed)"],
+        ["人们", "rénmen", "people's"],
+        ["出门在外", "chūmén zài wài", "being out and about"],
+        ["应急", "yìngjí", "emergency"],
+        ["充电", "chōngdiàn", "charging"],
+        ["的", "de", "(attributive)"],
+        ["真实", "zhēnshí", "real; genuine"],
+        ["需求", "xūqiú", "need"],
+        ["。"]
+      ],
+      "en": "By contrast, shared power banks actually survived, because they met people's genuine need for emergency charging while out and about."
+    },
+    {
+      "t": [
+        ["由此可见", "yóu cǐ kějiàn", "this shows that"],
+        ["，"],
+        ["一个", "yí ge", "a"],
+        ["共享经济", "gòngxiǎng jīngjì", "sharing-economy"],
+        ["项目", "xiàngmù", "project"],
+        ["能否", "néng fǒu", "whether or not"],
+        ["长期", "chángqī", "long-term"],
+        ["存在", "cúnzài", "exist"],
+        ["，"],
+        ["关键", "guānjiàn", "the key"],
+        ["在于", "zàiyú", "lies in"],
+        ["它", "tā", "it"],
+        ["是否", "shìfǒu", "whether"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["解决", "jiějué", "solved"],
+        ["了", "le", "(completed)"],
+        ["用户", "yònghù", "users'"],
+        ["的", "de", "(possessive)"],
+        ["实际", "shíjì", "actual"],
+        ["问题", "wèntí", "problem"],
+        ["。"]
+      ],
+      "en": "This shows that whether a sharing-economy project can survive long term hinges on whether it truly solves a real problem for users."
+    },
+    {
+      "t": [
+        ["如今", "rújīn", "nowadays"],
+        ["，"],
+        ["街头", "jiētóu", "on the streets"],
+        ["堆积如山", "duījī rú shān", "piled up like a mountain"],
+        ["的", "de", "(attributive)"],
+        ["废弃", "fèiqì", "abandoned"],
+        ["共享单车", "gòngxiǎng dānchē", "shared bicycles"],
+        ["，"],
+        ["成", "chéng", "become"],
+        ["了", "le", "(completed)"],
+        ["这场", "zhè chǎng", "this"],
+        ["退潮", "tuìcháo", "ebb"],
+        ["留下", "liúxià", "left behind"],
+        ["的", "de", "(attributive)"],
+        ["最", "zuì", "most"],
+        ["直观", "zhíguān", "visible; intuitive"],
+        ["的", "de", "(attributive)"],
+        ["印记", "yìnjì", "mark"],
+        ["。"]
+      ],
+      "en": "Today, abandoned shared bikes piled up like mountains on the streets have become the most visible mark left behind by this ebb tide."
+    }
+  ],
+  "vocab": [
+    ["共享经济", "gòngxiǎng jīngjì", "sharing economy"],
+    ["倒闭", "dǎobì", "to go bankrupt; close down"],
+    ["破产", "pòchǎn", "bankruptcy"],
+    ["参差不齐", "cēncī bù qí", "uneven; varying widely"],
+    ["需求", "xūqiú", "need; demand"],
+    ["退潮", "tuìcháo", "ebb tide; receding wave"]
+  ],
+  "quiz": [
+    {
+      "q": "What happened to many sharing-economy companies after the initial craze?",
+      "a": [
+        "They merged into a few giant corporations",
+        "Many went bankrupt one after another due to profitability problems",
+        "They were nationalized by the government"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why did shared power banks survive while many bike-sharing companies failed?",
+      "a": [
+        "Power banks were much cheaper to manufacture than bikes",
+        "Power banks met a genuine emergency-charging need, while bikes suffered heavy damage and high maintenance costs",
+        "The government specifically subsidized power bank companies"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the text, what determines whether a sharing-economy project can survive long term?",
+      "a": [
+        "How much money investors put in at the start",
+        "Whether it genuinely solves a real problem for users",
+        "How many cities it expands to in its first year"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "由此可见",
+      "e": "'This shows that...' draws a conclusion from what was just described.",
+      "x": "由此可见，一个共享经济项目能否长期存在，关键在于它是否解决了用户的实际问题。 — This shows that whether a sharing-economy project survives long term hinges on whether it solves a real problem for users."
+    },
+    {
+      "p": "以…为例",
+      "e": "'Take... as an example' introduces a specific case to illustrate a general point.",
+      "x": "以共享单车为例，由于维护成本过高，不少公司最终破产。 — Take shared bikes as an example: because maintenance costs were too high, quite a few companies eventually went bankrupt."
+    }
+  ]
+}

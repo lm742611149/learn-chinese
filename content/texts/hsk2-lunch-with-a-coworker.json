@@ -1,0 +1,184 @@
+{
+  "slug": "hsk2-lunch-with-a-coworker",
+  "level": 2,
+  "title_zh": "和同事吃午饭",
+  "title_py": "Hé tóngshì chī wǔfàn",
+  "title_en": "Lunch with a Coworker",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["十二", "shí'èr", "twelve"],
+        ["点", "diǎn", "o'clock"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["同事", "tóngshì", "coworker"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["吃", "chī", "to eat"],
+        ["午饭", "wǔfàn", "lunch"],
+        ["。"]
+      ],
+      "en": "At noon, my coworker and I went to have lunch together."
+    },
+    {
+      "t": [
+        ["公司", "gōngsī", "company"],
+        ["旁边", "pángbiān", "next to"],
+        ["有", "yǒu", "there is"],
+        ["一", "yì", "one"],
+        ["家", "jiā", "(measure word for shops)"],
+        ["小", "xiǎo", "small"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["，"],
+        ["那儿", "nàr", "there"],
+        ["的", "de", "(descriptive particle)"],
+        ["菜", "cài", "dish; food"],
+        ["很", "hěn", "very"],
+        ["有名", "yǒumíng", "famous"],
+        ["。"]
+      ],
+      "en": "Next to the company there's a small restaurant, and its dishes are famous."
+    },
+    {
+      "t": [
+        ["同事", "tóngshì", "coworker"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["想", "xiǎng", "to want to"],
+        ["吃", "chī", "to eat"],
+        ["米饭", "mǐfàn", "rice"],
+        ["还是", "háishi", "or (in questions)"],
+        ["面条", "miàntiáo", "noodles"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "My coworker asked me: \"Would you like to eat rice or noodles?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["都", "dōu", "both; either"],
+        ["可以", "kěyǐ", "can; okay"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["挑食", "tiāoshí", "picky about food"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said: \"Either is fine, I'm not picky about food.\""
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["点", "diǎn", "to order"],
+        ["了", "le", "(completed action)"],
+        ["两", "liǎng", "two"],
+        ["个", "gè", "(measure word)"],
+        ["菜", "cài", "dish; food"],
+        ["，"],
+        ["还", "hái", "also; in addition"],
+        ["要", "yào", "to want; to ask for"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["碗", "wǎn", "bowl"],
+        ["汤", "tāng", "soup"],
+        ["。"]
+      ],
+      "en": "We ordered two dishes, and also asked for a bowl of soup."
+    },
+    {
+      "t": [
+        ["吃饭", "chīfàn", "to eat"],
+        ["的", "de", "(descriptive particle)"],
+        ["时候", "shíhou", "time; moment"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["聊", "liáo", "to chat"],
+        ["了", "le", "(completed action)"],
+        ["聊", "liáo", "to chat"],
+        ["公司", "gōngsī", "company"],
+        ["的", "de", "(possessive particle)"],
+        ["新", "xīn", "new"],
+        ["项目", "xiàngmù", "project"],
+        ["。"]
+      ],
+      "en": "While eating, we chatted a bit about the company's new project."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["顿", "dùn", "(measure word for meals)"],
+        ["午饭", "wǔfàn", "lunch"],
+        ["很", "hěn", "very"],
+        ["简单", "jiǎndān", "simple"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我们", "wǒmen", "we"],
+        ["都", "dōu", "all; both"],
+        ["很", "hěn", "very"],
+        ["开心", "kāixīn", "happy"],
+        ["。"]
+      ],
+      "en": "This lunch was simple, but we were both very happy."
+    }
+  ],
+  "vocab": [
+    ["同事", "tóngshì", "coworker"],
+    ["午饭", "wǔfàn", "lunch"],
+    ["饭馆", "fànguǎn", "restaurant"],
+    ["挑食", "tiāoshí", "picky about food"],
+    ["项目", "xiàngmù", "project"],
+    ["开心", "kāixīn", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "Where did the writer and coworker eat lunch?",
+      "a": [
+        "A small restaurant next to the company",
+        "At home",
+        "In the office cafeteria"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Did the writer care whether it was rice or noodles?",
+      "a": [
+        "No, he's not picky about food",
+        "Yes, he only wanted noodles",
+        "Yes, he only wanted rice"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did they talk about while eating?",
+      "a": [
+        "Their weekend plans",
+        "The company's new project",
+        "Their families"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "还是 — 'or' in a question",
+      "e": "还是 links two choices inside a question, e.g. 你想吃米饭还是面条？",
+      "x": "你想吃米饭还是面条？ — Would you like rice or noodles?"
+    },
+    {
+      "p": "V + 了 + V — doing something briefly",
+      "e": "Repeating a verb with 了 in between (聊了聊, 看了看) shows the action was brief or casual.",
+      "x": "我们聊了聊公司的新项目。 — We chatted a bit about the company's new project."
+    }
+  ]
+}

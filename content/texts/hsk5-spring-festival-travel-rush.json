@@ -1,0 +1,270 @@
+{
+  "slug": "hsk5-spring-festival-travel-rush",
+  "level": 5,
+  "title_zh": "春运",
+  "title_py": "Chūnyùn",
+  "title_en": "The Spring Festival Travel Rush",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每年", "měi nián", "every year"],
+        ["春节", "Chūnjié", "Spring Festival"],
+        ["前后", "qiánhòu", "around"],
+        ["，"],
+        ["中国", "Zhōngguó", "China"],
+        ["都", "dōu", "always"],
+        ["会", "huì", "will"],
+        ["出现", "chūxiàn", "appear"],
+        ["一场", "yì chǎng", "an (event)"],
+        ["堪称", "kānchēng", "can be called"],
+        ["世界上", "shìjiè shàng", "in the world"],
+        ["规模", "guīmó", "scale"],
+        ["最大", "zuì dà", "the largest"],
+        ["的", "de", "(attributive)"],
+        ["人口", "rénkǒu", "population"],
+        ["迁移", "qiānyí", "migration"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["就是", "jiùshì", "is exactly"],
+        ["所谓", "suǒwèi", "so-called"],
+        ["的", "de", "(attributive)"],
+        ["“"],
+        ["春运", "chūnyùn", "the Spring Festival travel rush"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "Every year around Spring Festival, China sees what can be called the largest-scale population migration in the world — this is the so-called \"chunyun.\""
+    },
+    {
+      "t": [
+        ["在", "zài", "during"],
+        ["这段", "zhè duàn", "this period of"],
+        ["时间", "shíjiān", "time"],
+        ["里", "lǐ", "in"],
+        ["，"],
+        ["数以亿计", "shùyǐyìjì", "numbering in the hundreds of millions"],
+        ["的", "de", "(attributive)"],
+        ["人", "rén", "people"],
+        ["从", "cóng", "from"],
+        ["工作", "gōngzuò", "working"],
+        ["的", "de", "(attributive)"],
+        ["城市", "chéngshì", "city"],
+        ["赶回", "gǎnhuí", "rush back to"],
+        ["老家", "lǎojiā", "hometown"],
+        ["，"],
+        ["只", "zhǐ", "only"],
+        ["为了", "wèile", "in order to"],
+        ["和", "hé", "with"],
+        ["家人", "jiārén", "family"],
+        ["吃", "chī", "eat"],
+        ["一顿", "yí dùn", "a (meal)"],
+        ["团圆饭", "tuányuánfàn", "reunion dinner"],
+        ["。"]
+      ],
+      "en": "During this period, hundreds of millions of people rush back from the cities where they work to their hometowns, just to eat a reunion dinner with family."
+    },
+    {
+      "t": [
+        ["由于", "yóuyú", "because of"],
+        ["车票", "chēpiào", "train tickets"],
+        ["紧张", "jǐnzhāng", "scarce; tight"],
+        ["，"],
+        ["许多", "xǔduō", "many"],
+        ["人", "rén", "people"],
+        ["不得不", "bùdébù", "have no choice but"],
+        ["半夜", "bànyè", "in the middle of the night"],
+        ["守", "shǒu", "to stay watching"],
+        ["在", "zài", "at"],
+        ["电脑", "diànnǎo", "computer"],
+        ["前", "qián", "in front of"],
+        ["，"],
+        ["一遍又一遍", "yí biàn yòu yí biàn", "over and over"],
+        ["地", "de", "(adverbial)"],
+        ["刷新", "shuāxīn", "refresh"],
+        ["页面", "yèmiàn", "the webpage"],
+        ["抢票", "qiǎngpiào", "to scramble for tickets"],
+        ["。"]
+      ],
+      "en": "Because train tickets are scarce, many people have no choice but to sit up at their computers in the middle of the night, refreshing the page over and over to grab a ticket."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["父亲", "fùqin", "father"],
+        ["年轻", "niánqīng", "young"],
+        ["时", "shí", "when"],
+        ["曾经", "céngjīng", "once"],
+        ["站", "zhàn", "stood"],
+        ["了", "le", "(completed)"],
+        ["整整", "zhěngzhěng", "a full"],
+        ["二十多个", "èrshí duō ge", "more than twenty"],
+        ["小时", "xiǎoshí", "hours"],
+        ["的", "de", "(attributive)"],
+        ["火车", "huǒchē", "train"],
+        ["，"],
+        ["才", "cái", "only then"],
+        ["从", "cóng", "from"],
+        ["广州", "Guǎngzhōu", "Guangzhou"],
+        ["回到", "huídào", "returned to"],
+        ["四川", "Sìchuān", "Sichuan"],
+        ["的", "de", "(possessive)"],
+        ["老家", "lǎojiā", "hometown"],
+        ["。"]
+      ],
+      "en": "When my father was young, he once stood for a full twenty-some hours on a train, before finally getting from Guangzhou back to his hometown in Sichuan."
+    },
+    {
+      "t": [
+        ["随着", "suízhe", "as; along with"],
+        ["高铁", "gāotiě", "high-speed rail"],
+        ["网络", "wǎngluò", "network"],
+        ["的", "de", "(possessive)"],
+        ["不断", "búduàn", "continuous"],
+        ["扩大", "kuòdà", "expansion"],
+        ["，"],
+        ["回家", "huíjiā", "going home"],
+        ["的", "de", "(attributive)"],
+        ["路", "lù", "journey"],
+        ["虽然", "suīrán", "although"],
+        ["变得", "biàn de", "has become"],
+        ["快", "kuài", "fast"],
+        ["了", "le", "(change of state)"],
+        ["很多", "hěn duō", "a lot"],
+        ["，"],
+        ["但", "dàn", "but"],
+        ["抢票", "qiǎngpiào", "ticket-scrambling"],
+        ["的", "de", "(attributive)"],
+        ["压力", "yālì", "pressure"],
+        ["却", "què", "yet"],
+        ["丝毫", "sīháo", "not in the slightest"],
+        ["没有", "méiyǒu", "has not"],
+        ["减少", "jiǎnshǎo", "decreased"],
+        ["。"]
+      ],
+      "en": "As the high-speed rail network has kept expanding, the journey home has become much faster, but the pressure of grabbing tickets has not eased in the slightest."
+    },
+    {
+      "t": [
+        ["与此同时", "yǔ cǐ tóngshí", "at the same time"],
+        ["，"],
+        ["一些", "yìxiē", "some"],
+        ["人", "rén", "people"],
+        ["选择", "xuǎnzé", "choose"],
+        ["不再", "bú zài", "no longer"],
+        ["返乡", "fǎnxiāng", "return to their hometown"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["把", "bǎ", "(object marker)"],
+        ["父母", "fùmǔ", "parents"],
+        ["接到", "jiēdào", "bring to"],
+        ["自己", "zìjǐ", "their own"],
+        ["工作", "gōngzuò", "work"],
+        ["的", "de", "(attributive)"],
+        ["城市", "chéngshì", "city"],
+        ["一起", "yìqǐ", "together"],
+        ["过年", "guònián", "celebrate the New Year"],
+        ["。"]
+      ],
+      "en": "At the same time, some people choose not to return to their hometown at all, but instead bring their parents to the city where they work to celebrate the New Year together."
+    },
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["他们", "tāmen", "their"],
+        ["看来", "kàn lái", "view"],
+        ["，"],
+        ["团圆", "tuányuán", "reunion"],
+        ["的", "de", "(attributive)"],
+        ["地点", "dìdiǎn", "location"],
+        ["并不", "bìng bù", "is not"],
+        ["重要", "zhòngyào", "important"],
+        ["，"],
+        ["重要", "zhòngyào", "important"],
+        ["的是", "de shì", "what matters is"],
+        ["家人", "jiārén", "family"],
+        ["能不能", "néng bu néng", "whether or not"],
+        ["聚", "jù", "gather"],
+        ["在一起", "zài yìqǐ", "together"],
+        ["。"]
+      ],
+      "en": "In their view, the location of the reunion isn't important — what matters is whether family can gather together."
+    },
+    {
+      "t": [
+        ["春运", "chūnyùn", "the Spring Festival travel rush"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["一场", "yì chǎng", "a"],
+        ["交通", "jiāotōng", "transportation"],
+        ["考验", "kǎoyàn", "test"],
+        ["，"],
+        ["更", "gèng", "moreover"],
+        ["折射", "zhéshè", "to reflect"],
+        ["出", "chū", "out"],
+        ["中国人", "Zhōngguórén", "Chinese people's"],
+        ["对", "duì", "toward"],
+        ["“"],
+        ["家", "jiā", "home"],
+        ["”"],
+        ["这个", "zhège", "this"],
+        ["字", "zì", "word"],
+        ["始终", "shǐzhōng", "always"],
+        ["不变", "búbiàn", "unchanging"],
+        ["的", "de", "(attributive)"],
+        ["情感", "qínggǎn", "feeling"],
+        ["。"]
+      ],
+      "en": "Chunyun is not only a test of the transportation system — even more, it reflects Chinese people's unchanging feelings toward the word \"home.\""
+    }
+  ],
+  "vocab": [
+    ["春运", "chūnyùn", "the Spring Festival travel rush"],
+    ["迁移", "qiānyí", "migration"],
+    ["团圆", "tuányuán", "reunion"],
+    ["紧张", "jǐnzhāng", "tight; scarce"],
+    ["折射", "zhéshè", "to reflect"],
+    ["情感", "qínggǎn", "feeling; sentiment"]
+  ],
+  "quiz": [
+    {
+      "q": "What is \"春运\" (chunyun)?",
+      "a": [
+        "A national holiday celebrating spring",
+        "The massive population migration around Spring Festival as people travel home",
+        "A government policy limiting train travel each year"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did the author's father do when he was young?",
+      "a": [
+        "He flew home in just a few hours",
+        "He stood on a train for over twenty hours to get home",
+        "He decided not to go home that year"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What have some people chosen to do instead of returning to their hometown?",
+      "a": [
+        "Bring their parents to live with them in the city for the New Year",
+        "Stop celebrating Spring Festival altogether",
+        "Spend the holiday traveling abroad every year"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "由于…，…不得不…",
+      "e": "'Because of..., ... has no choice but to...' introduces a cause and its forced consequence.",
+      "x": "由于车票紧张，许多人不得不半夜守在电脑前抢票。 — Because train tickets are scarce, many people have no choice but to sit up at their computers at night to grab tickets."
+    },
+    {
+      "p": "不仅…，更…",
+      "e": "'Not only..., but even more...' — the second point outweighs the first.",
+      "x": "春运不仅是一场交通考验，更折射出中国人对家的情感。 — Chunyun is not only a test of transportation, but even more reflects Chinese people's feelings about home."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "Read Chinese Daily",
-  "short_name": "读Daily",
+  "name": "Read Mandarin",
+  "short_name": "读 Mandarin",
   "description": "Free graded Chinese readings with pinyin, audio and quizzes.",
   "start_url": "./index.html",
   "scope": "./",

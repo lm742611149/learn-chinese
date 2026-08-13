@@ -164,7 +164,11 @@ if (cfg && cfg.apiKey) {
     if (user) {
       const label = (user.displayName || user.email || "?").trim();
       btn.textContent = "👤 " + label.split(" ")[0].split("@")[0];
-      btn.title = "Signed in as " + label + " — click to sign out";
+      btn.title = "Signed in as " + label + " — open my progress";
+      const an = document.getElementById("acct-name");
+      const ap = document.getElementById("acct");
+      if (an) an.textContent = label;
+      if (ap) ap.hidden = false;
     } else {
       btn.textContent = "Sign in";
       btn.title = "Sign in to sync your wordbook and streak";
@@ -173,10 +177,20 @@ if (cfg && cfg.apiKey) {
   if (btn) {
     btn.addEventListener("click", async () => {
       if (user) {
-        if (confirm("Sign out? Your data stays saved in the cloud.")) await signOut(auth);
+        // 已登录 -> 进个人中心(退出按钮在那个页面上),而不是直接问要不要退出
+        const link = document.querySelector('.nav-link[href$="progress.html"]');
+        if (link) location.href = link.getAttribute("href");
         return;
       }
       openSignin();
+    });
+  }
+
+  /* ---------- account strip on the progress page ---------- */
+  const acctOut = document.getElementById("acct-signout");
+  if (acctOut) {
+    acctOut.addEventListener("click", async () => {
+      if (confirm("Sign out? Your data stays saved in the cloud.")) await signOut(auth);
     });
   }
 

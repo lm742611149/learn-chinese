@@ -1,0 +1,59 @@
+{
+  "slug": "hsk3-being-a-volunteer",
+  "level": 3,
+  "title_zh": "第一次做志愿者",
+  "title_py": "Dì Yī Cì Zuò Zhìyuànzhě",
+  "title_en": "My First Time as a Volunteer",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["这个","zhège","this"],["周末","zhōumò","weekend"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["图书馆","túshūguǎn","library"],["做","zuò","to do; to be"],["了","le","(particle: completed action)"],["一次","yí cì","one time"],["志愿者","zhìyuànzhě","volunteer"],["。"]],
+      "en": "This weekend, I went to the library and worked as a volunteer once."
+    },
+    {
+      "t": [["报名","bàomíng","to sign up"],["以后","yǐhòu","after"],["，"],["工作人员","gōngzuò rényuán","staff member"],["给","gěi","to give (to)"],["我","wǒ","I; me"],["安排","ānpái","to arrange"],["了","le","(particle: completed action)"],["整理","zhěnglǐ","to organize; to tidy"],["书架","shūjià","bookshelf"],["的","de","(particle: nominalizer)"],["工作","gōngzuò","work; job"],["。"]],
+      "en": "After signing up, the staff member arranged for me to organize bookshelves."
+    },
+    {
+      "t": [["一开始","yì kāishǐ","at first"],["我","wǒ","I; me"],["觉得","juéde","to feel"],["这个","zhège","this"],["工作","gōngzuò","work"],["很","hěn","very"],["简单","jiǎndān","simple"],["，"],["可是","kěshì","but"],["书","shū","book"],["太","tài","too"],["多","duō","many"],["了","le","(particle: exclamation)"],["，"],["排","pái","to arrange; to line up"],["得","de","(particle: describes how)"],["也","yě","also"],["很","hěn","very"],["乱","luàn","messy; disorderly"],["。"]],
+      "en": "At first I thought this job was simple, but there were so many books, and they were arranged so messily."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["按照","ànzhào","according to"],["书","shū","book"],["的","de","(particle: attributive)"],["名字","míngzi","name"],["，"],["一本","yì běn","one (book)"],["一本","yì běn","one by one (book)"],["地","de","(particle: adverbial)"],["把","bǎ","(marks object)"],["它们","tāmen","them"],["放","fàng","to put; to place"],["回","huí","back"],["原来","yuánlái","original"],["的","de","(particle: attributive)"],["位置","wèizhi","position"],["。"]],
+      "en": "According to the books' titles, I put them back one by one to their original positions."
+    },
+    {
+      "t": [["中间","zhōngjiān","in the middle; during"],["休息","xiūxi","to rest"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["一位","yí wèi","one (polite measure)"],["老人","lǎorén","elderly person"],["找","zhǎo","to look for"],["不到","bú dào","cannot find (unable to)"],["自己","zìjǐ","oneself"],["想","xiǎng","to want"],["看","kàn","to read; to see"],["的","de","(particle: nominalizer)"],["书","shū","book"],["，"],["我","wǒ","I; me"],["就","jiù","then"],["帮","bāng","to help"],["她","tā","she"],["找","zhǎo","to look for"],["到","dào","to (result complement)"],["了","le","(particle: completed action)"],["。"]],
+      "en": "During the break, an elderly person couldn't find a book she wanted to read, so I helped her find it."
+    },
+    {
+      "t": [["她","tā","she"],["高兴","gāoxìng","happy"],["地","de","(particle: adverbial)"],["谢","xiè","to thank"],["了","le","(particle: completed action)"],["我","wǒ","I; me"],["好几次","hǎojǐ cì","several times"],["，"],["我","wǒ","I; me"],["心里","xīnli","in one's heart"],["也","yě","also"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "She thanked me happily several times, and I felt happy in my heart too."
+    },
+    {
+      "t": [["虽然","suīrán","although"],["整理","zhěnglǐ","to organize"],["书架","shūjià","bookshelf"],["是","shì","to be"],["个","gè","(measure word)"],["累","lèi","tiring"],["活儿","huór","work; job (colloquial)"],["，"],["但是","dànshì","but"],["能","néng","can; to be able to"],["帮助","bāngzhù","to help"],["别人","biéren","other people"],["，"],["我","wǒ","I; me"],["觉得","juéde","to feel"],["很","hěn","very"],["有意义","yǒu yìyì","meaningful"],["。"]],
+      "en": "Although organizing bookshelves was tiring work, I felt it was very meaningful to be able to help others."
+    },
+    {
+      "t": [["以后","yǐhòu","from now on"],["有","yǒu","to have"],["机会","jīhuì","opportunity"],["，"],["我","wǒ","I; me"],["还","hái","still"],["想","xiǎng","to want to"],["再","zài","again"],["去","qù","to go"],["当","dāng","to serve as; to be"],["志愿者","zhìyuànzhě","volunteer"],["。"]],
+      "en": "If I have the chance in the future, I still want to go be a volunteer again."
+    }
+  ],
+  "vocab": [
+    ["志愿者","zhìyuànzhě","volunteer"],
+    ["安排","ānpái","to arrange"],
+    ["简单","jiǎndān","simple"],
+    ["按照","ànzhào","according to"],
+    ["机会","jīhuì","opportunity"],
+    ["有意义","yǒu yìyì","meaningful"]
+  ],
+  "quiz": [
+    {"q": "What job was the narrator given at the library?", "a": ["Answering phones", "Organizing bookshelves", "Teaching children"], "c": 1},
+    {"q": "Why was the job harder than expected?", "a": ["The staff were unfriendly", "There were too many books and they were messy", "The library was closed"], "c": 1},
+    {"q": "How did the narrator feel about the work in the end?", "a": ["Regretted doing it", "Found it meaningless", "Found it tiring but meaningful"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "一本一本地 (one by one) — reduplicated measure word + 地", "e": "Repeating a measure word before 地 shows an action done item by item, in order.", "x": "我一本一本地把书放回原来的位置。 — I put the books back one by one."},
+    {"p": "虽然 A，但是 B — although A, B", "e": "Both halves must appear in Chinese, unlike English where 'although' alone is enough.", "x": "虽然整理书架很累，但是我觉得很有意义。 — Although organizing shelves is tiring, I find it meaningful."}
+  ]
+}

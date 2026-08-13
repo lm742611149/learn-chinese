@@ -50,8 +50,10 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-def page(title, desc, body, rel=""):
-    """rel = prefix to reach site root ('' at root, '../' inside texts/)."""
+def page(title, desc, body, rel="", path=None, noindex=False):
+    """rel  = prefix to reach site root ('' at root, '../' inside texts/).
+    path = this page's path from site root ('' for home), used for canonical
+           + og:url. None = skip those tags."""
     name = esc(SITE["site_name"])
     fb = SITE.get("firebase") or {}
     auth_btn = ('<button class="nav-link" id="t-auth">Sign in</button>'
@@ -63,6 +65,17 @@ def page(title, desc, body, rel=""):
                  + canon
                  + '"+location.pathname.replace(/^\\/learn-chinese/,"")'
                  + '+location.search+location.hash)}</script>')
+    seo = ""
+    if canon and path is not None:
+        url = canon + "/" + path
+        seo = (f'<link rel="canonical" href="{esc(url)}">\n'
+               f'<meta property="og:url" content="{esc(url)}">\n'
+               f'<meta property="og:type" content="website">\n'
+               f'<meta property="og:site_name" content="{name}">\n'
+               f'<meta property="og:image" content="{esc(canon)}/assets/og-cover.png">\n'
+               f'<meta name="twitter:card" content="summary_large_image">\n')
+    if noindex:
+        seo += '<meta name="robots" content="noindex,follow">\n'
     providers = SITE.get("auth_providers", ["google"])
     auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};'
                f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
@@ -78,6 +91,7 @@ def page(title, desc, body, rel=""):
 <meta name="description" content="{esc(desc)}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
+{seo}
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c73e2a'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>读</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -106,9 +120,12 @@ def page(title, desc, body, rel=""):
       <div class="menu-sec">More</div>
       <button class="nav-link" id="t-theme" title="Dark mode"><span class="ni" id="t-theme-i">🌙</span><span class="nl"> Dark mode</span></button>
       <a class="nav-link" href="{rel}about.html"><span class="ni">👋</span><span class="nl"> About</span></a>
+      <a class="nav-cta nav-cta-book" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M12 3 2 8l10 5 8-4v6h2V8L12 3zM6 12.2V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.8l-6 3-6-3z"/></svg>
+        <span class="nc-t">Book a lesson</span></a>
       <a class="nav-cta" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.6 1.7-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.3z"/></svg>
-        Follow</a>
+        <span class="nc-t">Follow</span></a>
     </nav>
     <div class="nav-backdrop" id="nav-backdrop"></div>
   </header>
@@ -184,9 +201,10 @@ def build_reader(t, next_t=None):
     grammar_html = ""
     if t.get("grammar"):
         gitems = "".join(
-            f'<div class="gitem"><div class="gp">{esc(g["p"])}</div>'
-            f'<p>{esc(g["e"])}</p>'
-            f'<div class="gx">{esc(g["x"])}</div></div>'
+            f'<div class="gitem"><div class="gp">{esc(g.get("p", ""))}</div>'
+            f'<p>{esc(g.get("e", ""))}</p>'
+            + (f'<div class="gx">{esc(g["x"])}</div>' if g.get("x") else "")
+            + '</div>'
             for g in t["grammar"])
         grammar_html = (f'    <section class="grammar">\n'
                         f'      <h2>Grammar note <span class="zh">语法点</span></h2>\n'
@@ -215,7 +233,7 @@ def build_reader(t, next_t=None):
     else:
         next_js, next_foot = "", ""
     body = f"""
-  <article style="--sc:{LEVEL_COLORS[t['level']]}">
+  <article class="reading" style="--sc:{LEVEL_COLORS[t['level']]}">
     <div class="reader-banner" data-char="{esc(t['title_zh'][0])}">
       <span class="feat-tag">HSK {t['level']} · {LEVEL_WORDS[t['level']]}</span>
       <h1>{esc(t['title_zh'])}</h1>
@@ -248,6 +266,19 @@ def build_reader(t, next_t=None):
     </section>
 {grammar_html}
 {quiz_html}
+    <section class="book-cta">
+      <img class="bc-photo" src="../assets/teacher.jpg"
+           alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
+           width="88" height="88" loading="lazy" decoding="async">
+      <div class="bc-body">
+        <div class="bc-eyebrow">After this reading</div>
+        <h2>Reading is the easy part. Speaking is where you get stuck.</h2>
+        <p>I'm {esc(SITE['teacher_name'])}, and I teach Mandarin one-on-one on Preply.
+          Bring this text to a trial lesson — we'll fix your tones and turn it
+          into a real conversation.</p>
+        <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
+      </div>
+    </section>
     <div class="reader-foot">
       <a class="tbtn" href="../hsk{t['level']}.html">← HSK {t['level']} readings</a>
       {next_foot}
@@ -257,10 +288,12 @@ def build_reader(t, next_t=None):
     </div>
   </article>
 {next_js}"""
-    title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading | {SITE['site_name']}"
+    # 不带站名 —— 中文标题占的显示宽度大,加站名会被搜索结果截断
+    title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading"
     desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
             f"English translation: {t['title_en']}.")
-    return page(title, desc, body, rel="../")
+    return page(title, desc, body, rel="../",
+                path=f"texts/{t['slug']}.html")
 
 
 def build_index(texts):
@@ -297,6 +330,51 @@ def build_index(texts):
     all_cards = "".join(card_html(t) for t in
                         sorted(texts, key=lambda x: (x["level"], x["slug"])))
     levels_map = {t["slug"]: t["level"] for t in texts}
+    recent = sorted(texts, key=lambda x: (-x.get("_mtime", 0), x["slug"]))[:6]
+    latest_cards = "".join(card_html(t) for t in recent)
+    n_words = len({w[0] for t in texts for w in t["vocab"]})
+    n_chars = len({c for t in texts for s in t["sentences"]
+                   for w in s["t"] for c in w[0]
+                   if "一" <= c <= "鿿"})
+    faqs = [
+        ("What is HSK?",
+         "HSK (汉语水平考试) is the official Chinese proficiency test. Levels 1 to 6 "
+         "run from roughly 150 words up to 5,000+. Every reading here is graded to "
+         "one of those levels, so the vocabulary and grammar stay inside the range "
+         "you're actually studying."),
+        ("Which level should I start with?",
+         "If you're new to Chinese, start at HSK 1 — the readings are short and use "
+         "the most common characters. If you can already read a menu or a text "
+         "message, try HSK 3. Nothing is locked, so you can switch levels any time."),
+        ("Is it really free?",
+         "Yes. Every reading, the audio, the pinyin and the tap-to-translate lookups "
+         "are free, and you don't need an account. I teach paid one-on-one lessons "
+         "on Preply — that's what pays for this site."),
+        ("Do I need to sign up?",
+         "No. Sign in only if you want your wordbook and reading streak to follow you "
+         "across devices."),
+        ("How long does it take to see progress?",
+         "Most students who read one text a day notice a difference in about a month "
+         "— not because a month is magic, but because daily short reading beats a "
+         "three-hour session once a week."),
+        ("Can I practise with a real teacher?",
+         "Yes. Reading builds vocabulary quickly, but speaking needs a person on the "
+         "other side. Bring any reading from this site to a trial lesson and we'll "
+         "work through it out loud."),
+    ]
+    faq_html = "".join(
+        f"""
+      <div class="faq-item">
+        <h3>{esc(q)}</h3>
+        <p>{esc(a)}</p>
+      </div>""" for q, a in faqs)
+    faq_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a}}
+                       for q, a in faqs],
+    }, ensure_ascii=False)
     body = f"""
   <section class="carousel">
     <div class="hero-track" id="hero-track">
@@ -321,9 +399,58 @@ def build_index(texts):
   </section>
   <section class="cards" id="search-results" hidden>{all_cards}
   </section>
+  <section class="latest" id="latest-wrap">
+    <h2 class="home-h">Just added <span class="zh">最新课文</span></h2>
+    <div class="cards latest-cards">{latest_cards}</div>
+    <a class="latest-more" href="words.html">Browse every word in the library →</a>
+  </section>
+  <section class="how" id="home-how">
+    <h2 class="home-h">How it works <span class="zh">怎么用</span></h2>
+    <ol class="how-list">
+      <li>
+        <div>
+          <h3>Pick your level</h3>
+          <p>HSK 1 to 6, each reading graded so the words stay inside what you're
+            actually studying. Not sure? Start at HSK 1 and move up.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Read for five minutes</h3>
+          <p>Tap any word for pinyin and meaning, play the audio to hear it,
+            toggle the English when you want to check yourself.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Keep the new words</h3>
+          <p>Star what's new and it goes to your wordbook for flashcard practice.
+            Come back tomorrow — the streak does the rest.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="faq" id="home-faq">
+    <h2 class="home-h">Common questions <span class="zh">常见问题</span></h2>
+    <div class="faq-grid">{faq_html}
+    </div>
+  </section>
+  <script type="application/ld+json">{faq_ld}</script>
+  <section class="book-cta">
+    <img class="bc-photo" src="assets/teacher.jpg"
+         alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
+         width="88" height="88" loading="lazy" decoding="async">
+    <div class="bc-body">
+      <div class="bc-eyebrow">Your teacher</div>
+      <h2>I wrote all {len(texts)} readings on this site</h2>
+      <p>你好! I'm {esc(SITE['teacher_name'])}. {esc(SITE['teacher_bio'])}</p>
+      <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
+      <a class="bc-alt" href="about.html">More about me →</a>
+    </div>
+  </section>
   <script>window.RCD_LEVELS={json.dumps(levels_map)};</script>"""
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
-                SITE["description"], body)
+                SITE["description"], body, path="")
 
 
 def build_level(texts, lvl):
@@ -353,7 +480,8 @@ def build_level(texts, lvl):
   </article>"""
     return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
                 f"Free HSK {lvl} Chinese reading practice: {len(mine)} original graded "
-                f"readings with pinyin, audio, tap-to-translate and quizzes.", body)
+                f"readings with pinyin, audio, tap-to-translate and quizzes.", body,
+                path=f"hsk{lvl}.html")
 
 
 def word_examples(texts, words):
@@ -438,7 +566,7 @@ def build_words(texts):
   <div class="wlist">{''.join(rows)}</div>"""
     return page(f"Chinese Vocabulary List (HSK 1-6) | {SITE['site_name']}",
                 "Searchable Chinese vocabulary with pinyin and audio from graded readings.",
-                body)
+                body, path="words.html")
 
 
 def gated(inner, title_zh, blurb):
@@ -477,7 +605,8 @@ def build_wordbook():
   </div>""", "生词本",
         "Save words with ☆ while you read, then practice them as flashcards.")
     return page(f"My Wordbook | {SITE['site_name']}",
-                "Your saved Chinese words with flashcard practice.", body)
+                "Your saved Chinese words with flashcard practice.", body,
+                path="wordbook.html", noindex=True)
 
 
 def build_progress(texts):
@@ -490,6 +619,10 @@ def build_progress(texts):
     <h1>My Progress <span style="font-family:var(--serif);color:var(--red)">学习记录</span></h1>
     <p>Streak, badges and your reading calendar — synced to your account.</p>
   </section>
+  <div class="acct" id="acct" hidden>
+    <div class="acct-who">Signed in as <b id="acct-name">…</b></div>
+    <button class="acct-out" id="acct-signout">Sign out</button>
+  </div>
   <div class="pg-stats" id="pg-stats">{'<div class="sk" style="height:92px"></div>' * 4}</div>
   <section class="pgsec">
     <h2>Badges <span class="zh">徽章</span></h2>
@@ -502,24 +635,79 @@ def build_progress(texts):
         "Track your streak, earn badges and fill your reading calendar.") + f"""
   <script>window.RCD_LEVELS={json.dumps(levels)};window.RCD_TOTALS={json.dumps(totals)};</script>"""
     return page(f"My Progress | {SITE['site_name']}",
-                "Your Chinese reading streak, badges and check-in calendar.", body)
+                "Your Chinese reading streak, badges and check-in calendar.", body,
+                path="progress.html", noindex=True)
 
 
-def build_about():
+def build_about(texts):
+    st = SITE.get("teacher_stats") or {}
+    stats = ""
+    if st:
+        stats = f"""
+    <div class="ab-stats">
+      <div class="ab-stat"><b>{esc(st.get('rating', ''))}</b><span>rating on Preply</span></div>
+      <div class="ab-stat"><b>{esc(st.get('reviews', ''))}</b><span>student reviews</span></div>
+      <div class="ab-stat"><b>{esc(st.get('lessons', ''))}</b><span>lessons taught</span></div>
+    </div>"""
     body = f"""
   <section class="about">
-    <h1>About</h1>
-    <p>你好! I'm <strong>{esc(SITE['teacher_name'])}</strong>. {esc(SITE['teacher_bio'])}</p>
-    <p>Every reading here is <strong>original</strong>, written and graded for
-      real HSK levels — short enough to finish with your morning coffee,
-      rich enough to actually teach you something.</p>
-    <p>Want to go faster with a real teacher?
-      <a href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a 1-on-1 lesson</a>
-      or follow the free daily lessons on
-      <a href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">Facebook</a>.</p>
+    <div class="teacher-card">
+      <img class="teacher-photo" src="assets/teacher.jpg"
+           alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
+           width="132" height="132" decoding="async">
+      <div class="teacher-meta">
+        <h1>你好! I'm {esc(SITE['teacher_name'])}</h1>
+        <p class="teacher-role">{esc(SITE.get('teacher_role', 'Mandarin teacher on Preply'))}</p>
+        <a class="teacher-cta" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
+      </div>
+    </div>
+{stats}
+    <div class="ab-sec">
+      <h2>How I teach <span class="zh">我的课</span></h2>
+      <p>My lessons don't run on rote memorisation. I use real-life examples and
+        throw in a joke here and there, so you're learning in a relaxed
+        atmosphere instead of reciting lists.</p>
+      <p>Language isn't only memory — it's understanding and use. So the lessons
+        are interactive and practical, built to get you speaking with confidence
+        rather than collecting vocabulary you never say out loud.</p>
+    </div>
+    <div class="ab-sec">
+      <h2>Background <span class="zh">我的背景</span></h2>
+      <ul class="ab-list">
+        <li><b>HSK 5 and HSKK Advanced</b> — solid listening, speaking, reading
+          and writing, tested rather than claimed.</li>
+        <li><b>Beijing Language University</b> — where I'm studying Chinese
+          language and culture now.</li>
+        <li><b>Four years teaching English</b> to Chinese children, so I'm used
+          to learners of very different ages and starting points.</li>
+        <li><b>Chinese, English and Filipino</b> — and I'm still learning
+          languages myself, so I know exactly where it gets hard.</li>
+      </ul>
+      <p class="ab-aside">Off the clock: Muay Thai, swimming, skiing and
+        shooting. Staying active is where the energy and the patience for
+        teaching come from.</p>
+    </div>
+    <div class="ab-sec">
+      <h2>Why this site exists <span class="zh">为什么做这个站</span></h2>
+      <p>Textbooks hand you word lists. Conversation gives you speed. What's
+        missing in between is <strong>reading you can actually finish</strong> —
+        short, graded, and pitched at the level you're on right now.</p>
+      <p>So I write them. All {len(texts)} readings here are original, graded to
+        real HSK levels, and free — pinyin, audio and tap-to-translate on every
+        word, no account needed.</p>
+    </div>
+    <div class="ab-cta">
+      <h2>Start with a trial lesson</h2>
+      <p>We'll talk about what you want to do in Chinese and work out how to get
+        there step by step. Bring any reading from this site and we'll go
+        through it out loud.</p>
+      <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
+      <a class="bc-alt" href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">Daily lessons on Facebook →</a>
+    </div>
   </section>"""
     return page(f"About | {SITE['site_name']}",
-                f"About {SITE['teacher_name']} — Chinese teacher.", body)
+                f"About {SITE['teacher_name']} — Chinese teacher.", body,
+                path="about.html")
 
 
 def main():
@@ -527,7 +715,10 @@ def main():
     tdir = os.path.join(ROOT, "content", "texts")
     for f in sorted(os.listdir(tdir)):
         if f.endswith(".json"):
-            texts.append(json.load(open(os.path.join(tdir, f), encoding="utf-8")))
+            fp = os.path.join(tdir, f)
+            t = json.load(open(fp, encoding="utf-8"))
+            t["_mtime"] = os.path.getmtime(fp)   # 用于首页"最新课文"排序
+            texts.append(t)
 
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
@@ -545,7 +736,7 @@ def main():
     for lvl in range(1, 7):
         open(os.path.join(OUT, f"hsk{lvl}.html"), "w",
              encoding="utf-8").write(build_level(texts, lvl))
-    open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about())
+    open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about(texts))
     open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
@@ -565,7 +756,30 @@ def main():
     for t in texts:
         open(os.path.join(OUT, "texts", f"{t['slug']}.html"), "w",
              encoding="utf-8").write(build_reader(t, next_map.get(t["slug"])))
-    print(f"built {len(texts)} readings + words/wordbook -> docs/")
+    # --- sitemap.xml + robots.txt ------------------------------------
+    canon = (SITE.get("canonical_url") or "").rstrip("/")
+    n_urls = 0
+    if canon:
+        urls = [("", "1.0"), ("words.html", "0.7"), ("about.html", "0.5")]
+        urls += [(f"hsk{lvl}.html", "0.8") for lvl in range(1, 7)]
+        urls += [(f"texts/{t['slug']}.html", "0.9")
+                 for t in sorted(texts, key=lambda x: x["slug"])]
+        n_urls = len(urls)
+        entries = "\n".join(
+            f"  <url><loc>{canon}/{p}</loc><priority>{pr}</priority></url>"
+            for p, pr in urls)
+        open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"{entries}\n</urlset>\n")
+        # 个人数据页不进索引
+        open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(
+            "User-agent: *\nAllow: /\n"
+            "Disallow: /wordbook.html\nDisallow: /progress.html\n\n"
+            f"Sitemap: {canon}/sitemap.xml\n")
+
+    print(f"built {len(texts)} readings + words/wordbook -> docs/"
+          + (f"\nsitemap: {n_urls} urls -> {canon}/sitemap.xml" if n_urls else ""))
 
 
 if __name__ == "__main__":

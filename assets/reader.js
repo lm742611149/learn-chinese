@@ -551,26 +551,7 @@
       el.style.display = ok ? "" : "none";
       if (ok) shown.push(el);
     });
-    if (!animate) return;
-    shown.forEach(function (el) {
-      el.style.transition = "none";
-      el.style.opacity = "0";
-      el.style.transform = "translateY(10px)";
-    });
-    void document.body.offsetHeight; // flush, so the fade-in actually runs
-    shown.forEach(function (el, i) {
-      var d = Math.min(i * 30, 300);
-      el.style.transition = "opacity .3s ease, transform .3s ease";
-      el.style.transitionDelay = d + "ms";
-      el.style.opacity = "1";
-      el.style.transform = "none";
-      setTimeout(function () {
-        el.style.transition = "";
-        el.style.transitionDelay = "";
-        el.style.opacity = "";
-        el.style.transform = "";
-      }, 400 + d);
-    });
+    // 卡片直接显示 —— 逐张 stagger 淡入在桌面端(一屏十几张)观感是"一卡一卡"
   }
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
@@ -593,6 +574,11 @@
       if (lg) lg.hidden = q;
       var tw = document.getElementById("today-wrap");
       if (tw) tw.hidden = q || !tw.dataset.filled;
+      // 搜索时把首页的内容区块让开,只留结果
+      ["latest-wrap", "home-how", "home-faq"].forEach(function (id) {
+        var e = document.getElementById(id);
+        if (e) e.hidden = !!q;
+      });
     }
     applyFilters(false);
   });

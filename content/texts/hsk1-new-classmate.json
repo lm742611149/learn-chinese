@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-new-classmate",
+  "level": 1,
+  "title_zh": "新同学",
+  "title_py": "Xīn tóngxué",
+  "title_en": "The New Classmate",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我们","wǒmen","we"],["班","bān","class"],["有","yǒu","there is; have"],["一","yī","one"],["个","gè","(measure word)"],["新","xīn","new"],["同学","tóngxué","classmate"],["。"]],
+      "en": "Today, our class has a new classmate."
+    },
+    {
+      "t": [["她","tā","she"],["叫","jiào","to be called"],["小美","Xiǎoměi","Xiaomei (name)"],["，"],["是","shì","to be"],["中国","Zhōngguó","China"],["人","rén","person"],["。"]],
+      "en": "Her name is Xiaomei, she is Chinese."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["她","tā","her"],["："],["“"],["你","nǐ","you"],["今年","jīnnián","this year"],["多","duō","how"],["大","dà","old"],["？"],["”"]],
+      "en": "I ask her, \"How old are you this year?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["十","shí","ten"],["岁","suì","years old"],["。"],["”"]],
+      "en": "She says, \"I am ten years old.\""
+    },
+    {
+      "t": [["我们","wǒmen","we"],["一起","yìqǐ","together"],["坐","zuò","to sit"],["，"],["一起","yìqǐ","together"],["学习","xuéxí","to study"],["。"]],
+      "en": "We sit together, and study together."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["认识","rènshi","to know; to meet"],["她","tā","her"],["。"]],
+      "en": "I am very happy to meet her."
+    }
+  ],
+  "vocab": [
+    ["同学","tóngxué","classmate"],
+    ["今年","jīnnián","this year"],
+    ["岁","suì","years old"],
+    ["认识","rènshi","to know; to meet"],
+    ["一起","yìqǐ","together"],
+    ["中国","Zhōngguó","China"]
+  ],
+  "quiz": [
+    {"q":"What is the new classmate's name?","a":["Xiaoming","Xiaomei","Lili"],"c":1},
+    {"q":"How old is she?","a":["Nine","Ten","Eleven"],"c":1},
+    {"q":"How does the narrator feel about meeting her?","a":["Sad","Angry","Happy"],"c":2}
+  ],
+  "grammar": [
+    {"p":"多大 — asking someone's age","e":"多大 asks about age (literally 'how big'): 你今年多大？= How old are you this year?","x":"你今年多大？ — How old are you this year?"},
+    {"p":"很高兴 + verb — happy to do something","e":"很高兴 followed directly by a verb means 'happy to (do something)': 我很高兴认识她 = I am happy to meet her.","x":"我很高兴认识她。 — I am very happy to meet her."}
+  ]
+}

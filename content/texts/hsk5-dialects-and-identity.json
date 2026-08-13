@@ -1,0 +1,272 @@
+{
+  "slug": "hsk5-dialects-and-identity",
+  "level": 5,
+  "title_zh": "方言与身份认同",
+  "title_py": "Fāngyán yǔ shēnfèn rèntóng",
+  "title_en": "Dialects and Identity",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["中国", "Zhōngguó", "China"],
+        ["地域", "dìyù", "territory"],
+        ["辽阔", "liáokuò", "vast"],
+        ["，"],
+        ["方言", "fāngyán", "dialect"],
+        ["种类", "zhǒnglèi", "types"],
+        ["繁多", "fánduō", "numerous"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["广东话", "Guǎngdōnghuà", "Cantonese"],
+        ["到", "dào", "to"],
+        ["上海话", "Shànghǎihuà", "Shanghainese"],
+        ["，"],
+        ["几乎", "jīhū", "almost"],
+        ["每个", "měi ge", "every"],
+        ["地方", "dìfang", "place"],
+        ["都", "dōu", "all"],
+        ["有", "yǒu", "has"],
+        ["自己", "zìjǐ", "its own"],
+        ["独特", "dútè", "unique"],
+        ["的", "de", "(attributive)"],
+        ["口音", "kǒuyīn", "accent"],
+        ["。"]
+      ],
+      "en": "China's territory is vast and its dialects are numerous — from Cantonese to Shanghainese, almost every place has its own unique accent."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["随着", "suízhe", "as; along with"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["教育", "jiàoyù", "education"],
+        ["的", "de", "(possessive)"],
+        ["普及", "pǔjí", "spread"],
+        ["，"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(attributive)"],
+        ["孩子", "háizi", "children"],
+        ["从小", "cóngxiǎo", "from a young age"],
+        ["只", "zhǐ", "only"],
+        ["说", "shuō", "speak"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["，"],
+        ["方言", "fāngyán", "dialect"],
+        ["正在", "zhèngzài", "is currently"],
+        ["渐渐", "jiànjiàn", "gradually"],
+        ["消失", "xiāoshī", "to disappear"],
+        ["。"]
+      ],
+      "en": "However, as Mandarin education has spread, more and more children speak only Mandarin from a young age, and dialects are gradually disappearing."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["担心", "dānxīn", "to worry"],
+        ["，"],
+        ["一旦", "yídàn", "once"],
+        ["方言", "fāngyán", "dialect"],
+        ["消失", "xiāoshī", "disappears"],
+        ["，"],
+        ["与", "yǔ", "with"],
+        ["它", "tā", "it"],
+        ["相关", "xiāngguān", "related"],
+        ["的", "de", "(attributive)"],
+        ["地方", "dìfang", "local"],
+        ["文化", "wénhuà", "culture"],
+        ["和", "hé", "and"],
+        ["历史", "lìshǐ", "historical"],
+        ["记忆", "jìyì", "memory"],
+        ["也", "yě", "also"],
+        ["会", "huì", "will"],
+        ["随之", "suízhī", "accordingly"],
+        ["消失", "xiāoshī", "disappear"],
+        ["。"]
+      ],
+      "en": "Some worry that once a dialect disappears, the local culture and historical memory associated with it will disappear along with it."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "my"],
+        ["表姐", "biǎojiě", "older cousin"],
+        ["在", "zài", "in"],
+        ["广州", "Guǎngzhōu", "Guangzhou"],
+        ["长大", "zhǎngdà", "grew up"],
+        ["，"],
+        ["她", "tā", "she"],
+        ["说", "shuō", "says"],
+        ["只有", "zhǐyǒu", "only when"],
+        ["说", "shuō", "speaking"],
+        ["粤语", "Yuèyǔ", "Cantonese"],
+        ["的时候", "de shíhou", "at the time when"],
+        ["，"],
+        ["才", "cái", "only then"],
+        ["觉得", "juéde", "feels"],
+        ["自己", "zìjǐ", "herself"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["“"],
+        ["回到", "huídào", "returned to"],
+        ["了", "le", "(completed)"],
+        ["家", "jiā", "home"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "My cousin grew up in Guangzhou; she says only when she speaks Cantonese does she truly feel she has \"returned home.\""
+    },
+    {
+      "t": [
+        ["对", "duì", "to"],
+        ["她", "tā", "her"],
+        ["来说", "lái shuō", "speaking of"],
+        ["，"],
+        ["方言", "fāngyán", "dialect"],
+        ["不仅", "bùjǐn", "not only"],
+        ["是", "shì", "is"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["交流", "jiāoliú", "communication"],
+        ["工具", "gōngjù", "tool"],
+        ["，"],
+        ["更", "gèng", "even more"],
+        ["是", "shì", "is"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["身份", "shēnfèn", "identity"],
+        ["的", "de", "(attributive)"],
+        ["象征", "xiàngzhēng", "symbol"],
+        ["。"]
+      ],
+      "en": "To her, dialect is not only a tool for communication, but even more a symbol of identity."
+    },
+    {
+      "t": [
+        ["与此相反", "yǔ cǐ xiāngfǎn", "on the contrary"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["有人", "yǒurén", "some people"],
+        ["认为", "rènwéi", "believe"],
+        ["，"],
+        ["推广", "tuīguǎng", "to promote"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["有助于", "yǒuzhùyú", "helps"],
+        ["不同", "bùtóng", "different"],
+        ["地区", "dìqū", "regions"],
+        ["的", "de", "(attributive)"],
+        ["人", "rén", "people"],
+        ["顺利", "shùnlì", "smoothly"],
+        ["沟通", "gōutōng", "communicate"],
+        ["，"],
+        ["从而", "cóng'ér", "thereby"],
+        ["促进", "cùjìn", "to promote"],
+        ["社会", "shèhuì", "society"],
+        ["的", "de", "(possessive)"],
+        ["融合", "rónghé", "integration"],
+        ["。"]
+      ],
+      "en": "On the contrary, some believe that promoting Mandarin helps people from different regions communicate smoothly, thereby promoting social integration."
+    },
+    {
+      "t": [
+        ["近年来", "jìnniánlái", "in recent years"],
+        ["，"],
+        ["一些", "yìxiē", "some"],
+        ["城市", "chéngshì", "cities"],
+        ["开始", "kāishǐ", "have begun"],
+        ["在", "zài", "in"],
+        ["学校", "xuéxiào", "schools"],
+        ["开设", "kāishè", "to offer"],
+        ["方言", "fāngyán", "dialect"],
+        ["课程", "kèchéng", "courses"],
+        ["，"],
+        ["希望", "xīwàng", "hoping"],
+        ["通过", "tōngguò", "through"],
+        ["教育", "jiàoyù", "education"],
+        ["让", "ràng", "to let"],
+        ["年轻", "niánqīng", "young"],
+        ["一代", "yí dài", "generation"],
+        ["重新", "chóngxīn", "anew"],
+        ["认识", "rènshi", "recognize"],
+        ["自己", "zìjǐ", "their own"],
+        ["的", "de", "(attributive)"],
+        ["“"],
+        ["乡音", "xiāngyīn", "hometown accent"],
+        ["”"],
+        ["。"]
+      ],
+      "en": "In recent years, some cities have begun offering dialect courses in schools, hoping that through education the younger generation will rediscover their own \"hometown accent.\""
+    },
+    {
+      "t": [
+        ["归根结底", "guīgēn jiédǐ", "in the final analysis"],
+        ["，"],
+        ["方言", "fāngyán", "dialect"],
+        ["和", "hé", "and"],
+        ["普通话", "pǔtōnghuà", "Mandarin"],
+        ["并不是", "bìng bú shì", "is not"],
+        ["非此即彼", "fēi cǐ jí bǐ", "either-or"],
+        ["的", "de", "(attributive)"],
+        ["选择", "xuǎnzé", "choice"],
+        ["，"],
+        ["二者", "èrzhě", "the two"],
+        ["完全", "wánquán", "completely"],
+        ["可以", "kěyǐ", "can"],
+        ["在", "zài", "in"],
+        ["日常", "rìcháng", "daily"],
+        ["生活", "shēnghuó", "life"],
+        ["中", "zhōng", "in"],
+        ["共存", "gòngcún", "coexist"],
+        ["。"]
+      ],
+      "en": "In the final analysis, dialects and Mandarin are not an either-or choice; the two can completely coexist in daily life."
+    }
+  ],
+  "vocab": [
+    ["方言", "fāngyán", "dialect"],
+    ["辽阔", "liáokuò", "vast"],
+    ["独特", "dútè", "unique"],
+    ["身份", "shēnfèn", "identity"],
+    ["融合", "rónghé", "integration; fusion"],
+    ["共存", "gòngcún", "to coexist"]
+  ],
+  "quiz": [
+    {
+      "q": "What is happening to dialects as Mandarin education spreads?",
+      "a": [
+        "They are gradually disappearing among children who now speak only Mandarin",
+        "They are becoming more popular than Mandarin nationwide",
+        "They are merging into a single new dialect"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the cousin from Guangzhou feel when she speaks Cantonese?",
+      "a": [
+        "Embarrassed, because it sounds old-fashioned",
+        "That she has truly \"returned home\" — a sense of identity",
+        "Confused, because she barely remembers the language"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What is the text's final conclusion about dialects and Mandarin?",
+      "a": [
+        "Dialects must be abolished for society to modernize",
+        "People must permanently choose one over the other",
+        "Dialects and Mandarin can completely coexist in daily life"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一旦…，…也会…",
+      "e": "'Once..., ... will also...' sets up a hypothetical trigger and its consequence.",
+      "x": "一旦方言消失，与它相关的地方文化也会随之消失。 — Once a dialect disappears, the local culture associated with it will also disappear along with it."
+    },
+    {
+      "p": "不仅…，更…",
+      "e": "'Not only..., but even more...' — the second clause outweighs the first in importance.",
+      "x": "方言不仅是一种交流工具，更是一种身份的象征。 — Dialect is not only a tool for communication, but even more a symbol of identity."
+    }
+  ]
+}

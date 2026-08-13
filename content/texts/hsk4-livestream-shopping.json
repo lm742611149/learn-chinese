@@ -1,0 +1,252 @@
+{
+  "slug": "hsk4-livestream-shopping",
+  "level": 4,
+  "title_zh": "直播带货",
+  "title_py": "Zhíbò dàihuò",
+  "title_en": "Livestream Shopping",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["打开", "dǎkāi", "to open"],
+        ["手机", "shǒujī", "phone"],
+        ["，"],
+        ["随时", "suíshí", "at any time"],
+        ["都", "dōu", "always"],
+        ["能", "néng", "can"],
+        ["看到", "kàndào", "to see"],
+        ["有人", "yǒurén", "someone"],
+        ["在", "zài", "at"],
+        ["直播间", "zhíbōjiān", "livestream room"],
+        ["里", "li", "in"],
+        ["介绍", "jièshào", "to introduce"],
+        ["产品", "chǎnpǐn", "product"],
+        ["，"],
+        ["一边", "yìbiān", "while"],
+        ["说", "shuō", "talking"],
+        ["一边", "yìbiān", "while"],
+        ["卖", "mài", "selling"],
+        ["。"]
+      ],
+      "en": "Open your phone, and at any time you can see someone in a livestream room introducing products, talking and selling at the same time."
+    },
+    {
+      "t": [
+        ["主播", "zhǔbō", "livestream host"],
+        ["的", "de", "(possessive)"],
+        ["声音", "shēngyīn", "voice"],
+        ["又", "yòu", "both"],
+        ["快", "kuài", "fast"],
+        ["又", "yòu", "and"],
+        ["激动", "jīdòng", "excited"],
+        ["，"],
+        ["常常", "chángcháng", "often"],
+        ["一", "yì", "one"],
+        ["句", "jù", "(measure word for a sentence)"],
+        ["“"],
+        ["最后", "zuìhòu", "last"],
+        ["三", "sān", "three"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["”"],
+        ["就", "jiù", "then"],
+        ["让", "ràng", "to make"],
+        ["很多", "hěn duō", "many"],
+        ["人", "rén", "people"],
+        ["马上", "mǎshàng", "immediately"],
+        ["下单", "xiàdān", "to place an order"],
+        ["。"]
+      ],
+      "en": "The host's voice is fast and excited, and often just one line — \"last three minutes\" — makes many people place an order right away."
+    },
+    {
+      "t": [
+        ["直播带货", "zhíbò dàihuò", "livestream shopping"],
+        ["最大", "zuì dà", "biggest"],
+        ["的", "de", "(possessive)"],
+        ["好处", "hǎochu", "benefit"],
+        ["是", "shì", "is"],
+        ["便宜", "piányi", "cheap"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["省去", "shěngqù", "to save; eliminate"],
+        ["了", "le", "(particle)"],
+        ["商店", "shāngdiàn", "shop"],
+        ["和", "hé", "and"],
+        ["中间商", "zhōngjiānshāng", "middleman"],
+        ["的", "de", "(possessive)"],
+        ["费用", "fèiyòng", "cost"],
+        ["。"]
+      ],
+      "en": "The biggest advantage of livestream shopping is that it's cheap, because it saves on the costs of shops and middlemen."
+    },
+    {
+      "t": [
+        ["而且", "érqiě", "moreover"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["可以", "kěyǐ", "can"],
+        ["一边", "yìbiān", "while"],
+        ["看", "kàn", "watch"],
+        ["主播", "zhǔbō", "host"],
+        ["试用", "shìyòng", "to try out"],
+        ["产品", "chǎnpǐn", "product"],
+        ["，"],
+        ["一边", "yìbiān", "while"],
+        ["提问", "tíwèn", "to ask questions"],
+        ["，"],
+        ["比", "bǐ", "compared to"],
+        ["在", "zài", "at"],
+        ["网上", "wǎngshàng", "online"],
+        ["看", "kàn", "look at"],
+        ["图片", "túpiàn", "pictures"],
+        ["更", "gèng", "more"],
+        ["让", "ràng", "make"],
+        ["人", "rén", "people"],
+        ["放心", "fàngxīn", "at ease"],
+        ["。"]
+      ],
+      "en": "Moreover, you can watch the host try out the product while asking questions, which feels more reassuring than just looking at pictures online."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["有些", "yǒuxiē", "some"],
+        ["人", "rén", "people"],
+        ["一", "yì", "as soon as"],
+        ["到", "dào", "arrive at"],
+        ["深夜", "shēnyè", "late night"],
+        ["还", "hái", "still"],
+        ["在", "zài", "(progressive)"],
+        ["看", "kàn", "watching"],
+        ["直播", "zhíbō", "livestream"],
+        ["，"],
+        ["一不小心", "yì bù xiǎoxīn", "carelessly"],
+        ["就", "jiù", "then"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["堆", "duī", "pile; bunch"],
+        ["根本", "gēnběn", "completely"],
+        ["不", "bù", "not"],
+        ["需要", "xūyào", "need"],
+        ["的", "de", "(possessive)"],
+        ["东西", "dōngxi", "things"],
+        ["。"]
+      ],
+      "en": "However, some people are still watching livestreams deep into the night, and before they know it, they've bought a pile of things they don't need at all."
+    },
+    {
+      "t": [
+        ["更", "gèng", "more"],
+        ["让", "ràng", "make"],
+        ["人", "rén", "people"],
+        ["担心", "dānxīn", "worry"],
+        ["的是", "de shì", "the thing is"],
+        ["，"],
+        ["个别", "gèbié", "individual; a few"],
+        ["主播", "zhǔbō", "hosts"],
+        ["为了", "wèile", "in order to"],
+        ["卖货", "màihuò", "to sell goods"],
+        ["而", "ér", "thus"],
+        ["夸大", "kuādà", "to exaggerate"],
+        ["产品", "chǎnpǐn", "product"],
+        ["效果", "xiàoguǒ", "effect"],
+        ["，"],
+        ["甚至", "shènzhì", "even"],
+        ["卖", "mài", "to sell"],
+        ["假货", "jiǎhuò", "fake goods"],
+        ["。"]
+      ],
+      "en": "What's even more worrying is that a few hosts exaggerate product effects in order to sell goods, and even sell fake products."
+    },
+    {
+      "t": [
+        ["既然", "jìrán", "since"],
+        ["直播带货", "zhíbò dàihuò", "livestream shopping"],
+        ["已经", "yǐjīng", "already"],
+        ["成", "chéng", "to become"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind of"],
+        ["购物", "gòuwù", "shopping"],
+        ["习惯", "xíguàn", "habit"],
+        ["，"],
+        ["消费者", "xiāofèizhě", "consumers"],
+        ["就", "jiù", "then"],
+        ["更", "gèng", "more"],
+        ["需要", "xūyào", "need to"],
+        ["保持", "bǎochí", "to keep"],
+        ["理性", "lǐxìng", "rationality"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["被", "bèi", "(passive marker)"],
+        ["气氛", "qìfēn", "atmosphere"],
+        ["冲昏", "chōnghūn", "to get carried away by"],
+        ["了", "le", "(particle)"],
+        ["头", "tóu", "head"],
+        ["。"]
+      ],
+      "en": "Since livestream shopping has already become a shopping habit, consumers need to stay even more rational and not get carried away by the atmosphere."
+    },
+    {
+      "t": [
+        ["说到底", "shuōdàodǐ", "when it comes down to it"],
+        ["，"],
+        ["直播带货", "zhíbò dàihuò", "livestream shopping"],
+        ["本身", "běnshēn", "itself"],
+        ["没有", "méiyǒu", "doesn't have"],
+        ["问题", "wèntí", "problem"],
+        ["，"],
+        ["问题", "wèntí", "the problem"],
+        ["在于", "zàiyú", "lies in"],
+        ["我们", "wǒmen", "us"],
+        ["是不是", "shì bú shì", "whether or not"],
+        ["清楚", "qīngchu", "clear"],
+        ["自己", "zìjǐ", "oneself"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["需要", "xūyào", "need"],
+        ["什么", "shénme", "what"],
+        ["。"]
+      ],
+      "en": "When it comes down to it, livestream shopping itself is not the problem — the problem is whether we are clear about what we truly need."
+    }
+  ],
+  "vocab": [
+    ["直播", "zhíbō", "livestream"],
+    ["主播", "zhǔbō", "livestream host"],
+    ["产品", "chǎnpǐn", "product"],
+    ["下单", "xiàdān", "to place an order"],
+    ["消费者", "xiāofèizhě", "consumer"],
+    ["理性", "lǐxìng", "rationality"]
+  ],
+  "quiz": [
+    {
+      "q": "What is the biggest advantage of livestream shopping, according to the text?",
+      "a": ["It's cheaper because it saves on shop and middleman costs", "It only sells luxury goods", "It requires no internet connection"],
+      "c": 0
+    },
+    {
+      "q": "What worries the author about some hosts?",
+      "a": ["They exaggerate product effects and even sell fake goods", "They never show the products", "They refuse to answer any questions"],
+      "c": 0
+    },
+    {
+      "q": "What does the author think is the real issue with livestream shopping?",
+      "a": ["The technology is too complicated", "Whether we're clear about what we truly need", "The price is always too high"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边……一边……",
+      "e": "\"Doing A while doing B\" describes two actions happening at the same time: 你可以一边看主播试用产品，一边提问。",
+      "x": "他一边吃饭，一边看手机。— He eats while looking at his phone."
+    },
+    {
+      "p": "在于",
+      "e": "\"(The key/problem) lies in...\" points to where the real cause is: 问题在于我们是不是清楚自己真正需要什么。",
+      "x": "成功的关键在于坚持。— The key to success lies in persistence."
+    }
+  ]
+}

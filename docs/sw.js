@@ -1,8 +1,8 @@
-/* Read Chinese Daily — offline cache.
+/* Read Mandarin — offline cache.
  * 页面导航: 网络优先(避免 Cloudflare 的 .html→无后缀 308 重定向响应
  *          被缓存后导致导航失败),离线时回退缓存。
  * 静态资源: 缓存优先 + 后台刷新。永不缓存 redirected 响应。 */
-const V = "rcd-v24";
+const V = "rcd-v25";
 const PRECACHE = ["./", "./assets/style.css", "./assets/reader.js"];
 
 self.addEventListener("install", (e) => {

@@ -1,0 +1,59 @@
+{
+  "slug": "hsk3-lost-phone",
+  "level": 3,
+  "title_zh": "手机丢了又找回",
+  "title_py": "Shǒujī Diū Le Yòu Zhǎohuí",
+  "title_en": "Losing and Finding My Phone",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["昨天","zuótiān","yesterday"],["晚上","wǎnshang","evening"],["，"],["我","wǒ","I; me"],["从","cóng","from"],["餐厅","cāntīng","restaurant"],["出来","chūlái","to come out"],["以后","yǐhòu","after"],["，"],["发现","fāxiàn","to discover"],["手机","shǒujī","mobile phone"],["不见","bú jiàn","missing; not to be seen"],["了","le","(particle: new situation)"],["。"]],
+      "en": "Last night, after I came out of the restaurant, I discovered my phone was gone."
+    },
+    {
+      "t": [["其实","qíshí","actually"],["我","wǒ","I; me"],["也","yě","also"],["不","bù","not"],["知道","zhīdào","to know"],["手机","shǒujī","mobile phone"],["是","shì","to be"],["什么","shénme","what"],["时候","shíhou","time; when"],["掉","diào","to drop; to fall"],["的","de","(particle: nominalizer)"],["，"],["因为","yīnwèi","because"],["我","wǒ","I; me"],["一直","yìzhí","all along"],["没","méi","not"],["用","yòng","to use"],["它","tā","it"],["。"]],
+      "en": "Actually I didn't even know when the phone fell out, because I hadn't used it the whole time."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["把","bǎ","(marks object)"],["包","bāo","bag"],["里","lǐ","inside"],["的","de","(particle: attributive)"],["东西","dōngxi","things"],["都","dōu","all"],["找","zhǎo","to look for"],["了","le","(particle: completed action)"],["一遍","yí biàn","once through"],["，"],["可是","kěshì","but"],["还是","háishi","still"],["没","méi","not"],["找到","zhǎodào","to find"],["。"]],
+      "en": "I searched through everything in my bag once, but I still couldn't find it."
+    },
+    {
+      "t": [["虽然","suīrán","although"],["我","wǒ","I; me"],["很","hěn","very"],["着急","zháojí","anxious"],["，"],["但是","dànshì","but"],["朋友","péngyou","friend"],["安慰","ānwèi","to comfort"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["担心","dānxīn","to worry"],["，"],["我们","wǒmen","we; us"],["可以","kěyǐ","can"],["用","yòng","to use"],["地图","dìtú","map"],["功能","gōngnéng","function"],["找","zhǎo","to look for"],["手机","shǒujī","mobile phone"],["的","de","(particle: possessive)"],["位置","wèizhi","location"],["。"],["”"]],
+      "en": "Although I was very anxious, my friend comforted me, saying: \"Don't worry, we can use the map function to find the phone's location.\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["按照","ànzhào","according to"],["地图","dìtú","map"],["上","shang","on"],["的","de","(particle: attributive)"],["位置","wèizhi","location"],["，"],["回","huí","to return"],["到","dào","to (result complement)"],["餐厅","cāntīng","restaurant"],["门口","ménkǒu","doorway; entrance"],["，"],["发现","fāxiàn","to discover"],["手机","shǒujī","mobile phone"],["就","jiù","just; right"],["在","zài","at"],["椅子","yǐzi","chair"],["下面","xiàmiàn","underneath"],["。"]],
+      "en": "According to the location on the map, we went back to the restaurant entrance and found the phone was right under a chair."
+    },
+    {
+      "t": [["服务员","fúwùyuán","waiter; server"],["说","shuō","to say"],["，"],["她","tā","she"],["刚才","gāngcái","just now"],["打扫","dǎsǎo","to clean up"],["的","de","(particle: nominalizer)"],["时候","shíhou","time; when"],["也","yě","also"],["没","méi","not"],["看见","kànjiàn","to see; to catch sight of"],["它","tā","it"],["。"]],
+      "en": "The waitress said that when she was cleaning up just now, she hadn't noticed it either."
+    },
+    {
+      "t": [["找到","zhǎodào","to find"],["手机","shǒujī","mobile phone"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["高兴","gāoxìng","happy"],["得","de","(particle: describes how)"],["差点儿","chàdiǎnr","almost"],["哭","kū","to cry"],["出来","chūlái","to come out"],["。"]],
+      "en": "After finding the phone, I was so happy that I almost cried."
+    },
+    {
+      "t": [["从","cóng","from"],["那","nà","that"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["养成","yǎngchéng","to develop (a habit)"],["了","le","(particle: completed action)"],["一个","yí ge","a; one"],["好","hǎo","good"],["习惯","xíguàn","habit"],["："],["出门","chūmén","to go out"],["前","qián","before"],["一定","yídìng","definitely"],["要","yào","must"],["检查","jiǎnchá","to check"],["东西","dōngxi","things"],["带","dài","to bring"],["齐","qí","complete; all present"],["了","le","(particle: completed action)"],["没有","méiyǒu","or not (yes-no)"],["。"]],
+      "en": "From then on, I developed a good habit: before going out, I always make sure to check whether I've brought everything."
+    }
+  ],
+  "vocab": [
+    ["不见了","bú jiàn le","gone missing"],
+    ["其实","qíshí","actually"],
+    ["安慰","ānwèi","to comfort"],
+    ["位置","wèizhi","location"],
+    ["差点儿","chàdiǎnr","almost"],
+    ["养成","yǎngchéng","to develop (a habit)"]
+  ],
+  "quiz": [
+    {"q": "When did the narrator discover the phone was missing?", "a": ["Before entering the restaurant", "Right after leaving the restaurant", "The next morning"], "c": 1},
+    {"q": "How did the friend help find the phone?", "a": ["Called the restaurant", "Used the map function to find its location", "Asked every customer"], "c": 1},
+    {"q": "Where was the phone finally found?", "a": ["In the narrator's bag", "Under a chair at the restaurant", "In the friend's car"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "把 + object + verb — disposal construction", "e": "把 moves the object before the verb to emphasize what happens to it.", "x": "我把包里的东西都找了一遍。 — I searched through everything in my bag."},
+    {"p": "adj/verb + 得 + degree — describing the extent of a result", "e": "得 links an action or feeling to how extreme it was.", "x": "我高兴得差点儿哭出来。 — I was so happy I almost cried."}
+  ]
+}

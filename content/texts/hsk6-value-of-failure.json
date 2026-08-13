@@ -1,0 +1,295 @@
+{
+  "slug": "hsk6-value-of-failure",
+  "level": 6,
+  "title_zh": "失败的价值",
+  "title_py": "Shībài de jiàzhí",
+  "title_en": "The Value of Failure",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["人们", "rénmen", "people"],
+        ["常", "cháng", "often"],
+        ["说", "shuō", "to say"],
+        ["“"],
+        ["失败", "shībài", "failure"],
+        ["是", "shì", "is"],
+        ["成功", "chénggōng", "success"],
+        ["之母", "zhī mǔ", "the mother of (literary)"],
+        ["”"],
+        ["，"],
+        ["似乎", "sìhū", "as if; it seems"],
+        ["只要", "zhǐyào", "as long as"],
+        ["经历", "jīnglì", "to go through; experience"],
+        ["挫折", "cuòzhé", "setback"],
+        ["，"],
+        ["成功", "chénggōng", "success"],
+        ["便", "biàn", "then (literary for 就)"],
+        ["会", "huì", "will"],
+        ["如期而至", "rúqī ér zhì", "to arrive right on schedule"],
+        ["。"]
+      ],
+      "en": "People often say 'failure is the mother of success,' as if success will arrive right on schedule the moment one goes through setbacks."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["这句", "zhè jù", "this (slogan/sentence)"],
+        ["口号", "kǒuhào", "slogan"],
+        ["如果", "rúguǒ", "if"],
+        ["被", "bèi", "(passive marker)"],
+        ["简单", "jiǎndān", "simple"],
+        ["地", "de", "(adverbial particle)"],
+        ["照搬", "zhàobān", "to copy mechanically"],
+        ["，"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["会", "huì", "will"],
+        ["掩盖", "yǎngài", "to cover up; conceal"],
+        ["失败", "shībài", "failure"],
+        ["背后", "bèihòu", "behind"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["复杂", "fùzá", "complex"],
+        ["的", "de", "(possessive particle)"],
+        ["问题", "wèntí", "problem"],
+        ["。"]
+      ],
+      "en": "However, if this slogan is simply copied and applied mechanically, it will instead conceal the truly complex problems behind failure."
+    },
+    {
+      "t": [
+        ["事实上", "shìshí shàng", "in fact"],
+        ["，"],
+        ["失败", "shībài", "failure"],
+        ["本身", "běnshēn", "itself"],
+        ["并不会", "bìng bú huì", "will not at all (emphatic)"],
+        ["自动", "zìdòng", "automatically"],
+        ["转化为", "zhuǎnhuà wéi", "to transform into"],
+        ["经验", "jīngyàn", "experience"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["只是", "zhǐshì", "merely; only"],
+        ["提供了", "tígōng le", "provided"],
+        ["反思", "fǎnsī", "reflection; to reflect on"],
+        ["的", "de", "(possessive particle)"],
+        ["素材", "sùcái", "raw material"],
+        ["。"]
+      ],
+      "en": "In fact, failure itself does not automatically turn into experience; it merely provides material for reflection."
+    },
+    {
+      "t": [
+        ["一旦", "yīdàn", "once; as soon as"],
+        ["缺乏", "quēfá", "to lack"],
+        ["诚实", "chéngshí", "honest"],
+        ["而", "ér", "and (literary connective)"],
+        ["深入", "shēnrù", "in-depth; thorough"],
+        ["的", "de", "(possessive particle)"],
+        ["总结", "zǒngjié", "summing-up; summary"],
+        ["，"],
+        ["同样", "tóngyàng", "the same"],
+        ["的", "de", "(possessive particle)"],
+        ["错误", "cuòwù", "mistake"],
+        ["便", "biàn", "then (literary)"],
+        ["会", "huì", "will"],
+        ["反复", "fǎnfù", "repeatedly"],
+        ["重演", "chóngyǎn", "to recur; reenact"],
+        ["，"],
+        ["甚至", "shènzhì", "even; to the point that"],
+        ["令", "lìng", "to cause; make"],
+        ["人", "rén", "a person"],
+        ["一蹶不振", "yī jué bù zhèn", "to collapse and never recover"],
+        ["。"]
+      ],
+      "en": "Once honest and thorough summarizing is lacking, the same mistakes will repeat themselves over and over, even leaving a person unable to recover."
+    },
+    {
+      "t": [
+        ["以", "yǐ", "taking (as an example)"],
+        ["某位", "mǒu wèi", "a certain (person)"],
+        ["研究", "yánjiū", "to research"],
+        ["疫苗", "yìmiáo", "vaccine"],
+        ["的", "de", "(possessive particle)"],
+        ["科学家", "kēxuéjiā", "scientist"],
+        ["为例", "wéi lì", "as an example"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["历经", "lìjīng", "to go through; undergo"],
+        ["上百次", "shàng bǎi cì", "upwards of a hundred times"],
+        ["失败", "shībài", "failed"],
+        ["的", "de", "(possessive particle)"],
+        ["实验", "shíyàn", "experiment"],
+        ["，"],
+        ["却", "què", "yet; however"],
+        ["依然", "yīrán", "still"],
+        ["坚持不懈", "jiānchí búxiè", "to persevere unremittingly"],
+        ["。"]
+      ],
+      "en": "Take a certain vaccine researcher as an example: he went through over a hundred failed experiments, yet still persevered without giving up."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["在", "zài", "at; in"],
+        ["每一次", "měi yī cì", "every time"],
+        ["失败", "shībài", "failure"],
+        ["后", "hòu", "after"],
+        ["都", "dōu", "always; in every case"],
+        ["详细", "xiángxì", "in detail"],
+        ["记录", "jìlù", "to record"],
+        ["变量", "biànliàng", "variable"],
+        ["、"],
+        ["修正", "xiūzhèng", "to revise; correct"],
+        ["假设", "jiǎshè", "hypothesis"],
+        ["，"],
+        ["最终", "zuìzhōng", "in the end; ultimately"],
+        ["因祸得福", "yīn huò dé fú", "to turn misfortune into a blessing"],
+        ["，"],
+        ["找到了", "zhǎodào le", "found"],
+        ["突破性", "tūpòxìng", "breakthrough (adj.)"],
+        ["的", "de", "(possessive particle)"],
+        ["解决方案", "jiějué fāng'àn", "solution"],
+        ["。"]
+      ],
+      "en": "After every failure he meticulously recorded variables and revised his hypotheses, and in the end turned misfortune into a blessing, finding a breakthrough solution."
+    },
+    {
+      "t": [
+        ["反之", "fǎnzhī", "conversely"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["有", "yǒu", "there are"],
+        ["创业者", "chuàngyèzhě", "entrepreneur"],
+        ["屡次", "lǚcì", "repeatedly; time and again"],
+        ["亏损", "kūnsǔn", "to lose money; deficit"],
+        ["却", "què", "yet"],
+        ["不愿", "bú yuàn", "unwilling to"],
+        ["检讨", "jiǎntǎo", "to examine one's own mistakes"],
+        ["决策", "juécè", "decision-making"],
+        ["失误", "shīwù", "error; mistake"],
+        ["，"],
+        ["只", "zhǐ", "only"],
+        ["归咎于", "guījiù yú", "to attribute the blame to"],
+        ["运气", "yùnqi", "luck"],
+        ["不佳", "bùjiā", "not good"],
+        ["，"],
+        ["非但", "fēidàn", "not only"],
+        ["没有", "méiyǒu", "did not"],
+        ["引以为戒", "yǐn yǐ wéi jiè", "to take as a warning"],
+        ["，"],
+        ["反而", "fǎn'ér", "on the contrary"],
+        ["一再", "yīzài", "repeatedly; again and again"],
+        ["重蹈覆辙", "chóng dǎo fù zhé", "to repeat the same mistake"],
+        ["。"]
+      ],
+      "en": "Conversely, there are also entrepreneurs who, despite repeated losses, refuse to examine their own decision-making mistakes, blaming only bad luck — not only failing to learn the lesson, but repeating the same mistake again and again."
+    },
+    {
+      "t": [
+        ["由此可见", "yóu cǐ kě jiàn", "from this it can be seen"],
+        ["，"],
+        ["两者", "liǎngzhě", "the two; both"],
+        ["的", "de", "(possessive particle)"],
+        ["根本", "gēnběn", "fundamental"],
+        ["区别", "qūbié", "difference"],
+        ["不在于", "bú zàiyú", "does not lie in"],
+        ["失败", "shībài", "failure"],
+        ["的", "de", "(possessive particle)"],
+        ["次数", "cìshù", "number of times"],
+        ["多寡", "duōguǎ", "how many; the amount (literary)"],
+        ["，"],
+        ["而", "ér", "but rather"],
+        ["在于", "zàiyú", "lies in"],
+        ["是否", "shìfǒu", "whether or not"],
+        ["建立起", "jiànlì qǐ", "to establish"],
+        ["系统", "xìtǒng", "systematic"],
+        ["的", "de", "(possessive particle)"],
+        ["复盘", "fùpán", "to review; debrief"],
+        ["机制", "jīzhì", "mechanism"],
+        ["。"]
+      ],
+      "en": "From this it can be seen that the fundamental difference between the two lies not in how many times one fails, but in whether one has built a systematic habit of review."
+    },
+    {
+      "t": [
+        ["归根结底", "guī gēn jié dǐ", "in the final analysis"],
+        ["，"],
+        ["与其", "yǔqí", "rather than"],
+        ["空谈", "kōngtán", "to talk emptily about"],
+        ["失败", "shībài", "failure"],
+        ["的", "de", "(possessive particle)"],
+        ["意义", "yìyì", "meaning; significance"],
+        ["，"],
+        ["不如", "bùrú", "it would be better to"],
+        ["养成", "yǎngchéng", "to cultivate (a habit)"],
+        ["对", "duì", "towards"],
+        ["失败", "shībài", "failure"],
+        ["进行", "jìnxíng", "to carry out"],
+        ["系统", "xìtǒng", "systematic"],
+        ["反思", "fǎnsī", "reflection"],
+        ["的", "de", "(possessive particle)"],
+        ["习惯", "xíguàn", "habit"],
+        ["，"],
+        ["唯有", "wéiyǒu", "only if; only when"],
+        ["如此", "rúcǐ", "this way; so"],
+        ["，"],
+        ["失败", "shībài", "failure"],
+        ["才能", "cáinéng", "only then can"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["孕育出", "yùnyù chū", "to give birth to; nurture into being"],
+        ["成功", "chénggōng", "success"],
+        ["。"]
+      ],
+      "en": "In the final analysis, rather than talking emptily about the meaning of failure, it is better to cultivate a habit of systematically reflecting on it — only then can failure truly give birth to success."
+    }
+  ],
+  "vocab": [
+    ["挫折", "cuòzhé", "setback"],
+    ["反思", "fǎnsī", "reflection; to reflect on"],
+    ["归咎", "guījiù", "to attribute blame to"],
+    ["复盘", "fùpán", "to review; debrief (a process)"],
+    ["一蹶不振", "yī jué bù zhèn", "to collapse after a setback and never recover"],
+    ["因祸得福", "yīn huò dé fú", "to turn misfortune into a blessing"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the passage, what is wrong with taking the slogan 'failure is the mother of success' at face value?",
+      "a": [
+        "Failure does not automatically turn into experience; without honest reflection it is just wasted",
+        "Success actually causes more failure than failure causes success",
+        "The slogan only applies to scientists, not to entrepreneurs"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the vaccine researcher do differently after each failed experiment, compared to the struggling entrepreneur?",
+      "a": [
+        "He gave up on the project after the first major failure",
+        "He carefully recorded variables and revised his hypotheses each time",
+        "He blamed bad luck and the market environment"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the passage, what is the real difference between valuable failure and wasted failure?",
+      "a": [
+        "How many times a person has failed",
+        "Whether the failure happened in science or in business",
+        "Whether one builds a systematic habit of reviewing and reflecting on failure"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "……不在于……，而在于……",
+      "e": "'It does not lie in A, but rather in B' — used to redirect the reader's attention from a surface-level factor to the real, deeper factor that actually matters. 例：学习的效果不在于时间的长短，而在于是否用心。",
+      "x": "两者的根本区别不在于失败的次数多寡，而在于是否建立起系统的复盘机制。 — The fundamental difference between the two lies not in how many times one fails, but in whether one has built a systematic habit of review."
+      },
+    {
+      "p": "与其……，不如……",
+      "e": "'Rather than A, it would be better to B' — used to weigh two options and argue that the second is the wiser or more worthwhile course of action. 例：与其抱怨环境，不如努力改变自己。",
+      "x": "与其空谈失败的意义，不如养成对失败进行系统反思的习惯。 — Rather than talking emptily about the meaning of failure, it is better to cultivate a habit of systematically reflecting on it."
+    }
+  ]
+}

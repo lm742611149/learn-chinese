@@ -1,0 +1,51 @@
+{
+  "slug": "hsk1-taking-the-train",
+  "level": 1,
+  "title_zh": "坐火车",
+  "title_py": "Zuò huǒchē",
+  "title_en": "Taking the Train",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["明天","míngtiān","tomorrow"],["，"],["我","wǒ","I; me"],["要","yào","want to"],["坐","zuò","to take (transport)"],["火车","huǒchē","train"],["去","qù","to go"],["北京","Běijīng","Beijing"],["。"]],
+      "en": "Tomorrow, I want to take the train to Beijing."
+    },
+    {
+      "t": [["火车站","huǒchēzhàn","train station"],["有","yǒu","there is; have"],["很","hěn","very"],["多","duō","many"],["人","rén","people"],["。"]],
+      "en": "There are many people at the train station."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["火车","huǒchē","train"],["是","shì","to be"],["几","jǐ","how many; what"],["点","diǎn","o'clock"],["？"]],
+      "en": "What time is my train?"
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["火车","huǒchē","train"],["是","shì","to be"],["九","jiǔ","nine"],["点","diǎn","o'clock"],["。"]],
+      "en": "My train is at nine o'clock."
+    },
+    {
+      "t": [["火车","huǒchē","train"],["上","shàng","on"],["有","yǒu","there is; have"],["很","hěn","very"],["多","duō","many"],["椅子","yǐzi","seats; chairs"],["。"]],
+      "en": "There are many seats on the train."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at; in"],["火车","huǒchē","train"],["上","shàng","on"],["看","kàn","to read"],["书","shū","book"],["，"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "I read a book on the train, I am very happy."
+    }
+  ],
+  "vocab": [
+    ["火车","huǒchē","train"],
+    ["火车站","huǒchēzhàn","train station"],
+    ["北京","Běijīng","Beijing"],
+    ["坐","zuò","to take (transport)"],
+    ["几","jǐ","how many; what"],
+    ["点","diǎn","o'clock"]
+  ],
+  "quiz": [
+    {"q":"Where is the narrator going?","a":["Shanghai","Beijing","Home"],"c":1},
+    {"q":"What time is the train?","a":["Seven o'clock","Nine o'clock","Eleven o'clock"],"c":1},
+    {"q":"What does the narrator do on the train?","a":["Sleeps","Reads a book","Eats food"],"c":1}
+  ],
+  "grammar": [
+    {"p":"坐 + vehicle — taking a form of transportation","e":"坐 means 'to sit,' but with a vehicle it means 'to take/ride': 坐火车 = to take the train.","x":"我要坐火车去北京。 — I want to take the train to Beijing."},
+    {"p":"几点 — asking what time","e":"几点 means 'what time.' Put it after 是 to ask about a time: 火车是几点？= What time is the train?","x":"我的火车是几点？ — What time is my train?"}
+  ]
+}
