@@ -293,7 +293,7 @@ def build_reader(t, next_t=None):
     desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
             f"English translation: {t['title_en']}.")
     return page(title, desc, body, rel="../",
-                path=f"texts/{t['slug']}.html")
+                path=f"texts/{t['slug']}")
 
 
 def build_index(texts):
@@ -481,7 +481,7 @@ def build_level(texts, lvl):
     return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
                 f"Free HSK {lvl} Chinese reading practice: {len(mine)} original graded "
                 f"readings with pinyin, audio, tap-to-translate and quizzes.", body,
-                path=f"hsk{lvl}.html")
+                path=f"hsk{lvl}")
 
 
 def word_examples(texts, words):
@@ -566,7 +566,7 @@ def build_words(texts):
   <div class="wlist">{''.join(rows)}</div>"""
     return page(f"Chinese Vocabulary List (HSK 1-6) | {SITE['site_name']}",
                 "Searchable Chinese vocabulary with pinyin and audio from graded readings.",
-                body, path="words.html")
+                body, path="words")
 
 
 def gated(inner, title_zh, blurb):
@@ -606,7 +606,7 @@ def build_wordbook():
         "Save words with ☆ while you read, then practice them as flashcards.")
     return page(f"My Wordbook | {SITE['site_name']}",
                 "Your saved Chinese words with flashcard practice.", body,
-                path="wordbook.html", noindex=True)
+                path="wordbook", noindex=True)
 
 
 def build_progress(texts):
@@ -636,7 +636,7 @@ def build_progress(texts):
   <script>window.RCD_LEVELS={json.dumps(levels)};window.RCD_TOTALS={json.dumps(totals)};</script>"""
     return page(f"My Progress | {SITE['site_name']}",
                 "Your Chinese reading streak, badges and check-in calendar.", body,
-                path="progress.html", noindex=True)
+                path="progress", noindex=True)
 
 
 def build_about(texts):
@@ -707,7 +707,27 @@ def build_about(texts):
   </section>"""
     return page(f"About | {SITE['site_name']}",
                 f"About {SITE['teacher_name']} — Chinese teacher.", body,
-                path="about.html")
+                path="about")
+
+
+def build_404():
+    """CF Pages 自动用 docs/404.html 兜底,并返回真正的 404 状态码。
+    rel='/' -> 资源走绝对路径,因为 404 可能在任意深度被触发。"""
+    body = """
+  <section class="about" style="text-align:center; padding:72px 0 84px">
+    <div style="font-family:var(--serif); font-size:6rem; font-weight:900;
+      color:var(--red); opacity:.2; line-height:1; user-select:none">读</div>
+    <h1 style="margin-top:8px">This page doesn't exist</h1>
+    <p>The link may be out of date, or the address has a typo.
+      All 225 readings are still here — pick a level and keep going.</p>
+    <div style="margin-top:24px">
+      <a class="bc-btn" href="/">Back to the readings →</a>
+      <a class="bc-alt" href="/words">Browse the word list →</a>
+    </div>
+  </section>"""
+    return page(f"Page not found | {SITE['site_name']}",
+                "This page does not exist on Read Mandarin.", body,
+                rel="/", noindex=True)
 
 
 def main():
@@ -737,6 +757,7 @@ def main():
         open(os.path.join(OUT, f"hsk{lvl}.html"), "w",
              encoding="utf-8").write(build_level(texts, lvl))
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about(texts))
+    open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(build_404())
     open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
@@ -760,9 +781,9 @@ def main():
     canon = (SITE.get("canonical_url") or "").rstrip("/")
     n_urls = 0
     if canon:
-        urls = [("", "1.0"), ("words.html", "0.7"), ("about.html", "0.5")]
-        urls += [(f"hsk{lvl}.html", "0.8") for lvl in range(1, 7)]
-        urls += [(f"texts/{t['slug']}.html", "0.9")
+        urls = [("", "1.0"), ("words", "0.7"), ("about", "0.5")]
+        urls += [(f"hsk{lvl}", "0.8") for lvl in range(1, 7)]
+        urls += [(f"texts/{t['slug']}", "0.9")
                  for t in sorted(texts, key=lambda x: x["slug"])]
         n_urls = len(urls)
         entries = "\n".join(
@@ -775,7 +796,7 @@ def main():
         # 个人数据页不进索引
         open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(
             "User-agent: *\nAllow: /\n"
-            "Disallow: /wordbook.html\nDisallow: /progress.html\n\n"
+            "Disallow: /wordbook\nDisallow: /progress\n\n"
             f"Sitemap: {canon}/sitemap.xml\n")
 
     print(f"built {len(texts)} readings + words/wordbook -> docs/"
