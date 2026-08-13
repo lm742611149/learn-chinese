@@ -50,10 +50,11 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-def page(title, desc, body, rel="", path=None, noindex=False):
+def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
     """rel  = prefix to reach site root ('' at root, '../' inside texts/).
     path = this page's path from site root ('' for home), used for canonical
-           + og:url. None = skip those tags."""
+           + og:url. None = skip those tags.
+    ld   = list of schema.org dicts emitted as JSON-LD."""
     name = esc(SITE["site_name"])
     fb = SITE.get("firebase") or {}
     auth_btn = ('<button class="nav-link" id="t-auth">Sign in</button>'
@@ -76,6 +77,9 @@ def page(title, desc, body, rel="", path=None, noindex=False):
                f'<meta name="twitter:card" content="summary_large_image">\n')
     if noindex:
         seo += '<meta name="robots" content="noindex,follow">\n'
+    for block in (ld or []):
+        seo += ('<script type="application/ld+json">'
+                + json.dumps(block, ensure_ascii=False) + '</script>\n')
     providers = SITE.get("auth_providers", ["google"])
     auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};'
                f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
@@ -98,6 +102,7 @@ def page(title, desc, body, rel="", path=None, noindex=False):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap"></noscript>
 <link rel="stylesheet" href="{rel}assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="{name} — new readings" href="{rel}rss.xml">
 <link rel="manifest" href="{rel}manifest.webmanifest">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
 <meta name="theme-color" content="#c73e2a">
@@ -136,6 +141,7 @@ def page(title, desc, body, rel="", path=None, noindex=False):
       <a href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">Facebook</a>
       <a href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a lesson</a>
       <a href="{rel}about.html">About</a>
+      <a href="{rel}rss.xml">RSS</a>
     </div>
   </footer>
 </div>
@@ -292,8 +298,36 @@ def build_reader(t, next_t=None):
     title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading"
     desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
             f"English translation: {t['title_en']}.")
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    ld = [{
+        "@context": "https://schema.org",
+        "@type": "LearningResource",
+        "name": f"{t['title_zh']} — {t['title_en']}",
+        "url": f"{base}/texts/{t['slug']}",
+        "inLanguage": "zh-CN",
+        "learningResourceType": "graded reading",
+        "educationalLevel": f"HSK {t['level']}",
+        "teaches": ", ".join(w[0] for w in t["vocab"]),
+        "timeRequired": f"PT{max(1, minutes)}M",
+        "isAccessibleForFree": True,
+        "inDefinedTermSet": "HSK (Chinese Proficiency Test)",
+        "author": {"@type": "Person", "name": SITE["teacher_name"]},
+        "publisher": {"@type": "Organization", "name": SITE["site_name"],
+                      "url": base or None},
+    }, {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE["site_name"],
+             "item": f"{base}/"},
+            {"@type": "ListItem", "position": 2,
+             "name": f"HSK {t['level']} — {LEVEL_WORDS[t['level']]}",
+             "item": f"{base}/hsk{t['level']}"},
+            {"@type": "ListItem", "position": 3, "name": t["title_en"]},
+        ],
+    }]
     return page(title, desc, body, rel="../",
-                path=f"texts/{t['slug']}")
+                path=f"texts/{t['slug']}", ld=ld)
 
 
 def build_index(texts):
@@ -449,8 +483,34 @@ def build_index(texts):
     </div>
   </section>
   <script>window.RCD_LEVELS={json.dumps(levels_map)};</script>"""
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    st = SITE.get("teacher_stats") or {}
+    person = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": SITE["teacher_name"],
+        "jobTitle": "Mandarin teacher",
+        "url": f"{base}/about",
+        "image": f"{base}/assets/teacher.jpg",
+        "sameAs": [SITE["preply_url"], SITE["facebook_url"]],
+    }
+    if st.get("rating") and st.get("reviews"):
+        person["aggregateRating"] = {
+            "@type": "AggregateRating",
+            "ratingValue": st["rating"], "reviewCount": st["reviews"],
+            "bestRating": "5", "worstRating": "1",
+        }
+    ld = [{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": SITE["site_name"],
+        "url": f"{base}/",
+        "description": SITE["description"],
+        "inLanguage": "en",
+        "author": {"@type": "Person", "name": SITE["teacher_name"]},
+    }, person]
     return page(f"{SITE['site_name']} — Free graded Chinese readings (HSK 1-6)",
-                SITE["description"], body, path="")
+                SITE["description"], body, path="", ld=ld)
 
 
 def build_level(texts, lvl):
@@ -478,10 +538,32 @@ def build_level(texts, lvl):
     <section class="cards">{cards}
     </section>
   </article>"""
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    ld = [{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE["site_name"],
+             "item": f"{base}/"},
+            {"@type": "ListItem", "position": 2,
+             "name": f"HSK {lvl} — {LEVEL_WORDS[lvl]}"},
+        ],
+    }, {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": f"HSK {lvl} graded Chinese readings",
+        "numberOfItems": len(mine),
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1,
+             "url": f"{base}/texts/{x['slug']}",
+             "name": f"{x['title_zh']} — {x['title_en']}"}
+            for i, x in enumerate(mine)
+        ],
+    }]
     return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
                 f"Free HSK {lvl} Chinese reading practice: {len(mine)} original graded "
                 f"readings with pinyin, audio, tap-to-translate and quizzes.", body,
-                path=f"hsk{lvl}")
+                path=f"hsk{lvl}", ld=ld)
 
 
 def word_examples(texts, words):
@@ -710,6 +792,39 @@ def build_about(texts):
                 path="about")
 
 
+def build_rss(texts):
+    """最近 30 篇,按加入时间倒序。日期用文件 mtime —— 内容本身没有发布日期。"""
+    import email.utils
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    recent = sorted(texts, key=lambda x: -x.get("_mtime", 0))[:30]
+    items = []
+    for t in recent:
+        n_words = sum(len(s["t"]) for s in t["sentences"])
+        preview = "".join(w[0] for w in t["sentences"][0]["t"])
+        desc = (f"HSK {t['level']} · {n_words} words. {esc(preview)} "
+                f"— {esc(t['title_en'])}. Pinyin, audio and English included.")
+        items.append(f"""  <item>
+    <title>{esc(t['title_zh'])} — {esc(t['title_en'])} (HSK {t['level']})</title>
+    <link>{base}/texts/{t['slug']}</link>
+    <guid isPermaLink="true">{base}/texts/{t['slug']}</guid>
+    <description>{desc}</description>
+    <category>HSK {t['level']}</category>
+    <pubDate>{email.utils.formatdate(t.get('_mtime', 0), usegmt=True)}</pubDate>
+  </item>""")
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{esc(SITE['site_name'])}</title>
+  <link>{base}/</link>
+  <atom:link href="{base}/rss.xml" rel="self" type="application/rss+xml"/>
+  <description>{esc(SITE['description'])}</description>
+  <language>en</language>
+{chr(10).join(items)}
+</channel>
+</rss>
+"""
+
+
 def build_404():
     """CF Pages 自动用 docs/404.html 兜底,并返回真正的 404 状态码。
     rel='/' -> 资源走绝对路径,因为 404 可能在任意深度被触发。"""
@@ -758,6 +873,7 @@ def main():
              encoding="utf-8").write(build_level(texts, lvl))
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about(texts))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(build_404())
+    open(os.path.join(OUT, "rss.xml"), "w", encoding="utf-8").write(build_rss(texts))
     open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))

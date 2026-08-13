@@ -6,7 +6,7 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=100006893415469",
   "preply_url": "https://preply.com/en/tutor/6593385",
   "newsletter_url": "",
-  "analytics_snippet": "",
+  "analytics_snippet": "<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{\"token\": \"fd019fce8f48488e97a28e32c1a88dcd\"}'></script>",
   "firebase": {
     "apiKey": "AIzaSyDJRiydhwUk2z73o-wWw8A4m4Ve-mria34",
     "authDomain": "daily-chinese-34493.firebaseapp.com",
@@ -15,10 +15,22 @@
     "messagingSenderId": "1014092265545",
     "appId": "1:1014092265545:web:cfe2f7a35ed8f6ffca2798"
   },
-  "auth_providers": ["google", "facebook", "email"],
-  "featured": ["hsk2-buying-coffee", "hsk6-power-of-persistence", "hsk4-phones-and-life"],
+  "auth_providers": [
+    "google",
+    "facebook",
+    "email"
+  ],
+  "featured": [
+    "hsk2-buying-coffee",
+    "hsk6-power-of-persistence",
+    "hsk4-phones-and-life"
+  ],
   "teacher_name": "Fei",
   "teacher_role": "Mandarin teacher · Beijing Language University",
-  "teacher_stats": {"rating": "4.91", "reviews": 34, "lessons": 331},
+  "teacher_stats": {
+    "rating": "4.91",
+    "reviews": 34,
+    "lessons": 331
+  },
   "teacher_bio": "I teach Mandarin to students from all over the world on Preply, and share bite-size Chinese lessons with 30,000+ followers on Facebook. I built this site so anyone can read real Chinese — for free."
 }

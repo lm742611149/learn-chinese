@@ -909,4 +909,27 @@
       });
     }
   }
+
+  /* ---------- outbound clicks (Preply / Facebook) ----------
+     页面浏览量说明有人来了,这个说明有人被打动了 —— 记下点的是哪一处。 */
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="http"]');
+    if (!a) return;
+    var href = a.getAttribute("href") || "";
+    var dest = href.indexOf("preply.com") >= 0 ? "preply"
+             : href.indexOf("facebook.com") >= 0 ? "facebook" : "";
+    if (!dest) return;
+    // 点的是哪个位置:导航 / 课文尾 / 作者卡 / 页脚 / About
+    var where = a.closest(".nav-menu") ? "nav"
+              : a.closest(".book-cta") ? "cta-card"
+              : a.closest(".ab-cta") ? "about-cta"
+              : a.closest(".teacher-card") ? "about-header"
+              : a.closest(".reader-foot") ? "reader-foot"
+              : a.closest(".footer") ? "footer"
+              : a.closest(".slide") ? "hero" : "other";
+    try {
+      if (window.gtag) gtag("event", "outbound_" + dest, { placement: where });
+      if (window.plausible) plausible("Outbound: " + dest, { props: { placement: where } });
+    } catch (err) {}
+  }, true);
 })();
