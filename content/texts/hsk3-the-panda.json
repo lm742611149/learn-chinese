@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-the-panda",
+  "level": 3,
+  "title_zh": "熊猫",
+  "title_py": "Xióngmāo",
+  "title_en": "The Panda",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last"],["个","gè","(measure word)"],["月","yuè","month"],["，"],["我","wǒ","I; me"],["和","hé","and"],["几","jǐ","several"],["个","gè","(measure word)"],["朋友","péngyou","friend"],["坐","zuò","to ride"],["了","le","(particle: completed)"],["三","sān","three"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["的","de","(particle: attributive)"],["车","chē","bus; car"],["，"],["去","qù","to go"],["看","kàn","to see"],["熊猫","xióngmāo","panda"],["。"]],
+      "en": "Last month a few friends and I took a three-hour bus ride to go and see the pandas."
+    },
+    {
+      "t": [["熊猫","xióngmāo","panda"],["是","shì","to be"],["中国","Zhōngguó","China"],["最","zuì","most"],["有名","yǒumíng","famous"],["的","de","(particle: attributive)"],["动物","dòngwù","animal"],["，"],["很多","hěn duō","many"],["人","rén","person"],["来","lái","to come"],["中国","Zhōngguó","China"],["，"],["就是","jiùshì","simply; just"],["为了","wèile","in order to"],["看看","kànkan","to take a look at"],["它们","tāmen","them"],["。"]],
+      "en": "The panda is China's most famous animal, and many people come to China simply in order to see them."
+    },
+    {
+      "t": [["那","nà","that"],["天","tiān","day"],["早上","zǎoshang","morning"],["下","xià","to fall"],["着","zhe","(particle: ongoing state)"],["小雨","xiǎoyǔ","light rain"],["，"],["可是","kěshì","but"],["公园","gōngyuán","park"],["里","lǐ","inside"],["的","de","(particle: attributive)"],["人","rén","person"],["还是","háishi","still"],["特别","tèbié","especially"],["多","duō","many"],["。"]],
+      "en": "It was drizzling that morning, but there were still an awful lot of people in the park."
+    },
+    {
+      "t": [["我们","wǒmen","we"],["等","děng","to wait"],["了","le","(particle: completed)"],["半","bàn","half"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["，"],["终于","zhōngyú","finally"],["看见","kànjiàn","to see"],["了","le","(particle: completed)"],["一","yì","one"],["只","zhī","(measure word for animals)"],["小","xiǎo","little"],["熊猫","xióngmāo","panda"],["。"]],
+      "en": "We waited half an hour and finally saw a little panda."
+    },
+    {
+      "t": [["它","tā","it"],["坐","zuò","to sit"],["在","zài","on"],["草","cǎo","grass"],["上","shang","on"],["，"],["一边","yìbiān","while (doing sth)"],["吃","chī","to eat"],["竹子","zhúzi","bamboo"],["，"],["一边","yìbiān","while (doing sth)"],["看","kàn","to see"],["我们","wǒmen","we"],["，"],["一点儿也不","yìdiǎnr yě bú","not … at all"],["害怕","hàipà","afraid"],["。"]],
+      "en": "It sat on the grass eating bamboo and watching us, not the least bit afraid."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["发现","fāxiàn","to notice"],["熊猫","xióngmāo","panda"],["走路","zǒulù","to walk"],["很","hěn","very"],["慢","màn","slow"],["，"],["可是","kěshì","but"],["爬","pá","to climb"],["树","shù","tree"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["非常","fēicháng","extremely"],["快","kuài","fast"],["。"]],
+      "en": "I noticed that pandas walk very slowly, but they are extremely fast when they climb trees."
+    },
+    {
+      "t": [["书","shū","book"],["上","shang","in"],["说","shuō","to say"],["，"],["一","yì","one"],["只","zhī","(measure word for animals)"],["大","dà","big"],["熊猫","xióngmāo","panda"],["一","yì","one"],["天","tiān","day"],["要","yào","to have to"],["吃","chī","to eat"],["十几","shíjǐ","more than ten"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["的","de","(particle: attributive)"],["竹子","zhúzi","bamboo"],["。"]],
+      "en": "Books say that a giant panda has to spend more than ten hours a day eating bamboo."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["中国","Zhōngguó","China"],["的","de","(particle: attributive)"],["熊猫","xióngmāo","panda"],["越来越","yuèláiyuè","more and more"],["多","duō","many"],["了","le","(particle: new situation)"],["，"],["我","wǒ","I; me"],["希望","xīwàng","to hope"],["以后","yǐhòu","in future"],["我","wǒ","I; me"],["的","de","(particle: attributive)"],["孩子","háizi","child"],["也","yě","also"],["能","néng","can; be able to"],["看见","kànjiàn","to see"],["它们","tāmen","them"],["。"]],
+      "en": "There are more and more pandas in China now, and I hope that one day my children will be able to see them too."
+    }
+  ],
+  "vocab": [
+    ["熊猫","xióngmāo","panda"],
+    ["竹子","zhúzi","bamboo"],
+    ["动物","dòngwù","animal"],
+    ["终于","zhōngyú","finally; at last"],
+    ["害怕","hàipà","to be afraid"],
+    ["只","zhī","(measure word for animals)"]
+  ],
+  "quiz": [
+    {"q": "How long did they wait before they saw a panda?", "a": ["Half an hour", "Ten minutes", "Three hours"], "c": 0},
+    {"q": "What was the panda doing when they saw it?", "a": ["Sleeping in a tree", "Eating bamboo and watching them", "Playing with other pandas"], "c": 1},
+    {"q": "According to the text, how long does a giant panda eat each day?", "a": ["About two hours", "Only at night", "More than ten hours"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "为了 + purpose — in order to", "e": "为了 introduces the goal of an action. It stands before the main clause, or right after 就是 to mean 'just in order to'.", "x": "很多人来中国，就是为了看熊猫。 — Many people come to China just in order to see pandas."},
+    {"p": "一点儿也不 + adjective — not … at all", "e": "一点儿也不 (or 一点儿都不) before an adjective or verb is a strong negative: 'not even a little'.", "x": "它一点儿也不害怕。 — It was not the least bit afraid."},
+    {"p": "终于 + verb — finally", "e": "终于 goes before the verb and marks a result that came after a long wait or effort. Use 然后 or 后来, not 终于, when you are simply listing steps.", "x": "我们等了半个小时，终于看见了一只小熊猫。 — We waited half an hour and finally saw a little panda."}
+  ]
+}

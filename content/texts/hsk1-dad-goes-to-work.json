@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-dad-goes-to-work",
+  "level": 1,
+  "title_zh": "爸爸工作",
+  "title_py": "Bàba gōngzuò",
+  "title_en": "Dad Goes to Work",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["爸爸","bàba","dad"],["在","zài","at; in"],["商店","shāngdiàn","store; shop"],["工作","gōngzuò","to work"],["。"]],
+      "en": "My dad works at a store."
+    },
+    {
+      "t": [["他","tā","he"],["早上","zǎoshang","morning"],["七点","qī diǎn","seven o'clock"],["去","qù","to go"],["商店","shāngdiàn","store; shop"],["。"]],
+      "en": "He goes to the store at seven in the morning."
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["他","tā","he"],["不","bù","not"],["回家","huí jiā","to go home"],["，"],["在","zài","at; in"],["商店","shāngdiàn","store; shop"],["吃饭","chī fàn","to eat a meal"],["。"]],
+      "en": "At noon he does not go home; he eats at the store."
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["六点","liù diǎn","six o'clock"],["，"],["他","tā","he"],["回家","huí jiā","to go home"],["。"]],
+      "en": "At six in the evening, he goes home."
+    },
+    {
+      "t": [["爸爸","bàba","dad"],["很","hěn","very"],["忙","máng","busy"],["，"],["他","tā","he"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["他","tā","he"],["的","de","(possessive particle)"],["工作","gōngzuò","job; work"],["。"]],
+      "en": "Dad is very busy, and he likes his job a lot."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["也","yě","also"],["想","xiǎng","to want"],["去","qù","to go"],["他","tā","he"],["的","de","(possessive particle)"],["商店","shāngdiàn","store; shop"],["看看","kànkan","to take a look"],["。"]],
+      "en": "I also want to go take a look at his store."
+    }
+  ],
+  "vocab": [
+    ["工作","gōngzuò","to work; job"],
+    ["商店","shāngdiàn","store; shop"],
+    ["中午","zhōngwǔ","noon"],
+    ["回家","huí jiā","to go home"],
+    ["忙","máng","busy"],
+    ["点","diǎn","o'clock"]
+  ],
+  "quiz": [
+    {"q":"Where does Dad work?","a":["At a store","At a school","At a hospital"],"c":0},
+    {"q":"What time does Dad go to the store in the morning?","a":["Six o'clock","Eight o'clock","Seven o'clock"],"c":2},
+    {"q":"Where does Dad eat at noon?","a":["At home","At the store","At school"],"c":1}
+  ],
+  "grammar": [
+    {"p":"在 + place + verb — where an action happens","e":"In Chinese the place phrase comes before the verb: 在商店工作 (at-store work), the opposite order from English 'work at the store'.","x":"我爸爸在商店工作。 — My dad works at a store."},
+    {"p":"Time before the verb","e":"Time words like 早上七点 come before the verb, and usually right after the subject.","x":"他早上七点去商店。 — He goes to the store at seven in the morning."},
+    {"p":"不 — negation","e":"Put 不 before the verb to say 'not'. Before a fourth-tone syllable it is read bú, elsewhere bù.","x":"中午他不回家。 — At noon he does not go home."}
+  ]
+}

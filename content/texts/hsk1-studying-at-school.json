@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-studying-at-school",
+  "level": 1,
+  "title_zh": "在学校学习",
+  "title_py": "Zài xuéxiào xuéxí",
+  "title_en": "Studying at School",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at; in"],["学校","xuéxiào","school"],["学习","xuéxí","to study"],["汉语","Hànyǔ","Chinese (language)"],["。"]],
+      "en": "I study Chinese at school."
+    },
+    {
+      "t": [["我们","wǒmen","we"],["的","de","(possessive particle)"],["老师","lǎoshī","teacher"],["是","shì","to be"],["中国","Zhōngguó","China"],["人","rén","person"],["，"],["她","tā","she"],["很","hěn","very"],["好","hǎo","good; nice"],["。"]],
+      "en": "Our teacher is Chinese, and she is very nice."
+    },
+    {
+      "t": [["上午","shàngwǔ","morning"],["我们","wǒmen","we"],["学","xué","to learn"],["写","xiě","to write"],["汉字","Hànzì","Chinese characters"],["。"]],
+      "en": "In the morning we learn to write Chinese characters."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["写","xiě","to write"],["的","de","(particle)"],["字","zì","character"],["不太","bú tài","not very"],["好","hǎo","good"],["，"],["老师","lǎoshī","teacher"],["说","shuō","to say"],["没关系","méi guānxi","it doesn't matter"],["。"]],
+      "en": "The characters I write are not very good, but the teacher says it doesn't matter."
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["四点","sì diǎn","four o'clock"],["，"],["我们","wǒmen","we"],["回家","huí jiā","to go home"],["。"]],
+      "en": "At four in the afternoon, we go home."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["学习","xuéxí","to study"],["汉语","Hànyǔ","Chinese (language)"],["。"]],
+      "en": "I really like studying Chinese."
+    }
+  ],
+  "vocab": [
+    ["学习","xuéxí","to study"],
+    ["学校","xuéxiào","school"],
+    ["汉语","Hànyǔ","Chinese (language)"],
+    ["汉字","Hànzì","Chinese character"],
+    ["老师","lǎoshī","teacher"],
+    ["没关系","méi guānxi","it doesn't matter; no problem"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator study at school?","a":["English","Chinese","Math"],"c":1},
+    {"q":"Where is the teacher from?","a":["China","Japan","America"],"c":0},
+    {"q":"What time do they go home in the afternoon?","a":["Three o'clock","Five o'clock","Four o'clock"],"c":2}
+  ],
+  "grammar": [
+    {"p":"在 + place + verb — where you do something","e":"Say where first, then what you do: 在学校学习 = study at school.","x":"我在学校学习汉语。 — I study Chinese at school."},
+    {"p":"不太 + adjective — not very","e":"不太 softens a negative judgement. Because 太 is fourth tone, 不 is read bú here.","x":"我写的字不太好。 — The characters I write are not very good."},
+    {"p":"verb + 的 + noun — a modifier before a noun","e":"A whole phrase can describe a noun if you add 的: 我写的字 = the characters that I write.","x":"我写的字不太好。 — The characters I write are not very good."}
+  ]
+}

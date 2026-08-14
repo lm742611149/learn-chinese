@@ -1,0 +1,236 @@
+{
+  "slug": "hsk4-the-chinese-zodiac",
+  "level": 4,
+  "title_zh": "十二生肖",
+  "title_py": "Shí'èr Shēngxiào",
+  "title_en": "The Chinese Zodiac",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["问", "wèn", "to ask"],
+        ["别人", "biéren", "other people"],
+        ["的", "de", "(possessive)"],
+        ["年龄", "niánlíng", "age"],
+        ["有时候", "yǒu shíhou", "sometimes"],
+        ["不", "bú", "not"],
+        ["太", "tài", "very"],
+        ["礼貌", "lǐmào", "polite"],
+        ["，"],
+        ["所以", "suǒyǐ", "so"],
+        ["人们", "rénmen", "people"],
+        ["常常", "chángcháng", "often"],
+        ["先", "xiān", "first"],
+        ["问", "wèn", "to ask"],
+        ["别人", "biéren", "other people"],
+        ["属", "shǔ", "to be born in the year of"],
+        ["什么", "shénme", "what"],
+        ["。"]
+      ],
+      "en": "In China, asking someone's age can be a bit impolite, so people often first ask what zodiac animal you were born under."
+    },
+    {
+      "t": [
+        ["十二", "shí'èr", "twelve"],
+        ["生肖", "shēngxiào", "zodiac animals"],
+        ["是", "shì", "are"],
+        ["十二", "shí'èr", "twelve"],
+        ["种", "zhǒng", "kinds of"],
+        ["动物", "dòngwù", "animals"],
+        ["，"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind"],
+        ["，"],
+        ["十二", "shí'èr", "twelve"],
+        ["年", "nián", "years"],
+        ["以后", "yǐhòu", "later"],
+        ["又", "yòu", "again"],
+        ["从", "cóng", "from"],
+        ["第一", "dì-yī", "the first"],
+        ["种", "zhǒng", "kind"],
+        ["开始", "kāishǐ", "to start"],
+        ["。"]
+      ],
+      "en": "The twelve zodiac signs are twelve animals, one animal per year; after twelve years it starts again from the first one."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["属", "shǔ", "to be born in the year of"],
+        ["马", "mǎ", "horse"],
+        ["，"],
+        ["我", "wǒ", "my"],
+        ["妈妈", "māma", "mother"],
+        ["也", "yě", "also"],
+        ["属", "shǔ", "to be born in the year of"],
+        ["马", "mǎ", "horse"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["正好", "zhènghǎo", "exactly"],
+        ["差", "chà", "to differ by"],
+        ["二十四", "èrshísì", "twenty-four"],
+        ["岁", "suì", "years of age"],
+        ["。"]
+      ],
+      "en": "I was born in the year of the horse, and so was my mother; we are exactly twenty-four years apart."
+    },
+    {
+      "t": [
+        ["每", "měi", "every"],
+        ["年", "nián", "year"],
+        ["过年", "guònián", "to celebrate New Year"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time"],
+        ["，"],
+        ["商店", "shāngdiàn", "shops"],
+        ["里", "lǐ", "inside"],
+        ["到处", "dàochù", "everywhere"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "are"],
+        ["那", "nà", "that"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["的", "de", "(possessive)"],
+        ["动物", "dòngwù", "animal"],
+        ["。"]
+      ],
+      "en": "Every year at New Year, that year's animal is everywhere in the shops."
+    },
+    {
+      "t": [
+        ["听说", "tīngshuō", "it is said"],
+        ["属", "shǔ", "to be born in the year of"],
+        ["龙", "lóng", "dragon"],
+        ["的", "de", "(nominalizer)"],
+        ["孩子", "háizi", "children"],
+        ["特别", "tèbié", "especially"],
+        ["受欢迎", "shòu huānyíng", "popular; welcomed"],
+        ["，"],
+        ["所以", "suǒyǐ", "so"],
+        ["龙", "lóng", "dragon"],
+        ["年", "nián", "year"],
+        ["出生", "chūshēng", "to be born"],
+        ["的", "de", "(nominalizer)"],
+        ["孩子", "háizi", "children"],
+        ["特别", "tèbié", "especially"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "People say children born in the year of the dragon are especially welcome, so there are especially many babies born in dragon years."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["，"],
+        ["人", "rén", "a person"],
+        ["的", "de", "(possessive)"],
+        ["性格", "xìnggé", "personality"],
+        ["跟", "gēn", "with"],
+        ["出生", "chūshēng", "to be born"],
+        ["的", "de", "(possessive)"],
+        ["那", "nà", "that"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["没有", "méiyǒu", "not have"],
+        ["多", "duō", "much"],
+        ["大", "dà", "big"],
+        ["关系", "guānxi", "connection"],
+        ["。"]
+      ],
+      "en": "I do think, though, that a person's character has little to do with the year they were born."
+    },
+    {
+      "t": [
+        ["只要", "zhǐyào", "as long as"],
+        ["努力", "nǔlì", "to work hard"],
+        ["，"],
+        ["属", "shǔ", "to be born in the year of"],
+        ["什么", "shénme", "what"],
+        ["都", "dōu", "all"],
+        ["一样", "yíyàng", "the same"],
+        ["。"]
+      ],
+      "en": "As long as you work hard, it makes no difference which animal year you were born in."
+    },
+    {
+      "t": [
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I"],
+        ["还是", "háishi", "still"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["这", "zhè", "this"],
+        ["个", "ge", "(measure word)"],
+        ["问题", "wèntí", "question"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["它", "tā", "it"],
+        ["让", "ràng", "to let; to make"],
+        ["两", "liǎng", "two"],
+        ["个", "ge", "(measure word)"],
+        ["刚", "gāng", "just now"],
+        ["认识", "rènshi", "to meet; to get to know"],
+        ["的", "de", "(nominalizer)"],
+        ["人", "rén", "people"],
+        ["马上", "mǎshàng", "immediately"],
+        ["就", "jiù", "then"],
+        ["有", "yǒu", "to have"],
+        ["了", "le", "(particle)"],
+        ["可以", "kěyǐ", "can"],
+        ["聊", "liáo", "to chat about"],
+        ["的", "de", "(nominalizer)"],
+        ["东西", "dōngxi", "things"],
+        ["。"]
+      ],
+      "en": "But I still like the question, because it instantly gives two people who have just met something to chat about."
+    }
+  ],
+  "vocab": [
+    ["生肖", "shēngxiào", "Chinese zodiac animal"],
+    ["属", "shǔ", "to be born in the year of"],
+    ["礼貌", "lǐmào", "polite; manners"],
+    ["正好", "zhènghǎo", "exactly; just right"],
+    ["性格", "xìnggé", "personality; character"],
+    ["到处", "dàochù", "everywhere"]
+  ],
+  "quiz": [
+    {
+      "q": "Why do people often ask which zodiac animal you were born under?",
+      "a": ["Because asking someone's age directly can be impolite", "Because it decides your job", "Because shops require it"],
+      "c": 0
+    },
+    {
+      "q": "Which animal year were the author and their mother born in?",
+      "a": ["Dragon", "Horse", "Rabbit"],
+      "c": 1
+    },
+    {
+      "q": "What does the author think about character and birth year?",
+      "a": ["The birth year fully decides your character", "Only the dragon year matters", "There is little connection between them"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "只要……都/就…… — as long as…",
+      "e": "只要 gives the one condition that is enough, and 都 or 就 states the result: 只要努力，属什么都一样。",
+      "x": "只要有时间，我就去图书馆看书。— As long as I have time, I go and read at the library."
+    },
+    {
+      "p": "跟……没有关系 — to have nothing to do with…",
+      "e": "A 跟 B 有/没有关系 says whether two things are connected; 多大 before 关系 softens it to \"not much\".",
+      "x": "这件事跟他没有关系。— This matter has nothing to do with him."
+    },
+    {
+      "p": "到处都是…… — … is everywhere",
+      "e": "到处 means \"all over the place\" and is normally followed by 都, showing there are no exceptions.",
+      "x": "下雪以后，路上到处都是水。— After the snow, there was water all over the road."
+    }
+  ]
+}

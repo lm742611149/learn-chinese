@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-working-overtime",
+  "level": 3,
+  "title_zh": "加班",
+  "title_py": "Jiābān",
+  "title_en": "Working Overtime",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["最近","zuìjìn","recently"],["公司","gōngsī","company"],["的","de","(particle: attributive)"],["事情","shìqing","matter; thing"],["特别","tèbié","especially"],["多","duō","many; a lot"],["，"],["我","wǒ","I; me"],["几乎","jīhū","almost"],["每天","měi tiān","every day"],["都","dōu","all; every"],["要","yào","to have to"],["加班","jiābān","to work overtime"],["。"]],
+      "en": "Recently there has been an awful lot going on at the company, and I have had to work overtime almost every day."
+    },
+    {
+      "t": [["昨天","zuótiān","yesterday"],["晚上","wǎnshang","evening; night"],["八","bā","eight"],["点","diǎn","o'clock"],["，"],["办公室","bàngōngshì","office"],["里","lǐ","inside"],["只有","zhǐyǒu","only"],["我","wǒ","I; me"],["和","hé","and"],["经理","jīnglǐ","manager"],["两","liǎng","two"],["个","gè","(measure word)"],["人","rén","person"],["。"]],
+      "en": "At eight o'clock last night, there were only two people in the office: me and the manager."
+    },
+    {
+      "t": [["他","tā","he"],["让","ràng","to ask (sb to do)"],["我","wǒ","I; me"],["把","bǎ","(particle: 把 construction)"],["这些","zhèxiē","these"],["电子邮件","diànzǐ yóujiàn","email"],["都","dōu","all; every"],["写","xiě","to write"],["完","wán","to finish"],["，"],["然后","ránhòu","then; after that"],["他","tā","he"],["自己","zìjǐ","oneself"],["也","yě","also"],["坐","zuò","to sit"],["在","zài","at"],["电脑","diànnǎo","computer"],["前","qián","in front of"],["工作","gōngzuò","to work"],["。"]],
+      "en": "He asked me to finish writing all these emails, and then he sat down at his own computer and worked too."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["一边","yìbiān","while (doing sth)"],["听","tīng","to listen to"],["音乐","yīnyuè","music"],["一边","yìbiān","while (doing sth)"],["工作","gōngzuò","to work"],["，"],["写","xiě","to write"],["完","wán","to finish"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["已经","yǐjīng","already"],["十","shí","ten"],["点","diǎn","o'clock"],["半","bàn","half"],["了","le","(particle: new situation)"],["。"]],
+      "en": "I worked while listening to music; by the time I finished, it was already half past ten."
+    },
+    {
+      "t": [["走","zǒu","to walk"],["出","chū","out"],["公司","gōngsī","company"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["街道","jiēdào","street"],["上","shang","on"],["的","de","(particle: attributive)"],["人","rén","person"],["越来越","yuèláiyuè","more and more"],["少","shǎo","few"],["，"],["我","wǒ","I; me"],["又","yòu","both … and …"],["累","lèi","tired"],["又","yòu","both … and …"],["饿","è","hungry"],["。"]],
+      "en": "As I walked out of the company, there were fewer and fewer people on the street, and I felt both tired and hungry."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at"],["楼","lóu","building"],["下","xià","below"],["的","de","(particle: attributive)"],["超市","chāoshì","supermarket"],["买","mǎi","to buy"],["了","le","(particle: completed)"],["一","yì","one"],["碗","wǎn","bowl (measure word)"],["面条","miàntiáo","noodles"],["，"],["坐","zuò","to sit"],["在","zài","at"],["公园","gōngyuán","park"],["的","de","(particle: attributive)"],["椅子","yǐzi","chair; bench"],["上","shang","on"],["慢慢","mànmàn","slowly"],["吃","chī","to eat"],["。"]],
+      "en": "I bought a bowl of noodles at the supermarket downstairs, then sat on a bench in the park and ate slowly."
+    },
+    {
+      "t": [["那","nà","that"],["时候","shíhou","time; when"],["我","wǒ","I; me"],["突然","tūrán","suddenly"],["想","xiǎng","to think"],["："],["钱","qián","money"],["虽然","suīrán","although"],["重要","zhòngyào","important"],["，"],["但是","dànshì","but"],["身体","shēntǐ","body; health"],["和","hé","and"],["自己","zìjǐ","oneself"],["的","de","(particle: attributive)"],["时间","shíjiān","time"],["更","gèng","even more"],["重要","zhòngyào","important"],["。"]],
+      "en": "At that moment it suddenly hit me: money matters, but my health and my own time matter even more."
+    },
+    {
+      "t": [["所以","suǒyǐ","so; therefore"],["我","wǒ","I; me"],["决定","juédìng","to decide"],["，"],["以后","yǐhòu","from now on"],["除了","chúle","except for"],["特别","tèbié","especially"],["忙","máng","busy"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["我","wǒ","I; me"],["不","bú","not"],["再","zài","any more"],["加班","jiābān","to work overtime"],["到","dào","until"],["这么","zhème","this; so"],["晚","wǎn","late"],["了","le","(particle: new situation)"],["。"]],
+      "en": "So I decided that from now on, except when things are especially busy, I will not work this late any more."
+    }
+  ],
+  "vocab": [
+    ["加班","jiābān","to work overtime"],
+    ["经理","jīnglǐ","manager"],
+    ["几乎","jīhū","almost"],
+    ["突然","tūrán","suddenly"],
+    ["决定","juédìng","to decide"],
+    ["除了","chúle","except for; besides"]
+  ],
+  "quiz": [
+    {"q": "What did the manager ask the narrator to do?", "a": ["Finish writing all the emails", "Clean the office", "Drive him home"], "c": 0},
+    {"q": "What time did the narrator finish his work?", "a": ["Eight o'clock", "Half past ten", "Midnight"], "c": 1},
+    {"q": "What did the narrator decide at the end?", "a": ["To look for a new company", "To work overtime every day", "Not to work this late any more unless it is really busy"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "一边……一边…… — doing two things at once", "e": "一边 A 一边 B says the two actions happen at the same time. Each slot takes a verb phrase, e.g. 一边走一边说.", "x": "我一边听音乐一边工作。 — I worked while listening to music."},
+    {"p": "虽然 A，但是 B — although A, B", "e": "虽然 may stand before or after the subject, and 但是 (or 可是) opens the second clause. Chinese keeps both halves, unlike English.", "x": "钱虽然重要，但是身体更重要。 — Money is important, but health matters more."},
+    {"p": "越来越 + adjective — more and more…", "e": "越来越 before an adjective (or a verb like 喜欢) describes a change that keeps growing over time.", "x": "街道上的人越来越少。 — There were fewer and fewer people on the street."}
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "hsk4-tai-chi-in-the-park",
+  "level": 4,
+  "title_zh": "太极拳",
+  "title_py": "Tàijíquán",
+  "title_en": "Tai Chi in the Park",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每天", "měitiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["六", "liù", "six"],
+        ["点", "diǎn", "o'clock"],
+        ["半", "bàn", "half"],
+        ["，"],
+        ["公园", "gōngyuán", "park"],
+        ["里", "lǐ", "inside"],
+        ["就", "jiù", "already"],
+        ["有", "yǒu", "there are"],
+        ["很多", "hěn duō", "many"],
+        ["老人", "lǎorén", "elderly people"],
+        ["在", "zài", "(progressive)"],
+        ["打", "dǎ", "to practise"],
+        ["太极拳", "tàijíquán", "tai chi"],
+        ["。"]
+      ],
+      "en": "At half past six every morning, there are already many elderly people practising tai chi in the park."
+    },
+    {
+      "t": [
+        ["他们", "tāmen", "their"],
+        ["的", "de", "(possessive)"],
+        ["动作", "dòngzuò", "movements"],
+        ["很", "hěn", "very"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["慢", "màn", "slow"],
+        ["得", "de", "(degree particle)"],
+        ["好像", "hǎoxiàng", "as if"],
+        ["在", "zài", "in"],
+        ["水", "shuǐ", "water"],
+        ["里", "lǐ", "inside"],
+        ["走路", "zǒulù", "to walk"],
+        ["。"]
+      ],
+      "en": "Their movements are slow — so slow it looks as if they were walking under water."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["一直", "yìzhí", "all along"],
+        ["以为", "yǐwéi", "to assume (wrongly)"],
+        ["太极拳", "tàijíquán", "tai chi"],
+        ["只是", "zhǐshì", "is only"],
+        ["老人", "lǎorén", "elderly people"],
+        ["的", "de", "(possessive)"],
+        ["运动", "yùndòng", "exercise"],
+        ["，"],
+        ["直到", "zhídào", "until"],
+        ["医生", "yīshēng", "doctor"],
+        ["让", "ràng", "to tell; to make"],
+        ["我", "wǒ", "me"],
+        ["多", "duō", "more"],
+        ["活动", "huódòng", "to move around"],
+        ["活动", "huódòng", "to move around"],
+        ["。"]
+      ],
+      "en": "I always assumed tai chi was only exercise for old people — until the doctor told me to move around more."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["的", "de", "(possessive)"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["不好意思", "bù hǎoyìsi", "embarrassed"],
+        ["地", "de", "(adverbial particle)"],
+        ["站", "zhàn", "to stand"],
+        ["在", "zài", "at"],
+        ["了", "le", "(particle)"],
+        ["他们", "tāmen", "them"],
+        ["后面", "hòumiàn", "behind"],
+        ["。"]
+      ],
+      "en": "One Saturday morning, I sheepishly took a place behind them."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["位", "wèi", "(polite measure word)"],
+        ["老人", "lǎorén", "elderly person"],
+        ["对", "duì", "to"],
+        ["我", "wǒ", "me"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["着急", "zháojí", "to be in a hurry"],
+        ["，"],
+        ["先", "xiān", "first"],
+        ["学会", "xuéhuì", "to learn to"],
+        ["站", "zhàn", "to stand"],
+        ["好", "hǎo", "properly"],
+        ["。"]
+      ],
+      "en": "An older man said to me: don't rush, first learn how to stand properly."
+    },
+    {
+      "t": [
+        ["那", "nà", "that"],
+        ["天", "tiān", "day"],
+        ["早上", "zǎoshang", "morning"],
+        ["我们", "wǒmen", "we"],
+        ["只", "zhǐ", "only"],
+        ["练", "liàn", "to practise"],
+        ["了", "le", "(particle)"],
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minutes"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "my"],
+        ["的", "de", "(possessive)"],
+        ["腿", "tuǐ", "legs"],
+        ["比", "bǐ", "than"],
+        ["跑步", "pǎobù", "running"],
+        ["以后", "yǐhòu", "after"],
+        ["还", "hái", "even"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "That morning we practised for only twenty minutes, but my legs were even more tired than after a run."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I"],
+        ["明白", "míngbai", "to understand"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["太极拳", "tàijíquán", "tai chi"],
+        ["看起来", "kànqǐlai", "to look; to seem"],
+        ["轻松", "qīngsōng", "relaxed; easy"],
+        ["，"],
+        ["其实", "qíshí", "actually"],
+        ["一点", "yìdiǎn", "a bit"],
+        ["也", "yě", "also"],
+        ["不", "bù", "not"],
+        ["简单", "jiǎndān", "simple"],
+        ["。"]
+      ],
+      "en": "Now I understand: tai chi looks easy, but it is not simple at all."
+    },
+    {
+      "t": [
+        ["打", "dǎ", "to practise"],
+        ["了", "le", "(particle)"],
+        ["半", "bàn", "half"],
+        ["年", "nián", "year"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["发现", "fāxiàn", "to discover"],
+        ["动作", "dòngzuò", "movements"],
+        ["越", "yuè", "the more"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["心里", "xīnlǐ", "in the heart; inside"],
+        ["越", "yuè", "the more"],
+        ["安静", "ānjìng", "calm; quiet"],
+        ["。"]
+      ],
+      "en": "After half a year of practice, I found that the slower the movements, the calmer I felt inside."
+    },
+    {
+      "t": [
+        ["对", "duì", "to"],
+        ["现在", "xiànzài", "today's"],
+        ["的", "de", "(possessive)"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["来说", "láishuō", "speaking of"],
+        ["，"],
+        ["慢", "màn", "slow"],
+        ["下来", "xiàlái", "(down; to slow down)"],
+        ["可能", "kěnéng", "maybe"],
+        ["比", "bǐ", "than"],
+        ["跑", "pǎo", "to run"],
+        ["得", "de", "(degree particle)"],
+        ["快", "kuài", "fast"],
+        ["更", "gèng", "even more"],
+        ["难", "nán", "difficult"],
+        ["。"]
+      ],
+      "en": "For young people today, slowing down may be even harder than running fast."
+    }
+  ],
+  "vocab": [
+    ["太极拳", "tàijíquán", "tai chi"],
+    ["动作", "dòngzuò", "movement; action"],
+    ["好像", "hǎoxiàng", "to seem; as if"],
+    ["轻松", "qīngsōng", "relaxed; easy"],
+    ["安静", "ānjìng", "quiet; calm"],
+    ["着急", "zháojí", "to be anxious; to rush"]
+  ],
+  "quiz": [
+    {
+      "q": "When do the elderly people practise tai chi in the park?",
+      "a": ["At half past six in the morning", "At noon", "In the evening after dinner"],
+      "c": 0
+    },
+    {
+      "q": "What finally made the author try tai chi?",
+      "a": ["A friend dragged them along", "The doctor told them to move around more", "They saw it on television"],
+      "c": 1
+    },
+    {
+      "q": "What did the author discover after half a year?",
+      "a": ["The movements got faster and faster", "It was as easy as it looked", "The slower the movements, the calmer they felt"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "越……越…… — the more…, the more…",
+      "e": "Two 越 phrases link a change in one thing to a change in another: 动作越慢，心里越安静。",
+      "x": "这本书越看越有意思。— The more I read this book, the more interesting it gets."
+    },
+    {
+      "p": "一直……，直到…… — kept …ing, until…",
+      "e": "一直 marks a state that continued without change, and 直到 gives the moment it ended.",
+      "x": "他一直站在门口，直到朋友出来。— He kept standing at the door until his friend came out."
+    },
+    {
+      "p": "看起来……，其实…… — it looks…, but actually…",
+      "e": "看起来 gives the first impression, and 其实 corrects it with the real situation.",
+      "x": "这个问题看起来很难，其实很简单。— This question looks hard, but it's actually very simple."
+    }
+  ]
+}

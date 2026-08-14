@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-saving-water",
+  "level": 3,
+  "title_zh": "节约用水",
+  "title_py": "Jiéyuē yòng shuǐ",
+  "title_en": "Saving Water",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last"],["个","gè","(measure word)"],["月","yuè","month"],["，"],["我","wǒ","I; me"],["发现","fāxiàn","to discover"],["家里","jiā lǐ","at home"],["用","yòng","to use"],["的","de","(particle: attributive)"],["水","shuǐ","water"],["比","bǐ","than (comparison)"],["以前","yǐqián","before"],["多","duō","much; more"],["了","le","(particle: new situation)"],["很多","hěn duō","a lot"],["。"]],
+      "en": "Last month I noticed that we were using a lot more water at home than before."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["检查","jiǎnchá","to check"],["了","le","(particle: completed)"],["一下","yíxià","a bit"],["，"],["才","cái","only then"],["发现","fāxiàn","to discover"],["洗手间","xǐshǒujiān","bathroom"],["的","de","(particle: attributive)"],["水","shuǐ","water"],["没","méi","did not"],["关","guān","to turn off"],["好","hǎo","properly"],["。"]],
+      "en": "I had a look around, and only then did I find that the bathroom tap had not been turned off properly."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["马上","mǎshàng","at once"],["把","bǎ","(particle: 把 construction)"],["水","shuǐ","water"],["关","guān","to turn off"],["上","shàng","(complement: shut)"],["，"],["从","cóng","from"],["那","nà","that"],["天","tiān","day"],["开始","kāishǐ","to begin"],["注意","zhùyì","to pay attention to"],["用水","yòng shuǐ","water use"],["的","de","(particle: attributive)"],["问题","wèntí","question; issue"],["。"]],
+      "en": "I turned it off right away, and from that day on I began to pay attention to how we use water."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["洗澡","xǐzǎo","to take a shower"],["的","de","(particle: attributive)"],["时间","shíjiān","time"],["比","bǐ","than (comparison)"],["以前","yǐqián","before"],["短","duǎn","short"],["了","le","(particle: new situation)"],["，"],["刷牙","shuāyá","to brush one's teeth"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["也","yě","also"],["一定","yídìng","definitely"],["把","bǎ","(particle: 把 construction)"],["水","shuǐ","water"],["关","guān","to turn off"],["上","shàng","(complement: shut)"],["。"]],
+      "en": "These days my showers are shorter than they used to be, and when I brush my teeth I always turn the tap off."
+    },
+    {
+      "t": [["洗","xǐ","to wash"],["完","wán","to finish"],["衣服","yīfu","clothes"],["的","de","(particle: attributive)"],["水","shuǐ","water"],["，"],["我","wǒ","I; me"],["用来","yònglái","to use for"],["打扫","dǎsǎo","to clean"],["房间","fángjiān","room"],["，"],["一点儿也不","yìdiǎnr yě bú","not … at all"],["浪费","làngfèi","to waste"],["。"]],
+      "en": "The water left over from washing clothes I use to clean the room, so nothing at all is wasted."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(particle: attributive)"],["邻居","línjū","neighbour"],["阿姨","āyí","auntie (older woman)"],["说","shuō","to say"],["，"],["她","tā","she"],["小时候","xiǎoshíhou","in childhood"],["住","zhù","to live"],["的","de","(particle: attributive)"],["地方","dìfang","place"],["经常","jīngcháng","often"],["没有","méiyǒu","to not have"],["水","shuǐ","water"],["，"],["所以","suǒyǐ","so; therefore"],["她","tā","she"],["非常","fēicháng","extremely"],["节约","jiéyuē","to save (resources)"],["。"]],
+      "en": "My neighbour, an older lady, told me that the place where she grew up often had no water, so she is extremely careful with it."
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["水","shuǐ","water"],["看起来","kàn qǐlai","to seem; to look"],["很","hěn","very"],["便宜","piányi","cheap"],["，"],["其实","qíshí","actually"],["非常","fēicháng","extremely"],["重要","zhòngyào","important"],["。"],["”"]],
+      "en": "She said: \"Water looks cheap, but it is actually extremely important.\""
+    },
+    {
+      "t": [["虽然","suīrán","although"],["一","yí","one"],["个","gè","(measure word)"],["人","rén","person"],["节约","jiéyuē","to save (resources)"],["的","de","(particle: attributive)"],["水","shuǐ","water"],["不","bù","not"],["多","duō","much; more"],["，"],["但是","dànshì","but"],["如果","rúguǒ","if"],["每","měi","every"],["个","gè","(measure word)"],["人","rén","person"],["都","dōu","all"],["这样","zhèyàng","like this"],["做","zuò","to do"],["，"],["世界","shìjiè","world"],["就","jiù","then"],["会","huì","will"],["不","bù","not"],["一样","yíyàng","the same"],["。"]],
+      "en": "One person alone does not save much water, but if everyone did this, the world would be a different place."
+    }
+  ],
+  "vocab": [
+    ["节约","jiéyuē","to save; to use sparingly"],
+    ["浪费","làngfèi","to waste"],
+    ["注意","zhùyì","to pay attention to"],
+    ["邻居","línjū","neighbour"],
+    ["其实","qíshí","actually; in fact"],
+    ["洗澡","xǐzǎo","to take a shower"]
+  ],
+  "quiz": [
+    {"q": "How did the narrator first notice there was a problem?", "a": ["A neighbour complained", "The family was using a lot more water than before", "The water was cut off"], "c": 1},
+    {"q": "What was wrong in the bathroom?", "a": ["The tap had not been turned off properly", "The light was broken", "There was no hot water"], "c": 0},
+    {"q": "What does the neighbour say about water?", "a": ["It is far too expensive", "It should be bought in bottles", "It looks cheap but is actually extremely important"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "A 比 B + adjective + 了很多 — much more than", "e": "比 compares two things. Putting 了很多 (or 多了) after the adjective shows the gap is big; never add 很 before the adjective in a 比 sentence.", "x": "家里用的水比以前多了很多。 — We were using a lot more water at home than before."},
+    {"p": "把 + object + verb + 上 — 把 with a result complement", "e": "把 puts the object before the verb when the action changes or disposes of it. Here 上 is a result complement meaning 'shut / closed'.", "x": "刷牙的时候也一定把水关上。 — When you brush your teeth, always turn the tap off."},
+    {"p": "如果……，就…… — if …, then …", "e": "如果 opens the condition. 就 belongs to the second clause and stands after its subject, right before the verb.", "x": "如果每个人都这样做，世界就会不一样。 — If everyone did this, the world would be different."}
+  ]
+}

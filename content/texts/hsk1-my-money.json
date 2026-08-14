@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-my-money",
+  "level": 1,
+  "title_zh": "我的钱",
+  "title_py": "Wǒ de qián",
+  "title_en": "My Money",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["有","yǒu","to have"],["一些","yìxiē","some"],["钱","qián","money"],["。"]],
+      "en": "I have some money."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["我","wǒ","I; me"],["去","qù","to go"],["商店","shāngdiàn","store; shop"],["买","mǎi","to buy"],["东西","dōngxi","things"],["。"]],
+      "en": "Today I go to the store to buy things."
+    },
+    {
+      "t": [["一本","yì běn","one (volume)"],["书","shū","book"],["二十","èrshí","twenty"],["块","kuài","yuan (unit of money)"],["钱","qián","money"],["，"],["我","wǒ","I; me"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["一本","yì běn","one (volume)"],["。"]],
+      "en": "One book costs twenty yuan, and I bought one."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["也","yě","also"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["水果","shuǐguǒ","fruit"],["，"],["十","shí","ten"],["块","kuài","yuan (unit of money)"],["钱","qián","money"],["。"]],
+      "en": "I also bought fruit, ten yuan."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["钱","qián","money"],["不","bù","not"],["多","duō","much; many"],["了","le","(particle: change of state)"],["。"]],
+      "en": "Now I don't have much money left."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["不","bù","not"],["买","mǎi","to buy"],["了","le","(particle: change of state)"],["，"],["我","wǒ","I; me"],["回家","huí jiā","to go home"],["。"]],
+      "en": "I won't buy anything more; I am going home."
+    }
+  ],
+  "vocab": [
+    ["钱","qián","money"],
+    ["块","kuài","yuan (unit of money)"],
+    ["东西","dōngxi","things; stuff"],
+    ["一些","yìxiē","some; a few"],
+    ["本","běn","(measure word for books)"],
+    ["现在","xiànzài","now"]
+  ],
+  "quiz": [
+    {"q":"Where does the narrator go today?","a":["To school","To a store","To work"],"c":1},
+    {"q":"How much does one book cost?","a":["Twenty yuan","Ten yuan","Five yuan"],"c":0},
+    {"q":"What else does the narrator buy?","a":["Bread","Milk","Fruit"],"c":2}
+  ],
+  "grammar": [
+    {"p":"有 — to have","e":"有 means 'to have' or 'there is'. Its negative is 没有, never 不有.","x":"我有一些钱。 — I have some money."},
+    {"p":"Measure words 本 and 块","e":"Chinese counts nouns with a measure word: 一本书 (one book), 二十块钱 (twenty yuan). 一 is read yì before a third-tone syllable like běn.","x":"一本书二十块钱。 — One book costs twenty yuan."},
+    {"p":"了 at the end — a new situation","e":"Sentence-final 了 says something has changed: 不多了 = there isn't much left now, though there was before.","x":"现在我的钱不多了。 — Now I don't have much money left."}
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "hsk2-why-i-study-chinese",
+  "level": 2,
+  "title_zh": "为什么学中文",
+  "title_py": "Wèishénme xué Zhōngwén",
+  "title_en": "Why I Study Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["很多", "hěn duō", "many; a lot of"],
+        ["朋友", "péngyou", "friend"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["为什么", "wèishénme", "why"],
+        ["学", "xué", "to study"],
+        ["中文", "Zhōngwén", "Chinese (language)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "A lot of friends ask me: \"Why do you study Chinese?\""
+    },
+    {
+      "t": [
+        ["三", "sān", "three"],
+        ["年", "nián", "year"],
+        ["以前", "yǐqián", "before; ago"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["第一次", "dì yī cì", "the first time"],
+        ["去", "qù", "to go"],
+        ["中国", "Zhōngguó", "China"],
+        ["旅游", "lǚyóu", "to travel"],
+        ["。"]
+      ],
+      "en": "Three years ago I traveled to China for the first time."
+    },
+    {
+      "t": [
+        ["在", "zài", "at; in"],
+        ["北京", "Běijīng", "Beijing"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to want to"],
+        ["问路", "wèn lù", "to ask for directions"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["不会", "bú huì", "cannot; not know how to"],
+        ["说", "shuō", "to speak; to say"],
+        ["中文", "Zhōngwén", "Chinese (language)"],
+        ["。"]
+      ],
+      "en": "In Beijing I wanted to ask for directions, but I couldn't speak Chinese."
+    },
+    {
+      "t": [
+        ["那个", "nàge", "that"],
+        ["时候", "shíhou", "time; when"],
+        ["我", "wǒ", "I; me"],
+        ["就", "jiù", "then; right away"],
+        ["想", "xiǎng", "to want to"],
+        ["："],
+        ["我", "wǒ", "I; me"],
+        ["要", "yào", "to be going to"],
+        ["学", "xué", "to study"],
+        ["中文", "Zhōngwén", "Chinese (language)"],
+        ["。"]
+      ],
+      "en": "Right then I thought: I'm going to learn Chinese."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["已经", "yǐjīng", "already"],
+        ["学", "xué", "to study"],
+        ["了", "le", "(particle)"],
+        ["两", "liǎng", "two"],
+        ["年", "nián", "year"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["可以", "kěyǐ", "can; may"],
+        ["和", "hé", "and; with"],
+        ["中国", "Zhōngguó", "China"],
+        ["朋友", "péngyou", "friend"],
+        ["说话", "shuōhuà", "to talk"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Now I have already studied for two years, and I can talk with Chinese friends."
+    },
+    {
+      "t": [
+        ["学", "xué", "to study"],
+        ["中文", "Zhōngwén", "Chinese (language)"],
+        ["很", "hěn", "very"],
+        ["慢", "màn", "slow"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["很", "hěn", "very"],
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["。"]
+      ],
+      "en": "Learning Chinese is slow, but I find it very interesting."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["希望", "xīwàng", "to hope"],
+        ["明年", "míngnián", "next year"],
+        ["再", "zài", "again"],
+        ["去", "qù", "to go"],
+        ["中国", "Zhōngguó", "China"],
+        ["，"],
+        ["用", "yòng", "to use"],
+        ["中文", "Zhōngwén", "Chinese (language)"],
+        ["买", "mǎi", "to buy"],
+        ["东西", "dōngxi", "things"],
+        ["和", "hé", "and; with"],
+        ["问路", "wèn lù", "to ask for directions"],
+        ["。"]
+      ],
+      "en": "I hope to go to China again next year and use Chinese to buy things and ask for directions."
+    }
+  ],
+  "vocab": [
+    ["为什么", "wèishénme", "why"],
+    ["以前", "yǐqián", "before; ago"],
+    ["旅游", "lǚyóu", "to travel"],
+    ["已经", "yǐjīng", "already"],
+    ["希望", "xīwàng", "to hope"],
+    ["有意思", "yǒu yìsi", "interesting"]
+  ],
+  "quiz": [
+    {
+      "q": "When did the writer first go to China?",
+      "a": [
+        "Last year",
+        "Next year",
+        "Three years ago"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What happened to the writer in Beijing?",
+      "a": [
+        "He wanted to ask directions but couldn't speak Chinese",
+        "He lost all his money",
+        "He found a Chinese teacher"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How long has the writer studied Chinese?",
+      "a": [
+        "Three years",
+        "Two years",
+        "One year"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "为什么 — asking why",
+      "e": "为什么 sits where the answer would sit, right before the verb: 你为什么学中文? There is no word-order change like in English.",
+      "x": "你为什么不去？ — Why aren't you going?"
+    },
+    {
+      "p": "已经…了 — already",
+      "e": "已经 goes before the verb and 了 closes the sentence. With a length of time it means the action started before and is still going on.",
+      "x": "我已经学了两年了。 — I've been studying for two years now."
+    },
+    {
+      "p": "…以前 — before; ago",
+      "e": "以前 comes AFTER the time word or the action, the opposite of English: 三年以前 (three years ago), 吃饭以前 (before eating).",
+      "x": "睡觉以前我看书。 — I read before going to sleep."
+    }
+  ]
+}

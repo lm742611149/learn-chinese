@@ -1,0 +1,297 @@
+{
+  "slug": "hsk6-biodiversity",
+  "level": 6,
+  "title_zh": "生物多样性",
+  "title_py": "Shēngwù duōyàngxìng",
+  "title_en": "Biodiversity",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["提到", "tídào", "to mention"],
+        ["保护", "bǎohù", "to protect"],
+        ["生物多样性", "shēngwù duōyàngxìng", "biodiversity"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["最先", "zuìxiān", "first of all"],
+        ["想到", "xiǎngdào", "to think of"],
+        ["的", "de", "(possessive particle)"],
+        ["往往", "wǎngwǎng", "often"],
+        ["是", "shì", "is"],
+        ["大熊猫", "dàxióngmāo", "giant panda"],
+        ["、"],
+        ["老虎", "lǎohǔ", "tiger"],
+        ["这类", "zhè lèi", "this sort of"],
+        ["形象", "xíngxiàng", "image"],
+        ["鲜明", "xiānmíng", "vivid; striking"],
+        ["的", "de", "(possessive particle)"],
+        ["动物", "dòngwù", "animal"],
+        ["。"]
+      ],
+      "en": "When biodiversity protection comes up, what people picture first is usually a vividly recognizable animal such as the giant panda or the tiger."
+    },
+    {
+      "t": [
+        ["可", "kě", "but"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["支撑", "zhīchēng", "to hold up; to support"],
+        ["起", "qǐ", "up (resultative)"],
+        ["整个", "zhěnggè", "the whole"],
+        ["生态系统", "shēngtài xìtǒng", "ecosystem"],
+        ["的", "de", "(possessive particle)"],
+        ["，"],
+        ["多半", "duōbàn", "mostly; more likely than not"],
+        ["是", "shì", "is"],
+        ["些", "xiē", "some"],
+        ["其貌不扬", "qí mào bù yáng", "unimpressive in appearance"],
+        ["的", "de", "(possessive particle)"],
+        ["角色", "juésè", "role; player"],
+        ["："],
+        ["土壤", "tǔrǎng", "soil"],
+        ["里", "lǐ", "inside"],
+        ["的", "de", "(possessive particle)"],
+        ["真菌", "zhēnjùn", "fungus"],
+        ["、"],
+        ["河底", "hé dǐ", "riverbed"],
+        ["的", "de", "(possessive particle)"],
+        ["贝类", "bèilèi", "shellfish"],
+        ["、"],
+        ["草丛", "cǎocóng", "clump of grass"],
+        ["中", "zhōng", "amid"],
+        ["的", "de", "(possessive particle)"],
+        ["昆虫", "kūnchóng", "insect"],
+        ["。"]
+      ],
+      "en": "But what actually holds up a whole ecosystem is mostly a cast of unglamorous players: fungi in the soil, shellfish on the riverbed, insects in the grass."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there are"],
+        ["生态学家", "shēngtài xuéjiā", "ecologist"],
+        ["把", "bǎ", "(object marker)"],
+        ["物种", "wùzhǒng", "species"],
+        ["比作", "bǐzuò", "to compare to"],
+        ["飞机", "fēijī", "aircraft"],
+        ["机翼", "jīyì", "wing"],
+        ["上", "shàng", "on"],
+        ["的", "de", "(possessive particle)"],
+        ["铆钉", "mǎodīng", "rivet"],
+        ["："],
+        ["掉", "diào", "to fall off"],
+        ["一颗", "yì kē", "one (measure for small round objects)"],
+        ["两颗", "liǎng kē", "two (measure for small round objects)"],
+        ["似乎", "sìhū", "seemingly"],
+        ["无关紧要", "wúguān jǐnyào", "of no importance"],
+        ["，"],
+        ["可", "kě", "but"],
+        ["谁", "shéi", "who"],
+        ["也", "yě", "also"],
+        ["说不清", "shuō bu qīng", "cannot say for certain"],
+        ["哪", "nǎ", "which"],
+        ["一颗", "yì kē", "one (measure for small round objects)"],
+        ["是", "shì", "is"],
+        ["最后", "zuìhòu", "the last"],
+        ["一颗", "yì kē", "one (measure for small round objects)"],
+        ["。"]
+      ],
+      "en": "One ecologist likens species to the rivets on an aircraft wing: losing one or two seems to matter little, yet nobody can say which one will be the last."
+    },
+    {
+      "t": [
+        ["上世纪", "shàng shìjì", "the last century"],
+        ["九十年代", "jiǔshí niándài", "the nineties"],
+        ["，"],
+        ["黄石公园", "Huángshí Gōngyuán", "Yellowstone National Park"],
+        ["重新", "chóngxīn", "again; anew"],
+        ["引入", "yǐnrù", "to introduce; to bring in"],
+        ["了", "le", "(completed action)"],
+        ["狼", "láng", "wolf"],
+        ["，"],
+        ["结果", "jiéguǒ", "as a result"],
+        ["不仅", "bùjǐn", "not only"],
+        ["鹿群", "lùqún", "deer herds"],
+        ["数量", "shùliàng", "numbers"],
+        ["得到", "dédào", "to obtain"],
+        ["控制", "kòngzhì", "control"],
+        ["，"],
+        ["河岸", "hé'àn", "riverbank"],
+        ["的", "de", "(possessive particle)"],
+        ["植被", "zhíbèi", "vegetation"],
+        ["也", "yě", "also"],
+        ["随之", "suí zhī", "accordingly"],
+        ["恢复", "huīfù", "to recover"],
+        ["，"],
+        ["河道", "hédào", "river channel"],
+        ["形状", "xíngzhuàng", "shape"],
+        ["竟然", "jìngrán", "unexpectedly"],
+        ["发生", "fāshēng", "to occur"],
+        ["了", "le", "(completed action)"],
+        ["改变", "gǎibiàn", "change"],
+        ["。"]
+      ],
+      "en": "In the nineties, Yellowstone reintroduced wolves; not only were the deer herds brought under control, but the riverbank vegetation recovered along with them, and the shape of the river channel itself unexpectedly changed."
+    },
+    {
+      "t": [
+        ["这个", "zhège", "this"],
+        ["例子", "lìzi", "example"],
+        ["说明", "shuōmíng", "to show; to demonstrate"],
+        ["，"],
+        ["物种", "wùzhǒng", "species"],
+        ["之间", "zhījiān", "between"],
+        ["的", "de", "(possessive particle)"],
+        ["联系", "liánxì", "connection"],
+        ["远", "yuǎn", "far"],
+        ["比", "bǐ", "than"],
+        ["我们", "wǒmen", "we"],
+        ["想象", "xiǎngxiàng", "to imagine"],
+        ["的", "de", "(possessive particle)"],
+        ["紧密", "jǐnmì", "close; tight"],
+        ["。"]
+      ],
+      "en": "The example shows that the links between species are far closer than we imagine."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["仅仅", "jǐnjǐn", "merely"],
+        ["强调", "qiángdiào", "to stress"],
+        ["“"],
+        ["有用", "yǒuyòng", "useful"],
+        ["”"],
+        ["，"],
+        ["未必", "wèibì", "not necessarily"],
+        ["是", "shì", "is"],
+        ["最", "zuì", "most"],
+        ["稳妥", "wěntuǒ", "safe; secure"],
+        ["的", "de", "(possessive particle)"],
+        ["辩护", "biànhù", "defense; argument in favor"],
+        ["。"]
+      ],
+      "en": "And yet stressing \"usefulness\" alone is not necessarily the safest line of defense."
+    },
+    {
+      "t": [
+        ["倘若", "tǎngruò", "if; supposing"],
+        ["一个", "yí gè", "one; a"],
+        ["物种", "wùzhǒng", "species"],
+        ["被", "bèi", "(passive marker)"],
+        ["证明", "zhèngmíng", "to prove"],
+        ["毫无", "háowú", "utterly without"],
+        ["经济", "jīngjì", "economic"],
+        ["价值", "jiàzhí", "value"],
+        ["，"],
+        ["难道", "nándào", "surely not"],
+        ["就", "jiù", "then; precisely"],
+        ["可以", "kěyǐ", "may; can"],
+        ["任", "rèn", "to let; to allow"],
+        ["其", "qí", "it (literary)"],
+        ["消失", "xiāoshī", "to disappear"],
+        ["吗", "ma", "(question particle)"],
+        ["？"]
+      ],
+      "en": "If a species were proven to have no economic value whatsoever, would we then be free to let it vanish?"
+    },
+    {
+      "t": [
+        ["以", "yǐ", "to take (as)"],
+        ["人类", "rénlèi", "humankind"],
+        ["的", "de", "(possessive particle)"],
+        ["用途", "yòngtú", "use; usefulness"],
+        ["为", "wéi", "as"],
+        ["唯一", "wéiyī", "the only"],
+        ["尺度", "chǐdù", "measure; yardstick"],
+        ["，"],
+        ["本身", "běnshēn", "in itself"],
+        ["就", "jiù", "then; precisely"],
+        ["是", "shì", "is"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["傲慢", "àomàn", "arrogance"],
+        ["。"]
+      ],
+      "en": "To take human usefulness as the only yardstick is in itself a form of arrogance."
+    },
+    {
+      "t": [
+        ["保护", "bǎohù", "to protect"],
+        ["生物多样性", "shēngwù duōyàngxìng", "biodiversity"],
+        ["，"],
+        ["与其说", "yǔqí shuō", "rather than say"],
+        ["是", "shì", "is"],
+        ["在", "zài", "(progressive marker)"],
+        ["拯救", "zhěngjiù", "to rescue; to save"],
+        ["别的", "biéde", "other"],
+        ["生命", "shēngmìng", "life"],
+        ["，"],
+        ["不如说", "bùrú shuō", "it is better to say"],
+        ["是", "shì", "is"],
+        ["在", "zài", "(progressive marker)"],
+        ["为", "wèi", "for"],
+        ["自己", "zìjǐ", "oneself"],
+        ["保留", "bǎoliú", "to keep in reserve"],
+        ["一条", "yì tiáo", "one (measure for long thin things)"],
+        ["尚未", "shàngwèi", "not yet"],
+        ["走过", "zǒuguò", "to have walked"],
+        ["的", "de", "(possessive particle)"],
+        ["退路", "tuìlù", "way of retreat; fallback"],
+        ["。"]
+      ],
+      "en": "Protecting biodiversity is less a matter of rescuing other lives than of keeping in reserve, for ourselves, a road of retreat we have not yet had to walk."
+    }
+  ],
+  "vocab": [
+    ["支撑", "zhīchēng", "to hold up; to sustain"],
+    ["其貌不扬", "qí mào bù yáng", "plain-looking; unimpressive in appearance"],
+    ["无关紧要", "wúguān jǐnyào", "of no consequence; insignificant"],
+    ["稳妥", "wěntuǒ", "safe and reliable; secure"],
+    ["毫无", "háowú", "utterly without; not the slightest"],
+    ["傲慢", "àomàn", "arrogant; arrogance"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the ecologist in the text compare species to?",
+      "a": [
+        "Bricks in a wall",
+        "Rivets on an aircraft wing",
+        "Books in a library"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What followed the reintroduction of wolves to Yellowstone?",
+      "a": [
+        "Deer numbers came under control, riverbank vegetation recovered, and the river channel changed shape",
+        "The park had to be closed to all visitors",
+        "The soil fungi disappeared within a decade"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Why does the author doubt \"usefulness\" as a defense of biodiversity?",
+      "a": [
+        "Because usefulness is too hard to measure scientifically",
+        "Because nearly every species turns out to be useful anyway",
+        "Because taking human use as the only yardstick is itself a form of arrogance"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "以……为…… — take … as …",
+      "e": "A compact literary frame meaning 'take A as B', used for standards, goals and principles: 以质量为标准, 以人为本.",
+      "x": "这家公司一向以质量为生命。 — This company has always treated quality as its lifeblood."
+    },
+    {
+      "p": "难道……吗？ — surely you don't mean…?",
+      "e": "A rhetorical question that expects the answer 'no'; the writer uses it to make an objection feel obvious rather than to ask for information.",
+      "x": "难道我们要等到损失无法挽回时才行动吗？ — Are we really going to wait until the loss is beyond repair before acting?"
+    },
+    {
+      "p": "不仅……，也…… — not only …, but also …",
+      "e": "Adds a second, often more surprising, consequence to the first. In written style 也 may be replaced by 还 or 甚至 for a stronger climb.",
+      "x": "这项措施不仅降低了成本，也改善了工作环境。 — The measure not only lowered costs but also improved the working environment."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-moms-birthday",
+  "level": 1,
+  "title_zh": "妈妈的生日",
+  "title_py": "Māma de shēngrì",
+  "title_en": "Mom's Birthday",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["是","shì","to be"],["妈妈","māma","mom"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["。"]],
+      "en": "Today is Mom's birthday."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["一个","yí gè","one"],["大","dà","big"],["蛋糕","dàngāo","cake"],["。"]],
+      "en": "I bought a big cake."
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我们","wǒmen","we"],["在","zài","at; in"],["家","jiā","home"],["吃饭","chī fàn","to eat a meal"],["。"]],
+      "en": "In the evening, we eat at home."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["，"],["这个","zhège","this"],["菜","cài","dish; food"],["很","hěn","very"],["好吃","hǎochī","delicious"],["。"]],
+      "en": "Mom says this dish is delicious."
+    },
+    {
+      "t": [["我们","wǒmen","we"],["一起","yìqǐ","together"],["说","shuō","to say"],["生日","shēngrì","birthday"],["快乐","kuàilè","happy"],["。"]],
+      "en": "Together we say happy birthday."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["很","hěn","very"],["高兴","gāoxìng","happy"],["，"],["我","wǒ","I; me"],["也","yě","also"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "Mom is very happy, and I am very happy too."
+    }
+  ],
+  "vocab": [
+    ["生日","shēngrì","birthday"],
+    ["蛋糕","dàngāo","cake"],
+    ["快乐","kuàilè","happy"],
+    ["晚上","wǎnshang","evening"],
+    ["高兴","gāoxìng","happy; glad"],
+    ["菜","cài","dish; food"]
+  ],
+  "quiz": [
+    {"q":"Whose birthday is it today?","a":["Dad's","Mom's","The narrator's"],"c":1},
+    {"q":"What did the narrator buy?","a":["A big cake","Some fruit","A book"],"c":0},
+    {"q":"Where do they eat in the evening?","a":["At a store","At school","At home"],"c":2}
+  ],
+  "grammar": [
+    {"p":"是 — A is B","e":"是 links two nouns: A 是 B means 'A is B'. Use it for identity, not for adjectives.","x":"今天是妈妈的生日。 — Today is Mom's birthday."},
+    {"p":"了 — completed action","e":"Put 了 right after the verb to show the action is finished: 买了 = bought.","x":"我买了一个大蛋糕。 — I bought a big cake."},
+    {"p":"的 — possession","e":"的 goes between the owner and the thing owned: 妈妈的生日 = Mom's birthday.","x":"今天是妈妈的生日。 — Today is Mom's birthday."}
+  ]
+}

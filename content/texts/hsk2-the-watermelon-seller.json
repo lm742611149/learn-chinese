@@ -1,0 +1,212 @@
+{
+  "slug": "hsk2-the-watermelon-seller",
+  "level": 2,
+  "title_zh": "卖西瓜的人",
+  "title_py": "Mài xīguā de rén",
+  "title_en": "The Watermelon Seller",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["旁边", "pángbiān", "beside; next to"],
+        ["有", "yǒu", "there is; to have"],
+        ["一个", "yí gè", "one"],
+        ["卖", "mài", "to sell"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["的", "de", "(particle)"],
+        ["人", "rén", "person"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["每天", "měi tiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["都", "dōu", "all"],
+        ["来", "lái", "to come"],
+        ["。"]
+      ],
+      "en": "Next to my home there is a man who sells watermelons; he comes every morning."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["的", "de", "(particle)"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["很", "hěn", "very"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["一个", "yí gè", "one"],
+        ["十五", "shíwǔ", "fifteen"],
+        ["块", "kuài", "yuan (colloquial)"],
+        ["钱", "qián", "money"],
+        ["。"]
+      ],
+      "en": "His watermelons are big — fifteen yuan each."
+    },
+    {
+      "t": [
+        ["天气", "tiānqì", "weather"],
+        ["热", "rè", "hot"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["从", "cóng", "from"],
+        ["早上", "zǎoshang", "morning"],
+        ["八点", "bā diǎn", "eight o'clock"],
+        ["卖", "mài", "to sell"],
+        ["到", "dào", "to; until"],
+        ["晚上", "wǎnshang", "evening"],
+        ["七点", "qī diǎn", "seven o'clock"],
+        ["。"]
+      ],
+      "en": "When the weather is hot, he sells from eight in the morning until seven at night."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["我", "wǒ", "I; me"],
+        ["买", "mǎi", "to buy"],
+        ["了", "le", "(particle)"],
+        ["一个", "yí gè", "one"],
+        ["大", "dà", "big"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["这个", "zhège", "this one"],
+        ["最", "zuì", "most"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["会", "huì", "will"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Yesterday I bought a big watermelon, and he said: \"This one is the best — you'll like it.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["问", "wèn", "to ask"],
+        ["他", "tā", "he; him"],
+        ["累", "lèi", "tired"],
+        ["不", "bu", "(A-not-A question)"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["有点儿", "yǒudiǎnr", "a little (+ negative feeling)"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(particle)"],
+        ["孩子", "háizi", "child"],
+        ["要", "yào", "to have to"],
+        ["上学", "shàngxué", "to go to school"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I asked him whether he was tired. He said: \"A little tired, but my child has to go to school.\""
+    },
+    {
+      "t": [
+        ["回", "huí", "to return"],
+        ["家", "jiā", "home"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["孩子", "háizi", "child"],
+        ["一起", "yìqǐ", "together"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle)"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["，"],
+        ["非常", "fēicháng", "extremely"],
+        ["好吃", "hǎochī", "tasty; delicious"],
+        ["。"]
+      ],
+      "en": "After I got home, my child and I ate the watermelon together — it was really good."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["我", "wǒ", "I; me"],
+        ["看见", "kànjiàn", "to see"],
+        ["他", "tā", "he; him"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["还", "hái", "still"],
+        ["在", "zài", "(in the middle of doing)"],
+        ["那儿", "nàr", "there"],
+        ["卖", "mài", "to sell"],
+        ["西瓜", "xīguā", "watermelon"],
+        ["。"]
+      ],
+      "en": "This morning I saw him again — he was still there selling watermelons."
+    }
+  ],
+  "vocab": [
+    ["卖", "mài", "to sell"],
+    ["西瓜", "xīguā", "watermelon"],
+    ["块", "kuài", "yuan (colloquial)"],
+    ["孩子", "háizi", "child"],
+    ["看见", "kànjiàn", "to see"],
+    ["还", "hái", "still"]
+  ],
+  "quiz": [
+    {
+      "q": "How much does one watermelon cost?",
+      "a": [
+        "Five yuan",
+        "Fifteen yuan",
+        "Fifty yuan"
+      ],
+      "c": 1
+    },
+    {
+      "q": "On hot days, when does he stop selling?",
+      "a": [
+        "Seven in the evening",
+        "Eight in the morning",
+        "Right after lunch"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Why does he keep working even though he is tired?",
+      "a": [
+        "He likes watermelons",
+        "He lives far away",
+        "His child has to go to school"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "从…到… — from … to …",
+      "e": "从 marks the starting point and 到 the end point, for both time and place: 从早上到晚上, 从北京到上海.",
+      "x": "他从早上八点卖到晚上七点。 — He sells from eight in the morning until seven at night."
+    },
+    {
+      "p": "累不累 — the A-not-A question",
+      "e": "Repeat the adjective or verb with 不 in the middle to make a yes/no question: 累不累? 是不是? 去不去? It means the same as adding 吗, and the 不 is unstressed.",
+      "x": "你累不累？ — Are you tired?"
+    },
+    {
+      "p": "…的人 — the person who …",
+      "e": "The description goes BEFORE 的 + noun: 卖西瓜的人 = the person who sells watermelons. English puts it after the noun, Chinese never does.",
+      "x": "开车的人是我朋友。 — The person driving is my friend."
+    }
+  ]
+}

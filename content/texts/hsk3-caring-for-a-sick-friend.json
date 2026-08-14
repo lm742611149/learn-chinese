@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-caring-for-a-sick-friend",
+  "level": 3,
+  "title_zh": "照顾生病的朋友",
+  "title_py": "Zhàogù shēngbìng de péngyou",
+  "title_en": "Caring for a Sick Friend",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["上","shàng","last"],["个","gè","(measure word)"],["星期六","xīngqīliù","Saturday"],["早上","zǎoshang","morning"],["，"],["同事","tóngshì","colleague"],["小李","Xiǎo Lǐ","Xiao Li (name)"],["给","gěi","to; for"],["我","wǒ","I; me"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["他","tā","he"],["的","de","(particle: attributive)"],["声音","shēngyīn","voice"],["听起来","tīng qǐlai","to sound"],["很","hěn","very"],["奇怪","qíguài","strange"],["。"]],
+      "en": "Last Saturday morning my colleague Xiao Li called me, and his voice sounded strange."
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["他","tā","he"],["生病","shēngbìng","to fall ill"],["了","le","(particle: new situation)"],["，"],["从","cóng","from"],["昨天","zuótiān","yesterday"],["晚上","wǎnshang","evening; night"],["就","jiù","already"],["开始","kāishǐ","to start"],["发烧","fāshāo","to have a fever"],["，"],["一","yí","one"],["个","gè","(measure word)"],["人","rén","person"],["在","zài","at"],["家","jiā","home"],["，"],["什么","shénme","anything"],["东西","dōngxi","thing"],["都","dōu","(emphasis: anything at all)"],["没","méi","did not"],["吃","chī","to eat"],["。"]],
+      "en": "He said he had fallen ill and had been running a fever since last night; he was home alone and hadn't eaten a thing."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["有点儿","yǒudiǎnr","a bit"],["担心","dānxīn","to worry"],["，"],["马上","mǎshàng","at once"],["去","qù","to go"],["超市","chāoshì","supermarket"],["买","mǎi","to buy"],["了","le","(particle: completed)"],["水果","shuǐguǒ","fruit"],["和","hé","and"],["面条","miàntiáo","noodles"],["，"],["然后","ránhòu","then; after that"],["骑","qí","to ride"],["自行车","zìxíngchē","bicycle"],["去","qù","to go"],["他","tā","he"],["家","jiā","home"],["。"]],
+      "en": "I was a bit worried, so I went straight to the supermarket, bought fruit and noodles, and rode my bike over to his place."
+    },
+    {
+      "t": [["到","dào","to arrive"],["了","le","(particle: completed)"],["他","tā","he"],["家","jiā","home"],["，"],["我","wǒ","I; me"],["发现","fāxiàn","to discover"],["房间","fángjiān","room"],["里","lǐ","inside"],["很","hěn","very"],["冷","lěng","cold"],["，"],["桌子","zhuōzi","table"],["上","shang","on"],["放","fàng","to place"],["着","zhe","(particle: ongoing state)"],["他","tā","he"],["昨天","zuótiān","yesterday"],["买","mǎi","to buy"],["的","de","(particle: attributive)"],["药","yào","medicine"],["。"]],
+      "en": "When I got there, I found the room was cold, and the medicine he had bought the day before was still sitting on the table."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["先","xiān","first"],["把","bǎ","(particle: 把 construction)"],["房间","fángjiān","room"],["打扫","dǎsǎo","to clean; to tidy"],["了","le","(particle: completed)"],["一下","yíxià","a bit"],["，"],["又","yòu","then; also"],["给","gěi","to; for"],["他","tā","he"],["做","zuò","to make"],["了","le","(particle: completed)"],["一","yì","one"],["碗","wǎn","bowl (measure word)"],["热","rè","hot"],["面条","miàntiáo","noodles"],["。"]],
+      "en": "First I tidied the room up a bit, then I made him a bowl of hot noodles."
+    },
+    {
+      "t": [["他","tā","he"],["吃","chī","to eat"],["着","zhe","(particle: ongoing state)"],["面条","miàntiáo","noodles"],["，"],["笑","xiào","to smile"],["着","zhe","(particle: ongoing state)"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thanks"],["你","nǐ","you"],["，"],["你","nǐ","you"],["真","zhēn","really"],["是","shì","to be"],["我","wǒ","I; me"],["最","zuì","most"],["好","hǎo","good"],["的","de","(particle: attributive)"],["朋友","péngyou","friend"],["。"],["”"]],
+      "en": "Eating his noodles, he smiled and said: \"Thank you — you really are my best friend.\""
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["我","wǒ","I; me"],["跟","gēn","with"],["他","tā","he"],["一起","yìqǐ","together"],["去","qù","to go"],["医院","yīyuàn","hospital"],["检查","jiǎnchá","to have a check-up"],["，"],["医生","yīshēng","doctor"],["说","shuō","to say"],["问题","wèntí","problem"],["不","bú","not"],["大","dà","big"],["，"],["好好","hǎohǎo","properly; well"],["休息","xiūxi","to rest"],["几","jǐ","a few"],["天","tiān","day"],["就","jiù","then"],["行","xíng","to be all right"],["了","le","(particle: new situation)"],["。"]],
+      "en": "In the afternoon I went with him to the hospital for a check-up; the doctor said it was nothing serious and a few days' good rest would be enough."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["他","tā","he"],["已经","yǐjīng","already"],["健康","jiànkāng","healthy"],["了","le","(particle: new situation)"],["，"],["还","hái","also; what's more"],["说","shuō","to say"],["以后","yǐhòu","in future"],["我","wǒ","I; me"],["生病","shēngbìng","to fall ill"],["的","de","(particle: attributive)"],["时候","shíhou","time; when"],["，"],["他","tā","he"],["也","yě","too"],["一定","yídìng","definitely"],["会","huì","will"],["好好","hǎohǎo","properly; well"],["照顾","zhàogù","to look after"],["我","wǒ","I; me"],["。"]],
+      "en": "He is well again now, and he says that next time I get sick he will definitely take good care of me too."
+    }
+  ],
+  "vocab": [
+    ["照顾","zhàogù","to look after; to care for"],
+    ["生病","shēngbìng","to fall ill"],
+    ["担心","dānxīn","to worry"],
+    ["打扫","dǎsǎo","to clean; to tidy up"],
+    ["声音","shēngyīn","voice; sound"],
+    ["检查","jiǎnchá","to check; to have a check-up"]
+  ],
+  "quiz": [
+    {"q": "How did the narrator find out that his colleague was sick?", "a": ["His colleague phoned him", "He met him at the hospital", "Another friend told him"], "c": 0},
+    {"q": "What did the narrator buy at the supermarket?", "a": ["Medicine and tea", "Fruit and noodles", "Bread and milk"], "c": 1},
+    {"q": "What did the doctor say?", "a": ["He had to stay in the hospital", "He needed medicine for a month", "It was nothing serious and he just needed a few days' rest"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "把 + object + verb + 了一下 — the 把 construction", "e": "把 moves the object in front of the verb to show what you did to it. The verb cannot stand bare — it needs something extra such as 了一下, 完 or 好.", "x": "我先把房间打扫了一下。 — First I tidied the room up a bit."},
+    {"p": "verb + 着 — ongoing state or manner", "e": "着 after a verb shows a state that continues (放着 = is lying there) or how a second action is done (笑着说 = said with a smile).", "x": "桌子上放着他昨天买的药。 — The medicine he bought yesterday was lying on the table."},
+    {"p": "跟……一起 + verb — to do sth together with sb", "e": "跟 introduces the person you do something with, and 一起 sits right before the verb. 和 can replace 跟 with no change in meaning.", "x": "下午我跟他一起去医院检查。 — In the afternoon I went to the hospital with him for a check-up."}
+  ]
+}

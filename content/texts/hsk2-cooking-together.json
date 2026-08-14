@@ -1,0 +1,171 @@
+{
+  "slug": "hsk2-cooking-together",
+  "level": 2,
+  "title_zh": "一起做饭",
+  "title_py": "Yìqǐ zuò fàn",
+  "title_en": "Cooking Together",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["和", "hé", "and; with"],
+        ["妻子", "qīzi", "wife"],
+        ["一起", "yìqǐ", "together"],
+        ["做饭", "zuò fàn", "to cook"],
+        ["。"]
+      ],
+      "en": "This evening my wife and I cooked together."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["洗", "xǐ", "to wash"],
+        ["菜", "cài", "vegetables; food"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["做", "zuò", "to make; to do"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["和", "hé", "and; with"],
+        ["鱼", "yú", "fish"],
+        ["。"]
+      ],
+      "en": "She washed the vegetables and I made the eggs and the fish."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["做", "zuò", "to make; to do"],
+        ["菜", "cài", "vegetables; food"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["她", "tā", "she; her"],
+        ["在", "zài", "(in the middle of doing)"],
+        ["旁边", "pángbiān", "beside; next to"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "While I was cooking, she drank tea next to me."
+    },
+    {
+      "t": [
+        ["她", "tā", "she; her"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["鱼", "yú", "fish"],
+        ["快", "kuài", "soon; almost"],
+        ["好", "hǎo", "ready; good"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["做", "zuò", "to make; to do"],
+        ["太", "tài", "too"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "She said: \"The fish is almost ready — don't cook it too long.\""
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chī fàn", "to eat a meal"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["她", "tā", "she; her"],
+        ["说", "shuō", "to say"],
+        ["今天", "jīntiān", "today"],
+        ["的", "de", "(particle)"],
+        ["菜", "cài", "vegetables; food"],
+        ["比", "bǐ", "than; compared with"],
+        ["饭馆", "fànguǎn", "restaurant"],
+        ["的", "de", "(particle)"],
+        ["好吃", "hǎochī", "tasty; delicious"],
+        ["。"]
+      ],
+      "en": "While we were eating, she said today's food was tastier than the restaurant's."
+    },
+    {
+      "t": [
+        ["做饭", "zuò fàn", "to cook"],
+        ["有点儿", "yǒudiǎnr", "a little (+ negative feeling)"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["和", "hé", "and; with"],
+        ["妻子", "qīzi", "wife"],
+        ["一起", "yìqǐ", "together"],
+        ["做饭", "zuò fàn", "to cook"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "Cooking is a little tiring, but cooking together with my wife makes me happy."
+    }
+  ],
+  "vocab": [
+    ["妻子", "qīzi", "wife"],
+    ["洗", "xǐ", "to wash"],
+    ["鸡蛋", "jīdàn", "egg"],
+    ["旁边", "pángbiān", "beside; next to"],
+    ["饭馆", "fànguǎn", "restaurant"],
+    ["快乐", "kuàilè", "happy"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the writer cook?",
+      "a": [
+        "The eggs and the fish",
+        "The rice and the tea",
+        "Nothing — his wife cooks"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the wife do while he is cooking?",
+      "a": [
+        "She washes the dishes",
+        "She drinks tea next to him",
+        "She goes to a restaurant"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the wife, today's food is tastier than what?",
+      "a": [
+        "Yesterday's food",
+        "Her mother's food",
+        "The restaurant's food"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "快…了 — about to happen",
+      "e": "快 + verb or adjective + 了 says something is on the point of happening: 鱼快好了 (the fish is nearly done), 我快到了 (I'm almost there).",
+      "x": "饭快好了。 — Dinner is almost ready."
+    },
+    {
+      "p": "A 比 B + adjective — comparison",
+      "e": "比 puts two things side by side: A 比 B 好吃 = A is tastier than B. Do not add 很 before the adjective.",
+      "x": "今天的菜比饭馆的好吃。 — Today's food is tastier than the restaurant's."
+    },
+    {
+      "p": "…的时候 — when; while",
+      "e": "Put the whole action in front of 的时候: 我做菜的时候 = while I was cooking. The main clause tells you whether it is past or present.",
+      "x": "我们吃饭的时候，她说了很多话。 — While we were eating, she talked a lot."
+    }
+  ]
+}

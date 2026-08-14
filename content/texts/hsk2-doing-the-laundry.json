@@ -1,0 +1,189 @@
+{
+  "slug": "hsk2-doing-the-laundry",
+  "level": 2,
+  "title_zh": "洗衣服",
+  "title_py": "Xǐ yīfu",
+  "title_en": "Doing the Laundry",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["家", "jiā", "home"],
+        ["洗", "xǐ", "to wash"],
+        ["衣服", "yīfu", "clothes"],
+        ["。"]
+      ],
+      "en": "On Saturday morning I did the laundry at home."
+    },
+    {
+      "t": [
+        ["因为", "yīnwèi", "because"],
+        ["这个", "zhège", "this"],
+        ["星期", "xīngqī", "week"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měi tiān", "every day"],
+        ["都", "dōu", "all"],
+        ["去", "qù", "to go"],
+        ["运动", "yùndòng", "to exercise"],
+        ["，"],
+        ["所以", "suǒyǐ", "so; therefore"],
+        ["要", "yào", "to need; to take"],
+        ["洗", "xǐ", "to wash"],
+        ["的", "de", "(particle)"],
+        ["衣服", "yīfu", "clothes"],
+        ["很", "hěn", "very"],
+        ["多", "duō", "many; much"],
+        ["。"]
+      ],
+      "en": "Because I went out to exercise every day this week, there were a lot of clothes to wash."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["家", "jiā", "home"],
+        ["的", "de", "(particle)"],
+        ["洗衣机", "xǐyījī", "washing machine"],
+        ["很", "hěn", "very"],
+        ["小", "xiǎo", "small"],
+        ["，"],
+        ["洗", "xǐ", "to wash"],
+        ["一次", "yí cì", "one time; one load"],
+        ["要", "yào", "to need; to take"],
+        ["一个", "yí gè", "one"],
+        ["小时", "xiǎoshí", "hour"],
+        ["。"]
+      ],
+      "en": "Our washing machine is small — one load takes an hour."
+    },
+    {
+      "t": [
+        ["洗", "xǐ", "to wash"],
+        ["衣服", "yīfu", "clothes"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["旁边", "pángbiān", "beside; next to"],
+        ["看", "kàn", "to read; to look at"],
+        ["书", "shū", "book"],
+        ["，"],
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle)"],
+        ["一杯", "yì bēi", "one cup of"],
+        ["茶", "chá", "tea"],
+        ["。"]
+      ],
+      "en": "While the clothes were washing, I read a book next to it and drank a cup of tea."
+    },
+    {
+      "t": [
+        ["一个", "yí gè", "one"],
+        ["小时", "xiǎoshí", "hour"],
+        ["以后", "yǐhòu", "after; later"],
+        ["，"],
+        ["衣服", "yīfu", "clothes"],
+        ["都", "dōu", "all"],
+        ["洗", "xǐ", "to wash"],
+        ["好", "hǎo", "done; finished"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "An hour later, all the clothes were washed."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["外面", "wàimiàn", "outside"],
+        ["没", "méi", "not (past)"],
+        ["下雨", "xià yǔ", "to rain"],
+        ["，"],
+        ["衣服", "yīfu", "clothes"],
+        ["很", "hěn", "very"],
+        ["快", "kuài", "fast; quickly"],
+        ["就", "jiù", "then; right away"],
+        ["好", "hǎo", "done; finished"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "It didn't rain today, so the clothes were ready very quickly."
+    },
+    {
+      "t": [
+        ["明天", "míngtiān", "tomorrow"],
+        ["去", "qù", "to go"],
+        ["上班", "shàngbān", "to go to work"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["可以", "kěyǐ", "can; may"],
+        ["穿", "chuān", "to wear"],
+        ["干净", "gānjìng", "clean"],
+        ["的", "de", "(particle)"],
+        ["白", "bái", "white"],
+        ["衣服", "yīfu", "clothes"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Tomorrow at work I can wear clean white clothes."
+    }
+  ],
+  "vocab": [
+    ["洗衣机", "xǐyījī", "washing machine"],
+    ["因为", "yīnwèi", "because"],
+    ["所以", "suǒyǐ", "so; therefore"],
+    ["运动", "yùndòng", "to exercise"],
+    ["以后", "yǐhòu", "after; later"],
+    ["上班", "shàngbān", "to go to work"]
+  ],
+  "quiz": [
+    {
+      "q": "Why were there so many clothes to wash?",
+      "a": [
+        "He bought new clothes",
+        "He went out to exercise every day this week",
+        "He had not washed for a month"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How long does one load take in their washing machine?",
+      "a": [
+        "Ten minutes",
+        "Half an hour",
+        "One hour"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What did the writer do while the clothes were washing?",
+      "a": [
+        "Read a book and drank tea",
+        "Went out to exercise",
+        "Slept"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "因为…，所以… — because …, so …",
+      "e": "Chinese usually keeps BOTH halves of the pair, while English drops one of them. 因为 opens the reason, 所以 opens the result.",
+      "x": "因为下雨了，所以我们没出去。 — Because it rained, we didn't go out."
+    },
+    {
+      "p": "verb + 一次 — counting times",
+      "e": "次 counts how many times an action happens, and it goes after the verb: 洗一次 (wash one load), 去过两次 (been there twice).",
+      "x": "这件衣服我洗了两次。 — I washed this shirt twice."
+    },
+    {
+      "p": "就 — sooner than expected",
+      "e": "就 before the verb says something happened fast or earlier than you would think: 很快就好了 (it was ready in no time).",
+      "x": "衣服很快就好了。 — The clothes were ready in no time."
+    }
+  ]
+}

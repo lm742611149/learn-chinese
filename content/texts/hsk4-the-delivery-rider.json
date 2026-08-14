@@ -1,0 +1,236 @@
+{
+  "slug": "hsk4-the-delivery-rider",
+  "level": 4,
+  "title_zh": "快递小哥",
+  "title_py": "Kuàidì Xiǎogē",
+  "title_en": "The Delivery Rider",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["家", "jiā", "home"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["的", "de", "(possessive)"],
+        ["快递", "kuàidì", "express delivery"],
+        ["站", "zhàn", "station"],
+        ["，"],
+        ["每天", "měitiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["六", "liù", "six"],
+        ["点", "diǎn", "o'clock"],
+        ["就", "jiù", "already; as early as"],
+        ["开门", "kāimén", "to open"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "The delivery station downstairs from my building opens as early as six every morning."
+    },
+    {
+      "t": [
+        ["送", "sòng", "to deliver"],
+        ["快递", "kuàidì", "express delivery"],
+        ["的", "de", "(possessive)"],
+        ["小哥", "xiǎogē", "young guy; rider"],
+        ["姓", "xìng", "to be surnamed"],
+        ["王", "Wáng", "Wang"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["叫", "jiào", "to call"],
+        ["他", "tā", "him"],
+        ["小王", "Xiǎo Wáng", "Xiao Wang"],
+        ["。"]
+      ],
+      "en": "The rider who delivers the parcels is surnamed Wang, and everyone calls him Xiao Wang."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["不但", "búdàn", "not only"],
+        ["记得", "jìde", "to remember"],
+        ["每", "měi", "every"],
+        ["个", "ge", "(measure word)"],
+        ["人", "rén", "person"],
+        ["的", "de", "(possessive)"],
+        ["名字", "míngzi", "name"],
+        ["，"],
+        ["而且", "érqiě", "but also"],
+        ["知道", "zhīdào", "to know"],
+        ["谁", "shéi", "who"],
+        ["家", "jiā", "home"],
+        ["白天", "báitiān", "daytime"],
+        ["没有", "méiyǒu", "not have"],
+        ["人", "rén", "people"],
+        ["。"]
+      ],
+      "en": "He not only remembers everyone's name, he also knows whose home is empty during the day."
+    },
+    {
+      "t": [
+        ["无论", "wúlùn", "no matter"],
+        ["刮风", "guā fēng", "windy"],
+        ["还是", "háishi", "or"],
+        ["下雨", "xià yǔ", "raining"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["都", "dōu", "all; always"],
+        ["准时", "zhǔnshí", "on time"],
+        ["出现", "chūxiàn", "to appear"],
+        ["在", "zài", "at"],
+        ["我们", "wǒmen", "our"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["。"]
+      ],
+      "en": "No matter whether it's windy or raining, he shows up downstairs on time every day."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there is"],
+        ["一", "yí", "one"],
+        ["次", "cì", "time"],
+        ["我", "wǒ", "I"],
+        ["在", "zài", "(progressive)"],
+        ["开会", "kāihuì", "to be in a meeting"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["把", "bǎ", "(object marker)"],
+        ["箱子", "xiāngzi", "box"],
+        ["放", "fàng", "to put"],
+        ["在", "zài", "at"],
+        ["门口", "ménkǒu", "doorway"],
+        ["，"],
+        ["还", "hái", "also"],
+        ["发", "fā", "to send"],
+        ["短信", "duǎnxìn", "text message"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "me"],
+        ["。"]
+      ],
+      "en": "Once, when I was in a meeting, he left the box at my door and even sent me a text to let me know."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["问", "wèn", "to ask"],
+        ["他", "tā", "him"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["要", "yào", "must; have to"],
+        ["送", "sòng", "to deliver"],
+        ["多少", "duōshao", "how many"],
+        ["件", "jiàn", "(measure word for items)"],
+        ["快递", "kuàidì", "parcels"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(continuous particle)"],
+        ["说", "shuō", "to say"],
+        ["两", "liǎng", "two"],
+        ["百", "bǎi", "hundred"],
+        ["多", "duō", "more than"],
+        ["件", "jiàn", "(measure word for items)"],
+        ["。"]
+      ],
+      "en": "I asked him how many parcels he has to deliver in a day, and he said with a smile: more than two hundred."
+    },
+    {
+      "t": [
+        ["对", "duì", "to"],
+        ["我", "wǒ", "me"],
+        ["来说", "láishuō", "speaking of"],
+        ["，"],
+        ["网上", "wǎngshàng", "online"],
+        ["买", "mǎi", "to buy"],
+        ["东西", "dōngxi", "things"],
+        ["只是", "zhǐshì", "is only"],
+        ["点", "diǎn", "to tap"],
+        ["一下", "yíxià", "once; briefly"],
+        ["手机", "shǒujī", "phone"],
+        ["；"],
+        ["对", "duì", "to"],
+        ["他", "tā", "him"],
+        ["来说", "láishuō", "speaking of"],
+        ["，"],
+        ["那", "nà", "that"],
+        ["是", "shì", "is"],
+        ["从", "cóng", "from"],
+        ["早", "zǎo", "morning"],
+        ["跑", "pǎo", "to run"],
+        ["到", "dào", "until"],
+        ["晚", "wǎn", "night"],
+        ["的", "de", "(possessive)"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["。"]
+      ],
+      "en": "For me, buying something online is just a tap on my phone; for him, it's a day of running from morning till night."
+    },
+    {
+      "t": [
+        ["所以", "suǒyǐ", "so"],
+        ["现在", "xiànzài", "now"],
+        ["拿到", "nádào", "to receive"],
+        ["快递", "kuàidì", "parcel"],
+        ["的", "de", "(possessive)"],
+        ["时候", "shíhou", "time; moment"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["总", "zǒng", "always"],
+        ["会", "huì", "will"],
+        ["认真", "rènzhēn", "sincerely"],
+        ["地", "de", "(adverbial particle)"],
+        ["说", "shuō", "to say"],
+        ["一", "yì", "one"],
+        ["声", "shēng", "(measure word for a sound)"],
+        ["谢谢", "xièxie", "thank you"],
+        ["。"]
+      ],
+      "en": "So now, whenever I take a parcel, I always make a point of saying a sincere thank you."
+    }
+  ],
+  "vocab": [
+    ["快递", "kuàidì", "express delivery; parcel"],
+    ["小哥", "xiǎogē", "young guy (friendly term for a rider)"],
+    ["准时", "zhǔnshí", "on time; punctual"],
+    ["出现", "chūxiàn", "to appear; to show up"],
+    ["短信", "duǎnxìn", "text message"],
+    ["白天", "báitiān", "daytime"]
+  ],
+  "quiz": [
+    {
+      "q": "What time does the delivery station downstairs open each morning?",
+      "a": ["Six o'clock", "Eight o'clock", "Ten o'clock"],
+      "c": 0
+    },
+    {
+      "q": "What did Xiao Wang do when the author was in a meeting?",
+      "a": ["He took the box back to the station", "He left the box at the door and sent a text", "He gave the box to a neighbour"],
+      "c": 1
+    },
+    {
+      "q": "How many parcels does Xiao Wang say he delivers in one day?",
+      "a": ["About twenty", "About eighty", "More than two hundred"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不但……而且…… — not only… but also…",
+      "e": "不但 introduces the first fact and 而且 adds a second, stronger one about the same subject: 他不但记得每个人的名字，而且知道谁家白天没有人。",
+      "x": "他不但会说汉语，而且说得很流利。— He not only speaks Chinese, he speaks it very fluently."
+    },
+    {
+      "p": "无论……都…… — no matter…, still…",
+      "e": "无论 is followed by a choice or a question word, and 都 in the second half says the result never changes.",
+      "x": "无论多忙，他都会给家里打电话。— No matter how busy he is, he always calls home."
+    },
+    {
+      "p": "对……来说 — as far as … is concerned",
+      "e": "对……来说 marks whose point of view you are taking, and is often used twice to contrast two people: 对我来说……；对他来说……。",
+      "x": "对孩子来说，暑假是一年中最快乐的时候。— For children, the summer holiday is the happiest time of the year."
+    }
+  ]
+}

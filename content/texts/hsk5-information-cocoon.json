@@ -1,0 +1,164 @@
+{
+  "slug": "hsk5-information-cocoon",
+  "level": 5,
+  "title_zh": "信息茧房",
+  "title_py": "Xìnxī jiǎnfáng",
+  "title_en": "The Information Cocoon",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我","wǒ","I"], ["有","yǒu","to have"], ["一","yí","one"], ["个","gè","(measure)"],
+        ["朋友","péngyou","friend"], ["，"],
+        ["最近","zuìjìn","recently"], ["半","bàn","half"], ["年","nián","year"],
+        ["每天","měitiān","every day"], ["都","dōu","all"], ["在","zài","on"],
+        ["网上","wǎngshàng","the internet"], ["看","kàn","to read"],
+        ["同","tóng","same"], ["一","yí","one"], ["类","lèi","kind"],
+        ["新闻","xīnwén","news"], ["。"]
+      ],
+      "en": "I have a friend who, for the past six months, has been reading the same kind of news online every single day."
+    },
+    {
+      "t": [
+        ["他","tā","he"], ["打开","dǎkāi","to open"], ["手机","shǒujī","phone"], ["，"],
+        ["推荐","tuījiàn","to recommend"], ["给","gěi","to"], ["他","tā","him"],
+        ["的","de","(particle)"], ["内容","nèiróng","content"],
+        ["永远","yǒngyuǎn","always"], ["符合","fúhé","to fit; to match"],
+        ["他","tā","his"], ["的","de","(particle)"], ["想法","xiǎngfǎ","way of thinking"], ["。"]
+      ],
+      "en": "He opens his phone, and the content recommended to him always matches the way he already thinks."
+    },
+    {
+      "t": [
+        ["时间","shíjiān","time"], ["长","cháng","long"], ["了","le","(particle)"], ["，"],
+        ["他","tā","he"], ["就","jiù","then"], ["觉得","juéde","to feel"],
+        ["全","quán","whole"], ["世界","shìjiè","world"], ["的","de","(particle)"],
+        ["人","rén","people"], ["都","dōu","all"], ["跟","gēn","with"],
+        ["他","tā","him"], ["想","xiǎng","to think"], ["的","de","(particle)"],
+        ["一样","yíyàng","the same"], ["。"]
+      ],
+      "en": "After a while, he came to feel that everyone in the world thinks exactly the way he does."
+    },
+    {
+      "t": [
+        ["这","zhè","this"], ["种","zhǒng","kind of"], ["情况","qíngkuàng","situation"],
+        ["有","yǒu","to have"], ["个","gè","(measure)"], ["名字","míngzi","name"], ["，"],
+        ["叫","jiào","called"], ["信息茧房","xìnxī jiǎnfáng","information cocoon"], ["："],
+        ["我们","wǒmen","we"], ["用","yòng","to use"], ["自己","zìjǐ","one's own"],
+        ["喜欢","xǐhuan","to like"], ["的","de","(particle)"], ["信息","xìnxī","information"], ["，"],
+        ["一","yì","one"], ["层","céng","layer"], ["一","yì","one"], ["层","céng","layer"],
+        ["地","de","(adverbial particle)"], ["把","bǎ","(object marker)"],
+        ["自己","zìjǐ","oneself"], ["包","bāo","to wrap"], ["起来","qǐlai","up"], ["。"]
+      ],
+      "en": "This situation has a name: the information cocoon. Layer by layer, we wrap ourselves up in the information we like."
+    },
+    {
+      "t": [
+        ["有意思","yǒuyìsi","interesting"], ["的","de","(particle)"], ["是","shì","is"], ["，"],
+        ["我们","wǒmen","we"], ["未必","wèibì","not necessarily"], ["是","shì","are"],
+        ["被","bèi","(passive marker)"], ["别人","biéren","others"],
+        ["关","guān","to shut"], ["起来","qǐlai","in"], ["的","de","(particle)"], ["，"],
+        ["恰恰","qiàqià","precisely"], ["是","shì","is"], ["自己","zìjǐ","oneself"],
+        ["选","xuǎn","to choose"], ["的","de","(particle)"], ["。"]
+      ],
+      "en": "The interesting part is that we are not necessarily shut in by other people; it is precisely we ourselves who chose it."
+    },
+    {
+      "t": [
+        ["每次","měicì","every time"], ["我们","wǒmen","we"], ["多","duō","one more"],
+        ["看","kàn","to watch"], ["一","yí","one"], ["个","gè","(measure)"],
+        ["视频","shìpín","video"], ["，"],
+        ["机器","jīqì","machine"], ["就","jiù","then"], ["记住","jìzhù","to remember"],
+        ["一","yí","one"], ["次","cì","time"], ["；"],
+        ["久而久之","jiǔ'érjiǔzhī","over time"], ["，"],
+        ["它","tā","it"], ["只","zhǐ","only"], ["给","gěi","to give"],
+        ["我们","wǒmen","us"], ["看","kàn","to see"], ["我们","wǒmen","we"],
+        ["爱","ài","to love"], ["看","kàn","to watch"], ["的","de","(particle)"],
+        ["东西","dōngxi","things"], ["。"]
+      ],
+      "en": "Every time we watch one more video, the machine records it once; over time, it shows us only the things we love to watch."
+    },
+    {
+      "t": [
+        ["与其","yǔqí","rather than"], ["怪","guài","to blame"],
+        ["软件","ruǎnjiàn","the app"], ["，"],
+        ["不如","bùrú","it is better to"], ["问","wèn","to ask"], ["问","wèn","(repeat)"],
+        ["自己","zìjǐ","oneself"], ["："],
+        ["上次","shàng cì","last time"], ["认真","rènzhēn","seriously"],
+        ["读","dú","to read"], ["一","yì","one"], ["篇","piān","(measure for articles)"],
+        ["不同","bùtóng","different"], ["意见","yìjiàn","opinion"],
+        ["的","de","(particle)"], ["文章","wénzhāng","article"], ["，"],
+        ["是","shì","was"], ["什么","shénme","what"], ["时候","shíhou","time"], ["？"]
+      ],
+      "en": "Rather than blaming the app, we might as well ask ourselves: when was the last time we carefully read an article we disagreed with?"
+    },
+    {
+      "t": [
+        ["我","wǒ","I"], ["试","shì","to try"], ["过","guo","(experiential)"],
+        ["一","yí","one"], ["个","gè","(measure)"], ["办法","bànfǎ","method"], ["："],
+        ["每","měi","every"], ["周","zhōu","week"], ["专门","zhuānmén","specially"],
+        ["关注","guānzhù","to follow"], ["三","sān","three"], ["个","gè","(measure)"],
+        ["跟","gēn","with"], ["我","wǒ","my"], ["观点","guāndiǎn","viewpoint"],
+        ["相反","xiāngfǎn","opposite"], ["的","de","(particle)"],
+        ["作者","zuòzhě","author"], ["。"]
+      ],
+      "en": "I tried a method: every week I deliberately follow three writers whose views are the opposite of mine."
+    },
+    {
+      "t": [
+        ["说实话","shuō shíhuà","to be honest"], ["，"],
+        ["读","dú","to read"], ["的","de","(particle)"], ["时候","shíhou","time"],
+        ["很","hěn","very"], ["难受","nánshòu","uncomfortable"], ["，"],
+        ["可是","kěshì","but"], ["难受","nánshòu","discomfort"],
+        ["之后","zhīhòu","after"], ["，"],
+        ["我","wǒ","I"], ["发现","fāxiàn","to discover"], ["自己","zìjǐ","my own"],
+        ["的","de","(particle)"], ["想法","xiǎngfǎ","thinking"],
+        ["反而","fǎn'ér","on the contrary"], ["更","gèng","more"],
+        ["清楚","qīngchu","clear"], ["了","le","(particle)"], ["。"]
+      ],
+      "en": "Honestly, it feels unpleasant while I read; but after the discomfort, I find that my own thinking has actually become clearer."
+    }
+  ],
+  "vocab": [
+    ["信息茧房","xìnxī jiǎnfáng","information cocoon; filter bubble"],
+    ["推荐","tuījiàn","to recommend"],
+    ["未必","wèibì","not necessarily"],
+    ["恰恰","qiàqià","precisely; exactly"],
+    ["观点","guāndiǎn","viewpoint; opinion"],
+    ["久而久之","jiǔ'érjiǔzhī","over time; as time goes by"]
+  ],
+  "quiz": [
+    {
+      "q": "Why does the friend feel that everyone thinks like him?",
+      "a": ["The content recommended to him always matches his own ideas", "He talks with people from many countries", "He reads several foreign newspapers"],
+      "c": 0
+    },
+    {
+      "q": "What method did the writer try?",
+      "a": ["Deleting all news apps", "Following three writers with opposite views every week", "Reading only one article a day"],
+      "c": 1
+    },
+    {
+      "q": "How does the writer feel about reading opposing opinions?",
+      "a": ["Completely bored, so he stopped", "Angry at the authors", "Uncomfortable, but his own thinking becomes clearer"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "与其…不如… — rather than A, better to B",
+      "e": "与其 introduces a rejected option and 不如 gives the better one: 与其怪软件，不如问问自己。",
+      "x": "与其在家抱怨，不如出去走走。 — Rather than complaining at home, you may as well go out for a walk."
+    },
+    {
+      "p": "未必 — not necessarily",
+      "e": "未必 softly denies an assumption, weaker than 不 or 没有: 我们未必是被别人关起来的。",
+      "x": "价格贵的东西未必好用。 — Expensive things are not necessarily easy to use."
+    },
+    {
+      "p": "恰恰 — precisely; it is exactly…",
+      "e": "恰恰 stresses that the truth is exactly the surprising one: 恰恰是自己选的。",
+      "x": "他担心的恰恰是我担心的。 — What he worries about is exactly what I worry about."
+    }
+  ]
+}

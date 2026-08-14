@@ -1,0 +1,286 @@
+{
+  "slug": "hsk6-climate-change-and-responsibility",
+  "level": 6,
+  "title_zh": "气候变化与责任",
+  "title_py": "Qìhòu biànhuà yǔ zérèn",
+  "title_en": "Climate Change and Responsibility",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["关于", "guānyú", "concerning"],
+        ["气候变化", "qìhòu biànhuà", "climate change"],
+        ["，"],
+        ["公众", "gōngzhòng", "the public"],
+        ["最", "zuì", "most"],
+        ["常", "cháng", "often"],
+        ["听到", "tīngdào", "to hear"],
+        ["的", "de", "(possessive particle)"],
+        ["建议", "jiànyì", "advice; suggestion"],
+        ["是", "shì", "is"],
+        ["随手", "suíshǒu", "as one goes; without extra effort"],
+        ["关灯", "guāndēng", "to turn off the lights"],
+        ["、"],
+        ["少", "shǎo", "to use less"],
+        ["用", "yòng", "to use"],
+        ["塑料袋", "sùliàodài", "plastic bag"],
+        ["、"],
+        ["尽量", "jǐnliàng", "as far as possible"],
+        ["乘坐", "chéngzuò", "to take (transport)"],
+        ["公共交通", "gōnggòng jiāotōng", "public transport"],
+        ["。"]
+      ],
+      "en": "On climate change, the advice the public hears most often is to switch off the lights, use fewer plastic bags, and take public transport whenever possible."
+    },
+    {
+      "t": [
+        ["这些", "zhèxiē", "these"],
+        ["提醒", "tíxǐng", "reminder"],
+        ["当然", "dāngrán", "of course"],
+        ["没错", "méicuò", "not wrong"],
+        ["，"],
+        ["可", "kě", "but"],
+        ["若", "ruò", "if"],
+        ["把", "bǎ", "(object marker)"],
+        ["责任", "zérèn", "responsibility"],
+        ["全部", "quánbù", "entirely"],
+        ["推给", "tuī gěi", "to push onto"],
+        ["个人", "gèrén", "the individual"],
+        ["，"],
+        ["未免", "wèimiǎn", "rather too; a bit excessively"],
+        ["过于", "guòyú", "excessively"],
+        ["轻巧", "qīngqiǎo", "glib; too easy"],
+        ["。"]
+      ],
+      "en": "These reminders are of course not wrong, but pushing the whole responsibility onto individuals is a bit too glib."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there is; to have"],
+        ["研究", "yánjiū", "study; research"],
+        ["指出", "zhǐchū", "to point out"],
+        ["，"],
+        ["一个", "yí gè", "one; a"],
+        ["普通", "pǔtōng", "ordinary"],
+        ["家庭", "jiātíng", "household"],
+        ["一年", "yì nián", "one year"],
+        ["省下", "shěngxià", "to save"],
+        ["的", "de", "(possessive particle)"],
+        ["排放", "páifàng", "emissions"],
+        ["，"],
+        ["往往", "wǎngwǎng", "often"],
+        ["抵不上", "dǐ bú shàng", "cannot offset"],
+        ["一次", "yí cì", "one (occurrence)"],
+        ["大型", "dàxíng", "large-scale"],
+        ["活动", "huódòng", "event"],
+        ["的", "de", "(possessive particle)"],
+        ["消耗", "xiāohào", "consumption"],
+        ["。"]
+      ],
+      "en": "Studies point out that the emissions an ordinary household saves in a year often fail to offset the consumption of a single large-scale event."
+    },
+    {
+      "t": [
+        ["换言之", "huàn yán zhī", "in other words"],
+        ["，"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["决定", "juédìng", "to determine"],
+        ["排放", "páifàng", "emissions"],
+        ["曲线", "qūxiàn", "curve"],
+        ["走向", "zǒuxiàng", "direction; trajectory"],
+        ["的", "de", "(possessive particle)"],
+        ["，"],
+        ["是", "shì", "is"],
+        ["能源", "néngyuán", "energy"],
+        ["结构", "jiégòu", "structure"],
+        ["、"],
+        ["建筑", "jiànzhù", "construction; building"],
+        ["标准", "biāozhǔn", "standard"],
+        ["与", "yǔ", "and"],
+        ["交通", "jiāotōng", "transport"],
+        ["规划", "guīhuà", "planning"],
+        ["这类", "zhè lèi", "this sort of"],
+        ["系统性", "xìtǒngxìng", "systemic"],
+        ["的", "de", "(possessive particle)"],
+        ["选择", "xuǎnzé", "choice"],
+        ["。"]
+      ],
+      "en": "In other words, what really sets the direction of the emissions curve are systemic choices: the energy mix, building standards, transport planning."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however"],
+        ["，"],
+        ["倘若", "tǎngruò", "if; supposing"],
+        ["因此", "yīncǐ", "for this reason"],
+        ["断定", "duàndìng", "to conclude"],
+        ["个人", "gèrén", "the individual"],
+        ["无能为力", "wú néng wéi lì", "powerless to do anything"],
+        ["，"],
+        ["同样", "tóngyàng", "equally"],
+        ["是", "shì", "is"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["误解", "wùjiě", "misunderstanding"],
+        ["。"]
+      ],
+      "en": "Yet if one concludes from this that individuals are powerless, that is equally a misunderstanding."
+    },
+    {
+      "t": [
+        ["个人", "gèrén", "the individual"],
+        ["的", "de", "(possessive particle)"],
+        ["选择", "xuǎnzé", "choice"],
+        ["之所以", "zhī suǒyǐ", "the reason why"],
+        ["重要", "zhòngyào", "important"],
+        ["，"],
+        ["并", "bìng", "(emphasizes negation)"],
+        ["不", "bú", "not"],
+        ["在于", "zàiyú", "to lie in"],
+        ["它", "tā", "it"],
+        ["直接", "zhíjiē", "directly"],
+        ["减少", "jiǎnshǎo", "to reduce"],
+        ["了", "le", "(completed action)"],
+        ["多少", "duōshao", "how much"],
+        ["排放", "páifàng", "emissions"],
+        ["，"],
+        ["而", "ér", "but"],
+        ["在于", "zàiyú", "to lie in"],
+        ["它", "tā", "it"],
+        ["塑造", "sùzào", "to shape; to mold"],
+        ["了", "le", "(completed action)"],
+        ["什么", "shénme", "what"],
+        ["被", "bèi", "(passive marker)"],
+        ["视为", "shìwéi", "to be regarded as"],
+        ["正常", "zhèngcháng", "normal"],
+        ["。"]
+      ],
+      "en": "The reason individual choices matter lies not in how much they directly cut emissions, but in what they shape into being seen as normal."
+    },
+    {
+      "t": [
+        ["当", "dāng", "when"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["多", "duō", "many"],
+        ["的", "de", "(possessive particle)"],
+        ["人", "rén", "people"],
+        ["把", "bǎ", "(object marker)"],
+        ["节能", "jiénéng", "saving energy"],
+        ["视作", "shìzuò", "to regard as"],
+        ["理所当然", "lǐ suǒ dāng rán", "a matter of course"],
+        ["，"],
+        ["政策", "zhèngcè", "policy"],
+        ["与", "yǔ", "and"],
+        ["市场", "shìchǎng", "market"],
+        ["才", "cái", "only then"],
+        ["有", "yǒu", "there is; to have"],
+        ["可能", "kěnéng", "possibility"],
+        ["随之", "suí zhī", "accordingly"],
+        ["调整", "tiáozhěng", "to adjust"],
+        ["。"]
+      ],
+      "en": "Only when more and more people take saving energy as a matter of course can policy and the market possibly adjust along with them."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["在", "zài", "on"],
+        ["“"],
+        ["该", "gāi", "should"],
+        ["怪", "guài", "to blame"],
+        ["谁", "shéi", "whom"],
+        ["”"],
+        ["上", "shàng", "on"],
+        ["争论不休", "zhēnglùn bùxiū", "to argue endlessly"],
+        ["，"],
+        ["不如", "bùrú", "it would be better to"],
+        ["承认", "chéngrèn", "to admit"],
+        ["："],
+        ["气候", "qìhòu", "climate"],
+        ["责任", "zérèn", "responsibility"],
+        ["从来", "cónglái", "ever; at any time"],
+        ["不是", "bú shì", "is not"],
+        ["单选题", "dānxuǎntí", "single-choice question"],
+        ["。"]
+      ],
+      "en": "Rather than argue endlessly over \"whose fault it is,\" it would be better to admit that climate responsibility was never a single-choice question."
+    },
+    {
+      "t": [
+        ["它", "tā", "it"],
+        ["既", "jì", "both"],
+        ["需要", "xūyào", "to require"],
+        ["制度", "zhìdù", "institution; system"],
+        ["的", "de", "(possessive particle)"],
+        ["转身", "zhuǎnshēn", "to turn around"],
+        ["，"],
+        ["也", "yě", "and also"],
+        ["需要", "xūyào", "to require"],
+        ["无数", "wúshù", "countless"],
+        ["人", "rén", "people"],
+        ["日常", "rìcháng", "everyday"],
+        ["的", "de", "(possessive particle)"],
+        ["坚持", "jiānchí", "persistence"],
+        ["，"],
+        ["二者", "èr zhě", "the two"],
+        ["同样", "tóngyàng", "equally"],
+        ["不可或缺", "bùkě huòquē", "indispensable"],
+        ["。"]
+      ],
+      "en": "It needs institutions to turn around and it needs the daily persistence of countless people; the two are equally indispensable."
+    }
+  ],
+  "vocab": [
+    ["未免", "wèimiǎn", "rather too; a bit excessively (mild criticism)"],
+    ["换言之", "huàn yán zhī", "in other words"],
+    ["无能为力", "wú néng wéi lì", "powerless; unable to do anything about it"],
+    ["理所当然", "lǐ suǒ dāng rán", "as a matter of course; taken for granted"],
+    ["争论不休", "zhēnglùn bùxiū", "to argue on and on without end"],
+    ["不可或缺", "bùkě huòquē", "indispensable"]
+  ],
+  "quiz": [
+    {
+      "q": "What do the studies mentioned in the text say about a household's yearly savings?",
+      "a": [
+        "They comfortably exceed the consumption of a large event",
+        "They often cannot offset the consumption of a single large-scale event",
+        "They are impossible to measure with any accuracy"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the author, why do individual choices still matter?",
+      "a": [
+        "Because they shape what comes to be seen as normal",
+        "Because they directly account for most emissions",
+        "Because they save households a great deal of money"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What conclusion does the text reach about climate responsibility?",
+      "a": [
+        "It rests with institutions alone",
+        "It rests with individuals alone",
+        "It was never a single-choice question; institutions and individuals are both indispensable"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "倘若……，…… — supposing that; if",
+      "e": "A formal written equivalent of 如果, used to introduce a hypothetical the author is about to reject or warn against.",
+      "x": "倘若没有及时提醒，后果不堪设想。 — Had no timely warning been given, the consequences would be unthinkable."
+    },
+    {
+      "p": "之所以……，在于/是因为…… — the reason why … is that",
+      "e": "Puts the result first and the cause second, giving the explanation extra weight; typical of analytical and argumentative writing.",
+      "x": "他之所以坚持下来，是因为看到了别人看不到的意义。 — The reason he kept going is that he saw a meaning others could not see."
+    },
+    {
+      "p": "既……，也…… — both … and",
+      "e": "Joins two qualities or requirements that hold at the same time. Unlike 又……又……, it is more formal and often summarizes an argument.",
+      "x": "这份工作既需要耐心，也需要判断力。 — This job calls for both patience and judgment."
+    }
+  ]
+}

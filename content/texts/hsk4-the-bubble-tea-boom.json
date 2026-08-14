@@ -1,0 +1,239 @@
+{
+  "slug": "hsk4-the-bubble-tea-boom",
+  "level": 4,
+  "title_zh": "奶茶经济",
+  "title_py": "Nǎichá Jīngjì",
+  "title_en": "The Bubble Tea Boom",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我们", "wǒmen", "our"],
+        ["公司", "gōngsī", "company"],
+        ["楼下", "lóuxià", "downstairs"],
+        ["不", "bú", "not"],
+        ["到", "dào", "reach"],
+        ["三百", "sānbǎi", "three hundred"],
+        ["米", "mǐ", "metres"],
+        ["，"],
+        ["就", "jiù", "already"],
+        ["开", "kāi", "to open"],
+        ["了", "le", "(particle)"],
+        ["五", "wǔ", "five"],
+        ["家", "jiā", "(measure word for shops)"],
+        ["奶茶", "nǎichá", "milk tea"],
+        ["店", "diàn", "shop"],
+        ["。"]
+      ],
+      "en": "Within less than three hundred metres of my office building, five milk tea shops have opened."
+    },
+    {
+      "t": [
+        ["每天", "měitiān", "every day"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["三", "sān", "three"],
+        ["点", "diǎn", "o'clock"],
+        ["，"],
+        ["同事", "tóngshì", "colleagues"],
+        ["们", "men", "(plural)"],
+        ["就", "jiù", "then"],
+        ["开始", "kāishǐ", "to start"],
+        ["讨论", "tǎolùn", "to discuss"],
+        ["今天", "jīntiān", "today"],
+        ["喝", "hē", "to drink"],
+        ["什么", "shénme", "what"],
+        ["。"]
+      ],
+      "en": "Every day at three in the afternoon, my colleagues start discussing what to drink today."
+    },
+    {
+      "t": [
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup"],
+        ["奶茶", "nǎichá", "milk tea"],
+        ["差不多", "chàbuduō", "about"],
+        ["二十", "èrshí", "twenty"],
+        ["块", "kuài", "yuan"],
+        ["，"],
+        ["比", "bǐ", "than"],
+        ["一", "yí", "one"],
+        ["份", "fèn", "(measure word for a set meal)"],
+        ["午饭", "wǔfàn", "lunch"],
+        ["还", "hái", "even"],
+        ["贵", "guì", "expensive"],
+        ["。"]
+      ],
+      "en": "One cup of milk tea costs about twenty yuan, even more expensive than a lunch."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["大家", "dàjiā", "everyone"],
+        ["还是", "háishi", "still"],
+        ["愿意", "yuànyì", "willing"],
+        ["排队", "páiduì", "to queue"],
+        ["，"],
+        ["有时候", "yǒu shíhou", "sometimes"],
+        ["要", "yào", "have to"],
+        ["等", "děng", "to wait"],
+        ["半", "bàn", "half"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["。"]
+      ],
+      "en": "Yet everyone is still willing to queue, sometimes waiting half an hour."
+    },
+    {
+      "t": [
+        ["老板", "lǎobǎn", "shop owner"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["买", "mǎi", "to buy"],
+        ["的", "de", "(nominalizer)"],
+        ["不", "bù", "not"],
+        ["只是", "zhǐshì", "only"],
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup"],
+        ["饮料", "yǐnliào", "drink"],
+        ["，"],
+        ["也是", "yěshì", "also is"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind of"],
+        ["心情", "xīnqíng", "mood"],
+        ["。"]
+      ],
+      "en": "The owner says that what young people buy is not just a drink, but also a mood."
+    },
+    {
+      "t": [
+        ["随着", "suízhe", "along with; as"],
+        ["新", "xīn", "new"],
+        ["店", "diàn", "shops"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["价格", "jiàgé", "price"],
+        ["也", "yě", "also"],
+        ["慢慢", "mànmàn", "slowly"],
+        ["便宜", "piányi", "cheap"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "As more and more new shops opened, prices slowly came down too."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["算", "suàn", "to calculate"],
+        ["了", "le", "(particle)"],
+        ["一下", "yíxià", "briefly"],
+        ["，"],
+        ["如果", "rúguǒ", "if"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["一", "yì", "one"],
+        ["杯", "bēi", "cup"],
+        ["，"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["就", "jiù", "then"],
+        ["要", "yào", "would need"],
+        ["花", "huā", "to spend"],
+        ["七千", "qīqiān", "seven thousand"],
+        ["多", "duō", "more than"],
+        ["块", "kuài", "yuan"],
+        ["。"]
+      ],
+      "en": "I did the maths: if I had one cup a day, I would spend more than seven thousand yuan a year."
+    },
+    {
+      "t": [
+        ["既然", "jìrán", "since"],
+        ["一", "yì", "one"],
+        ["年", "nián", "year"],
+        ["要", "yào", "would need"],
+        ["花", "huā", "to spend"],
+        ["这么", "zhème", "so"],
+        ["多", "duō", "much"],
+        ["钱", "qián", "money"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["就", "jiù", "then"],
+        ["决定", "juédìng", "to decide"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["星期", "xīngqī", "week"],
+        ["只", "zhǐ", "only"],
+        ["喝", "hē", "to drink"],
+        ["一", "yí", "one"],
+        ["次", "cì", "time"],
+        ["。"]
+      ],
+      "en": "Since it would cost that much in a year, I decided to have it only once a week."
+    },
+    {
+      "t": [
+        ["不过", "búguò", "however"],
+        ["每", "měi", "every"],
+        ["次", "cì", "time"],
+        ["经过", "jīngguò", "to pass by"],
+        ["奶茶", "nǎichá", "milk tea"],
+        ["店", "diàn", "shop"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["还是", "háishi", "still"],
+        ["会", "huì", "will"],
+        ["往", "wǎng", "toward"],
+        ["里", "lǐ", "inside"],
+        ["看", "kàn", "to look"],
+        ["一", "yì", "one"],
+        ["眼", "yǎn", "glance"],
+        ["。"]
+      ],
+      "en": "Still, every time I walk past a milk tea shop, I can't help taking a look inside."
+    }
+  ],
+  "vocab": [
+    ["奶茶", "nǎichá", "milk tea; bubble tea"],
+    ["讨论", "tǎolùn", "to discuss"],
+    ["排队", "páiduì", "to queue up"],
+    ["饮料", "yǐnliào", "drink; beverage"],
+    ["价格", "jiàgé", "price"],
+    ["心情", "xīnqíng", "mood; state of mind"]
+  ],
+  "quiz": [
+    {
+      "q": "How many milk tea shops opened within 300 metres of the office?",
+      "a": ["Five", "Two", "Ten"],
+      "c": 0
+    },
+    {
+      "q": "How much does one cup of milk tea cost?",
+      "a": ["About five yuan", "About twenty yuan", "About fifty yuan"],
+      "c": 1
+    },
+    {
+      "q": "What did the author finally decide to do?",
+      "a": ["To open a shop of their own", "To never drink milk tea again", "To drink it only once a week"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着…… — as; along with",
+      "e": "随着 introduces a changing situation, and the main clause states the change that comes with it: 随着新店越来越多，价格也慢慢便宜了。",
+      "x": "随着天气变暖，公园里的人多了起来。— As the weather warms up, more people appear in the park."
+    },
+    {
+      "p": "既然……就…… — since…, then…",
+      "e": "既然 states a fact both speakers already accept, and 就 draws the natural conclusion from it.",
+      "x": "既然你不舒服，就早点儿休息吧。— Since you don't feel well, get some rest early."
+    },
+    {
+      "p": "比……还…… — even more … than",
+      "e": "比 makes the comparison and 还 says the difference is bigger than expected: 比一份午饭还贵。",
+      "x": "今天比昨天还热。— Today is even hotter than yesterday."
+    }
+  ]
+}

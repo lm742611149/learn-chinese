@@ -1,0 +1,292 @@
+{
+  "slug": "hsk6-the-guardians-of-dunhuang",
+  "level": 6,
+  "title_zh": "敦煌的守护者",
+  "title_py": "Dūnhuáng de shǒuhùzhě",
+  "title_en": "The Guardians of Dunhuang",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["敦煌", "Dūnhuáng", "Dunhuang (oasis town in Gansu, western China)"],
+        ["莫高窟", "Mògāokū", "the Mogao Caves"],
+        ["位于", "wèiyú", "to be located at"],
+        ["中国", "Zhōngguó", "China"],
+        ["西北", "xīběi", "northwest"],
+        ["的", "de", "(possessive particle)"],
+        ["戈壁", "gēbì", "gobi; stony desert"],
+        ["边缘", "biānyuán", "edge; margin"],
+        ["，"],
+        ["七百余", "qībǎi yú", "over seven hundred"],
+        ["个", "gè", "(general measure word)"],
+        ["洞窟", "dòngkū", "cave; grotto"],
+        ["里", "lǐ", "inside"],
+        ["保存", "bǎocún", "to preserve"],
+        ["着", "zhe", "(durative particle)"],
+        ["一千多", "yìqiān duō", "more than a thousand"],
+        ["年", "nián", "year"],
+        ["的", "de", "(possessive particle)"],
+        ["壁画", "bìhuà", "mural; wall painting"],
+        ["与", "yǔ", "and"],
+        ["彩塑", "cǎisù", "painted sculpture"],
+        ["。"]
+      ],
+      "en": "The Mogao Caves at Dunhuang sit on the edge of the gobi in northwest China, and inside more than seven hundred grottoes they preserve murals and painted sculptures over a thousand years old."
+    },
+    {
+      "t": [
+        ["二十世纪", "èrshí shìjì", "the twentieth century"],
+        ["初", "chū", "the beginning of"],
+        ["，"],
+        ["这批", "zhè pī", "this batch of"],
+        ["珍宝", "zhēnbǎo", "treasure"],
+        ["曾", "céng", "once (in the past)"],
+        ["遭到", "zāodào", "to suffer; to meet with"],
+        ["严重", "yánzhòng", "serious; severe"],
+        ["的", "de", "(possessive particle)"],
+        ["破坏", "pòhuài", "damage; destruction"],
+        ["与", "yǔ", "and"],
+        ["流散", "liúsàn", "to be scattered and lost"],
+        ["，"],
+        ["大量", "dàliàng", "a large quantity of"],
+        ["经卷", "jīngjuàn", "scripture scroll"],
+        ["被", "bèi", "(passive marker)"],
+        ["运", "yùn", "to transport"],
+        ["往", "wǎng", "toward"],
+        ["海外", "hǎiwài", "overseas"],
+        ["。"]
+      ],
+      "en": "In the early twentieth century these treasures suffered severe damage and dispersal, and great numbers of scripture scrolls were shipped overseas."
+    },
+    {
+      "t": [
+        ["一九四三年", "yī jiǔ sì sān nián", "the year 1943"],
+        ["，"],
+        ["画家", "huàjiā", "painter"],
+        ["常书鸿", "Cháng Shūhóng", "Chang Shuhong (painter, 1904–1994)"],
+        ["放弃", "fàngqì", "to give up"],
+        ["了", "le", "(completed action)"],
+        ["巴黎", "Bālí", "Paris"],
+        ["优越", "yōuyuè", "comfortable; advantageous"],
+        ["的", "de", "(possessive particle)"],
+        ["生活", "shēnghuó", "life"],
+        ["，"],
+        ["带", "dài", "to bring"],
+        ["着", "zhe", "(durative particle)"],
+        ["家人", "jiārén", "family members"],
+        ["来到", "láidào", "to arrive at"],
+        ["这片", "zhè piàn", "this stretch of"],
+        ["荒凉", "huāngliáng", "desolate; barren"],
+        ["的", "de", "(possessive particle)"],
+        ["沙漠", "shāmò", "desert"],
+        ["，"],
+        ["从此", "cóngcǐ", "from then on"],
+        ["再", "zài", "again"],
+        ["未", "wèi", "never (literary)"],
+        ["离开", "líkāi", "to leave"],
+        ["。"]
+      ],
+      "en": "In 1943 the painter Chang Shuhong gave up a comfortable life in Paris, brought his family to that desolate desert, and never left again."
+    },
+    {
+      "t": [
+        ["此后", "cǐhòu", "thereafter"],
+        ["数十", "shù shí", "several dozen"],
+        ["年", "nián", "year"],
+        ["间", "jiān", "in the course of"],
+        ["，"],
+        ["一代又一代", "yí dài yòu yí dài", "generation after generation"],
+        ["研究者", "yánjiūzhě", "researcher"],
+        ["在", "zài", "in; at"],
+        ["缺水", "quēshuǐ", "short of water"],
+        ["少电", "shǎo diàn", "short of electricity"],
+        ["的", "de", "(possessive particle)"],
+        ["条件", "tiáojiàn", "conditions"],
+        ["下", "xià", "under"],
+        ["临摹", "línmó", "to copy (a painting) from the original"],
+        ["壁画", "bìhuà", "mural; wall painting"],
+        ["、"],
+        ["加固", "jiāgù", "to reinforce"],
+        ["崖体", "yátǐ", "cliff face"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["青春", "qīngchūn", "youth"],
+        ["留", "liú", "to leave behind"],
+        ["在", "zài", "in; at"],
+        ["了", "le", "(completed action)"],
+        ["洞窟", "dòngkū", "cave; grotto"],
+        ["之中", "zhīzhōng", "within"],
+        ["。"]
+      ],
+      "en": "In the decades that followed, one generation of researchers after another copied the murals and reinforced the cliff face with little water and less electricity, leaving their youth inside the caves."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "some people"],
+        ["以为", "yǐwéi", "to assume (mistakenly)"],
+        ["守护", "shǒuhù", "to guard; to safeguard"],
+        ["无非", "wúfēi", "nothing more than"],
+        ["是", "shì", "is"],
+        ["把", "bǎ", "(object marker)"],
+        ["文物", "wénwù", "cultural relic"],
+        ["锁", "suǒ", "to lock"],
+        ["进", "jìn", "into"],
+        ["库房", "kùfáng", "storeroom"],
+        ["，"],
+        ["事实", "shìshí", "the fact"],
+        ["却", "què", "however"],
+        ["恰恰相反", "qiàqià xiāngfǎn", "quite the opposite"],
+        ["。"]
+      ],
+      "en": "Some assume that guarding is nothing more than locking the relics away in a storeroom, but the truth is quite the opposite."
+    },
+    {
+      "t": [
+        ["敦煌", "Dūnhuáng", "Dunhuang (oasis town in Gansu, western China)"],
+        ["研究院", "yánjiūyuàn", "research academy"],
+        ["很早", "hěn zǎo", "very early"],
+        ["就", "jiù", "already"],
+        ["意识到", "yìshí dào", "to realize"],
+        ["，"],
+        ["壁画", "bìhuà", "mural; wall painting"],
+        ["的", "de", "(possessive particle)"],
+        ["褪色", "tuìsè", "to fade in color"],
+        ["与", "yǔ", "and"],
+        ["剥落", "bōluò", "to flake off; to peel away"],
+        ["不可逆转", "bùkě nìzhuǎn", "irreversible"],
+        ["，"],
+        ["与其", "yǔqí", "rather than"],
+        ["被动", "bèidòng", "passive"],
+        ["等待", "děngdài", "to wait"],
+        ["，"],
+        ["不如", "bùrú", "it would be better to"],
+        ["主动", "zhǔdòng", "on one's own initiative"],
+        ["为", "wèi", "for"],
+        ["每", "měi", "every"],
+        ["一寸", "yícùn", "one inch of"],
+        ["墙面", "qiángmiàn", "wall surface"],
+        ["建立", "jiànlì", "to establish; to build"],
+        ["数字", "shùzì", "digital"],
+        ["档案", "dàng'àn", "archive; file"],
+        ["。"]
+      ],
+      "en": "The Dunhuang Academy recognized early on that the fading and flaking of the murals cannot be reversed: rather than wait passively, it was better to take the initiative and build a digital archive for every inch of wall."
+    },
+    {
+      "t": [
+        ["如今", "rújīn", "nowadays"],
+        ["，"],
+        ["游客", "yóukè", "visitor; tourist"],
+        ["可以", "kěyǐ", "can"],
+        ["在", "zài", "in; at"],
+        ["屏幕", "píngmù", "screen"],
+        ["上", "shàng", "on"],
+        ["放大", "fàngdà", "to enlarge; to zoom in"],
+        ["观看", "guānkàn", "to view"],
+        ["肉眼", "ròuyǎn", "the naked eye"],
+        ["难以", "nányǐ", "hard to"],
+        ["分辨", "fēnbiàn", "to distinguish; to make out"],
+        ["的", "de", "(possessive particle)"],
+        ["细节", "xìjié", "detail"],
+        ["，"],
+        ["而", "ér", "while"],
+        ["真正", "zhēnzhèng", "real; actual"],
+        ["的", "de", "(possessive particle)"],
+        ["洞窟", "dòngkū", "cave; grotto"],
+        ["则", "zé", "on the other hand (literary)"],
+        ["得以", "déyǐ", "to be able to; to get the chance to"],
+        ["减少", "jiǎnshǎo", "to reduce"],
+        ["开放", "kāifàng", "to open (to the public)"],
+        ["、"],
+        ["延缓", "yánhuǎn", "to slow down; to postpone"],
+        ["衰老", "shuāilǎo", "aging"],
+        ["。"]
+      ],
+      "en": "Today visitors can zoom in on a screen to study details the naked eye could never make out, while the actual caves can be opened less often and allowed to age more slowly."
+    },
+    {
+      "t": [
+        ["由此看来", "yóu cǐ kàn lái", "seen in this light"],
+        ["，"],
+        ["所谓", "suǒwèi", "so-called"],
+        ["守护", "shǒuhù", "to guard; to safeguard"],
+        ["并非", "bìngfēi", "by no means"],
+        ["把", "bǎ", "(object marker)"],
+        ["时间", "shíjiān", "time"],
+        ["冻结", "dòngjié", "to freeze"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["在", "zài", "in; at"],
+        ["无法", "wúfǎ", "unable to"],
+        ["阻止", "zǔzhǐ", "to stop; to prevent"],
+        ["的", "de", "(possessive particle)"],
+        ["消逝", "xiāoshì", "to fade away; to vanish"],
+        ["面前", "miànqián", "in the face of"],
+        ["，"],
+        ["尽可能", "jǐn kěnéng", "as far as possible"],
+        ["多", "duō", "much; many"],
+        ["地", "de", "(adverbial particle)"],
+        ["为", "wèi", "for"],
+        ["后人", "hòurén", "later generations"],
+        ["留下", "liúxià", "to leave behind"],
+        ["证据", "zhèngjù", "evidence"],
+        ["。"]
+      ],
+      "en": "Seen in this light, guarding is by no means freezing time; it is leaving behind as much evidence as possible for later generations, in the face of a disappearance no one can stop."
+    }
+  ],
+  "vocab": [
+    ["流散", "liúsàn", "to be scattered and lost (of treasures, documents)"],
+    ["临摹", "línmó", "to copy a painting or calligraphy from the original"],
+    ["恰恰相反", "qiàqià xiāngfǎn", "quite the opposite; precisely the reverse"],
+    ["不可逆转", "bùkě nìzhuǎn", "irreversible"],
+    ["延缓", "yánhuǎn", "to slow down; to defer"],
+    ["消逝", "xiāoshì", "to fade away; to pass out of existence"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the painter Chang Shuhong do in 1943?",
+      "a": [
+        "He shipped scripture scrolls overseas for safekeeping",
+        "He gave up a comfortable life in Paris and moved to the desert",
+        "He built the first digital archive of the murals"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Why did the Dunhuang Academy decide to build digital archives?",
+      "a": [
+        "Because visitors complained that the caves were too dark",
+        "Because the caves were about to be closed forever",
+        "Because the fading and flaking of the murals cannot be reversed"
+      ],
+      "c": 2
+    },
+    {
+      "q": "According to the text, what does 'guarding' really mean?",
+      "a": [
+        "Leaving as much evidence as possible for later generations in the face of unstoppable decay",
+        "Freezing time so that nothing ever changes",
+        "Locking every relic away in a storeroom"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "与其……，不如…… — rather than A, better B",
+      "e": "Weighs two options and rejects the first: 'rather than doing A, it is better to do B'. Common in written argument when the author wants to recommend a more active alternative.",
+      "x": "与其抱怨环境，不如先把手头的事做好。 — Rather than complain about your circumstances, it is better to first do well the task in front of you."
+    },
+    {
+      "p": "并非……，而是…… — not A, but rather B",
+      "e": "A formal, emphatic correction of a wrong assumption. 并非 is stronger and more literary than 不是, and 而是 introduces the accurate statement.",
+      "x": "他并非不愿意帮忙，而是实在抽不出时间。 — It is not that he is unwilling to help; he genuinely cannot find the time."
+    },
+    {
+      "p": "无非是…… — nothing more than",
+      "e": "Downplays something as being merely one simple thing; often used to set up a rebuttal, as when the text says people assume guarding is 无非是 locking things away.",
+      "x": "他们争论的无非是先后顺序。 — What they are arguing about is nothing more than the order of things."
+    }
+  ]
+}

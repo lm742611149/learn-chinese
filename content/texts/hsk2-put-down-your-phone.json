@@ -1,0 +1,199 @@
+{
+  "slug": "hsk2-put-down-your-phone",
+  "level": 2,
+  "title_zh": "别玩手机了",
+  "title_py": "Bié wán shǒujī le",
+  "title_en": "Put Down Your Phone",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["吃饭", "chī fàn", "to eat a meal"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["儿子", "érzi", "son"],
+        ["在", "zài", "(in the middle of doing)"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "cell phone"],
+        ["。"]
+      ],
+      "en": "At dinner in the evening, my son was looking at his phone."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["别", "bié", "don't"],
+        ["玩", "wán", "to play with"],
+        ["手机", "shǒujī", "cell phone"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["快", "kuài", "quickly"],
+        ["吃", "chī", "to eat"],
+        ["吧", "ba", "(particle: suggestion)"],
+        ["，"],
+        ["菜", "cài", "food; dish"],
+        ["都", "dōu", "all"],
+        ["冷", "lěng", "cold"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said: \"Put the phone down and eat — the food is getting cold.\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["等", "děng", "to wait"],
+        ["一下", "yíxià", "a moment"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(particle)"],
+        ["朋友", "péngyou", "friend"],
+        ["在", "zài", "(in the middle of doing)"],
+        ["等", "děng", "to wait"],
+        ["我", "wǒ", "I; me"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "He said: \"Just a moment, my friend is waiting for me.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["告诉", "gàosu", "to tell"],
+        ["他", "tā", "he; him"],
+        ["，"],
+        ["每天", "měi tiān", "every day"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "cell phone"],
+        ["太", "tài", "too"],
+        ["长", "cháng", "long"],
+        ["时间", "shíjiān", "time"],
+        ["，"],
+        ["眼睛", "yǎnjing", "eye"],
+        ["会", "huì", "will"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "I told him that looking at a phone too long every day makes your eyes tired."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["听", "tīng", "to listen"],
+        ["了", "le", "(particle)"],
+        ["以后", "yǐhòu", "after; from now on"],
+        ["，"],
+        ["就", "jiù", "then; right away"],
+        ["不", "bú", "not"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "cell phone"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "After he heard that, he stopped looking at his phone."
+    },
+    {
+      "t": [
+        ["那天", "nà tiān", "that day"],
+        ["晚上", "wǎnshang", "evening"],
+        ["我们", "wǒmen", "we; us"],
+        ["说", "shuō", "to say"],
+        ["了", "le", "(particle)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["话", "huà", "words; talk"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["非常", "fēicháng", "extremely"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "That evening we talked a lot, and I felt really happy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to think"],
+        ["，"],
+        ["以后", "yǐhòu", "after; from now on"],
+        ["吃饭", "chī fàn", "to eat a meal"],
+        ["的", "de", "(particle)"],
+        ["时候", "shíhou", "time; when"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["别", "bié", "don't"],
+        ["看", "kàn", "to look at"],
+        ["手机", "shǒujī", "cell phone"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "I think that from now on, none of us should look at a phone during meals."
+    }
+  ],
+  "vocab": [
+    ["别", "bié", "don't"],
+    ["玩", "wán", "to play with"],
+    ["告诉", "gàosu", "to tell"],
+    ["眼睛", "yǎnjing", "eye"],
+    ["等", "děng", "to wait"],
+    ["就", "jiù", "then; right away"]
+  ],
+  "quiz": [
+    {
+      "q": "What is the son doing at dinner?",
+      "a": [
+        "Watching TV",
+        "Looking at his phone",
+        "Reading a book"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the father say happens if you look at a phone too long?",
+      "a": [
+        "Your eyes get tired",
+        "The food gets cold",
+        "You sleep badly"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the son do after listening to his father?",
+      "a": [
+        "He leaves the table",
+        "He calls his friend",
+        "He stops looking at his phone"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "别…了 — stop doing that",
+      "e": "别 + verb + 了 asks somebody to STOP something they are already doing: 别玩手机了, 别说了. Without 了 it is a plain 'don't do it'.",
+      "x": "别玩手机了，快吃吧。 — Put the phone down and eat."
+    },
+    {
+      "p": "在 + verb — happening right now",
+      "e": "Put 在 before the verb for an action in progress: 他在看手机, 朋友在等我. 正在 means the same and is a little stronger.",
+      "x": "我的朋友在等我。 — My friend is waiting for me."
+    },
+    {
+      "p": "…以后，就… — after …, right away",
+      "e": "以后 follows the first action (听了以后 = after hearing), and 就 before the second verb shows it happened immediately.",
+      "x": "他听了以后，就不看手机了。 — After hearing that, he stopped looking at his phone."
+    }
+  ]
+}

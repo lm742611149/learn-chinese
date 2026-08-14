@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-china-is-big",
+  "level": 1,
+  "title_zh": "中国很大",
+  "title_py": "Zhōngguó hěn dà",
+  "title_en": "China Is Big",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中国","Zhōngguó","China"],["很","hěn","very"],["大","dà","big"],["。"]],
+      "en": "China is very big."
+    },
+    {
+      "t": [["中国","Zhōngguó","China"],["有","yǒu","to have; there are"],["很多","hěn duō","many"],["人","rén","people"],["，"],["也","yě","also"],["有","yǒu","to have; there are"],["很多","hěn duō","many"],["好吃","hǎochī","delicious"],["的","de","(particle)"],["菜","cài","dishes; food"],["。"]],
+      "en": "China has many people, and also many delicious dishes."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["住","zhù","to live"],["在","zài","at; in"],["北京","Běijīng","Beijing"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["北京","Běijīng","Beijing"],["。"]],
+      "en": "I live in Beijing, and I like Beijing a lot."
+    },
+    {
+      "t": [["明天","míngtiān","tomorrow"],["我","wǒ","I; me"],["坐","zuò","to take (transport)"],["飞机","fēijī","airplane"],["去","qù","to go"],["上海","Shànghǎi","Shanghai"],["。"]],
+      "en": "Tomorrow I am taking a plane to Shanghai."
+    },
+    {
+      "t": [["中国","Zhōngguó","China"],["有","yǒu","to have; there are"],["很多","hěn duō","many"],["大","dà","big"],["城市","chéngshì","cities"],["，"],["我","wǒ","I; me"],["都","dōu","all"],["想","xiǎng","to want"],["去","qù","to go"],["看看","kànkan","to take a look"],["。"]],
+      "en": "China has many big cities, and I want to go see all of them."
+    },
+    {
+      "t": [["中国","Zhōngguó","China"],["很","hěn","very"],["大","dà","big"],["，"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["时间","shíjiān","time"],["不","bù","not"],["多","duō","much"],["。"]],
+      "en": "China is very big, and I don't have much time."
+    }
+  ],
+  "vocab": [
+    ["大","dà","big"],
+    ["住","zhù","to live; to stay"],
+    ["飞机","fēijī","airplane"],
+    ["坐","zuò","to sit; to take (transport)"],
+    ["城市","chéngshì","city"],
+    ["时间","shíjiān","time"]
+  ],
+  "quiz": [
+    {"q":"Where does the narrator live?","a":["Shanghai","Beijing","Hong Kong"],"c":1},
+    {"q":"How is the narrator going to Shanghai tomorrow?","a":["By plane","By train","By car"],"c":0},
+    {"q":"According to the text, what does China have a lot of?","a":["Deserts","Rivers","Big cities"],"c":2}
+  ],
+  "grammar": [
+    {"p":"有 — there is / there are","e":"有 introduces what exists in a place: place + 有 + thing.","x":"中国有很多人。 — China has many people."},
+    {"p":"住在 + place — to live somewhere","e":"住 (to live) takes 在 plus a place right after it to say where you live.","x":"我住在北京。 — I live in Beijing."},
+    {"p":"坐 + vehicle + 去 + place — how you travel","e":"Chinese states the means of travel before the verb 去: 坐飞机去上海 = go to Shanghai by plane.","x":"明天我坐飞机去上海。 — Tomorrow I am taking a plane to Shanghai."}
+  ]
+}
