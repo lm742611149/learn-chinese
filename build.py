@@ -11,10 +11,12 @@ import html
 import json
 import os
 import shutil
+import time
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "docs")
-SITE = json.load(open(os.path.join(ROOT, "content", "site.json"), encoding="utf-8"))
+SITE_PATH = os.path.join(ROOT, "content", "site.json")
+SITE = json.load(open(SITE_PATH, encoding="utf-8"))
 
 LEVEL_WORDS = {1: "Newbie", 2: "Elementary", 3: "Intermediate",
                4: "Upper Int.", 5: "Advanced", 6: "Fluent"}
@@ -193,6 +195,26 @@ def sentence_html(sent, slug=None, idx=None):
             f'<div class="en-line">{esc(sent["en"])}</div></div>')
 
 
+def reader_desc(t, limit=158):
+    """课文页 meta description: 用课文开头的英译当摘要,每篇独一无二。
+
+    模板化的描述 255 篇长得一模一样,搜索结果里没有点击理由,也白白丢掉长尾词。
+    """
+    tail = f" — HSK {t['level']} graded reading with pinyin & audio."
+    room = limit - len(tail)
+    body = ""
+    for s in t["sentences"]:
+        nxt = (body + " " + s["en"]).strip()
+        if body and len(nxt) > room:
+            break
+        body = nxt
+        if len(body) >= room * 0.6:      # 够长了就停,避免整篇塞进去
+            break
+    if len(body) > room:                 # 首句就超长 → 切到词边界
+        body = body[:room].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    return body + tail
+
+
 def build_reader(t, next_t=None):
     n_words = sum(len(s["t"]) for s in t["sentences"])
     minutes = max(1, round(n_words / 60))
@@ -296,8 +318,7 @@ def build_reader(t, next_t=None):
 {next_js}"""
     # 不带站名 —— 中文标题占的显示宽度大,加站名会被搜索结果截断
     title = f"{t['title_zh']} {t['title_en']} — HSK {t['level']} Reading"
-    desc = (f"Free HSK {t['level']} graded Chinese reading with pinyin, audio and "
-            f"English translation: {t['title_en']}.")
+    desc = reader_desc(t)
     base = (SITE.get("canonical_url") or "").rstrip("/")
     ld = [{
         "@context": "https://schema.org",
@@ -897,14 +918,21 @@ def main():
     canon = (SITE.get("canonical_url") or "").rstrip("/")
     n_urls = 0
     if canon:
-        urls = [("", "1.0"), ("words", "0.7"), ("about", "0.5")]
-        urls += [(f"hsk{lvl}", "0.8") for lvl in range(1, 7)]
-        urls += [(f"texts/{t['slug']}", "0.9")
+        # lastmod = 课文源文件的修改日期,让爬虫只重抓真正变过的页
+        day = lambda ts: time.strftime("%Y-%m-%d", time.localtime(ts))
+        newest = max(t["_mtime"] for t in texts) if texts else time.time()
+        urls = [("", "1.0", newest), ("words", "0.7", newest),
+                ("about", "0.5", os.path.getmtime(SITE_PATH))]
+        for lvl in range(1, 7):
+            lv_ts = [t["_mtime"] for t in texts if t["level"] == lvl]
+            urls.append((f"hsk{lvl}", "0.8", max(lv_ts) if lv_ts else newest))
+        urls += [(f"texts/{t['slug']}", "0.9", t["_mtime"])
                  for t in sorted(texts, key=lambda x: x["slug"])]
         n_urls = len(urls)
         entries = "\n".join(
-            f"  <url><loc>{canon}/{p}</loc><priority>{pr}</priority></url>"
-            for p, pr in urls)
+            f"  <url><loc>{canon}/{p}</loc>"
+            f"<lastmod>{day(ts)}</lastmod><priority>{pr}</priority></url>"
+            for p, pr, ts in urls)
         open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
