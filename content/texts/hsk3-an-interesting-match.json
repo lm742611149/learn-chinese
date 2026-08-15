@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-an-interesting-match",
+  "level": 3,
+  "title_zh": "有趣的比赛",
+  "title_py": "Yǒuqù de bǐsài",
+  "title_en": "An Interesting Match",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["昨天晚上","zuótiān wǎnshang","last night"],["，"],["我","wǒ","I"],["和","hé","and"],["朋友","péngyou","friend"],["一起","yìqǐ","together"],["看","kàn","to watch"],["了","le","(completed action)"],["一场","yì chǎng","one (match)"],["足球","zúqiú","soccer; football"],["比赛","bǐsài","match; competition"],["。"]],
+      "en": "Last night, my friend and I watched a soccer match together."
+    },
+    {
+      "t": [["两个","liǎng ge","two"],["队","duì","team"],["踢","tī","to kick"],["得","de","(degree particle)"],["都","dōu","all"],["很","hěn","very"],["好","hǎo","good; well"],["，"],["比分","bǐfēn","score"],["一直","yìzhí","always; continuously"],["很","hěn","very"],["接近","jiējìn","close; near"],["。"]],
+      "en": "Both teams played well, and the score stayed close the whole time."
+    },
+    {
+      "t": [["比赛","bǐsài","match"],["开始","kāishǐ","to start"],["不久","bùjiǔ","not long after"],["，"],["一个","yí ge","one"],["队","duì","team"],["就","jiù","then"],["进","jìn","to score (a goal)"],["了","le","(completed action)"],["一个","yí ge","one"],["球","qiú","goal; ball"],["，"],["大家","dàjiā","everyone"],["都","dōu","all"],["很","hěn","very"],["兴奋","xīngfèn","excited"],["。"]],
+      "en": "Not long after the match started, one team scored a goal, and everyone got very excited."
+    },
+    {
+      "t": [["到了","dào le","reached; arrived at"],["最后","zuìhòu","last; final"],["五分钟","wǔ fēnzhōng","five minutes"],["，"],["比分","bǐfēn","score"],["还是","háishi","still"],["一样","yíyàng","the same"],["，"],["大家","dàjiā","everyone"],["都","dōu","all"],["很","hěn","very"],["紧张","jǐnzhāng","nervous; tense"],["。"]],
+      "en": "In the last five minutes, the score was still tied, and everyone was very tense."
+    },
+    {
+      "t": [["就","jiù","right; precisely"],["在","zài","at"],["比赛","bǐsài","match"],["快","kuài","soon; about to"],["结束","jiéshù","to end"],["的时候","de shíhou","when"],["，"],["一个","yí ge","one"],["队员","duìyuán","team member; player"],["突然","tūrán","suddenly"],["踢进","tī jìn","to kick in (score)"],["一个","yí ge","one"],["球","qiú","goal"],["。"]],
+      "en": "Right when the match was about to end, a player suddenly scored a goal."
+    },
+    {
+      "t": [["全场","quánchǎng","the whole stadium"],["的","de","(attributive particle)"],["人","rén","people"],["都","dōu","all"],["非常","fēicháng","extremely"],["兴奋","xīngfèn","excited"],["，"],["大声","dàshēng","loudly"],["地","de","(adverbial particle)"],["叫","jiào","to shout; to cry out"],["。"]],
+      "en": "The whole stadium was extremely excited, shouting loudly."
+    },
+    {
+      "t": [["那场","nà chǎng","that (match)"],["比赛","bǐsài","match"],["真","zhēn","really"],["有意思","yǒu yìsi","interesting"],["，"],["我","wǒ","I"],["到","dào","until"],["现在","xiànzài","now"],["还","hái","still"],["记得","jìde","to remember"],["。"]],
+      "en": "That match was really interesting — I still remember it to this day."
+    }
+  ],
+  "vocab": [
+    ["比赛","bǐsài","match; competition"],
+    ["比分","bǐfēn","score"],
+    ["兴奋","xīngfèn","excited"],
+    ["接近","jiējìn","close; near"],
+    ["突然","tūrán","suddenly"],
+    ["记得","jìde","to remember"]
+  ],
+  "quiz": [
+    {"q": "What was the score like for most of the match?", "a": ["Very close", "One team was far ahead", "Tied at zero the whole game"], "c": 0},
+    {"q": "When did the second goal happen?", "a": ["Right at the start", "In the last five minutes, just before the match ended", "During half-time"], "c": 1},
+    {"q": "How did the crowd react to the last goal?", "a": ["They were extremely excited and shouted loudly", "They left the stadium", "They fell asleep"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "还是 (still)", "e": "还是 before an adjective or verb shows that a situation hasn't changed — it's still the same as before.", "x": "到了最后五分钟，比分还是一样。 — In the last five minutes, the score was still tied."},
+    {"p": "就在……的时候 (right when...)", "e": "就在 + clause + 的时候 marks the exact moment something happened, often right before another event.", "x": "就在比赛快结束的时候，一个队员突然踢进一个球。 — Right when the match was about to end, a player suddenly scored a goal."},
+    {"p": "到现在还…… (even now still...)", "e": "到现在还 + verb shows that something continues to be true up to the present moment.", "x": "那场比赛真有意思，我到现在还记得。 — That match was really interesting — I still remember it to this day."}
+  ]
+}

@@ -1,0 +1,1054 @@
+{
+  "slug": "hsk6-quantum-computing",
+  "level": 6,
+  "title_zh": "量子计算浅谈",
+  "title_py": "Liàngzǐ jìsuàn qiǎntán",
+  "title_en": "A Brief Look at Quantum Computing",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "提起",
+          "tíqǐ",
+          "to bring up; mention"
+        ],
+        [
+          "量子",
+          "liàngzǐ",
+          "quantum"
+        ],
+        [
+          "计算",
+          "jìsuàn",
+          "computation"
+        ],
+        [
+          "，"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "第一",
+          "dì-yī",
+          "first"
+        ],
+        [
+          "反应",
+          "fǎnyìng",
+          "reaction"
+        ],
+        [
+          "是",
+          "shì",
+          "is"
+        ],
+        [
+          "“"
+        ],
+        [
+          "速度",
+          "sùdù",
+          "speed"
+        ],
+        [
+          "更",
+          "gèng",
+          "more"
+        ],
+        [
+          "快",
+          "kuài",
+          "fast"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "电脑",
+          "diànnǎo",
+          "computer"
+        ],
+        [
+          "”"
+        ],
+        [
+          "，"
+        ],
+        [
+          "但",
+          "dàn",
+          "but"
+        ],
+        [
+          "这种",
+          "zhè zhǒng",
+          "this kind of"
+        ],
+        [
+          "理解",
+          "lǐjiě",
+          "understanding"
+        ],
+        [
+          "其实",
+          "qíshí",
+          "actually"
+        ],
+        [
+          "并不",
+          "bìngbù",
+          "not at all"
+        ],
+        [
+          "准确",
+          "zhǔnquè",
+          "accurate"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "When quantum computing comes up, most people's first reaction is 'a faster computer,' but that understanding is actually not accurate."
+    },
+    {
+      "t": [
+        [
+          "传统",
+          "chuántǒng",
+          "traditional"
+        ],
+        [
+          "计算机",
+          "jìsuànjī",
+          "computer"
+        ],
+        [
+          "用",
+          "yòng",
+          "to use"
+        ],
+        [
+          "“"
+        ],
+        [
+          "比特",
+          "bǐtè",
+          "bit"
+        ],
+        [
+          "”"
+        ],
+        [
+          "存储",
+          "cúnchǔ",
+          "to store"
+        ],
+        [
+          "信息",
+          "xìnxī",
+          "information"
+        ],
+        [
+          "，"
+        ],
+        [
+          "每",
+          "měi",
+          "each; every"
+        ],
+        [
+          "一位",
+          "yíwèi",
+          "each digit"
+        ],
+        [
+          "不是",
+          "bú shì",
+          "is not"
+        ],
+        [
+          "零",
+          "líng",
+          "zero"
+        ],
+        [
+          "就是",
+          "jiùshì",
+          "is"
+        ],
+        [
+          "一",
+          "yī",
+          "one"
+        ],
+        [
+          "；"
+        ],
+        [
+          "量子计算机",
+          "liàngzǐ jìsuànjī",
+          "quantum computer"
+        ],
+        [
+          "则",
+          "zé",
+          "then; whereas"
+        ],
+        [
+          "用",
+          "yòng",
+          "to use"
+        ],
+        [
+          "“"
+        ],
+        [
+          "量子",
+          "liàngzǐ",
+          "quantum"
+        ],
+        [
+          "比特",
+          "bǐtè",
+          "bit"
+        ],
+        [
+          "”"
+        ],
+        [
+          "，"
+        ],
+        [
+          "可以",
+          "kěyǐ",
+          "can"
+        ],
+        [
+          "同时",
+          "tóngshí",
+          "simultaneously"
+        ],
+        [
+          "处于",
+          "chǔyú",
+          "to be in (a state)"
+        ],
+        [
+          "零",
+          "líng",
+          "zero"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "一",
+          "yī",
+          "one"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "叠加",
+          "diéjiā",
+          "superposition"
+        ],
+        [
+          "状态",
+          "zhuàngtài",
+          "state"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Traditional computers store information in 'bits,' where each digit is either 0 or 1; quantum computers instead use 'qubits,' which can exist in a superposition of 0 and 1 simultaneously."
+    },
+    {
+      "t": [
+        [
+          "正是",
+          "zhèngshì",
+          "it is precisely"
+        ],
+        [
+          "这种",
+          "zhè zhǒng",
+          "this kind of"
+        ],
+        [
+          "叠加",
+          "diéjiā",
+          "superposition"
+        ],
+        [
+          "与",
+          "yǔ",
+          "and"
+        ],
+        [
+          "纠缠",
+          "jiūchán",
+          "entanglement"
+        ],
+        [
+          "现象",
+          "xiànxiàng",
+          "phenomenon"
+        ],
+        [
+          "，"
+        ],
+        [
+          "让",
+          "ràng",
+          "to let; make"
+        ],
+        [
+          "量子计算机",
+          "liàngzǐ jìsuànjī",
+          "quantum computer"
+        ],
+        [
+          "在",
+          "zài",
+          "when; in"
+        ],
+        [
+          "处理",
+          "chǔlǐ",
+          "to handle; process"
+        ],
+        [
+          "某些",
+          "mǒuxiē",
+          "certain; some"
+        ],
+        [
+          "特定",
+          "tèdìng",
+          "specific"
+        ],
+        [
+          "问题",
+          "wèntí",
+          "problem"
+        ],
+        [
+          "时",
+          "shí",
+          "when (formal)"
+        ],
+        [
+          "，"
+        ],
+        [
+          "展现出",
+          "zhǎnxiàn chū",
+          "to display; show"
+        ],
+        [
+          "传统",
+          "chuántǒng",
+          "traditional"
+        ],
+        [
+          "计算机",
+          "jìsuànjī",
+          "computer"
+        ],
+        [
+          "望尘莫及",
+          "wàng chén mò jí",
+          "hopelessly outmatched (idiom)"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "潜力",
+          "qiánlì",
+          "potential"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "It is precisely this phenomenon of superposition and entanglement that lets quantum computers show potential traditional computers can't hope to match, when handling certain specific problems."
+    },
+    {
+      "t": [
+        [
+          "举例来说",
+          "jǔ lì lái shuō",
+          "for example"
+        ],
+        [
+          "，"
+        ],
+        [
+          "破解",
+          "pòjiě",
+          "to crack; decode"
+        ],
+        [
+          "大数",
+          "dà shù",
+          "large number"
+        ],
+        [
+          "因子分解",
+          "yīnzǐ fēnjiě",
+          "factorization"
+        ],
+        [
+          "、"
+        ],
+        [
+          "模拟",
+          "mónǐ",
+          "to simulate"
+        ],
+        [
+          "分子结构",
+          "fēnzǐ jiégòu",
+          "molecular structure"
+        ],
+        [
+          "这类",
+          "zhè lèi",
+          "this type of"
+        ],
+        [
+          "任务",
+          "rènwu",
+          "task"
+        ],
+        [
+          "，"
+        ],
+        [
+          "量子算法",
+          "liàngzǐ suànfǎ",
+          "quantum algorithm"
+        ],
+        [
+          "理论上",
+          "lǐlùn shàng",
+          "theoretically"
+        ],
+        [
+          "可以",
+          "kěyǐ",
+          "can"
+        ],
+        [
+          "将",
+          "jiāng",
+          "(formal object marker)"
+        ],
+        [
+          "运算",
+          "yùnsuàn",
+          "computation"
+        ],
+        [
+          "时间",
+          "shíjiān",
+          "time"
+        ],
+        [
+          "从",
+          "cóng",
+          "from"
+        ],
+        [
+          "几万",
+          "jǐ wàn",
+          "tens of thousands"
+        ],
+        [
+          "年",
+          "nián",
+          "year(s)"
+        ],
+        [
+          "缩短",
+          "suōduǎn",
+          "to shorten"
+        ],
+        [
+          "到",
+          "dào",
+          "to"
+        ],
+        [
+          "几",
+          "jǐ",
+          "several"
+        ],
+        [
+          "分钟",
+          "fēnzhōng",
+          "minutes"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "For example, tasks like factoring large numbers or simulating molecular structures could in theory have their computation time shortened by quantum algorithms from tens of thousands of years to just minutes."
+    },
+    {
+      "t": [
+        [
+          "然而",
+          "rán'ér",
+          "however"
+        ],
+        [
+          "，"
+        ],
+        [
+          "量子比特",
+          "liàngzǐ bǐtè",
+          "qubit"
+        ],
+        [
+          "极易",
+          "jí yì",
+          "extremely easily"
+        ],
+        [
+          "受到",
+          "shòudào",
+          "to be subjected to"
+        ],
+        [
+          "外界",
+          "wàijiè",
+          "external; outside world"
+        ],
+        [
+          "干扰",
+          "gānrǎo",
+          "interference; disturbance"
+        ],
+        [
+          "，"
+        ],
+        [
+          "稍有",
+          "shāo yǒu",
+          "the slightest"
+        ],
+        [
+          "风吹草动",
+          "fēng chuī cǎo dòng",
+          "the slightest disturbance (idiom)"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "会",
+          "huì",
+          "will"
+        ],
+        [
+          "发生",
+          "fāshēng",
+          "to occur"
+        ],
+        [
+          "“"
+        ],
+        [
+          "退相干",
+          "tuì xiānggān",
+          "decoherence"
+        ],
+        [
+          "”"
+        ],
+        [
+          "，"
+        ],
+        [
+          "导致",
+          "dǎozhì",
+          "to lead to; cause"
+        ],
+        [
+          "计算",
+          "jìsuàn",
+          "calculation"
+        ],
+        [
+          "结果",
+          "jiéguǒ",
+          "result"
+        ],
+        [
+          "出错",
+          "chūcuò",
+          "to go wrong; err"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "However, qubits are extremely susceptible to outside interference; the slightest disturbance can cause 'decoherence,' leading to errors in the computation results."
+    },
+    {
+      "t": [
+        [
+          "因此",
+          "yīncǐ",
+          "therefore"
+        ],
+        [
+          "，"
+        ],
+        [
+          "当前",
+          "dāngqián",
+          "at present"
+        ],
+        [
+          "最",
+          "zuì",
+          "most"
+        ],
+        [
+          "先进",
+          "xiānjìn",
+          "advanced"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "量子计算机",
+          "liàngzǐ jìsuànjī",
+          "quantum computer"
+        ],
+        [
+          "仍需",
+          "réng xū",
+          "still needs to"
+        ],
+        [
+          "在",
+          "zài",
+          "in"
+        ],
+        [
+          "接近",
+          "jiējìn",
+          "close to"
+        ],
+        [
+          "绝对零度",
+          "juéduì língdù",
+          "absolute zero"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "环境",
+          "huánjìng",
+          "environment"
+        ],
+        [
+          "中",
+          "zhōng",
+          "in; within"
+        ],
+        [
+          "运行",
+          "yùnxíng",
+          "to operate"
+        ],
+        [
+          "，"
+        ],
+        [
+          "并",
+          "bìng",
+          "and; moreover"
+        ],
+        [
+          "依赖",
+          "yīlài",
+          "to rely on"
+        ],
+        [
+          "复杂",
+          "fùzá",
+          "complex"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "纠错",
+          "jiūcuò",
+          "error correction"
+        ],
+        [
+          "机制",
+          "jīzhì",
+          "mechanism"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Therefore, today's most advanced quantum computers still need to operate in environments close to absolute zero, and rely on complex error-correction mechanisms."
+    },
+    {
+      "t": [
+        [
+          "值得",
+          "zhídé",
+          "to merit; be worth"
+        ],
+        [
+          "警惕",
+          "jǐngtì",
+          "vigilance; wariness"
+        ],
+        [
+          "的是",
+          "de shì",
+          "is the fact that"
+        ],
+        [
+          "，"
+        ],
+        [
+          "媒体",
+          "méitǐ",
+          "media"
+        ],
+        [
+          "常常",
+          "chángcháng",
+          "often"
+        ],
+        [
+          "把",
+          "bǎ",
+          "(object marker)"
+        ],
+        [
+          "量子计算",
+          "liàngzǐ jìsuàn",
+          "quantum computing"
+        ],
+        [
+          "描绘成",
+          "miáohuì chéng",
+          "to portray as"
+        ],
+        [
+          "“"
+        ],
+        [
+          "无所不能",
+          "wú suǒ bù néng",
+          "omnipotent; all-powerful (idiom)"
+        ],
+        [
+          "”"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "黑科技",
+          "hēi kējì",
+          "cutting-edge tech (lit. 'black technology')"
+        ],
+        [
+          "，"
+        ],
+        [
+          "却",
+          "què",
+          "yet; however"
+        ],
+        [
+          "很少",
+          "hěn shǎo",
+          "rarely"
+        ],
+        [
+          "提及",
+          "tíjí",
+          "to mention"
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "距离",
+          "jùlí",
+          "distance from"
+        ],
+        [
+          "实用化",
+          "shíyònghuà",
+          "practical application"
+        ],
+        [
+          "还有",
+          "hái yǒu",
+          "there is still"
+        ],
+        [
+          "相当",
+          "xiāngdāng",
+          "considerably"
+        ],
+        [
+          "长",
+          "cháng",
+          "long"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "一段",
+          "yí duàn",
+          "a stretch (of)"
+        ],
+        [
+          "路",
+          "lù",
+          "road; way"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "What deserves caution is that the media often portrays quantum computing as an 'omnipotent' high technology, while rarely mentioning that it still has a long way to go before practical use."
+    },
+    {
+      "t": [
+        [
+          "换句话说",
+          "huàn jù huà shuō",
+          "in other words"
+        ],
+        [
+          "，"
+        ],
+        [
+          "量子计算",
+          "liàngzǐ jìsuàn",
+          "quantum computing"
+        ],
+        [
+          "并非",
+          "bìngfēi",
+          "is not (formal)"
+        ],
+        [
+          "要",
+          "yào",
+          "intends to; wants to"
+        ],
+        [
+          "取代",
+          "qǔdài",
+          "to replace"
+        ],
+        [
+          "传统",
+          "chuántǒng",
+          "traditional"
+        ],
+        [
+          "电脑",
+          "diànnǎo",
+          "computer"
+        ],
+        [
+          "，"
+        ],
+        [
+          "而是",
+          "érshì",
+          "but rather"
+        ],
+        [
+          "为",
+          "wèi",
+          "for"
+        ],
+        [
+          "特定",
+          "tèdìng",
+          "specific"
+        ],
+        [
+          "领域",
+          "lǐngyù",
+          "field; domain"
+        ],
+        [
+          "提供",
+          "tígōng",
+          "to provide"
+        ],
+        [
+          "一种",
+          "yì zhǒng",
+          "a kind of"
+        ],
+        [
+          "全新",
+          "quánxīn",
+          "brand new"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "计算",
+          "jìsuàn",
+          "computational"
+        ],
+        [
+          "思路",
+          "sīlù",
+          "approach; way of thinking"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "In other words, quantum computing is not meant to replace traditional computers, but rather to offer a brand-new computational approach for specific fields."
+    }
+  ],
+  "vocab": [
+    [
+      "量子",
+      "liàngzǐ",
+      "quantum"
+    ],
+    [
+      "叠加",
+      "diéjiā",
+      "superposition"
+    ],
+    [
+      "纠缠",
+      "jiūchán",
+      "entanglement"
+    ],
+    [
+      "退相干",
+      "tuì xiānggān",
+      "decoherence"
+    ],
+    [
+      "望尘莫及",
+      "wàng chén mò jí",
+      "hopelessly outmatched; far behind (idiom)"
+    ],
+    [
+      "无所不能",
+      "wú suǒ bù néng",
+      "omnipotent; all-powerful (idiom)"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "传统计算机用什么存储信息？",
+      "a": [
+        "比特",
+        "量子比特",
+        "分子结构"
+      ],
+      "c": 0
+    },
+    {
+      "q": "量子比特容易受到外界干扰而发生什么？",
+      "a": [
+        "黑科技",
+        "退相干",
+        "望尘莫及"
+      ],
+      "c": 1
+    },
+    {
+      "q": "作者认为量子计算是要做什么？",
+      "a": [
+        "取代传统电脑",
+        "为特定领域提供全新的计算思路",
+        "让电脑变得无所不能"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "并非…，而是… — 'it is by no means A; rather, it is B'",
+      "e": "A formal, emphatic correction pattern common in essays: 并非 negates the assumption before 而是 supplies the real explanation.",
+      "x": "量子计算并非要取代传统电脑，而是为特定领域提供一种全新的计算思路。 — Quantum computing is not meant to replace traditional computers, but rather to offer a brand-new computational approach for specific fields."
+    },
+    {
+      "p": "稍有…，就… — 'the slightest X will immediately Y'",
+      "e": "Conveys extreme sensitivity or fragility: even a minimal trigger (稍有) is enough to bring about the consequence (就).",
+      "x": "量子比特极易受到外界干扰，稍有风吹草动就会发生“退相干”。 — Qubits are extremely susceptible to outside interference; the slightest disturbance can cause 'decoherence.'"
+    },
+    {
+      "p": "值得警惕的是… — 'what deserves caution is...'",
+      "e": "A formal essay opener used to flag a caveat or risk the reader should not overlook, often before criticizing a common misconception.",
+      "x": "值得警惕的是，媒体常常把量子计算描绘成“无所不能”的黑科技。 — What deserves caution is that the media often portrays quantum computing as an 'omnipotent' high technology."
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "slug": "hsk1-please-sit-have-tea",
+  "level": 1,
+  "title_zh": "请坐，请喝茶",
+  "title_py": "Qǐng zuò, qǐng hē chá",
+  "title_en": "Please Sit, Please Have Tea",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "来",
+          "lái",
+          "to come"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "家",
+          "jiā",
+          "home"
+        ],
+        [
+          "，"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "高兴",
+          "gāoxìng",
+          "happy"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "My friend comes to my home, and I am very happy."
+    },
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "请",
+          "qǐng",
+          "please"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "坐",
+          "zuò",
+          "to sit"
+        ],
+        [
+          "，"
+        ],
+        [
+          "请",
+          "qǐng",
+          "please"
+        ],
+        [
+          "他",
+          "tā",
+          "he; him"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "茶",
+          "chá",
+          "tea"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I ask my friend to sit, and offer him tea."
+    },
+    {
+      "t": [
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "坐下",
+          "zuòxià",
+          "to sit down"
+        ],
+        [
+          "，"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "茶",
+          "chá",
+          "tea"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "My friend sat down, and drank the tea."
+    },
+    {
+      "t": [
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          "谢谢",
+          "xièxie",
+          "thank you"
+        ],
+        [
+          "，"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          "不客气",
+          "bú kèqi",
+          "you're welcome"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "My friend says thank you, and I say you're welcome."
+    },
+    {
+      "t": [
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "说话",
+          "shuōhuà",
+          "to talk"
+        ],
+        [
+          "，"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "高兴",
+          "gāoxìng",
+          "happy"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "We talk, and are very happy."
+    }
+  ],
+  "vocab": [
+    [
+      "请",
+      "qǐng",
+      "please"
+    ],
+    [
+      "坐",
+      "zuò",
+      "to sit"
+    ],
+    [
+      "喝",
+      "hē",
+      "to drink"
+    ],
+    [
+      "茶",
+      "chá",
+      "tea"
+    ],
+    [
+      "谢谢",
+      "xièxie",
+      "thank you"
+    ],
+    [
+      "不客气",
+      "bú kèqi",
+      "you're welcome"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What does the narrator ask the friend to do first?",
+      "a": [
+        "Eat",
+        "Sit",
+        "Sleep"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the friend drink?",
+      "a": [
+        "Coffee",
+        "Water",
+        "Tea"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What does the friend say after drinking the tea?",
+      "a": [
+        "Thank you",
+        "Goodbye",
+        "Sorry"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "请 + verb — a polite request",
+      "e": "请 before a verb softly asks someone to do something, like \"please\" in English.",
+      "x": "我请朋友坐，请他喝茶。 — I ask my friend to sit, and offer him tea."
+    },
+    {
+      "p": "了 — completed action",
+      "e": "了 right after the verb shows the action already happened.",
+      "x": "朋友坐下，喝了茶。 — My friend sat down, and drank the tea."
+    },
+    {
+      "p": "谢谢 / 不客气 — thank you / you're welcome",
+      "e": "This pair of set phrases is the standard exchange for thanks in Chinese.",
+      "x": "朋友说谢谢，我说不客气。 — My friend says thank you, and I say you're welcome."
+    }
+  ]
+}

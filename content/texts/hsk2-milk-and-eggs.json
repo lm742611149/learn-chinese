@@ -1,0 +1,153 @@
+{
+  "slug": "hsk2-milk-and-eggs",
+  "level": 2,
+  "title_zh": "喝牛奶吃鸡蛋",
+  "title_py": "Hē niúnǎi chī jīdàn",
+  "title_en": "Drinking Milk and Eating Eggs",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["每天", "měitiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["都", "dōu", "always; all"],
+        ["喝", "hē", "to drink"],
+        ["一杯", "yì bēi", "one cup of"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["，"],
+        ["吃", "chī", "to eat"],
+        ["一个", "yí ge", "one (general measure word)"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["。"]
+      ],
+      "en": "Every morning, I drink a cup of milk and eat an egg."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["和", "hé", "and"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["对", "duì", "toward (indicating effect on)"],
+        ["身体", "shēntǐ", "body; health"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "Mom says milk and eggs are very good for your health."
+    },
+    {
+      "t": [
+        ["以前", "yǐqián", "before; in the past"],
+        ["我", "wǒ", "I; me"],
+        ["不", "bù", "not"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["喝", "hē", "to drink"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["，"],
+        ["觉得", "juéde", "to feel; to think"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["不", "bù", "not"],
+        ["好喝", "hǎohē", "tasty (for drinks)"],
+        ["。"]
+      ],
+      "en": "Before, I didn't like drinking milk — I thought it didn't taste good."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měitiān", "every day"],
+        ["都", "dōu", "always"],
+        ["喝", "hē", "to drink"],
+        ["，"],
+        ["已经", "yǐjīng", "already"],
+        ["习惯", "xíguàn", "to be used to"],
+        ["了", "le", "(particle: change of state)"],
+        ["。"]
+      ],
+      "en": "Now I drink it every day — I'm already used to it."
+    },
+    {
+      "t": [
+        ["鸡蛋", "jīdàn", "egg"],
+        ["可以", "kěyǐ", "can; may"],
+        ["煮", "zhǔ", "to boil; to cook"],
+        ["着", "zhe", "(particle: manner of doing)"],
+        ["吃", "chī", "to eat"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["可以", "kěyǐ", "can; may"],
+        ["做", "zuò", "to make"],
+        ["鸡蛋汤", "jīdàn tāng", "egg soup"],
+        ["。"]
+      ],
+      "en": "Eggs can be eaten boiled, or made into egg soup."
+    },
+    {
+      "t": [
+        ["喝", "hē", "to drink"],
+        ["了", "le", "(particle: completed action)"],
+        ["牛奶", "niúnǎi", "milk"],
+        ["，"],
+        ["吃", "chī", "to eat"],
+        ["了", "le", "(particle: completed action)"],
+        ["鸡蛋", "jīdàn", "egg"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["很", "hěn", "very"],
+        ["有", "yǒu", "to have"],
+        ["力气", "lìqi", "strength; energy"],
+        ["。"]
+      ],
+      "en": "After drinking milk and eating eggs, I feel full of energy."
+    }
+  ],
+  "vocab": [
+    ["牛奶", "niúnǎi", "milk"],
+    ["鸡蛋", "jīdàn", "egg"],
+    ["好喝", "hǎohē", "tasty (for drinks)"],
+    ["习惯", "xíguàn", "to be used to"],
+    ["煮", "zhǔ", "to boil; to cook"],
+    ["力气", "lìqi", "strength; energy"]
+  ],
+  "quiz": [
+    {
+      "q": "What does the writer drink and eat every morning?",
+      "a": ["Tea and bread", "Milk and an egg", "Juice and rice"],
+      "c": 1
+    },
+    {
+      "q": "Did the writer like milk before?",
+      "a": ["Yes, always", "No, he/she didn't think it tasted good", "He/she never tried it"],
+      "c": 1
+    },
+    {
+      "q": "Besides boiling, what else can eggs be made into?",
+      "a": ["Egg soup", "Egg cake", "Egg juice"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "对 + noun + 好/不好 — 'good/bad for'",
+      "e": "对 marks the target that something affects: X 对 Y 好 means 'X is good for Y.'",
+      "x": "牛奶和鸡蛋对身体很好。— Milk and eggs are good for your health."
+    },
+    {
+      "p": "V + 着 + V — doing one action by means of another",
+      "e": "着 after a verb can describe the manner of doing something else: 煮着吃 = 'eat (it) by boiling it.'",
+      "x": "鸡蛋可以煮着吃。— Eggs can be eaten boiled."
+    },
+    {
+      "p": "已经...了 — 'already'",
+      "e": "已经 + verb (+ 了) shows something has already happened or become true: 已经习惯了 = 'already used to it.'",
+      "x": "现在我每天都喝，已经习惯了。— Now I drink it every day; I'm already used to it."
+    }
+  ]
+}

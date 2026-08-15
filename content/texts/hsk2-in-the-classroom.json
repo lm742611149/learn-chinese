@@ -1,0 +1,159 @@
+{
+  "slug": "hsk2-in-the-classroom",
+  "level": 2,
+  "title_zh": "教室里",
+  "title_py": "Jiàoshì lǐ",
+  "title_en": "In the Classroom",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["的", "de", "(possessive particle)"],
+        ["教室", "jiàoshì", "classroom"],
+        ["不", "bú", "not"],
+        ["大", "dà", "big"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["很", "hěn", "very"],
+        ["干净", "gānjìng", "clean"],
+        ["。"]
+      ],
+      "en": "Our classroom isn't big, but it's very clean."
+    },
+    {
+      "t": [
+        ["教室", "jiàoshì", "classroom"],
+        ["里", "lǐ", "inside"],
+        ["有", "yǒu", "to have; there is"],
+        ["二十", "èrshí", "twenty"],
+        ["张", "zhāng", "(measure word for flat objects)"],
+        ["桌子", "zhuōzi", "table; desk"],
+        ["和", "hé", "and"],
+        ["二十", "èrshí", "twenty"],
+        ["把", "bǎ", "(measure word for chairs)"],
+        ["椅子", "yǐzi", "chair"],
+        ["。"]
+      ],
+      "en": "There are twenty desks and twenty chairs in the classroom."
+    },
+    {
+      "t": [
+        ["黑板", "hēibǎn", "blackboard"],
+        ["在", "zài", "at; in"],
+        ["教室", "jiàoshì", "classroom"],
+        ["的", "de", "(possessive particle)"],
+        ["前面", "qiánmiàn", "front"],
+        ["，"],
+        ["老师", "lǎoshī", "teacher"],
+        ["站", "zhàn", "to stand"],
+        ["在", "zài", "at; in"],
+        ["黑板", "hēibǎn", "blackboard"],
+        ["前面", "qiánmiàn", "front"],
+        ["。"]
+      ],
+      "en": "The blackboard is at the front of the classroom, and the teacher stands in front of it."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["眼睛", "yǎnjing", "eyes"],
+        ["不太", "bú tài", "not very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["坐", "zuò", "to sit"],
+        ["在", "zài", "at; in"],
+        ["前面", "qiánmiàn", "front"],
+        ["。"]
+      ],
+      "en": "My eyes aren't very good, so I like to sit in front."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["班", "bān", "class"],
+        ["有", "yǒu", "to have; there is"],
+        ["三十", "sānshí", "thirty"],
+        ["个", "gè", "(general measure word)"],
+        ["学生", "xuésheng", "student"],
+        ["。"]
+      ],
+      "en": "Our class has thirty students."
+    },
+    {
+      "t": [
+        ["下课", "xiàkè", "class is over"],
+        ["的时候", "de shíhou", "when; at the time of"],
+        ["，"],
+        ["同学们", "tóngxuémen", "classmates"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["说话", "shuōhuà", "to talk"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["笑", "xiào", "to laugh"],
+        ["。"]
+      ],
+      "en": "When class is over, my classmates like to talk, and they also like to laugh."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["教室", "jiàoshì", "classroom"],
+        ["和", "hé", "and"],
+        ["同学", "tóngxué", "classmate"],
+        ["。"]
+      ],
+      "en": "I like my classroom and classmates very much."
+    }
+  ],
+  "vocab": [
+    ["教室", "jiàoshì", "classroom"],
+    ["黑板", "hēibǎn", "blackboard"],
+    ["干净", "gānjìng", "clean"],
+    ["前面", "qiánmiàn", "front"],
+    ["眼睛", "yǎnjing", "eyes"],
+    ["班", "bān", "class"]
+  ],
+  "quiz": [
+    {
+      "q": "How many desks are in the classroom?",
+      "a": ["Ten", "Twenty", "Thirty"],
+      "c": 1
+    },
+    {
+      "q": "Why does the writer like sitting in front?",
+      "a": ["Her eyes aren't very good", "She wants to talk to the teacher", "She is the class leader"],
+      "c": 0
+    },
+    {
+      "q": "How many students are in the class?",
+      "a": ["Twenty", "Thirty", "Forty"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不 tone change before 4th tone — negation sandhi",
+      "e": "不 is normally pronounced bù, but before a 4th-tone syllable it changes to bú for smoother speech: 不大 (bú dà), 不太 (bú tài).",
+      "x": "我们的教室不大。— Our classroom isn't big."
+    },
+    {
+      "p": "在 + place — location marker",
+      "e": "在 marks where something or someone is located, usually placed right before the place word: 老师站在黑板前面 = 'the teacher stands in front of the blackboard.'",
+      "x": "老师站在黑板前面。— The teacher stands in front of the blackboard."
+    },
+    {
+      "p": "的时候 — 'when ~'",
+      "e": "Verb/clause + 的时候 means 'when ~ happens': 下课的时候 = 'when class is over.'",
+      "x": "下课的时候，同学们喜欢说话。— When class is over, my classmates like to talk."
+    }
+  ]
+}

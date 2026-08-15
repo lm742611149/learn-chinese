@@ -1,0 +1,456 @@
+{
+  "slug": "hsk2-child-goes-to-school",
+  "level": 2,
+  "title_zh": "孩子上学",
+  "title_py": "Háizi shàngxué",
+  "title_en": "Child Goes to School",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "女儿",
+          "nǚ'ér",
+          "daughter"
+        ],
+        [
+          "今年",
+          "jīnnián",
+          "this year"
+        ],
+        [
+          "七岁",
+          "qī suì",
+          "seven years old"
+        ],
+        [
+          "，"
+        ],
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "上",
+          "shàng",
+          "to attend"
+        ],
+        [
+          "小学",
+          "xiǎoxué",
+          "elementary school"
+        ],
+        [
+          "一年级",
+          "yī niánjí",
+          "first grade"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "My daughter is seven this year, and she's in first grade."
+    },
+    {
+      "t": [
+        [
+          "每天",
+          "měitiān",
+          "every day"
+        ],
+        [
+          "早上",
+          "zǎoshang",
+          "morning"
+        ],
+        [
+          "，"
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "送",
+          "sòng",
+          "to take (someone somewhere)"
+        ],
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "学校",
+          "xuéxiào",
+          "school"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Every morning, Mom takes her to school."
+    },
+    {
+      "t": [
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "书包",
+          "shūbāo",
+          "schoolbag"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "重",
+          "zhòng",
+          "heavy"
+        ],
+        [
+          "，"
+        ],
+        [
+          "里面",
+          "lǐmiàn",
+          "inside"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "a lot of"
+        ],
+        [
+          "书",
+          "shū",
+          "book"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "本子",
+          "běnzi",
+          "notebook"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Her schoolbag is very heavy — inside there are lots of books and notebooks."
+    },
+    {
+      "t": [
+        [
+          "在",
+          "zài",
+          "at; in"
+        ],
+        [
+          "学校",
+          "xuéxiào",
+          "school"
+        ],
+        [
+          "，"
+        ],
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "认识",
+          "rènshi",
+          "to know; to get to know"
+        ],
+        [
+          "了",
+          "le",
+          "(particle: completed action)"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "a lot of"
+        ],
+        [
+          "新",
+          "xīn",
+          "new"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "，"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "At school, she has made many new friends, and she also likes her teacher."
+    },
+    {
+      "t": [
+        [
+          "放学",
+          "fàngxué",
+          "school lets out"
+        ],
+        [
+          "以后",
+          "yǐhòu",
+          "after"
+        ],
+        [
+          "，"
+        ],
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "和",
+          "hé",
+          "with"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friend"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "做",
+          "zuò",
+          "to do"
+        ],
+        [
+          "作业",
+          "zuòyè",
+          "homework"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "After school, she likes doing homework together with her friends."
+    },
+    {
+      "t": [
+        [
+          "她",
+          "tā",
+          "she; her"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          "："
+        ],
+        [
+          "“"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "上学",
+          "shàngxué",
+          "to go to school"
+        ],
+        [
+          "，"
+        ],
+        [
+          "学校",
+          "xuéxiào",
+          "school"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "有意思",
+          "yǒuyìsi",
+          "interesting"
+        ],
+        [
+          "。"
+        ],
+        [
+          "”"
+        ]
+      ],
+      "en": "She says, \"I really like going to school — school is very interesting.\""
+    }
+  ],
+  "vocab": [
+    [
+      "上学",
+      "shàngxué",
+      "to go to school"
+    ],
+    [
+      "书包",
+      "shūbāo",
+      "schoolbag"
+    ],
+    [
+      "放学",
+      "fàngxué",
+      "school lets out"
+    ],
+    [
+      "作业",
+      "zuòyè",
+      "homework"
+    ],
+    [
+      "有意思",
+      "yǒuyìsi",
+      "interesting"
+    ],
+    [
+      "送",
+      "sòng",
+      "to take someone somewhere"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "How old is the daughter?",
+      "a": [
+        "Seven",
+        "Six",
+        "Eight"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Who takes her to school every morning?",
+      "a": [
+        "Her father",
+        "Her mother",
+        "Her teacher"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does she like to do after school?",
+      "a": [
+        "Watch TV alone",
+        "Go to bed early",
+        "Do homework with friends"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "了 — completed action / new situation",
+      "e": "了 placed after a verb marks that an action has happened or a new state has come about: 她认识了很多新朋友 = 'She has come to know many new friends.'",
+      "x": "她认识了很多新朋友。— She has made many new friends."
+    },
+    {
+      "p": "以后 — 'after ~'",
+      "e": "Time word/verb phrase + 以后 means 'after ~': 放学以后 = 'after school lets out.'",
+      "x": "放学以后，她喜欢和朋友一起做作业。— After school, she likes doing homework with friends."
+    },
+    {
+      "p": "送 — to take/see someone somewhere",
+      "e": "送 + person + place means to accompany or take someone there: 妈妈送她去学校 = 'Mom takes her to school.'",
+      "x": "妈妈送她去学校。— Mom takes her to school."
+    }
+  ]
+}

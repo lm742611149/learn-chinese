@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-the-meeting",
+  "level": 3,
+  "title_zh": "开会",
+  "title_py": "Kāihuì",
+  "title_en": "The Meeting",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["九点","jiǔ diǎn","nine o'clock"],["，"],["公司","gōngsī","company"],["有","yǒu","to have"],["一个","yí ge","a; one"],["重要","zhòngyào","important"],["的","de","(attributive particle)"],["会议","huìyì","meeting"],["。"]],
+      "en": "At nine o'clock this morning, the company had an important meeting."
+    },
+    {
+      "t": [["我","wǒ","I"],["早上","zǎoshang","morning"],["很","hěn","very"],["早","zǎo","early"],["就","jiù","already"],["到","dào","to arrive"],["了","le","(completed action)"],["公司","gōngsī","company"],["，"],["准备","zhǔnbèi","to prepare"],["开会","kāihuì","to have a meeting"],["用","yòng","to use; for"],["的","de","(attributive particle)"],["东西","dōngxi","things"],["。"]],
+      "en": "I got to the company very early to prepare things for the meeting."
+    },
+    {
+      "t": [["会议","huìyì","meeting"],["开始","kāishǐ","to start"],["的时候","de shíhou","when"],["，"],["小王","Xiǎo Wáng","Little Wang (name)"],["还","hái","still"],["没有","méiyǒu","haven't"],["来","lái","to come"],["，"],["经理","jīnglǐ","manager"],["有点儿","yǒudiǎnr","a bit"],["不","bù","not"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "When the meeting started, Xiao Wang hadn't arrived yet, and the manager was a little unhappy."
+    },
+    {
+      "t": [["过了","guò le","after; passed"],["十分钟","shí fēnzhōng","ten minutes"],["，"],["小王","Xiǎo Wáng","Little Wang (name)"],["才","cái","only then"],["跑","pǎo","to run"],["进来","jìnlái","to come in"],["，"],["一边","yìbiān","while (doing one thing)"],["说","shuō","to say"],["对不起","duìbuqǐ","sorry"],["，"],["一边","yìbiān","while (doing another)"],["坐下","zuòxià","to sit down"],["。"]],
+      "en": "Ten minutes later, Xiao Wang finally ran in, saying sorry while sitting down."
+    },
+    {
+      "t": [["我们","wǒmen","we"],["在","zài","at"],["会上","huì shang","in the meeting"],["讨论","tǎolùn","to discuss"],["了","le","(completed action)"],["下个月","xià ge yuè","next month"],["的","de","(attributive particle)"],["工作","gōngzuò","work"],["计划","jìhuà","plan"],["。"]],
+      "en": "We discussed next month's work plan at the meeting."
+    },
+    {
+      "t": [["经理","jīnglǐ","manager"],["说","shuō","to say"],["，"],["这个","zhè ge","this"],["计划","jìhuà","plan"],["很","hěn","very"],["重要","zhòngyào","important"],["，"],["希望","xīwàng","to hope"],["大家","dàjiā","everyone"],["都","dōu","all"],["努力","nǔlì","to work hard"],["做好","zuòhǎo","to do well"],["。"]],
+      "en": "The manager said this plan was important, and hoped everyone would work hard to do it well."
+    },
+    {
+      "t": [["开完会","kāiwán huì","to finish the meeting"],["以后","yǐhòu","after"],["，"],["我们","wǒmen","we"],["都","dōu","all"],["觉得","juéde","to feel"],["这次","zhè cì","this time"],["会议","huìyì","meeting"],["很","hěn","very"],["有用","yǒuyòng","useful"],["。"]],
+      "en": "After the meeting ended, we all felt this meeting was very useful."
+    }
+  ],
+  "vocab": [
+    ["会议","huìyì","meeting"],
+    ["讨论","tǎolùn","to discuss"],
+    ["计划","jìhuà","plan"],
+    ["经理","jīnglǐ","manager"],
+    ["重要","zhòngyào","important"],
+    ["努力","nǔlì","to work hard"]
+  ],
+  "quiz": [
+    {"q": "What happened when the meeting started?", "a": ["The meeting was cancelled", "Xiao Wang hadn't arrived yet and the manager was a little upset", "Everyone left early"], "c": 1},
+    {"q": "What did they discuss at the meeting?", "a": ["A company trip", "New office chairs", "Next month's work plan"], "c": 2},
+    {"q": "How did they feel after the meeting?", "a": ["They felt the meeting was very useful", "They felt tired and wanted to sleep", "They felt the meeting was too long"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "一边……一边…… (doing two things at once)", "e": "一边 + verb1，一边 + verb2 describes two actions happening at the same time.", "x": "小王才跑进来，一边说对不起，一边坐下。 — Xiao Wang finally ran in, saying sorry while sitting down."},
+    {"p": "还没有 + verb (haven't yet)", "e": "还没有 (or 还没) before a verb shows that an action hasn't happened yet, even though it was expected.", "x": "会议开始的时候，小王还没有来。 — When the meeting started, Xiao Wang hadn't arrived yet."},
+    {"p": "希望 + clause (to hope that...)", "e": "希望 can be directly followed by a full clause describing what someone hopes will happen.", "x": "经理说，这个计划很重要，希望大家都努力做好。 — The manager said this plan was important, and hoped everyone would work hard to do it well."}
+  ]
+}

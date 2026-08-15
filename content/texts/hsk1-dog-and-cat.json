@@ -1,0 +1,325 @@
+{
+  "slug": "hsk1-dog-and-cat",
+  "level": 1,
+  "title_zh": "小狗和小猫",
+  "title_py": "Xiǎogǒu hé xiǎomāo",
+  "title_en": "Dog and Cat",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "家",
+          "jiā",
+          "home; family"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is"
+        ],
+        [
+          "一个",
+          "yí ge",
+          "one (of them)"
+        ],
+        [
+          "小狗",
+          "xiǎogǒu",
+          "puppy; dog"
+        ],
+        [
+          "，"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "有",
+          "yǒu",
+          "to have; there is"
+        ],
+        [
+          "一个",
+          "yí ge",
+          "one (of them)"
+        ],
+        [
+          "小猫",
+          "xiǎomāo",
+          "kitten; cat"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "My family has a dog, and also has a cat."
+    },
+    {
+      "t": [
+        [
+          "小狗",
+          "xiǎogǒu",
+          "puppy; dog"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "大",
+          "dà",
+          "big"
+        ],
+        [
+          "，"
+        ],
+        [
+          "小猫",
+          "xiǎomāo",
+          "kitten; cat"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "小",
+          "xiǎo",
+          "small"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The dog is big, the cat is small."
+    },
+    {
+      "t": [
+        [
+          "小狗",
+          "xiǎogǒu",
+          "puppy; dog"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "things"
+        ],
+        [
+          "，"
+        ],
+        [
+          "小猫",
+          "xiǎomāo",
+          "kitten; cat"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "喝",
+          "hē",
+          "to drink"
+        ],
+        [
+          "水",
+          "shuǐ",
+          "water"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The dog likes to eat, the cat likes to drink water."
+    },
+    {
+      "t": [
+        [
+          "小狗",
+          "xiǎogǒu",
+          "puppy; dog"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "小猫",
+          "xiǎomāo",
+          "kitten; cat"
+        ],
+        [
+          "都",
+          "dōu",
+          "both; all"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "漂亮",
+          "piàoliang",
+          "pretty"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Both the dog and the cat are pretty."
+    },
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "小狗",
+          "xiǎogǒu",
+          "puppy; dog"
+        ],
+        [
+          "，"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "小猫",
+          "xiǎomāo",
+          "kitten; cat"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I like the dog a lot, and I also like the cat a lot."
+    }
+  ],
+  "vocab": [
+    [
+      "小狗",
+      "xiǎogǒu",
+      "puppy; dog"
+    ],
+    [
+      "小猫",
+      "xiǎomāo",
+      "kitten; cat"
+    ],
+    [
+      "大",
+      "dà",
+      "big"
+    ],
+    [
+      "小",
+      "xiǎo",
+      "small"
+    ],
+    [
+      "漂亮",
+      "piàoliang",
+      "pretty"
+    ],
+    [
+      "东西",
+      "dōngxi",
+      "things"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "How big is the dog?",
+      "a": [
+        "Big",
+        "Small",
+        "Medium"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the cat like to drink?",
+      "a": [
+        "Tea",
+        "Water",
+        "Coffee"
+      ],
+      "c": 1
+    },
+    {
+      "q": "According to the text, are the dog and cat pretty?",
+      "a": [
+        "Yes",
+        "No",
+        "Not mentioned"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "很 + adjective — adjective predicate",
+      "e": "To describe something in Chinese you often just use 很 plus an adjective, with no separate word for \"is\".",
+      "x": "小狗很大，小猫很小。 — The dog is big, the cat is small."
+    },
+    {
+      "p": "也 — also",
+      "e": "也 goes right before the verb to add another true statement about the same subject.",
+      "x": "我家有一个小狗，也有一个小猫。 — My family has a dog, and also has a cat."
+    },
+    {
+      "p": "都 — both / all",
+      "e": "都 comes after the two things it describes and before 很 or the verb.",
+      "x": "小狗和小猫都很漂亮。 — Both the dog and the cat are pretty."
+    }
+  ]
+}

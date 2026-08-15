@@ -1,0 +1,1076 @@
+{
+  "slug": "hsk6-digital-currency",
+  "level": 6,
+  "title_zh": "数字货币",
+  "title_py": "Shùzì huòbì",
+  "title_en": "Digital Currency and the Question of Trust",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "传统",
+          "chuántǒng",
+          "traditional"
+        ],
+        [
+          "货币",
+          "huòbì",
+          "currency"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "信任",
+          "xìnrèn",
+          "trust"
+        ],
+        [
+          "建立",
+          "jiànlì",
+          "to build; establish"
+        ],
+        [
+          "在",
+          "zài",
+          "in; on"
+        ],
+        [
+          "国家",
+          "guójiā",
+          "national"
+        ],
+        [
+          "信用",
+          "xìnyòng",
+          "credit; credibility"
+        ],
+        [
+          "之上",
+          "zhī shàng",
+          "above; upon"
+        ],
+        [
+          "，"
+        ],
+        [
+          "人们",
+          "rénmen",
+          "people"
+        ],
+        [
+          "相信",
+          "xiāngxìn",
+          "to believe"
+        ],
+        [
+          "央行",
+          "yāngháng",
+          "central bank"
+        ],
+        [
+          "不会",
+          "bú huì",
+          "will not"
+        ],
+        [
+          "随意",
+          "suíyì",
+          "arbitrarily; at will"
+        ],
+        [
+          "印钞",
+          "yìnchāo",
+          "to print money"
+        ],
+        [
+          "，"
+        ],
+        [
+          "银行",
+          "yínháng",
+          "bank"
+        ],
+        [
+          "不会",
+          "bú huì",
+          "will not"
+        ],
+        [
+          "卷款跑路",
+          "juǎn kuǎn pǎolù",
+          "to abscond with funds"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Trust in traditional currency is built on national credit: people believe the central bank won't print money arbitrarily, and banks won't abscond with their funds."
+    },
+    {
+      "t": [
+        [
+          "数字货币",
+          "shùzì huòbì",
+          "digital currency"
+        ],
+        [
+          "，"
+        ],
+        [
+          "尤其",
+          "yóuqí",
+          "especially"
+        ],
+        [
+          "是",
+          "shì",
+          "is"
+        ],
+        [
+          "比特币",
+          "bǐtèbì",
+          "Bitcoin"
+        ],
+        [
+          "这类",
+          "zhè lèi",
+          "this kind of"
+        ],
+        [
+          "加密货币",
+          "jiāmì huòbì",
+          "cryptocurrency"
+        ],
+        [
+          "，"
+        ],
+        [
+          "提出",
+          "tíchū",
+          "to propose; put forward"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "一种",
+          "yì zhǒng",
+          "a kind of"
+        ],
+        [
+          "完全",
+          "wánquán",
+          "completely"
+        ],
+        [
+          "不同",
+          "bùtóng",
+          "different"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "信任",
+          "xìnrèn",
+          "trust"
+        ],
+        [
+          "模式",
+          "móshì",
+          "model"
+        ],
+        [
+          "："
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "依赖",
+          "yīlài",
+          "to rely on"
+        ],
+        [
+          "任何",
+          "rènhé",
+          "any"
+        ],
+        [
+          "机构",
+          "jīgòu",
+          "institution"
+        ],
+        [
+          "，"
+        ],
+        [
+          "只",
+          "zhǐ",
+          "only"
+        ],
+        [
+          "依赖",
+          "yīlài",
+          "to rely on"
+        ],
+        [
+          "数学",
+          "shùxué",
+          "mathematics"
+        ],
+        [
+          "与",
+          "yǔ",
+          "and"
+        ],
+        [
+          "代码",
+          "dàimǎ",
+          "code"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Digital currencies, especially cryptocurrencies like Bitcoin, propose a completely different model of trust: relying on no institution at all, only on mathematics and code."
+    },
+    {
+      "t": [
+        [
+          "每",
+          "měi",
+          "every"
+        ],
+        [
+          "一笔",
+          "yì bǐ",
+          "one (transaction)"
+        ],
+        [
+          "交易",
+          "jiāoyì",
+          "transaction"
+        ],
+        [
+          "都",
+          "dōu",
+          "all"
+        ],
+        [
+          "被",
+          "bèi",
+          "(passive marker)"
+        ],
+        [
+          "记录",
+          "jìlù",
+          "to record"
+        ],
+        [
+          "在",
+          "zài",
+          "on"
+        ],
+        [
+          "区块链",
+          "qūkuàiliàn",
+          "blockchain"
+        ],
+        [
+          "上",
+          "shàng",
+          "on"
+        ],
+        [
+          "，"
+        ],
+        [
+          "由",
+          "yóu",
+          "by"
+        ],
+        [
+          "分散",
+          "fēnsàn",
+          "scattered; distributed"
+        ],
+        [
+          "在",
+          "zài",
+          "in"
+        ],
+        [
+          "全球",
+          "quánqiú",
+          "globally"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "节点",
+          "jiédiǎn",
+          "node"
+        ],
+        [
+          "共同",
+          "gòngtóng",
+          "jointly"
+        ],
+        [
+          "验证",
+          "yànzhèng",
+          "to verify"
+        ],
+        [
+          "，"
+        ],
+        [
+          "篡改",
+          "cuàngǎi",
+          "to tamper with; falsify"
+        ],
+        [
+          "任何",
+          "rènhé",
+          "any"
+        ],
+        [
+          "一条",
+          "yì tiáo",
+          "one (item)"
+        ],
+        [
+          "记录",
+          "jìlù",
+          "record"
+        ],
+        [
+          "都",
+          "dōu",
+          "all"
+        ],
+        [
+          "需要",
+          "xūyào",
+          "to need"
+        ],
+        [
+          "同时",
+          "tóngshí",
+          "simultaneously"
+        ],
+        [
+          "攻破",
+          "gōngpò",
+          "to breach; break through"
+        ],
+        [
+          "绝大多数",
+          "jué dàduōshù",
+          "the vast majority"
+        ],
+        [
+          "节点",
+          "jiédiǎn",
+          "nodes"
+        ],
+        [
+          "，"
+        ],
+        [
+          "几乎",
+          "jīhū",
+          "almost"
+        ],
+        [
+          "不可能",
+          "bù kěnéng",
+          "impossible"
+        ],
+        [
+          "做到",
+          "zuòdào",
+          "to accomplish"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Every transaction is recorded on the blockchain and jointly verified by nodes scattered across the globe; tampering with any single record would require simultaneously breaching the vast majority of nodes, which is almost impossible."
+    },
+    {
+      "t": [
+        [
+          "换言之",
+          "huàn yán zhī",
+          "in other words"
+        ],
+        [
+          "，"
+        ],
+        [
+          "信任",
+          "xìnrèn",
+          "trust"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "对象",
+          "duìxiàng",
+          "object; target"
+        ],
+        [
+          "从",
+          "cóng",
+          "from"
+        ],
+        [
+          "“"
+        ],
+        [
+          "某个",
+          "mǒu ge",
+          "a certain"
+        ],
+        [
+          "权威",
+          "quánwēi",
+          "authoritative"
+        ],
+        [
+          "机构",
+          "jīgòu",
+          "institution"
+        ],
+        [
+          "”"
+        ],
+        [
+          "变成",
+          "biànchéng",
+          "to become; turn into"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "“"
+        ],
+        [
+          "一套",
+          "yí tào",
+          "a set of"
+        ],
+        [
+          "公开",
+          "gōngkāi",
+          "open; public"
+        ],
+        [
+          "透明",
+          "tòumíng",
+          "transparent"
+        ],
+        [
+          "、"
+        ],
+        [
+          "人人",
+          "rénrén",
+          "everyone"
+        ],
+        [
+          "可查",
+          "kě chá",
+          "checkable"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "算法",
+          "suànfǎ",
+          "algorithm"
+        ],
+        [
+          "规则",
+          "guīzé",
+          "rules"
+        ],
+        [
+          "”"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "In other words, the object of trust shifts from 'some authoritative institution' to 'a set of open, transparent algorithmic rules that anyone can check.'"
+    },
+    {
+      "t": [
+        [
+          "这种",
+          "zhè zhǒng",
+          "this kind of"
+        ],
+        [
+          "设计",
+          "shèjì",
+          "design"
+        ],
+        [
+          "的确",
+          "díquè",
+          "indeed"
+        ],
+        [
+          "解决",
+          "jiějué",
+          "to solve"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "双重支付",
+          "shuāngchóng zhīfù",
+          "double spending"
+        ],
+        [
+          "等",
+          "děng",
+          "and so on"
+        ],
+        [
+          "技术",
+          "jìshù",
+          "technical"
+        ],
+        [
+          "难题",
+          "nántí",
+          "difficult problem"
+        ],
+        [
+          "，"
+        ],
+        [
+          "却",
+          "què",
+          "yet; however"
+        ],
+        [
+          "并未",
+          "bìng wèi",
+          "has not (emphatic)"
+        ],
+        [
+          "解决",
+          "jiějué",
+          "to solve"
+        ],
+        [
+          "价格",
+          "jiàgé",
+          "price"
+        ],
+        [
+          "剧烈",
+          "jùliè",
+          "drastic; violent"
+        ],
+        [
+          "波动",
+          "bōdòng",
+          "fluctuation"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "问题",
+          "wèntí",
+          "problem"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "This design does solve technical problems like double-spending, but it has not solved the problem of drastic price fluctuations."
+    },
+    {
+      "t": [
+        [
+          "一枚",
+          "yì méi",
+          "one (coin)"
+        ],
+        [
+          "比特币",
+          "bǐtèbì",
+          "Bitcoin"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "价格",
+          "jiàgé",
+          "price"
+        ],
+        [
+          "可以",
+          "kěyǐ",
+          "can"
+        ],
+        [
+          "在",
+          "zài",
+          "in; within"
+        ],
+        [
+          "一夜之间",
+          "yí yè zhī jiān",
+          "overnight"
+        ],
+        [
+          "暴涨暴跌",
+          "bàozhǎng bàodiē",
+          "to violently surge and plummet"
+        ],
+        [
+          "，"
+        ],
+        [
+          "这",
+          "zhè",
+          "this"
+        ],
+        [
+          "让",
+          "ràng",
+          "to make"
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "更",
+          "gèng",
+          "more"
+        ],
+        [
+          "像",
+          "xiàng",
+          "to resemble; be like"
+        ],
+        [
+          "投机品",
+          "tóujī pǐn",
+          "speculative asset"
+        ],
+        [
+          "，"
+        ],
+        [
+          "而非",
+          "ér fēi",
+          "rather than"
+        ],
+        [
+          "稳定",
+          "wěndìng",
+          "stable"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "支付",
+          "zhīfù",
+          "payment"
+        ],
+        [
+          "工具",
+          "gōngjù",
+          "tool"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The price of a single Bitcoin can surge or crash overnight, which makes it feel more like a speculative asset than a stable means of payment."
+    },
+    {
+      "t": [
+        [
+          "于是",
+          "yúshì",
+          "therefore; thereupon"
+        ],
+        [
+          "，"
+        ],
+        [
+          "业界",
+          "yèjiè",
+          "the industry"
+        ],
+        [
+          "又",
+          "yòu",
+          "again; additionally"
+        ],
+        [
+          "发展",
+          "fāzhǎn",
+          "to develop"
+        ],
+        [
+          "出",
+          "chū",
+          "out"
+        ],
+        [
+          "“"
+        ],
+        [
+          "稳定币",
+          "wěndìngbì",
+          "stablecoin"
+        ],
+        [
+          "”"
+        ],
+        [
+          "，"
+        ],
+        [
+          "试图",
+          "shìtú",
+          "to attempt; try to"
+        ],
+        [
+          "将",
+          "jiāng",
+          "(formal object marker)"
+        ],
+        [
+          "数字货币",
+          "shùzì huòbì",
+          "digital currency"
+        ],
+        [
+          "与",
+          "yǔ",
+          "and; with"
+        ],
+        [
+          "美元",
+          "měiyuán",
+          "US dollar"
+        ],
+        [
+          "等",
+          "děng",
+          "and so on"
+        ],
+        [
+          "法定货币",
+          "fǎdìng huòbì",
+          "fiat currency"
+        ],
+        [
+          "挂钩",
+          "guàgōu",
+          "to peg; link"
+        ],
+        [
+          "，"
+        ],
+        [
+          "兼顾",
+          "jiāngù",
+          "to give consideration to both"
+        ],
+        [
+          "去中心化",
+          "qù zhōngxīnhuà",
+          "decentralization"
+        ],
+        [
+          "与",
+          "yǔ",
+          "and"
+        ],
+        [
+          "价格",
+          "jiàgé",
+          "price"
+        ],
+        [
+          "稳定",
+          "wěndìng",
+          "stability"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "As a result, the industry has developed 'stablecoins,' which try to peg digital currency to fiat currencies like the US dollar, balancing decentralization with price stability."
+    },
+    {
+      "t": [
+        [
+          "归根结底",
+          "guī gēn jié dǐ",
+          "in the final analysis (idiom)"
+        ],
+        [
+          "，"
+        ],
+        [
+          "数字货币",
+          "shùzì huòbì",
+          "digital currency"
+        ],
+        [
+          "真正",
+          "zhēnzhèng",
+          "true; real"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "价值",
+          "jiàzhí",
+          "value"
+        ],
+        [
+          "，"
+        ],
+        [
+          "不在于",
+          "bú zàiyú",
+          "does not lie in"
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "能不能",
+          "néng bu néng",
+          "whether or not it can"
+        ],
+        [
+          "一夜暴富",
+          "yí yè bào fù",
+          "get rich overnight"
+        ],
+        [
+          "，"
+        ],
+        [
+          "而",
+          "ér",
+          "but"
+        ],
+        [
+          "在于",
+          "zàiyú",
+          "lies in"
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "为",
+          "wèi",
+          "for"
+        ],
+        [
+          "“"
+        ],
+        [
+          "无须",
+          "wúxū",
+          "without needing to"
+        ],
+        [
+          "信任",
+          "xìnrèn",
+          "trust"
+        ],
+        [
+          "第三方",
+          "dì-sān-fāng",
+          "third party"
+        ],
+        [
+          "”"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "交易",
+          "jiāoyì",
+          "transaction"
+        ],
+        [
+          "提供",
+          "tígōng",
+          "to provide"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "一种",
+          "yì zhǒng",
+          "a kind of"
+        ],
+        [
+          "可行",
+          "kěxíng",
+          "feasible"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "技术方案",
+          "jìshù fāng'àn",
+          "technical solution"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "In the final analysis, the true value of digital currency lies not in whether it can make you rich overnight, but in the fact that it offers a workable technical solution for transactions that require no trust in a third party."
+    }
+  ],
+  "vocab": [
+    [
+      "央行",
+      "yāngháng",
+      "central bank"
+    ],
+    [
+      "加密货币",
+      "jiāmì huòbì",
+      "cryptocurrency"
+    ],
+    [
+      "区块链",
+      "qūkuàiliàn",
+      "blockchain"
+    ],
+    [
+      "篡改",
+      "cuàngǎi",
+      "to tamper with; falsify"
+    ],
+    [
+      "去中心化",
+      "qù zhōngxīnhuà",
+      "decentralization"
+    ],
+    [
+      "归根结底",
+      "guī gēn jié dǐ",
+      "in the final analysis (idiom)"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "传统货币的信任建立在什么之上？",
+      "a": [
+        "国家信用",
+        "区块链",
+        "数学与代码"
+      ],
+      "c": 0
+    },
+    {
+      "q": "比特币这类加密货币的信任模式依赖什么？",
+      "a": [
+        "某个权威机构",
+        "数学与代码",
+        "央行印钞"
+      ],
+      "c": 1
+    },
+    {
+      "q": "作者认为数字货币真正的价值在于什么？",
+      "a": [
+        "能让人一夜暴富",
+        "为无须信任第三方的交易提供技术方案",
+        "价格永远稳定"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "建立在…之上 — 'to be built upon...'",
+      "e": "A formal pattern describing the foundation something rests on, often used for abstract things like trust, systems, or theories.",
+      "x": "传统货币的信任建立在国家信用之上。 — Trust in traditional currency is built on national credit."
+    },
+    {
+      "p": "换言之 — 'in other words'",
+      "e": "A formal connective used to restate the previous point more plainly or from a different angle; more literary than 也就是说.",
+      "x": "换言之，信任的对象从“某个权威机构”变成了“一套公开透明、人人可查的算法规则”。 — In other words, the object of trust shifts from 'some authoritative institution' to 'a set of open, transparent algorithmic rules.'"
+    },
+    {
+      "p": "不在于…，而在于… — 'does not lie in A, but in B'",
+      "e": "A formal pattern for correcting where the real significance of something lies, often used to conclude an essay's argument.",
+      "x": "数字货币真正的价值，不在于它能不能一夜暴富，而在于它提供了一种可行的技术方案。 — The true value of digital currency lies not in getting rich overnight, but in offering a workable technical solution."
+    }
+  ]
+}

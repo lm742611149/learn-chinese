@@ -1,0 +1,257 @@
+{
+  "slug": "hsk1-goodbye-teacher",
+  "level": 1,
+  "title_zh": "再见，老师",
+  "title_py": "Zàijiàn, lǎoshī",
+  "title_en": "Goodbye, Teacher",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "在",
+          "zài",
+          "at; in"
+        ],
+        [
+          "学校",
+          "xuéxiào",
+          "school"
+        ],
+        [
+          "学习",
+          "xuéxí",
+          "to study"
+        ],
+        [
+          "汉语",
+          "Hànyǔ",
+          "Chinese (language)"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I study Chinese at school."
+    },
+    {
+      "t": [
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "，"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The teacher is very good, and I like the teacher a lot."
+    },
+    {
+      "t": [
+        [
+          "认识",
+          "rènshi",
+          "to know; to meet"
+        ],
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "，"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "高兴",
+          "gāoxìng",
+          "happy"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I'm very happy to have met the teacher."
+    },
+    {
+      "t": [
+        [
+          "今天",
+          "jīntiān",
+          "today"
+        ],
+        [
+          "我们",
+          "wǒmen",
+          "we; us"
+        ],
+        [
+          "说",
+          "shuō",
+          "to say"
+        ],
+        [
+          "再见",
+          "zàijiàn",
+          "goodbye"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Today we say goodbye."
+    },
+    {
+      "t": [
+        [
+          "谢谢",
+          "xièxie",
+          "thank you"
+        ],
+        [
+          "老师",
+          "lǎoshī",
+          "teacher"
+        ],
+        [
+          "，"
+        ],
+        [
+          "再见",
+          "zàijiàn",
+          "goodbye"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Thank you, teacher, goodbye."
+    }
+  ],
+  "vocab": [
+    [
+      "学校",
+      "xuéxiào",
+      "school"
+    ],
+    [
+      "汉语",
+      "Hànyǔ",
+      "Chinese (language)"
+    ],
+    [
+      "老师",
+      "lǎoshī",
+      "teacher"
+    ],
+    [
+      "认识",
+      "rènshi",
+      "to know; to meet"
+    ],
+    [
+      "高兴",
+      "gāoxìng",
+      "happy"
+    ],
+    [
+      "再见",
+      "zàijiàn",
+      "goodbye"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What does the narrator study at school?",
+      "a": [
+        "Chinese",
+        "English",
+        "Math"
+      ],
+      "c": 0
+    },
+    {
+      "q": "How does the narrator feel about the teacher?",
+      "a": [
+        "Dislikes the teacher",
+        "Likes the teacher a lot",
+        "Doesn't know the teacher"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What do they say at the end of the text?",
+      "a": [
+        "Hello",
+        "Sorry",
+        "Goodbye"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "在 + place + verb — where an action happens",
+      "e": "在 plus a place goes before the verb to say where something happens.",
+      "x": "我在学校学习汉语。 — I study Chinese at school."
+    },
+    {
+      "p": "很 + adjective — adjective predicate",
+      "e": "很 plus an adjective forms the predicate directly, with no separate word for \"is\".",
+      "x": "老师很好。 — The teacher is very good."
+    },
+    {
+      "p": "认识 + person — to know / to have met someone",
+      "e": "认识 describes knowing or having met a person, often followed by 很高兴 to express how glad you are.",
+      "x": "认识老师，我很高兴。 — I'm very happy to have met the teacher."
+    }
+  ]
+}

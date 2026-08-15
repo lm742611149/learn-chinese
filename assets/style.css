@@ -512,6 +512,27 @@ body.show-en .en-line { display: block; }
   border-left: 3px solid var(--gold); padding-left: 10px;
   font-family: var(--serif); }
 
+/* ---------- level page copy + FAQ ---------- */
+.lvl-intro { max-width: 660px; margin: 40px auto 10px;
+  padding-top: 28px; border-top: 1px solid var(--line); }
+.lvl-intro > h2 { font-size: 1.05rem; letter-spacing: .02em; margin: 30px 0 12px; }
+.lvl-intro > h2:first-child { margin-top: 0; }
+.lvl-intro p { font-size: .93rem; line-height: 1.78;
+  color: var(--ink-2); margin: 0 0 13px; }
+.lvl-how { border-left: 3px solid var(--sc); padding-left: 12px; }
+.lvl-how strong { color: var(--ink); }
+.faq-q { border-bottom: 1px solid var(--line); }
+.faq-q:first-child { border-top: 1px solid var(--line); }
+.faq-q summary { cursor: pointer; list-style: none; display: flex;
+  justify-content: space-between; align-items: baseline; gap: 14px;
+  padding: 13px 0; font-weight: 700; font-size: .95rem; color: var(--ink); }
+.faq-q summary::-webkit-details-marker { display: none; }
+.faq-q summary::after { content: "+"; color: var(--sc);
+  font-weight: 400; font-size: 1.15rem; line-height: 1; flex: none; }
+.faq-q[open] summary::after { content: "\2212"; }
+.faq-q summary:hover { color: var(--red); }
+.faq-q p { margin: 0; padding: 0 0 15px; font-size: .92rem; }
+
 /* ---------- search ---------- */
 .searchbar { margin: 22px 0 -14px; }
 #search { width: 100%; border: 1.5px solid #ded2bd; background: #fff;

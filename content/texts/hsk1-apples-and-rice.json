@@ -1,0 +1,302 @@
+{
+  "slug": "hsk1-apples-and-rice",
+  "level": 1,
+  "title_zh": "苹果和米饭",
+  "title_py": "Píngguǒ hé mǐfàn",
+  "title_en": "Apples and Rice",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "，"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "米饭",
+          "mǐfàn",
+          "cooked rice"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I like apples, and I also like rice."
+    },
+    {
+      "t": [
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "水果",
+          "shuǐguǒ",
+          "fruit"
+        ],
+        [
+          "，"
+        ],
+        [
+          "米饭",
+          "mǐfàn",
+          "cooked rice"
+        ],
+        [
+          "不",
+          "bú",
+          "not"
+        ],
+        [
+          "是",
+          "shì",
+          "to be"
+        ],
+        [
+          "水果",
+          "shuǐguǒ",
+          "fruit"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Apples are fruit, rice is not fruit."
+    },
+    {
+      "t": [
+        [
+          "中午",
+          "zhōngwǔ",
+          "noon"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "米饭",
+          "mǐfàn",
+          "cooked rice"
+        ],
+        [
+          "，"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "吃",
+          "chī",
+          "to eat"
+        ],
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "At noon I eat rice, not apples."
+    },
+    {
+      "t": [
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "米饭",
+          "mǐfàn",
+          "cooked rice"
+        ],
+        [
+          "都",
+          "dōu",
+          "both; all"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Both apples and rice are good."
+    },
+    {
+      "t": [
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "了",
+          "le",
+          "(completed action)"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "a lot of"
+        ],
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "米饭",
+          "mǐfàn",
+          "cooked rice"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Mom bought a lot of apples and rice."
+    }
+  ],
+  "vocab": [
+    [
+      "苹果",
+      "píngguǒ",
+      "apple"
+    ],
+    [
+      "米饭",
+      "mǐfàn",
+      "cooked rice"
+    ],
+    [
+      "水果",
+      "shuǐguǒ",
+      "fruit"
+    ],
+    [
+      "中午",
+      "zhōngwǔ",
+      "noon"
+    ],
+    [
+      "买",
+      "mǎi",
+      "to buy"
+    ],
+    [
+      "喜欢",
+      "xǐhuan",
+      "to like"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What does the narrator like?",
+      "a": [
+        "Apples and rice",
+        "Tea and coffee",
+        "Fish and vegetables"
+      ],
+      "c": 0
+    },
+    {
+      "q": "According to the text, is rice a fruit?",
+      "a": [
+        "Yes",
+        "No",
+        "Not mentioned"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did mom buy?",
+      "a": [
+        "A lot of apples and rice",
+        "Vegetables and meat",
+        "Tea and coffee"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "也 — also",
+      "e": "也 sits right before the verb to add another true statement.",
+      "x": "我喜欢苹果，也喜欢米饭。 — I like apples, and I also like rice."
+    },
+    {
+      "p": "不是 — to negate 是",
+      "e": "不 goes right before 是 to say something is not the case.",
+      "x": "米饭不是水果。 — Rice is not fruit."
+    },
+    {
+      "p": "都 — both / all",
+      "e": "都 comes after the things it covers and before the verb or adjective.",
+      "x": "苹果和米饭都很好。 — Both apples and rice are good."
+    }
+  ]
+}

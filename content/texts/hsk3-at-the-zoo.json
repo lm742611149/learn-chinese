@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-at-the-zoo",
+  "level": 3,
+  "title_zh": "动物园",
+  "title_py": "Dòngwùyuán",
+  "title_en": "At the Zoo",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["，"],["我","wǒ","I"],["和","hé","and"],["儿子","érzi","son"],["一起","yìqǐ","together"],["去","qù","to go"],["动物园","dòngwùyuán","zoo"],["玩","wán","to play"],["。"]],
+      "en": "On Saturday, my son and I went to the zoo together."
+    },
+    {
+      "t": [["我们","wǒmen","we"],["先","xiān","first"],["看","kàn","to see"],["了","le","(completed action)"],["大象","dàxiàng","elephant"],["，"],["儿子","érzi","son"],["说","shuō","to say"],["大象","dàxiàng","elephant"],["的","de","(attributive particle)"],["鼻子","bízi","nose"],["真","zhēn","really"],["长","cháng","long"],["。"]],
+      "en": "We first looked at the elephant, and my son said the elephant's nose was really long."
+    },
+    {
+      "t": [["然后","ránhòu","then"],["我们","wǒmen","we"],["去","qù","to go"],["看","kàn","to see"],["熊猫","xióngmāo","panda"],["，"],["熊猫","xióngmāo","panda"],["正在","zhèngzài","currently (doing)"],["吃","chī","to eat"],["竹子","zhúzi","bamboo"],["，"],["很","hěn","very"],["可爱","kě'ài","cute"],["。"]],
+      "en": "Then we went to see the panda, which was eating bamboo — very cute."
+    },
+    {
+      "t": [["儿子","érzi","son"],["最","zuì","most"],["喜欢","xǐhuan","to like"],["老虎","lǎohǔ","tiger"],["，"],["他","tā","he"],["说","shuō","to say"],["老虎","lǎohǔ","tiger"],["跑","pǎo","to run"],["得","de","(degree particle)"],["很","hěn","very"],["快","kuài","fast"],["，"],["像","xiàng","to be like"],["风","fēng","wind"],["一样","yíyàng","the same"],["。"]],
+      "en": "My son liked the tiger the most; he said the tiger ran very fast, like the wind."
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["，"],["我们","wǒmen","we"],["在","zài","at"],["那里","nàlǐ","there"],["的","de","(attributive particle)"],["饭馆","fànguǎn","restaurant"],["吃","chī","to eat"],["了","le","(completed action)"],["午饭","wǔfàn","lunch"],["，"],["休息","xiūxi","to rest"],["了","le","(completed action)"],["一会儿","yíhuìr","a little while"],["。"]],
+      "en": "At noon, we ate lunch at a restaurant there and rested for a while."
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["我们","wǒmen","we"],["又","yòu","again"],["看","kàn","to see"],["了","le","(completed action)"],["很多","hěn duō","many"],["鸟","niǎo","bird"],["和","hé","and"],["鱼","yú","fish"],["，"],["儿子","érzi","son"],["拍","pāi","to take (a photo)"],["了","le","(completed action)"],["不少","bù shǎo","quite a few"],["照片","zhàopiàn","photo"],["。"]],
+      "en": "In the afternoon, we saw many more birds and fish, and my son took quite a few photos."
+    },
+    {
+      "t": [["天黑","tiān hēi","get dark; nightfall"],["以前","yǐqián","before"],["，"],["我们","wǒmen","we"],["才","cái","only then"],["回家","huíjiā","to go home"],["，"],["儿子","érzi","son"],["说","shuō","to say"],["这","zhè","this"],["是","shì","is"],["他","tā","he"],["最","zuì","most"],["开心","kāixīn","happy"],["的","de","(attributive particle)"],["一天","yì tiān","a day"],["。"]],
+      "en": "Before it got dark, we finally went home, and my son said this was his happiest day."
+    }
+  ],
+  "vocab": [
+    ["动物园","dòngwùyuán","zoo"],
+    ["大象","dàxiàng","elephant"],
+    ["熊猫","xióngmāo","panda"],
+    ["老虎","lǎohǔ","tiger"],
+    ["竹子","zhúzi","bamboo"],
+    ["可爱","kě'ài","cute; lovable"]
+  ],
+  "quiz": [
+    {"q": "Which animal has a very long nose, according to the son?", "a": ["The elephant", "The panda", "The tiger"], "c": 0},
+    {"q": "What was the panda doing?", "a": ["Sleeping", "Eating bamboo", "Playing in water"], "c": 1},
+    {"q": "What did the son say about his day at the end?", "a": ["It was boring", "It was his happiest day", "He wanted to go home early"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "正在 + verb (in the middle of doing)", "e": "正在 before a verb shows an action is happening right now, ongoing at that moment.", "x": "熊猫正在吃竹子，很可爱。 — The panda was eating bamboo — very cute."},
+    {"p": "像……一样 (to be like...)", "e": "像 + noun + 一样 compares something to another thing, meaning 'just like...'.", "x": "老虎跑得很快，像风一样。 — The tiger ran very fast, like the wind."},
+    {"p": "……以前，才…… (not until before X)", "e": "……以前 marks a point in time; 才 before the verb shows the action only happened at or right before that point, not earlier.", "x": "天黑以前，我们才回家。 — Before it got dark, we finally went home."}
+  ]
+}

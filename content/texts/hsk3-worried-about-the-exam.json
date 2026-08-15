@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-worried-about-the-exam",
+  "level": 3,
+  "title_zh": "担心考试",
+  "title_py": "Dānxīn kǎoshì",
+  "title_en": "Worried About the Exam",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下个星期","xià ge xīngqī","next week"],["，"],["我们","wǒmen","we"],["要","yào","will; going to"],["考试","kǎoshì","exam; to take an exam"],["了","le","(change of state)"],["，"],["我","wǒ","I"],["很","hěn","very"],["担心","dānxīn","to worry"],["。"]],
+      "en": "Next week we have an exam, and I'm very worried."
+    },
+    {
+      "t": [["这次","zhè cì","this time"],["考试","kǎoshì","exam"],["很","hěn","very"],["重要","zhòngyào","important"],["，"],["因为","yīnwèi","because"],["它","tā","it"],["能","néng","can"],["决定","juédìng","to decide"],["我的","wǒ de","my"],["成绩","chéngjì","grade; result"],["。"]],
+      "en": "This exam is important, because it can decide my grade."
+    },
+    {
+      "t": [["每天","měitiān","every day"],["晚上","wǎnshang","evening"],["，"],["我","wǒ","I"],["都","dōu","all; always"],["复习","fùxí","to review"],["到","dào","until"],["很","hěn","very"],["晚","wǎn","late"],["才","cái","only then"],["睡觉","shuìjiào","to sleep"],["。"]],
+      "en": "Every night, I review until very late before going to sleep."
+    },
+    {
+      "t": [["我","wǒ","I"],["一","yì","as soon as"],["想到","xiǎngdào","to think of"],["考试","kǎoshì","exam"],["，"],["就","jiù","then"],["觉得","juéde","to feel"],["很","hěn","very"],["紧张","jǐnzhāng","nervous"],["，"],["晚上","wǎnshang","at night"],["也","yě","also"],["睡","shuì","to sleep"],["得","de","(degree particle)"],["不","bù","not"],["好","hǎo","well"],["。"]],
+      "en": "As soon as I think about the exam, I feel nervous, and I don't sleep well at night either."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["告诉","gàosu","to tell"],["我","wǒ","me"],["："],["“"],["别","bié","don't"],["担心","dānxīn","to worry"],["，"],["你","nǐ","you"],["已经","yǐjīng","already"],["准备","zhǔnbèi","to prepare"],["得","de","(degree particle)"],["很","hěn","very"],["好","hǎo","good; well"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "My friend told me: \"Don't worry, you've already prepared very well.\""
+    },
+    {
+      "t": [["虽然","suīrán","although"],["我","wǒ","I"],["还是","háishi","still"],["有点儿","yǒudiǎnr","a little"],["害怕","hàipà","afraid"],["，"],["但是","dànshì","but"],["我","wǒ","I"],["决定","juédìng","to decide"],["好好","hǎohǎo","well; properly"],["休息","xiūxi","to rest"],["，"],["不再","bú zài","no longer"],["看书","kànshū","to read; to study"],["了","le","(change of state)"],["。"]],
+      "en": "Although I'm still a little scared, I decided to rest well and stop studying."
+    },
+    {
+      "t": [["明天","míngtiān","tomorrow"],["就要","jiù yào","about to; soon"],["考试","kǎoshì","exam"],["了","le","(change of state)"],["，"],["我","wǒ","I"],["希望","xīwàng","to hope"],["没","méi","not have"],["问题","wèntí","problem; question"],["。"]],
+      "en": "Tomorrow I'm about to take the exam, and I hope there's no problem."
+    }
+  ],
+  "vocab": [
+    ["担心","dānxīn","to worry"],
+    ["考试","kǎoshì","exam"],
+    ["复习","fùxí","to review"],
+    ["紧张","jǐnzhāng","nervous"],
+    ["害怕","hàipà","afraid"],
+    ["决定","juédìng","to decide"]
+  ],
+  "quiz": [
+    {"q": "Why is this exam important to the narrator?", "a": ["It can decide his grade", "It's his last chance to enter university", "His parents asked him to take it"], "c": 0},
+    {"q": "What did the friend tell him?", "a": ["Study more before the exam", "Don't worry, you've already prepared well", "Go to sleep early"], "c": 1},
+    {"q": "What did he decide to do, even though he was still a little scared?", "a": ["Keep studying all night", "Rest well and stop studying", "Call his friend for help"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "因为 (because)", "e": "因为 introduces the reason for something; the clause it attaches to explains 'why'.", "x": "这次考试很重要，因为它能决定我的成绩。 — This exam is important, because it can decide my grade."},
+    {"p": "虽然……但是…… (although...but...)", "e": "虽然 introduces a fact that seems to go against what follows; 但是 introduces the actual result, giving a contrast.", "x": "虽然我还是有点儿害怕，但是我决定好好休息，不再看书了。 — Although I'm still a little scared, I decided to rest well and stop studying."},
+    {"p": "就要……了 (about to)", "e": "就要 + verb + 了 shows an action will happen very soon, often with a time word before it.", "x": "明天就要考试了，我希望没问题。 — Tomorrow I'm about to take the exam, and I hope there's no problem."}
+  ]
+}

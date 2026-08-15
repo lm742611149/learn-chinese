@@ -25,6 +25,138 @@ LEVEL_COLORS = {1: "#3e9464", 2: "#2f7fa8", 3: "#7b5fc0",
 LEVEL_ZH = {1: "入门", 2: "基础", 3: "进阶", 4: "提高", 5: "高级", 6: "精通"}
 LEVEL_NUM_ZH = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六"}
 
+# Per-level page copy. Level pages target the head terms ("HSK 3 reading
+# practice"), and a page that is only a card grid is thin for those. Each entry
+# gives the page real substance plus an FAQ block that also ships as FAQPage
+# JSON-LD. Word counts are the cumulative HSK 2.0 vocabulary targets.
+LEVEL_SEO = {
+    1: {
+        "vocab": 150, "cefr": "A1",
+        "covers": "greetings, family, numbers, time, weather, food and simple shopping",
+        "grammar": "basic subject-verb-object order, 是 sentences, 有 for existence, "
+                   "and question words like 什么 and 哪儿",
+        "shape": "4-6 short sentences",
+        "faq": [
+            ("How many Chinese words do you need for HSK 1?",
+             "150 words. That is small enough to finish in a few weeks, and it is "
+             "enough to read about yourself, your family, your day and simple "
+             "shopping — which is exactly what these readings cover."),
+            ("Can I read these if I don't know any characters yet?",
+             "Yes. Every character carries pinyin above it, and tapping any word "
+             "shows its meaning and plays the audio. Most learners start by leaning "
+             "on the pinyin and find they need it less after ten or fifteen texts."),
+            ("How long does HSK 1 take?",
+             "At 20-30 minutes a day, most learners reach HSK 1 in two to three "
+             "months. Reading one short text daily is the part people skip, and it "
+             "is the part that makes the vocabulary stick."),
+        ],
+    },
+    2: {
+        "vocab": 300, "cefr": "A2",
+        "covers": "getting around, ordering food, shopping, health, hobbies and making plans",
+        "grammar": "the particle 了 for completed actions, modal verbs like 会 and 能, "
+                   "comparisons with 比, and time-then-verb word order",
+        "shape": "5-7 sentences",
+        "faq": [
+            ("What is the difference between HSK 1 and HSK 2?",
+             "HSK 2 doubles the vocabulary to 300 words and adds the grammar you need "
+             "to talk about the past and the future — 了, 要, 想, and comparisons. "
+             "Sentences get longer, but the structures stay simple."),
+            ("Is HSK 2 enough to talk to people in China?",
+             "It is enough for transactions: ordering, buying, asking directions, "
+             "small talk about weather and family. It is not yet enough to follow a "
+             "conversation between two native speakers."),
+            ("Should I finish all HSK 1 readings first?",
+             "No need to finish all of them, but the HSK 2 texts assume you are "
+             "comfortable with the HSK 1 words. If a text feels slow, drop back a "
+             "level for a week — reading below your level is how you build speed."),
+        ],
+    },
+    3: {
+        "vocab": 600, "cefr": "B1",
+        "covers": "work, study, travel, health, relationships and cultural topics like festivals",
+        "grammar": "resultative and directional complements, 把 sentences, 因为…所以…, "
+                   "and 虽然…但是… for linking ideas across a paragraph",
+        "shape": "6-8 sentences with a beginning, middle and end",
+        "faq": [
+            ("Is HSK 3 the hardest jump?",
+             "Most learners say yes. The vocabulary doubles to 600 words, but the real "
+             "shift is structural: sentences start carrying complements and linking "
+             "words, so meaning is spread across a clause instead of sitting in one verb."),
+            ("What does HSK 3 let me do?",
+             "Handle most situations that come up while travelling or working in China, "
+             "and read short texts on familiar topics without a dictionary for every line."),
+            ("How do I stop translating in my head?",
+             "Re-read. Take a text you already understand and read it again out loud "
+             "until it flows. Understanding a sentence and reading it fluently are "
+             "different skills, and only the second one survives a real conversation."),
+        ],
+    },
+    4: {
+        "vocab": 1200, "cefr": "B2",
+        "covers": "opinions, work culture, technology, city life, travel and light social commentary",
+        "grammar": "abstract connectives such as 不但…而且…, 无论…都…, 尽管, plus the "
+                   "first four-character idioms (成语) in ordinary use",
+        "shape": "6-9 sentences that argue a point rather than just narrate",
+        "faq": [
+            ("What level is HSK 4 in real terms?",
+             "Roughly CEFR B2. With 1,200 words you can discuss a topic, give reasons "
+             "for an opinion and follow most everyday conversation, though news and "
+             "TV drama still move too fast."),
+            ("Do I need to learn 成语 at HSK 4?",
+             "A handful, yes. The exam includes common ones and native speakers use "
+             "them constantly in ordinary speech. Learn them the way you meet them "
+             "here — inside a sentence, not from a list."),
+            ("How is HSK 4 reading different from HSK 3?",
+             "The texts stop being pure narration. They compare, qualify and conclude, "
+             "which means the connective words carry as much meaning as the nouns do."),
+        ],
+    },
+    5: {
+        "vocab": 2500, "cefr": "C1",
+        "covers": "society, economy, technology, education, tradition and modern change",
+        "grammar": "written-register patterns, 之所以…是因为…, 与其…不如…, dense noun "
+                   "phrases, and idioms used precisely rather than decoratively",
+        "shape": "7-10 sentences in an essay register, built around one concrete example",
+        "faq": [
+            ("Is HSK 5 enough to study at a Chinese university?",
+             "It is the usual minimum for undergraduate admission, often alongside HSK 6 "
+             "for competitive programmes. Reading speed matters more than the certificate: "
+             "lectures assume you can process written Chinese without subvocalising."),
+            ("Why does HSK 5 feel so much harder than HSK 4?",
+             "The vocabulary doubles again, and the register changes. HSK 5 texts are "
+             "written Chinese, not spoken Chinese written down — shorter sentences carry "
+             "more information and drop the connective padding."),
+            ("How many new words should I add a day?",
+             "Fifteen to twenty is sustainable at this level, and only if you meet each "
+             "one in context several times. Reading one text a day gives you that "
+             "repetition without a separate flashcard session."),
+        ],
+    },
+    6: {
+        "vocab": 5000, "cefr": "C2",
+        "covers": "philosophy, science, culture, language itself, and arguments that turn "
+                  "on a distinction rather than a fact",
+        "grammar": "classical residue in modern writing (以, 而, 之), tightly compressed "
+                   "clauses, and idioms and allusions used as shorthand for a whole argument",
+        "shape": "7-10 sentences of genuine commentary, with a thesis and a counterpoint",
+        "faq": [
+            ("What can you actually do with HSK 6?",
+             "Read newspapers, essays and most non-technical books; follow lectures and "
+             "debates; work in Chinese. It is the top level of the old HSK, but it is a "
+             "floor for professional use, not a ceiling."),
+            ("How do I keep improving after HSK 6?",
+             "Stop studying Chinese and start using it for something else — read about a "
+             "field you care about, in Chinese. At this level, breadth of subject matter "
+             "does more than another vocabulary list."),
+            ("Are these texts as hard as the real HSK 6 exam?",
+             "Comparable in vocabulary and register, shorter in length. Exam passages run "
+             "much longer and test endurance as much as comprehension, so treat these as "
+             "daily maintenance rather than a mock exam."),
+        ],
+    },
+}
+
 
 def card_html(t, lesson_no=None):
     """Reading card. lesson_no -> course-style 'Lesson N' chip instead of the
@@ -545,6 +677,36 @@ def build_level(texts, lvl):
         f'<a class="lvl-chip{" on" if i == lvl else ""}" data-l="{i}" '
         f'href="hsk{i}.html">HSK {i}<span class="n">{counts.get(i, 0)}</span></a>'
         for i in range(1, 7)]
+
+    # Below-the-fold copy: the card grid alone is thin for "HSK N reading
+    # practice", which is what this page is trying to rank for.
+    s = LEVEL_SEO[lvl]
+    new_words = s["vocab"] - (LEVEL_SEO[lvl - 1]["vocab"] if lvl > 1 else 0)
+    scope = (f'a vocabulary of {s["vocab"]} words'if lvl == 1 else
+             f'a cumulative vocabulary of {s["vocab"]} words — {new_words} new ones '
+             f'on top of HSK {lvl - 1}')
+    faq_html = "".join(
+        f'<details class="faq-q"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>'
+        for q, a in s["faq"])
+    intro = f"""
+    <section class="lvl-intro">
+      <h2>What HSK {lvl} covers</h2>
+      <p>HSK {lvl} works with {scope}, roughly CEFR {esc(s["cefr"])}. It covers
+        {esc(s["covers"])}. The grammar that defines the level is
+        {esc(s["grammar"])}.</p>
+      <p>The {len(mine)} readings on this page are written for exactly that boundary.
+        Every one is original — no textbook passages — and stays inside the HSK {lvl}
+        word list; anything above the level is listed in the vocabulary panel under the
+        text. Each is {esc(s["shape"])}, with pinyin over every character,
+        tap-to-translate, audio you can slow down, a three-question comprehension check
+        and a short grammar note.</p>
+      <p class="lvl-how"><strong>A routine that works:</strong> read once without looking
+        anything up, then tap the words you missed, then listen and read along a second
+        time. Five minutes a day beats an hour on Sunday.</p>
+
+      <h2>HSK {lvl} questions</h2>
+      <div class="faq">{faq_html}</div>
+    </section>"""
     body = f"""
   <article>
     <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
@@ -558,6 +720,7 @@ def build_level(texts, lvl):
       placeholder="Search HSK {lvl} readings…" autocomplete="off"></div>
     <section class="cards">{cards}
     </section>
+{intro}
   </article>"""
     base = (SITE.get("canonical_url") or "").rstrip("/")
     ld = [{
@@ -580,10 +743,19 @@ def build_level(texts, lvl):
              "name": f"{x['title_zh']} — {x['title_en']}"}
             for i, x in enumerate(mine)
         ],
+    }, {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in s["faq"]
+        ],
     }]
     return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
-                f"Free HSK {lvl} Chinese reading practice: {len(mine)} original graded "
-                f"readings with pinyin, audio, tap-to-translate and quizzes.", body,
+                f"Free HSK {lvl} reading practice: {len(mine)} original graded texts inside "
+                f"the {s['vocab']}-word HSK {lvl} list, with pinyin, audio, "
+                f"tap-to-translate and quizzes.", body,
                 path=f"hsk{lvl}", ld=ld)
 
 

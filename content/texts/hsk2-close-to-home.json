@@ -1,0 +1,162 @@
+{
+  "slug": "hsk2-close-to-home",
+  "level": 2,
+  "title_zh": "离家很近",
+  "title_py": "Lí jiā hěn jìn",
+  "title_en": "Close to Home",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["公司", "gōngsī", "company"],
+        ["离", "lí", "from; away from"],
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["很", "hěn", "very"],
+        ["近", "jìn", "near; close"],
+        ["，"],
+        ["走路", "zǒulù", "to walk"],
+        ["只要", "zhǐyào", "only takes; only need"],
+        ["十分钟", "shí fēnzhōng", "ten minutes"],
+        ["。"]
+      ],
+      "en": "My company is very close to my home — it only takes ten minutes to walk."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["每天", "měitiān", "every day"],
+        ["不用", "bú yòng", "don't need to"],
+        ["坐车", "zuò chē", "to take a car/bus"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["不用", "bú yòng", "don't need to"],
+        ["骑", "qí", "to ride"],
+        ["自行车", "zìxíngchē", "bicycle"],
+        ["，"],
+        ["走着", "zǒuzhe", "walking"],
+        ["去", "qù", "to go"],
+        ["上班", "shàngbān", "to go to work"],
+        ["就", "jiù", "then; just"],
+        ["可以", "kěyǐ", "can; okay"],
+        ["。"]
+      ],
+      "en": "Every day I don't need to take a car or ride a bicycle — I can just walk to work."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["同事", "tóngshì", "coworker"],
+        ["住", "zhù", "to live"],
+        ["得", "de", "(complement particle)"],
+        ["很", "hěn", "very"],
+        ["远", "yuǎn", "far"],
+        ["，"],
+        ["每天", "měitiān", "every day"],
+        ["都", "dōu", "all; always"],
+        ["要", "yào", "need to; must"],
+        ["坐", "zuò", "to ride; to sit"],
+        ["一个小时", "yí ge xiǎoshí", "one hour"],
+        ["的", "de", "(possessive particle)"],
+        ["车", "chē", "car; vehicle"],
+        ["。"]
+      ],
+      "en": "My coworker lives far away — every day he has to ride in the car for an hour."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["常常", "chángcháng", "often"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["他", "tā", "he; him"],
+        ["很", "hěn", "very"],
+        ["想", "xiǎng", "to want to"],
+        ["住", "zhù", "to live"],
+        ["在", "zài", "at; in"],
+        ["公司", "gōngsī", "company"],
+        ["附近", "fùjìn", "nearby; vicinity"],
+        ["。"]
+      ],
+      "en": "He often says he really wants to live near the company."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["不用", "bú yòng", "don't need to"],
+        ["早起", "zǎoqǐ", "to get up early"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["自己", "zìjǐ", "oneself"],
+        ["很", "hěn", "very"],
+        ["幸运", "xìngyùn", "lucky"],
+        ["。"]
+      ],
+      "en": "I don't need to get up early — I feel very lucky."
+    },
+    {
+      "t": [
+        ["下班", "xiàbān", "to get off work"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很快", "hěn kuài", "quickly; soon"],
+        ["就", "jiù", "then; already"],
+        ["到家", "dào jiā", "to arrive home"],
+        ["了", "le", "(particle: change of state)"],
+        ["，"],
+        ["可以", "kěyǐ", "can; may"],
+        ["早点儿", "zǎodiǎnr", "a bit earlier"],
+        ["休息", "xiūxi", "to rest"],
+        ["。"]
+      ],
+      "en": "After I get off work, I'm home very quickly, so I can rest a bit earlier."
+    }
+  ],
+  "vocab": [
+    ["离", "lí", "from; away from"],
+    ["近", "jìn", "near; close"],
+    ["附近", "fùjìn", "nearby; vicinity"],
+    ["幸运", "xìngyùn", "lucky"],
+    ["下班", "xiàbān", "to get off work"],
+    ["早点儿", "zǎodiǎnr", "a bit earlier"]
+  ],
+  "quiz": [
+    {
+      "q": "How long does it take the writer to walk to work?",
+      "a": ["Ten minutes", "Thirty minutes", "One hour"],
+      "c": 0
+    },
+    {
+      "q": "How does the writer's coworker get to work?",
+      "a": ["Walks", "Rides a bicycle", "Rides in a car for an hour"],
+      "c": 2
+    },
+    {
+      "q": "Why does the writer feel lucky?",
+      "a": ["He/she doesn't need to get up early", "He/she has a big house", "He/she has a new car"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "A 离 B + 近/远 — distance between two places",
+      "e": "离 marks the reference point when talking about distance: A 离 B 近/远 means 'A is close to/far from B.'",
+      "x": "我的公司离我家很近。— My company is close to my home."
+    },
+    {
+      "p": "V + 得 + adjective — degree complement",
+      "e": "得 links a verb to a description of how it's done or its degree: 住得很远 = 'lives far away.'",
+      "x": "我的同事住得很远。— My coworker lives far away."
+    },
+    {
+      "p": "不用 — 'don't need to'",
+      "e": "不用 + verb means there's no need to do something — different from 不能 ('cannot') or 不要 ('don't want to'): 不用坐车 = 'no need to take a car.'",
+      "x": "我每天不用坐车。— Every day I don't need to take a car."
+    }
+  ]
+}

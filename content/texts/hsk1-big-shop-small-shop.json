@@ -1,0 +1,352 @@
+{
+  "slug": "hsk1-big-shop-small-shop",
+  "level": 1,
+  "title_zh": "大商店小商店",
+  "title_py": "Dà shāngdiàn xiǎo shāngdiàn",
+  "title_en": "Big Shop, Small Shop",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "这个",
+          "zhège",
+          "this"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "大",
+          "dà",
+          "big"
+        ],
+        [
+          "，"
+        ],
+        [
+          "那个",
+          "nàge",
+          "that"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "小",
+          "xiǎo",
+          "small"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "This store is big, that store is small."
+    },
+    {
+      "t": [
+        [
+          "大",
+          "dà",
+          "big"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "things"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "a lot"
+        ],
+        [
+          "，"
+        ],
+        [
+          "小",
+          "xiǎo",
+          "small"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "things"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "少",
+          "shǎo",
+          "few"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The big store has a lot of things, the small store has few things."
+    },
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "大",
+          "dà",
+          "big"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "东西",
+          "dōngxi",
+          "things"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I like going to the big store to buy things."
+    },
+    {
+      "t": [
+        [
+          "小",
+          "xiǎo",
+          "small"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive particle)"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "多",
+          "duō",
+          "many"
+        ],
+        [
+          "，"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "喜欢",
+          "xǐhuan",
+          "to like"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The small store doesn't have many people, and I like that too."
+    },
+    {
+      "t": [
+        [
+          "今天",
+          "jīntiān",
+          "today"
+        ],
+        [
+          "我",
+          "wǒ",
+          "I; me"
+        ],
+        [
+          "和",
+          "hé",
+          "and"
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "去",
+          "qù",
+          "to go"
+        ],
+        [
+          "商店",
+          "shāngdiàn",
+          "shop; store"
+        ],
+        [
+          "买",
+          "mǎi",
+          "to buy"
+        ],
+        [
+          "苹果",
+          "píngguǒ",
+          "apple"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Today my mom and I go to the store to buy apples."
+    }
+  ],
+  "vocab": [
+    [
+      "商店",
+      "shāngdiàn",
+      "shop; store"
+    ],
+    [
+      "大",
+      "dà",
+      "big"
+    ],
+    [
+      "小",
+      "xiǎo",
+      "small"
+    ],
+    [
+      "东西",
+      "dōngxi",
+      "things"
+    ],
+    [
+      "多",
+      "duō",
+      "many"
+    ],
+    [
+      "少",
+      "shǎo",
+      "few"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "Which store has fewer people?",
+      "a": [
+        "The big store",
+        "The small store",
+        "Both stores"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the narrator like to do at the big store?",
+      "a": [
+        "Buy things",
+        "Sleep",
+        "Read books"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Who goes to the store to buy apples today?",
+      "a": [
+        "The narrator and mom",
+        "The narrator and a friend",
+        "The narrator alone"
+      ],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "的 — possessive/attributive particle",
+      "e": "的 links a noun to what comes after it, like 's in English.",
+      "x": "大商店的东西很多。 — The big store's things are a lot (the big store has a lot of things)."
+    },
+    {
+      "p": "很 + adjective — adjective predicate",
+      "e": "很 plus an adjective forms the predicate; no separate word for \"is\" is needed.",
+      "x": "那个商店很小。 — That store is small."
+    },
+    {
+      "p": "也 — also",
+      "e": "也 goes right before the verb or adjective to agree with a previous statement.",
+      "x": "我也喜欢。 — I like it too."
+    }
+  ]
+}

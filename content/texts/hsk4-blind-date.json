@@ -1,0 +1,771 @@
+{
+  "slug": "hsk4-blind-date",
+  "level": 4,
+  "title_zh": "相亲",
+  "title_py": "Xiāngqīn",
+  "title_en": "Blind Dates",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "在",
+          "zài",
+          "in"
+        ],
+        [
+          "中国",
+          "Zhōngguó",
+          "China"
+        ],
+        [
+          "，"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "父母",
+          "fùmǔ",
+          "parents"
+        ],
+        [
+          "担心",
+          "dānxīn",
+          "worry about"
+        ],
+        [
+          "孩子",
+          "háizi",
+          "children"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "婚姻",
+          "hūnyīn",
+          "marriage"
+        ],
+        [
+          "问题",
+          "wèntí",
+          "issue"
+        ],
+        [
+          "，"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "会",
+          "huì",
+          "will"
+        ],
+        [
+          "给",
+          "gěi",
+          "for"
+        ],
+        [
+          "孩子",
+          "háizi",
+          "children"
+        ],
+        [
+          "安排",
+          "ānpái",
+          "arrange"
+        ],
+        [
+          "相亲",
+          "xiāngqīn",
+          "blind dates"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "In China, many parents worry about their children's marriage prospects, so they arrange blind dates for them."
+    },
+    {
+      "t": [
+        [
+          "相亲",
+          "xiāngqīn",
+          "a blind date"
+        ],
+        [
+          "就是",
+          "jiù shì",
+          "is precisely"
+        ],
+        [
+          "父母",
+          "fùmǔ",
+          "parents"
+        ],
+        [
+          "或者",
+          "huòzhě",
+          "or"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friends"
+        ],
+        [
+          "帮",
+          "bāng",
+          "help"
+        ],
+        [
+          "你",
+          "nǐ",
+          "you"
+        ],
+        [
+          "介绍",
+          "jièshào",
+          "introduce"
+        ],
+        [
+          "一",
+          "yí",
+          "one"
+        ],
+        [
+          "个",
+          "ge",
+          "(measure word)"
+        ],
+        [
+          "还",
+          "hái",
+          "still"
+        ],
+        [
+          "不",
+          "bú",
+          "not"
+        ],
+        [
+          "认识",
+          "rènshi",
+          "know"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "人",
+          "rén",
+          "person"
+        ],
+        [
+          "，"
+        ],
+        [
+          "看看",
+          "kànkan",
+          "see"
+        ],
+        [
+          "你们",
+          "nǐmen",
+          "you two"
+        ],
+        [
+          "合不合适",
+          "hé bu héshì",
+          "whether suitable"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "A blind date is when your parents or friends introduce you to someone you don't know yet, to see if you're a good match."
+    },
+    {
+      "t": [
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "年轻人",
+          "niánqīngrén",
+          "young people"
+        ],
+        [
+          "一开始",
+          "yì kāishǐ",
+          "at first"
+        ],
+        [
+          "不",
+          "bú",
+          "not"
+        ],
+        [
+          "愿意",
+          "yuànyì",
+          "willing"
+        ],
+        [
+          "相亲",
+          "xiāngqīn",
+          "to blind-date"
+        ],
+        [
+          "，"
+        ],
+        [
+          "觉得",
+          "juéde",
+          "feel"
+        ],
+        [
+          "这样",
+          "zhèyàng",
+          "this way"
+        ],
+        [
+          "太",
+          "tài",
+          "too"
+        ],
+        [
+          "不",
+          "bú",
+          "not"
+        ],
+        [
+          "自由",
+          "zìyóu",
+          "free"
+        ],
+        [
+          "了",
+          "le",
+          "(particle)"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Many young people are unwilling to go on blind dates at first, feeling that it's too restrictive."
+    },
+    {
+      "t": [
+        [
+          "但是",
+          "dànshì",
+          "but"
+        ],
+        [
+          "随着",
+          "suízhe",
+          "along with"
+        ],
+        [
+          "年龄",
+          "niánlíng",
+          "age"
+        ],
+        [
+          "越来越",
+          "yuè lái yuè",
+          "more and more"
+        ],
+        [
+          "大",
+          "dà",
+          "old"
+        ],
+        [
+          "，"
+        ],
+        [
+          "工作",
+          "gōngzuò",
+          "work"
+        ],
+        [
+          "又",
+          "yòu",
+          "also"
+        ],
+        [
+          "忙",
+          "máng",
+          "busy"
+        ],
+        [
+          "，"
+        ],
+        [
+          "认识",
+          "rènshi",
+          "meet"
+        ],
+        [
+          "新",
+          "xīn",
+          "new"
+        ],
+        [
+          "朋友",
+          "péngyou",
+          "friends"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "机会",
+          "jīhuì",
+          "opportunities"
+        ],
+        [
+          "越来越",
+          "yuè lái yuè",
+          "more and more"
+        ],
+        [
+          "少",
+          "shǎo",
+          "few"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "But as they get older and busier with work, opportunities to meet new friends become fewer and fewer."
+    },
+    {
+      "t": [
+        [
+          "所以",
+          "suǒyǐ",
+          "so"
+        ],
+        [
+          "不少",
+          "bù shǎo",
+          "quite a few"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "开始",
+          "kāishǐ",
+          "begin"
+        ],
+        [
+          "接受",
+          "jiēshòu",
+          "accept"
+        ],
+        [
+          "父母",
+          "fùmǔ",
+          "parents"
+        ],
+        [
+          "安排",
+          "ānpái",
+          "arranged"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "相亲",
+          "xiāngqīn",
+          "blind dates"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "So quite a few people also start to accept the blind dates their parents arrange."
+    },
+    {
+      "t": [
+        [
+          "相亲",
+          "xiāngqīn",
+          "a blind date"
+        ],
+        [
+          "的时候",
+          "de shíhou",
+          "when"
+        ],
+        [
+          "，"
+        ],
+        [
+          "两",
+          "liǎng",
+          "two"
+        ],
+        [
+          "个",
+          "ge",
+          "(measure word)"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "一般",
+          "yìbān",
+          "usually"
+        ],
+        [
+          "会",
+          "huì",
+          "will"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "吃饭",
+          "chīfàn",
+          "eat"
+        ],
+        [
+          "、"
+        ],
+        [
+          "聊天",
+          "liáotiān",
+          "chat"
+        ],
+        [
+          "，"
+        ],
+        [
+          "互相",
+          "hùxiāng",
+          "mutually"
+        ],
+        [
+          "了解",
+          "liǎojiě",
+          "get to know"
+        ],
+        [
+          "一下",
+          "yíxià",
+          "a bit"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "During a blind date, the two people will usually eat and chat together, getting to know each other a little."
+    },
+    {
+      "t": [
+        [
+          "如果",
+          "rúguǒ",
+          "if"
+        ],
+        [
+          "两",
+          "liǎng",
+          "two"
+        ],
+        [
+          "个",
+          "ge",
+          "(measure word)"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "聊得来",
+          "liáo de lái",
+          "get along well talking"
+        ],
+        [
+          "，"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "可以",
+          "kěyǐ",
+          "can"
+        ],
+        [
+          "继续",
+          "jìxù",
+          "continue"
+        ],
+        [
+          "见面",
+          "jiànmiàn",
+          "meet"
+        ],
+        [
+          "；"
+        ],
+        [
+          "如果",
+          "rúguǒ",
+          "if"
+        ],
+        [
+          "没有",
+          "méiyǒu",
+          "there's no"
+        ],
+        [
+          "感觉",
+          "gǎnjué",
+          "feeling"
+        ],
+        [
+          "，"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "不用",
+          "bú yòng",
+          "no need"
+        ],
+        [
+          "再",
+          "zài",
+          "again"
+        ],
+        [
+          "见面",
+          "jiànmiàn",
+          "meet"
+        ],
+        [
+          "了",
+          "le",
+          "(particle)"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "If the two of them get along, they can continue seeing each other; if there's no chemistry, they don't need to meet again."
+    },
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I"
+        ],
+        [
+          "觉得",
+          "juéde",
+          "think"
+        ],
+        [
+          "相亲",
+          "xiāngqīn",
+          "blind dating"
+        ],
+        [
+          "不是",
+          "bú shì",
+          "is not"
+        ],
+        [
+          "坏事",
+          "huàishì",
+          "a bad thing"
+        ],
+        [
+          "，"
+        ],
+        [
+          "它",
+          "tā",
+          "it"
+        ],
+        [
+          "只是",
+          "zhǐshì",
+          "just"
+        ],
+        [
+          "多",
+          "duō",
+          "extra"
+        ],
+        [
+          "给了",
+          "gěi le",
+          "gave"
+        ],
+        [
+          "你",
+          "nǐ",
+          "you"
+        ],
+        [
+          "一",
+          "yí",
+          "one"
+        ],
+        [
+          "次",
+          "cì",
+          "time"
+        ],
+        [
+          "认识",
+          "rènshi",
+          "meet"
+        ],
+        [
+          "别人",
+          "biérén",
+          "other people"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "机会",
+          "jīhuì",
+          "opportunity"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I think blind dates aren't a bad thing — they just give you one more chance to meet someone new."
+    }
+  ],
+  "vocab": [
+    [
+      "相亲",
+      "xiāngqīn",
+      "blind date"
+    ],
+    [
+      "婚姻",
+      "hūnyīn",
+      "marriage"
+    ],
+    [
+      "安排",
+      "ānpái",
+      "to arrange"
+    ],
+    [
+      "自由",
+      "zìyóu",
+      "freedom; free"
+    ],
+    [
+      "机会",
+      "jīhuì",
+      "opportunity"
+    ],
+    [
+      "互相",
+      "hùxiāng",
+      "mutually"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "What is a 相亲 (blind date), according to the text?",
+      "a": [
+        "A trip planned by a travel agency",
+        "A test required before marriage",
+        "Parents or friends introducing you to someone you don't know, to see if you're a good match"
+      ],
+      "c": 2
+    },
+    {
+      "q": "Why do many people eventually accept blind dates arranged by their parents?",
+      "a": [
+        "Because meeting new friends becomes harder as they get older and busier",
+        "Because they have more free time than before",
+        "Because their parents pay them to go"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the author think blind dates offer?",
+      "a": [
+        "Nothing useful at all",
+        "An extra chance to meet someone new",
+        "A guarantee of finding true love"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "随着…… — Along with / as...",
+      "e": "Introduces a change that accompanies or causes another change.",
+      "x": "随着年龄越来越大，认识新朋友的机会越来越少。— As they get older, opportunities to meet new friends become fewer."
+    },
+    {
+      "p": "如果……就…… — If... then...",
+      "e": "A basic conditional: if the first clause is true, the second clause follows.",
+      "x": "如果没有感觉，就不用再见面了。— If there's no chemistry, they don't need to meet again."
+    },
+    {
+      "p": "不是……只是…… — It's not X, it's just Y",
+      "e": "Softens a claim by rejecting one interpretation and offering a smaller, simpler one instead.",
+      "x": "相亲不是坏事，它只是多给了你一次认识别人的机会。— Blind dates aren't a bad thing, they just give you one more chance to meet someone."
+    }
+  ]
+}

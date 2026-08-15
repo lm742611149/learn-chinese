@@ -1,0 +1,151 @@
+{
+  "slug": "hsk2-wife-and-husband",
+  "level": 2,
+  "title_zh": "妻子和丈夫",
+  "title_py": "Qīzi hé zhàngfu",
+  "title_en": "Wife and Husband",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["丈夫", "zhàngfu", "husband"],
+        ["每天", "měitiān", "every day"],
+        ["六点", "liù diǎn", "six o'clock"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["，"],
+        ["去", "qù", "to go"],
+        ["公司", "gōngsī", "company"],
+        ["上班", "shàngbān", "to go to work"],
+        ["。"]
+      ],
+      "en": "My husband gets up at six every day and goes to work."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["是", "shì", "to be"],
+        ["妻子", "qīzi", "wife"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在家", "zài jiā", "at home"],
+        ["做饭", "zuòfàn", "to cook"],
+        ["。"]
+      ],
+      "en": "I'm the wife, and I cook at home."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["丈夫", "zhàngfu", "husband"],
+        ["回家", "huí jiā", "to go home"],
+        ["的时候", "de shíhou", "when"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["吃饭", "chīfàn", "to eat a meal"],
+        ["。"]
+      ],
+      "en": "In the evening, when my husband comes home, we eat together."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["吃", "chī", "to eat"],
+        ["鱼", "yú", "fish"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["吃", "chī", "to eat"],
+        ["菜", "cài", "vegetable; dish"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["做", "zuò", "to make"],
+        ["的", "de", "(particle: the one that...)"],
+        ["菜", "cài", "dish"],
+        ["不一样", "bù yíyàng", "different"],
+        ["。"]
+      ],
+      "en": "He likes to eat fish and I like to eat vegetables, so the dishes we make are different."
+    },
+    {
+      "t": [
+        ["周末", "zhōumò", "weekend"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["一起", "yìqǐ", "together"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["走走", "zǒuzou", "to take a walk"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["一起", "yìqǐ", "together"],
+        ["看", "kàn", "to watch"],
+        ["电影", "diànyǐng", "movie"],
+        ["。"]
+      ],
+      "en": "On weekends, we go for a walk in the park together, and we also watch movies together."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["工作", "gōngzuò", "work"],
+        ["都", "dōu", "both; all"],
+        ["很", "hěn", "very"],
+        ["忙", "máng", "busy"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我们", "wǒmen", "we; us"],
+        ["都", "dōu", "both; all"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "We're both busy with work, but we're both happy."
+    }
+  ],
+  "vocab": [
+    ["丈夫", "zhàngfu", "husband"],
+    ["妻子", "qīzi", "wife"],
+    ["起床", "qǐchuáng", "to get up"],
+    ["一起", "yìqǐ", "together"],
+    ["周末", "zhōumò", "weekend"],
+    ["不一样", "bù yíyàng", "different"]
+  ],
+  "quiz": [
+    {
+      "q": "What time does the husband get up?",
+      "a": ["Six o'clock", "Seven o'clock", "Eight o'clock"],
+      "c": 0
+    },
+    {
+      "q": "What does the wife like to eat?",
+      "a": ["Fish", "Vegetables", "Rice"],
+      "c": 1
+    },
+    {
+      "q": "What do they do on weekends?",
+      "a": ["Work overtime", "Go to the park and watch movies together", "Stay home and sleep"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "的时候 — 'when ~'",
+      "e": "V/clause + 的时候 marks 'when doing X' or 'at the time of X': 丈夫回家的时候 = 'when my husband comes home.'",
+      "x": "丈夫回家的时候，我们一起吃饭。— When my husband comes home, we eat together."
+    },
+    {
+      "p": "都 — 'both/all' with a plural subject",
+      "e": "都 follows a plural subject like 我们 or 他们 to mean 'both/all': 我们都很忙 = 'we are both busy.'",
+      "x": "我们工作都很忙，但是我们都很高兴。— We're both busy with work, but we're both happy."
+    },
+    {
+      "p": "一样 / 不一样 — 'the same' / 'different'",
+      "e": "一样 means 'the same'; adding 不 gives 不一样, 'different': 我们做的菜不一样。",
+      "x": "我们做的菜不一样。— The dishes we make are different."
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "slug": "hsk4-smog-and-blue-sky",
+  "level": 4,
+  "title_zh": "雾霾与蓝天",
+  "title_py": "Wùmái yǔ lántiān",
+  "title_en": "Smog and Blue Sky",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        [
+          "五年前",
+          "wǔ nián qián",
+          "five years ago"
+        ],
+        [
+          "，"
+        ],
+        [
+          "中国",
+          "Zhōngguó",
+          "China"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "城市",
+          "chéngshì",
+          "cities"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "天",
+          "tiān",
+          "sky"
+        ],
+        [
+          "很少",
+          "hěn shǎo",
+          "rarely"
+        ],
+        [
+          "是",
+          "shì",
+          "was"
+        ],
+        [
+          "蓝色",
+          "lánsè",
+          "blue"
+        ],
+        [
+          "的",
+          "de",
+          "(particle)"
+        ],
+        [
+          "，"
+        ],
+        [
+          "到处",
+          "dàochù",
+          "everywhere"
+        ],
+        [
+          "都",
+          "dōu",
+          "all"
+        ],
+        [
+          "是",
+          "shì",
+          "was"
+        ],
+        [
+          "雾霾",
+          "wùmái",
+          "smog"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Five years ago, the sky in many Chinese cities was rarely blue — smog was everywhere."
+    },
+    {
+      "t": [
+        [
+          "那时候",
+          "nà shíhou",
+          "at that time"
+        ],
+        [
+          "，"
+        ],
+        [
+          "一",
+          "yí",
+          "as soon as"
+        ],
+        [
+          "到",
+          "dào",
+          "arrive at"
+        ],
+        [
+          "冬天",
+          "dōngtiān",
+          "winter"
+        ],
+        [
+          "，"
+        ],
+        [
+          "空气",
+          "kōngqì",
+          "air"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "变得",
+          "biàn de",
+          "become"
+        ],
+        [
+          "更",
+          "gèng",
+          "more"
+        ],
+        [
+          "差",
+          "chà",
+          "bad"
+        ],
+        [
+          "，"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "人",
+          "rén",
+          "people"
+        ],
+        [
+          "不敢",
+          "bù gǎn",
+          "dare not"
+        ],
+        [
+          "出门",
+          "chūmén",
+          "go out"
+        ],
+        [
+          "运动",
+          "yùndòng",
+          "exercise"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "At that time, as soon as winter arrived, the air would get worse, and many people didn't dare go out to exercise."
+    },
+    {
+      "t": [
+        [
+          "出门",
+          "chūmén",
+          "to go out"
+        ],
+        [
+          "的时候",
+          "de shíhou",
+          "when"
+        ],
+        [
+          "，"
+        ],
+        [
+          "大家",
+          "dàjiā",
+          "everyone"
+        ],
+        [
+          "还",
+          "hái",
+          "still"
+        ],
+        [
+          "要",
+          "yào",
+          "need to"
+        ],
+        [
+          "戴上",
+          "dài shang",
+          "put on"
+        ],
+        [
+          "口罩",
+          "kǒuzhào",
+          "face mask"
+        ],
+        [
+          "，"
+        ],
+        [
+          "怕",
+          "pà",
+          "afraid"
+        ],
+        [
+          "吸进",
+          "xī jìn",
+          "breathe in"
+        ],
+        [
+          "不好",
+          "bù hǎo",
+          "bad"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "空气",
+          "kōngqì",
+          "air"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "When going out, everyone also had to wear a face mask, afraid of breathing in bad air."
+    },
+    {
+      "t": [
+        [
+          "最近",
+          "zuìjìn",
+          "recently"
+        ],
+        [
+          "几年",
+          "jǐ nián",
+          "several years"
+        ],
+        [
+          "，"
+        ],
+        [
+          "情况",
+          "qíngkuàng",
+          "situation"
+        ],
+        [
+          "变得",
+          "biàn de",
+          "become"
+        ],
+        [
+          "好多了",
+          "hǎo duō le",
+          "much better"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "In recent years, the situation has gotten much better."
+    },
+    {
+      "t": [
+        [
+          "政府",
+          "zhèngfǔ",
+          "government"
+        ],
+        [
+          "关闭",
+          "guānbì",
+          "closed down"
+        ],
+        [
+          "了",
+          "le",
+          "(particle)"
+        ],
+        [
+          "一些",
+          "yìxiē",
+          "some"
+        ],
+        [
+          "污染",
+          "wūrǎn",
+          "pollution"
+        ],
+        [
+          "严重",
+          "yánzhòng",
+          "serious"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "工厂",
+          "gōngchǎng",
+          "factories"
+        ],
+        [
+          "，"
+        ],
+        [
+          "也",
+          "yě",
+          "also"
+        ],
+        [
+          "让",
+          "ràng",
+          "let"
+        ],
+        [
+          "大家",
+          "dàjiā",
+          "everyone"
+        ],
+        [
+          "多",
+          "duō",
+          "more"
+        ],
+        [
+          "坐",
+          "zuò",
+          "take"
+        ],
+        [
+          "公共交通",
+          "gōnggòng jiāotōng",
+          "public transportation"
+        ],
+        [
+          "，"
+        ],
+        [
+          "少",
+          "shǎo",
+          "less"
+        ],
+        [
+          "开车",
+          "kāichē",
+          "drive"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "The government shut down some factories with serious pollution, and also encouraged everyone to take public transportation more and drive less."
+    },
+    {
+      "t": [
+        [
+          "现在",
+          "xiànzài",
+          "now"
+        ],
+        [
+          "，"
+        ],
+        [
+          "很多",
+          "hěn duō",
+          "many"
+        ],
+        [
+          "城市",
+          "chéngshì",
+          "cities"
+        ],
+        [
+          "每年",
+          "měi nián",
+          "every year"
+        ],
+        [
+          "能",
+          "néng",
+          "can"
+        ],
+        [
+          "看到",
+          "kàndào",
+          "see"
+        ],
+        [
+          "蓝天",
+          "lántiān",
+          "blue sky"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "日子",
+          "rìzi",
+          "days"
+        ],
+        [
+          "越来越",
+          "yuè lái yuè",
+          "more and more"
+        ],
+        [
+          "多",
+          "duō",
+          "many"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "Now, in many cities, the number of days each year with blue sky keeps increasing."
+    },
+    {
+      "t": [
+        [
+          "我",
+          "wǒ",
+          "I"
+        ],
+        [
+          "还",
+          "hái",
+          "still"
+        ],
+        [
+          "记得",
+          "jìde",
+          "remember"
+        ],
+        [
+          "小时候",
+          "xiǎo shíhou",
+          "childhood"
+        ],
+        [
+          "，"
+        ],
+        [
+          "妈妈",
+          "māma",
+          "mom"
+        ],
+        [
+          "总是",
+          "zǒngshì",
+          "always"
+        ],
+        [
+          "让",
+          "ràng",
+          "make"
+        ],
+        [
+          "我",
+          "wǒ",
+          "me"
+        ],
+        [
+          "戴上",
+          "dài shang",
+          "put on"
+        ],
+        [
+          "口罩",
+          "kǒuzhào",
+          "face mask"
+        ],
+        [
+          "才",
+          "cái",
+          "only then"
+        ],
+        [
+          "能",
+          "néng",
+          "can"
+        ],
+        [
+          "出去",
+          "chūqù",
+          "go out"
+        ],
+        [
+          "玩儿",
+          "wánr",
+          "play"
+        ],
+        [
+          "，"
+        ],
+        [
+          "现在",
+          "xiànzài",
+          "now"
+        ],
+        [
+          "这样",
+          "zhèyàng",
+          "such"
+        ],
+        [
+          "的",
+          "de",
+          "(possessive)"
+        ],
+        [
+          "日子",
+          "rìzi",
+          "days"
+        ],
+        [
+          "已经",
+          "yǐjīng",
+          "already"
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "少",
+          "shǎo",
+          "few"
+        ],
+        [
+          "了",
+          "le",
+          "(particle)"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "I still remember, when I was small, my mom always made me put on a mask before I could go out and play — now, days like that are already rare."
+    },
+    {
+      "t": [
+        [
+          "蓝天",
+          "lántiān",
+          "blue sky"
+        ],
+        [
+          "变多",
+          "biàn duō",
+          "increase"
+        ],
+        [
+          "了",
+          "le",
+          "(particle)"
+        ],
+        [
+          "，"
+        ],
+        [
+          "这",
+          "zhè",
+          "this"
+        ],
+        [
+          "说明",
+          "shuōmíng",
+          "shows that"
+        ],
+        [
+          "只要",
+          "zhǐyào",
+          "as long as"
+        ],
+        [
+          "大家",
+          "dàjiā",
+          "everyone"
+        ],
+        [
+          "一起",
+          "yìqǐ",
+          "together"
+        ],
+        [
+          "努力",
+          "nǔlì",
+          "work hard"
+        ],
+        [
+          "，"
+        ],
+        [
+          "环境",
+          "huánjìng",
+          "environment"
+        ],
+        [
+          "就",
+          "jiù",
+          "then"
+        ],
+        [
+          "可以",
+          "kěyǐ",
+          "can"
+        ],
+        [
+          "变好",
+          "biàn hǎo",
+          "get better"
+        ],
+        [
+          "。"
+        ]
+      ],
+      "en": "There are more blue-sky days now, which shows that as long as everyone works hard together, the environment can improve."
+    }
+  ],
+  "vocab": [
+    [
+      "雾霾",
+      "wùmái",
+      "smog; haze"
+    ],
+    [
+      "口罩",
+      "kǒuzhào",
+      "face mask"
+    ],
+    [
+      "污染",
+      "wūrǎn",
+      "pollution"
+    ],
+    [
+      "政府",
+      "zhèngfǔ",
+      "government"
+    ],
+    [
+      "环境",
+      "huánjìng",
+      "environment"
+    ],
+    [
+      "严重",
+      "yánzhòng",
+      "serious"
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "Five years ago, what was often seen in the sky of many Chinese cities?",
+      "a": [
+        "Smog",
+        "Snow",
+        "Rainbows"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the government do to help improve air quality?",
+      "a": [
+        "Closed some seriously polluting factories",
+        "Built more coffee shops",
+        "Banned all cars completely"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the author say about wearing masks now compared to childhood?",
+      "a": [
+        "Masks are needed more than ever",
+        "Days requiring masks are now rare",
+        "Masks are now mandatory everywhere"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一……就…… — As soon as... then...",
+      "e": "Describes that action B happens immediately after action A takes place: 一到冬天，空气就变得更差。",
+      "x": "一到冬天，空气就变得更差。— As soon as winter arrived, the air would get worse."
+    },
+    {
+      "p": "越来越…… — More and more",
+      "e": "Placed before an adjective or verb to show a quality or state increasing over time.",
+      "x": "看到蓝天的日子越来越多。— The days you can see blue sky keep increasing."
+    },
+    {
+      "p": "只要……就…… — As long as... then...",
+      "e": "States a sufficient condition: if A happens, B will follow.",
+      "x": "只要大家一起努力，环境就可以变好。— As long as everyone works hard together, the environment can improve."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-results-are-out",
+  "level": 3,
+  "title_zh": "成绩出来了",
+  "title_py": "Chéngjì chūlái le",
+  "title_en": "The Results Are Out",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],["，"],["老师","lǎoshī","teacher"],["把","bǎ","(marks the object before the verb)"],["这次","zhè cì","this time"],["考试","kǎoshì","exam"],["的","de","(attributive particle)"],["成绩","chéngjì","grade; result"],["发给","fāgěi","to give out; to hand out"],["了","le","(completed action)"],["我们","wǒmen","us"],["。"]],
+      "en": "This morning, the teacher gave us the results of this exam."
+    },
+    {
+      "t": [["我","wǒ","I"],["一边","yìbiān","while (doing one thing)"],["看","kàn","to look at"],["手机","shǒujī","cell phone"],["，"],["一边","yìbiān","while (doing another)"],["紧张","jǐnzhāng","nervous"],["地","de","(adverbial particle)"],["等着","děngzhe","waiting"],["。"]],
+      "en": "I looked at my phone while nervously waiting."
+    },
+    {
+      "t": [["看到","kàndào","to see"],["分数","fēnshù","score"],["的","de","(attributive particle)"],["那","nà","that"],["一刻","yíkè","moment"],["，"],["我","wǒ","I"],["高兴","gāoxìng","happy"],["极了","jí le","extremely"],["。"]],
+      "en": "The moment I saw the score, I was extremely happy."
+    },
+    {
+      "t": [["我的","wǒ de","my"],["成绩","chéngjì","grade"],["比","bǐ","compared to"],["我","wǒ","I"],["想","xiǎng","to think; to expect"],["的","de","(nominalizer)"],["还要","hái yào","even more"],["好","hǎo","good"],["，"],["妈妈","māma","mom"],["知道","zhīdào","to know"],["以后","yǐhòu","afterward"],["也","yě","also"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "My grade was even better than I expected, and my mom was very happy too when she found out."
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["问","wèn","to ask"],["我","wǒ","me"],["："],["“"],["你","nǐ","you"],["是","shì","(emphasis marker)"],["怎么","zěnme","how"],["考","kǎo","to test; to take an exam"],["得","de","(degree particle)"],["这么","zhème","so; this"],["好","hǎo","well"],["的","de","(emphasis marker)"],["？"],["”"]],
+      "en": "A classmate asked me: \"How did you do so well on the exam?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["因为","yīnwèi","because"],["我","wǒ","I"],["每天","měitiān","every day"],["都","dōu","all; always"],["认真","rènzhēn","seriously; earnestly"],["复习","fùxí","to review"],["。"],["”"]],
+      "en": "I said with a smile: \"Because I review seriously every day.\""
+    },
+    {
+      "t": [["这次","zhè cì","this time"],["的","de","(attributive particle)"],["成绩","chéngjì","grade"],["让","ràng","to make (sb feel)"],["我","wǒ","me"],["很","hěn","very"],["开心","kāixīn","happy"],["，"],["我","wǒ","I"],["要","yào","will; going to"],["继续","jìxù","to continue"],["努力","nǔlì","to work hard"],["。"]],
+      "en": "This grade made me very happy, and I want to keep working hard."
+    }
+  ],
+  "vocab": [
+    ["成绩","chéngjì","grade; result"],
+    ["分数","fēnshù","score"],
+    ["认真","rènzhēn","serious; earnest"],
+    ["继续","jìxù","to continue"],
+    ["努力","nǔlì","to work hard"],
+    ["开心","kāixīn","happy"]
+  ],
+  "quiz": [
+    {"q": "What did the teacher do this morning?", "a": ["Announced a holiday", "Gave them their exam results", "Gave a new assignment"], "c": 1},
+    {"q": "How did the narrator feel when seeing the score?", "a": ["Very disappointed", "Extremely happy", "A little confused"], "c": 1},
+    {"q": "Why did the narrator say the grade was good?", "a": ["Studied seriously every day", "Got lucky", "Copied a classmate"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "把 (bǎ construction)", "e": "Subject + 把 + object + verb (+ other elements) moves the object before the verb to emphasize what happens to it.", "x": "今天早上，老师把这次考试的成绩发给了我们。 — This morning, the teacher gave us the results of this exam."},
+    {"p": "比……还要…… (even more than)", "e": "比 compares two things; adding 还要 before the adjective strengthens the comparison to 'even more'.", "x": "我的成绩比我想的还要好。 — My grade was even better than I expected."},
+    {"p": "是……的 (emphasizing how/when/where)", "e": "是……的 is used for a past action to emphasize a specific detail, such as how, when, or where it happened.", "x": "你是怎么考得这么好的？ — How did you do so well on the exam?"}
+  ]
+}
