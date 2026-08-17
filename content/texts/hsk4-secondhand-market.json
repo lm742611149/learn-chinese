@@ -1,0 +1,223 @@
+{
+  "slug": "hsk4-secondhand-market",
+  "level": 4,
+  "title_zh": "二手市场",
+  "title_py": "Èrshǒu shìchǎng",
+  "title_en": "The Secondhand Market",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个月", "shàng ge yuè", "last month"],
+        ["搬家", "bānjiā", "to move house"],
+        ["的时候", "de shíhou", "when"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["把", "bǎ", "(ba-construction marker)"],
+        ["一些", "yìxiē", "some"],
+        ["用不上", "yòng bu shàng", "have no use for"],
+        ["的", "de", "(possessive)"],
+        ["东西", "dōngxi", "things"],
+        ["拿到", "nádào", "to take to"],
+        ["二手", "èrshǒu", "secondhand"],
+        ["市场", "shìchǎng", "market"],
+        ["去", "qù", "to go"],
+        ["卖", "mài", "to sell"],
+        ["。"]
+      ],
+      "en": "Last month when I was moving, I took some things I no longer needed to the secondhand market to sell."
+    },
+    {
+      "t": [
+        ["二手", "èrshǒu", "secondhand"],
+        ["市场", "shìchǎng", "market"],
+        ["里", "lǐ", "inside"],
+        ["什么都有", "shénme dōu yǒu", "has everything"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["旧衣服", "jiù yīfu", "old clothes"],
+        ["、"],
+        ["旧书", "jiù shū", "old books"],
+        ["到", "dào", "to"],
+        ["旧家具", "jiù jiājù", "old furniture"],
+        ["，"],
+        ["样样", "yàngyàng", "every kind"],
+        ["齐全", "qíquán", "complete"],
+        ["。"]
+      ],
+      "en": "The secondhand market has everything — from old clothes and old books to old furniture, it's all there."
+    },
+    {
+      "t": [
+        ["卖", "mài", "to sell"],
+        ["东西", "dōngxi", "things"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["给", "gěi", "for"],
+        ["东西", "dōngxi", "things"],
+        ["定", "dìng", "to set"],
+        ["一个", "yí ge", "a"],
+        ["不太高", "bú tài gāo", "not too high"],
+        ["的", "de", "(possessive)"],
+        ["价格", "jiàgé", "price"],
+        ["，"],
+        ["买", "mǎi", "to buy"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["可以", "kěyǐ", "can"],
+        ["再", "zài", "further"],
+        ["还价", "huánjià", "to haggle"],
+        ["。"]
+      ],
+      "en": "Sellers set a price that isn't too high, and buyers can haggle further."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["把", "bǎ", "(ba-construction marker)"],
+        ["一张", "yì zhāng", "one (flat object)"],
+        ["几乎", "jīhū", "almost"],
+        ["没用过", "méi yòngguo", "never used"],
+        ["的", "de", "(possessive)"],
+        ["书桌", "shūzhuō", "desk"],
+        ["卖给了", "màigěile", "sold to"],
+        ["一个", "yí ge", "a"],
+        ["刚", "gāng", "just"],
+        ["搬来", "bānlái", "moved here"],
+        ["的", "de", "(possessive)"],
+        ["大学生", "dàxuéshēng", "college student"],
+        ["。"]
+      ],
+      "en": "I sold an almost-unused desk to a college student who had just moved in."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["说", "shuō", "says"],
+        ["，"],
+        ["买", "mǎi", "to buy"],
+        ["二手", "èrshǒu", "secondhand"],
+        ["的", "de", "(possessive)"],
+        ["东西", "dōngxi", "things"],
+        ["既", "jì", "both"],
+        ["省钱", "shěngqián", "to save money"],
+        ["，"],
+        ["又", "yòu", "and"],
+        ["不用", "búyòng", "no need to"],
+        ["等", "děng", "to wait for"],
+        ["厂家", "chǎngjiā", "manufacturer"],
+        ["生产", "shēngchǎn", "to produce"],
+        ["新的", "xīn de", "new (ones)"],
+        ["，"],
+        ["很", "hěn", "very"],
+        ["环保", "huánbǎo", "eco-friendly"],
+        ["。"]
+      ],
+      "en": "He said buying secondhand things saves money and is eco-friendly, since you don't have to wait for factories to make new ones."
+    },
+    {
+      "t": [
+        ["我自己", "wǒ zìjǐ", "I myself"],
+        ["也", "yě", "also"],
+        ["在", "zài", "at"],
+        ["市场上", "shìchǎng shàng", "in the market"],
+        ["淘到了", "táodàole", "found (dug up)"],
+        ["一把", "yì bǎ", "one (chair)"],
+        ["老式", "lǎoshì", "old-fashioned"],
+        ["的", "de", "(possessive)"],
+        ["椅子", "yǐzi", "chair"],
+        ["，"],
+        ["样子", "yàngzi", "look; appearance"],
+        ["很", "hěn", "very"],
+        ["特别", "tèbié", "special"],
+        ["。"]
+      ],
+      "en": "I myself found an old-fashioned chair at the market, whose look was quite special."
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["是", "shì", "is"],
+        ["二手", "èrshǒu", "secondhand"],
+        ["的", "de", "(possessive)"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["东西", "dōngxi", "things"],
+        ["质量", "zhìliàng", "quality"],
+        ["好的话", "hǎo de huà", "if good"],
+        ["，"],
+        ["用起来", "yòng qǐlai", "when used"],
+        ["跟", "gēn", "as; with"],
+        ["新的", "xīn de", "new"],
+        ["差不多", "chàbuduō", "almost the same"],
+        ["。"]
+      ],
+      "en": "Even though it's secondhand, if the quality is good, using it feels almost the same as something new."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["越来越", "yuè lái yuè", "more and more"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["逛", "guàng", "to stroll around"],
+        ["二手", "èrshǒu", "secondhand"],
+        ["市场", "shìchǎng", "market"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["每件", "měi jiàn", "every"],
+        ["东西", "dōngxi", "thing"],
+        ["背后", "bèihòu", "behind"],
+        ["都", "dōu", "all"],
+        ["有", "yǒu", "has"],
+        ["一个", "yí ge", "a"],
+        ["故事", "gùshi", "story"],
+        ["。"]
+      ],
+      "en": "Now I like browsing the secondhand market more and more, because behind every item there's a story."
+    }
+  ],
+  "vocab": [
+    ["二手", "èrshǒu", "secondhand"],
+    ["齐全", "qíquán", "complete; all there"],
+    ["还价", "huánjià", "to haggle; counter-offer"],
+    ["淘", "táo", "to dig up; find by searching"],
+    ["环保", "huánbǎo", "eco-friendly"],
+    ["老式", "lǎoshì", "old-fashioned; vintage-style"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did the author bring things to the secondhand market, according to the text?",
+      "a": ["Because he was moving and no longer needed them", "Because the market pays more than stores", "Because a friend asked him to"],
+      "c": 0
+    },
+    {
+      "q": "What does the college student buyer say about buying secondhand goods?",
+      "a": ["It's a waste of time", "It saves money and is eco-friendly, since it avoids waiting for factories to make new items", "It's less reliable than new items"],
+      "c": 1
+    },
+    {
+      "q": "What did the author himself find at the market?",
+      "a": ["Some old clothes", "A brand-new desk", "An old-fashioned chair"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "既……又……",
+      "e": "\"Both... and...\" links two simultaneous benefits or qualities: 买二手的东西既省钱，又不用等厂家生产新的。",
+      "x": "这份工作既有意思，又能锻炼人。— This job is both interesting and good practice."
+    },
+    {
+      "p": "……的话",
+      "e": "的话 attaches to a clause to mark it as a condition, similar to \"if\": 东西质量好的话，用起来跟新的差不多。",
+      "x": "有时间的话，我们一起去逛逛。— If you have time, let's go browsing together."
+    },
+    {
+      "p": "虽然……但是……",
+      "e": "\"Although... but...\" — a standard concessive pattern: 虽然是二手的，但是东西质量好的话，用起来跟新的差不多。",
+      "x": "虽然天气不好，但是我们还是出发了。— Although the weather was bad, we still set off."
+    }
+  ]
+}

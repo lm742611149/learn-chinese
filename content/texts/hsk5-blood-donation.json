@@ -1,0 +1,154 @@
+{
+  "slug": "hsk5-blood-donation",
+  "level": 5,
+  "title_zh": "无偿献血",
+  "title_py": "Wúcháng xiànxuè",
+  "title_en": "Unpaid Blood Donation",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["老张", "Lǎo Zhāng", "Old Zhang"], ["是", "shì", "is"], ["一", "yí", "one"], ["位", "wèi", "(polite measure word)"],
+        ["出租车", "chūzūchē", "taxi"], ["司机", "sījī", "driver"], ["，"],
+        ["今年", "jīnnián", "this year"], ["五十八", "wǔshíbā", "fifty-eight"], ["岁", "suì", "years old"], ["，"],
+        ["已经", "yǐjīng", "already"], ["无偿", "wúcháng", "unpaid; free"], ["献血", "xiànxuè", "to donate blood"],
+        ["二十", "èrshí", "twenty"], ["多", "duō", "more than"], ["年", "nián", "year"], ["了", "le", "(particle)"], ["。"]
+      ],
+      "en": "Old Zhang is a taxi driver; he is fifty-eight this year and has already been donating blood for free for more than twenty years."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"], ["第一次", "dì-yī cì", "the first time"], ["献血", "xiànxuè", "donate blood"], ["，"],
+        ["是", "shì", "was"], ["二十六", "èrshíliù", "twenty-six"], ["岁", "suì", "years old"], ["那", "nà", "that"],
+        ["年", "nián", "year"], ["，"],
+        ["在", "zài", "at"], ["街上", "jiēshang", "on the street"], ["看到", "kàndào", "to see"],
+        ["献血车", "xiànxuèchē", "blood donation van"], ["，"],
+        ["好奇", "hàoqí", "curious"], ["地", "de", "(adverbial particle)"], ["走", "zǒu", "to walk"], ["了", "le", "(particle)"],
+        ["进去", "jìnqù", "to go in"], ["。"]
+      ],
+      "en": "The first time he donated blood was the year he was twenty-six — he saw a blood donation van on the street and curiously walked in."
+    },
+    {
+      "t": [
+        ["护士", "hùshi", "nurse"], ["说", "shuō", "say"], ["，"],
+        ["他", "tā", "his"], ["的", "de", "(particle)"], ["血型", "xuèxíng", "blood type"], ["是", "shì", "is"],
+        ["O型", "O xíng", "type O"], ["，"],
+        ["可以", "kěyǐ", "can"], ["输给", "shūgěi", "to transfuse to"], ["几乎", "jīhū", "almost"], ["所有", "suǒyǒu", "all"],
+        ["病人", "bìngrén", "patients"], ["，"],
+        ["这", "zhè", "this"], ["让", "ràng", "to make"], ["他", "tā", "him"], ["觉得", "juéde", "feel"],
+        ["特别", "tèbié", "especially"], ["有意义", "yǒu yìyì", "meaningful"], ["。"]
+      ],
+      "en": "The nurse said his blood type is O, which can be given to almost any patient — this made him feel it was especially meaningful."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"], ["那", "nà", "that"], ["以后", "yǐhòu", "after"], ["，"],
+        ["老张", "Lǎo Zhāng", "Old Zhang"], ["每", "měi", "every"], ["隔", "gé", "interval of"], ["几", "jǐ", "several"],
+        ["个", "ge", "(measure word)"], ["月", "yuè", "month"], ["就", "jiù", "then"], ["去", "qù", "to go"],
+        ["献", "xiàn", "to donate"], ["一", "yí", "one"], ["次", "cì", "time"], ["血", "xuè", "blood"], ["，"],
+        ["二十", "èrshí", "twenty"], ["多", "duō", "more than"], ["年", "nián", "year"], ["下来", "xiàlái", "(over the course of)"], ["，"],
+        ["一", "yí", "one"], ["共", "gòng", "together; total"], ["献", "xiàn", "donate"], ["了", "le", "(particle)"],
+        ["将近", "jiāngjìn", "nearly"], ["八十", "bāshí", "eighty"], ["次", "cì", "times"], ["。"]
+      ],
+      "en": "From then on, Old Zhang went to donate blood every few months; over more than twenty years, he has donated close to eighty times in total."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "someone"], ["问", "wèn", "ask"], ["他", "tā", "him"], ["："],
+        ["“"], ["献血", "xiànxuè", "donate blood"], ["对", "duì", "to"], ["身体", "shēntǐ", "body"], ["不", "bú", "not"],
+        ["是", "shì", "is"], ["有", "yǒu", "have"], ["影响", "yǐngxiǎng", "influence"], ["吗", "ma", "(question particle)"], ["？"], ["”"],
+        ["老张", "Lǎo Zhāng", "Old Zhang"], ["说", "shuō", "say"], ["，"],
+        ["只要", "zhǐyào", "as long as"], ["按", "àn", "according to"], ["规定", "guīdìng", "regulation"], ["的", "de", "(particle)"],
+        ["时间", "shíjiān", "time"], ["和", "hé", "and"], ["数量", "shùliàng", "quantity"], ["献血", "xiànxuè", "donate blood"], ["，"],
+        ["对", "duì", "to"], ["健康", "jiànkāng", "health"], ["就", "jiù", "then"], ["没有", "méiyǒu", "not have"],
+        ["坏处", "huàichù", "harm"], ["。"]
+      ],
+      "en": "Someone asked him: \"Doesn't donating blood affect your health?\" Old Zhang said as long as you donate according to the regulated time and amount, there's no harm to your health."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"], ["还", "hái", "also"], ["说", "shuō", "say"], ["，"],
+        ["每次", "měicì", "every time"], ["抽血", "chōuxiě", "draw blood"], ["前", "qián", "before"], ["，"],
+        ["护士", "hùshi", "nurse"], ["都", "dōu", "all"], ["会", "huì", "will"], ["检查", "jiǎnchá", "to check"],
+        ["身体", "shēntǐ", "body"], ["，"],
+        ["不合格", "bù hégé", "not qualified"], ["是", "shì", "is"], ["不会", "búhuì", "will not"], ["让", "ràng", "let"],
+        ["你", "nǐ", "you"], ["献", "xiàn", "donate"], ["的", "de", "(particle)"], ["。"]
+      ],
+      "en": "He also said that before every blood draw, the nurse checks your body — if you don't meet the standard, they simply won't let you donate."
+    },
+    {
+      "t": [
+        ["老张", "Lǎo Zhāng", "Old Zhang"], ["的", "de", "(particle)"], ["血", "xuè", "blood"], ["，"],
+        ["已经", "yǐjīng", "already"], ["帮助", "bāngzhù", "to help"], ["了", "le", "(particle)"], ["很多", "hěnduō", "many"],
+        ["素不相识", "sù bù xiāngshí", "complete strangers"], ["的", "de", "(particle)"], ["病人", "bìngrén", "patients"],
+        ["和", "hé", "and"], ["产妇", "chǎnfù", "women who have just given birth"], ["，"],
+        ["他", "tā", "he"], ["自己", "zìjǐ", "himself"], ["却", "què", "yet"], ["从来", "cónglái", "always; ever"],
+        ["没有", "méiyǒu", "not"], ["见过", "jiànguò", "have met"], ["他们", "tāmen", "them"], ["。"]
+      ],
+      "en": "Old Zhang's blood has already helped many complete strangers — patients and new mothers — yet he himself has never once met them."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"], ["说", "shuō", "say"], ["："],
+        ["“"], ["我", "wǒ", "I"], ["不", "bù", "not"], ["知道", "zhīdào", "to know"], ["我", "wǒ", "my"], ["的", "de", "(particle)"],
+        ["血", "xuè", "blood"], ["救", "jiù", "to save"], ["了", "le", "(particle)"], ["谁", "shéi", "who"], ["，"],
+        ["但是", "dànshì", "but"], ["想到", "xiǎngdào", "to think of"], ["有人", "yǒurén", "someone"], ["因为", "yīnwèi", "because"],
+        ["这", "zhè", "this"], ["袋", "dài", "(measure word for bag)"], ["血", "xuè", "blood"], ["活下来", "huó xiàlái", "survive"], ["，"],
+        ["就", "jiù", "then"], ["觉得", "juéde", "feel"], ["值得", "zhíde", "worthwhile"], ["。"], ["”"]
+      ],
+      "en": "He said: \"I don't know whose life my blood saved, but when I think that someone survived because of that bag of blood, I feel it's worth it.\""
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"], ["，"],
+        ["他", "tā", "his"], ["的", "de", "(particle)"], ["儿子", "érzi", "son"], ["也", "yě", "also"],
+        ["跟着", "gēnzhe", "following"], ["他", "tā", "him"], ["一起", "yìqǐ", "together"], ["，"],
+        ["每年", "měinián", "every year"], ["去", "qù", "to go"], ["献血车", "xiànxuèchē", "blood donation van"],
+        ["献血", "xiànxuè", "donate blood"], ["。"]
+      ],
+      "en": "Now his son also goes together with him, donating blood at the blood donation van every year."
+    }
+  ],
+  "vocab": [
+    ["无偿献血", "wúcháng xiànxuè", "unpaid blood donation"],
+    ["血型", "xuèxíng", "blood type"],
+    ["抽血", "chōuxiě", "to draw blood"],
+    ["产妇", "chǎnfù", "woman who has just given birth"],
+    ["素不相识", "sù bù xiāngshí", "complete strangers"],
+    ["值得", "zhíde", "worthwhile"]
+  ],
+  "quiz": [
+    {
+      "q": "老张第一次献血是多少岁？",
+      "a": ["十八岁", "二十六岁", "三十岁"],
+      "c": 1
+    },
+    {
+      "q": "老张的血型是什么？",
+      "a": ["A型", "B型", "O型"],
+      "c": 2
+    },
+    {
+      "q": "二十多年来，老张一共献了大约多少次血？",
+      "a": ["将近八十次", "大约二十次", "五十多次"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "从那以后",
+      "e": "'From then on' — marks the starting point of a continuing habit or change.",
+      "x": "从那以后，老张每隔几个月就去献一次血。"
+    },
+    {
+      "p": "只要……就……",
+      "e": "'As long as..., then...' — states a sufficient condition.",
+      "x": "只要按规定的时间和数量献血，对健康就没有坏处。"
+    },
+    {
+      "p": "让",
+      "e": "'To make/let someone (feel/do something)' — introduces a causative result.",
+      "x": "这让他觉得特别有意义。"
+    }
+  ]
+}

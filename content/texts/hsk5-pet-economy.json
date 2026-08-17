@@ -1,0 +1,153 @@
+{
+  "slug": "hsk5-pet-economy",
+  "level": 5,
+  "title_zh": "宠物经济",
+  "title_py": "Chǒngwù jīngjì",
+  "title_en": "The Pet Economy",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "my"], ["朋友", "péngyou", "friend"], ["小雨", "Xiǎoyǔ", "Xiaoyu (name)"],
+        ["没有", "méiyǒu", "not have"], ["孩子", "háizi", "child"], ["，"],
+        ["却", "què", "yet"], ["养", "yǎng", "to raise; keep"], ["了", "le", "(particle)"],
+        ["一", "yì", "one"], ["只", "zhī", "(measure word for animals)"], ["猫", "māo", "cat"], ["，"],
+        ["每", "měi", "every"], ["个", "ge", "(measure word)"], ["月", "yuè", "month"], ["花", "huā", "to spend"],
+        ["在", "zài", "on"], ["猫", "māo", "cat"], ["身上", "shēnshang", "on the body of"], ["的", "de", "(particle)"],
+        ["钱", "qián", "money"], ["比", "bǐ", "compared to"], ["她", "tā", "she"], ["自己", "zìjǐ", "herself"],
+        ["吃饭", "chīfàn", "eat meals"], ["还", "hái", "even"], ["多", "duō", "more"], ["。"]
+      ],
+      "en": "My friend Xiaoyu has no children, but she keeps a cat — the money she spends on the cat each month is even more than what she spends on herself for food."
+    },
+    {
+      "t": [
+        ["猫粮", "māoliáng", "cat food"], ["要", "yào", "need to"], ["买", "mǎi", "to buy"], ["进口", "jìnkǒu", "imported"],
+        ["的", "de", "(particle)"], ["，"],
+        ["玩具", "wánjù", "toy"], ["每", "měi", "every"], ["个", "ge", "(measure word)"], ["月", "yuè", "month"],
+        ["换", "huàn", "to change"], ["新", "xīn", "new"], ["的", "de", "(particle)"], ["，"],
+        ["连", "lián", "even"], ["猫砂", "māoshā", "cat litter"], ["都", "dōu", "even"], ["要", "yào", "need to"],
+        ["选", "xuǎn", "to choose"], ["进口", "jìnkǒu", "imported"], ["品牌", "pǐnpái", "brand"], ["。"]
+      ],
+      "en": "The cat food has to be imported, the toys get replaced every month, and even the cat litter has to be an imported brand."
+    },
+    {
+      "t": [
+        ["上个月", "shàng ge yuè", "last month"], ["猫", "māo", "cat"], ["感冒", "gǎnmào", "catch a cold"], ["，"],
+        ["去", "qù", "to go"], ["宠物", "chǒngwù", "pet"], ["医院", "yīyuàn", "hospital"], ["看病", "kànbìng", "see a doctor"], ["，"],
+        ["一", "yí", "one"], ["次", "cì", "(occurrence)"], ["就", "jiù", "just"], ["花", "huā", "to spend"],
+        ["了", "le", "(particle)"], ["两千", "liǎngqiān", "two thousand"], ["多", "duō", "more than"],
+        ["块", "kuài", "(currency unit)"], ["钱", "qián", "money"], ["。"]
+      ],
+      "en": "Last month the cat caught a cold, and just one visit to the pet hospital cost more than two thousand yuan."
+    },
+    {
+      "t": [
+        ["小雨", "Xiǎoyǔ", "Xiaoyu"], ["说", "shuō", "say"], ["："],
+        ["“"], ["人", "rén", "people"], ["生病", "shēngbìng", "get sick"], ["去", "qù", "go"], ["医院", "yīyuàn", "hospital"],
+        ["不一定", "bù yídìng", "not necessarily"], ["花", "huā", "spend"], ["这么", "zhème", "so; such"],
+        ["多", "duō", "much"], ["钱", "qián", "money"], ["，"],
+        ["可是", "kěshì", "but"], ["猫", "māo", "cat"], ["生病", "shēngbìng", "get sick"], ["，"],
+        ["我", "wǒ", "I"], ["不能", "bùnéng", "cannot"], ["省", "shěng", "to save; economize"], ["。"], ["”"]
+      ],
+      "en": "Xiaoyu said: \"When a person gets sick and goes to the hospital, it doesn't necessarily cost this much money, but when the cat gets sick, I can't cut corners.\""
+    },
+    {
+      "t": [
+        ["像", "xiàng", "like"], ["小雨", "Xiǎoyǔ", "Xiaoyu"], ["这样", "zhèyàng", "like this"], ["的", "de", "(particle)"],
+        ["人", "rén", "people"], ["越来越", "yuèláiyuè", "more and more"], ["多", "duō", "many"], ["，"],
+        ["这", "zhè", "this"], ["几", "jǐ", "several"], ["年", "nián", "year"],
+        ["“"], ["宠物经济", "chǒngwù jīngjì", "pet economy"], ["”"], ["这个", "zhège", "this"], ["词", "cí", "word; term"],
+        ["也", "yě", "also"], ["越来越", "yuèláiyuè", "more and more"], ["常见", "chángjiàn", "common"], ["。"]
+      ],
+      "en": "There are more and more people like Xiaoyu, and in recent years the term \"pet economy\" has also become more and more common."
+    },
+    {
+      "t": [
+        ["数据", "shùjù", "data"], ["显示", "xiǎnshì", "to show"], ["，"],
+        ["中国", "Zhōngguó", "China"], ["有", "yǒu", "to have"], ["超过", "chāoguò", "to exceed"],
+        ["一", "yí", "one"], ["亿", "yì", "hundred million"], ["只", "zhī", "(measure word for animals)"],
+        ["宠物", "chǒngwù", "pet"], ["猫狗", "māo gǒu", "cats and dogs"], ["，"],
+        ["相关", "xiāngguān", "related"], ["的", "de", "(particle)"], ["市场", "shìchǎng", "market"],
+        ["一", "yì", "one"], ["年", "nián", "year"], ["能", "néng", "can"], ["达到", "dádào", "to reach"],
+        ["几", "jǐ", "several"], ["千亿", "qiānyì", "hundreds of billions"], ["元", "yuán", "yuan"], ["。"]
+      ],
+      "en": "Data shows that China has more than one hundred million pet cats and dogs, and the related market can reach hundreds of billions of yuan a year."
+    },
+    {
+      "t": [
+        ["从", "cóng", "from"], ["宠物", "chǒngwù", "pet"], ["食品", "shípǐn", "food product"], ["、"],
+        ["宠物", "chǒngwù", "pet"], ["医院", "yīyuàn", "hospital"], ["，"],
+        ["到", "dào", "to"], ["宠物", "chǒngwù", "pet"], ["摄影", "shèyǐng", "photography"], ["、"],
+        ["宠物", "chǒngwù", "pet"], ["保险", "bǎoxiǎn", "insurance"], ["，"],
+        ["几乎", "jīhū", "almost"], ["每", "měi", "every"], ["个", "ge", "(measure word)"], ["行业", "hángyè", "industry"],
+        ["都", "dōu", "all"], ["在", "zài", "(progressive marker)"], ["为", "wèi", "for"], ["宠物", "chǒngwù", "pet"],
+        ["服务", "fúwù", "to serve"], ["。"]
+      ],
+      "en": "From pet food and pet hospitals to pet photography and pet insurance, almost every industry is serving pets."
+    },
+    {
+      "t": [
+        ["有人", "yǒurén", "someone"], ["觉得", "juéde", "to feel"], ["这", "zhè", "this"], ["是", "shì", "is"],
+        ["浪费", "làngfèi", "to waste"], ["钱", "qián", "money"], ["，"],
+        ["可是", "kěshì", "but"], ["对", "duì", "to"], ["小雨", "Xiǎoyǔ", "Xiaoyu"], ["来说", "láishuō", "speaking of"], ["，"],
+        ["猫", "māo", "cat"], ["早就", "zǎojiù", "long ago already"], ["是", "shì", "is"], ["家人", "jiārén", "family member"], ["，"],
+        ["不", "bú", "not"], ["是", "shì", "is"], ["宠物", "chǒngwù", "pet"], ["那么", "nàme", "so; that"],
+        ["简单", "jiǎndān", "simple"], ["。"]
+      ],
+      "en": "Some people feel it's a waste of money, but to Xiaoyu, the cat has long been family — not as simple as just being a pet."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"], ["说", "shuō", "say"], ["："],
+        ["“"], ["它", "tā", "it"], ["不会", "búhuì", "cannot"], ["说话", "shuōhuà", "to speak"], ["，"],
+        ["但是", "dànshì", "but"], ["它", "tā", "it"], ["陪着", "péizhe", "accompanying"], ["我", "wǒ", "me"], ["，"],
+        ["这种", "zhèzhǒng", "this kind of"], ["陪伴", "péibàn", "companionship"], ["，"],
+        ["多少", "duōshao", "however much"], ["钱", "qián", "money"], ["都", "dōu", "all"],
+        ["买不到", "mǎibudào", "cannot buy"], ["。"], ["”"]
+      ],
+      "en": "She said: \"It can't talk, but it keeps me company — no amount of money can buy this kind of companionship.\""
+    }
+  ],
+  "vocab": [
+    ["宠物经济", "chǒngwù jīngjì", "pet economy"],
+    ["猫粮", "māoliáng", "cat food"],
+    ["猫砂", "māoshā", "cat litter"],
+    ["数据", "shùjù", "data"],
+    ["浪费", "làngfèi", "to waste"],
+    ["陪伴", "péibàn", "companionship"]
+  ],
+  "quiz": [
+    {
+      "q": "小雨的猫感冒后去宠物医院，一次花了多少钱？",
+      "a": ["两百多块", "两千多块", "两万多块"],
+      "c": 1
+    },
+    {
+      "q": "根据数据，中国大约有多少只宠物猫狗？",
+      "a": ["一千万只", "五千万只", "超过一亿只"],
+      "c": 2
+    },
+    {
+      "q": "对小雨来说，猫是什么？",
+      "a": ["家人", "只是宠物", "浪费钱的东西"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "越来越……",
+      "e": "'More and more...' — describes a gradually increasing trend.",
+      "x": "像小雨这样的人越来越多。"
+    },
+    {
+      "p": "连……都……",
+      "e": "'Even...' — emphasizes an extreme example.",
+      "x": "连猫砂都要选进口品牌。"
+    },
+    {
+      "p": "对……来说",
+      "e": "'As for...; to...' — introduces a personal perspective.",
+      "x": "对小雨来说，猫早就是家人。"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "slug": "hsk4-learning-to-drive",
+  "level": 4,
+  "title_zh": "学车记",
+  "title_py": "Xuéchē jì",
+  "title_en": "Learning to Drive",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["去年", "qùnián", "last year"],
+        ["夏天", "xiàtiān", "summer"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["终于", "zhōngyú", "finally"],
+        ["报名", "bàomíng", "to sign up"],
+        ["去", "qù", "to go"],
+        ["学", "xué", "to learn"],
+        ["开车", "kāichē", "to drive"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "Last summer, I finally signed up to learn how to drive."
+    },
+    {
+      "t": [
+        ["第一次", "dì yī cì", "the first time"],
+        ["坐进", "zuò jìn", "to sit into"],
+        ["教练", "jiàoliàn", "instructor"],
+        ["的", "de", "(possessive)"],
+        ["车", "chē", "car"],
+        ["里", "lǐ", "inside"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["紧张得", "jǐnzhāng de", "so nervous that"],
+        ["手", "shǒu", "hands"],
+        ["都", "dōu", "all"],
+        ["在", "zài", "(progressive marker)"],
+        ["抖", "dǒu", "to shake"],
+        ["。"]
+      ],
+      "en": "The first time I sat in the instructor's car, my hands were shaking from nervousness."
+    },
+    {
+      "t": [
+        ["教练", "jiàoliàn", "instructor"],
+        ["很", "hěn", "very"],
+        ["有", "yǒu", "have"],
+        ["耐心", "nàixīn", "patience"],
+        ["，"],
+        ["一步一步", "yíbù yíbù", "step by step"],
+        ["教", "jiāo", "to teach"],
+        ["我", "wǒ", "me"],
+        ["怎么", "zěnme", "how"],
+        ["打方向盘", "dǎ fāngxiàngpán", "to handle the steering wheel"],
+        ["、"],
+        ["踩刹车", "cǎi shāchē", "to step on the brake"],
+        ["。"]
+      ],
+      "en": "The instructor was very patient, teaching me step by step how to handle the steering wheel and step on the brake."
+    },
+    {
+      "t": [
+        ["练车", "liànchē", "to practice driving"],
+        ["的时候", "de shíhou", "when"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["总是", "zǒngshì", "always"],
+        ["紧张地", "jǐnzhāng de", "nervously"],
+        ["把", "bǎ", "(ba-construction marker)"],
+        ["油门", "yóumén", "gas pedal"],
+        ["当成", "dàngchéng", "to mistake for"],
+        ["刹车", "shāchē", "brake"],
+        ["踩", "cǎi", "to step on"],
+        ["。"]
+      ],
+      "en": "While practicing, I kept nervously mistaking the gas pedal for the brake."
+    },
+    {
+      "t": [
+        ["教练", "jiàoliàn", "instructor"],
+        ["笑着说", "xiàozhe shuō", "said with a smile"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["着急", "zháojí", "worry; rush"],
+        ["，"],
+        ["慢慢来", "mànmàn lái", "take it slow"],
+        ["，"],
+        ["谁", "shéi", "whoever"],
+        ["都", "dōu", "all"],
+        ["是", "shì", "is"],
+        ["这样", "zhèyàng", "this way"],
+        ["学会", "xuéhuì", "to learn (master)"],
+        ["的", "de", "(emphatic particle)"],
+        ["。"]
+      ],
+      "en": "The instructor said with a smile, don't worry, take it slow, everyone learns this way."
+    },
+    {
+      "t": [
+        ["练了", "liànle", "practiced"],
+        ["两个月", "liǎng ge yuè", "two months"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["终于", "zhōngyú", "finally"],
+        ["可以", "kěyǐ", "can"],
+        ["顺利地", "shùnlì de", "smoothly"],
+        ["倒车入库", "dàochē rùkù", "reverse parking"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "After practicing for two months, I could finally do reverse parking smoothly."
+    },
+    {
+      "t": [
+        ["考试", "kǎoshì", "exam"],
+        ["那天", "nà tiān", "that day"],
+        ["，"],
+        ["我的", "wǒ de", "my"],
+        ["心跳", "xīntiào", "heartbeat"],
+        ["得", "de", "(degree particle)"],
+        ["特别", "tèbié", "especially"],
+        ["快", "kuài", "fast"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["最后", "zuìhòu", "in the end"],
+        ["还是", "háishi", "still"],
+        ["顺利", "shùnlì", "smoothly"],
+        ["通过", "tōngguò", "to pass"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "On the day of the test, my heart was beating especially fast, but in the end I passed smoothly."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["想起来", "xiǎngqǐlái", "think back"],
+        ["，"],
+        ["学车", "xuéchē", "learning to drive"],
+        ["不但", "búdàn", "not only"],
+        ["让", "ràng", "to let"],
+        ["我", "wǒ", "me"],
+        ["学会了", "xuéhuìle", "learned"],
+        ["开车", "kāichē", "to drive"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["让", "ràng", "to let"],
+        ["我", "wǒ", "me"],
+        ["明白了", "míngbaile", "understood"],
+        ["耐心", "nàixīn", "patience"],
+        ["的", "de", "(possessive)"],
+        ["重要", "zhòngyào", "importance"],
+        ["。"]
+      ],
+      "en": "Looking back now, learning to drive not only taught me how to drive, but also taught me the importance of patience."
+    }
+  ],
+  "vocab": [
+    ["教练", "jiàoliàn", "instructor; coach"],
+    ["方向盘", "fāngxiàngpán", "steering wheel"],
+    ["刹车", "shāchē", "brake"],
+    ["油门", "yóumén", "gas pedal; accelerator"],
+    ["抖", "dǒu", "to shake; tremble"],
+    ["倒车入库", "dàochē rùkù", "reverse parking (maneuver)"]
+  ],
+  "quiz": [
+    {
+      "q": "What mistake did the author often make while practicing?",
+      "a": ["Mixed up the gas pedal and the brake", "Forgot to check the mirrors", "Drove too slowly on purpose"],
+      "c": 0
+    },
+    {
+      "q": "What did the instructor say to reassure the author?",
+      "a": ["Study the manual more", "Don't rush, take it slow, everyone learns this way", "Practice only at night"],
+      "c": 1
+    },
+    {
+      "q": "Besides driving itself, what did learning to drive teach the author, according to the last sentence?",
+      "a": ["How to fix a car engine", "How to save money on gas", "The importance of patience"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "把……当成……",
+      "e": "\"To treat/mistake A for B.\" 把 moves the object before the verb 当成 (to regard as): 我总是紧张地把油门当成刹车踩。",
+      "x": "他把陌生人当成了老朋友。— He mistook the stranger for an old friend."
+    },
+    {
+      "p": "不但……也……",
+      "e": "\"Not only... but also...\" links two related results: 学车不但让我学会了开车，也让我明白了耐心的重要。",
+      "x": "这本书不但有意思，也很有用。— This book is not only interesting, but also very useful."
+    },
+    {
+      "p": "V + 得 + 补语(程度)",
+      "e": "得 introduces a complement describing the degree or result of an action or state: 我紧张得手都在抖 / 我的心跳得特别快。",
+      "x": "他跑得很快。— He runs very fast."
+    }
+  ]
+}

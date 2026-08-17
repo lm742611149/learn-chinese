@@ -1,0 +1,179 @@
+{
+  "slug": "hsk2-left-and-right",
+  "level": 2,
+  "title_zh": "左边右边",
+  "title_py": "Zuǒbiān yòubiān",
+  "title_en": "Left Side, Right Side",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["找不到", "zhǎo bu dào", "cannot find"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["手机", "shǒujī", "cell phone"],
+        ["了", "le", "(particle: new situation)"],
+        ["。"]
+      ],
+      "en": "I can't find my phone."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["你", "nǐ", "you"],
+        ["在", "zài", "at; in"],
+        ["哪儿", "nǎr", "where"],
+        ["看见", "kànjiàn", "to see"],
+        ["的", "de", "(particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "Mom asked me, \"Where did you see it?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["我", "wǒ", "I; me"],
+        ["记得", "jìde", "to remember"],
+        ["放", "fàng", "to put"],
+        ["在", "zài", "at"],
+        ["桌子", "zhuōzi", "table; desk"],
+        ["上", "shàng", "on"],
+        ["了", "le", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "I said, \"I remember I put it on the table.\""
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["桌子", "zhuōzi", "table; desk"],
+        ["左边", "zuǒbiān", "left side"],
+        ["没有", "méiyǒu", "there isn't"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["看看", "kànkan", "take a look"],
+        ["右边", "yòubiān", "right side"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Mom said, \"It's not on the left side of the table — look on the right side.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["看", "kàn", "to look"],
+        ["了", "le", "(completed action)"],
+        ["右边", "yòubiān", "right side"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["没有", "méiyǒu", "did not"],
+        ["找到", "zhǎodào", "to find"],
+        ["。"]
+      ],
+      "en": "I looked on the right side too, but still didn't find it."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "afterward"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["在", "zài", "at; in"],
+        ["沙发", "shāfā", "sofa"],
+        ["下面", "xiàmiàn", "under; below"],
+        ["找到", "zhǎodào", "to find"],
+        ["了", "le", "(completed action)"],
+        ["手机", "shǒujī", "cell phone"],
+        ["。"]
+      ],
+      "en": "Later, I found the phone under the sofa."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(particle: ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["下次", "xiàcì", "next time"],
+        ["要", "yào", "need to"],
+        ["放", "fàng", "to put"],
+        ["好", "hǎo", "well; properly"],
+        ["，"],
+        ["别", "bié", "don't"],
+        ["乱", "luàn", "randomly; messily"],
+        ["放", "fàng", "to put"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Mom smiled and said, \"Next time put it away properly — don't just put it anywhere.\""
+    }
+  ],
+  "vocab": [
+    ["找不到", "zhǎo bu dào", "cannot find"],
+    ["左边", "zuǒbiān", "left side"],
+    ["右边", "yòubiān", "right side"],
+    ["记得", "jìde", "to remember"],
+    ["下面", "xiàmiàn", "under; below"],
+    ["找到", "zhǎodào", "to find"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the writer lose?",
+      "a": [
+        "A cell phone",
+        "A book",
+        "A watch"
+      ],
+      "c": 0
+    },
+    {
+      "q": "Where did the writer first think they put the phone?",
+      "a": [
+        "In the bag",
+        "On the table",
+        "In the drawer"
+      ],
+      "c": 1
+    },
+    {
+      "q": "Where was the phone finally found?",
+      "a": [
+        "On the left side of the table",
+        "On the right side of the table",
+        "Under the sofa"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "找不到 — cannot find (V + 不到 = unable to reach a result)",
+      "e": "不到 after a verb shows the action fails to reach its goal.",
+      "x": "我找不到我的手机了。 — I can't find my phone."
+    },
+    {
+      "p": "左边 / 右边 + 有/没有 — describing location",
+      "e": "左边 and 右边 mark position, often used with 有/没有 to say what's there.",
+      "x": "桌子左边没有，你看看右边。 — It's not on the left side — look on the right."
+    },
+    {
+      "p": "在 + place + 下面 — under a place",
+      "e": "在 + noun + 下面 tells you exactly where something is.",
+      "x": "我在沙发下面找到了手机。 — I found the phone under the sofa."
+    }
+  ]
+}

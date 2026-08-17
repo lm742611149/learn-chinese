@@ -1,0 +1,206 @@
+{
+  "slug": "hsk3-trees-and-environment",
+  "level": 3,
+  "title_zh": "环境和树",
+  "title_py": "Huánjìng hé shù",
+  "title_en": "Trees and Environment",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["家", "jiā", "home"],
+        ["附近", "fùjìn", "nearby"],
+        ["有", "yǒu", "to have; there is"],
+        ["一个", "yí ge", "one; a single"],
+        ["公园", "gōngyuán", "park"],
+        ["，"],
+        ["公园", "gōngyuán", "park"],
+        ["里", "lǐ", "inside"],
+        ["有", "yǒu", "to have; there is"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["老", "lǎo", "old"],
+        ["树", "shù", "tree"],
+        ["。"]
+      ],
+      "en": "Near my home there's a park, and the park has many old trees."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["最近", "zuìjìn", "recently"],
+        ["两年", "liǎng nián", "two years"],
+        ["，"],
+        ["公园", "gōngyuán", "park"],
+        ["里", "lǐ", "inside"],
+        ["的", "de", "(particle)"],
+        ["树", "shù", "tree"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["少", "shǎo", "few; less"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "But in the last two years, the park has had fewer and fewer trees."
+    },
+    {
+      "t": [
+        ["环境", "huánjìng", "environment"],
+        ["变得", "biàn de", "to become"],
+        ["不太", "bú tài", "not very"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["鸟", "niǎo", "bird"],
+        ["也", "yě", "also"],
+        ["比", "bǐ", "compared to"],
+        ["以前", "yǐqián", "before"],
+        ["少", "shǎo", "few; less"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "The environment has become not so good; there are also fewer birds than before."
+    },
+    {
+      "t": [
+        ["为了", "wèile", "in order to"],
+        ["让", "ràng", "to make; to let"],
+        ["环境", "huánjìng", "environment"],
+        ["变得", "biàn de", "to become"],
+        ["更", "gèng", "more"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["学校", "xuéxiào", "school"],
+        ["决定", "juédìng", "to decide"],
+        ["带", "dài", "to take; to bring"],
+        ["大家", "dàjiā", "everyone"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["种", "zhòng", "to plant"],
+        ["树", "shù", "tree"],
+        ["。"]
+      ],
+      "en": "In order to make the environment better, the school decided to take everyone to the park to plant trees."
+    },
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["同学们", "tóngxuémen", "classmates"],
+        ["都", "dōu", "all"],
+        ["带", "dài", "to bring"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["小树", "xiǎoshù", "small tree; sapling"],
+        ["，"],
+        ["高高兴兴地", "gāogāoxìngxìng de", "happily"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["。"]
+      ],
+      "en": "Saturday morning, the classmates all brought young trees and happily went to the park."
+    },
+    {
+      "t": [
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(completed action)"],
+        ["公园", "gōngyuán", "park"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["一起", "yìqǐ", "together"],
+        ["种", "zhòng", "to plant"],
+        ["了", "le", "(completed action)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["小树", "xiǎoshù", "small tree; sapling"],
+        ["。"]
+      ],
+      "en": "When they arrived at the park, everyone planted many young trees together."
+    },
+    {
+      "t": [
+        ["老师", "lǎoshī", "teacher"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["树", "shù", "tree"],
+        ["多", "duō", "many"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["公园", "gōngyuán", "park"],
+        ["会", "huì", "will"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["漂亮", "piàoliang", "pretty; beautiful"],
+        ["，"],
+        ["鸟", "niǎo", "bird"],
+        ["也", "yě", "also"],
+        ["会", "huì", "will"],
+        ["越来越", "yuèláiyuè", "more and more"],
+        ["多", "duō", "many"],
+        ["。"]
+      ],
+      "en": "The teacher said that with more trees, the park will become more and more beautiful, and there will be more and more birds too."
+    },
+    {
+      "t": [
+        ["种", "zhòng", "to plant"],
+        ["完", "wán", "to finish"],
+        ["树", "shù", "tree"],
+        ["，"],
+        ["大家", "dàjiā", "everyone"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["看", "kàn", "to look at"],
+        ["着", "zhe", "(continuous aspect)"],
+        ["小树", "xiǎoshù", "small tree; sapling"],
+        ["，"],
+        ["心里", "xīnli", "inside; in one's heart"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "After planting the trees, everyone was tired, but looking at the young trees, they felt happy inside."
+    }
+  ],
+  "vocab": [
+    ["环境", "huánjìng", "environment"],
+    ["公园", "gōngyuán", "park"],
+    ["种", "zhòng", "to plant"],
+    ["越来越", "yuèláiyuè", "more and more"],
+    ["决定", "juédìng", "to decide"],
+    ["漂亮", "piàoliang", "pretty; beautiful"]
+  ],
+  "quiz": [
+    {
+      "q": "这两年，公园里的树怎么样了？",
+      "a": ["越来越多", "越来越少", "没有变化"],
+      "c": 1
+    },
+    {
+      "q": "为什么学校决定带大家去公园？",
+      "a": ["为了休息", "为了拍照", "为了让环境变得更好"],
+      "c": 2
+    },
+    {
+      "q": "老师说，树多了会怎么样？",
+      "a": ["公园会越来越漂亮", "鸟会变少", "天气会变冷"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "为了 + goal (in order to)",
+      "e": "为了 introduces the purpose of the action that follows.",
+      "x": "为了让环境变得更好，学校决定带大家去公园种树。"
+    },
+    {
+      "p": "越来越 + adjective (more and more)",
+      "e": "越来越 shows a quality is continuing to increase over time.",
+      "x": "公园会越来越漂亮。"
+    },
+    {
+      "p": "V + 着 (an action continuing as a state)",
+      "e": "着 after a verb shows the action's result continues, often describing manner.",
+      "x": "同学们都带着小树，高高兴兴地去公园。"
+    }
+  ]
+}

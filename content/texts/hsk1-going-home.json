@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-going-home",
+  "level": 1,
+  "title_zh": "回家",
+  "title_py": "Huí jiā",
+  "title_en": "Going Home",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["五","wǔ","five"],["点","diǎn","o'clock"],["，"],["爸爸","bàba","dad"],["回家","huí jiā","to go home"],["了","le","(completed action)"],["。"]],
+      "en": "At five in the afternoon, dad comes home."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["在","zài","at; in"],["家","jiā","home"],["做菜","zuò cài","to cook"],["。"]],
+      "en": "Mom is at home cooking."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["都","dōu","all; both"],["在","zài","at; in"],["家","jiā","home"],["，"],["我们","wǒmen","we; us"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "We are all at home, and we are very happy."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["吃","chī","to eat"],["米饭","mǐfàn","cooked rice"],["。"]],
+      "en": "We eat rice together."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["做","zuò","to make"],["的","de","(possessive particle)"],["菜","cài","dish; food"],["很","hěn","very"],["好吃","hǎochī","delicious"],["，"],["我们","wǒmen","we; us"],["都","dōu","all; both"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "The food mom made is delicious, and we are all very happy."
+    }
+  ],
+  "vocab": [
+    ["回家","huí jiā","to go home"],
+    ["做菜","zuò cài","to cook"],
+    ["好吃","hǎochī","delicious"],
+    ["高兴","gāoxìng","happy"],
+    ["一起","yìqǐ","together"],
+    ["下午","xiàwǔ","afternoon"]
+  ],
+  "quiz": [
+    {"q":"What time does dad come home?","a":["Five in the afternoon","Nine in the morning","Noon"],"c":0},
+    {"q":"What is mom doing at home?","a":["Watching TV","Cooking","Reading books"],"c":1},
+    {"q":"How does the family feel at dinner?","a":["Tired","Bored","Very happy"],"c":2}
+  ],
+  "grammar": [
+    {"p":"回家 — to go home","e":"回 means 'to return', and 家 means 'home'; together 回家 means to head home.","x":"下午五点，爸爸回家了。 — At five in the afternoon, dad comes home."},
+    {"p":"都 — all / both","e":"都 goes right before the verb or adjective to say something is true of everyone mentioned.","x":"我们都在家，我们很高兴。 — We are all at home, and we are very happy."},
+    {"p":"一起 — together","e":"一起 is placed before the verb to show an action done jointly.","x":"我们一起吃米饭。 — We eat rice together."}
+  ]
+}

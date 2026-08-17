@@ -1,0 +1,169 @@
+{
+  "slug": "hsk2-tired-and-resting",
+  "level": 2,
+  "title_zh": "累了就休息",
+  "title_py": "Lèi le jiù xiūxi",
+  "title_en": "Tired? Then Rest",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["我", "wǒ", "I; me"],
+        ["工作", "gōngzuò", "to work; job"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["，"],
+        ["觉得", "juéde", "to feel"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["。"]
+      ],
+      "en": "Today I worked all day, and I felt very tired."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["我", "wǒ", "I; me"],
+        ["回家", "huí jiā", "to go home"],
+        ["，"],
+        ["什么", "shénme", "what"],
+        ["都", "dōu", "all"],
+        ["不", "bù", "not"],
+        ["想", "xiǎng", "to want to"],
+        ["做", "zuò", "to do"],
+        ["。"]
+      ],
+      "en": "In the evening I went home, and I didn't want to do anything."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["看", "kàn", "to look; to see"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tired"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["累", "lèi", "tired"],
+        ["了", "le", "(particle: new situation)"],
+        ["就", "jiù", "then"],
+        ["应该", "yīnggāi", "should"],
+        ["休息", "xiūxi", "to rest"],
+        ["一下", "yíxià", "a bit"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Mom saw that I was very tired, and said, \"If you're tired, you should rest a bit.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["听", "tīng", "to listen"],
+        ["了", "le", "(completed action)"],
+        ["妈妈", "māma", "mom"],
+        ["的", "de", "(possessive particle)"],
+        ["话", "huà", "words"],
+        ["，"],
+        ["在", "zài", "at; in"],
+        ["床上", "chuángshàng", "on the bed"],
+        ["休息", "xiūxi", "to rest"],
+        ["了", "le", "(completed action)"],
+        ["一下", "yíxià", "a bit"],
+        ["。"]
+      ],
+      "en": "I listened to mom's words, and rested on the bed for a bit."
+    },
+    {
+      "t": [
+        ["休息", "xiūxi", "to rest"],
+        ["了", "le", "(completed action)"],
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to feel"],
+        ["好", "hǎo", "good; well"],
+        ["多", "duō", "much; more"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "After resting for twenty minutes, I felt much better."
+    },
+    {
+      "t": [
+        ["累", "lèi", "tired"],
+        ["了", "le", "(particle: new situation)"],
+        ["就", "jiù", "then"],
+        ["休息", "xiūxi", "to rest"],
+        ["一下", "yíxià", "a bit"],
+        ["，"],
+        ["身体", "shēntǐ", "body"],
+        ["就", "jiù", "then"],
+        ["会", "huì", "will"],
+        ["好", "hǎo", "good; fine"],
+        ["。"]
+      ],
+      "en": "Once you're tired, rest a bit — then your body will be fine."
+    }
+  ],
+  "vocab": [
+    ["累", "lèi", "tired"],
+    ["休息", "xiūxi", "to rest"],
+    ["应该", "yīnggāi", "should"],
+    ["一下", "yíxià", "a bit"],
+    ["身体", "shēntǐ", "body"],
+    ["觉得", "juéde", "to feel"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did mom tell the writer to rest?",
+      "a": [
+        "Because the writer was very tired",
+        "Because it was already late at night",
+        "Because the writer was sick"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the writer do after listening to mom?",
+      "a": [
+        "Went out for a walk",
+        "Kept working",
+        "Rested on the bed for a bit"
+      ],
+      "c": 2
+    },
+    {
+      "q": "How did the writer feel after resting for twenty minutes?",
+      "a": [
+        "Still very tired",
+        "Much better",
+        "Hungry"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "累了就休息 — Adj/V + 了 + 就 + V",
+      "e": "了 marks a change, and 就 introduces what happens next: \"once X, then Y.\"",
+      "x": "累了就应该休息一下。 — Once you're tired, you should rest a bit."
+    },
+    {
+      "p": "V + 一下 — a bit; briefly",
+      "e": "一下 after a verb shows the action is brief or casual.",
+      "x": "在床上休息了一下。 — Rested on the bed for a bit."
+    },
+    {
+      "p": "Adj + 多了 — much more (comparative change)",
+      "e": "多了 after an adjective shows a big improvement compared to before.",
+      "x": "我觉得好多了。 — I felt much better."
+    }
+  ]
+}

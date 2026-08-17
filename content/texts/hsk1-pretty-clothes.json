@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-pretty-clothes",
+  "level": 1,
+  "title_zh": "漂亮的衣服",
+  "title_py": "Piàoliang de yīfu",
+  "title_en": "Pretty Clothes",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["商店","shāngdiàn","shop; store"],["里","lǐ","inside"],["有","yǒu","to have; there are"],["很多","hěn duō","many"],["漂亮","piàoliang","pretty"],["的","de","(particle)"],["衣服","yīfu","clothes"],["。"]],
+      "en": "There are many pretty clothes in the shop."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["那个","nà ge","that"],["漂亮","piàoliang","pretty"],["的","de","(particle)"],["衣服","yīfu","clothes"],["。"]],
+      "en": "Mom really likes that pretty piece of clothing."
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["这个","zhè ge","this"],["衣服","yīfu","clothes"],["多少","duōshao","how much"],["钱","qián","money"],["？"],["”"]],
+      "en": "She says, \"How much is this piece of clothing?\""
+    },
+    {
+      "t": [["商店","shāngdiàn","shop; store"],["的","de","(possessive particle)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["三十","sānshí","thirty"],["块","kuài","(unit of money)"],["钱","qián","money"],["。"],["”"]],
+      "en": "The shop clerk says, \"Thirty kuai.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["买","mǎi","to buy"],["了","le","(completed action)"],["那个","nà ge","that"],["漂亮","piàoliang","pretty"],["的","de","(particle)"],["衣服","yīfu","clothes"],["，"],["她","tā","she"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "Mom bought that pretty piece of clothing, and she is very happy."
+    }
+  ],
+  "vocab": [
+    ["商店","shāngdiàn","shop; store"],
+    ["衣服","yīfu","clothes"],
+    ["漂亮","piàoliang","pretty"],
+    ["买","mǎi","to buy"],
+    ["钱","qián","money"],
+    ["多少","duōshao","how much"]
+  ],
+  "quiz": [
+    {"q":"What does the shop have a lot of?","a":["Pretty clothes","Delicious food","Fresh fruit"],"c":0},
+    {"q":"How much does the clothing cost?","a":["Ten kuai","Twenty kuai","Thirty kuai"],"c":2},
+    {"q":"How does mom feel after buying the clothes?","a":["Tired","Very happy","A little angry"],"c":1}
+  ],
+  "grammar": [
+    {"p":"多少钱 — how much money","e":"多少 asks about an amount; put it before 钱 to ask the price of something.","x":"这个衣服多少钱？ — How much is this piece of clothing?"},
+    {"p":"这个 / 那个 — this / that (+ measure word 个)","e":"这 and 那 combine with the measure word 个 to point at a specific thing.","x":"妈妈很喜欢那个漂亮的衣服。 — Mom really likes that pretty piece of clothing."},
+    {"p":"了 — completed action","e":"了 goes right after the verb to show the action already happened.","x":"妈妈买了那个漂亮的衣服。 — Mom bought that pretty piece of clothing."}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-my-computer",
+  "level": 1,
+  "title_zh": "我的电脑",
+  "title_py": "Wǒ de diànnǎo",
+  "title_en": "My Computer",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["有","yǒu","to have"],["一个","yí ge","one; a"],["电脑","diànnǎo","computer"],["，"],["电脑","diànnǎo","computer"],["在","zài","at; in"],["桌子","zhuōzi","table; desk"],["上","shàng","on top of"],["。"]],
+      "en": "I have a computer; the computer is on the desk."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at; in"],["电脑","diànnǎo","computer"],["上","shàng","on top of"],["看","kàn","to watch; to look at"],["电影","diànyǐng","movie"],["。"]],
+      "en": "I watch movies on the computer."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["也","yě","also"],["在","zài","at; in"],["电脑","diànnǎo","computer"],["上","shàng","on top of"],["看","kàn","to watch; to look at"],["书","shū","book"],["。"]],
+      "en": "I also read books on the computer."
+    },
+    {
+      "t": [["爸爸","bàba","dad"],["也","yě","also"],["喜欢","xǐhuan","to like"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["电脑","diànnǎo","computer"],["。"]],
+      "en": "Dad also likes my computer."
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["看","kàn","to watch; to look at"],["电视","diànshì","television"],["。"]],
+      "en": "In the afternoon we watch TV together."
+    }
+  ],
+  "vocab": [
+    ["电脑","diànnǎo","computer"],
+    ["电视","diànshì","television"],
+    ["电影","diànyǐng","movie"],
+    ["书","shū","book"],
+    ["桌子","zhuōzi","table; desk"],
+    ["一起","yìqǐ","together"]
+  ],
+  "quiz": [
+    {"q":"Where is the computer?","a":["On the desk","On the chair","On the bed"],"c":0},
+    {"q":"What does the family do in the afternoon?","a":["Read books","Watch TV together","Watch a movie"],"c":1},
+    {"q":"What does dad like?","a":["Dad's phone","Dad's book","The narrator's computer"],"c":2}
+  ],
+  "grammar": [
+    {"p":"在 + place + 上 — on top of something","e":"在 marks the location, and 上 means 'on'; together 在电脑上 means 'on the computer'.","x":"我在电脑上看电影。 — I watch movies on the computer."},
+    {"p":"也 — also","e":"也 goes right before the verb to add another true statement.","x":"爸爸也喜欢我的电脑。 — Dad also likes my computer."},
+    {"p":"一起 — together","e":"一起 comes before the verb to show that people do something jointly.","x":"我们一起看电视。 — We watch TV together."}
+  ]
+}

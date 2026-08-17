@@ -1,0 +1,150 @@
+{
+  "slug": "hsk5-food-documentary",
+  "level": 5,
+  "title_zh": "美食纪录片",
+  "title_py": "Měishí jìlùpiàn",
+  "title_en": "A Food Documentary",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个", "shàng ge", "last (of a series)"], ["周末", "zhōumò", "weekend"], ["，"],
+        ["我", "wǒ", "I"], ["看", "kàn", "to watch"], ["了", "le", "(particle)"],
+        ["一", "yí", "one"], ["部", "bù", "(measure word for films)"],
+        ["美食", "měishí", "food; cuisine"], ["纪录片", "jìlùpiàn", "documentary"], ["，"],
+        ["里面", "lǐmiàn", "inside"], ["有", "yǒu", "to have; there is"],
+        ["一", "yí", "one"], ["个", "ge", "(measure word)"], ["镜头", "jìngtóu", "shot; camera scene"],
+        ["让", "ràng", "to make; to let"], ["我", "wǒ", "me"], ["特别", "tèbié", "especially"],
+        ["难忘", "nánwàng", "unforgettable"], ["。"]
+      ],
+      "en": "Last weekend I watched a food documentary, and there was one shot in it that left me especially unforgettable."
+    },
+    {
+      "t": [
+        ["镜头", "jìngtóu", "shot"], ["里", "li", "inside"], ["，"],
+        ["云南", "Yúnnán", "Yunnan (province)"], ["的", "de", "(possessive)"],
+        ["一", "yí", "one"], ["位", "wèi", "(polite measure word for people)"], ["奶奶", "nǎinai", "grandmother"],
+        ["清晨", "qīngchén", "early morning"], ["四", "sì", "four"], ["点", "diǎn", "o'clock"],
+        ["就", "jiù", "already"], ["起床", "qǐchuáng", "to get up"], ["，"],
+        ["一", "yí", "one"], ["个", "ge", "(measure word)"], ["人", "rén", "person"],
+        ["在", "zài", "at"], ["厨房", "chúfáng", "kitchen"], ["里", "li", "inside"],
+        ["磨", "mó", "to grind"], ["米", "mǐ", "rice"], ["。"]
+      ],
+      "en": "In the shot, a grandmother in Yunnan gets up at four in the morning and grinds rice alone in the kitchen."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"], ["说", "shuō", "to say"], ["，"],
+        ["磨", "mó", "to grind"], ["米", "mǐ", "rice"], ["这个", "zhège", "this"], ["动作", "dòngzuò", "action; movement"], ["，"],
+        ["她", "tā", "she"], ["已经", "yǐjīng", "already"], ["做", "zuò", "to do"], ["了", "le", "(particle)"],
+        ["四十", "sìshí", "forty"], ["多", "duō", "more than"], ["年", "nián", "year"], ["，"],
+        ["从来", "cónglái", "always; ever"], ["没有", "méiyǒu", "not"], ["停", "tíng", "to stop"], ["过", "guò", "(experiential particle)"], ["。"]
+      ],
+      "en": "She said she has been grinding rice like this for more than forty years and has never once stopped."
+    },
+    {
+      "t": [
+        ["磨好", "móhǎo", "finished grinding"], ["的", "de", "(particle)"], ["米", "mǐ", "rice"], ["要", "yào", "need to"],
+        ["发酵", "fājiào", "to ferment"], ["一", "yí", "one"], ["夜", "yè", "night"], ["，"],
+        ["第二天", "dì-èr tiān", "the next day"], ["中午", "zhōngwǔ", "noon"], ["才", "cái", "only then"],
+        ["能", "néng", "can"], ["做成", "zuòchéng", "to make into"],
+        ["一", "yì", "one"], ["碗", "wǎn", "bowl"], ["热腾腾", "rètēngténg", "steaming hot"], ["的", "de", "(particle)"],
+        ["米线", "mǐxiàn", "rice noodles"], ["。"]
+      ],
+      "en": "The ground rice needs to ferment overnight; only at noon the next day can it be made into a bowl of steaming-hot rice noodles."
+    },
+    {
+      "t": [
+        ["导演", "dǎoyǎn", "director"], ["没有", "méiyǒu", "did not"], ["采访", "cǎifǎng", "to interview"], ["大厨", "dàchú", "master chef"], ["，"],
+        ["也", "yě", "also"], ["没有", "méiyǒu", "did not"], ["比赛", "bǐsài", "competition"], ["，"],
+        ["镜头", "jìngtóu", "shot"], ["里", "li", "inside"], ["只有", "zhǐyǒu", "only have"],
+        ["普通人", "pǔtōngrén", "ordinary people"], ["做饭", "zuòfàn", "to cook"], ["的", "de", "(particle)"], ["样子", "yàngzi", "appearance; manner"], ["。"]
+      ],
+      "en": "The director did not interview any master chefs, and there was no competition — the camera only showed ordinary people cooking."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"], ["我", "wǒ", "I"], ["看", "kàn", "to watch"], ["得", "de", "(complement marker)"],
+        ["非常", "fēicháng", "very"], ["感动", "gǎndòng", "touched; moved"], ["，"],
+        ["因为", "yīnwèi", "because"], ["每", "měi", "every"], ["一", "yí", "one"], ["个", "ge", "(measure word)"],
+        ["简单", "jiǎndān", "simple"], ["的", "de", "(particle)"], ["动作", "dòngzuò", "action"], ["背后", "bèihòu", "behind"], ["，"],
+        ["都", "dōu", "all"], ["是", "shì", "is"], ["几十", "jǐshí", "several tens; dozens"], ["年", "nián", "year"],
+        ["的", "de", "(particle)"], ["坚持", "jiānchí", "persistence"], ["。"]
+      ],
+      "en": "But I was deeply moved, because behind every simple movement was decades of persistence."
+    },
+    {
+      "t": [
+        ["好", "hǎo", "good"], ["的", "de", "(particle)"], ["美食", "měishí", "food"], ["纪录片", "jìlùpiàn", "documentary"], ["，"],
+        ["拍", "pāi", "to film"], ["的", "de", "(nominalizer)"], ["其实", "qíshí", "actually"],
+        ["不", "bù", "not"], ["只", "zhǐ", "only"], ["是", "shì", "is"], ["菜", "cài", "dish"], ["，"],
+        ["而", "ér", "but rather"], ["是", "shì", "is"], ["做菜", "zuòcài", "to cook"], ["的", "de", "(particle)"],
+        ["人", "rén", "people"], ["和", "hé", "and"], ["他们", "tāmen", "their"], ["的", "de", "(particle)"], ["生活", "shēnghuó", "life"], ["。"]
+      ],
+      "en": "A good food documentary is actually filming not just the dishes, but the people who cook and their lives."
+    },
+    {
+      "t": [
+        ["看完", "kànwán", "to finish watching"], ["以后", "yǐhòu", "after"], ["，"],
+        ["我", "wǒ", "I"], ["给", "gěi", "to"], ["妈妈", "māma", "mom"], ["打", "dǎ", "to make (a call)"],
+        ["了", "le", "(particle)"], ["个", "ge", "(measure word)"], ["电话", "diànhuà", "phone call"], ["，"],
+        ["问", "wèn", "to ask"], ["她", "tā", "her"], ["做饭", "zuòfàn", "to cook"], ["的时候", "de shíhou", "when"],
+        ["在", "zài", "(progressive marker)"], ["想", "xiǎng", "to think"], ["什么", "shénme", "what"], ["。"]
+      ],
+      "en": "After I finished watching, I called my mom and asked what she thinks about while cooking."
+    },
+    {
+      "t": [
+        ["她", "tā", "she"], ["笑着", "xiàozhe", "smiling"], ["说", "shuō", "to say"], ["："],
+        ["“"],
+        ["想", "xiǎng", "to want"], ["让", "ràng", "to make; to let"], ["你们", "nǐmen", "you all"],
+        ["吃", "chī", "to eat"], ["得", "de", "(complement marker)"], ["开心", "kāixīn", "happy"], ["，"],
+        ["这", "zhè", "this"], ["就", "jiù", "then"], ["够了", "gòu le", "(is) enough"], ["。"],
+        ["”"]
+      ],
+      "en": "She said with a smile: \"I just want you all to eat happily — that's enough.\""
+    }
+  ],
+  "vocab": [
+    ["纪录片", "jìlùpiàn", "documentary"],
+    ["镜头", "jìngtóu", "shot; camera scene"],
+    ["磨", "mó", "to grind"],
+    ["发酵", "fājiào", "to ferment"],
+    ["热腾腾", "rètēngténg", "steaming hot"],
+    ["米线", "mǐxiàn", "rice noodles"]
+  ],
+  "quiz": [
+    {
+      "q": "纪录片里的奶奶来自哪里？",
+      "a": ["云南", "甘肃", "四川"],
+      "c": 0
+    },
+    {
+      "q": "奶奶磨米这个动作，她做了多少年？",
+      "a": ["十年", "二十年", "四十多年"],
+      "c": 2
+    },
+    {
+      "q": "磨好的米需要怎么处理才能做成米线？",
+      "a": ["立刻煮熟", "发酵一夜以后再做", "放进冰箱"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "让",
+      "e": "'To make/let someone do something' — introduces a causative result.",
+      "x": "这个镜头让我特别难忘。"
+    },
+    {
+      "p": "不只是……而是……",
+      "e": "'Not just... but rather...' — corrects an assumption with the real point.",
+      "x": "拍的其实不只是菜，而是做菜的人和他们的生活。"
+    },
+    {
+      "p": "从来 + negative",
+      "e": "'Never (once)' — emphasizes that something has not happened at all, from past to present.",
+      "x": "她已经做了四十多年，从来没有停过。"
+    }
+  ]
+}

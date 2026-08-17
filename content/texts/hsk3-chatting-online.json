@@ -1,0 +1,180 @@
+{
+  "slug": "hsk3-chatting-online",
+  "level": 3,
+  "title_zh": "网上聊天",
+  "title_py": "Wǎngshàng liáotiān",
+  "title_en": "Chatting Online",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["有", "yǒu", "to have"],
+        ["一个", "yí ge", "one; a single"],
+        ["朋友", "péngyou", "friend"],
+        ["住", "zhù", "to live"],
+        ["在", "zài", "at; in"],
+        ["美国", "Měiguó", "the United States"],
+        ["，"],
+        ["我们", "wǒmen", "we; us"],
+        ["很久", "hěnjiǔ", "a long time"],
+        ["没", "méi", "not"],
+        ["见面", "jiànmiàn", "to meet"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "I have a friend who lives in America; we haven't seen each other in a long time."
+    },
+    {
+      "t": [
+        ["昨天", "zuótiān", "yesterday"],
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["开", "kāi", "to turn on"],
+        ["电脑", "diànnǎo", "computer"],
+        ["，"],
+        ["和", "hé", "with"],
+        ["他", "tā", "he; him"],
+        ["在", "zài", "at; in"],
+        ["网上", "wǎngshàng", "online"],
+        ["聊天", "liáotiān", "to chat"],
+        ["。"]
+      ],
+      "en": "Last night, I turned on my computer and chatted with him online."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "I; me"],
+        ["最近", "zuìjìn", "recently"],
+        ["怎么样", "zěnmeyàng", "how"],
+        ["，"],
+        ["工作", "gōngzuò", "job; work"],
+        ["忙不忙", "máng bu máng", "busy or not"],
+        ["。"]
+      ],
+      "en": "He asked me how I've been recently, and whether work has been busy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["告诉", "gàosu", "to tell"],
+        ["他", "tā", "he; him"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["换", "huàn", "to change"],
+        ["了", "le", "(completed action)"],
+        ["新", "xīn", "new"],
+        ["工作", "gōngzuò", "job; work"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["搬", "bān", "to move (house)"],
+        ["了", "le", "(completed action)"],
+        ["新", "xīn", "new"],
+        ["家", "jiā", "home"],
+        ["。"]
+      ],
+      "en": "I told him that I've changed to a new job, and also moved to a new home."
+    },
+    {
+      "t": [
+        ["他", "tā", "he; him"],
+        ["说", "shuō", "to say"],
+        ["他", "tā", "he; him"],
+        ["打算", "dǎsuàn", "to plan"],
+        ["明年", "míngnián", "next year"],
+        ["去", "qù", "to go"],
+        ["中国", "Zhōngguó", "China"],
+        ["旅游", "lǚyóu", "to travel"],
+        ["，"],
+        ["想", "xiǎng", "to want to"],
+        ["来", "lái", "to come"],
+        ["看", "kàn", "to see"],
+        ["我", "wǒ", "I; me"],
+        ["。"]
+      ],
+      "en": "He said he plans to travel to China next year, and wants to come see me."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["听", "tīng", "to listen; to hear"],
+        ["了", "le", "(completed action)"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["，"],
+        ["马上", "mǎshàng", "immediately"],
+        ["说", "shuō", "to say"],
+        ["好", "hǎo", "good; okay"],
+        ["啊", "a", "(exclamatory particle)"],
+        ["，"],
+        ["欢迎", "huānyíng", "welcome"],
+        ["你", "nǐ", "you"],
+        ["。"]
+      ],
+      "en": "I was happy to hear this, and immediately said, great, welcome!"
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we; us"],
+        ["聊", "liáo", "to chat"],
+        ["了", "le", "(completed action)"],
+        ["两个多", "liǎng ge duō", "more than two"],
+        ["小时", "xiǎoshí", "hour"],
+        ["，"],
+        ["还是", "háishi", "still"],
+        ["觉得", "juéde", "to think; to feel"],
+        ["时间", "shíjiān", "time"],
+        ["太", "tài", "too"],
+        ["短", "duǎn", "short"],
+        ["了", "le", "(change of state)"],
+        ["。"]
+      ],
+      "en": "We chatted for more than two hours, but we still felt the time was too short."
+    }
+  ],
+  "vocab": [
+    ["聊天", "liáotiān", "to chat"],
+    ["最近", "zuìjìn", "recently"],
+    ["打算", "dǎsuàn", "to plan"],
+    ["换", "huàn", "to change"],
+    ["搬", "bān", "to move (house)"],
+    ["短", "duǎn", "short"]
+  ],
+  "quiz": [
+    {
+      "q": "我们在哪儿聊天？",
+      "a": ["饭馆里", "电话里", "网上"],
+      "c": 2
+    },
+    {
+      "q": "我最近做了什么改变？",
+      "a": ["换了新工作，搬了新家", "换了新朋友", "去美国旅游"],
+      "c": 0
+    },
+    {
+      "q": "我们聊了多长时间？",
+      "a": ["一个小时", "两个多小时", "三个小时"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "数字 + 多 + 量词 (more than a number)",
+      "e": "多 placed after a number and before the measure word shows the true amount is a bit more than that number.",
+      "x": "我们聊了两个多小时。"
+    },
+    {
+      "p": "打算 + verb (to plan to do something)",
+      "e": "打算 introduces a plan or intention for the future.",
+      "x": "他打算明年去中国旅游。"
+    },
+    {
+      "p": "还是 (still; nevertheless)",
+      "e": "还是 shows that despite something happening, a feeling or situation stays the same.",
+      "x": "我们聊了两个多小时，还是觉得时间太短了。"
+    }
+  ]
+}

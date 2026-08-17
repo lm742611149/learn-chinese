@@ -1,0 +1,205 @@
+{
+  "slug": "hsk4-holiday-plans",
+  "level": 4,
+  "title_zh": "假期计划",
+  "title_py": "Jiàqī jìhuà",
+  "title_en": "Holiday Plans",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["暑假", "shǔjià", "summer vacation"],
+        ["快", "kuài", "soon"],
+        ["到了", "dàole", "arriving"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["和", "hé", "and"],
+        ["朋友", "péngyou", "friend"],
+        ["一直", "yìzhí", "continuously"],
+        ["在", "zài", "(progressive marker)"],
+        ["讨论", "tǎolùn", "to discuss"],
+        ["假期", "jiàqī", "vacation"],
+        ["计划", "jìhuà", "plan"],
+        ["。"]
+      ],
+      "en": "Summer vacation is coming soon, and my friend and I have been discussing our holiday plans."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["想", "xiǎng", "want to"],
+        ["去", "qù", "go"],
+        ["南方", "nánfāng", "the south"],
+        ["看", "kàn", "see"],
+        ["海", "hǎi", "the sea"],
+        ["，"],
+        ["因为", "yīnwèi", "because"],
+        ["北方", "běifāng", "the north"],
+        ["的", "de", "(possessive)"],
+        ["夏天", "xiàtiān", "summer"],
+        ["太", "tài", "too"],
+        ["热", "rè", "hot"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "I want to go south to see the ocean, because summer in the north is too hot."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["觉得", "juéde", "to feel"],
+        ["旅行", "lǚxíng", "to travel"],
+        ["太", "tài", "too"],
+        ["累", "lèi", "tiring"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["更", "gèng", "more"],
+        ["喜欢", "xǐhuan", "to like"],
+        ["在家", "zài jiā", "at home"],
+        ["看书", "kàn shū", "to read books"],
+        ["、"],
+        ["睡懒觉", "shuì lǎnjiào", "to sleep in"],
+        ["。"]
+      ],
+      "en": "My friend thinks traveling is too tiring — he prefers staying home to read and sleep in."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["两个人", "liǎng ge rén", "the two of us"],
+        ["的", "de", "(possessive)"],
+        ["想法", "xiǎngfǎ", "idea"],
+        ["完全", "wánquán", "completely"],
+        ["不一样", "bù yíyàng", "different"],
+        ["，"],
+        ["谁", "shéi", "who"],
+        ["也", "yě", "even"],
+        ["说服", "shuōfú", "to persuade"],
+        ["不了", "bùliǎo", "cannot"],
+        ["谁", "shéi", "who"],
+        ["。"]
+      ],
+      "en": "Our ideas are completely different, and neither of us can persuade the other."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "afterward"],
+        ["我们", "wǒmen", "we"],
+        ["决定", "juédìng", "to decide"],
+        ["各自", "gèzì", "each on one's own"],
+        ["安排", "ānpái", "to arrange"],
+        ["自己", "zìjǐ", "oneself"],
+        ["的", "de", "(possessive)"],
+        ["假期", "jiàqī", "vacation"],
+        ["，"],
+        ["互", "hù", "mutually"],
+        ["不", "bù", "not"],
+        ["打扰", "dǎrǎo", "to disturb"],
+        ["。"]
+      ],
+      "en": "In the end, we decided to each arrange our own vacation and not bother each other."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["订好了", "dìnghǎole", "booked"],
+        ["机票", "jīpiào", "plane ticket"],
+        ["和", "hé", "and"],
+        ["酒店", "jiǔdiàn", "hotel"],
+        ["，"],
+        ["准备", "zhǔnbèi", "to plan to"],
+        ["去", "qù", "go"],
+        ["海边", "hǎibiān", "seaside"],
+        ["玩儿", "wánr", "to have fun"],
+        ["一个星期", "yí ge xīngqī", "one week"],
+        ["。"]
+      ],
+      "en": "I booked my flight and hotel, planning to spend a week at the seaside."
+    },
+    {
+      "t": [
+        ["出发", "chūfā", "to depart"],
+        ["前", "qián", "before"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["把", "bǎ", "(ba-construction marker)"],
+        ["工作", "gōngzuò", "work"],
+        ["都", "dōu", "all"],
+        ["安排好了", "ānpái hǎo le", "arranged well"],
+        ["，"],
+        ["这样", "zhèyàng", "this way"],
+        ["才", "cái", "only then"],
+        ["能", "néng", "can"],
+        ["放心", "fàngxīn", "to feel at ease"],
+        ["地", "de", "(adverbial marker)"],
+        ["休息", "xiūxi", "to rest"],
+        ["。"]
+      ],
+      "en": "Before leaving, I arranged all my work so that I could rest with peace of mind."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to think"],
+        ["，"],
+        ["无论", "wúlùn", "no matter"],
+        ["假期", "jiàqī", "vacation"],
+        ["怎么", "zěnme", "how"],
+        ["过", "guò", "to spend (time)"],
+        ["，"],
+        ["重要", "zhòngyào", "important"],
+        ["的", "de", "(particle)"],
+        ["是", "shì", "is"],
+        ["让", "ràng", "to let"],
+        ["自己", "zìjǐ", "oneself"],
+        ["真正", "zhēnzhèng", "truly"],
+        ["放松", "fàngsōng", "to relax"],
+        ["下来", "xiàlái", "(complement: settling into a state)"],
+        ["。"]
+      ],
+      "en": "I think that no matter how you spend a vacation, what matters most is truly letting yourself relax."
+    }
+  ],
+  "vocab": [
+    ["讨论", "tǎolùn", "to discuss"],
+    ["说服", "shuōfú", "to persuade"],
+    ["各自", "gèzì", "each on one's own"],
+    ["放松", "fàngsōng", "to relax"],
+    ["无论", "wúlùn", "no matter (what/how)"],
+    ["睡懒觉", "shuì lǎnjiào", "to sleep in"]
+  ],
+  "quiz": [
+    {
+      "q": "Why does the author want to go south for vacation?",
+      "a": ["Because hotels are cheaper there", "Because summer in the north is too hot", "Because his friend wants to go"],
+      "c": 1
+    },
+    {
+      "q": "What does the friend prefer to do during vacation, according to the text?",
+      "a": ["Stay home reading and sleeping in", "Travel abroad", "Work overtime"],
+      "c": 0
+    },
+    {
+      "q": "According to the last sentence, what does the author think matters most about a vacation?",
+      "a": ["Spending as much money as possible", "Following everyone else's plan", "Truly relaxing, no matter how the vacation is spent"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "谁也……不了……",
+      "e": "\"No one can...\" 谁 here means \"whoever/anyone,\" and 也 emphasizes that not even one person can do it: 谁也说服不了谁。",
+      "x": "这道题太难了，谁也做不出来。— This problem is too hard; no one can solve it."
+    },
+    {
+      "p": "无论……，……都/就……",
+      "e": "\"No matter...\" 无论 introduces a question word or choice, and the following clause states a result that holds regardless: 无论假期怎么过，重要的是让自己真正放松下来。",
+      "x": "无论多忙，他每天都锻炼身体。— No matter how busy he is, he exercises every day."
+    },
+    {
+      "p": "才",
+      "e": "才 indicates that something happens only under a certain condition, often translated as \"only then\": 我把工作都安排好了，这样才能放心地休息。",
+      "x": "你多练习，才能说得流利。— Only by practicing more can you speak fluently."
+    }
+  ]
+}

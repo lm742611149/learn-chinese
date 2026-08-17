@@ -1,0 +1,201 @@
+{
+  "slug": "hsk4-first-tcm-visit",
+  "level": 4,
+  "title_zh": "中医初体验",
+  "title_py": "Zhōngyī chū tǐyàn",
+  "title_en": "A First Try at Chinese Medicine",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["上个星期", "shàng ge xīngqī", "last week"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["第一次", "dì yī cì", "the first time"],
+        ["去", "qù", "to go"],
+        ["看", "kàn", "to see (a doctor)"],
+        ["中医", "zhōngyī", "Traditional Chinese Medicine (doctor)"],
+        ["。"]
+      ],
+      "en": "Last week, I went to see a Traditional Chinese Medicine doctor for the first time."
+    },
+    {
+      "t": [
+        ["中医", "zhōngyī", "TCM"],
+        ["大夫", "dàifu", "doctor"],
+        ["先", "xiān", "first"],
+        ["给", "gěi", "for"],
+        ["我", "wǒ", "me"],
+        ["把脉", "bǎmài", "to take the pulse"],
+        ["，"],
+        ["然后", "ránhòu", "then"],
+        ["问", "wèn", "to ask"],
+        ["我", "wǒ", "me"],
+        ["最近", "zuìjìn", "recently"],
+        ["睡", "shuì", "to sleep"],
+        ["得", "de", "(degree particle)"],
+        ["好不好", "hǎo bu hǎo", "whether well or not"],
+        ["。"]
+      ],
+      "en": "The TCM doctor first took my pulse, then asked whether I had been sleeping well lately."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["说", "shuō", "say"],
+        ["我", "wǒ", "my"],
+        ["压力", "yālì", "stress"],
+        ["太", "tài", "too"],
+        ["大", "dà", "great"],
+        ["，"],
+        ["晚上", "wǎnshang", "at night"],
+        ["睡", "shuì", "sleep"],
+        ["得", "de", "(degree particle)"],
+        ["不够", "búgòu", "not enough"],
+        ["，"],
+        ["所以", "suǒyǐ", "so"],
+        ["身体", "shēntǐ", "body"],
+        ["有点儿", "yǒudiǎnr", "a bit"],
+        ["虚", "xū", "weak; deficient"],
+        ["。"]
+      ],
+      "en": "He said I was under too much stress and not sleeping enough at night, so my body was a bit weak."
+    },
+    {
+      "t": [
+        ["大夫", "dàifu", "doctor"],
+        ["给", "gěi", "for"],
+        ["我", "wǒ", "me"],
+        ["开了", "kāile", "prescribed"],
+        ["一些", "yìxiē", "some"],
+        ["中药", "zhōngyào", "Chinese herbal medicine"],
+        ["，"],
+        ["让", "ràng", "to let"],
+        ["我", "wǒ", "me"],
+        ["每天", "měitiān", "every day"],
+        ["喝", "hē", "to drink"],
+        ["一次", "yí cì", "once"],
+        ["。"]
+      ],
+      "en": "The doctor prescribed some Chinese herbal medicine for me and told me to drink it once a day."
+    },
+    {
+      "t": [
+        ["药", "yào", "medicine"],
+        ["的", "de", "(possessive)"],
+        ["味道", "wèidao", "taste"],
+        ["很", "hěn", "very"],
+        ["苦", "kǔ", "bitter"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["喝了", "hēle", "drank"],
+        ["几天", "jǐ tiān", "a few days"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I"],
+        ["觉得", "juéde", "to feel"],
+        ["舒服", "shūfu", "comfortable"],
+        ["多了", "duō le", "much more"],
+        ["。"]
+      ],
+      "en": "The medicine tasted very bitter, but after drinking it for a few days, I felt much more comfortable."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"],
+        ["还", "hái", "also"],
+        ["试了", "shìle", "tried"],
+        ["针灸", "zhēnjiǔ", "acupuncture"],
+        ["，"],
+        ["一开始", "yì kāishǐ", "at first"],
+        ["有点儿", "yǒudiǎnr", "a bit"],
+        ["疼", "téng", "painful"],
+        ["，"],
+        ["后来", "hòulái", "afterward"],
+        ["就", "jiù", "then"],
+        ["习惯了", "xíguàn le", "got used to"],
+        ["。"]
+      ],
+      "en": "I also tried acupuncture — it hurt a little at first, but I got used to it afterward."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "me"],
+        ["，"],
+        ["看", "kàn", "to see"],
+        ["中医", "zhōngyī", "TCM"],
+        ["需要", "xūyào", "to need"],
+        ["耐心", "nàixīn", "patience"],
+        ["，"],
+        ["效果", "xiàoguǒ", "effect"],
+        ["不是", "bú shì", "is not"],
+        ["马上", "mǎshàng", "immediately"],
+        ["就", "jiù", "then"],
+        ["能", "néng", "can"],
+        ["看到", "kàndào", "see"],
+        ["的", "de", "(emphatic particle)"],
+        ["。"]
+      ],
+      "en": "A friend told me that seeing a TCM doctor requires patience, since the effects aren't visible right away."
+    },
+    {
+      "t": [
+        ["这次", "zhè cì", "this time"],
+        ["经验", "jīngyàn", "experience"],
+        ["让", "ràng", "to let"],
+        ["我", "wǒ", "me"],
+        ["对", "duì", "towards"],
+        ["中医", "zhōngyī", "TCM"],
+        ["有了", "yǒule", "gained"],
+        ["新的", "xīn de", "new"],
+        ["了解", "liǎojiě", "understanding"],
+        ["。"]
+      ],
+      "en": "This experience gave me a new understanding of Traditional Chinese Medicine."
+    }
+  ],
+  "vocab": [
+    ["中医", "zhōngyī", "Traditional Chinese Medicine (doctor)"],
+    ["把脉", "bǎmài", "to take someone's pulse"],
+    ["针灸", "zhēnjiǔ", "acupuncture"],
+    ["虚", "xū", "weak; deficient (TCM term)"],
+    ["中药", "zhōngyào", "Chinese herbal medicine"],
+    ["大夫", "dàifu", "doctor"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the TCM doctor do first, according to the text?",
+      "a": ["Gave the author acupuncture right away", "Told the author to sleep more", "Took the author's pulse and asked about sleep"],
+      "c": 2
+    },
+    {
+      "q": "Why did the doctor say the author's body was weak (虚)?",
+      "a": ["Because of too much stress and not enough sleep", "Because the author ate too little", "Because the author exercised too much"],
+      "c": 0
+    },
+    {
+      "q": "How did the author feel about acupuncture over time?",
+      "a": ["It was painless from the start", "A bit painful at first, then got used to it", "So painful that it was never tried again"],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "先……然后……",
+      "e": "\"First... then...\" 先 marks the first action, 然后 marks what happens next: 中医大夫先给我把脉，然后问我最近睡得好不好。",
+      "x": "我们先吃饭，然后去看电影。— Let's eat first, then go watch a movie."
+    },
+    {
+      "p": "让",
+      "e": "让 + person + verb expresses letting or telling someone to do something: 大夫给我开了一些中药，让我每天喝一次。",
+      "x": "妈妈让我早点儿回家。— Mom told me to come home early."
+    },
+    {
+      "p": "不是……的",
+      "e": "Used at the end of a sentence to soften or emphasize a statement about how things are: 效果不是马上就能看到的。",
+      "x": "学好一门语言不是一天两天的。— Mastering a language isn't something that happens in a day or two."
+    }
+  ]
+}

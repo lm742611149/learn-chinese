@@ -1,0 +1,222 @@
+{
+  "slug": "hsk4-rideshare-driver",
+  "level": 4,
+  "title_zh": "网约车司机",
+  "title_py": "Wǎngyuēchē sījī",
+  "title_en": "The Rideshare Driver",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["老王", "Lǎo Wáng", "Old Wang"],
+        ["开", "kāi", "to drive"],
+        ["网约车", "wǎngyuēchē", "ride-hailing car"],
+        ["已经", "yǐjīng", "already"],
+        ["三年", "sān nián", "three years"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["每天", "měitiān", "every day"],
+        ["在", "zài", "in"],
+        ["城市", "chéngshì", "city"],
+        ["里", "lǐ", "inside"],
+        ["跑", "pǎo", "to run/drive around"],
+        ["十几个小时", "shí jǐ ge xiǎoshí", "over ten hours"],
+        ["。"]
+      ],
+      "en": "Old Wang has been driving for a ride-hailing app for three years, running around the city for over ten hours every day."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["说", "shuō", "says"],
+        ["，"],
+        ["白天", "báitiān", "daytime"],
+        ["堵车", "dǔchē", "traffic jam"],
+        ["的时候", "de shíhou", "when"],
+        ["，"],
+        ["一趟", "yí tàng", "one trip"],
+        ["活儿", "huór", "job; gig"],
+        ["有时候", "yǒu shíhou", "sometimes"],
+        ["要", "yào", "need to"],
+        ["开", "kāi", "to drive"],
+        ["一个小时", "yí ge xiǎoshí", "one hour"],
+        ["。"]
+      ],
+      "en": "He says that when there's traffic during the day, a single trip can sometimes take an hour."
+    },
+    {
+      "t": [
+        ["昨天晚上", "zuótiān wǎnshang", "last night"],
+        ["，"],
+        ["一个", "yí ge", "a"],
+        ["女乘客", "nǚ chéngkè", "female passenger"],
+        ["上车", "shàngchē", "to get in the car"],
+        ["以后", "yǐhòu", "after"],
+        ["一直", "yìzhí", "continuously"],
+        ["在", "zài", "(progressive marker)"],
+        ["打电话", "dǎ diànhuà", "to make a phone call"],
+        ["哭", "kū", "to cry"],
+        ["。"]
+      ],
+      "en": "Last night, a female passenger got in the car and cried on the phone the whole time."
+    },
+    {
+      "t": [
+        ["老王", "Lǎo Wáng", "Old Wang"],
+        ["没有", "méiyǒu", "did not"],
+        ["问", "wèn", "to ask"],
+        ["她", "tā", "her"],
+        ["怎么了", "zěnme le", "what's wrong"],
+        ["，"],
+        ["只是", "zhǐshì", "just"],
+        ["把", "bǎ", "(ba-construction marker)"],
+        ["空调", "kōngtiáo", "air conditioner"],
+        ["调", "tiáo", "to adjust"],
+        ["暖和", "nuǎnhuo", "warm"],
+        ["一点儿", "yìdiǎnr", "a bit"],
+        ["，"],
+        ["安安静静", "ān'ān jìngjìng", "quietly"],
+        ["地", "de", "(adverbial marker)"],
+        ["开车", "kāichē", "to drive"],
+        ["。"]
+      ],
+      "en": "Old Wang didn't ask her what was wrong — he just turned the air conditioner a bit warmer and drove quietly."
+    },
+    {
+      "t": [
+        ["到了", "dàole", "arrived"],
+        ["地方", "dìfang", "place"],
+        ["，"],
+        ["那个", "nàge", "that"],
+        ["女乘客", "nǚ chéngkè", "female passenger"],
+        ["下车", "xiàchē", "to get off"],
+        ["前", "qián", "before"],
+        ["跟", "gēn", "to"],
+        ["他", "tā", "him"],
+        ["说了", "shuōle", "said"],
+        ["声", "shēng", "(a word of)"],
+        ["谢谢", "xièxie", "thank you"],
+        ["，"],
+        ["心情", "xīnqíng", "mood"],
+        ["好像", "hǎoxiàng", "seem"],
+        ["好了", "hǎole", "got better"],
+        ["一些", "yìxiē", "a bit"],
+        ["。"]
+      ],
+      "en": "When they arrived, the passenger said thank you before getting out, and her mood seemed to have improved a little."
+    },
+    {
+      "t": [
+        ["老王", "Lǎo Wáng", "Old Wang"],
+        ["笑着说", "xiàozhe shuō", "said with a smile"],
+        ["，"],
+        ["开", "kāi", "to drive"],
+        ["网约车", "wǎngyuēchē", "ride-hailing car"],
+        ["最", "zuì", "most"],
+        ["有意思", "yǒu yìsi", "interesting"],
+        ["的地方", "de dìfang", "the part"],
+        ["，"],
+        ["就是", "jiùshì", "is precisely"],
+        ["每天", "měitiān", "every day"],
+        ["都", "dōu", "all"],
+        ["能", "néng", "can"],
+        ["遇到", "yùdào", "to encounter"],
+        ["不一样", "bù yíyàng", "different"],
+        ["的", "de", "(possessive)"],
+        ["人", "rén", "people"],
+        ["和", "hé", "and"],
+        ["故事", "gùshi", "stories"],
+        ["。"]
+      ],
+      "en": "Old Wang says with a smile that the most interesting part of driving is meeting different people and stories every day."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["也", "yě", "also"],
+        ["承认", "chéngrèn", "to admit"],
+        ["，"],
+        ["这份", "zhè fèn", "this (job)"],
+        ["工作", "gōngzuò", "job"],
+        ["很", "hěn", "very"],
+        ["累", "lèi", "tiring"],
+        ["，"],
+        ["收入", "shōurù", "income"],
+        ["也", "yě", "also"],
+        ["不太", "bú tài", "not very"],
+        ["稳定", "wěndìng", "stable"],
+        ["，"],
+        ["好的时候", "hǎo de shíhou", "the good times"],
+        ["和", "hé", "and"],
+        ["不好的时候", "bù hǎo de shíhou", "the bad times"],
+        ["差别", "chābié", "difference"],
+        ["很大", "hěn dà", "very big"],
+        ["。"]
+      ],
+      "en": "He also admits the job is tiring and the income isn't very stable — the good days and bad days are very different."
+    },
+    {
+      "t": [
+        ["但", "dàn", "but"],
+        ["他", "tā", "he"],
+        ["觉得", "juéde", "to feel"],
+        ["，"],
+        ["能", "néng", "can"],
+        ["听到", "tīngdào", "to hear"],
+        ["这么多", "zhème duō", "so many"],
+        ["陌生人", "mòshēngrén", "strangers"],
+        ["的", "de", "(possessive)"],
+        ["故事", "gùshi", "stories"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["算是", "suànshì", "counts as"],
+        ["一种", "yì zhǒng", "a kind of"],
+        ["收获", "shōuhuò", "gain"],
+        ["。"]
+      ],
+      "en": "But he feels that hearing so many strangers' stories is also a kind of gain."
+    }
+  ],
+  "vocab": [
+    ["网约车", "wǎngyuēchē", "ride-hailing car"],
+    ["乘客", "chéngkè", "passenger"],
+    ["活儿", "huór", "job; gig (colloquial)"],
+    ["承认", "chéngrèn", "to admit"],
+    ["陌生人", "mòshēngrén", "stranger"],
+    ["收获", "shōuhuò", "gain; harvest (figurative)"]
+  ],
+  "quiz": [
+    {
+      "q": "How long has Old Wang been driving a ride-hailing car?",
+      "a": ["Three years", "Ten years", "One year"],
+      "c": 0
+    },
+    {
+      "q": "What did Old Wang do when the crying female passenger got in the car?",
+      "a": ["Repeatedly asked her what was wrong", "Turned up the air conditioner's warmth and drove quietly", "Told her to stop crying"],
+      "c": 1
+    },
+    {
+      "q": "According to the last two sentences, what does Old Wang say he gains most from the job?",
+      "a": ["A high, stable income", "Plenty of free time to rest", "Hearing many strangers' stories"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "把 + O + V + 补语",
+      "e": "The 把 construction moves the object before the verb to emphasize what happens to it, often followed by a result or complement: 把空调调暖和一点儿。",
+      "x": "请把门关好。— Please close the door properly."
+    },
+    {
+      "p": "……的时候……的时候……(对比)",
+      "e": "Repeating \"……的时候\" lets you contrast two different times or situations: 好的时候和不好的时候差别很大。",
+      "x": "忙的时候和不忙的时候，他的心情很不一样。— When he's busy versus not busy, his mood is very different."
+    },
+    {
+      "p": "也算是……",
+      "e": "\"Can also be considered as...\" — used to reframe something in a positive light: 也算是一种收获。",
+      "x": "虽然没拿到奖，但学到了很多，也算是一种收获。— Although he didn't win an award, he learned a lot, which can also be considered a gain."
+    }
+  ]
+}

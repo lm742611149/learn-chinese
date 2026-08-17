@@ -1,0 +1,298 @@
+{
+  "slug": "hsk6-why-nostalgia",
+  "level": 6,
+  "title_zh": "怀旧为何流行",
+  "title_py": "Huáijiù wèihé liúxíng",
+  "title_en": "Why Nostalgia Is Popular",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["近", "jìn", "recent; close to"],
+        ["几", "jǐ", "several"],
+        ["年", "nián", "years"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["老", "lǎo", "old"],
+        ["歌", "gē", "song"],
+        ["翻红", "fānhóng", "to become popular again"],
+        ["到", "dào", "to"],
+        ["复古", "fùgǔ", "retro; vintage"],
+        ["穿搭", "chuāndā", "outfit; styling"],
+        ["盛行", "shèngxíng", "to be in vogue; prevalent"],
+        ["，"],
+        ["怀旧", "huáijiù", "nostalgia"],
+        ["俨然", "yǎnrán", "seemingly; as if (formal)"],
+        ["成", "chéng", "to become"],
+        ["了", "le", "(completed action)"],
+        ["一", "yì", "one"],
+        ["种", "zhǒng", "kind of"],
+        ["潮流", "cháoliú", "trend"],
+        ["。"]
+      ],
+      "en": "In recent years, from old songs becoming hits again to retro outfits sweeping the streets, nostalgia has, it would seem, become a trend in its own right."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there is"],
+        ["趣", "qù", "interesting"],
+        ["的", "de", "(possessive particle)"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["最", "zuì", "most"],
+        ["热衷", "rèzhōng", "keen; enthusiastic"],
+        ["于", "yú", "about (formal)"],
+        ["怀旧", "huáijiù", "nostalgia"],
+        ["的", "de", "(possessive particle)"],
+        ["，"],
+        ["往往", "wǎngwǎng", "often"],
+        ["不", "bú", "not"],
+        ["是", "shì", "is"],
+        ["经历", "jīnglì", "to experience; go through"],
+        ["过", "guò", "(experiential particle)"],
+        ["那个", "nàge", "that"],
+        ["年代", "niándài", "era"],
+        ["的", "de", "(possessive particle)"],
+        ["长辈", "zhǎngbèi", "elders"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["从未", "cóngwèi", "never"],
+        ["亲身", "qīnshēn", "personally; in person"],
+        ["经历", "jīnglì", "to experience"],
+        ["过", "guò", "(experiential particle)"],
+        ["的", "de", "(possessive particle)"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["。"]
+      ],
+      "en": "Interestingly, those most keen on nostalgia are often not the elders who actually lived through that era, but young people who never personally experienced it at all."
+    },
+    {
+      "t": [
+        ["心理学家", "xīnlǐxuéjiā", "psychologist"],
+        ["指出", "zhǐchū", "to point out"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["种", "zhǒng", "kind of"],
+        ["现象", "xiànxiàng", "phenomenon"],
+        ["并非", "bìngfēi", "is not really (formal)"],
+        ["对", "duì", "toward"],
+        ["某", "mǒu", "a certain"],
+        ["个", "ge", "(measure word)"],
+        ["具体", "jùtǐ", "specific; concrete"],
+        ["年代", "niándài", "era"],
+        ["的", "de", "(possessive particle)"],
+        ["向往", "xiàngwǎng", "yearning; longing"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["对", "duì", "toward"],
+        ["确定性", "quèdìngxìng", "certainty"],
+        ["的", "de", "(possessive particle)"],
+        ["渴望", "kěwàng", "craving; thirst"],
+        ["。"]
+      ],
+      "en": "Psychologists point out that this phenomenon is not really longing for a specific era at all, but rather a craving for certainty."
+    },
+    {
+      "t": [
+        ["在", "zài", "in"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["变化", "biànhuà", "change"],
+        ["过", "guò", "excessively; too"],
+        ["快", "kuài", "fast"],
+        ["、"],
+        ["未来", "wèilái", "future"],
+        ["难以", "nányǐ", "hard to"],
+        ["预测", "yùcè", "to predict"],
+        ["的", "de", "(possessive particle)"],
+        ["时代", "shídài", "era"],
+        ["，"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["被", "bèi", "(passive marker)"],
+        ["简化", "jiǎnhuà", "to simplify"],
+        ["、"],
+        ["被", "bèi", "(passive marker)"],
+        ["美化", "měihuà", "to beautify; idealize"],
+        ["的", "de", "(possessive particle)"],
+        ["过去", "guòqù", "the past"],
+        ["，"],
+        ["显得", "xiǎnde", "to appear; seem"],
+        ["格外", "géwài", "especially; particularly"],
+        ["安全", "ānquán", "safe"],
+        ["。"]
+      ],
+      "en": "In an era of overly rapid change where the future is hard to predict, a simplified, idealized past appears especially safe."
+    },
+    {
+      "t": [
+        ["换句话说", "huàn jù huà shuō", "in other words"],
+        ["，"],
+        ["年轻人", "niánqīngrén", "young people"],
+        ["怀念", "huáiniàn", "to reminisce; cherish the memory of"],
+        ["的", "de", "(possessive particle)"],
+        ["并非", "bìngfēi", "not really (formal)"],
+        ["真实", "zhēnshí", "real; true"],
+        ["的", "de", "(possessive particle)"],
+        ["过去", "guòqù", "the past"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["被", "bèi", "(passive marker)"],
+        ["剪辑", "jiǎnjí", "edited; cut (as in film)"],
+        ["过", "guò", "(completed action, formal)"],
+        ["的", "de", "(possessive particle)"],
+        ["版本", "bǎnběn", "version"],
+        ["："],
+        ["只", "zhǐ", "only"],
+        ["留下", "liúxià", "to leave behind; retain"],
+        ["温暖", "wēnnuǎn", "warm"],
+        ["，"],
+        ["剪掉", "jiǎndiào", "to cut out"],
+        ["了", "le", "(completed action)"],
+        ["艰难", "jiānnán", "hardship"],
+        ["。"]
+      ],
+      "en": "In other words, what young people are nostalgic for is not the real past, but an edited version — one that keeps only the warmth and cuts out the hardship."
+    },
+    {
+      "t": [
+        ["值得", "zhídé", "worth"],
+        ["注意", "zhùyì", "to pay attention to"],
+        ["的", "de", "(possessive particle)"],
+        ["是", "shì", "is"],
+        ["，"],
+        ["适度", "shìdù", "moderate; in moderation"],
+        ["的", "de", "(possessive particle)"],
+        ["怀旧", "huáijiù", "nostalgia"],
+        ["并", "bìng", "actually (before negation, formal)"],
+        ["非", "fēi", "not (literary)"],
+        ["坏事", "huàishì", "bad thing"],
+        ["："],
+        ["研究", "yánjiū", "research"],
+        ["显示", "xiǎnshì", "to show; indicate"],
+        ["，"],
+        ["它", "tā", "it"],
+        ["能", "néng", "can"],
+        ["增强", "zēngqiáng", "to strengthen"],
+        ["归属感", "guīshǔgǎn", "sense of belonging"],
+        ["，"],
+        ["缓解", "huǎnjiě", "to relieve; alleviate"],
+        ["孤独", "gūdú", "loneliness"],
+        ["情绪", "qíngxù", "emotion; mood"],
+        ["。"]
+      ],
+      "en": "Notably, moderate nostalgia is not actually a bad thing: research shows it can strengthen a sense of belonging and relieve loneliness."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however (formal)"],
+        ["，"],
+        ["一旦", "yídàn", "once"],
+        ["怀旧", "huáijiù", "nostalgia"],
+        ["变成", "biànchéng", "to turn into"],
+        ["逃避", "táobì", "escape; avoidance"],
+        ["现实", "xiànshí", "reality"],
+        ["的", "de", "(possessive particle)"],
+        ["借口", "jièkǒu", "excuse; pretext"],
+        ["，"],
+        ["就", "jiù", "then"],
+        ["容易", "róngyì", "easy to"],
+        ["让", "ràng", "to let; make"],
+        ["人", "rén", "people"],
+        ["陷入", "xiànrù", "to fall into; sink into"],
+        ["一", "zhǒng", "a kind of"],
+        ["“"],
+        ["过去", "guòqù", "the past"],
+        ["总", "zǒng", "always"],
+        ["比", "bǐ", "compared with"],
+        ["现在", "xiànzài", "the present"],
+        ["好", "hǎo", "good"],
+        ["”"],
+        ["的", "de", "(possessive particle)"],
+        ["幻觉", "huànjué", "illusion"],
+        ["。"]
+      ],
+      "en": "However, once nostalgia becomes an excuse to escape reality, it easily traps people in the illusion that \"the past was always better than the present.\""
+    },
+    {
+      "t": [
+        ["真正", "zhēnzhèng", "truly"],
+        ["健康", "jiànkāng", "healthy"],
+        ["的", "de", "(possessive particle)"],
+        ["怀旧", "huáijiù", "nostalgia"],
+        ["，"],
+        ["应该", "yīnggāi", "should"],
+        ["是", "shì", "is"],
+        ["带着", "dàizhe", "carrying (with)"],
+        ["过去", "guòqù", "the past"],
+        ["的", "de", "(possessive particle)"],
+        ["温度", "wēndù", "warmth"],
+        ["，"],
+        ["坦然", "tǎnrán", "calmly; with equanimity"],
+        ["地", "de", "(adverbial particle)"],
+        ["走向", "zǒuxiàng", "to head toward"],
+        ["未知", "wèizhī", "the unknown"],
+        ["的", "de", "(possessive particle)"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["。"]
+      ],
+      "en": "Truly healthy nostalgia should carry the warmth of the past while calmly heading toward an unknown tomorrow."
+    }
+  ],
+  "vocab": [
+    ["翻红", "fānhóng", "to become popular again"],
+    ["俨然", "yǎnrán", "seemingly; as if (formal)"],
+    ["确定性", "quèdìngxìng", "certainty"],
+    ["剪辑", "jiǎnjí", "edited; cut (as in film)"],
+    ["归属感", "guīshǔgǎn", "sense of belonging"],
+    ["幻觉", "huànjué", "illusion"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, who is most often keen on nostalgia?",
+      "a": [
+        "Young people who never personally experienced it",
+        "Elders who actually lived through that era",
+        "Historians who study the era professionally"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What do young people's nostalgic memories keep and cut out, according to the text?",
+      "a": [
+        "They keep the hardship and cut out the warmth",
+        "They keep everything, changing nothing",
+        "They keep the warmth and cut out the hardship"
+      ],
+      "c": 2
+    },
+    {
+      "q": "What does the text say true, healthy nostalgia should look like?",
+      "a": [
+        "Refusing to accept that the past is over",
+        "Carrying the warmth of the past while calmly heading toward an unknown future",
+        "Rejecting all forms of remembering the past"
+      ],
+      "c": 1
+    }
+  ],
+  "grammar": [
+    {
+      "p": "并非…，而是…",
+      "e": "A formal way to negate a common assumption before offering the real explanation: 'is not really A, but rather B'. Stronger and more literary than 不是…而是…. 例：他的沉默并非冷漠，而是深思。",
+      "x": "这种现象并非对某个具体年代的向往，而是对确定性的渴望。 — This phenomenon is not really longing for a specific era, but rather a craving for certainty."
+    },
+    {
+      "p": "值得注意的是，…",
+      "e": "A formal opener meaning 'it's worth noting that...', used to introduce a nuance or complication after making a point. 例：值得注意的是，压力并非总是坏事。",
+      "x": "值得注意的是，适度的怀旧并非坏事：研究显示，它能增强归属感，缓解孤独情绪。 — Notably, moderate nostalgia is not actually a bad thing: research shows it can strengthen belonging and relieve loneliness."
+    },
+    {
+      "p": "一旦…，就…",
+      "e": "'Once A happens, B follows' — introduces a turning point where something positive can tip into something problematic. 例：一旦失去信任，就很难重新建立。",
+      "x": "一旦怀旧变成逃避现实的借口，就容易让人陷入“过去总比现在好”的幻觉。 — Once nostalgia becomes an excuse to escape reality, it easily traps people in the illusion that the past was always better."
+    }
+  ]
+}

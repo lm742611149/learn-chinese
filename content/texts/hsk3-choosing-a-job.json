@@ -1,0 +1,198 @@
+{
+  "slug": "hsk3-choosing-a-job",
+  "level": 3,
+  "title_zh": "选择工作",
+  "title_py": "Xuǎnzé gōngzuò",
+  "title_en": "Choosing a Job",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["要", "yào", "to want to"],
+        ["找", "zhǎo", "to look for"],
+        ["新", "xīn", "new"],
+        ["工作", "gōngzuò", "job; work"],
+        ["，"],
+        ["现在", "xiànzài", "now"],
+        ["有", "yǒu", "to have"],
+        ["两个", "liǎng ge", "two"],
+        ["机会", "jīhuì", "opportunity; chance"],
+        ["。"]
+      ],
+      "en": "I want to find a new job; right now I have two opportunities."
+    },
+    {
+      "t": [
+        ["一个", "yí ge", "one; a single"],
+        ["工作", "gōngzuò", "job; work"],
+        ["离", "lí", "from"],
+        ["家", "jiā", "home"],
+        ["很", "hěn", "very"],
+        ["近", "jìn", "near; close"],
+        ["，"],
+        ["钱", "qián", "money"],
+        ["不", "bú", "not"],
+        ["太", "tài", "too"],
+        ["多", "duō", "much; many"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["很", "hěn", "very"],
+        ["轻松", "qīngsōng", "relaxed; easy"],
+        ["。"]
+      ],
+      "en": "One job is close to home; it doesn't pay much, but it's relaxed and easy."
+    },
+    {
+      "t": [
+        ["还有", "hái yǒu", "there is also"],
+        ["一个", "yí ge", "one; a single"],
+        ["工作", "gōngzuò", "job; work"],
+        ["在", "zài", "at; in"],
+        ["别的", "biéde", "other"],
+        ["城市", "chéngshì", "city"],
+        ["，"],
+        ["钱", "qián", "money"],
+        ["多", "duō", "much; many"],
+        ["一些", "yìxiē", "a little; some"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["要", "yào", "to need to"],
+        ["常常", "chángcháng", "often"],
+        ["出差", "chūchāi", "to go on a business trip"],
+        ["。"]
+      ],
+      "en": "There's also a job in another city that pays a bit more, but I would need to travel for business often."
+    },
+    {
+      "t": [
+        ["妈妈", "māma", "mom"],
+        ["觉得", "juéde", "to think; to feel"],
+        ["钱", "qián", "money"],
+        ["多", "duō", "much; many"],
+        ["的", "de", "(particle)"],
+        ["工作", "gōngzuò", "job; work"],
+        ["更", "gèng", "more"],
+        ["好", "hǎo", "good"],
+        ["，"],
+        ["以后", "yǐhòu", "later; afterward"],
+        ["可以", "kěyǐ", "can; may"],
+        ["买", "mǎi", "to buy"],
+        ["房子", "fángzi", "house"],
+        ["。"]
+      ],
+      "en": "Mom thinks the higher-paying job is better, since later I could buy a house."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["不想", "bù xiǎng", "don't want to"],
+        ["离开", "líkāi", "to leave"],
+        ["我的", "wǒ de", "my"],
+        ["家人", "jiārén", "family"],
+        ["和", "hé", "and"],
+        ["朋友", "péngyou", "friend"],
+        ["。"]
+      ],
+      "en": "But I don't want to leave my family and friends."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["想", "xiǎng", "to think"],
+        ["了", "le", "(completed action)"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["天", "tiān", "day"],
+        ["，"],
+        ["最后", "zuìhòu", "finally; at last"],
+        ["选择", "xuǎnzé", "to choose"],
+        ["了", "le", "(completed action)"],
+        ["离", "lí", "from"],
+        ["家", "jiā", "home"],
+        ["近", "jìn", "near; close"],
+        ["的", "de", "(particle)"],
+        ["工作", "gōngzuò", "job; work"],
+        ["。"]
+      ],
+      "en": "I thought about it for many days, and finally chose the job close to home."
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["钱", "qián", "money"],
+        ["不", "bù", "not"],
+        ["多", "duō", "much; many"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["我", "wǒ", "I; me"],
+        ["每天", "měitiān", "every day"],
+        ["都", "dōu", "all"],
+        ["很", "hěn", "very"],
+        ["轻松", "qīngsōng", "relaxed; easy"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["高兴", "gāoxìng", "happy"],
+        ["。"]
+      ],
+      "en": "Although it doesn't pay much, I feel relaxed every day, and also happy."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["觉得", "juéde", "to think; to feel"],
+        ["，"],
+        ["这个", "zhège", "this"],
+        ["决定", "juédìng", "decision"],
+        ["是", "shì", "to be"],
+        ["对", "duì", "correct; right"],
+        ["的", "de", "(particle)"],
+        ["。"]
+      ],
+      "en": "I think this decision was the right one."
+    }
+  ],
+  "vocab": [
+    ["机会", "jīhuì", "opportunity; chance"],
+    ["轻松", "qīngsōng", "relaxed; easy"],
+    ["出差", "chūchāi", "to go on a business trip"],
+    ["离开", "líkāi", "to leave"],
+    ["选择", "xuǎnzé", "to choose"],
+    ["决定", "juédìng", "decision"]
+  ],
+  "quiz": [
+    {
+      "q": "离家近的工作怎么样？",
+      "a": ["钱很多，很累", "钱不多，很轻松", "要经常出差"],
+      "c": 1
+    },
+    {
+      "q": "别的城市的工作有什么问题？",
+      "a": ["钱不多", "离家很近", "要经常出差"],
+      "c": 2
+    },
+    {
+      "q": "最后这个人选择了哪个工作？",
+      "a": ["离家近的工作", "别的城市的工作", "没有选择"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "虽然……但是……(although ... but ...)",
+      "e": "Introduces a fact that contrasts with what follows, showing a concession.",
+      "x": "虽然钱不多，但是我每天都很轻松，也很高兴。"
+    },
+    {
+      "p": "更 (comparative: more; -er)",
+      "e": "更 is placed before an adjective to compare two things without using 比.",
+      "x": "妈妈觉得钱多的工作更好。"
+    },
+    {
+      "p": "了 marking a completed action",
+      "e": "了 after a verb shows the action has happened or been completed.",
+      "x": "我想了很多天，最后选择了离家近的工作。"
+    }
+  ]
+}

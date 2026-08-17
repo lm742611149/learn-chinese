@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-how-old",
+  "level": 1,
+  "title_zh": "今年多大",
+  "title_py": "Jīnnián duōdà",
+  "title_en": "How Old Are You",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["今年","jīnnián","this year"],["多大","duōdà","how old"],["？"],["”"]],
+      "en": "My friend says, \"How old are you this year?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["今年","jīnnián","this year"],["二十","èrshí","twenty"],["岁","suì","years old"],["。"],["”"]],
+      "en": "I say, \"I am twenty years old this year.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["也","yě","also"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["今年","jīnnián","this year"],["多大","duōdà","how old"],["？"],["”"]],
+      "en": "I also say, \"How old are you this year?\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["今年","jīnnián","this year"],["二十一","èrshíyī","twenty-one"],["岁","suì","years old"],["。"],["”"]],
+      "en": "My friend says, \"I am twenty-one years old this year.\""
+    },
+    {
+      "t": [["她","tā","she"],["大","dà","older; big"],["，"],["我","wǒ","I; me"],["小","xiǎo","younger; small"],["，"],["我们","wǒmen","we; us"],["都","dōu","all; both"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "She is older, I am younger, and we are both very happy."
+    }
+  ],
+  "vocab": [
+    ["今年","jīnnián","this year"],
+    ["多大","duōdà","how old"],
+    ["岁","suì","years old"],
+    ["朋友","péngyou","friend"],
+    ["高兴","gāoxìng","happy"],
+    ["说","shuō","to say"]
+  ],
+  "quiz": [
+    {"q":"How old is the narrator this year?","a":["Twenty-one","Twenty","Nineteen"],"c":1},
+    {"q":"How old is the friend this year?","a":["Twenty-one","Twenty","Twenty-two"],"c":0},
+    {"q":"How do they feel at the end?","a":["Sad","Tired","Very happy"],"c":2}
+  ],
+  "grammar": [
+    {"p":"今年多大 — how old are you this year","e":"今年 (this year) plus 多大 (how big/old) is a common way to ask an adult's age.","x":"你今年多大？ — How old are you this year?"},
+    {"p":"数字 + 岁 — number + years old","e":"Put a number directly before 岁 to state an age; no verb is needed.","x":"我今年二十岁。 — I am twenty years old this year."},
+    {"p":"大 / 小 — older / younger","e":"大 and 小 can describe age directly, without a comparison word, when comparing two people already mentioned.","x":"她大，我小。 — She is older, I am younger."}
+  ]
+}

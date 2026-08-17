@@ -1,0 +1,159 @@
+{
+  "slug": "hsk2-reading-the-newspaper",
+  "level": 2,
+  "title_zh": "看报纸",
+  "title_py": "Kàn bàozhǐ",
+  "title_en": "Reading the Newspaper",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["爷爷", "yéye", "grandpa"],
+        ["每天", "měitiān", "every day"],
+        ["早上", "zǎoshang", "morning"],
+        ["都", "dōu", "always"],
+        ["看", "kàn", "to read; to look"],
+        ["报纸", "bàozhǐ", "newspaper"],
+        ["。"]
+      ],
+      "en": "Grandpa reads the newspaper every morning."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["一边", "yìbiān", "while (doing something)"],
+        ["喝", "hē", "to drink"],
+        ["茶", "chá", "tea"],
+        ["，"],
+        ["一边", "yìbiān", "while (doing something)"],
+        ["看", "kàn", "to read; to look"],
+        ["报纸", "bàozhǐ", "newspaper"],
+        ["。"]
+      ],
+      "en": "He drinks tea while reading the newspaper."
+    },
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["的", "de", "(possessive particle)"],
+        ["报纸", "bàozhǐ", "newspaper"],
+        ["上", "shàng", "on"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["会", "huì", "will"],
+        ["下雨", "xiàyǔ", "to rain"],
+        ["。"]
+      ],
+      "en": "Today's newspaper says it will rain tomorrow."
+    },
+    {
+      "t": [
+        ["爷爷", "yéye", "grandpa"],
+        ["告诉", "gàosu", "to tell"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["明天", "míngtiān", "tomorrow"],
+        ["别", "bié", "don't"],
+        ["忘", "wàng", "to forget"],
+        ["了", "le", "(particle)"],
+        ["带", "dài", "to bring"],
+        ["雨伞", "yǔsǎn", "umbrella"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Grandpa told me, \"Don't forget to bring an umbrella tomorrow.\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["谢谢", "xièxie", "to thank"],
+        ["爷爷", "yéye", "grandpa"],
+        ["，"],
+        ["说", "shuō", "to say"],
+        ["他", "tā", "he"],
+        ["每天", "měitiān", "every day"],
+        ["看", "kàn", "to read; to look"],
+        ["报纸", "bàozhǐ", "newspaper"],
+        ["真", "zhēn", "really"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "I thanked grandpa, and said that his reading the newspaper every day is really good."
+    },
+    {
+      "t": [
+        ["爷爷", "yéye", "grandpa"],
+        ["笑", "xiào", "to smile"],
+        ["着", "zhe", "(particle: ongoing state)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["看", "kàn", "to read; to look"],
+        ["报纸", "bàozhǐ", "newspaper"],
+        ["可以", "kěyǐ", "can"],
+        ["知道", "zhīdào", "to know"],
+        ["很多", "hěnduō", "a lot of"],
+        ["事情", "shìqing", "matter; thing"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "Grandpa smiled and said, \"Reading the newspaper lets you know about many things.\""
+    }
+  ],
+  "vocab": [
+    ["报纸", "bàozhǐ", "newspaper"],
+    ["告诉", "gàosu", "to tell"],
+    ["忘", "wàng", "to forget"],
+    ["雨伞", "yǔsǎn", "umbrella"],
+    ["一边", "yìbiān", "while (doing something)"],
+    ["可以", "kěyǐ", "can; may"]
+  ],
+  "quiz": [
+    {
+      "q": "What does grandpa do every morning?",
+      "a": [
+        "Reads the newspaper",
+        "Watches TV",
+        "Goes for a run"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does today's newspaper say?",
+      "a": [
+        "It will be sunny tomorrow",
+        "It will rain tomorrow",
+        "It will snow tomorrow"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did grandpa say reading the newspaper lets you do?",
+      "a": [
+        "Sleep better",
+        "Save money",
+        "Know about many things"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边…，一边… — doing two things at once",
+      "e": "一边 + V1，一边 + V2 describes two actions happening at the same time.",
+      "x": "他一边喝茶，一边看报纸。 — He drinks tea while reading the newspaper."
+    },
+    {
+      "p": "别 + V + 了 — don't (do something)",
+      "e": "别 before a verb tells someone not to do something.",
+      "x": "别忘了带雨伞。 — Don't forget to bring an umbrella."
+    },
+    {
+      "p": "可以 + V — can; may",
+      "e": "可以 expresses permission or possibility before a verb.",
+      "x": "看报纸可以知道很多事情。 — Reading the newspaper lets you know about many things."
+    }
+  ]
+}

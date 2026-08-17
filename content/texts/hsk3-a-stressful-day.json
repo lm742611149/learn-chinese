@@ -1,0 +1,201 @@
+{
+  "slug": "hsk3-a-stressful-day",
+  "level": 3,
+  "title_zh": "着急的一天",
+  "title_py": "Zháojí de yì tiān",
+  "title_en": "A Stressful Day",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我的", "wǒ de", "my"],
+        ["闹钟", "nàozhōng", "alarm clock"],
+        ["没有", "méiyǒu", "did not"],
+        ["响", "xiǎng", "to ring"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["起", "qǐ", "to get up"],
+        ["晚", "wǎn", "late"],
+        ["了", "le", "(completed action)"],
+        ["半个小时", "bàn ge xiǎoshí", "half an hour"],
+        ["。"]
+      ],
+      "en": "This morning, my alarm clock didn't ring, and I got up half an hour late."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["马上", "mǎshàng", "immediately"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["找不到", "zhǎo bu dào", "cannot find"],
+        ["钥匙", "yàoshi", "key"],
+        ["，"],
+        ["非常", "fēicháng", "extremely"],
+        ["着急", "zháojí", "anxious; worried"],
+        ["。"]
+      ],
+      "en": "I immediately got out of bed, but I couldn't find my key, and I was extremely anxious."
+    },
+    {
+      "t": [
+        ["出门", "chūmén", "to go out"],
+        ["的时候", "de shíhou", "when"],
+        ["，"],
+        ["外面", "wàimiàn", "outside"],
+        ["正在", "zhèngzài", "in the process of"],
+        ["下", "xià", "to fall (rain)"],
+        ["大雨", "dàyǔ", "heavy rain"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["没有", "méiyǒu", "did not"],
+        ["带", "dài", "to bring"],
+        ["伞", "sǎn", "umbrella"],
+        ["。"]
+      ],
+      "en": "When I went out, it was raining hard outside, and I hadn't brought an umbrella."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["跑", "pǎo", "to run"],
+        ["到", "dào", "to; arrive at"],
+        ["车站", "chēzhàn", "station; stop"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["公共汽车", "gōnggòng qìchē", "bus"],
+        ["已经", "yǐjīng", "already"],
+        ["开", "kāi", "to drive"],
+        ["走", "zǒu", "to leave; to go away"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "I ran to the bus stop, but the bus had already driven off."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["只好", "zhǐhǎo", "have no choice but to"],
+        ["打车", "dǎchē", "to take a taxi"],
+        ["去", "qù", "to go"],
+        ["公司", "gōngsī", "company"],
+        ["，"],
+        ["可是", "kěshì", "but"],
+        ["路上", "lùshang", "on the road"],
+        ["车", "chē", "car; vehicle"],
+        ["很多", "hěn duō", "many; a lot of"],
+        ["，"],
+        ["走", "zǒu", "to go; to move"],
+        ["得", "de", "(particle)"],
+        ["很", "hěn", "very"],
+        ["慢", "màn", "slow"],
+        ["。"]
+      ],
+      "en": "I had no choice but to take a taxi to the office, but there were a lot of cars on the road, and we moved very slowly."
+    },
+    {
+      "t": [
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(completed action)"],
+        ["公司", "gōngsī", "company"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["发现", "fāxiàn", "to discover"],
+        ["今天", "jīntiān", "today"],
+        ["开会", "kāihuì", "to have a meeting"],
+        ["的", "de", "(particle)"],
+        ["时间", "shíjiān", "time"],
+        ["改", "gǎi", "to change"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["其实", "qíshí", "actually"],
+        ["我", "wǒ", "I; me"],
+        ["一点儿", "yìdiǎnr", "a little"],
+        ["都", "dōu", "at all"],
+        ["不用", "búyòng", "need not"],
+        ["着急", "zháojí", "anxious; worried"],
+        ["。"]
+      ],
+      "en": "When I arrived at the office, I discovered that today's meeting time had changed, and actually I didn't need to worry at all."
+    },
+    {
+      "t": [
+        ["同事", "tóngshì", "colleague"],
+        ["看到", "kàndào", "to see"],
+        ["我", "wǒ", "I; me"],
+        ["又", "yòu", "both (又…又…)"],
+        ["累", "lèi", "tired"],
+        ["又", "yòu", "and (又…又…)"],
+        ["急", "jí", "anxious"],
+        ["，"],
+        ["都", "dōu", "all"],
+        ["笑", "xiào", "to laugh"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "My colleagues saw that I was both tired and anxious, and they all laughed."
+    },
+    {
+      "t": [
+        ["虽然", "suīrán", "although"],
+        ["这", "zhè", "this"],
+        ["一天", "yì tiān", "one day"],
+        ["很", "hěn", "very"],
+        ["着急", "zháojí", "anxious; worried"],
+        ["，"],
+        ["但是", "dànshì", "but"],
+        ["最后", "zuìhòu", "in the end; finally"],
+        ["很", "hěn", "very"],
+        ["顺利", "shùnlì", "smoothly; successfully"],
+        ["。"]
+      ],
+      "en": "Although this day was stressful, in the end everything went smoothly."
+    }
+  ],
+  "vocab": [
+    ["闹钟", "nàozhōng", "alarm clock"],
+    ["钥匙", "yàoshi", "key"],
+    ["伞", "sǎn", "umbrella"],
+    ["只好", "zhǐhǎo", "have no choice but to"],
+    ["其实", "qíshí", "actually"],
+    ["顺利", "shùnlì", "smoothly; successfully"]
+  ],
+  "quiz": [
+    {
+      "q": "今天早上为什么起晚了？",
+      "a": ["闹钟没有响", "朋友打电话", "忘了定闹钟"],
+      "c": 0
+    },
+    {
+      "q": "出门的时候天气怎么样？",
+      "a": ["很晴朗", "在下雨", "很冷"],
+      "c": 1
+    },
+    {
+      "q": "到了公司才发现什么？",
+      "a": ["迟到被骂", "钥匙丢了", "开会时间改了"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "只好 (have no choice but to)",
+      "e": "只好 shows the speaker is forced to take an action because there is no better option.",
+      "x": "我只好打车去公司。"
+    },
+    {
+      "p": "又……又……(both ... and ...)",
+      "e": "又 before each of two adjectives or verbs shows both qualities or actions are true at once.",
+      "x": "同事看到我又累又急。"
+    },
+    {
+      "p": "虽然……但是……(although ... but ...)",
+      "e": "Introduces a fact that contrasts with what follows, showing a concession.",
+      "x": "虽然这一天很着急，但是最后很顺利。"
+    }
+  ]
+}

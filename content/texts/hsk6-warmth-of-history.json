@@ -1,0 +1,295 @@
+{
+  "slug": "hsk6-warmth-of-history",
+  "level": 6,
+  "title_zh": "历史的温度",
+  "title_py": "Lìshǐ de wēndù",
+  "title_en": "The Warmth of History",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["正史", "zhèngshǐ", "official history"],
+        ["记录", "jìlù", "to record"],
+        ["的", "de", "(possessive particle)"],
+        ["往往", "wǎngwǎng", "often"],
+        ["是", "shì", "is"],
+        ["帝王", "dìwáng", "emperors and kings"],
+        ["将相", "jiàngxiàng", "generals and ministers"],
+        ["的", "de", "(possessive particle)"],
+        ["功过", "gōngguò", "achievements and faults"],
+        ["，"],
+        ["而", "ér", "whereas (formal)"],
+        ["普通", "pǔtōng", "ordinary"],
+        ["人", "rén", "people"],
+        ["的", "de", "(possessive particle)"],
+        ["日常生活", "rìcháng shēnghuó", "daily life"],
+        ["常常", "chángcháng", "often"],
+        ["被", "bèi", "(passive marker)"],
+        ["一笔带过", "yì bǐ dài guò", "to mention only in passing"],
+        ["。"]
+      ],
+      "en": "Official history tends to record the achievements and faults of emperors, generals, and ministers, while the daily lives of ordinary people are often mentioned only in passing."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however (formal)"],
+        ["，"],
+        ["一封", "yì fēng", "one (measure for letters)"],
+        ["泛黄", "fànhuáng", "yellowed (with age)"],
+        ["的", "de", "(possessive particle)"],
+        ["家书", "jiāshū", "letter home"],
+        ["、"],
+        ["一", "yì", "one"],
+        ["本", "běn", "(measure for books)"],
+        ["尘封", "chénfēng", "dust-covered; long-forgotten"],
+        ["的", "de", "(possessive particle)"],
+        ["日记", "rìjì", "diary"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["能", "néng", "can"],
+        ["让", "ràng", "to let; make"],
+        ["我们", "wǒmen", "we"],
+        ["触摸", "chùmō", "to touch"],
+        ["到", "dào", "(result complement)"],
+        ["那个", "nàge", "that"],
+        ["年代", "niándài", "era"],
+        ["真实", "zhēnshí", "real; true"],
+        ["的", "de", "(possessive particle)"],
+        ["体温", "tǐwēn", "body temperature"],
+        ["。"]
+      ],
+      "en": "Yet a single yellowed letter home, or one long-forgotten diary, can let us touch the real body warmth of that era."
+    },
+    {
+      "t": [
+        ["有", "yǒu", "there is"],
+        ["位", "wèi", "(measure for people, polite)"],
+        ["学者", "xuézhě", "scholar"],
+        ["整理", "zhěnglǐ", "to sort out; organize"],
+        ["了", "le", "(completed action)"],
+        ["祖父", "zǔfù", "grandfather"],
+        ["留下", "liúxià", "to leave behind"],
+        ["的", "de", "(possessive particle)"],
+        ["账本", "zhàngběn", "account book; ledger"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["米", "mǐ", "rice"],
+        ["、"],
+        ["布", "bù", "cloth"],
+        ["、"],
+        ["盐", "yán", "salt"],
+        ["的", "de", "(possessive particle)"],
+        ["价格", "jiàgé", "price"],
+        ["变化", "biànhuà", "change"],
+        ["里", "lǐ", "in; among"],
+        ["，"],
+        ["拼", "pīn", "to piece together"],
+        ["出", "chū", "out"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["家庭", "jiātíng", "family"],
+        ["动荡", "dòngdàng", "turbulent"],
+        ["年代", "niándài", "era"],
+        ["里", "lǐ", "in"],
+        ["的", "de", "(possessive particle)"],
+        ["生存", "shēngcún", "survival"],
+        ["智慧", "zhìhuì", "wisdom"],
+        ["。"]
+      ],
+      "en": "A scholar organized her grandfather's old ledger, and from the shifting prices of rice, cloth, and salt pieced together a family's survival wisdom during a turbulent era."
+    },
+    {
+      "t": [
+        ["这", "zhè", "these"],
+        ["些", "xiē", "(plural measure word)"],
+        ["细节", "xìjié", "details"],
+        ["，"],
+        ["教科书", "jiàokēshū", "textbook"],
+        ["里", "lǐ", "in"],
+        ["找不到", "zhǎobudào", "unable to find"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["恰恰", "qiàqià", "precisely"],
+        ["是", "shì", "is"],
+        ["历史", "lìshǐ", "history"],
+        ["最", "zuì", "most"],
+        ["鲜活", "xiānhuó", "vivid; alive"],
+        ["的", "de", "(possessive particle)"],
+        ["部分", "bùfen", "part"],
+        ["。"]
+      ],
+      "en": "These details cannot be found in any textbook, yet they are precisely the most vivid part of history."
+    },
+    {
+      "t": [
+        ["个人", "gèrén", "individual; personal"],
+        ["记录", "jìlù", "record"],
+        ["之所以", "zhīsuǒyǐ", "the reason why"],
+        ["珍贵", "zhēnguì", "precious"],
+        ["，"],
+        ["是因为", "shì yīnwèi", "is because"],
+        ["它", "tā", "it"],
+        ["保留", "bǎoliú", "to preserve"],
+        ["了", "le", "(completed action)"],
+        ["宏大", "hóngdà", "grand; sweeping"],
+        ["叙事", "xùshì", "narrative"],
+        ["所", "suǒ", "(nominalizer, formal)"],
+        ["无法", "wúfǎ", "unable to (formal)"],
+        ["容纳", "róngnà", "to accommodate; contain"],
+        ["的", "de", "(possessive particle)"],
+        ["犹豫", "yóuyù", "hesitation"],
+        ["、"],
+        ["恐惧", "kǒngjù", "fear"],
+        ["与", "yǔ", "and (formal)"],
+        ["盼望", "pànwàng", "hope; longing"],
+        ["。"]
+      ],
+      "en": "Personal records are precious precisely because they preserve the hesitation, fear, and longing that grand narratives have no room to hold."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["位", "wèi", "(measure for people)"],
+        ["母亲", "mǔqīn", "mother"],
+        ["在", "zài", "at"],
+        ["信", "xìn", "letter"],
+        ["里", "lǐ", "in"],
+        ["反复", "fǎnfù", "repeatedly"],
+        ["叮嘱", "dīngzhǔ", "to urge; admonish"],
+        ["儿子", "érzi", "son"],
+        ["“"],
+        ["天冷", "tiān lěng", "the weather is cold"],
+        ["加", "jiā", "to add"],
+        ["衣", "yī", "clothes"],
+        ["”"],
+        ["，"],
+        ["寥寥", "liáoliáo", "very few (words)"],
+        ["数", "shù", "several"],
+        ["语", "yǔ", "words"],
+        ["，"],
+        ["却", "què", "yet"],
+        ["比", "bǐ", "compared with"],
+        ["任何", "rènhé", "any"],
+        ["宏大", "hóngdà", "grand"],
+        ["的", "de", "(possessive particle)"],
+        ["论述", "lùnshù", "discourse; exposition"],
+        ["都", "dōu", "all; even"],
+        ["更", "gèng", "more"],
+        ["能", "néng", "can"],
+        ["打动", "dǎdòng", "to move (emotionally)"],
+        ["人", "rén", "people"],
+        ["心", "xīn", "heart"],
+        ["。"]
+      ],
+      "en": "A mother repeatedly urged her son in a letter, \"add more clothes when it turns cold\" — a handful of plain words, yet more moving than any grand discourse."
+    },
+    {
+      "t": [
+        ["正", "zhèng", "just; precisely"],
+        ["是", "shì", "is"],
+        ["无数", "wúshù", "countless"],
+        ["这样", "zhèyàng", "such; like this"],
+        ["朴素", "pǔsù", "plain; unadorned"],
+        ["的", "de", "(possessive particle)"],
+        ["记录", "jìlù", "record"],
+        ["，"],
+        ["为", "wèi", "for"],
+        ["冷冰冰", "lěngbīngbīng", "cold and impersonal"],
+        ["的", "de", "(possessive particle)"],
+        ["年份", "niánfèn", "year (as a date)"],
+        ["与", "yǔ", "and (formal)"],
+        ["事件", "shìjiàn", "event"],
+        ["，"],
+        ["注入", "zhùrù", "to inject; instill"],
+        ["了", "le", "(completed action)"],
+        ["血肉", "xuèròu", "flesh and blood"],
+        ["与", "yǔ", "and (formal)"],
+        ["温度", "wēndù", "warmth; temperature"],
+        ["。"]
+      ],
+      "en": "It is precisely countless such plain records that inject flesh and blood, and warmth, into cold, impersonal years and events."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["把", "bǎ", "(object marker)"],
+        ["历史", "lìshǐ", "history"],
+        ["仅仅", "jǐnjǐn", "merely"],
+        ["当作", "dàngzuò", "to regard as"],
+        ["需要", "xūyào", "to need"],
+        ["背诵", "bèisòng", "to recite from memory"],
+        ["的", "de", "(possessive particle)"],
+        ["年代", "niándài", "date; year"],
+        ["，"],
+        ["不如", "bùrú", "better to"],
+        ["把", "bǎ", "(object marker)"],
+        ["它", "tā", "it"],
+        ["当作", "dàngzuò", "to regard as"],
+        ["无数", "wúshù", "countless"],
+        ["普通人", "pǔtōngrén", "ordinary people"],
+        ["真实", "zhēnshí", "real; true"],
+        ["活", "huó", "to live"],
+        ["过", "guò", "(experiential particle)"],
+        ["的", "de", "(possessive particle)"],
+        ["证据", "zhèngjù", "evidence; proof"],
+        ["。"]
+      ],
+      "en": "Rather than treating history merely as dates to be memorized by rote, it is better to treat it as evidence that countless ordinary people truly lived."
+    }
+  ],
+  "vocab": [
+    ["泛黄", "fànhuáng", "yellowed (with age)"],
+    ["账本", "zhàngběn", "account book; ledger"],
+    ["鲜活", "xiānhuó", "vivid; alive"],
+    ["叮嘱", "dīngzhǔ", "to urge; admonish"],
+    ["朴素", "pǔsù", "plain; unadorned"],
+    ["血肉", "xuèròu", "flesh and blood"]
+  ],
+  "quiz": [
+    {
+      "q": "According to the text, what does the scholar piece together from her grandfather's ledger?",
+      "a": [
+        "A family's survival wisdom during a turbulent era, seen through the prices of rice, cloth, and salt",
+        "A complete map of her grandfather's hometown",
+        "A list of famous historical figures her grandfather once met"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What does the mother repeatedly urge in her letter to her son?",
+      "a": [
+        "To study harder and find a good job",
+        "To add more clothes when the weather turns cold",
+        "To write home more often"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What does the text suggest we should treat history as, rather than merely dates to memorize?",
+      "a": [
+        "A set of moral lessons to be debated",
+        "A subject best left to professional historians",
+        "Evidence that countless ordinary people truly lived"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "…而…，却…",
+      "e": "Sets up a contrast between two clauses ('whereas... yet...'), often pairing a formal register with an unexpected turn. 例：白天他沉默寡言，而深夜，却常常提笔写信。",
+      "x": "正史记录的往往是帝王将相的功过，而普通人的日常生活常常被一笔带过。 — Official history tends to record the achievements and faults of emperors and ministers, while ordinary people's daily lives are often mentioned only in passing."
+    },
+    {
+      "p": "…之所以…，是因为…",
+      "e": "States the result first, then explains the cause: 'the reason A is precious/true is that B'. Common in reflective, analytical writing. 例：这段友情之所以珍贵，是因为它经受住了时间的考验。",
+      "x": "个人记录之所以珍贵，是因为它保留了宏大叙事所无法容纳的犹豫、恐惧与盼望。 — Personal records are precious precisely because they preserve what grand narratives have no room to hold."
+    },
+    {
+      "p": "与其…，不如…",
+      "e": "Weighs two options and recommends the second: 'rather than A, it is better to B'. Frequently used to conclude an argument with a piece of advice. 例：与其抱怨环境，不如改变自己。",
+      "x": "与其把历史仅仅当作需要背诵的年代，不如把它当作无数普通人真实活过的证据。 — Rather than treating history merely as dates to memorize, it is better to treat it as evidence that countless ordinary people truly lived."
+    }
+  ]
+}

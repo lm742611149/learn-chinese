@@ -1,0 +1,177 @@
+{
+  "slug": "hsk2-already-ten-oclock",
+  "level": 2,
+  "title_zh": "已经十点了",
+  "title_py": "Yǐjīng shí diǎn le",
+  "title_en": "Already Ten O'Clock",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["星期六", "xīngqīliù", "Saturday"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["还", "hái", "still"],
+        ["在", "zài", "(indicates ongoing action)"],
+        ["睡觉", "shuìjiào", "to sleep"],
+        ["。"]
+      ],
+      "en": "Saturday morning, I was still sleeping."
+    },
+    {
+      "t": [
+        ["朋友", "péngyou", "friend"],
+        ["打电话", "dǎ diànhuà", "to make a phone call"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "I; me"],
+        ["："],
+        ["“"],
+        ["已经", "yǐjīng", "already"],
+        ["十", "shí", "ten"],
+        ["点", "diǎn", "o'clock"],
+        ["了", "le", "(particle: new situation)"],
+        ["，"],
+        ["你", "nǐ", "you"],
+        ["怎么", "zěnme", "why; how"],
+        ["还", "hái", "still"],
+        ["没", "méi", "not (yet)"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "My friend called me: \"It's already ten o'clock — why aren't you up yet?\""
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["一", "yì", "as soon as"],
+        ["听", "tīng", "to hear"],
+        ["，"],
+        ["马上", "mǎshàng", "right away"],
+        ["就", "jiù", "then"],
+        ["起床", "qǐchuáng", "to get up"],
+        ["了", "le", "(completed action)"],
+        ["。"]
+      ],
+      "en": "As soon as I heard that, I got up right away."
+    },
+    {
+      "t": [
+        ["我们", "wǒmen", "we"],
+        ["十", "shí", "ten"],
+        ["点", "diǎn", "o'clock"],
+        ["半", "bàn", "half"],
+        ["要", "yào", "to be going to"],
+        ["在", "zài", "at"],
+        ["电影院", "diànyǐngyuàn", "cinema"],
+        ["门口", "ménkǒu", "entrance; doorway"],
+        ["见面", "jiànmiàn", "to meet"],
+        ["。"]
+      ],
+      "en": "We were supposed to meet at the cinema entrance at ten thirty."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["只有", "zhǐyǒu", "only have"],
+        ["二十", "èrshí", "twenty"],
+        ["分钟", "fēnzhōng", "minute"],
+        ["时间", "shíjiān", "time"],
+        ["，"],
+        ["太", "tài", "too"],
+        ["着急", "zháojí", "anxious; worried"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "I only had twenty minutes, and I was so anxious."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["没", "méi", "not"],
+        ["吃", "chī", "to eat"],
+        ["早饭", "zǎofàn", "breakfast"],
+        ["，"],
+        ["打车", "dǎchē", "to take a taxi"],
+        ["就", "jiù", "then; right away"],
+        ["去", "qù", "to go"],
+        ["了", "le", "(completed action)"],
+        ["电影院", "diànyǐngyuàn", "cinema"],
+        ["。"]
+      ],
+      "en": "I didn't eat breakfast — I took a taxi straight to the cinema."
+    },
+    {
+      "t": [
+        ["到", "dào", "to arrive"],
+        ["了", "le", "(completed action)"],
+        ["门口", "ménkǒu", "entrance; doorway"],
+        ["，"],
+        ["朋友", "péngyou", "friend"],
+        ["已经", "yǐjīng", "already"],
+        ["在", "zài", "at"],
+        ["那儿", "nàr", "there"],
+        ["等", "děng", "to wait"],
+        ["我", "wǒ", "I; me"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "When I got to the entrance, my friend was already there waiting for me."
+    }
+  ],
+  "vocab": [
+    ["已经", "yǐjīng", "already"],
+    ["起床", "qǐchuáng", "to get up"],
+    ["马上", "mǎshàng", "right away"],
+    ["见面", "jiànmiàn", "to meet"],
+    ["着急", "zháojí", "anxious; worried"],
+    ["打车", "dǎchē", "to take a taxi"]
+  ],
+  "quiz": [
+    {
+      "q": "What did the friend say on the phone?",
+      "a": [
+        "It's already ten o'clock, why aren't you up?",
+        "Let's meet tomorrow",
+        "The movie is cancelled"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What time were they supposed to meet at the cinema?",
+      "a": [
+        "Nine o'clock",
+        "Ten thirty",
+        "Eleven o'clock"
+      ],
+      "c": 1
+    },
+    {
+      "q": "How did the writer get to the cinema?",
+      "a": [
+        "By bus",
+        "On foot",
+        "By taxi"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "已经…了 — already",
+      "e": "已经 before a verb or time expression, with 了 at the end, shows something has already happened.",
+      "x": "已经十点了，你怎么还没起床？ — It's already ten o'clock — why aren't you up yet?"
+    },
+    {
+      "p": "一…就… — as soon as…, then…",
+      "e": "一 + V1，就 + V2 shows the second action happens right after the first.",
+      "x": "我一听，马上就起床了。 — As soon as I heard that, I got up right away."
+    },
+    {
+      "p": "只有 + amount — only have",
+      "e": "只有 emphasizes a small or limited quantity.",
+      "x": "我只有二十分钟时间，太着急了。 — I only had twenty minutes, and I was so anxious."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-drive-to-beijing",
+  "level": 1,
+  "title_zh": "开车去北京",
+  "title_py": "Kāichē qù Běijīng",
+  "title_en": "Drive to Beijing",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],["，"],["我们","wǒmen","we; us"],["开车","kāichē","to drive"],["去","qù","to go"],["北京","Běijīng","Beijing"],["。"]],
+      "en": "Today the weather is very good, and we are driving to Beijing."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["是","shì","to be"],["上午","shàngwǔ","morning"],["九","jiǔ","nine"],["点","diǎn","o'clock"],["，"],["我们","wǒmen","we; us"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "It is nine in the morning now, and we are very happy."
+    },
+    {
+      "t": [["北京","Běijīng","Beijing"],["有","yǒu","to have; there are"],["我们","wǒmen","we; us"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["，"],["他","tā","he"],["叫","jiào","to be called"],["王明","Wáng Míng","Wang Ming (a name)"],["。"]],
+      "en": "Beijing has our friend; his name is Wang Ming."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["想","xiǎng","to want"],["去","qù","to go"],["他","tā","he; his"],["家","jiā","home"],["喝茶","hē chá","to drink tea"],["。"]],
+      "en": "We want to go to his home to drink tea."
+    },
+    {
+      "t": [["王明","Wáng Míng","Wang Ming (a name)"],["说","shuō","to say"],["："],["“"],["你们","nǐmen","you (plural)"],["来","lái","to come"],["了","le","(completed action)"],["，"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(with 太: emphasis)"],["！"],["”"]],
+      "en": "Wang Ming says, \"You've come, that's wonderful!\""
+    }
+  ],
+  "vocab": [
+    ["开车","kāichē","to drive"],
+    ["天气","tiānqì","weather"],
+    ["高兴","gāoxìng","happy"],
+    ["朋友","péngyou","friend"],
+    ["喝茶","hē chá","to drink tea"],
+    ["现在","xiànzài","now"]
+  ],
+  "quiz": [
+    {"q":"How is the weather today?","a":["Cold","Very good","Rainy"],"c":1},
+    {"q":"What time is it in the morning?","a":["Nine o'clock","Seven o'clock","Noon"],"c":0},
+    {"q":"What is their friend's name?","a":["Li Yue","Wang Fang","Wang Ming"],"c":2}
+  ],
+  "grammar": [
+    {"p":"开车 — to drive (a car)","e":"开 (to operate) plus 车 (vehicle) together mean 'to drive'; it works like a normal verb before a destination.","x":"我们开车去北京。 — We are driving to Beijing."},
+    {"p":"有 — there is / there are","e":"有 says that something exists at a place: place + 有 + person or thing.","x":"北京有我们的朋友。 — Beijing has our friend."},
+    {"p":"想 + verb — to want to do something","e":"想 sits right before another verb to say you want to do that action.","x":"我们想去他家喝茶。 — We want to go to his home to drink tea."}
+  ]
+}

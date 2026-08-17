@@ -1,0 +1,199 @@
+{
+  "slug": "hsk3-the-email",
+  "level": 3,
+  "title_zh": "电子邮件",
+  "title_py": "Diànzǐ yóujiàn",
+  "title_en": "The Email",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["收到", "shōudào", "to receive"],
+        ["一个", "yí ge", "one; a single"],
+        ["电子邮件", "diànzǐ yóujiàn", "email"],
+        ["，"],
+        ["是", "shì", "to be"],
+        ["经理", "jīnglǐ", "manager"],
+        ["写", "xiě", "to write"],
+        ["的", "de", "(particle)"],
+        ["。"]
+      ],
+      "en": "This morning, I received an email; it was written by my manager."
+    },
+    {
+      "t": [
+        ["电子邮件", "diànzǐ yóujiàn", "email"],
+        ["里", "lǐ", "inside"],
+        ["说", "shuō", "to say"],
+        ["，"],
+        ["今天", "jīntiān", "today"],
+        ["下午", "xiàwǔ", "afternoon"],
+        ["五点", "wǔ diǎn", "five o'clock"],
+        ["以前", "yǐqián", "before"],
+        ["要", "yào", "must; to need to"],
+        ["把", "bǎ", "(object marker)"],
+        ["计划", "jìhuà", "plan"],
+        ["发", "fā", "to send"],
+        ["给", "gěi", "to; for"],
+        ["他", "tā", "he; him"],
+        ["。"]
+      ],
+      "en": "The email said that I needed to send him the plan before five o'clock this afternoon."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["看", "kàn", "to look"],
+        ["了", "le", "(completed action)"],
+        ["看", "kàn", "to look"],
+        ["时间", "shíjiān", "time"],
+        ["，"],
+        ["只有", "zhǐyǒu", "only have"],
+        ["三个", "sān ge", "three"],
+        ["小时", "xiǎoshí", "hour"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["有点儿", "yǒudiǎnr", "a little"],
+        ["着急", "zháojí", "anxious; worried"],
+        ["。"]
+      ],
+      "en": "I checked the time; there were only three hours left, and I felt a little anxious."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["马上", "mǎshàng", "immediately"],
+        ["开始", "kāishǐ", "to begin"],
+        ["写", "xiě", "to write"],
+        ["计划", "jìhuà", "plan"],
+        ["，"],
+        ["一边", "yìbiān", "while (doing one thing)"],
+        ["写", "xiě", "to write"],
+        ["一边", "yìbiān", "while (doing another)"],
+        ["检查", "jiǎnchá", "to check"],
+        ["。"]
+      ],
+      "en": "I immediately started writing the plan, checking it as I went."
+    },
+    {
+      "t": [
+        ["写", "xiě", "to write"],
+        ["完", "wán", "to finish"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["又", "yòu", "again"],
+        ["看", "kàn", "to look"],
+        ["了", "le", "(completed action)"],
+        ["一遍", "yí biàn", "once through"],
+        ["，"],
+        ["没有", "méiyǒu", "did not"],
+        ["发现", "fāxiàn", "to discover"],
+        ["错误", "cuòwù", "mistake; error"],
+        ["。"]
+      ],
+      "en": "After I finished writing, I read it over once more and found no mistakes."
+    },
+    {
+      "t": [
+        ["四点半", "sì diǎn bàn", "four thirty"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["把", "bǎ", "(object marker)"],
+        ["计划", "jìhuà", "plan"],
+        ["发", "fā", "to send"],
+        ["给", "gěi", "to; for"],
+        ["了", "le", "(completed action)"],
+        ["经理", "jīnglǐ", "manager"],
+        ["。"]
+      ],
+      "en": "At four thirty, I sent the plan to my manager."
+    },
+    {
+      "t": [
+        ["五分钟", "wǔ fēnzhōng", "five minutes"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["经理", "jīnglǐ", "manager"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "I; me"],
+        ["发", "fā", "to send"],
+        ["来", "lái", "(directional complement)"],
+        ["一条", "yì tiáo", "one (measure word)"],
+        ["消息", "xiāoxi", "message"],
+        ["："],
+        ["“"],
+        ["谢谢", "xièxie", "thank you"],
+        ["你", "nǐ", "you"],
+        ["，"],
+        ["写", "xiě", "to write"],
+        ["得", "de", "(particle)"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "Five minutes later, my manager sent me a message: 'Thank you, this is written very well!'"
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I; me"],
+        ["终于", "zhōngyú", "finally"],
+        ["放心", "fàngxīn", "to feel relieved"],
+        ["了", "le", "(change of state)"],
+        ["，"],
+        ["心里", "xīnli", "inside; in one's heart"],
+        ["很", "hěn", "very"],
+        ["开心", "kāixīn", "happy"],
+        ["。"]
+      ],
+      "en": "I finally felt relieved, and I was very happy inside."
+    }
+  ],
+  "vocab": [
+    ["电子邮件", "diànzǐ yóujiàn", "email"],
+    ["计划", "jìhuà", "plan"],
+    ["着急", "zháojí", "anxious; worried"],
+    ["检查", "jiǎnchá", "to check"],
+    ["消息", "xiāoxi", "message"],
+    ["终于", "zhōngyú", "finally"]
+  ],
+  "quiz": [
+    {
+      "q": "经理要求几点以前发计划？",
+      "a": ["四点", "五点", "六点"],
+      "c": 1
+    },
+    {
+      "q": "收到邮件的时候，我的心情怎么样？",
+      "a": ["很高兴", "很生气", "有点儿着急"],
+      "c": 2
+    },
+    {
+      "q": "经理看了计划以后说什么？",
+      "a": ["写得很好", "有错误", "发晚了"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "一边……一边……(doing two things at the same time)",
+      "e": "一边 before each of two verbs shows both actions happen together.",
+      "x": "我一边写一边检查。"
+    },
+    {
+      "p": "把 + object + verb + 给 + person",
+      "e": "The 把 structure moves the object before the verb; 给 then introduces the person who receives the result.",
+      "x": "我把计划发给了经理。"
+    },
+    {
+      "p": "V + 了 + 一遍 (to do something through once)",
+      "e": "一遍 after a verb counts one complete pass through an action.",
+      "x": "我又看了一遍，没有发现错误。"
+    }
+  ]
+}

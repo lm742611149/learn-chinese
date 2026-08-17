@@ -1,0 +1,144 @@
+{
+  "slug": "hsk5-sichuan-cuisine-philosophy",
+  "level": 5,
+  "title_zh": "川菜的哲学",
+  "title_py": "Chuāncài de zhéxué",
+  "title_en": "The Philosophy of Sichuan Cuisine",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["很多", "hěnduō", "many"], ["人", "rén", "people"], ["以为", "yǐwéi", "to assume (mistakenly)"],
+        ["川菜", "Chuāncài", "Sichuan cuisine"], ["就是", "jiùshì", "is simply"], ["“"], ["辣", "là", "spicy"], ["”"], ["，"],
+        ["其实", "qíshí", "actually"], ["川菜", "Chuāncài", "Sichuan cuisine"], ["最", "zuì", "most"],
+        ["厉害", "lìhài", "amazing; formidable"], ["的", "de", "(particle)"], ["地方", "dìfang", "aspect; place"],
+        ["是", "shì", "is"], ["味道", "wèidào", "flavor"], ["的", "de", "(particle)"], ["层次", "céngcì", "layers"], ["。"]
+      ],
+      "en": "Many people assume Sichuan cuisine is simply \"spicy,\" but actually its most impressive quality is the layering of its flavors."
+    },
+    {
+      "t": [
+        ["上个月", "shàng ge yuè", "last month"], ["，"],
+        ["我", "wǒ", "I"], ["跟", "gēn", "with"], ["一", "yí", "one"], ["位", "wèi", "(polite measure word)"],
+        ["川菜", "Chuāncài", "Sichuan cuisine"], ["师傅", "shīfu", "master; chef"], ["学", "xué", "to learn"],
+        ["做菜", "zuòcài", "to cook"], ["，"],
+        ["他", "tā", "he"], ["第一", "dì-yī", "first"], ["句", "jù", "(measure word for sentences)"], ["话", "huà", "words"],
+        ["就", "jiù", "then"], ["说", "shuō", "say"], ["："],
+        ["“"], ["川菜", "Chuāncài", "Sichuan cuisine"], ["不", "bù", "not"], ["只是", "zhǐshì", "only"], ["辣", "là", "spicy"], ["，"],
+        ["还有", "háiyǒu", "also have"], ["二十", "èrshí", "twenty"], ["多", "duō", "more than"], ["种", "zhǒng", "kind"],
+        ["味道", "wèidào", "flavor"], ["。"], ["”"]
+      ],
+      "en": "Last month I learned to cook from a Sichuan cuisine chef, and his very first sentence was: \"Sichuan food isn't just spicy — there are more than twenty flavors.\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he"], ["先", "xiān", "first"], ["做", "zuò", "to make"], ["了", "le", "(particle)"],
+        ["一", "yí", "one"], ["道", "dào", "(measure word for dishes)"], ["鱼香肉丝", "yúxiāng ròusī", "fish-fragrant shredded pork"], ["，"],
+        ["奇怪", "qíguài", "strange"], ["的是", "de shì", "the (strange) thing is"], ["，"],
+        ["这", "zhè", "this"], ["道", "dào", "(measure word)"], ["菜", "cài", "dish"], ["里", "li", "inside"],
+        ["根本", "gēnběn", "at all; simply"], ["没有", "méiyǒu", "not have"], ["鱼", "yú", "fish"], ["，"],
+        ["却", "què", "yet"], ["有", "yǒu", "have"], ["淡淡", "dàndàn", "faint; light"], ["的", "de", "(particle)"],
+        ["鱼香", "yúxiāng", "fish-fragrant flavor"], ["。"]
+      ],
+      "en": "He first made a dish of fish-fragrant shredded pork; strangely, this dish had no fish in it at all, yet had a faint fish-fragrant taste."
+    },
+    {
+      "t": [
+        ["师傅", "shīfu", "chef"], ["说", "shuō", "say"], ["，"],
+        ["这种", "zhèzhǒng", "this kind of"], ["“"], ["鱼香", "yúxiāng", "fish-fragrant flavor"], ["”"],
+        ["来自", "láizì", "comes from"], ["泡椒", "pàojiāo", "pickled chili"], ["、"], ["姜", "jiāng", "ginger"], ["、"],
+        ["蒜", "suàn", "garlic"], ["和", "hé", "and"], ["糖醋", "tángcù", "sweet and sour"], ["的", "de", "(particle)"],
+        ["搭配", "dāpèi", "combination"], ["，"],
+        ["不", "bú", "not"], ["是", "shì", "is"], ["真的", "zhēnde", "really"], ["加", "jiā", "to add"], ["了", "le", "(particle)"], ["鱼", "yú", "fish"], ["。"]
+      ],
+      "en": "The chef said this \"fish-fragrance\" comes from a combination of pickled chili, ginger, garlic, and sweet-and-sour seasoning — not from actually adding fish."
+    },
+    {
+      "t": [
+        ["接着", "jiēzhe", "next"], ["他", "tā", "he"], ["又", "yòu", "again"], ["做", "zuò", "to make"], ["了", "le", "(particle)"],
+        ["一", "yí", "one"], ["道", "dào", "(measure word)"], ["怪味鸡", "guàiwèi jī", "strange-flavor chicken"], ["，"],
+        ["酸", "suān", "sour"], ["、"], ["甜", "tián", "sweet"], ["、"], ["麻", "má", "numbing"], ["、"], ["辣", "là", "spicy"], ["、"],
+        ["咸", "xián", "salty"], ["五", "wǔ", "five"], ["种", "zhǒng", "kind"], ["味道", "wèidào", "flavor"],
+        ["同时", "tóngshí", "simultaneously"], ["出现", "chūxiàn", "to appear"], ["在", "zài", "on"], ["舌头", "shétou", "tongue"],
+        ["上", "shàng", "on top of"], ["。"]
+      ],
+      "en": "Next he made a dish of strange-flavor chicken — sour, sweet, numbing, spicy, and salty, all five flavors appearing on the tongue at once."
+    },
+    {
+      "t": [
+        ["还有", "háiyǒu", "there's also"], ["一", "yì", "one"], ["种", "zhǒng", "kind"], ["叫", "jiào", "called"],
+        ["“"], ["荔枝味", "lìzhī wèi", "lychee flavor"], ["”"], ["的", "de", "(particle)"], ["做法", "zuòfǎ", "method; preparation"], ["，"],
+        ["菜", "cài", "dish"], ["里", "li", "inside"], ["没有", "méiyǒu", "not have"], ["一", "yì", "one"], ["点", "diǎn", "bit"],
+        ["荔枝", "lìzhī", "lychee"], ["，"],
+        ["却", "què", "yet"], ["带着", "dàizhe", "carrying"], ["水果", "shuǐguǒ", "fruit"], ["一样", "yíyàng", "the same"],
+        ["的", "de", "(particle)"], ["香甜", "xiāngtián", "fragrant and sweet"], ["。"]
+      ],
+      "en": "There's also a preparation called \"lychee flavor\" — the dish has not a single lychee in it, yet carries a fruit-like sweet fragrance."
+    },
+    {
+      "t": [
+        ["师傅", "shīfu", "chef"], ["笑着", "xiàozhe", "smiling"], ["说", "shuō", "say"], ["："],
+        ["“"], ["川菜", "Chuāncài", "Sichuan cuisine"], ["的", "de", "(particle)"], ["哲学", "zhéxué", "philosophy"], ["，"],
+        ["就是", "jiùshì", "is simply"], ["用", "yòng", "to use"], ["不同", "bùtóng", "different"], ["的", "de", "(particle)"],
+        ["味道", "wèidào", "flavor"], ["讲", "jiǎng", "to tell"], ["一", "yí", "one"], ["个", "ge", "(measure word)"],
+        ["故事", "gùshi", "story"], ["，"],
+        ["辣", "là", "spicy"], ["只是", "zhǐshì", "merely is"], ["开始", "kāishǐ", "beginning"], ["，"],
+        ["不", "bú", "not"], ["是", "shì", "is"], ["结束", "jiéshù", "ending"], ["。"], ["”"]
+      ],
+      "en": "The chef said with a smile: \"The philosophy of Sichuan cuisine is telling a story with different flavors — spiciness is just the beginning, not the end.\""
+    },
+    {
+      "t": [
+        ["那天", "nàtiān", "that day"], ["以后", "yǐhòu", "after"], ["，"],
+        ["我", "wǒ", "I"], ["才", "cái", "only then"], ["明白", "míngbai", "to understand"], ["，"],
+        ["真正", "zhēnzhèng", "truly"], ["懂", "dǒng", "to understand"], ["川菜", "Chuāncài", "Sichuan cuisine"],
+        ["的", "de", "(particle)"], ["人", "rén", "people"], ["，"],
+        ["吃", "chī", "to eat"], ["的", "de", "(nominalizer)"], ["不", "bú", "not"], ["是", "shì", "is"], ["辣", "là", "spicy"], ["，"],
+        ["而是", "érshì", "but rather"], ["层次", "céngcì", "layers"], ["。"]
+      ],
+      "en": "After that day I finally understood: people who truly understand Sichuan cuisine are eating not for the spice, but for the layers."
+    }
+  ],
+  "vocab": [
+    ["层次", "céngcì", "layers"],
+    ["鱼香", "yúxiāng", "fish-fragrant flavor"],
+    ["怪味", "guàiwèi", "strange flavor"],
+    ["泡椒", "pàojiāo", "pickled chili"],
+    ["荔枝", "lìzhī", "lychee"],
+    ["哲学", "zhéxué", "philosophy"]
+  ],
+  "quiz": [
+    {
+      "q": "师傅说川菜大概有多少种味道？",
+      "a": ["五种", "十种", "二十多种"],
+      "c": 2
+    },
+    {
+      "q": "鱼香肉丝这道菜里有没有鱼？",
+      "a": ["有很多鱼", "没有鱼，只是味道像鱼", "有一点点鱼"],
+      "c": 1
+    },
+    {
+      "q": "“荔枝味”的菜里有什么？",
+      "a": ["没有荔枝，却带着水果一样的香甜", "有新鲜荔枝", "没有味道"],
+      "c": 0
+    }
+  ],
+  "grammar": [
+    {
+      "p": "不只是……还有……",
+      "e": "'Not only... but also...' — expands beyond an assumed limit.",
+      "x": "川菜不只是辣，还有二十多种味道。"
+    },
+    {
+      "p": "根本",
+      "e": "'At all; simply' — strengthens a negation, often with 没有.",
+      "x": "这道菜里根本没有鱼。"
+    },
+    {
+      "p": "不是……而是……",
+      "e": "'Not X, but rather Y' — replaces a wrong idea with the correct one.",
+      "x": "吃的不是辣，而是层次。"
+    }
+  ]
+}

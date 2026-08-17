@@ -1,0 +1,312 @@
+{
+  "slug": "hsk6-future-of-humanity",
+  "level": 6,
+  "title_zh": "人类的未来",
+  "title_py": "Rénlèi de wèilái",
+  "title_en": "The Future of Humanity",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["把", "bǎ", "(object marker)"],
+        ["地球", "dìqiú", "the Earth"],
+        ["四十六亿", "sìshíliù yì", "4.6 billion"],
+        ["年", "nián", "years"],
+        ["的", "de", "(possessive particle)"],
+        ["历史", "lìshǐ", "history"],
+        ["压缩", "yāsuō", "to compress"],
+        ["成", "chéng", "into"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["，"],
+        ["人类", "rénlèi", "humankind"],
+        ["文明", "wénmíng", "civilization"],
+        ["出现", "chūxiàn", "to appear"],
+        ["的", "de", "(possessive particle)"],
+        ["时间", "shíjiān", "time"],
+        ["，"],
+        ["还", "hái", "still"],
+        ["不到", "bú dào", "less than"],
+        ["最后", "zuìhòu", "the final"],
+        ["一", "yì", "one"],
+        ["秒", "miǎo", "second"],
+        ["。"]
+      ],
+      "en": "Compress Earth's 4.6-billion-year history into a single day, and the appearance of human civilization takes up less than the final second."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["一", "yí", "one"],
+        ["比喻", "bǐyù", "metaphor"],
+        ["常", "cháng", "often"],
+        ["被", "bèi", "(passive marker)"],
+        ["用来", "yònglái", "used to"],
+        ["提醒", "tíxǐng", "to remind"],
+        ["人们", "rénmen", "people"],
+        ["："],
+        ["从", "cóng", "from"],
+        ["宇宙", "yǔzhòu", "universe"],
+        ["尺度", "chǐdù", "scale"],
+        ["看", "kàn", "to look at"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["的", "de", "(possessive particle)"],
+        ["存在", "cúnzài", "existence"],
+        ["何其", "héqí", "how (exclamatory, formal)"],
+        ["短暂", "duǎnzàn", "brief; fleeting"],
+        ["。"]
+      ],
+      "en": "This metaphor is often used to remind people: on a cosmic scale, our existence is how fleeting."
+    },
+    {
+      "t": [
+        ["然而", "rán'ér", "however (formal)"],
+        ["，"],
+        ["正", "zhèng", "precisely"],
+        ["是", "shì", "is"],
+        ["这", "zhè", "this"],
+        ["短暂", "duǎnzàn", "brief; fleeting"],
+        ["的", "de", "(possessive particle)"],
+        ["一", "yí", "one"],
+        ["瞬", "shùn", "instant"],
+        ["，"],
+        ["人类", "rénlèi", "humankind"],
+        ["发展", "fāzhǎn", "to develop"],
+        ["出", "chū", "out"],
+        ["了", "le", "(completed action)"],
+        ["改变", "gǎibiàn", "to change; alter"],
+        ["自身", "zìshēn", "itself"],
+        ["命运", "mìngyùn", "fate; destiny"],
+        ["的", "de", "(possessive particle)"],
+        ["能力", "nénglì", "ability"],
+        ["："],
+        ["从", "cóng", "from"],
+        ["基因", "jīyīn", "gene"],
+        ["编辑", "biānjí", "editing"],
+        ["到", "dào", "to"],
+        ["人工智能", "réngōng zhìnéng", "artificial intelligence"],
+        ["。"]
+      ],
+      "en": "Yet it is precisely within this fleeting instant that humanity developed the ability to alter its own fate — from gene editing to artificial intelligence."
+    },
+    {
+      "t": [
+        ["技术", "jìshù", "technology"],
+        ["乐观", "lèguān", "optimistic"],
+        ["者", "zhě", "-ist; one who"],
+        ["认为", "rènwéi", "to believe; think"],
+        ["，"],
+        ["只要", "zhǐyào", "as long as"],
+        ["科学", "kēxué", "science"],
+        ["不断", "búduàn", "continuously"],
+        ["进步", "jìnbù", "to progress"],
+        ["，"],
+        ["疾病", "jíbìng", "disease"],
+        ["、"],
+        ["衰老", "shuāilǎo", "aging"],
+        ["甚至", "shènzhì", "even"],
+        ["资源", "zīyuán", "resource"],
+        ["匮乏", "kuìfá", "scarcity; shortage"],
+        ["，"],
+        ["终", "zhōng", "eventually (formal)"],
+        ["将", "jiāng", "will (formal)"],
+        ["被", "bèi", "(passive marker)"],
+        ["一一", "yīyī", "one by one"],
+        ["攻克", "gōngkè", "to conquer; overcome"],
+        ["。"]
+      ],
+      "en": "Techno-optimists believe that as long as science keeps advancing, disease, aging, and even resource scarcity will eventually be conquered one by one."
+    },
+    {
+      "t": [
+        ["但", "dàn", "but"],
+        ["悲观", "bēiguān", "pessimistic"],
+        ["者", "zhě", "-ist; one who"],
+        ["提醒", "tíxǐng", "to remind"],
+        ["我们", "wǒmen", "we"],
+        ["，"],
+        ["每", "měi", "every"],
+        ["一", "yí", "one"],
+        ["项", "xiàng", "(measure for items)"],
+        ["强大", "qiángdà", "powerful"],
+        ["的", "de", "(possessive particle)"],
+        ["技术", "jìshù", "technology"],
+        ["，"],
+        ["既", "jì", "both"],
+        ["能", "néng", "can"],
+        ["造福", "zàofú", "to benefit; bring blessings to"],
+        ["人类", "rénlèi", "humankind"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["能", "néng", "can"],
+        ["被", "bèi", "(passive marker)"],
+        ["用", "yòng", "to use"],
+        ["于", "yú", "for (formal)"],
+        ["毁灭", "huǐmiè", "destruction; ruin"],
+        ["。"]
+      ],
+      "en": "But pessimists remind us that every powerful technology can both benefit humanity and be used toward destruction."
+    },
+    {
+      "t": [
+        ["核", "hé", "nuclear"],
+        ["能", "néng", "energy"],
+        ["既", "jì", "both"],
+        ["能", "néng", "can"],
+        ["点亮", "diǎnliàng", "to light up"],
+        ["万家灯火", "wàn jiā dēnghuǒ", "the lights of ten thousand homes (idiom)"],
+        ["，"],
+        ["也", "yě", "also"],
+        ["曾", "céng", "once"],
+        ["带来", "dàilái", "to bring"],
+        ["毁灭性", "huǐmièxìng", "devastating"],
+        ["的", "de", "(possessive particle)"],
+        ["灾难", "zāinàn", "disaster; catastrophe"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["正", "zhèng", "precisely"],
+        ["是", "shì", "is"],
+        ["技术", "jìshù", "technology"],
+        ["双刃剑", "shuāngrènjiàn", "double-edged sword"],
+        ["性质", "xìngzhì", "nature; character"],
+        ["最", "zuì", "most"],
+        ["直观", "zhíguān", "intuitive; direct"],
+        ["的", "de", "(possessive particle)"],
+        ["例证", "lìzhèng", "illustrative example"],
+        ["。"]
+      ],
+      "en": "Nuclear energy can both light up the homes of ten thousand families and has once brought devastating disaster — this is the most direct illustration of technology's double-edged nature."
+    },
+    {
+      "t": [
+        ["与其", "yǔqí", "rather than"],
+        ["纠结", "jiūjié", "to be tangled up in; agonize over"],
+        ["于", "yú", "over (formal)"],
+        ["人类", "rénlèi", "humankind"],
+        ["究竟", "jiūjìng", "after all; exactly"],
+        ["会", "huì", "will"],
+        ["走向", "zǒuxiàng", "to head toward"],
+        ["繁荣", "fánróng", "prosperity"],
+        ["还是", "háishi", "or"],
+        ["衰亡", "shuāiwáng", "decline and extinction"],
+        ["，"],
+        ["不如", "bùrú", "better to"],
+        ["把", "bǎ", "(object marker)"],
+        ["精力", "jīnglì", "energy; effort"],
+        ["放", "fàng", "to put"],
+        ["在", "zài", "on"],
+        ["如何", "rúhé", "how"],
+        ["为", "wèi", "for"],
+        ["技术", "jìshù", "technology"],
+        ["设置", "shèzhì", "to set up; establish"],
+        ["约束", "yuēshù", "constraint"],
+        ["上", "shàng", "on"],
+        ["。"]
+      ],
+      "en": "Rather than agonizing over whether humanity will ultimately head toward prosperity or decline, it is better to put our energy into how to set constraints on technology."
+    },
+    {
+      "t": [
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["能够", "nénggòu", "to be able to"],
+        ["自我", "zìwǒ", "self"],
+        ["约束", "yuēshù", "to constrain; discipline"],
+        ["的", "de", "(possessive particle)"],
+        ["文明", "wénmíng", "civilization"],
+        ["，"],
+        ["才", "cái", "only then"],
+        ["有", "yǒu", "have"],
+        ["资格", "zīgé", "qualification"],
+        ["谈论", "tánlùn", "to discuss"],
+        ["长远", "chángyuǎn", "long-term"],
+        ["的", "de", "(possessive particle)"],
+        ["未来", "wèilái", "future"],
+        ["。"]
+      ],
+      "en": "Only a civilization capable of restraining itself has earned the right to speak of a long-term future."
+    },
+    {
+      "t": [
+        ["毕竟", "bìjìng", "after all"],
+        ["，"],
+        ["决定", "juédìng", "to determine"],
+        ["人类", "rénlèi", "humankind"],
+        ["能否", "néngfǒu", "whether or not (can)"],
+        ["延续", "yánxù", "to continue; extend"],
+        ["下去", "xiàqù", "onward; continuing"],
+        ["的", "de", "(possessive particle)"],
+        ["，"],
+        ["从来", "cónglái", "all along; always"],
+        ["不", "bù", "not"],
+        ["只是", "zhǐshì", "merely; only"],
+        ["技术", "jìshù", "technology"],
+        ["本身", "běnshēn", "itself"],
+        ["，"],
+        ["而是", "érshì", "but rather"],
+        ["我们", "wǒmen", "we"],
+        ["运用", "yùnyòng", "to apply; utilize"],
+        ["技术", "jìshù", "technology"],
+        ["的", "de", "(possessive particle)"],
+        ["智慧", "zhìhuì", "wisdom"],
+        ["。"]
+      ],
+      "en": "After all, what determines whether humanity can carry on has never been technology itself alone, but the wisdom with which we wield it."
+    }
+  ],
+  "vocab": [
+    ["短暂", "duǎnzàn", "brief; fleeting"],
+    ["匮乏", "kuìfá", "scarcity; shortage"],
+    ["攻克", "gōngkè", "to conquer; overcome (a problem)"],
+    ["万家灯火", "wàn jiā dēnghuǒ", "the lights of ten thousand homes (idiom)"],
+    ["双刃剑", "shuāngrènjiàn", "double-edged sword"],
+    ["纠结", "jiūjié", "to be tangled up in; agonize over"]
+  ],
+  "quiz": [
+    {
+      "q": "In the compressed-day metaphor, how much of the day does human civilization occupy?",
+      "a": [
+        "About half the day",
+        "Less than the final second",
+        "Roughly the last hour"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What example does the text give to illustrate technology's double-edged nature?",
+      "a": [
+        "Nuclear energy, which can light homes but has also brought disaster",
+        "The invention of the printing press",
+        "The rise of social media"
+      ],
+      "c": 0
+    },
+    {
+      "q": "According to the text, what ultimately determines whether humanity can carry on?",
+      "a": [
+        "The sheer amount of technology humanity develops",
+        "Whether resource scarcity can be fully eliminated",
+        "The wisdom with which we wield technology, not technology itself"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "既…，也…",
+      "e": "Presents two things that hold true at once, often two opposing sides of one thing: 'both... and also...'. 例：这份工作既能锻炼能力，也能积累人脉。",
+      "x": "核能既能点亮万家灯火，也曾带来毁灭性的灾难。 — Nuclear energy can both light up the homes of ten thousand families and has once brought devastating disaster."
+    },
+    {
+      "p": "与其…，不如…",
+      "e": "Weighs two courses of action and recommends the latter: 'rather than A, it is better to B'. Often used to redirect a debate toward a more productive question. 例：与其猜测结果，不如动手去验证。",
+      "x": "与其纠结于人类究竟会走向繁荣还是衰亡，不如把精力放在如何为技术设置约束上。 — Rather than agonizing over whether humanity will head toward prosperity or decline, it is better to focus on how to constrain technology."
+    },
+    {
+      "p": "…从来不只是…，而是…",
+      "e": "Rejects a narrow, single-cause explanation in favor of a broader one: 'has never been merely A, but rather B'. Common in essays making a deeper, reflective point. 例：真正的成功从来不只是运气，而是长期积累的结果。",
+      "x": "决定人类能否延续下去的，从来不只是技术本身，而是我们运用技术的智慧。 — What determines whether humanity can carry on has never been technology itself alone, but the wisdom with which we wield it."
+    }
+  ]
+}

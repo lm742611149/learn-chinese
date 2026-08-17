@@ -1,0 +1,180 @@
+{
+  "slug": "hsk2-a-happy-day",
+  "level": 2,
+  "title_zh": "快乐的一天",
+  "title_py": "Kuàilè de yì tiān",
+  "title_en": "A Happy Day",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["今天", "jīntiān", "today"],
+        ["是", "shì", "to be"],
+        ["我", "wǒ", "I; me"],
+        ["的", "de", "(possessive particle)"],
+        ["生日", "shēngrì", "birthday"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["很", "hěn", "very"],
+        ["快乐", "kuàilè", "happy"],
+        ["。"]
+      ],
+      "en": "Today is my birthday, and I'm very happy."
+    },
+    {
+      "t": [
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["家人", "jiārén", "family"],
+        ["都", "dōu", "all"],
+        ["对", "duì", "to; toward"],
+        ["我", "wǒ", "I; me"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["生日", "shēngrì", "birthday"],
+        ["快乐", "kuàilè", "happy"],
+        ["！"],
+        ["”"]
+      ],
+      "en": "In the morning, my family all said to me, \"Happy birthday!\""
+    },
+    {
+      "t": [
+        ["中午", "zhōngwǔ", "noon"],
+        ["，"],
+        ["朋友们", "péngyoumen", "friends"],
+        ["请", "qǐng", "to invite; to treat"],
+        ["我", "wǒ", "I; me"],
+        ["吃饭", "chīfàn", "to eat a meal"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["一起", "yìqǐ", "together"],
+        ["唱歌", "chànggē", "to sing"],
+        ["。"]
+      ],
+      "en": "At noon, my friends treated me to a meal, and we sang songs together."
+    },
+    {
+      "t": [
+        ["下午", "xiàwǔ", "afternoon"],
+        ["，"],
+        ["我们", "wǒmen", "we"],
+        ["去", "qù", "to go"],
+        ["公园", "gōngyuán", "park"],
+        ["玩", "wán", "to play; to hang out"],
+        ["，"],
+        ["天气", "tiānqì", "weather"],
+        ["也", "yě", "also"],
+        ["很", "hěn", "very"],
+        ["好", "hǎo", "good"],
+        ["。"]
+      ],
+      "en": "In the afternoon, we went to the park to hang out, and the weather was nice too."
+    },
+    {
+      "t": [
+        ["晚上", "wǎnshang", "evening"],
+        ["，"],
+        ["妈妈", "māma", "mom"],
+        ["做", "zuò", "to make"],
+        ["了", "le", "(completed action)"],
+        ["一", "yí", "one"],
+        ["个", "gè", "(measure word)"],
+        ["大", "dà", "big"],
+        ["蛋糕", "dàngāo", "cake"],
+        ["，"],
+        ["全家", "quánjiā", "the whole family"],
+        ["一起", "yìqǐ", "together"],
+        ["吃", "chī", "to eat"],
+        ["蛋糕", "dàngāo", "cake"],
+        ["。"]
+      ],
+      "en": "In the evening, mom made a big cake, and the whole family ate cake together."
+    },
+    {
+      "t": [
+        ["大家", "dàjiā", "everyone"],
+        ["送", "sòng", "to give (a gift)"],
+        ["给", "gěi", "to; for"],
+        ["我", "wǒ", "I; me"],
+        ["很多", "hěnduō", "a lot of"],
+        ["礼物", "lǐwù", "gift"],
+        ["，"],
+        ["我", "wǒ", "I; me"],
+        ["高兴", "gāoxìng", "happy"],
+        ["极", "jí", "extremely"],
+        ["了", "le", "(particle)"]
+        ,["。"]
+      ],
+      "en": "Everyone gave me lots of gifts, and I was extremely happy."
+    },
+    {
+      "t": [
+        ["这", "zhè", "this"],
+        ["真", "zhēn", "really"],
+        ["是", "shì", "to be"],
+        ["快乐", "kuàilè", "happy"],
+        ["的", "de", "(descriptive particle)"],
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["！"]
+      ],
+      "en": "This was really a happy day!"
+    }
+  ],
+  "vocab": [
+    ["快乐", "kuàilè", "happy"],
+    ["生日", "shēngrì", "birthday"],
+    ["唱歌", "chànggē", "to sing"],
+    ["公园", "gōngyuán", "park"],
+    ["蛋糕", "dàngāo", "cake"],
+    ["礼物", "lǐwù", "gift"]
+  ],
+  "quiz": [
+    {
+      "q": "What is special about today for the writer?",
+      "a": [
+        "It's the writer's birthday",
+        "It's a holiday",
+        "It's the writer's wedding"
+      ],
+      "c": 0
+    },
+    {
+      "q": "What did the writer do at noon?",
+      "a": [
+        "Studied at home",
+        "Friends treated the writer to a meal and they sang songs",
+        "Slept all afternoon"
+      ],
+      "c": 1
+    },
+    {
+      "q": "What did mom make in the evening?",
+      "a": [
+        "Noodles",
+        "Dumplings",
+        "A big cake"
+      ],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "对 + someone + 说 — to say to someone",
+      "e": "对 introduces the person being spoken to before 说.",
+      "x": "家人都对我说：“生日快乐！” — My family all said to me, \"Happy birthday!\""
+    },
+    {
+      "p": "一起 + V — to do something together",
+      "e": "一起 before a verb shows two or more people doing the action together.",
+      "x": "我们一起唱歌。 — We sang together."
+    },
+    {
+      "p": "Adj + 极了 — extremely",
+      "e": "极了 after an adjective intensifies it to mean \"extremely.\"",
+      "x": "我高兴极了。 — I was extremely happy."
+    }
+  ]
+}

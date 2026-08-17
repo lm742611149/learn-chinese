@@ -1,0 +1,152 @@
+{
+  "slug": "hsk5-money-and-happiness",
+  "level": 5,
+  "title_zh": "金钱与快乐",
+  "title_py": "Jīnqián yǔ kuàilè",
+  "title_en": "Money and Happiness",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["几", "jǐ", "several"], ["年", "nián", "year"], ["前", "qián", "ago"], ["，"],
+        ["普林斯顿大学", "Pǔlínsīdùn Dàxué", "Princeton University"], ["做过", "zuòguò", "have done"],
+        ["一", "yí", "one"], ["个", "ge", "(measure word)"], ["有名", "yǒumíng", "famous"], ["的", "de", "(particle)"],
+        ["研究", "yánjiū", "research"], ["，"],
+        ["调查", "diàochá", "to investigate"], ["金钱", "jīnqián", "money"], ["和", "hé", "and"], ["快乐", "kuàilè", "happiness"],
+        ["之间", "zhījiān", "between"], ["的", "de", "(particle)"], ["关系", "guānxi", "relationship"], ["。"]
+      ],
+      "en": "A few years ago, Princeton University conducted a famous study investigating the relationship between money and happiness."
+    },
+    {
+      "t": [
+        ["研究", "yánjiū", "research"], ["发现", "fāxiàn", "to discover"], ["，"],
+        ["收入", "shōurù", "income"], ["越", "yuè", "the more"], ["高", "gāo", "high"], ["，"],
+        ["人", "rén", "people"], ["确实", "quèshí", "indeed"], ["越", "yuè", "the more"], ["快乐", "kuàilè", "happy"], ["，"],
+        ["但是", "dànshì", "but"], ["这种", "zhèzhǒng", "this kind of"], ["关系", "guānxi", "relationship"],
+        ["只", "zhǐ", "only"], ["到", "dào", "until"], ["一", "yí", "one"], ["定", "dìng", "fixed"],
+        ["的", "de", "(particle)"], ["数字", "shùzì", "number"], ["为止", "wéizhǐ", "until (as far as)"], ["。"]
+      ],
+      "en": "The research found that the higher the income, the happier people indeed are, but this relationship only holds up to a certain number."
+    },
+    {
+      "t": [
+        ["当", "dāng", "when"], ["年", "nián", "year(ly)"], ["收入", "shōurù", "income"], ["达到", "dádào", "to reach"],
+        ["七万", "qī wàn", "seventy thousand"], ["五千", "wǔqiān", "five thousand"], ["美元", "měiyuán", "US dollars"],
+        ["左右", "zuǒyòu", "approximately"], ["以后", "yǐhòu", "after"], ["，"],
+        ["再", "zài", "more; further"], ["多", "duō", "much"], ["的", "de", "(particle)"], ["钱", "qián", "money"], ["，"],
+        ["对", "duì", "towards"], ["快乐", "kuàilè", "happiness"], ["的", "de", "(particle)"], ["影响", "yǐngxiǎng", "influence"],
+        ["就", "jiù", "then"], ["变得", "biànde", "become"], ["很", "hěn", "very"], ["小", "xiǎo", "small"], ["。"]
+      ],
+      "en": "After annual income reaches around seventy-five thousand dollars, additional money has less and less influence on happiness."
+    },
+    {
+      "t": [
+        ["换句话说", "huàn jù huà shuō", "in other words"], ["，"],
+        ["钱", "qián", "money"], ["能", "néng", "can"], ["让", "ràng", "to make"], ["人", "rén", "people"],
+        ["不再", "búzài", "no longer"], ["为", "wèi", "because of"], ["房租", "fángzū", "rent"], ["、"],
+        ["看病", "kànbìng", "see a doctor"], ["、"], ["吃饭", "chīfàn", "eat meals"], ["发愁", "fāchóu", "to worry"], ["，"],
+        ["这", "zhè", "this"], ["就是", "jiùshì", "is simply"], ["快乐", "kuàilè", "happiness"], ["的", "de", "(particle)"],
+        ["一", "yí", "one"], ["大半", "dàbàn", "greater part"], ["。"]
+      ],
+      "en": "In other words, money can keep people from worrying about rent, medical bills, and meals — and that's already the greater part of happiness."
+    },
+    {
+      "t": [
+        ["可是", "kěshì", "but"], ["超过", "chāoguò", "to exceed"], ["这", "zhè", "this"], ["条", "tiáo", "(measure word for lines)"],
+        ["线", "xiàn", "line"], ["以后", "yǐhòu", "after"], ["，"],
+        ["快乐", "kuàilè", "happiness"], ["更", "gèng", "more"], ["多", "duō", "mostly"], ["来自", "láizì", "comes from"],
+        ["朋友", "péngyou", "friends"], ["、"], ["家庭", "jiātíng", "family"], ["和", "hé", "and"],
+        ["有意义", "yǒu yìyì", "meaningful"], ["的", "de", "(particle)"], ["事情", "shìqing", "matters"], ["，"],
+        ["而", "ér", "but"], ["不", "bú", "not"], ["是", "shì", "is"], ["银行卡", "yínhángkǎ", "bank card"],
+        ["里", "li", "inside"], ["的", "de", "(particle)"], ["数字", "shùzì", "number"], ["。"]
+      ],
+      "en": "But beyond that line, happiness comes more from friends, family, and meaningful things, rather than the number on a bank card."
+    },
+    {
+      "t": [
+        ["我", "wǒ", "I"], ["认识", "rènshi", "to know"], ["一", "yí", "one"], ["位", "wèi", "(polite measure word)"],
+        ["工程师", "gōngchéngshī", "engineer"], ["，"],
+        ["工资", "gōngzī", "salary"], ["很", "hěn", "very"], ["高", "gāo", "high"], ["，"],
+        ["却", "què", "yet"], ["常常", "chángcháng", "often"], ["加班", "jiābān", "work overtime"], ["到", "dào", "until"],
+        ["深夜", "shēnyè", "late night"], ["，"],
+        ["几乎", "jīhū", "almost"], ["没", "méi", "not have"], ["时间", "shíjiān", "time"], ["见", "jiàn", "to see"],
+        ["朋友", "péngyou", "friends"], ["。"]
+      ],
+      "en": "I know an engineer whose salary is very high, yet he often works overtime until late at night and almost has no time to see friends."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"], ["说", "shuō", "say"], ["自己", "zìjǐ", "himself"],
+        ["“"], ["越", "yuè", "the more"], ["有钱", "yǒuqián", "wealthy"], ["，"], ["越", "yuè", "the more"],
+        ["孤独", "gūdú", "lonely"], ["”"], ["，"],
+        ["这", "zhè", "this"], ["句", "jù", "(measure word for sentences)"], ["话", "huà", "words"], ["让", "ràng", "to make"],
+        ["我", "wǒ", "me"], ["印象", "yìnxiàng", "impression"], ["很", "hěn", "very"], ["深", "shēn", "deep"], ["。"]
+      ],
+      "en": "He said of himself: \"the richer I get, the lonelier I feel\" — those words left a deep impression on me."
+    },
+    {
+      "t": [
+        ["后来", "hòulái", "afterwards"], ["他", "tā", "he"], ["换", "huàn", "to change"], ["了", "le", "(particle)"],
+        ["一", "yí", "one"], ["份", "fèn", "(measure word)"], ["工资", "gōngzī", "salary"], ["低", "dī", "low"],
+        ["一些", "yìxiē", "a little"], ["、"], ["但是", "dànshì", "but"], ["能", "néng", "can"],
+        ["准时", "zhǔnshí", "on time"], ["下班", "xiàbān", "get off work"], ["的", "de", "(particle)"], ["工作", "gōngzuò", "job"], ["，"],
+        ["他", "tā", "he"], ["说", "shuō", "say"], ["自己", "zìjǐ", "himself"], ["反而", "fǎn'ér", "on the contrary"],
+        ["快乐", "kuàilè", "happy"], ["多", "duō", "more"], ["了", "le", "(particle)"], ["。"]
+      ],
+      "en": "Later he switched to a job with a lower salary but that let him leave work on time; he said he was, on the contrary, much happier."
+    },
+    {
+      "t": [
+        ["这个", "zhège", "this"], ["研究", "yánjiū", "research"], ["提醒", "tíxǐng", "to remind"], ["我们", "wǒmen", "us"], ["："],
+        ["钱", "qián", "money"], ["很", "hěn", "very"], ["重要", "zhòngyào", "important"], ["，"],
+        ["但", "dàn", "but"], ["过", "guò", "to pass"], ["了", "le", "(particle)"], ["某", "mǒu", "a certain"],
+        ["个", "ge", "(measure word)"], ["点", "diǎn", "point"], ["，"],
+        ["快乐", "kuàilè", "happiness"], ["靠", "kào", "depends on"], ["的", "de", "(particle)"], ["是", "shì", "is"],
+        ["别的", "biéde", "other"], ["东西", "dōngxi", "thing"], ["。"]
+      ],
+      "en": "This research reminds us: money is important, but past a certain point, happiness depends on other things."
+    }
+  ],
+  "vocab": [
+    ["研究", "yánjiū", "research"],
+    ["收入", "shōurù", "income"],
+    ["发愁", "fāchóu", "to worry"],
+    ["孤独", "gūdú", "lonely"],
+    ["印象", "yìnxiàng", "impression"],
+    ["提醒", "tíxǐng", "to remind"]
+  ],
+  "quiz": [
+    {
+      "q": "普林斯顿大学的研究调查的是什么？",
+      "a": ["金钱和快乐的关系", "工作和睡眠的关系", "朋友的重要性"],
+      "c": 0
+    },
+    {
+      "q": "研究发现，年收入大概到多少以后，钱对快乐的影响变小？",
+      "a": ["三万五千美元", "七万五千美元", "十万美元"],
+      "c": 1
+    },
+    {
+      "q": "那位工程师换了工作以后感觉怎么样？",
+      "a": ["更孤独了", "工资更高了", "反而更快乐了"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "换句话说",
+      "e": "'In other words' — restates a point more simply or clearly.",
+      "x": "换句话说，钱能让人不再为房租、看病、吃饭发愁。"
+    },
+    {
+      "p": "越……越……",
+      "e": "'The more..., the more...' — links two changes that increase together.",
+      "x": "收入越高，人确实越快乐。"
+    },
+    {
+      "p": "对……的影响",
+      "e": "'Influence/effect on...' — describes how one thing affects another.",
+      "x": "对快乐的影响就变得很小。"
+    }
+  ]
+}
