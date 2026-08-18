@@ -58,7 +58,8 @@ a { color: var(--red); text-decoration: none; }
   font-family: inherit; }
 .nav-backdrop { display: none; }
 .nl { display: none; }              /* desktop: icons + tooltips only */
-.nav-menu > .nav-link[href*="words"] .nl { display: inline; } /* keep "Words" text */
+.nav-menu > .nav-link[href*="words"] .nl,
+.nav-menu > .nav-link[href*="grammar"] .nl { display: inline; } /* keep "Words"/"Grammar" text */
 
 .menu-head { display: none; }
 .menu-sec { display: none; }
@@ -1020,3 +1021,15 @@ html[data-theme="dark"] .vitem.vx:hover .vmore { background: #362e24; }
 html[data-theme="dark"] .tb-rate { background-color: #2d261e; color: var(--ink-2); }
 html[data-theme="dark"] .tb-rate:hover { background-color: #362e24; }
 html[data-theme="dark"] .tb-rate.on { background-color: #3c241c; color: #ff9a7d; }
+
+/* ---------- grammar index ---------- */
+.gwrap { margin: 22px 0 6px; }
+.gwrap .gitem { margin-bottom: 12px; }
+.gp .badge { margin-left: 8px; vertical-align: middle; }
+.g-src { margin-top: 10px; padding-top: 9px; font-size: .82rem;
+  color: #7d6a41; border-top: 1px dashed #e3d3a8; }
+.g-src a { color: #6d4f16; text-decoration: none; margin-right: 10px;
+  border-bottom: 1px solid #d9c8a4; }
+.g-src a:hover { border-bottom-color: currentColor; }
+html[data-theme=dark] .g-src { color: #b0a081; border-top-color: #4a3f28; }
+html[data-theme=dark] .g-src a { color: #d8c495; }

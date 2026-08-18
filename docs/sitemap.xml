@@ -2,7 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://readmandarin.com/</loc><lastmod>2026-08-17</lastmod><priority>1.0</priority></url>
   <url><loc>https://readmandarin.com/words</loc><lastmod>2026-08-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/grammar</loc><lastmod>2026-08-17</lastmod><priority>0.7</priority></url>
   <url><loc>https://readmandarin.com/about</loc><lastmod>2026-08-13</lastmod><priority>0.5</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk1</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk1</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk2</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk2</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk3</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk3</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk4</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk4</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk5</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk5</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk6</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk6</loc><lastmod>2026-08-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://readmandarin.com/hsk1</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk2</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk3</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>

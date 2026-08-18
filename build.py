@@ -254,6 +254,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       {auth_btn}
       <div class="menu-sec">Learn</div>
       <a class="nav-link" href="{rel}words.html"><span class="ni">📖</span><span class="nl"> Words</span></a>
+      <a class="nav-link" href="{rel}grammar.html"><span class="ni">🧩</span><span class="nl"> Grammar</span></a>
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook"><span class="ni">⭐</span><span class="nl"> My Wordbook</span></a>
       <a class="nav-link" href="{rel}progress.html" title="My progress"><span class="ni">🏆</span><span class="nl"> Progress</span></a>
       <div class="menu-sec">More</div>
@@ -793,55 +794,205 @@ def word_examples(texts, words):
     return {"s": pool, "w": perword}
 
 
-def build_words(texts):
-    """Aggregate every unique word from all readings into one searchable list.
-    Each row expands to real example sentences + usage notes mined from the
-    readings; the same data is dumped to assets/word-examples.json for the
-    wordbook page and flashcards."""
-    words = {}   # zh -> (level, py, en)
+def collect_words(texts):
+    """Every unique word across all readings, tagged with the level it first
+    appears at."""
+    words = {}
     for t in sorted(texts, key=lambda x: x["level"]):
         pool = [tok for s in t["sentences"] for tok in s["t"] if len(tok) == 3]
         pool += [list(v) for v in t["vocab"]]
         for zh, py, en in pool:
             if zh not in words:
                 words[zh] = (t["level"], py, en)
-    wex = word_examples(texts, words)
-    json.dump(wex, open(os.path.join(OUT, "assets", "word-examples.json"),
-                        "w", encoding="utf-8"), ensure_ascii=False,
-              separators=(",", ":"))
-    rows = []
-    for zh in sorted(words, key=lambda z: (words[z][0], words[z][1].lower())):
-        lvl, py, en = words[zh]
-        blob = f"{zh} {py} {en}".lower()
-        # detail content itself stays in word-examples.json and is built
-        # lazily on tap — inlining it ballooned words.html past 1 MB
-        d = wex["w"].get(zh, {"ex": [], "us": []})
-        has_d = bool(d["ex"] or d["us"])
-        more = '<span class="vmore"></span>' if has_d else ""
-        rows.append(
-            f'<div class="vitem{" vx" if has_d else ""}" data-l="{lvl}" data-search="{esc(blob)}">'
+    return words
+
+
+def word_row(zh, lvl, py, en, wex, badge=True):
+    blob = f"{zh} {py} {en}".lower()
+    # detail content itself stays in word-examples.json and is built lazily on
+    # tap — inlining it ballooned the page past 1 MB
+    d = wex["w"].get(zh, {"ex": [], "us": []})
+    has_d = bool(d["ex"] or d["us"])
+    more = '<span class="vmore"></span>' if has_d else ""
+    bdg = f'<span class="badge l{lvl}">HSK {lvl}</span>' if badge else ""
+    return (f'<div class="vitem{" vx" if has_d else ""}" data-l="{lvl}" '
+            f'data-search="{esc(blob)}">'
             f'<button class="s-play" data-say="{esc(zh)}">🔊</button>'
             f'<div class="vtext"><span class="vzh">{esc(zh)}</span>'
-            f'<span class="vpy">{esc(py)}</span>'
-            f'<span class="badge l{lvl}">HSK {lvl}</span>'
+            f'<span class="vpy">{esc(py)}</span>{bdg}'
             f'<span class="ven">{esc(en)}</span></div>{more}'
             f'<button class="wstar" data-z="{esc(zh)}" data-p="{esc(py)}" '
             f'data-e="{esc(en)}" title="Save to wordbook">☆</button></div>')
-    chips = ['<button class="lvl-chip on" data-l="0">All</button>'] + [
-        f'<button class="lvl-chip" data-l="{i}">HSK {i}</button>' for i in range(1, 7)]
+
+
+def sec_chips(cur, base, home):
+    """Level chips as real links — one URL per level, so each is indexable."""
+    # data-l is required: reader.js applyFilters() reads it off the active chip,
+    # and a missing attribute makes every row fail the level test.
+    out = [f'<a class="lvl-chip{"" if cur else " on"}" data-l="0" '
+           f'href="{home}">All</a>']
+    out += [f'<a class="lvl-chip{" on" if i == cur else ""}" data-l="{i}" '
+            f'href="{base}{i}.html">HSK {i}</a>' for i in range(1, 7)]
+    return ('<div class="levels"><div class="seg"><span class="seg-ind"></span>'
+            f'{"".join(out)}</div></div>')
+
+
+def build_words_index(words):
+    """Overview page. Deliberately does NOT inline the 5000-row list — that is
+    what made words.html a 2.1 MB download."""
+    counts = {i: sum(1 for z in words if words[z][0] == i) for i in range(1, 7)}
+    cards = "".join(
+        f'<a class="lvlcard" href="words-hsk{i}.html" style="--sc:{LEVEL_COLORS[i]}">'
+        f'<div class="lv-top"><span class="lv-tag">HSK {i}</span>'
+        f'<span class="lv-zh">{LEVEL_ZH[i]}</span></div>'
+        f'<div class="lv-name">{LEVEL_WORDS[i]}</div>'
+        f'<div class="lv-meta"><span class="lv-done">{counts[i]} words</span>'
+        f'<span class="lv-go">→</span></div></a>'
+        for i in range(1, 7))
     body = f"""
   <section class="about">
     <h1>Vocabulary <span style="font-family:var(--serif);color:var(--red)">词汇表</span></h1>
-    <p>{len(words)} words from our graded readings — tap a word to see real
-      example sentences and usage notes, 🔊 to hear, ☆ to save to your wordbook.</p>
+    <p>All {len(words)} words that appear across our graded readings, split by
+      HSK level. Tap any word for real example sentences pulled from the texts,
+      🔊 to hear it, ☆ to save it to your wordbook.</p>
+    <p>These lists are built from the readings themselves — so
+      every word here is one you will actually meet in a text on this site,
+      not an abstract syllabus dump.</p>
   </section>
-  <div class="searchbar"><input type="search" id="search"
-    placeholder="Search — 汉字 / pinyin / English…" autocomplete="off"></div>
-  <div class="levels"><div class="seg"><span class="seg-ind"></span>{''.join(chips)}</div></div>
-  <div class="wlist">{''.join(rows)}</div>"""
-    return page(f"Chinese Vocabulary List (HSK 1-6) | {SITE['site_name']}",
-                "Searchable Chinese vocabulary with pinyin and audio from graded readings.",
+  {sec_chips(0, "words-hsk", "words.html")}
+  <section class="lvlgrid">{cards}</section>"""
+    return page(f"Chinese Vocabulary Lists by HSK Level (1-6) | {SITE['site_name']}",
+                f"{len(words)} Chinese words with pinyin, audio and example "
+                f"sentences, organised by HSK level 1 to 6.",
                 body, path="words")
+
+
+def build_words_level(words, wex, lvl):
+    mine = sorted((z for z in words if words[z][0] == lvl),
+                  key=lambda z: words[z][1].lower())
+    rows = "".join(word_row(z, lvl, words[z][1], words[z][2], wex, badge=False)
+                   for z in mine)
+    cum = sum(1 for z in words if words[z][0] <= lvl)
+    body = f"""
+  <article>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
+      <span class="feat-tag">HSK {lvl} · {LEVEL_WORDS[lvl]}</span>
+      <h1>HSK {lvl} Vocabulary <span class="lv-h-zh">{LEVEL_ZH[lvl]}词汇</span></h1>
+      <div class="b-en">{len(mine)} words introduced at this level —
+        {cum} cumulative from HSK 1 to {lvl}.</div>
+    </div>
+    {sec_chips(lvl, "words-hsk", "words.html")}
+    <div class="searchbar"><input type="search" id="search"
+      placeholder="Search HSK {lvl} words — 汉字 / pinyin / English…" autocomplete="off"></div>
+    <div class="wlist">{rows}</div>
+    <section class="lvl-intro">
+      <h2>About this list</h2>
+      <p>These {len(mine)} words are the ones that first appear at HSK {lvl} in our
+        readings. Each row plays audio on 🔊, expands to show a real sentence from
+        one of the texts, and saves to your wordbook on ☆.</p>
+      <p>Words are listed alphabetically by pinyin. A word is filed at the level
+        of the first reading it appears in, so a word you meet in an HSK {lvl}
+        text but which also occurs later stays here rather than being repeated.</p>
+      <p class="lvl-how"><strong>How to use it:</strong> don't study this list top
+        to bottom. Read the <a href="hsk{lvl}.html">HSK {lvl} readings</a> first,
+        then come here to review the words you tripped over.</p>
+    </section>
+  </article>"""
+    return page(f"HSK {lvl} Vocabulary List — {len(mine)} Words with Pinyin & Audio | {SITE['site_name']}",
+                f"Complete HSK {lvl} vocabulary list: {len(mine)} Chinese words with "
+                f"pinyin, audio and example sentences from free graded readings.",
+                body, path=f"words-hsk{lvl}")
+
+
+
+def collect_grammar(texts):
+    """791 grammar notes live inside the readings and nowhere else. Fold them
+    into one index, keyed by pattern, each carrying the readings it appears in."""
+    gram = {}
+    for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
+        for g in t.get("grammar", []):
+            pat = (g.get("p") or "").strip()
+            if not pat:
+                continue
+            e = gram.setdefault(pat, {"e": g.get("e", ""), "x": g.get("x", ""),
+                                      "lvl": t["level"], "srcs": []})
+            # keep the first explanation; later readings only add sources
+            if not e["e"]:
+                e["e"] = g.get("e", "")
+            if not e["x"]:
+                e["x"] = g.get("x", "")
+            e["srcs"].append((t["slug"], t["title_zh"], t["title_en"]))
+    return gram
+
+
+def gram_item(pat, d, show_lvl=False):
+    srcs = "".join(
+        f'<a href="texts/{esc(slug)}.html">{esc(zh)}</a>'
+        for slug, zh, en in d["srcs"][:4])
+    extra = f' +{len(d["srcs"]) - 4}' if len(d["srcs"]) > 4 else ""
+    bdg = (f'<span class="badge l{d["lvl"]}">HSK {d["lvl"]}</span>'
+           if show_lvl else "")
+    return (f'<div class="gitem">'
+            f'<div class="gp">{esc(pat)}{bdg}</div>'
+            f'<p>{esc(d["e"])}</p>'
+            + (f'<div class="gx">{esc(d["x"])}</div>' if d["x"] else "")
+            + f'<div class="g-src">Seen in {srcs}{extra}</div></div>')
+
+
+def build_grammar_index(gram):
+    counts = {i: sum(1 for k in gram if gram[k]["lvl"] == i) for i in range(1, 7)}
+    cards = "".join(
+        f'<a class="lvlcard" href="grammar-hsk{i}.html" style="--sc:{LEVEL_COLORS[i]}">'
+        f'<div class="lv-top"><span class="lv-tag">HSK {i}</span>'
+        f'<span class="lv-zh">{LEVEL_ZH[i]}</span></div>'
+        f'<div class="lv-name">{LEVEL_WORDS[i]}</div>'
+        f'<div class="lv-meta"><span class="lv-done">{counts[i]} patterns</span>'
+        f'<span class="lv-go">→</span></div></a>'
+        for i in range(1, 7))
+    body = f"""
+  <section class="about">
+    <h1>Grammar <span style="font-family:var(--serif);color:var(--red)">语法点</span></h1>
+    <p>{len(gram)} Chinese grammar patterns, each one taken from a reading on this
+      site and shown with the sentence it came from. Split by HSK level.</p>
+    <p>This is not a reference grammar. Every pattern here earned its place by
+      turning up in a real text, and every entry links back to the reading it
+      appeared in — so you can see it working before you try to use it.</p>
+  </section>
+  {sec_chips(0, "grammar-hsk", "grammar.html")}
+  <section class="lvlgrid">{cards}</section>"""
+    return page(f"Chinese Grammar Points by HSK Level (1-6) | {SITE['site_name']}",
+                f"{len(gram)} Chinese grammar patterns with explanations and example "
+                f"sentences from free graded readings, organised by HSK level.",
+                body, path="grammar")
+
+
+def build_grammar_level(gram, lvl):
+    mine = sorted((k for k in gram if gram[k]["lvl"] == lvl), key=lambda k: k)
+    items = "".join(gram_item(k, gram[k]) for k in mine)
+    body = f"""
+  <article>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
+      <span class="feat-tag">HSK {lvl} · {LEVEL_WORDS[lvl]}</span>
+      <h1>HSK {lvl} Grammar <span class="lv-h-zh">{LEVEL_ZH[lvl]}语法</span></h1>
+      <div class="b-en">{len(mine)} patterns, each with the reading it came from.</div>
+    </div>
+    {sec_chips(lvl, "grammar-hsk", "grammar.html")}
+    <div class="gwrap">{items}</div>
+    <section class="lvl-intro">
+      <h2>How to use this page</h2>
+      <p>Every pattern below was pulled out of an HSK {lvl} reading on this site.
+        The example is the actual sentence it appeared in, and the links under it
+        go to the readings where you can see it in context.</p>
+      <p class="lvl-how"><strong>Grammar sticks through reading, not through lists.</strong>
+        Skim this page to see what {LEVEL_SEO[lvl]["cefr"]}-level Chinese asks of you,
+        then go read the <a href="hsk{lvl}.html">HSK {lvl} texts</a> and come back
+        when a sentence confuses you.</p>
+    </section>
+  </article>"""
+    return page(f"HSK {lvl} Grammar Points — {len(mine)} Patterns with Examples | {SITE['site_name']}",
+                f"All {len(mine)} HSK {lvl} Chinese grammar patterns explained in English, "
+                f"each with a real example sentence from a free graded reading.",
+                body, path=f"grammar-hsk{lvl}")
 
 
 def gated(inner, title_zh, blurb):
@@ -1067,7 +1218,22 @@ def main():
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about(texts))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(build_404())
     open(os.path.join(OUT, "rss.xml"), "w", encoding="utf-8").write(build_rss(texts))
-    open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(build_words(texts))
+    words = collect_words(texts)
+    wex = word_examples(texts, words)
+    json.dump(wex, open(os.path.join(OUT, "assets", "word-examples.json"),
+                        "w", encoding="utf-8"), ensure_ascii=False,
+              separators=(",", ":"))
+    open(os.path.join(OUT, "words.html"), "w", encoding="utf-8").write(
+        build_words_index(words))
+    for lvl in range(1, 7):
+        open(os.path.join(OUT, f"words-hsk{lvl}.html"), "w",
+             encoding="utf-8").write(build_words_level(words, wex, lvl))
+    gram = collect_grammar(texts)
+    open(os.path.join(OUT, "grammar.html"), "w", encoding="utf-8").write(
+        build_grammar_index(gram))
+    for lvl in range(1, 7):
+        open(os.path.join(OUT, f"grammar-hsk{lvl}.html"), "w",
+             encoding="utf-8").write(build_grammar_level(gram, lvl))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
     for f in ("manifest.webmanifest", "sw.js"):
@@ -1094,7 +1260,11 @@ def main():
         day = lambda ts: time.strftime("%Y-%m-%d", time.localtime(ts))
         newest = max(t["_mtime"] for t in texts) if texts else time.time()
         urls = [("", "1.0", newest), ("words", "0.7", newest),
+                ("grammar", "0.7", newest),
                 ("about", "0.5", os.path.getmtime(SITE_PATH))]
+        for lvl in range(1, 7):
+            urls.append((f"words-hsk{lvl}", "0.6", newest))
+            urls.append((f"grammar-hsk{lvl}", "0.6", newest))
         for lvl in range(1, 7):
             lv_ts = [t["_mtime"] for t in texts if t["level"] == lvl]
             urls.append((f"hsk{lvl}", "0.8", max(lv_ts) if lv_ts else newest))
