@@ -648,12 +648,11 @@ def build_index(texts):
         "image": f"{base}/assets/teacher.jpg",
         "sameAs": [SITE["preply_url"], SITE["facebook_url"]],
     }
-    if st.get("rating") and st.get("reviews"):
-        person["aggregateRating"] = {
-            "@type": "AggregateRating",
-            "ratingValue": st["rating"], "reviewCount": st["reviews"],
-            "bestRating": "5", "worstRating": "1",
-        }
+    # No aggregateRating here, deliberately. Google's review-snippet feature
+    # does not support Person as the reviewed item (GSC flagged it 2026-08-18),
+    # and these numbers are Preply's, not ratings collected on this site —
+    # marking up a third party's aggregate score is against the policy either
+    # way. The figures still appear as plain text on /about, which is fine.
     ld = [{
         "@context": "https://schema.org",
         "@type": "WebSite",
