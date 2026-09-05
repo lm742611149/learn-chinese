@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-i-dont-know",
+  "level": 2,
+  "title_zh": "我不知道",
+  "title_py": "Wǒ bù zhīdào",
+  "title_en": "I Don't Know in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["一个","yí gè","one; a"],["学生","xuésheng","student"],["在","zài","at; in"],["学校","xuéxiào","school"],["门口","ménkǒu","entrance; doorway"],["问","wèn","to ask"],["我","wǒ","I; me"],["路","lù","road; way"],["。"]],
+      "en": "In the afternoon, a student asked me for directions at the school gate."
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["请问","qǐngwèn","excuse me, may I ask"],["，"],["图书馆","túshūguǎn","library"],["在","zài","at; in"],["哪儿","nǎr","where"],["？"],["”"]],
+      "en": "He said, \"Excuse me, where is the library?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["不","bù","not"],["知道","zhīdào","to know"],["图书馆","túshūguǎn","library"],["在","zài","at; in"],["哪儿","nǎr","where"],["，"],["我","wǒ","I; me"],["也","yě","also"],["是","shì","to be"],["新","xīn","new"],["同学","tóngxué","classmate"],["。"]],
+      "en": "I don't know where the library is — I'm also a new student."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["告诉","gàosu","to tell"],["他","tā","him"],["："],["“"],["你","nǐ","you"],["可以","kěyǐ","can; may"],["问","wèn","to ask"],["李老师","Lǐ lǎoshī","Teacher Li"],["，"],["她","tā","she"],["知道","zhīdào","to know"],["。"],["”"]],
+      "en": "I told him, \"You can ask Teacher Li — she knows.\""
+    },
+    {
+      "t": [["那个","nàge","that"],["学生","xuésheng","student"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["问","wèn","to ask"],["她","tā","her"],["。"],["”"]],
+      "en": "The student said, \"Thank you — I'll go ask her.\""
+    },
+    {
+      "t": [["后来","hòulái","afterward"],["他","tā","he"],["找到","zhǎodào","to find"],["了","le","(completed action)"],["李老师","Lǐ lǎoshī","Teacher Li"],["，"],["李老师","Lǐ lǎoshī","Teacher Li"],["告诉","gàosu","to tell"],["他","tā","him"],["图书馆","túshūguǎn","library"],["在","zài","at; in"],["哪儿","nǎr","where"],["。"]],
+      "en": "Afterward, he found Teacher Li, and she told him where the library was."
+    }
+  ],
+  "vocab": [
+    ["知道","zhīdào","to know"],
+    ["问","wèn","to ask"],
+    ["路","lù","road; way"],
+    ["告诉","gàosu","to tell"],
+    ["找到","zhǎodào","to find"],
+    ["新","xīn","new"]
+  ],
+  "quiz": [
+    {"q":"Who asks for directions at the school gate?","a":["A new student","Teacher Li","A shop clerk"],"c":0},
+    {"q":"Why can't the narrator help?","a":["He is in a hurry","He is also new at the school","He does not speak Chinese"],"c":1},
+    {"q":"Who finally tells the student where the library is?","a":["The narrator","Another student","Teacher Li"],"c":2}
+  ],
+  "grammar": [
+    {"p":"不知道 + 疑问句","e":"不知道 is followed directly by a question phrase like 在哪儿 or 是谁 — no 吗 needed.","x":"我不知道图书馆在哪儿。 — I don't know where the library is."},
+    {"p":"你可以 + V","e":"可以 here softly suggests an action — like saying 'you could' rather than asking permission.","x":"你可以问李老师。 — You could ask Teacher Li."},
+    {"p":"也 + 是/V","e":"也 goes right before 是 or a verb to mean 'also' or 'too'.","x":"我也是新同学。 — I'm also a new student."}
+  ]
+}

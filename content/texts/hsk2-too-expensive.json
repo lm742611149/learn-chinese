@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-too-expensive",
+  "level": 2,
+  "title_zh": "太贵了",
+  "title_py": "Tài guì le",
+  "title_en": "Too Expensive in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I; me"],["想","xiǎng","would like to"],["买","mǎi","to buy"],["一个","yí gè","one"],["西瓜","xīguā","watermelon"],["。"]],
+      "en": "Today, I want to buy a watermelon."
+    },
+    {
+      "t": [["我","wǒ","I"],["去","qù","to go"],["商店","shāngdiàn","store"],["，"],["看见","kànjiàn","to see"],["一个","yí gè","a"],["人","rén","person"],["在","zài","(ongoing)"],["卖","mài","to sell"],["大","dà","big"],["西瓜","xīguā","watermelon"],["。"]],
+      "en": "I went to the store and saw someone selling big watermelons."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["他","tā","him"],["："],["“"],["这个","zhège","this"],["西瓜","xīguā","watermelon"],["多少钱","duōshao qián","how much (money)"],["？"],["”"]],
+      "en": "I ask him: \"How much is this watermelon?\""
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["三十","sānshí","thirty"],["块","kuài","yuan (colloquial)"],["。"],["”"],["我","wǒ","I; me"],["觉得","juéde","to feel; think"],["太","tài","too"],["贵","guì","expensive"],["了","le","(completed action)"],["。"]],
+      "en": "He says: \"Thirty kuai.\" I think it's too expensive."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["太","tài","too"],["贵","guì","expensive"],["了","le","(completed action)"],["，"],["便宜","piányi","cheap"],["一点儿","yìdiǎnr","a little"],["可以","kěyǐ","can; may"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I say: \"Too expensive! Can it be a little cheaper?\""
+    },
+    {
+      "t": [["他","tā","he"],["笑","xiào","to smile"],["了","le","(completed action)"],["，"],["说","shuō","to say"],["："],["“"],["好","hǎo","OK"],["，"],["二十","èrshí","twenty"],["五","wǔ","five"],["块","kuài","yuan (colloquial)"],["，"],["可以","kěyǐ","can; may"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "He smiles and says: \"OK, twenty-five kuai, how about that?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["给","gěi","to give"],["了","le","(completed action)"],["钱","qián","money"],["，"],["回家","huí jiā","to go home"],["了","le","(completed action)"],["，"],["西瓜","xīguā","watermelon"],["真","zhēn","really"],["好吃","hǎochī","delicious"],["，"],["我","wǒ","I"],["一","yí","one"],["个","gè","(measure word)"],["人","rén","person"],["吃","chī","to eat"],["了","le","(completed action)"],["三","sān","three"],["块","kuài","piece"],["。"]],
+      "en": "I paid and went home. The watermelon was so good I ate three slices on my own."
+    }
+  ],
+  "vocab": [
+    ["贵","guì","expensive"],
+    ["太","tài","too"],
+    ["便宜","piányi","cheap"],
+    ["一点儿","yìdiǎnr","a little"],
+    ["多少钱","duōshao qián","how much (money)"],
+    ["西瓜","xīguā","watermelon"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator want to buy?","a":["A watermelon","An apple","A cup"],"c":0},
+    {"q":"What price does the seller ask first?","a":["25 kuai","30 kuai","50 kuai"],"c":1},
+    {"q":"What price do they finally agree on?","a":["30 kuai","20 kuai","25 kuai"],"c":2}
+  ],
+  "grammar": [
+    {"p":"太 + adj + 了（too ...）","e":"太...了 says something is excessively so, often with feeling.","x":"太贵了！— Too expensive!"},
+    {"p":"adj + 一点儿，可以吗？（asking for a bit more/less）","e":"Adding 一点儿 after an adjective and asking 可以吗 politely requests a small change, like a discount.","x":"便宜一点儿可以吗？— Can it be a little cheaper?"},
+    {"p":"多少钱？（asking the price）","e":"多少钱 is the standard way to ask how much something costs.","x":"这个西瓜多少钱？— How much is this watermelon?"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-speak-slowly",
+  "level": 2,
+  "title_zh": "请说慢一点",
+  "title_py": "Qǐng shuō màn yìdiǎn",
+  "title_en": "Please Speak Slowly in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["爷爷","yéye","grandpa"],["打电话","dǎ diànhuà","to make a phone call"],["给","gěi","to (for)"],["我","wǒ","me"],["，"],["说话","shuōhuà","to talk; to speak"],["很","hěn","very"],["快","kuài","fast"],["，"],["我","wǒ","I"],["听不懂","tīng bu dǒng","can't understand (by listening)"],["。"]],
+      "en": "Grandpa calls me; he talks very fast, and I can't understand him."
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["爷爷","yéye","grandpa"],["，"],["请","qǐng","please"],["说","shuō","to speak"],["慢","màn","slow"],["一点","yìdiǎn","a little"],["。"],["”"]],
+      "en": "I say: \"Grandpa, please speak a little slower.\""
+    },
+    {
+      "t": [["爷爷","yéye","grandpa"],["慢慢","mànmàn","slowly"],["说","shuō","to speak"],["，"],["可是","kěshì","but"],["我","wǒ","I"],["还","hái","still"],["没","méi","did not"],["听","tīng","to listen"],["懂","dǒng","to understand"],["他","tā","he"],["说","shuō","to say"],["的","de","(possessive)"],["名字","míngzi","name"],["。"]],
+      "en": "Grandpa speaks slowly, but I still hadn't understood the name he said."
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["爷爷","yéye","grandpa"],["，"],["请","qǐng","please"],["再","zài","again"],["说","shuō","to say"],["一次","yí cì","one more time"],["。"],["”"]],
+      "en": "I say: \"Grandpa, please say it again.\""
+    },
+    {
+      "t": [["爷爷","yéye","grandpa"],["又","yòu","again"],["说","shuō","to say"],["了","le","(completed action)"],["一次","yí cì","one more time"],["，"],["我","wǒ","I"],["听","tīng","to listen"],["懂","dǒng","to understand"],["了","le","(completed action)"],["，"],["他","tā","he"],["要","yào","will; going to"],["来","lái","to come"],["我","wǒ","my"],["家","jiā","home"],["。"]],
+      "en": "Grandpa said it again, and I understood: he's coming to my house."
+    },
+    {
+      "t": [["我","wǒ","I"],["马上","mǎshàng","right away"],["告诉","gàosu","to tell"],["家人","jiārén","family"],["："],["“"],["爷爷","yéye","grandpa"],["要","yào","will; going to"],["来","lái","to come"],["了","le","(completed action)"],["！"],["”"]],
+      "en": "I tell my family right away: \"Grandpa is coming!\""
+    }
+  ],
+  "vocab": [
+    ["请","qǐng","please"],
+    ["慢","màn","slow"],
+    ["一点","yìdiǎn","a little"],
+    ["再","zài","again"],
+    ["一次","yí cì","one more time"],
+    ["听不懂","tīng bu dǒng","can't understand (by listening)"]
+  ],
+  "quiz": [
+    {"q":"Why can't the narrator understand Grandpa at first?","a":["Grandpa speaks too fast","The phone is broken","Grandpa is not speaking Chinese"],"c":0},
+    {"q":"What does the narrator ask for after 请说慢一点?","a":["To call back later","To hear it one more time","To send a message instead"],"c":1},
+    {"q":"What was Grandpa's news?","a":["He is sick","He bought a new phone","He is coming to visit"],"c":2}
+  ],
+  "grammar": [
+    {"p":"请 + V + 一点（please do a bit more...）","e":"请 makes a request polite; adding 一点 after 慢 softens it into \"a bit slower.\"","x":"请说慢一点。— Please speak a little slower."},
+    {"p":"请再 + V + 一次（please do it again）","e":"再...一次 asks someone to repeat an action one more time.","x":"请再说一次。— Please say it again."},
+    {"p":"听不懂（can't understand by listening）","e":"听不懂 means you heard the words but the meaning didn't get through — different from just not hearing at all.","x":"我听不懂，请说慢一点。— I don't understand; please speak a little slower."}
+  ]
+}

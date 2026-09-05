@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-wait-a-moment",
+  "level": 2,
+  "title_zh": "等一下",
+  "title_py": "Děng yíxià",
+  "title_en": "Wait a Moment in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["朋友","péngyou","friend"],["来","lái","to come"],["找","zhǎo","to look for; find"],["我","wǒ","I; me"],["玩儿","wánr","to play; have fun"],["。"]],
+      "en": "In the afternoon, a friend comes over to hang out with me."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","(indicates an ongoing action)"],["做","zuò","to make; to cook"],["饭","fàn","meal; food"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["等","děng","to wait"],["一下","yíxià","a moment"],["，"],["我","wǒ","I; me"],["做","zuò","to make"],["完","wán","to finish"],["就","jiù","then; right after"],["来","lái","to come"],["。"],["”"]],
+      "en": "I'm cooking, so I say: \"Wait a moment, I'll come as soon as I'm done.\""
+    },
+    {
+      "t": [["过","guò","(indicates time passing)"],["了","le","(completed action)"],["一会儿","yíhuìr","a little while"],["，"],["同事","tóngshì","coworker"],["打电话","dǎ diànhuà","to make a phone call"],["来","lái","to come"],["了","le","(completed action)"],["。"]],
+      "en": "After a little while, a coworker calls."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["等","děng","to wait"],["一会儿","yíhuìr","a little while"],["，"],["我","wǒ","I; me"],["在","zài","(indicates an ongoing action)"],["忙","máng","busy"],["。"],["”"]],
+      "en": "I say: \"Wait a moment, I'm busy.\""
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我","wǒ","I; me"],["准备","zhǔnbèi","to be about to; to prepare"],["出门","chūmén","to go out"],["，"],["朋友","péngyou","friend"],["叫","jiào","to call out to"],["我","wǒ","me"],["。"]],
+      "en": "In the evening, I'm about to go out when my friend calls out to me."
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["等","děng","to wait"],["一下","yíxià","a moment"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["走","zǒu","to go; to leave"],["。"],["”"]],
+      "en": "He says: \"Wait a moment, let's go together.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["笑","xiào","to smile"],["了","le","(completed action)"],["，"],["说","shuō","to say"],["："],["“"],["好","hǎo","OK; good"],["，"],["我","wǒ","I; me"],["等","děng","to wait"],["你","nǐ","you"],["。"],["”"]],
+      "en": "I smile and say: \"OK, I'll wait for you.\""
+    }
+  ],
+  "vocab": [
+    ["等一下","děng yíxià","wait a moment"],
+    ["一会儿","yíhuìr","a little while"],
+    ["打电话","dǎ diànhuà","to make a phone call"],
+    ["出门","chūmén","to go out"],
+    ["准备","zhǔnbèi","to be about to; to prepare"],
+    ["忙","máng","busy"]
+  ],
+  "quiz": [
+    {"q":"What is the narrator doing when the friend arrives?","a":["Cooking","Sleeping","Watching TV"],"c":0},
+    {"q":"Who says 等一下 at the end of the story?","a":["The narrator","The friend","The colleague"],"c":1},
+    {"q":"How many different people ask someone to wait?","a":["One","Two","Three"],"c":1}
+  ],
+  "grammar": [
+    {"p":"等一下 / 等一会儿（wait a moment）","e":"Both mean \"wait a moment\" and ask someone to hold on; 等一会儿 sounds a touch softer and slightly longer than 等一下.","x":"等一下，我做完就来。— Wait a moment, I'll come as soon as I'm done."},
+    {"p":"V + 完 + 就 + V（as soon as ... then ...）","e":"完 shows the first action is finished; 就 introduces what happens right after.","x":"我做完就来。— I'll come right after I finish."},
+    {"p":"准备 + V（about to do something）","e":"准备 before a verb often means someone is getting ready to do it, right before it happens.","x":"我准备出门，朋友叫我。— I was about to go out when my friend called out to me."}
+  ]
+}

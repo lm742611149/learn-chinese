@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-hurry-up",
+  "level": 3,
+  "title_zh": "快一点",
+  "title_py": "Kuài yìdiǎn",
+  "title_en": "Hurry Up in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],["我","wǒ","I; me"],["要","yào","will; to be going to"],["坐","zuò","to take (transport); to sit"],["火车","huǒchē","train"],["去","qù","to go"],["上海","Shànghǎi","Shanghai"],["，"],["但是","dànshì","but"],["我","wǒ","I; me"],["起床","qǐchuáng","to get up"],["晚","wǎn","late"],["了","le","(change of state)"],["。"]],
+      "en": "This morning I was going to take the train to Shanghai, but I got up late."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["看了看","kànlekàn","took a look at"],["时间","shíjiān","time"],["，"],["大声","dàshēng","loudly"],["说","shuō","to say"],["："],["“"],["快","kuài","fast; quick"],["一点","yìdiǎn","a little"],["，"],["来不及","láibují","not enough time; too late"],["了","le","(change of state)"],["！"],["”"]],
+      "en": "Mom glanced at the time and shouted: \"Hurry up, there's no time left!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["马上","mǎshàng","immediately"],["穿上","chuānshàng","to put on"],["衣服","yīfu","clothes"],["，"],["拿","ná","to take; to pick up"],["着","zhe","(ongoing state)"],["包","bāo","bag"],["就","jiù","then"],["往","wǎng","towards"],["外面","wàimiàn","outside"],["跑","pǎo","to run"],["。"]],
+      "en": "I quickly threw on my clothes, grabbed my bag, and ran straight outside."
+    },
+    {
+      "t": [["出门","chūmén","to go out; to leave home"],["的时候","de shíhou","when; at the time of"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["公共汽车","gōnggòng qìchē","bus"],["已经","yǐjīng","already"],["开","kāi","to drive"],["走","zǒu","to leave; to go away"],["了","le","(completed action)"],["。"]],
+      "en": "As I left, I saw that the bus had already driven off."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["心里","xīnli","in one's heart"],["很","hěn","very"],["着急","zháojí","anxious; in a rush"],["，"],["只好","zhǐhǎo","have no choice but to"],["打车","dǎchē","to take a taxi"],["去","qù","to go"],["火车站","huǒchēzhàn","train station"],["。"]],
+      "en": "I was anxious, so I had no choice but to take a taxi to the train station."
+    },
+    {
+      "t": [["出租车","chūzūchē","taxi"],["司机","sījī","driver"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["着急","zháojí","anxious; in a rush"],["，"],["我们","wǒmen","we; our"],["还","hái","still"],["来得及","láidejí","there's still time; not too late"],["。"],["”"]],
+      "en": "The taxi driver said: \"Don't worry, we still have time.\""
+    },
+    {
+      "t": [["到","dào","to arrive"],["火车站","huǒchēzhàn","train station"],["的时候","de shíhou","when; at the time of"],["，"],["火车","huǒchē","train"],["还","hái","still"],["有","yǒu","there is; have"],["五","wǔ","five"],["分钟","fēnzhōng","minute"],["就要","jiù yào","about to; soon will"],["开","kāi","to leave; to depart"],["了","le","(change of state)"],["。"]],
+      "en": "By the time I got to the train station, the train was leaving in five minutes."
+    },
+    {
+      "t": [["我","wǒ","I"],["终于","zhōngyú","finally"],["上车","shàng chē","to board"],["了","le","(completed action)"],["，"],["坐","zuò","to sit"],["下来","xiàlai","down"],["以后","yǐhòu","after"],["才","cái","only then"],["不","bú","not"],["那么","nàme","so"],["着急","zháojí","anxious"],["。"]],
+      "en": "I made it onto the train, and only once I sat down did the panic settle."
+    }
+  ],
+  "vocab": [
+    ["来不及","láibují","not enough time; too late"],
+    ["来得及","láidejí","there's still time; not too late"],
+    ["着急","zháojí","anxious; in a rush"],
+    ["打车","dǎchē","to take a taxi"],
+    ["上车","shàngchē","to board; to get on"],
+    ["火车站","huǒchēzhàn","train station"]
+  ],
+  "quiz": [
+    {"q":"Why was the narrator in such a rush that morning?","a":["Had to catch a train to Shanghai and got up late","Had to go to a job interview","Had to catch a flight"],"c":0},
+    {"q":"What did the taxi driver say?","a":["\"Hurry up, there's no time!\"","\"Don't worry, we still have time.\"","\"The bus already left.\""],"c":1},
+    {"q":"How did the narrator feel after finally getting on the train?","a":["Still very nervous","Angry at the taxi driver","No longer so nervous"],"c":2}
+  ],
+  "grammar": [
+    {"p":"快一点 / 快点 (hurry up!)","e":"快 + 一点 (often shortened to 快点) is a common way to urge someone to move faster — usually said as a short, urgent command.","x":"快一点，来不及了！— Hurry up, there's no time!"},
+    {"p":"来不及 vs. 来得及","e":"来不及 means there isn't enough time left to do something; 来得及 means the opposite — there's still time. Both are often used with 了 or 还.","x":"别着急，我们还来得及。— Don't worry, we still have time."},
+    {"p":"着…就… (do one thing, then right away another)","e":"着 marks an action still in progress; adding 就 + another verb shows what happens immediately after, often in a hurry.","x":"我拿着包就往外面跑。— I grabbed my bag and ran straight outside."}
+  ]
+}

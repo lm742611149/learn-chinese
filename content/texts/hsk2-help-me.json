@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-help-me",
+  "level": 2,
+  "title_zh": "请帮帮我",
+  "title_py": "Qǐng bāngbang wǒ",
+  "title_en": "Help Me in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["在","zài","at; in"],["车站","chēzhàn","station"],["，"],["看","kàn","to look at; to read"],["不","bù","not"],["懂","dǒng","to understand"],["那个","nàge","that"],["字","zì","character"],["。"]],
+      "en": "I'm at the station, and I can't read that character."
+    },
+    {
+      "t": [["我","wǒ","I"],["看见","kànjiàn","to see"],["一个","yí gè","one; a"],["老师","lǎoshī","teacher"],["，"],["说","shuō","to say"],["："],["“"],["老师","lǎoshī","teacher"],["，"],["请","qǐng","please"],["帮","bāng","to help"],["我","wǒ","me"],["看看","kànkan","to take a look"],["这个","zhège","this"],["字","zì","character"],["。"],["”"]],
+      "en": "I saw a teacher and said, \"Teacher, please help me look at this character.\""
+    },
+    {
+      "t": [["老师","lǎoshī","teacher"],["看了看","kànlekàn","took a look at"],["，"],["说","shuō","to say"],["："],["“"],["没","méi","not"],["问题","wèntí","problem"],["，"],["这个","zhège","this"],["是","shì","to be"],["去","qù","to go"],["北京","Běijīng","Beijing"],["的","de","(possessive particle)"],["车","chē","train; vehicle"],["。"],["”"]],
+      "en": "The teacher looked at it and said, \"No problem — this is the train to Beijing.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["可是","kěshì","but"],["我","wǒ","I"],["不","bù","not"],["知道","zhīdào","to know"],["车","chē","train"],["在","zài","at; in"],["哪儿","nǎr","where"],["，"],["你","nǐ","you"],["可以","kěyǐ","can; may"],["帮","bāng","to help"],["我","wǒ","me"],["找","zhǎo","to look for"],["车","chē","train"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I said, \"But I don't know where the train is — could you help me find it?\""
+    },
+    {
+      "t": [["老师","lǎoshī","teacher"],["笑","xiào","to smile"],["着","zhe","(ongoing state)"],["说","shuō","to say"],["："],["“"],["没","méi","not"],["问题","wèntí","problem"],["，"],["我","wǒ","I"],["带","dài","to take (lead)"],["你","nǐ","you"],["去","qù","to go"],["。"],["”"]],
+      "en": "The teacher smiled and said, \"No problem, I'll take you there.\""
+    },
+    {
+      "t": [["她","tā","she"],["带","dài","to take (lead)"],["我","wǒ","me"],["找到","zhǎodào","to find"],["了","le","(completed action)"],["车","chē","train"],["，"],["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["，"],["你","nǐ","you"],["真","zhēn","really"],["的","de","(particle)"],["帮","bāng","to help"],["了","le","(completed action)"],["我","wǒ","me"],["。"],["”"]],
+      "en": "She led me to find the train, and I said, \"Thank you — you really helped me.\""
+    }
+  ],
+  "vocab": [
+    ["帮","bāng","to help"],
+    ["请","qǐng","please"],
+    ["车站","chēzhàn","station"],
+    ["北京","Běijīng","Beijing"],
+    ["找","zhǎo","to look for; find"],
+    ["带","dài","to take (lead)"]
+  ],
+  "quiz": [
+    {"q":"Where does the story take place?","a":["At a station","At school","At a store"],"c":0},
+    {"q":"What is the narrator's first problem?","a":["He lost his ticket","He cannot read a character","He has no money"],"c":1},
+    {"q":"What does the teacher do in the end?","a":["Writes the character down","Calls someone for him","Walks him to the train"],"c":2}
+  ],
+  "grammar": [
+    {"p":"请 + 帮 + 我 + V","e":"请帮我 + verb is a simple, polite way to ask someone to do something for you.","x":"请帮我看看这个字。 — Please help me look at this character."},
+    {"p":"你可以帮我 + V + 吗？","e":"你可以 turns a request into a soft question — 吗 at the end makes it a clear question.","x":"你可以帮我找车吗? — Could you help me find the train?"},
+    {"p":"V + 着","e":"着 after a verb shows one action happening alongside another, like smiling while speaking.","x":"老师笑着说。 — The teacher said, smiling."}
+  ]
+}

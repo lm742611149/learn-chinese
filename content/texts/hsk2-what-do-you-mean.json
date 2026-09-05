@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-what-do-you-mean",
+  "level": 2,
+  "title_zh": "你是什么意思",
+  "title_py": "Nǐ shì shénme yìsi",
+  "title_en": "What Do You Mean in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中午","zhōngwǔ","noon"],["，"],["同学","tóngxué","classmate"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["我","wǒ","my"],["的","de","(possessive)"],["饭","fàn","food"],["，"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["太","tài","too"],["挑食","tiāoshí","picky about food"],["了","le","(completed action)"],["！"],["”"]],
+      "en": "At noon, my classmate looks at my food and says: \"You're too picky about food!\""
+    },
+    {
+      "t": [["我","wǒ","I"],["不","bù","not"],["知道","zhīdào","to know"],["，"],["就","jiù","then"],["问","wèn","to ask"],["她","tā","her"],["："],["“"],["挑食","tiāoshí","picky about food"],["是","shì","to be"],["什么","shénme","what"],["意思","yìsi","meaning"],["？"],["”"]],
+      "en": "I don't know what that means, so I ask her: \"What does 'tiāoshí' mean?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["挑食","tiāoshí","picky about food"],["就","jiù","then"],["是","shì","to be"],["这个","zhège","this"],["不","bù","not"],["吃","chī","to eat"],["，"],["那个","nàge","that"],["也","yě","also"],["不","bù","not"],["吃","chī","to eat"],["。"],["”"]],
+      "en": "She says: \"'Tiāoshí' means you don't eat this, and you don't eat that either.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["不","bú","not"],["是","shì","to be"],["挑食","tiāoshí","picky about food"],["，"],["我","wǒ","I"],["只","zhǐ","only"],["是","shì","to be"],["不","bù","not"],["喜欢","xǐhuan","to like"],["吃","chī","to eat"],["鱼","yú","fish"],["。"],["”"]],
+      "en": "I say: \"I'm not picky, I just don't like fish.\""
+    },
+    {
+      "t": [["她","tā","she"],["笑","xiào","to smile"],["着","zhe","(ongoing state)"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["真","zhēn","really"],["有意思","yǒuyìsi","interesting"],["。"],["”"]],
+      "en": "She smiles and says: \"You're really interesting.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["是","shì","to be"],["什么","shénme","what"],["意思","yìsi","meaning"],["？"],["你","nǐ","you"],["是","shì","to be"],["说","shuō","to say"],["我","wǒ","me"],["不","bù","not"],["好","hǎo","good"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I say: \"What do you mean? Are you saying I'm bad?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["不","bú","not"],["是","shì","to be"],["，"],["我","wǒ","I"],["是","shì","to be"],["说","shuō","to say"],["你","nǐ","you"],["很","hěn","very"],["有意思","yǒuyìsi","interesting"],["。"],["”"]],
+      "en": "She says: \"No, I mean you're really interesting.\""
+    }
+  ],
+  "vocab": [
+    ["意思","yìsi","meaning"],
+    ["挑食","tiāoshí","picky about food"],
+    ["有意思","yǒuyìsi","interesting"],
+    ["知道","zhīdào","to know"],
+    ["喜欢","xǐhuan","to like"],
+    ["同学","tóngxué","classmate"]
+  ],
+  "quiz": [
+    {"q":"What does 挑食 mean, according to the classmate?","a":["Eating too much","Refusing many foods","Eating too slowly"],"c":1},
+    {"q":"Which food does the narrator say he doesn't like?","a":["Fish","Rice","Eggs"],"c":0},
+    {"q":"What did the classmate actually mean by 你真有意思?","a":["That he is annoying","That he is wrong","That he is funny"],"c":2}
+  ],
+  "grammar": [
+    {"p":"你是什么意思？（asking what someone means）","e":"This asks about a person's intention behind what they said — are they joking, criticizing, or something else?","x":"你是什么意思？你是说我不好吗？— What do you mean? Are you saying I'm bad?"},
+    {"p":"……是什么意思？（asking what a word means）","e":"Put a word or phrase before 是什么意思 to ask what it means, instead of what someone intends.","x":"挑食是什么意思？— What does 'tiāoshí' mean?"},
+    {"p":"我是说……（clarifying what you meant）","e":"我是说 introduces a clarification, used to explain your real meaning after a misunderstanding.","x":"不是，我是说你很有意思。— No, I mean you're really interesting."}
+  ]
+}

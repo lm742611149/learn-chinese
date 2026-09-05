@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-no-problem",
+  "level": 2,
+  "title_zh": "没问题",
+  "title_py": "Méi wèntí",
+  "title_en": "No Problem in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening; night"],["，"],["同事","tóngshì","coworker"],["给","gěi","to; for (a person)"],["我","wǒ","me"],["打电话","dǎ diànhuà","to make a phone call"],["。"]],
+      "en": "In the evening, my coworker called me."
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["对不起","duìbuqǐ","sorry"],["，"],["现在","xiànzài","now"],["很","hěn","very"],["晚","wǎn","late"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "He said, \"Sorry, it's very late now.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it doesn't matter"],["，"],["我","wǒ","I"],["还","hái","still"],["没","méi","not (yet)"],["睡觉","shuìjiào","to sleep"],["。"],["”"]],
+      "en": "I said, \"It's fine — I haven't gone to sleep yet.\""
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["明天","míngtiān","tomorrow"],["你","nǐ","you"],["可以","kěyǐ","can"],["来","lái","to come"],["公司","gōngsī","company"],["吗","ma","(question particle)"],["？"],["我们","wǒmen","we"],["有","yǒu","to have"],["很多","hěn duō","a lot of"],["事情","shìqing","things to do"],["要","yào","need to"],["做","zuò","to do"],["。"],["”"]],
+      "en": "He said, \"Can you come to the office tomorrow? We have a lot to get done.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["没","méi","not"],["问题","wèntí","problem"],["，"],["我","wǒ","I"],["明天","míngtiān","tomorrow"],["早上","zǎoshang","morning"],["就","jiù","right away"],["去","qù","to go"],["。"],["”"]],
+      "en": "I said, \"No problem — I'll go tomorrow morning.\""
+    },
+    {
+      "t": [["后来","hòulái","afterward"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["做","zuò","to do"],["完","wán","to finish"],["了","le","(completed action)"],["那些","nàxiē","those"],["事情","shìqing","things"],["。"]],
+      "en": "Afterward, we got through all of it together."
+    }
+  ],
+  "vocab": [
+    ["没问题","méi wèntí","no problem; sure"],
+    ["没关系","méi guānxi","it doesn't matter"],
+    ["对不起","duìbuqǐ","sorry"],
+    ["打电话","dǎ diànhuà","to make a phone call"],
+    ["早上","zǎoshang","morning"],
+    ["事情","shìqing","thing; matter"]
+  ],
+  "quiz": [
+    {"q":"When does the colleague call?","a":["In the morning","In the evening","At noon"],"c":1},
+    {"q":"What is 没关系 answering here?","a":["The colleague's apology","The colleague's request","A question about work"],"c":0},
+    {"q":"What does the narrator agree to do?","a":["Call back tomorrow","Finish the work alone","Come to the office tomorrow"],"c":2}
+  ],
+  "grammar": [
+    {"p":"没问题 — 回应请求","e":"没问题 means 'sure, I can do that' — use it to agree to a request or task.","x":"你可以来吗? — 没问题! — Can you come? — Sure, no problem!"},
+    {"p":"没关系 — 回应道歉","e":"没关系 means 'it's fine / never mind' — use it after someone says 对不起。","x":"对不起! — 没关系。 — Sorry! — It's fine."},
+    {"p":"还没 + V","e":"还没 before a verb says the action hasn't happened yet.","x":"我还没睡觉。 — I haven't gone to sleep yet."}
+  ]
+}

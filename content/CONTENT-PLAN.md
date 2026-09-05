@@ -57,16 +57,44 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
   内容单薄,而且与已有「我的家 → Talking About My Family in Chinese」撞搜索词
 - 同理注意:「懂」「知道」「明白」「生日」都不在 150 词表里
 
-**HSK 2** — 高频交际场景
-讨价还价 → Bargaining in Chinese ⭐️(与已有「便宜还是贵」不同:砍价 vs 比价) /
-量词 → Chinese Measure Words ⭐️ / 买车票 → Buying a Train Ticket in Chinese /
-身体部位 → Body Parts in Chinese / 请求帮忙 → Asking for Help in Chinese /
-在超市 → At the Supermarket in Chinese(与已有「去商店」略近,优先级最低)
+### 📌 选题来源:扒竞品的课文列表(2026-09-05 加)
 
-**HSK 3** — 办事型场景
-办手机卡 → Getting a SIM Card in Chinese ⭐️(在华外国人真实痛点,竞争极低) /
-在药店 → At the Pharmacy in Chinese / 报警求助 → Asking for Help in an Emergency in Chinese /
-点外卖 → Ordering Delivery in Chinese(HSK4「外卖时代」是话题文,这篇写场景对话,可并存)
+排在第一页的竞品,它们的课文标题就是**被验证过的选题** —— 既有搜索量、又能写成分级读物。
+抓法: `curl https://chinesegradedreader.com/post-sitemap.xml`,URL 的 slug 就是标题
+(hskreading.com 的 sitemap 不带级别,要从 /category/hsk-N/ 页面取)。
+
+⚠️ **但不能照单全收**:CGR 90 篇里有一大半也没搜索量(`14 times` / `the egg` /
+`really really` / `good good` / `just one`)。**要用搜索价值再筛一遍**。
+
+**筛出来的规律(重要)**:真正有搜索量的那类不是场景文,是**日常口语短句** ——
+`too expensive` / `no problem` / `help me` / `wait a moment` / `hurry up` /
+`be careful` / `what do you mean` / `i dont understand`。这类词搜索量比
+「买车票」「在超市」这种场景选题高得多,而且低级词汇就写得出来。
+
+**HSK 2** — 口语短句优先(2026-09-05 首批 7 篇已开写)
+我不知道 → I Don't Know in Chinese ⭐️ / 没问题 → No Problem in Chinese ⭐️ /
+请帮帮我 → Help Me in Chinese ⭐️ / 等一下 → Wait a Moment in Chinese ⭐️ /
+太贵了 → Too Expensive in Chinese ⭐️(砍价,与已有「便宜还是贵」的比价区分) /
+请说慢一点 → Please Speak Slowly in Chinese ⭐️ /
+你是什么意思 → What Do You Mean in Chinese
+后备: 量词 → Chinese Measure Words / 买车票 → Buying a Train Ticket in Chinese
+
+**HSK 3** — (2026-09-05 首批 3 篇已开写)
+小心 → Be Careful in Chinese / 快一点 → Hurry Up in Chinese(与「迟到了」区分:催促 vs 结果) /
+买手机卡 → Getting a SIM Card in Chinese ⭐️(在华外国人真实痛点,竞争极低)
+后备: 在药店 → At the Pharmacy in Chinese / 点外卖 → Ordering Delivery in Chinese
+
+**又砍掉两条(词表不够,同「颜色」)**:
+- **身体部位 → Body Parts in Chinese**: HSK2 只有「眼睛」一个部位词,头/手/脚全不在。等 HSK4
+- **生日快乐 → Happy Birthday in Chinese**: 站上已有「过生日」「难忘的生日」「妈妈的生日」
+  三篇生日课文,第四篇必然内容重合。用「我不知道」替换
+
+### 🔧 写课文时的词汇约束办法(2026-09-05 定)
+HSK2/3 的官方词表(300/600 词)不要凭记忆列 —— 容易错。改用**站内已验证词池**:
+从现有同级及以下课文里提取所有用过的词(HSK2 池 636 词 / HSK3 池 1124 词),
+给子agent 当安全词表,池外词每篇最多 2 个且必须进 vocab。
+配套自检脚本 `check_oov.py` + 词池 json 在 scratchpad(要长期用的话该挪进仓库)。
+注意:池子只能证明"用过的一定安全",不能证明"没用过的就超纲" —— 池外词要人工核对词表。
 
 **已从候选里剔除的(撞现有课文,别再拟)**: 数字 1-10(撞「数字真有趣」)/ 星期几(撞「星期天」)/
 再见的说法(撞「再见,老师」)/ 看医生(撞「我不舒服」「生病了」「医院挂号」三篇)/
