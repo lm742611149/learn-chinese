@@ -7,6 +7,67 @@
 原则: 只用本级及以下词汇(允许 ≤10% 超纲词,超纲词必须进生词表);每篇 5-8 句;
      话题贴近成年学习者的真实生活;可与 Facebook Reels 主题联动。
 
+---
+
+## ⭐️ 选题规则:标题必须是"有人会搜的词"(2026-09-05 定)
+
+**背景**: GSC 数据显示课文页已经能排到第 3-10 名(第一页),但每篇只有 1-2 次展示 ——
+页面模板 Google 认可,废掉的是选题。没有人会搜"买水果""什么是幸福"。排在第一页的竞品
+(chinesegradedreader.com)把课文直接命名成 `Thank You`/`Hello`/`Excuse Me`,标题本身
+就是搜索词。
+
+**新选题的两个硬条件(必须同时满足)**:
+1. 英文标题写成 `<场景/表达> in Chinese` 后,是一个英语母语学习者真会在 Google 里打的短语
+   —— 比如 `how to say thank you in chinese` / `ordering food in chinese` /
+   `chinese numbers 1 to 10`
+2. 课文内容真能兑现这个标题(不是标题党),且能用**本级及以下**词汇写出来
+
+**反面例子(别再选)**: 记叙散文式的题目 —— 苹果和米饭 / 小狗和小猫 / 快乐的一天 /
+我的杯子。这类写出来很好读,但搜索量为零,315 篇里的大多数展示为 0 就是这个原因。
+
+**优先级**: HSK1-2 最重要(入门搜索词的量级最大,且竞品在这一层最弱)。
+HSK4-6 保持现在的话题路线(碳中和/认知偏差这类),那是与竞品的差异化,不要求搜索词化。
+
+**命名约定**: 中文标题照旧自然拟;`title_en` 直接写成搜索短语。疑问句用 `Asking…` 开头
+(`Asking the Time in Chinese`),不要硬加后缀写成 `What Time Is It? in Chinese`。
+
+### 待写的搜索型选题(已做过撞题检查,2026-09-05)
+
+⚠️ **先看这条**: 2026-09-05 已把 58 篇 HSK1-3 课文的 `title_en` 改成搜索短语,
+**这批搜索词已经被占了,别再重复写**。已覆盖的包括: Ordering Food / Buying Coffee /
+Getting a Haircut / Asking for Directions / At the Hotel / Taking a Taxi /
+Talking About the Weather / Asking the Time / Asking Someone's Name /
+Registering at a Hospital / Opening a Bank Account / Sending a Package /
+The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
+**拟新选题前,先跑一遍 title_zh 和 title_en 的双向撞题比对。**
+
+**HSK 1** — 入门功能词,搜索量最大也最空白的一层,优先写这批
+谢谢/不客气 → Saying Thank You in Chinese ⭐️最高优先(竞品 CGR 就是靠这类词排上第一页) /
+对不起 → Saying Sorry in Chinese ⭐️ / 你好·问候 → Greetings in Chinese ⭐️ /
+多少钱 → Asking How Much It Costs in Chinese ⭐️ /
+我听不懂 → Saying You Don't Understand in Chinese /
+颜色 → Colors in Chinese / 月份和日期 → Months and Dates in Chinese /
+家人称呼 → Family Members in Chinese / 是和不是 → Saying Yes and No in Chinese
+
+**HSK 2** — 高频交际场景
+讨价还价 → Bargaining in Chinese ⭐️(与已有「便宜还是贵」不同:砍价 vs 比价) /
+量词 → Chinese Measure Words ⭐️ / 买车票 → Buying a Train Ticket in Chinese /
+身体部位 → Body Parts in Chinese / 请求帮忙 → Asking for Help in Chinese /
+在超市 → At the Supermarket in Chinese(与已有「去商店」略近,优先级最低)
+
+**HSK 3** — 办事型场景
+办手机卡 → Getting a SIM Card in Chinese ⭐️(在华外国人真实痛点,竞争极低) /
+在药店 → At the Pharmacy in Chinese / 报警求助 → Asking for Help in an Emergency in Chinese /
+点外卖 → Ordering Delivery in Chinese(HSK4「外卖时代」是话题文,这篇写场景对话,可并存)
+
+**已从候选里剔除的(撞现有课文,别再拟)**: 数字 1-10(撞「数字真有趣」)/ 星期几(撞「星期天」)/
+再见的说法(撞「再见,老师」)/ 看医生(撞「我不舒服」「生病了」「医院挂号」三篇)/
+点咖啡(撞「买咖啡」)/ 天气的说法(撞「今天的天气」「天气预报」)/ 在理发店(撞「理发」)/
+快递取件(撞「寄快递」)/ 租房看房(撞 HSK4「租房记」)/ 道歉与原谅(与 HSK1「对不起」重复)/
+打招呼寒暄(与 HSK1「你好·问候」重复)
+
+---
+
 ## HSK 1(50 篇)— 每篇 4-6 句,150 词表词
 自我介绍 ✅ / 我的家 ✅ / 我的一天 ✅ / 在饭馆 ✅ / 我的老师 ✅ / 我的学校 ✅ / 买东西 ✅ /
 今天的天气 ✅ / 我的狗 ✅ / 我的猫 ✅ / 喝茶还是咖啡 ✅ / 我会说汉语 ✅ / 打电话 ✅ / 看电影 ✅ /
