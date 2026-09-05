@@ -31,8 +31,8 @@
       "en": "The son said: \"Mom, take care too, and don't worry about me.\""
     },
     {
-      "t": [["火车","huǒchē","train"],["开","kāi","to start (a vehicle)"],["走","zǒu","to leave"],["了","le","(completed action)"],["，"],["妈妈","māma","mom"],["站","zhàn","to stand"],["在","zài","at"],["那儿","nàr","there"],["，"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["窗户","chuānghu","window"],["，"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["，"],["就","jiù","then"],["看","kàn","to see"],["不","bù","not"],["见","jiàn","to see"],["了","le","(change of state)"],["。"]],
-      "en": "The train pulled away, and mom stood there, watching the window — watching and watching, until she couldn't see it anymore."
+      "t": [["火车","huǒchē","train"],["开","kāi","to pull"],["走","zǒu","away"],["了","le","(completed action)"],["，"],["妈妈","māma","mom"],["站","zhàn","to stand"],["在","zài","at"],["那儿","nàr","there"],["，"],["看","kàn","to watch"],["着","zhe","(ongoing)"],["火车","huǒchē","train"],["，"],["看","kàn","to watch"],["着","zhe","(ongoing)"],["看","kàn","to watch"],["着","zhe","(ongoing)"],["，"],["就","jiù","then"],["看","kàn","to see"],["不","bú","not"],["见","jiàn","to see"],["了","le","(change of state)"],["。"]],
+      "en": "The train pulled away, and his mother stood there watching it until she couldn't see it any more."
     }
   ],
   "vocab": [
