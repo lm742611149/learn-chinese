@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-can-i-try-it-on",
+  "level": 3,
+  "title_zh": "我试一下",
+  "title_py": "Wǒ shì yíxià",
+  "title_en": "Can I Try It On in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["和","hé","and"],["朋友","péngyou","friend"],["去","qù","to go"],["商店","shāngdiàn","store; shop"],["买","mǎi","to buy"],["衣服","yīfu","clothes"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一件","yí jiàn","one (item of clothing)"],["衬衫","chènshān","shirt"],["，"],["颜色","yánsè","color"],["很","hěn","very"],["好看","hǎokàn","good-looking"],["。"]],
+      "en": "My friend and I went to a store to buy clothes, and I saw a shirt whose color looked great."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["我","wǒ","I; me"],["可以","kěyǐ","can; may"],["试","shì","to try"],["一下","yíxià","a bit"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I asked the clerk: \"Can I try it on?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["当然","dāngrán","of course"],["可以","kěyǐ","can; may"],["，"],["镜子","jìngzi","mirror"],["在","zài","at"],["旁边","pángbiān","beside"],["。"],["”"]],
+      "en": "The clerk said: \"Of course, the mirror is right beside you.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["穿上","chuānshàng","to put on"],["衬衫","chènshān","shirt"],["，"],["在","zài","at"],["镜子","jìngzi","mirror"],["前面","qiánmiàn","in front"],["看","kàn","to look at"],["了","le","(completed action)"],["看","kàn","to look at"],["，"],["觉得","juéde","to feel"],["有点儿","yǒudiǎnr","a little"],["大","dà","big"],["。"]],
+      "en": "I put on the shirt, looked at myself in the mirror, and felt it was a bit too big."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["有","yǒu","to have"],["没有","méiyǒu","not have"],["小","xiǎo","little"],["一点","yìdiǎn","a little"],["的","de","(possessive particle)"],["号","hào","size (number)"],["？"],["”"]],
+      "en": "I asked the clerk: \"Do you have a smaller size?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["又","yòu","again"],["拿","ná","to bring; to take"],["来","lái","to come"],["一件","yí jiàn","one (item of clothing)"],["，"],["我","wǒ","I; me"],["穿上","chuānshàng","to put on"],["试","shì","to try"],["了","le","(completed action)"],["试","shì","to try"],["。"]],
+      "en": "The clerk brought me another one, and I put it on and tried it out."
+    },
+    {
+      "t": [["这次","zhè cì","this time"],["不","bú","not"],["大","dà","big"],["也","yě","also"],["不","bù","not"],["小","xiǎo","little"],["，"],["很","hěn","very"],["合适","héshì","fitting; suitable"],["。"]],
+      "en": "This time it wasn't too big or too small — it fit just right."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["付","fù","to pay"],["了","le","(completed action)"],["钱","qián","money"],["，"],["拿","ná","to hold; to carry"],["着","zhe","(ongoing state)"],["衬衫","chènshān","shirt"],["走","zǒu","to walk"],["出","chū","out"],["商店","shāngdiàn","store; shop"],["，"],["朋友","péngyou","friend"],["还","hái","still"],["在","zài","at"],["旁边","pángbiān","beside"],["试","shì","to try"],["裙子","qúnzi","skirt"],["。"]],
+      "en": "I paid, carried the shirt out of the store, and my friend was still nearby trying on a skirt."
+    }
+  ],
+  "vocab": [
+    ["合适", "héshì", "fitting; suitable"],
+    ["试", "shì", "to try"],
+    ["穿上", "chuānshàng", "to put on"],
+    ["号", "hào", "size (number)"],
+    ["衬衫", "chènshān", "shirt"],
+    ["有点儿", "yǒudiǎnr", "a little"]
+  ],
+  "quiz": [
+    {"q":"What did the narrator ask the clerk?","a":["Where is the mirror","Can I try this on","How much does it cost"],"c":1},
+    {"q":"How did the shirt feel the first time?","a":["Too small","Too long","A bit too big"],"c":2},
+    {"q":"What is the narrator's friend doing at the end of the story?","a":["Trying on a skirt","Paying at the register","Leaving the store"],"c":0}
+  ],
+  "grammar": [
+    {"p": "可以...吗？(May I...?)", "e": "可以 + verb + 吗 is the everyday way to ask for permission to do something.", "x": "我可以试一下吗？— Can I try it on?"},
+    {"p": "有点儿 + adjective (a bit...)", "e": "有点儿 goes right before an adjective to soften a complaint, showing something is a little more than you'd like.", "x": "觉得有点儿大。— Felt it was a bit too big."},
+    {"p": "不 A 也不 B (neither A nor B)", "e": "Repeating 不 before two opposite adjectives says something lands right in the middle — not too much of either.", "x": "不大也不小，很合适。— Not too big or too small — it fit just right."}
+  ]
+}

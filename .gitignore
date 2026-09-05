@@ -1,4 +1,13 @@
 media/
-video/
+
+# video/ 下只跟踪脚本和分镜配置，素材与成片（几十 MB）不进库
+video/*
+!video/*.py
+!video/README.md
+!video/*/
+video/*/*
+!video/*/shots.json
+!video/*/storyboard.md
+!video/*/shoot-list.md
 __pycache__/
 .DS_Store

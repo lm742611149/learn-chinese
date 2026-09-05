@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-im-happy",
+  "level": 2,
+  "title_zh": "我很开心",
+  "title_py": "Wǒ hěn kāixīn",
+  "title_en": "I Am Happy in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["大明","Dàmíng","Daming (a name)"],["来","lái","to come"],["我","wǒ","I"],["家","jiā","home"],["玩","wán","to play"],["。"]],
+      "en": "Today, my friend Daming comes to my home to play."
+    },
+    {
+      "t": [["我","wǒ","I"],["看见","kànjiàn","to see"],["他","tā","him"],["，"],["很","hěn","very"],["高兴","gāoxìng","happy; glad"],["，"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["来","lái","to come"],["了","le","(particle)"],["，"],["快","kuài","quickly"],["进","jìn","to enter"],["来","lái","come"],["！"],["”"]],
+      "en": "I see him, feel glad, and say: \"You're here, come on in!\""
+    },
+    {
+      "t": [["我们","wǒmen","we"],["一起","yìqǐ","together"],["吃","chī","to eat"],["蛋糕","dàngāo","cake"],["，"],["一起","yìqǐ","together"],["看","kàn","to watch"],["电视","diànshì","television"],["。"]],
+      "en": "We eat cake together, and watch TV together."
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["大明","Dàmíng","Daming (a name)"],["要","yào","to be going to"],["回家","huí jiā","to go home"],["，"],["我们","wǒmen","we"],["在","zài","at"],["门口","ménkǒu","doorway"],["说话","shuōhuà","to talk"],["。"]],
+      "en": "In the evening, Daming is about to go home, and we talk at the doorway."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["问","wèn","to ask"],["我","wǒ","I"],["："],["“"],["你","nǐ","you"],["今天","jīntiān","today"],["开心","kāixīn","happy"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "Mom asks me: \"Were you happy today?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["开心","kāixīn","happy"],["，"],["因为","yīnwèi","because"],["大明","Dàmíng","Daming (a name)"],["来","lái","to come"],["了","le","(particle)"],["。"],["”"]],
+      "en": "I say: \"Happy, because Daming came.\""
+    },
+    {
+      "t": [["大明","Dàmíng","Daming (a name)"],["说","shuō","to say"],["："],["“"],["下次","xiàcì","next time"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["踢","tī","to kick"],["球","qiú","ball"],["。"],["”"]],
+      "en": "Daming says: \"Next time, let's play soccer together.\""
+    }
+  ],
+  "vocab": [
+    ["高兴", "gāoxìng", "happy; glad"],
+    ["开心", "kāixīn", "happy"],
+    ["看见", "kànjiàn", "to see"],
+    ["回家", "huí jiā", "to go home"],
+    ["门口", "ménkǒu", "doorway"],
+    ["下次", "xiàcì", "next time"]
+  ],
+  "quiz": [
+    {"q": "In this text, when is 高兴 used?", "a": ["To describe how the whole day felt", "The moment of seeing a friend arrive", "To talk about the weather"], "c": 1},
+    {"q": "What does mom ask the narrator?", "a": ["Whether he is hungry", "Whether he did homework", "Whether he was happy today"], "c": 2},
+    {"q": "What do the narrator and Daming plan to do next time?", "a": ["Play soccer together", "Watch a movie", "Go to school"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "高兴 vs 开心（both mean happy, used differently）", "e": "高兴 usually reacts to one moment — seeing someone, hearing news. 开心 describes an overall mood, like how a whole day felt.", "x": "我看见他，很高兴。你今天开心吗？— I felt glad seeing him. Were you happy today (overall)?"},
+    {"p": "看见 + person/thing（to catch sight of）", "e": "看见 marks the moment you notice someone or something.", "x": "我看见他，很高兴。— I see him and feel glad."},
+    {"p": "下次（next time）", "e": "下次 introduces a plan for a future occasion.", "x": "下次我们一起踢球。— Next time, let's play soccer together."}
+  ]
+}

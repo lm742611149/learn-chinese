@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-no-spicy",
+  "level": 3,
+  "title_zh": "我不吃辣",
+  "title_py": "Wǒ bù chī là",
+  "title_en": "I Do Not Eat Spicy Food in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["中午","zhōngwǔ","noon"],["，"],["我","wǒ","I; me"],["和","hé","and"],["同事","tóngshì","colleague"],["一起","yìqǐ","together"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃","chī","to eat"],["午饭","wǔfàn","lunch"],["。"]],
+      "en": "Today at noon, my colleague and I went to a restaurant together for lunch."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["拿","ná","to bring; to take"],["来","lái","to come"],["菜单","càidān","menu"],["，"],["问","wèn","to ask"],["我们","wǒmen","we; us"],["想","xiǎng","to want to"],["吃","chī","to eat"],["什么","shénme","what"],["菜","cài","dish"],["。"]],
+      "en": "The waiter brought the menu and asked what dishes we wanted to eat."
+    },
+    {
+      "t": [["同事","tóngshì","colleague"],["很","hěn","very"],["喜欢","xǐhuan","to like"],["吃","chī","to eat"],["辣","là","spicy"],["，"],["他","tā","he; him"],["点","diǎn","to order (food)"],["了","le","(completed action)"],["一个","yí ge","one"],["特别","tèbié","especially"],["辣","là","spicy"],["的","de","(particle)"],["菜","cài","dish"],["。"]],
+      "en": "My colleague loves spicy food, and he ordered an especially spicy dish."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["不","bù","not"],["能","néng","can; to be able to"],["吃","chī","to eat"],["辣","là","spicy"],["，"],["你们","nǐmen","you (plural)"],["点","diǎn","to order (food)"],["吧","ba","(particle: suggestion)"],["，"],["我","wǒ","I; me"],["自己","zìjǐ","oneself"],["再","zài","again"],["点","diǎn","to order (food)"],["一个","yí ge","one"],["。"],["”"]],
+      "en": "I said: \"I can't eat spicy food. You all order — I'll pick one more dish myself.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["这个","zhège","this"],["菜","cài","dish"],["辣","là","spicy"],["不","bú","not"],["辣","là","spicy"],["？"],["”"],["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["不","bú","not"],["辣","là","spicy"],["，"],["你","nǐ","you"],["放心","fàngxīn","to rest assured; not to worry"],["。"],["”"]],
+      "en": "I asked the waiter: \"Is this dish spicy?\" The waiter said: \"Not spicy — don't worry.\""
+    },
+    {
+      "t": [["菜","cài","dish"],["送","sòng","to deliver"],["来","lái","to come"],["以后","yǐhòu","after"],["，"],["同事","tóngshì","colleague"],["一边","yìbiān","while (doing A)"],["吃","chī","to eat"],["，"],["一边","yìbiān","while (doing B)"],["喝","hē","to drink"],["水","shuǐ","water"],["。"]],
+      "en": "After the food arrived, my colleague drank water the whole time while eating."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["菜","cài","dish"],["一点儿","yìdiǎnr","a little; a bit"],["都","dōu","at all (emphasis with negative)"],["不","bú","not"],["辣","là","spicy"],["，"],["很","hěn","very"],["好吃","hǎochī","delicious"],["，"],["我","wǒ","I; me"],["一个人","yí ge rén","alone; by oneself"],["吃完","chīwán","to finish eating"],["了","le","(completed action)"],["。"]],
+      "en": "My dish wasn't spicy at all — it was delicious, and I finished it all by myself."
+    }
+  ],
+  "vocab": [
+    ["辣","là","spicy"],
+    ["菜单","càidān","menu"],
+    ["放心","fàngxīn","to rest assured; not to worry"],
+    ["一点儿","yìdiǎnr","a little; a bit"],
+    ["一个人","yí ge rén","alone; by oneself"],
+    ["喜欢","xǐhuan","to like"]
+  ],
+  "quiz": [
+    {"q":"Why did the narrator ask the waiter if the dish was spicy?","a":["Because it looked too colorful","Because the narrator can't eat spicy food","Because it was too expensive"],"c":1},
+    {"q":"What did the colleague do while eating the spicy dish?","a":["Drank water again and again","Fell asleep at the table","Asked for more rice"],"c":0},
+    {"q":"How was the narrator's own dish in the end?","a":["Very spicy but tasty","Too salty to finish","Not spicy at all, and delicious"],"c":2}
+  ],
+  "grammar": [
+    {"p":"A不A？ (yes/no question with a repeated verb/adjective)","e":"Repeating a verb or adjective with 不 in between makes a yes/no question, e.g. 辣不辣 'is it spicy or not.'","x":"这个菜辣不辣？— Is this dish spicy?"},
+    {"p":"一点儿都不 + adjective (not ... at all)","e":"一点儿都不 before an adjective emphasizes a complete absence of that quality.","x":"我的菜一点儿都不辣。— My dish wasn't spicy at all."},
+    {"p":"一边 A，一边 B (to do A while doing B)","e":"一边 before two verb phrases shows both actions happening at the same time.","x":"同事一边吃，一边喝水。— My colleague drank water while eating."}
+  ]
+}

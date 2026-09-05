@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-is-it-good",
+  "level": 2,
+  "title_zh": "好吃吗",
+  "title_py": "Hǎochī ma",
+  "title_en": "Is It Good in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期天", "xīngqītiān", "Sunday"],["，"],["我", "wǒ", "I; me"],["去", "qù", "to go"],["朋友", "péngyou", "friend"],["家", "jiā", "home"],["吃", "chī", "to eat"],["饭", "fàn", "meal; rice"],["。"]],
+      "en": "On Sunday, I went to my friend's house to eat."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["做", "zuò", "to make"],["了", "le", "(completed action)"],["鱼", "yú", "fish"],["，"],["还", "hái", "also; in addition"],["有", "yǒu", "there is; have"],["面条", "miàntiáo", "noodles"],["。"]],
+      "en": "My friend made fish, and also noodles."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["先", "xiān", "first"],["吃", "chī", "to eat"],["了", "le", "(completed action)"],["一", "yí", "one"],["块", "kuài", "piece (measure word)"],["鱼", "yú", "fish"],["，"],["朋友", "péngyou", "friend"],["问", "wèn", "to ask"],["我", "wǒ", "me"],["："],["“"],["怎么样", "zěnmeyàng", "how is it; how about"],["？"],["”"]],
+      "en": "I first ate a piece of fish, and my friend asked me: \"How is it?\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["很", "hěn", "very"],["好吃", "hǎochī", "delicious"],["！"],["”"]],
+      "en": "I said: \"Very delicious!\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["又", "yòu", "again"],["吃", "chī", "to eat"],["了", "le", "(completed action)"],["面条", "miàntiáo", "noodles"],["，"],["觉得", "juéde", "to feel; think"],["有点儿", "yǒudiǎnr", "a little; somewhat"],["辣", "là", "spicy"],["。"]],
+      "en": "I then ate the noodles, and thought they were a little spicy."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["问", "wèn", "to ask"],["："],["“"],["面条", "miàntiáo", "noodles"],["好吃", "hǎochī", "delicious"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "My friend asked: \"Are the noodles good?\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["面条", "miàntiáo", "noodles"],["一般", "yìbān", "so-so; average"],["，"],["鱼", "yú", "fish"],["更", "gèng", "even more"],["好吃", "hǎochī", "delicious"],["。"],["”"]],
+      "en": "I said: \"The noodles are so-so — the fish is better.\""
+    }
+  ],
+  "vocab": [
+    ["怎么样", "zěnmeyàng", "how is it; how about"],
+    ["好吃", "hǎochī", "delicious"],
+    ["一般", "yìbān", "so-so; average"],
+    ["有点儿", "yǒudiǎnr", "a little; somewhat"],
+    ["更", "gèng", "even more"],
+    ["先", "xiān", "first"]
+  ],
+  "quiz": [
+    {"q": "What does the friend ask after the narrator eats the fish?", "a": ["Whether it's spicy", "How it is", "How much it costs"], "c": 1},
+    {"q": "How does the narrator feel about the noodles?", "a": ["A little spicy", "Very sweet", "Not cooked enough"], "c": 0},
+    {"q": "Which dish does the narrator like more?", "a": ["The noodles", "Both equally", "The fish"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "怎么样？（how is it? asking for an opinion）", "e": "怎么样 asks for someone's general opinion or how something is — broader than 好吃吗, which asks specifically about taste.", "x": "朋友问我：“怎么样？”— My friend asked me: \"How is it?\""},
+    {"p": "有点儿 + adj（a little...，often not ideal）", "e": "有点儿 before an adjective softens it to \"a bit\", usually hinting the speaker isn't fully satisfied.", "x": "面条有点儿辣。— The noodles are a little spicy."},
+    {"p": "A 更 + adj（A is more...）", "e": "更 before an adjective compares two things, saying one is even more so than the other.", "x": "鱼更好吃。— The fish is more delicious."}
+  ]
+}

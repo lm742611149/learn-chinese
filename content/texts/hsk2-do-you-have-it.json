@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-do-you-have-it",
+  "level": 2,
+  "title_zh": "有没有",
+  "title_py": "Yǒu méiyǒu",
+  "title_en": "Do You Have It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午", "xiàwǔ", "afternoon"],["下雨", "xiàyǔ", "to rain"],["了", "le", "(change of state)"],["，"],["我", "wǒ", "I"],["家", "jiā", "home; family"],["没有", "méiyǒu", "to not have"],["雨伞", "yǔsǎn", "umbrella"],["。"]],
+      "en": "It's raining in the afternoon, and my family doesn't have an umbrella."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["去", "qù", "to go"],["附近", "fùjìn", "nearby"],["的", "de", "(possessive particle)"],["商店", "shāngdiàn", "store"],["，"],["问", "wèn", "to ask"],["服务员", "fúwùyuán", "clerk; attendant"],["："],["“"],["你们", "nǐmen", "you (plural)"],["这儿", "zhèr", "here"],["有没有", "yǒu méiyǒu", "is there or not; do you have"],["雨伞", "yǔsǎn", "umbrella"],["？"],["”"]],
+      "en": "I go to a nearby store and ask the clerk: \"Do you have umbrellas here?\""
+    },
+    {
+      "t": [["服务员", "fúwùyuán", "clerk; attendant"],["说", "shuō", "to say"],["："],["“"],["对不起", "duìbuqǐ", "sorry"],["，"],["没有", "méiyǒu", "to not have"],["。"],["”"]],
+      "en": "The clerk says: \"Sorry, we don't.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["又", "yòu", "again"],["去", "qù", "to go"],["附近", "fùjìn", "nearby"],["的", "de", "(possessive particle)"],["超市", "chāoshì", "supermarket"],["，"],["问", "wèn", "to ask"],["："],["“"],["这儿", "zhèr", "here"],["有", "yǒu", "to have"],["雨伞", "yǔsǎn", "umbrella"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "I go to the nearby supermarket again and ask: \"Do you have umbrellas here?\""
+    },
+    {
+      "t": [["超市", "chāoshì", "supermarket"],["的", "de", "(possessive particle)"],["服务员", "fúwùyuán", "clerk; attendant"],["说", "shuō", "to say"],["："],["“"],["有", "yǒu", "to have"],["，"],["这", "zhè", "this"],["把", "bǎ", "(measure word for umbrellas)"],["三十", "sānshí", "thirty"],["块", "kuài", "(unit of money)"],["钱", "qián", "money"],["。"],["”"]],
+      "en": "The supermarket clerk says: \"Yes, this one is thirty yuan.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["付", "fù", "to pay"],["了", "le", "(completed action)"],["钱", "qián", "money"],["，"],["带", "dài", "to bring; to carry"],["着", "zhe", "(ongoing state)"],["新", "xīn", "new"],["雨伞", "yǔsǎn", "umbrella"],["往", "wǎng", "toward"],["家", "jiā", "home"],["走", "zǒu", "to walk"],["。"]],
+      "en": "I pay, and carrying my new umbrella, I walk home."
+    }
+  ],
+  "vocab": [
+    ["雨伞", "yǔsǎn", "umbrella"],
+    ["有没有", "yǒu méiyǒu", "is there or not; do you have"],
+    ["附近", "fùjìn", "nearby"],
+    ["超市", "chāoshì", "supermarket"],
+    ["服务员", "fúwùyuán", "clerk; attendant"],
+    ["又", "yòu", "again (already happened)"]
+  ],
+  "quiz": [
+    {"q": "What does 有没有 do in a question?", "a": ["Asks if something exists or is available", "Asks the price of something", "Asks where something is"], "c": 0},
+    {"q": "Where does the narrator go the first time to look for an umbrella?", "a": ["A friend's house", "A train station", "A nearby store"], "c": 2},
+    {"q": "What does the narrator do at the end of the story?", "a": ["Waits for the rain to stop", "Buys an umbrella and walks home", "Goes home without one"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "有没有 + noun？（is there... or not?）", "e": "有没有 puts 有 and 没有 back to back to ask a yes/no question about whether something exists or is available, without needing 吗.", "x": "你们这儿有没有雨伞？— Do you have umbrellas here?"},
+    {"p": "有 + noun + 吗？（do you have...?）", "e": "Adding 吗 after 有 + noun is the more common, simpler way to ask if something is available.", "x": "这儿有雨伞吗？— Do you have umbrellas here?"},
+    {"p": "又（again — for something already done）", "e": "又 marks a repeated action that has already happened, unlike 再 which is for an action not yet done.", "x": "我又去了附近的超市。— I went to the nearby supermarket again."}
+  ]
+}

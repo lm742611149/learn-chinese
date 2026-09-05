@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-just-looking",
+  "level": 3,
+  "title_zh": "我只看看",
+  "title_py": "Wǒ zhǐ kànkan",
+  "title_en": "Just Looking in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["走","zǒu","to walk"],["进","jìn","to enter"],["一家","yì jiā","one (shop)"],["商店","shāngdiàn","store; shop"],["，"],["只","zhǐ","only"],["想","xiǎng","to want"],["看看","kànkan","to take a look at"],["，"],["不","bù","not"],["想","xiǎng","to want"],["买","mǎi","to buy"],["东西","dōngxi","things; stuff"],["。"]],
+      "en": "I walked into a store, just wanting to look around — I didn't want to buy anything."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["看见","kànjiàn","to see"],["我","wǒ","I; me"],["，"],["很","hěn","very"],["热情","rèqíng","warm; friendly"],["地","de","(adverbial particle)"],["说","shuō","to say"],["："],["“"],["欢迎","huānyíng","welcome"],["！"],["需要","xūyào","to need"],["帮助","bāngzhù","help"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "The clerk saw me and said warmly: \"Welcome! Do you need any help?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["不用","búyòng","no need"],["，"],["谢谢","xièxiè","thank you"],["，"],["我","wǒ","I; me"],["只","zhǐ","only"],["看看","kànkan","to take a look at"],["。"],["”"]],
+      "en": "I said: \"No need, thanks — I'm just looking.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["一直","yìzhí","continuously"],["在","zài","at"],["我","wǒ","I; me"],["旁边","pángbiān","beside"],["，"],["给","gěi","for"],["我","wǒ","I; me"],["介绍","jièshào","to introduce"],["这个","zhège","this"],["，"],["那个","nàge","that"],["。"]],
+      "en": "The clerk stayed right beside me, introducing this and that."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to look at"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["还是","háishi","still"],["不","bù","not"],["知道","zhīdào","to know"],["要","yào","will; going to"],["买","mǎi","to buy"],["什么","shénme","what"],["。"]],
+      "en": "I looked for a long time, but still didn't know what I wanted to buy."
+    },
+    {
+      "t": [["突然","tūrán","suddenly"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一个","yí ge","one"],["杯子","bēizi","cup"],["，"],["跟","gēn","with"],["我","wǒ","I; me"],["家里","jiā lǐ","at home"],["那个","nàge","that"],["坏","huài","broken"],["了","le","(change of state)"],["的","de","(possessive particle)"],["杯子","bēizi","cup"],["很","hěn","very"],["像","xiàng","like; as"],["。"]],
+      "en": "Suddenly, I saw a cup that looked just like the broken one at my house."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["拿","ná","to pick up"],["起","qǐ","up (verb complement)"],["杯子","bēizi","cup"],["，"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["多少钱","duōshao qián","how much (money)"],["。"]],
+      "en": "I picked up the cup and asked the clerk how much it cost."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["三十","sānshí","thirty"],["五","wǔ","five"],["块","kuài","yuan (colloquial)"],["，"],["我","wǒ","I; me"],["付","fù","to pay"],["了","le","(completed action)"],["钱","qián","money"],["，"],["拿","ná","to hold; to carry"],["着","zhe","(ongoing state)"],["新","xīn","new"],["杯子","bēizi","cup"],["走","zǒu","to walk"],["出","chū","out"],["商店","shāngdiàn","store; shop"],["。"]],
+      "en": "The clerk said thirty-five yuan; I paid, and walked out of the store carrying my new cup."
+    }
+  ],
+  "vocab": [
+    ["只", "zhǐ", "only"],
+    ["看看", "kànkan", "to take a look at"],
+    ["欢迎", "huānyíng", "welcome"],
+    ["不用", "búyòng", "no need"],
+    ["热情", "rèqíng", "warm; friendly"],
+    ["突然", "tūrán", "suddenly"]
+  ],
+  "quiz": [
+    {"q":"What did the customer say when the clerk offered help?","a":["I want the biggest one","No need, thanks — I'm just looking","Where is the bathroom"],"c":1},
+    {"q":"Why did the customer end up buying a cup?","a":["It was very cheap","It was the clerk's favorite","It looked like the broken cup at home"],"c":2},
+    {"q":"How did the customer pay for the cup?","a":["Handed the clerk money","Didn't buy anything","Asked for a discount"],"c":0}
+  ],
+  "grammar": [
+    {"p": "只 + verb (only...)", "e": "只 goes right before a verb to say that's the only thing you're doing — nothing more.", "x": "我只想看看。— I just want to look around."},
+    {"p": "不用 (no need to...)", "e": "不用 politely turns down an offer of help, saying it isn't necessary.", "x": "不用，谢谢。— No need, thanks."},
+    {"p": "跟...很像 (similar to...)", "e": "跟 + noun + 很像 compares two things, saying one looks a lot like the other.", "x": "跟我家里那个杯子很像。— It looked a lot like the cup at my house."}
+  ]
+}

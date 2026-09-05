@@ -104,14 +104,14 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 目标: 搜索型课文凑满 100 篇。已完成 42,下面 58 个候选**全部检查过**,
 分四轮写。✅ 已写 / 🔨 进行中 / 空白 = 待写。
 
-**轮 1(15 篇,🔨 进行中)**
-🔨你好吗 How Are You(1) / 🔨请问 Excuse Me(1) / 🔨早上好 Good Morning(2) /
-🔨不客气 You Are Welcome(2) / 🔨没关系 It Is OK(2) / 🔨欢迎 Welcome(2) /
-🔨怎么说 How Do You Say It(2) / 🔨太好了 That Is Great(2) / 🔨我累了 I Am Tired(2) /
-🔨怎么走 How Do I Get There(2) / 🔨多远 How Far Is It(2) / 🔨我到了 I Have Arrived(2) /
-🔨生日快乐 Happy Birthday(3) / 🔨恭喜 Congratulations(3) / 🔨我饱了 I Am Full(3)
+**轮 1(15 篇,✅ 已上线 commit ea1aed7)**
+✅你好吗 How Are You(1) / ✅请问 Excuse Me(1) / ✅早上好 Good Morning(2) /
+✅不客气 You Are Welcome(2) / ✅没关系 It Is OK(2) / ✅欢迎 Welcome(2) /
+✅怎么说 How Do You Say It(2) / ✅太好了 That Is Great(2) / ✅我累了 I Am Tired(2) /
+✅怎么走 How Do I Get There(2) / ✅多远 How Far Is It(2) / ✅我到了 I Have Arrived(2) /
+✅生日快乐 Happy Birthday(3) / ✅恭喜 Congratulations(3) / ✅我饱了 I Am Full(3)
 
-**轮 2(15 篇)** — 吃饭购物
+**轮 2(21 篇,🔨 进行中)** — 吃饭购物 + 客套 + 情绪
 好吃吗 Is It Good(2) / 再来一个 One More(2) / 菜单 The Menu(2) / 有没有 Do You Have It(2) /
 我不吃辣 I Do Not Eat Spicy Food(3) / 打包 Takeout(3) / 我请客 My Treat(3) /
 我试一下 Can I Try It On(3) / 我只看看 Just Looking(3) / 刷卡 Paying by Card(3) /
@@ -125,7 +125,17 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 不一定 Not Necessarily(3) / 你先 After You(3) / 这个字怎么读 How Do You Read This(3) /
 要多长时间 How Long Does It Take(3)
 
-**轮 4(13 篇)** — 生活场景
+**轮 3(22 篇,收尾,凑满 100)** — 态度口头语 + 生活场景
+分组:
+- 还可以(2) / 有点儿(2) / 我看看(2)
+- 差不多(3) / 算了(3) / 不一定(3)
+- 你先(3) / 这个字怎么读(3) / 要多长时间(3)
+- 我回来了(2) / 我忘了(2) / 我要走了(2)
+- 我马上到(2) / 停一下(3) / 快递到了(3)
+- 我迟到了(3) / 我丢了(3) / 借我用一下(3)
+- 我搬家了(3) / 加个微信(3) / 你结婚了吗(3) / 你的电话号码(3)
+
+**(原轮 4 的 13 篇已并入轮 3)** — 生活场景
 我回来了 I Am Home(2) / 我忘了 I Forgot(2) / 我要走了 I Have to Go(2) /
 我马上到 I Will Be There Soon(2) / 快递到了 My Package Arrived(3) / 我迟到了 I Am Late(3) /
 我丢了 I Lost It(3) / 借我用一下 Can I Borrow It(3) / 我搬家了 I Moved(3) /

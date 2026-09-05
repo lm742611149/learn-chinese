@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-im-scared",
+  "level": 2,
+  "title_zh": "我怕",
+  "title_py": "Wǒ pà",
+  "title_en": "I Am Scared in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["怕","pà","to be afraid of"],["狗","gǒu","dog"],["，"],["每次","měi cì","every time"],["看见","kànjiàn","to see"],["狗","gǒu","dog"],["，"],["我","wǒ","I"],["就","jiù","then; right away"],["很","hěn","very"],["着急","zháojí","anxious; nervous"],["。"]],
+      "en": "I'm afraid of dogs. Every time I see a dog, I get nervous right away."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I"],["和","hé","and"],["朋友","péngyou","friend"],["走","zǒu","to walk"],["在","zài","at; in"],["公园","gōngyuán","park"],["里","lǐ","inside"],["，"],["看见","kànjiàn","to see"],["一","yì","one"],["只","zhī","(measure word for animals)"],["小狗","xiǎogǒu","puppy; little dog"],["。"]],
+      "en": "Today, my friend and I are walking in the park, and see a little dog."
+    },
+    {
+      "t": [["我","wǒ","I"],["很","hěn","very"],["怕","pà","afraid"],["，"],["站","zhàn","to stand"],["在","zài","at"],["朋友","péngyou","friend"],["后面","hòumiàn","behind"],["。"]],
+      "en": "I'm very scared, and stand behind my friend."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["怕","pà","be afraid"],["，"],["这","zhè","this"],["只","zhī","(measure word for animals)"],["小狗","xiǎogǒu","puppy"],["认识","rènshi","to know (a person)"],["我","wǒ","me"],["，"],["它","tā","it"],["很","hěn","very"],["好","hǎo","nice; good"],["。"],["”"]],
+      "en": "Friend says: \"Don't be afraid, this dog knows me, it's nice.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["慢慢","mànmàn","slowly"],["走","zǒu","to walk"],["到","dào","to arrive at"],["小狗","xiǎogǒu","puppy"],["那儿","nàr","there"],["。"]],
+      "en": "I slowly walk over to where the little dog is."
+    },
+    {
+      "t": [["小狗","xiǎogǒu","puppy"],["跑","pǎo","to run"],["过","guò","(indicates movement over/across)"],["来","lái","to come"],["，"],["坐","zuò","to sit"],["在","zài","at"],["我","wǒ","I"],["旁边","pángbiān","beside; next to"],["。"]],
+      "en": "The little dog runs over and sits beside me."
+    }
+  ],
+  "vocab": [
+    ["怕", "pà", "to be afraid of"],
+    ["别", "bié", "don't"],
+    ["着急", "zháojí", "anxious; nervous"],
+    ["公园", "gōngyuán", "park"],
+    ["慢慢", "mànmàn", "slowly"],
+    ["旁边", "pángbiān", "beside; next to"]
+  ],
+  "quiz": [
+    {"q": "What does 我怕狗 mean?", "a": ["I like dogs", "I am afraid of dogs", "I have a dog"], "c": 1},
+    {"q": "What does the friend say to reassure the narrator?", "a": ["\"Don't be afraid, this dog knows me\"", "\"This dog isn't mine\"", "\"There are no dogs in the park\""], "c": 0},
+    {"q": "What does the little dog do at the end?", "a": ["It runs away", "It barks loudly", "It sits beside the narrator"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "怕 + noun（to be afraid of something）", "e": "怕 followed directly by a noun says you're afraid of that thing.", "x": "我怕狗。— I'm afraid of dogs."},
+    {"p": "别 + verb（don't...）", "e": "别 before a verb tells someone not to do something; 别怕 means \"don't be afraid.\"", "x": "别怕，这只小狗认识我。— Don't be afraid, this dog knows me."},
+    {"p": "就 + adjective（a quick or direct reaction）", "e": "就 right before an adjective shows something happens right away, as a direct result.", "x": "我看见狗，就很着急。— As soon as I see a dog, I get nervous right away."}
+  ]
+}

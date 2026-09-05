@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-whatever-you-like",
+  "level": 3,
+  "title_zh": "随便",
+  "title_py": "Suíbiàn",
+  "title_en": "Whatever You Like in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我们","wǒmen","we; us"],["几个","jǐ ge","a few"],["朋友","péngyou","friend"],["想","xiǎng","to want"],["一起","yìqǐ","together"],["吃饭","chī fàn","to have a meal"],["，"],["可是","kěshì","but"],["不","bù","not"],["知道","zhīdào","to know"],["去","qù","to go"],["哪儿","nǎr","where"],["吃","chī","to eat"],["。"]],
+      "en": "In the evening, a few of us friends wanted to eat together, but we didn't know where to go."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["大家","dàjiā","everyone"],["："],["“"],["想","xiǎng","to want"],["吃","chī","to eat"],["什么","shénme","what"],["？"],["”"],["大家","dàjiā","everyone"],["都","dōu","all"],["说","shuō","to say"],["："],["“"],["随便","suíbiàn","whatever; as one pleases"],["，"],["随便","suíbiàn","whatever; as one pleases"],["都","dōu","all"],["可以","kěyǐ","can"],["。"],["”"]],
+      "en": "I asked everyone: \"What do you want to eat?\" Everyone said: \"Whatever, anything's fine.\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["走","zǒu","to walk"],["进","jìn","to enter"],["一家","yì jiā","one (measure word for shops/businesses)"],["饭馆","fànguǎn","restaurant"],["，"],["服务员","fúwùyuán","clerk; attendant"],["让","ràng","to let; to ask (sb to do)"],["我们","wǒmen","we; us"],["自己","zìjǐ","oneself"],["找","zhǎo","to look for"],["座位","zuòwèi","seat"],["，"],["我","wǒ","I; me"],["问","wèn","to ask"],["朋友","péngyou","friend"],["坐","zuò","to sit"],["哪儿","nǎr","where"],["，"],["他们","tāmen","they"],["还是","háishi","still"],["说","shuō","to say"],["“"],["随便","suíbiàn","whatever; as one pleases"],["”"],["。"]],
+      "en": "We walked into a restaurant, and the waiter let us find our own seats. I asked my friends where to sit, and they still said \"whatever.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["拿","ná","to hold; to pick up"],["来","lái","(directional complement)"],["了","le","(completed action)"],["菜单","càidān","menu"],["，"],["问","wèn","to ask"],["我们","wǒmen","we; us"],["想","xiǎng","to want"],["喝","hē","to drink"],["什么","shénme","what"],["，"],["朋友们","péngyoumen","friends"],["又","yòu","again"],["说","shuō","to say"],["："],["“"],["随便","suíbiàn","whatever; as one pleases"],["，"],["你","nǐ","you"],["点","diǎn","to order (food)"],["就","jiù","then"],["好","hǎo","good; fine"],["。"],["”"]],
+      "en": "The waiter brought the menu and asked what we wanted to drink. My friends said again: \"Whatever, you just order.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看了看","kànlekàn","took a look at"],["菜单","càidān","menu"],["，"],["发现","fāxiàn","to discover"],["从","cóng","from"],["坐","zuò","to sit"],["哪儿","nǎr","where"],["到","dào","until"],["吃","chī","to eat"],["什么","shénme","what"],["，"],["都","dōu","all"],["是","shì","to be"],["我","wǒ","I; me"],["一个人","yí ge rén","alone; by oneself"],["在","zài","(ongoing action)"],["决定","juédìng","to decide"],["。"]],
+      "en": "I looked over the menu and realized that everything, from where to sit to what to eat, was being decided by me alone."
+    },
+    {
+      "t": [["于是","yúshì","so; thereupon"],["我","wǒ","I; me"],["自己","zìjǐ","oneself"],["点","diǎn","to order (food)"],["了","le","(completed action)"],["几个","jǐ ge","a few"],["大家","dàjiā","everyone"],["常","cháng","often"],["吃","chī","to eat"],["的","de","(particle: attributive)"],["菜","cài","dish"],["，"],["还有","háiyǒu","there was still"],["一个","yí ge","one"],["汤","tāng","soup"],["，"],["把","bǎ","(particle: 把 construction)"],["菜单","càidān","menu"],["还给","huángěi","to return (something) to"],["了","le","(completed action)"],["服务员","fúwùyuán","clerk; attendant"],["。"]],
+      "en": "So I ordered a few dishes everyone usually eats, plus a soup, and handed the menu back to the waiter."
+    },
+    {
+      "t": [["菜","cài","dish"],["上","shàng","(directional complement)"],["来","lái","to come"],["的时候","de shíhou","when; at the time of"],["，"],["大家","dàjiā","everyone"],["都","dōu","all"],["吃","chī","to eat"],["得","de","(degree particle)"],["很","hěn","very"],["开心","kāixīn","happy"],["，"],["谁","shéi","who; anyone"],["也","yě","also"],["没","méi","not have"],["再","zài","again"],["说","shuō","to say"],["“"],["随便","suíbiàn","whatever; as one pleases"],["”"],["。"]],
+      "en": "When the food arrived, everyone ate happily, and nobody said \"whatever\" again."
+    }
+  ],
+  "vocab": [
+    ["随便","suíbiàn","whatever; as one pleases"],
+    ["服务员","fúwùyuán","clerk; attendant"],
+    ["菜单","càidān","menu"],
+    ["座位","zuòwèi","seat"],
+    ["决定","juédìng","to decide"],
+    ["开心","kāixīn","happy"]
+  ],
+  "quiz": [
+    {"q":"What does everyone keep saying when asked what to eat?","a":["随便 (whatever)","好吃 (tasty)","不知道 (I don't know)"],"c":0},
+    {"q":"Who ends up deciding what to order?","a":["The waiter","The narrator","Everyone together"],"c":1},
+    {"q":"What happens when the food arrives?","a":["Everyone complains","They send it back","Everyone enjoys it and stops saying \"随便\""],"c":2}
+  ],
+  "grammar": [
+    {"p":"随便 (whatever you like)","e":"随便 means any option works for the speaker — handy when you don't want to choose, though it can leave everyone else stuck.","x":"想吃什么？随便，随便都可以。— What do you want to eat? Whatever, anything's fine."},
+    {"p":"还是 + verb (still)","e":"还是 shows that an attitude or answer doesn't change, even after being asked again.","x":"我又问了一次，他们还是说“随便”。— I asked again, and they still said 'whatever.'"},
+    {"p":"都是 + 我一个人 + 在 + verb (it's all me doing X alone)","e":"一个人 stresses that only one person is carrying out the action — often pointing out it's unfair that no one else is helping decide.","x":"都是我一个人在决定。— I'm the only one deciding everything."}
+  ]
+}

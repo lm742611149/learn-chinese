@@ -1,0 +1,32 @@
+{
+  "slug": "hsk1-buying-fruit",
+  "_delogo_note": "Veo 2（Gemini app 免费层）素材右下角带四角星标识，需按镜头抹除。Veo 3.1 @ Flow 关掉了可见水印，新素材不要加 delogo。坐标按 720x1280 设计稿写，构建时自动缩放。",
+  "_delogo_veo2": { "x": 566, "y": 1118, "w": 90, "h": 88 },
+  "shots": [
+    { "id": "title", "kind": "title", "dur": 3.0 },
+
+    { "id": "s1", "kind": "clip", "src": "clips/shot1.mp4", "ss": 0.0, "dur": 5.0,
+      "_note": "Veo 3.1 Lite 重做（角色引用小雨）；8s 素材取前 5s = 走向摊位那段，无水印",
+      "audio": "audio/s1.mp3", "subs": [{ "sent": 0 }] },
+
+    { "id": "s2", "kind": "kenburns", "src": "still-apples.png", "dur": 6.5,
+      "_note": "Veo 3.1 素材(clips/shot2_apples.mp4)里小苹果是凭空长出来的，动态没法用；取 4.2s 那帧（大小苹果对比最明显）定格慢推，避开穿帮。无水印所以不用 delogo。",
+      "audio": "audio/s2.mp3", "subs": [{ "sent": 1 }] },
+
+    { "id": "s34", "kind": "clip", "src": "veo_shot34_dubbed.mp4", "ss": 0.0, "dur": 10.0,
+      "delogo": { "x": 566, "y": 1118, "w": 90, "h": 88 },
+      "keep_audio": true,
+      "subs": [
+        { "sent": 2, "start": 0.0, "end": 4.0, "quote": true, "speaker": "girl" },
+        { "sent": 3, "start": 4.2, "end": 10.0, "quote": true, "speaker": "man" }
+      ] },
+
+    { "id": "s5", "kind": "kenburns", "src": "still-shopkeeper.png", "dur": 4.0,
+      "audio": "audio/s5.mp3", "subs": [{ "sent": 4 }], "placeholder": true },
+
+    { "id": "s6", "kind": "kenburns", "src": "still-xiaoyu.png", "dur": 6.0,
+      "audio": "audio/s6.mp3", "subs": [{ "sent": 5 }], "placeholder": true },
+
+    { "id": "vocab", "kind": "vocab" }
+  ]
+}

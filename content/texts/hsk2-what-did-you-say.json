@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-what-did-you-say",
+  "level": 2,
+  "title_zh": "你说什么",
+  "title_py": "Nǐ shuō shénme",
+  "title_en": "What Did You Say in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I"],["和", "hé", "and"],["朋友", "péngyou", "friend"],["在", "zài", "at"],["饭馆", "fànguǎn", "restaurant"],["吃饭", "chīfàn", "to eat a meal"],["，"],["里面", "lǐmiàn", "inside"],["的", "de", "(possessive particle)"],["人", "rén", "people"],["很多", "hěnduō", "a lot; many"],["，"],["很", "hěn", "very"],["吵", "chǎo", "noisy"],["。"]],
+      "en": "My friend and I are eating at a restaurant, and there are a lot of people inside — it's very noisy."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["跟", "gēn", "with"],["我", "wǒ", "me"],["说话", "shuōhuà", "to speak; to talk"],["，"],["可是", "kěshì", "but"],["太", "tài", "too"],["吵", "chǎo", "noisy"],["，"],["我", "wǒ", "I"],["没", "méi", "did not"],["听", "tīng", "to listen"],["清楚", "qīngchu", "clear; clearly"],["。"]],
+      "en": "My friend is talking to me, but it's too noisy, and I don't hear him clearly."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["问", "wèn", "to ask"],["他", "tā", "him"],["："],["“"],["你", "nǐ", "you"],["说", "shuō", "to say"],["什么", "shénme", "what"],["？"],["”"]],
+      "en": "I ask him: \"What did you say?\""
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["又", "yòu", "again"],["说", "shuō", "to say"],["了", "le", "(completed action)"],["一次", "yí cì", "one more time"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["还是", "háishi", "still"],["没", "méi", "did not"],["听", "tīng", "to listen"],["清楚", "qīngchu", "clear; clearly"],["。"]],
+      "en": "My friend says it again, but I still don't hear it clearly."
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["走", "zǒu", "to walk"],["到", "dào", "to arrive"],["饭馆", "fànguǎn", "restaurant"],["外面", "wàimiàn", "outside"],["，"],["那儿", "nàr", "there"],["没有", "méiyǒu", "to not have"],["那么", "nàme", "so; that"],["多", "duō", "many"],["人", "rén", "people"],["。"]],
+      "en": "We walk outside the restaurant, where there aren't as many people."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["又", "yòu", "again"],["说", "shuō", "to say"],["了", "le", "(completed action)"],["一次", "yí cì", "one more time"],["，"],["这次", "zhècì", "this time"],["我", "wǒ", "I"],["听", "tīng", "to listen"],["清楚", "qīngchu", "clear; clearly"],["了", "le", "(change of state)"],["："],["“"],["我们", "wǒmen", "we"],["明天", "míngtiān", "tomorrow"],["去", "qù", "to go"],["看", "kàn", "to watch"],["电影", "diànyǐng", "movie"],["。"],["”"]],
+      "en": "My friend says it again, and this time I hear it clearly: \"We're going to watch a movie tomorrow.\""
+    }
+  ],
+  "vocab": [
+    ["吵", "chǎo", "noisy"],
+    ["清楚", "qīngchu", "clear; clearly"],
+    ["说话", "shuōhuà", "to speak; to talk"],
+    ["又", "yòu", "again (already happened)"],
+    ["外面", "wàimiàn", "outside"],
+    ["电影", "diànyǐng", "movie"]
+  ],
+  "quiz": [
+    {"q": "Why can't the narrator hear the friend clearly at first?", "a": ["The restaurant is very noisy", "The friend is far away", "The phone signal is bad"], "c": 0},
+    {"q": "What does the narrator say when they don't catch the words?", "a": ["听不懂", "请说慢一点", "你说什么？"], "c": 2},
+    {"q": "What are the friend and narrator going to do tomorrow, according to what the narrator finally hears?", "a": ["Go to the supermarket", "Go watch a movie", "Go to the restaurant again"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "你说什么？（asking someone to repeat what they said）", "e": "Use 你说什么？when you didn't catch the words themselves — different from 听不懂, which means you heard the words but didn't understand the meaning.", "x": "我问他：“你说什么？”— I ask him: \"What did you say?\""},
+    {"p": "没听清楚（didn't hear clearly）", "e": "清楚 means clear; 没听清楚 says the sound itself wasn't clear enough (too noisy, too far away) — not that the meaning was hard to understand.", "x": "太吵，我没听清楚。— It was too noisy, and I didn't hear clearly."},
+    {"p": "又 + verb（doing something again — already happened）", "e": "又 describes a repeat of an action that has already taken place, unlike 再 which is for something not yet done.", "x": "朋友又说了一次。— My friend said it again."}
+  ]
+}

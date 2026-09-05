@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-takeout",
+  "level": 3,
+  "title_zh": "打包",
+  "title_py": "Dǎbāo",
+  "title_en": "Takeout in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["昨天","zuótiān","yesterday"],["晚上","wǎnshang","evening"],["，"],["我","wǒ","I; me"],["和","hé","and"],["朋友","péngyou","friend"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat a meal"],["，"],["点","diǎn","to order (food)"],["了","le","(completed action)"],["很多","hěn duō","a lot of"],["菜","cài","dish"],["。"]],
+      "en": "Last night, my friend and I went to a restaurant and ordered a lot of dishes."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["吃","chī","to eat"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["都","dōu","all"],["很","hěn","very"],["饱","bǎo","full (from eating)"],["了","le","(change of state)"],["，"],["可是","kěshì","but"],["桌子","zhuōzi","table"],["上","shàng","on"],["还","hái","still"],["剩","shèng","to have left over; remaining"],["很多","hěn duō","a lot of"],["菜","cài","dish"],["。"]],
+      "en": "We ate for a long time and were both full, but there was still a lot of food left on the table."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["这么","zhème","so; such"],["多","duō","many; much"],["菜","cài","dish"],["，"],["不","bù","not"],["吃","chī","to eat"],["完","wán","to finish"],["太","tài","too"],["浪费","làngfèi","to waste"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "My friend said: \"So much food — it'd be too wasteful not to finish it.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["对","duì","to; toward"],["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we; us"],["吃","chī","to eat"],["不","bù","not"],["完","wán","to finish"],["了","le","(change of state)"],["，"],["可以","kěyǐ","can; may"],["打包","dǎbāo","to pack up (leftover food) to go"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I said to the waiter: \"We can't finish it all — can we get it packed to go?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["当然","dāngrán","of course"],["可以","kěyǐ","can; may"],["，"],["我","wǒ","I; me"],["马上","mǎshàng","right away; immediately"],["给","gěi","for"],["你们","nǐmen","you (plural)"],["打包","dǎbāo","to pack up (leftover food) to go"],["。"],["”"]],
+      "en": "The waiter said: \"Of course, I'll pack it up for you right away.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["很快","hěnkuài","quickly"],["就","jiù","then"],["把","bǎ","(object marker)"],["那些","nàxiē","those"],["菜","cài","dish"],["都","dōu","all"],["打包","dǎbāo","to pack up (leftover food) to go"],["好","hǎo","(complement: finish doing something)"],["，"],["我们","wǒmen","we; us"],["拿","ná","to hold; to carry"],["着","zhe","(continuous aspect particle)"],["走","zǒu","to walk"],["出","chū","out"],["饭馆","fànguǎn","restaurant"],["。"]],
+      "en": "The waiter quickly packed up all the leftover food, and we carried it out of the restaurant."
+    },
+    {
+      "t": [["回到","huídào","to return to"],["家","jiā","home"],["，"],["我","wǒ","I; me"],["把","bǎ","(object marker)"],["打包","dǎbāo","to pack up (leftover food) to go"],["的","de","(particle)"],["菜","cài","dish"],["放","fàng","to put"],["在","zài","at; in; on"],["桌子","zhuōzi","table"],["上","shàng","on"],["，"],["准备","zhǔnbèi","to plan to; to prepare to"],["明天","míngtiān","tomorrow"],["中午","zhōngwǔ","noon"],["再","zài","again"],["吃","chī","to eat"],["一次","yí cì","once"],["。"]],
+      "en": "Back home, I put the packed food on the table, planning to eat it again tomorrow at noon."
+    }
+  ],
+  "vocab": [
+    ["打包","dǎbāo","to pack up (leftover food) to go"],
+    ["剩","shèng","to have left over; remaining"],
+    ["浪费","làngfèi","to waste"],
+    ["饱","bǎo","full (from eating)"],
+    ["当然","dāngrán","of course"],
+    ["一次","yí cì","once"]
+  ],
+  "quiz": [
+    {"q":"Why did they ask the waiter to pack up the food?","a":["They wanted to save money","They didn't like the taste","They couldn't finish all the food they'd ordered"],"c":2},
+    {"q":"How did the waiter respond to the request?","a":["Packed it up right away, no problem","Said the restaurant doesn't allow it","Charged extra for packing"],"c":0},
+    {"q":"What did the narrator plan to do with the food at home?","a":["Give it to a neighbor","Eat it again the next day at noon","Throw it away"],"c":1}
+  ],
+  "grammar": [
+    {"p":"可以 + verb + 吗？ (May I / can we ...?)","e":"可以 before a verb, with 吗 at the end, politely asks for permission to do something.","x":"可以打包吗？— Can we get this packed to go?"},
+    {"p":"把 + object + verb + complement (do something to an object)","e":"把 moves the object before the verb when you want to stress what happens to it — often followed by a result like 好, 完, or 走.","x":"服务员把那些菜都打包好。— The waiter packed up all the leftover food."},
+    {"p":"太 + adjective + 了 (too ...)","e":"太...了 wraps around an adjective to say something is excessively so.","x":"这么多菜，不吃完太浪费了。— So much food — it'd be too wasteful not to finish it."}
+  ]
+}

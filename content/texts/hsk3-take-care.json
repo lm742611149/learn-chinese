@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-take-care",
+  "level": 3,
+  "title_zh": "保重",
+  "title_py": "Bǎozhòng",
+  "title_en": "Take Care in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["儿子","érzi","son"],["要","yào","to be going to"],["去","qù","to go"],["北方","běifāng","the North"],["工作","gōngzuò","to work"],["，"],["妈妈","māma","mom"],["帮","bāng","to help"],["他","tā","he; him"],["收拾","shōushi","to pack up"],["行李箱","xínglixiāng","suitcase"],["。"]],
+      "en": "The son is going to work in the north, and mom helps him pack his suitcase."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["北方","běifāng","the North"],["冷","lěng","cold"],["，"],["你","nǐ","you"],["要","yào","need to"],["多","duō","more"],["穿","chuān","to wear"],["衣服","yīfu","clothes"],["，"],["注意","zhùyì","to pay attention to"],["身体","shēntǐ","health; body"],["。"],["”"]],
+      "en": "Mom said: \"It's cold in the north, you need to wear more clothes and take care of your health.\""
+    },
+    {
+      "t": [["到","dào","to arrive"],["了","le","(completed action)"],["火车站","huǒchēzhàn","train station"],["，"],["妈妈","māma","mom"],["还是","háishi","still"],["有点儿","yǒudiǎnr","a little"],["担心","dānxīn","to worry"],["，"],["一直","yìzhí","continuously"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["儿子","érzi","son"],["。"]],
+      "en": "At the train station, mom still felt a little worried, and kept looking at her son."
+    },
+    {
+      "t": [["火车","huǒchē","train"],["快要","kuàiyào","about to"],["开","kāi","to start (a vehicle)"],["了","le","(change of state)"],["，"],["儿子","érzi","son"],["拿","ná","to hold"],["着","zhe","(ongoing state)"],["行李箱","xínglixiāng","suitcase"],["，"],["跟","gēn","with"],["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["妈妈","māma","mom"],["，"],["我","wǒ","I"],["走","zǒu","to leave"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "The train was about to leave, and the son, holding his suitcase, said to his mother: \"Mom, I'm heading off.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["到","dào","to arrive"],["了","le","(completed action)"],["以后","yǐhòu","after"],["，"],["给","gěi","to; for"],["我","wǒ","me"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["好好","hǎohǎo","well; properly"],["照顾","zhàogù","to look after"],["自己","zìjǐ","oneself"],["，"],["保重","bǎozhòng","take care"],["！"],["”"]],
+      "en": "Mom said: \"Call me once you arrive, look after yourself well, take care!\""
+    },
+    {
+      "t": [["儿子","érzi","son"],["说","shuō","to say"],["："],["“"],["妈妈","māma","mom"],["，"],["你","nǐ","you"],["也","yě","also"],["要","yào","need to"],["保重","bǎozhòng","take care"],["，"],["别","bié","don't"],["担心","dānxīn","to worry"],["我","wǒ","me"],["。"],["”"]],
+      "en": "The son said: \"Mom, take care too, and don't worry about me.\""
+    },
+    {
+      "t": [["火车","huǒchē","train"],["开","kāi","to start (a vehicle)"],["走","zǒu","to leave"],["了","le","(completed action)"],["，"],["妈妈","māma","mom"],["站","zhàn","to stand"],["在","zài","at"],["那儿","nàr","there"],["，"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["窗户","chuānghu","window"],["，"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["看","kàn","to look at"],["着","zhe","(ongoing state)"],["，"],["就","jiù","then"],["看","kàn","to see"],["不","bù","not"],["见","jiàn","to see"],["了","le","(change of state)"],["。"]],
+      "en": "The train pulled away, and mom stood there, watching the window — watching and watching, until she couldn't see it anymore."
+    }
+  ],
+  "vocab": [
+    ["保重","bǎozhòng","take care"],
+    ["注意","zhùyì","to pay attention to"],
+    ["身体","shēntǐ","health; body"],
+    ["照顾","zhàogù","to look after"],
+    ["担心","dānxīn","to worry"],
+    ["行李箱","xínglixiāng","suitcase"]
+  ],
+  "quiz": [
+    {"q":"Why is the son leaving home?","a":["He is going on vacation","He is going to work in the north","He is moving in with a friend"],"c":1},
+    {"q":"What does the mother tell her son to do before he leaves?","a":["Buy a new suitcase","Call a friend right away","Wear more clothes and take care of his health"],"c":2},
+    {"q":"What does the son say back to his mother?","a":["That she should take care too and stop worrying","That he forgot his ticket","That he wants to stay home"],"c":0}
+  ],
+  "grammar": [
+    {"p":"保重（take care）","e":"保重 is a warmer send-off than 再见 — it's used when someone is going away for a while, and wishes them wellbeing rather than just saying goodbye.","x":"妈妈，你也要保重。— Mom, take care of yourself too."},
+    {"p":"V + 着（an action held in progress）","e":"着 after a verb shows the action continuing, often while something else happens at the same time.","x":"妈妈一直看着儿子。— Mom kept looking at her son."},
+    {"p":"V着V着，就…（while doing X, gradually…）","e":"Repeating a verb with 着 twice shows an action going on until something changes as a result.","x":"看着看着，就看不见了。— She watched and watched, until she couldn't see it anymore."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-boring",
+  "level": 3,
+  "title_zh": "没意思",
+  "title_py": "Méi yìsi",
+  "title_en": "Boring in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["下午","xiàwǔ","afternoon"],["，"],["朋友","péngyou","friend"],["请","qǐng","to treat"],["我","wǒ","I; me"],["去","qù","to go"],["看","kàn","to watch"],["电影","diànyǐng","movie"],["，"],["我们","wǒmen","we; us"],["买","mǎi","to buy"],["了","le","(completed action)"],["两","liǎng","two"],["张","zhāng","(measure word for flat things)"],["票","piào","ticket"],["。"]],
+      "en": "Saturday afternoon, a friend treated me to a movie, and we bought two tickets."
+    },
+    {
+      "t": [["电影","diànyǐng","movie"],["刚","gāng","just; at first"],["开始","kāishǐ","to start"],["的时候","de shíhou","when; at the time of"],["还","hái","still"],["不错","búcuò","pretty good"],["，"],["可是","kěshì","but"],["看","kàn","to watch"],["了","le","(completed action)"],["半个小时","bàn ge xiǎoshí","half an hour"],["，"],["我","wǒ","I; me"],["觉得","juéde","to feel"],["很","hěn","very"],["没意思","méi yìsi","boring"],["。"]],
+      "en": "The movie was pretty good when it started, but after half an hour, I found it really boring."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["也","yě","also"],["说","shuō","to say"],["："],["“"],["这个","zhège","this"],["电影","diànyǐng","movie"],["太","tài","too; so"],["没意思","méi yìsi","boring"],["了","le","(change of state)"],["，"],["好","hǎo","really; quite"],["无聊","wúliáo","boring; bored"],["啊","a","(particle)"],["，"],["我","wǒ","I; me"],["都","dōu","all; already"],["想","xiǎng","to think; to want"],["睡觉","shuìjiào","to sleep"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "My friend said too: \"This movie is so boring, so dull, I'm about to fall asleep.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看了看","kànlekàn","took a look at"],["手表","shǒubiǎo","wristwatch"],["，"],["才","cái","only then"],["过了","guò le","passed"],["四十","sìshí","forty"],["分钟","fēnzhōng","minute"],["，"],["心里","xīnli","in one's heart"],["想","xiǎng","to think"],["："],["还有","háiyǒu","there was still"],["一个小时","yí ge xiǎoshí","one hour"],["呢","ne","(particle: softens question)"],["。"]],
+      "en": "I glanced at my watch — only forty minutes had passed. I thought to myself: there's still a whole hour left."
+    },
+    {
+      "t": [["电影","diànyǐng","movie"],["还","hái","still"],["没","méi","not have"],["结束","jiéshù","to finish; to end"],["，"],["我们","wǒmen","we; us"],["就","jiù","then"],["一起","yìqǐ","together"],["走","zǒu","to walk"],["出","chū","out"],["了","le","(completed action)"],["电影院","diànyǐngyuàn","cinema"],["。"]],
+      "en": "The movie wasn't even over yet, and we walked out of the cinema together."
+    },
+    {
+      "t": [["外面","wàimiàn","outside"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],["，"],["我们","wǒmen","we; us"],["去","qù","to go"],["附近","fùjìn","nearby"],["的","de","(particle: attributive)"],["公园","gōngyuán","park"],["走走","zǒuzou","to take a walk"],["。"]],
+      "en": "The weather outside was nice, so we went for a walk in a nearby park."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["在","zài","at"],["公园","gōngyuán","park"],["里","lǐ","inside"],["坐","zuò","to sit"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["聊","liáo","to chat"],["了","le","(completed action)"],["很多","hěn duō","many; a lot of"],["别的","biéde","other"],["事","shì","thing; matter"],["。"]],
+      "en": "We sat in the park for a long time, chatting about all kinds of other things."
+    }
+  ],
+  "vocab": [
+    ["没意思","méi yìsi","boring"],
+    ["无聊","wúliáo","boring; bored"],
+    ["电影","diànyǐng","movie"],
+    ["觉得","juéde","to feel"],
+    ["结束","jiéshù","to finish; to end"],
+    ["公园","gōngyuán","park"]
+  ],
+  "quiz": [
+    {"q":"How does the narrator feel about the movie after half an hour?","a":["Excited","Bored","Scared"],"c":1},
+    {"q":"What do the narrator and friend do before the movie ends?","a":["Fall asleep in their seats","Buy more tickets","Walk out and go to a park"],"c":2},
+    {"q":"What do they end up doing in the park?","a":["Sit and chat about other things","Watch another movie","Fall asleep on a bench"],"c":0}
+  ],
+  "grammar": [
+    {"p":"没意思 (boring)","e":"没意思 describes something with no fun or appeal — the opposite of 有意思 (interesting). It works for movies, classes, or anything dull.","x":"这个电影太没意思了。— This movie is way too boring."},
+    {"p":"才 + number (only; just)","e":"才 before an amount makes it feel smaller or slower than expected — here it stresses how little time has passed.","x":"才过了四十分钟。— Only forty minutes had passed."},
+    {"p":"还没 + verb，……就…… (before X even happened, ...)","e":"还没 says something hasn't happened yet, and pairing it with 就 shows another action already cutting in.","x":"电影还没结束，我们就走出了电影院。— The movie hadn't even ended, and we already walked out of the cinema."}
+  ]
+}

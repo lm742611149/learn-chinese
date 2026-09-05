@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-i-cannot",
+  "level": 2,
+  "title_zh": "我不会",
+  "title_py": "Wǒ bú huì",
+  "title_en": "I Cannot Do It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["姐姐", "jiějie", "older sister"],["要", "yào", "to be going to"],["做", "zuò", "to make"],["一个", "yí ge", "one (+ measure word)"],["生日", "shēngrì", "birthday"],["蛋糕", "dàngāo", "cake"],["，"],["叫", "jiào", "to tell (someone to do something)"],["我", "wǒ", "me"],["去", "qù", "to go"],["帮", "bāng", "to help"],["她", "tā", "her"],["。"]],
+      "en": "My older sister is going to make a birthday cake and asks me to go help her."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["对不起", "duìbuqǐ", "sorry"],["，"],["我", "wǒ", "I"],["不会", "bú huì", "cannot; do not know how to"],["做", "zuò", "to make"],["蛋糕", "dàngāo", "cake"],["，"],["也", "yě", "also"],["不会", "bú huì", "cannot; do not know how to"],["做菜", "zuò cài", "to cook"],["。"],["”"]],
+      "en": "I say: \"Sorry, I don't know how to make cakes, and I don't know how to cook either.\""
+    },
+    {
+      "t": [["姐姐", "jiějie", "older sister"],["说", "shuō", "to say"],["："],["“"],["不会", "bú huì", "cannot; do not know how to"],["没关系", "méi guānxi", "it's okay; never mind"],["，"],["可是", "kěshì", "but"],["你", "nǐ", "you"],["不能", "bù néng", "cannot; not able to"],["只", "zhǐ", "only"],["坐", "zuò", "to sit"],["着", "zhe", "(ongoing state)"],["，"],["要", "yào", "need to; must"],["跟", "gēn", "with"],["我", "wǒ", "me"],["去", "qù", "to go"],["超市", "chāoshì", "supermarket"],["买", "mǎi", "to buy"],["东西", "dōngxi", "things"],["。"],["”"]],
+      "en": "My sister says: \"It's fine if you don't know how — but you can't just sit there, come with me to the supermarket to buy things.\""
+    },
+    {
+      "t": [["到", "dào", "to arrive"],["了", "le", "(completed action)"],["超市", "chāoshì", "supermarket"],["，"],["我们", "wǒmen", "we"],["买", "mǎi", "to buy"],["了", "le", "(completed action)"],["鸡蛋", "jīdàn", "egg"],["、"],["牛奶", "niúnǎi", "milk"],["，"],["还有", "háiyǒu", "and also"],["水果", "shuǐguǒ", "fruit"],["。"]],
+      "en": "When we get to the supermarket, we buy eggs, milk, and some fruit."
+    },
+    {
+      "t": [["回家", "huíjiā", "to return home"],["以后", "yǐhòu", "after"],["，"],["姐姐", "jiějie", "older sister"],["做", "zuò", "to make"],["蛋糕", "dàngāo", "cake"],["，"],["我", "wǒ", "I"],["在", "zài", "at"],["旁边", "pángbiān", "next to; beside"],["看", "kàn", "to watch"],["，"],["也", "yě", "also"],["学", "xué", "to learn"],["着", "zhe", "(ongoing state)"],["做", "zuò", "to make"],["一点儿", "yìdiǎnr", "a little"],["。"]],
+      "en": "After we get home, my sister makes the cake while I watch beside her, and I learn to do a little of it too."
+    },
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["吃", "chī", "to eat"],["了", "le", "(completed action)"],["自己", "zìjǐ", "oneself"],["做", "zuò", "to make"],["的", "de", "(the one that)"],["蛋糕", "dàngāo", "cake"],["。"]],
+      "en": "In the evening, we eat the cake we made together."
+    }
+  ],
+  "vocab": [
+    ["不会", "bú huì", "cannot; do not know how to"],
+    ["不能", "bù néng", "cannot; not able to"],
+    ["帮", "bāng", "to help"],
+    ["蛋糕", "dàngāo", "cake"],
+    ["旁边", "pángbiān", "next to; beside"],
+    ["自己", "zìjǐ", "oneself"]
+  ],
+  "quiz": [
+    {"q": "Why does the narrator apologize at the start?", "a": ["Doesn't know how to bake or cook", "Is too busy that day", "Doesn't like cake"], "c": 0},
+    {"q": "What does the sister say the narrator must do instead of just sitting?", "a": ["Wash the dishes", "Go to sleep", "Go to the supermarket with her"], "c": 2},
+    {"q": "What do they do in the end?", "a": ["Throw the cake away", "Eat the cake they made together", "Order a cake online"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "不会（don't know how — no learned skill）", "e": "不会 + verb says you never learned how to do something, like baking or cooking.", "x": "我不会做蛋糕，也不会做菜。— I don't know how to make cakes, and I don't know how to cook either."},
+    {"p": "不能（cannot — not able to, due to circumstance）", "e": "不能 is different from 不会: it says you're not able to do something right now, not that you lack the skill.", "x": "你不能只坐着。— You can't just sit there."},
+    {"p": "也 + negative（also not...）", "e": "也 links a second negative statement to the first, showing another thing that also isn't the case.", "x": "我不会做蛋糕，也不会做菜。— I don't know how to make cakes, and I don't know how to cook either."}
+  ]
+}

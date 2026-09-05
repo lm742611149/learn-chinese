@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-see-you-later",
+  "level": 2,
+  "title_zh": "回头见",
+  "title_py": "Huítóu jiàn",
+  "title_en": "See You Later in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["小美","Xiǎoměi","Xiaomei"],["和","hé","and"],["小王","Xiǎo Wáng","Xiao Wang"],["在","zài","at"],["图书馆","túshūguǎn","library"],["看书","kànshū","to read (books)"],["。"]],
+      "en": "In the afternoon, Xiaomei and Xiao Wang read books in the library."
+    },
+    {
+      "t": [["看","kàn","to read"],["了","le","(completed action)"],["一个小时","yí ge xiǎoshí","one hour"],["，"],["小美","Xiǎoměi","Xiaomei"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["去","qù","to go"],["喝","hē","to drink"],["点儿","diǎnr","a bit"],["水","shuǐ","water"],["，"],["一会儿","yíhuìr","a little while"],["见","jiàn","to see"],["。"],["”"]],
+      "en": "After reading for an hour, Xiaomei said: \"I'm going to drink some water, see you in a bit.\""
+    },
+    {
+      "t": [["过","guò","to pass"],["了","le","(completed action)"],["五","wǔ","five"],["分钟","fēnzhōng","minute"],["，"],["她","tā","she"],["回","huí","to return"],["来","lái","(directional complement)"],["了","le","(completed action)"],["，"],["两","liǎng","two"],["个","gè","(measure word)"],["人","rén","people"],["又","yòu","again"],["坐下","zuòxià","to sit down"],["看书","kànshū","to read (books)"],["。"]],
+      "en": "Five minutes later, she came back, and the two of them sat down to read again."
+    },
+    {
+      "t": [["天","tiān","sky"],["黑","hēi","dark"],["了","le","(change of state)"],["，"],["小王","Xiǎo Wáng","Xiao Wang"],["要","yào","to be going to"],["走","zǒu","to leave"],["了","le","(change of state)"],["，"],["他","tā","he"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["先","xiān","first"],["走","zǒu","to leave"],["了","le","(change of state)"],["，"],["晚上","wǎnshang","evening"],["再","zài","then"],["一起","yìqǐ","together"],["吃饭","chīfàn","to eat a meal"],["，"],["回头见","huítóujiàn","see you later"],["！"],["”"]],
+      "en": "It got dark, and Xiao Wang was about to leave. He said: \"I'm heading out first, let's eat together tonight, see you later!\""
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["吃饭","chīfàn","to eat a meal"],["的时候","de shíhou","when"],["，"],["小王","Xiǎo Wáng","Xiao Wang"],["问","wèn","to ask"],["："],["“"],["明天","míngtiān","tomorrow"],["你","nǐ","you"],["还","hái","still"],["来","lái","to come"],["图书馆","túshūguǎn","library"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "While eating dinner in the evening, Xiao Wang asked: \"Are you still coming to the library tomorrow?\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["说","shuō","to say"],["："],["“"],["来","lái","to come"],["，"],["我们","wǒmen","we"],["八点","bā diǎn","eight o'clock"],["在","zài","at"],["门口","ménkǒu","doorway"],["见","jiàn","to see"],["，"],["明天","míngtiān","tomorrow"],["见","jiàn","to see"],["！"],["”"]],
+      "en": "Xiaomei said: \"Yes, let's meet at eight at the door, see you tomorrow!\""
+    }
+  ],
+  "vocab": [
+    ["回头见","huítóujiàn","see you later"],
+    ["一会儿","yíhuìr","a little while"],
+    ["明天","míngtiān","tomorrow"],
+    ["见","jiàn","to see; to meet"],
+    ["先","xiān","first"],
+    ["门口","ménkǒu","doorway"]
+  ],
+  "quiz": [
+    {"q":"Why does Xiaomei say 一会儿见 in the library?","a":["She's stepping out for water and will be right back","She's going home for the day","She's leaving to meet another friend"],"c":0},
+    {"q":"What does 回头见 mean when Xiao Wang leaves in the evening?","a":["Goodbye forever","See you next week","See you again later today"],"c":2},
+    {"q":"What do Xiaomei and Xiao Wang plan for tomorrow?","a":["Study in a different library","Meet at eight o'clock at the door","Have breakfast at six"],"c":1}
+  ],
+  "grammar": [
+    {"p":"一会儿见 vs 回头见 vs 明天见","e":"All three mean \"see you,\" but the timing differs: 一会儿见 is very soon (minutes away), 回头见 is later the same day, and 明天见 is the next day.","x":"一会儿见 — see you in a bit； 回头见 — see you later today； 明天见 — see you tomorrow。"},
+    {"p":"V + 了 + 时间段（how long something has gone on）","e":"了 after a verb, followed by a length of time, shows how long the action already lasted.","x":"看了一个小时 — (they) read for an hour."},
+    {"p":"还 + verb + 吗？（asking if something still holds）","e":"还 before a verb checks whether an action is still going to happen or still true.","x":"你还来图书馆吗？ — Are you still coming to the library?"}
+  ]
+}

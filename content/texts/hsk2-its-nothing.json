@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-its-nothing",
+  "level": 2,
+  "title_zh": "没事",
+  "title_py": "Méishì",
+  "title_en": "It Is Nothing in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I"],["头疼","tóuténg","to have a headache"],["，"],["坐","zuò","to sit"],["在","zài","at; in"],["椅子","yǐzi","chair"],["上","shàng","on"],["休息","xiūxi","to rest"],["。"]],
+      "en": "Today, I have a headache, so I sit in a chair to rest."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["看见","kànjiàn","to see"],["我","wǒ","I"],["，"],["问","wèn","to ask"],["："],["“"],["你","nǐ","you"],["怎么","zěnme","how; what"],["了","le","(particle)"],["？"],["”"]],
+      "en": "Friend sees me, and asks: \"What's wrong?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["没事","méishì","it's nothing; I'm fine"],["，"],["休息","xiūxi","to rest"],["一下","yíxià","a bit"],["就","jiù","then"],["好","hǎo","fine; good"],["了","le","(particle)"],["。"],["”"]],
+      "en": "I say: \"It's nothing, I'll be fine after resting a bit.\""
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["朋友","péngyou","friend"],["打电话","dǎ diànhuà","to make a phone call"],["给","gěi","to; for"],["我","wǒ","I"],["，"],["说","shuō","to say"],["："],["“"],["对不起","duìbuqǐ","sorry"],["，"],["我","wǒ","I"],["忘","wàng","to forget"],["了","le","(particle)"],["今天","jīntiān","today"],["是","shì","to be"],["你","nǐ","you"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["。"],["”"]],
+      "en": "In the evening, my friend calls me and says: \"Sorry, I forgot today is your birthday.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["没事","méishì","it's fine; no problem"],["，"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["打电话","dǎ diànhuà","to call"],["给","gěi","to"],["我","wǒ","I"],["。"],["”"]],
+      "en": "I say: \"It's fine, thanks for calling me.\""
+    },
+    {
+      "t": [["吃饭","chī fàn","to eat a meal"],["的时候","de shíhou","when"],["，"],["牛奶","niúnǎi","milk"],["洒","sǎ","to spill"],["在","zài","on"],["桌子","zhuōzi","table"],["上","shàng","on"],["，"],["我","wǒ","I"],["很","hěn","very"],["着急","zháojí","anxious"],["。"]],
+      "en": "While eating, milk spills on the table, and I get anxious."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["没事","méishì","it's fine; not a big deal"],["，"],["擦","cā","to wipe"],["干净","gānjìng","clean"],["就","jiù","then"],["好","hǎo","fine; good"],["了","le","(particle)"],["。"],["”"]],
+      "en": "Mom says: \"It's fine, just wipe it clean and it'll be okay.\""
+    }
+  ],
+  "vocab": [
+    ["没事", "méishì", "it's fine; nothing's wrong"],
+    ["头疼", "tóuténg", "to have a headache"],
+    ["打电话", "dǎ diànhuà", "to make a phone call"],
+    ["生日", "shēngrì", "birthday"],
+    ["洒", "sǎ", "to spill"],
+    ["擦", "cā", "to wipe"]
+  ],
+  "quiz": [
+    {"q": "When a friend asks 你怎么了 and you answer 没事, what are you telling them?", "a": ["Nothing serious is wrong", "You are very angry", "You want to leave"], "c": 0},
+    {"q": "What did the friend forget?", "a": ["To bring an umbrella", "The narrator's birthday", "To do homework"], "c": 1},
+    {"q": "What happens with the milk at dinner?", "a": ["There isn't any left", "It's too hot to drink", "It spills on the table"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "没事（回应关心：answering \"你怎么了\"）", "e": "没事 answers a worried question like 你怎么了, telling someone nothing serious is wrong.", "x": "你怎么了？没事，休息一下就好了。— What's wrong? Nothing, I'll be fine after resting a bit."},
+    {"p": "没事（回应道歉：accepting an apology）", "e": "没事 also accepts an apology, meaning it's okay, no problem.", "x": "对不起，我忘了你的生日。没事，谢谢你打电话给我。— Sorry, I forgot your birthday. It's fine, thanks for calling."},
+    {"p": "没事（表示不要紧：reassuring about a small mishap）", "e": "没事 can also reassure someone that a small mishap isn't a big deal.", "x": "没事，擦干净就好了。— It's fine, just wipe it clean."}
+  ]
+}

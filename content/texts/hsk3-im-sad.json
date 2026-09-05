@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-im-sad",
+  "level": 3,
+  "title_zh": "我难过",
+  "title_py": "Wǒ nánguò",
+  "title_en": "I Am Sad in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["最","zuì","most"],["好","hǎo","good"],["的","de","(particle: attributive)"],["朋友","péngyou","friend"],["要","yào","will; going to"],["搬","bān","to move (house)"],["到","dào","to (a place)"],["别的","biéde","other"],["城市","chéngshì","city"],["，"],["我","wǒ","I; me"],["心里","xīnli","in one's heart"],["很","hěn","very"],["难过","nánguò","sad"],["。"]],
+      "en": "My best friend is moving to another city, and I feel really sad."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["从","cóng","from"],["小学","xiǎoxué","elementary school"],["就是","jiùshì","simply; just"],["好朋友","hǎo péngyou","good friend"],["，"],["一起","yìqǐ","together"],["玩","wán","to have fun"],["了","le","(completed action)"],["很多","hěn duō","many; a lot of"],["年","nián","year"],["。"]],
+      "en": "We've been good friends since elementary school, and we've had fun together for many years."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["看","kàn","to see"],["我","wǒ","I; me"],["不","bù","not"],["开心","kāixīn","happy"],["，"],["问","wèn","to ask"],["我","wǒ","I; me"],["怎么","zěnme","how"],["了","le","(change of state)"],["。"]],
+      "en": "Mom saw that I wasn't happy and asked me what was wrong."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["的","de","(particle: attributive)"],["好朋友","hǎo péngyou","good friend"],["要","yào","will; going to"],["搬家","bānjiā","to move house"],["了","le","(change of state)"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["难过","nánguò","sad"],["。"],["”"]],
+      "en": "I said: \"My good friend is moving away, and I'm really sad.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["难过","nánguò","sad"],["，"],["你们","nǐmen","you (plural)"],["还","hái","still"],["可以","kěyǐ","can"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["也","yě","also"],["可以","kěyǐ","can"],["聊天","liáotiān","to chat"],["，"],["以后","yǐhòu","from now on"],["一定","yídìng","certainly"],["会","huì","will"],["见面","jiànmiàn","to meet"],["的","de","(particle)"],["。"],["”"]],
+      "en": "Mom said: \"Don't be sad, you can still call each other and chat, and you'll definitely see each other from now on.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["走","zǒu","to leave"],["的","de","(particle: attributive)"],["那天","nà tiān","that day"],["，"],["我们","wǒmen","we; us"],["在","zài","at"],["车站","chēzhàn","bus stop; station"],["见面","jiànmiàn","to meet"],["，"],["我","wǒ","I; me"],["给","gěi","to; for"],["她","tā","she; her"],["一张","yì zhāng","one (measure for flat things)"],["照片","zhàopiàn","photo"],["。"]],
+      "en": "The day my friend left, we met at the station, and I gave her a photo."
+    },
+    {
+      "t": [["照片","zhàopiàn","photo"],["上","shang","on"],["，"],["我们","wǒmen","we; us"],["两个","liǎng ge","two"],["人","rén","person"],["站","zhàn","to stand"],["在","zài","at"],["公园","gōngyuán","park"],["门口","ménkǒu","doorway"],["，"],["笑","xiào","to smile; to laugh"],["得","de","(degree particle)"],["很","hěn","very"],["开心","kāixīn","happy"],["。"]],
+      "en": "In the photo, the two of us are standing at the park entrance, smiling happily."
+    },
+    {
+      "t": [["她","tā","she; her"],["把","bǎ","(particle: 把 construction)"],["照片","zhàopiàn","photo"],["放","fàng","to put; to place"],["进","jìn","to enter"],["书包","shūbāo","schoolbag"],["，"],["跟","gēn","with"],["我","wǒ","I; me"],["说","shuō","to say"],["了","le","(completed action)"],["“"],["再见","zàijiàn","goodbye"],["”"],["，"],["就","jiù","then"],["走","zǒu","to walk"],["进","jìn","to enter"],["了","le","(completed action)"],["车站","chēzhàn","bus stop; station"],["。"]],
+      "en": "She put the photo into her bag, said \"goodbye\" to me, and walked into the station."
+    }
+  ],
+  "vocab": [
+    ["难过","nánguò","sad"],
+    ["开心","kāixīn","happy"],
+    ["搬家","bānjiā","to move house"],
+    ["打电话","dǎ diànhuà","to make a phone call"],
+    ["聊天","liáotiān","to chat"],
+    ["见面","jiànmiàn","to meet"]
+  ],
+  "quiz": [
+    {"q":"Why is the narrator sad?","a":["His best friend is moving to another city","He failed an exam","He lost his umbrella"],"c":0},
+    {"q":"What does the narrator's mom suggest?","a":["Stop being friends","Call and chat with her, and meet again later","Move to the same city"],"c":1},
+    {"q":"What does the narrator give the friend at the station?","a":["A letter","Some money","A photo"],"c":2}
+  ],
+  "grammar": [
+    {"p":"心里很 + adjective (deep down, very...)","e":"心里 means \"in one's heart,\" and pairing it with 很 + an adjective describes how someone truly feels inside.","x":"我心里很难过。— Deep down, I feel really sad."},
+    {"p":"还可以……，也可以…… (you can still..., you can also...)","e":"This pattern lists more than one option still available, often used to comfort someone by showing things aren't over.","x":"你们还可以打电话，也可以聊天。— You can still call each other, and you can also chat."},
+    {"p":"把 + object + verb (the 把-construction)","e":"把 moves the object before the verb to focus on what happens to it.","x":"她把照片放进书包。— She put the photo into her bag."}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-one-more",
+  "level": 2,
+  "title_zh": "再来一个",
+  "title_py": "Zàilái yí gè",
+  "title_en": "One More in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中午", "zhōngwǔ", "noon"],["，"],["我", "wǒ", "I"],["和", "hé", "and; with"],["同学", "tóngxué", "classmate"],["去", "qù", "to go"],["饭馆", "fànguǎn", "restaurant"],["吃", "chī", "to eat"],["面条", "miàntiáo", "noodles"],["。"]],
+      "en": "At noon, my classmate and I went to a restaurant to eat noodles."
+    },
+    {
+      "t": [["服务员", "fúwùyuán", "waiter; server"],["问", "wèn", "to ask"],["我们", "wǒmen", "we; us"],["要", "yào", "to want"],["几", "jǐ", "how many"],["碗", "wǎn", "bowl (measure word)"],["，"],["我", "wǒ", "I"],["说", "shuō", "to say"],["要", "yào", "to want"],["两", "liǎng", "two"],["碗", "wǎn", "bowl (measure word)"],["。"]],
+      "en": "The server asked how many bowls we wanted; I said two bowls."
+    },
+    {
+      "t": [["面条", "miàntiáo", "noodles"],["很", "hěn", "very"],["好吃", "hǎochī", "delicious"],["，"],["我", "wǒ", "I"],["一会儿", "yíhuìr", "in a moment; a short while"],["就", "jiù", "then; right away"],["吃", "chī", "to eat"],["完", "wán", "to finish"],["了", "le", "(completed action)"],["。"]],
+      "en": "The noodles were delicious, and I finished mine in no time."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["还", "hái", "still"],["饿", "è", "hungry"],["，"],["对", "duì", "to; toward"],["服务员", "fúwùyuán", "waiter; server"],["说", "shuō", "to say"],["："],["“"],["再来", "zài lái", "one more (please)"],["一", "yì", "one"],["碗", "wǎn", "bowl (measure word)"],["！"],["”"]],
+      "en": "I was still hungry, and said to the server: \"One more bowl!\""
+    },
+    {
+      "t": [["吃", "chī", "to eat"],["完", "wán", "to finish"],["这", "zhè", "this"],["一", "yì", "one"],["碗", "wǎn", "bowl (measure word)"],["，"],["同学", "tóngxué", "classmate"],["说", "shuō", "to say"],["："],["“"],["你", "nǐ", "you"],["今天", "jīntiān", "today"],["吃", "chī", "to eat"],["得", "de", "(particle: degree)"],["真", "zhēn", "really"],["多", "duō", "much; a lot"],["！"],["”"]],
+      "en": "After I finished that bowl, my classmate said: \"You're eating so much today!\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["太", "tài", "too; so"],["好吃", "hǎochī", "delicious"],["了", "le", "(emphasis particle)"],["！"],["服务员", "fúwùyuán", "waiter; server"],["，"],["再要", "zài yào", "to want one more"],["一", "yì", "one"],["碗", "wǎn", "bowl (measure word)"],["，"],["可以", "kěyǐ", "can; may"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "I said: \"It's so delicious! One more bowl, please — is that okay?\""
+    }
+  ],
+  "vocab": [
+    ["再来", "zài lái", "one more (please)"],
+    ["再要", "zài yào", "to want one more"],
+    ["碗", "wǎn", "bowl (measure word)"],
+    ["饿", "è", "hungry"],
+    ["一会儿", "yíhuìr", "in a moment; a short while"],
+    ["几", "jǐ", "how many"]
+  ],
+  "quiz": [
+    {"q": "How many bowls of noodles does the narrator order at first?", "a": ["One", "Two", "Three"], "c": 1},
+    {"q": "Why does the narrator ask the server for 再来一碗?", "a": ["Still hungry", "The dish was cold", "Wrong order"], "c": 0},
+    {"q": "What does the narrator ask for at the very end?", "a": ["The bill", "A different dish", "One more bowl"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "再来 + 数量（bring/give me one more...）", "e": "再来 is a quick, colloquial way to ask for another one, often used when ordering food.", "x": "服务员，再来一碗！— One more bowl, please!"},
+    {"p": "再要 + 数量，可以吗？（asking politely for one more）", "e": "再要 followed by a quantity, plus 可以吗, politely asks to get one more.", "x": "再要一碗，可以吗？— One more bowl, is that okay?"},
+    {"p": "一会儿 + 就 + verb（in no time, ...）", "e": "一会儿 followed by 就 shows something happens quickly, after only a short while.", "x": "我一会儿就吃完了。— I finished it in no time."}
+  ]
+}
