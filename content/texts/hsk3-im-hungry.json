@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-im-hungry",
+  "level": 3,
+  "title_zh": "我饿了",
+  "title_py": "Wǒ è le",
+  "title_en": "I am Hungry in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下课","xiàkè","to get out of class"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["饿","è","hungry"],["，"],["也","yě","also"],["很","hěn","very"],["渴","kě","thirsty"],["，"],["就","jiù","then"],["给","gěi","to; for"],["同学","tóngxué","classmate"],["打电话","dǎ diànhuà","to make a phone call"],["。"]],
+      "en": "After class, I was hungry and thirsty, so I called a classmate."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["饿","è","hungry"],["了","le","(change of state)"],["，"],["你","nǐ","you"],["想","xiǎng","to want to"],["不想","bùxiǎng","don't want to"],["一起","yìqǐ","together"],["去","qù","to go"],["吃饭","chīfàn","to eat a meal"],["？"],["”"]],
+      "en": "I said: \"I'm hungry — do you want to get food together?\""
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["好","hǎo","good; OK"],["啊","a","(particle)"],["，"],["我","wǒ","I; me"],["也","yě","also"],["很","hěn","very"],["饿","è","hungry"],["，"],["我们","wǒmen","we; us"],["去","qù","to go"],["那","nà","that"],["家","jiā","(measure word for businesses)"],["饭馆","fànguǎn","restaurant"],["吧","ba","(suggestion particle)"],["。"],["”"]],
+      "en": "He said: \"Sure, I'm hungry too — let's go to that restaurant.\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["走","zǒu","to walk"],["到","dào","to (arrive at)"],["饭馆","fànguǎn","restaurant"],["，"],["看","kàn","to look at"],["了","le","(completed action)"],["菜单","càidān","menu"],["，"],["点","diǎn","to order (food)"],["了","le","(completed action)"],["米饭","mǐfàn","(cooked) rice"],["和","hé","and"],["一个","yí ge","one"],["菜","cài","dish"],["。"]],
+      "en": "We walked to the restaurant, looked at the menu, and ordered rice and a dish."
+    },
+    {
+      "t": [["过","guò","to pass"],["了","le","(completed action)"],["一会儿","yíhuìr","a little while"],["，"],["服务员","fúwùyuán","clerk; attendant"],["把","bǎ","(object-marker)"],["菜","cài","dish"],["送来","sònglai","to bring over"],["了","le","(change of state)"],["，"],["我们","wǒmen","we; us"],["就","jiù","then"],["开始","kāishǐ","to start"],["吃","chī","to eat"],["。"]],
+      "en": "After a while, the clerk brought the dish over, and we started eating."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["一边","yìbiān","while (doing one thing)"],["吃","chī","to eat"],["一边","yìbiān","while (doing another)"],["说","shuō","to say"],["："],["“"],["太","tài","too; extremely"],["好吃","hǎochī","tasty; delicious"],["了","le","(change of state)"],["，"],["我","wǒ","I; me"],["终于","zhōngyú","finally"],["不","bú","not"],["饿","è","hungry"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "While eating, I said: \"This is so good — I'm finally not hungry anymore.\""
+    },
+    {
+      "t": [["吃","chī","to eat"],["完","wán","to finish"],["饭","fàn","meal; rice"],["，"],["我","wǒ","I; me"],["还","hái","still"],["有点儿","yǒudiǎnr","a little"],["渴","kě","thirsty"],["，"],["就","jiù","then"],["又","yòu","again"],["要","yào","to order/ask for"],["了","le","(completed action)"],["一杯","yì bēi","one cup/glass of"],["水","shuǐ","water"],["。"]],
+      "en": "After finishing the meal, I was still a bit thirsty, so I ordered another glass of water."
+    }
+  ],
+  "vocab": [
+    ["饿","è","hungry"],
+    ["渴","kě","thirsty"],
+    ["打电话","dǎ diànhuà","to make a phone call"],
+    ["一边","yìbiān","while (doing two things at once)"],
+    ["菜单","càidān","menu"],
+    ["好吃","hǎochī","tasty; delicious"]
+  ],
+  "quiz": [
+    {"q":"Why did the narrator call a classmate after class?","a":["To ask about homework","Because they were hungry and thirsty","To plan a trip"],"c":1},
+    {"q":"What did the narrator say while eating?","a":["That the restaurant was too far","That they missed home","That the food was very good and they weren't hungry anymore"],"c":2},
+    {"q":"What did the narrator do after finishing the meal?","a":["Ordered another glass of water because still thirsty","Went straight home","Fell asleep at the table"],"c":0}
+  ],
+  "grammar": [
+    {"p":"我饿了 / 我渴了 (I'm hungry / thirsty)","e":"Adjective + 了 marks a new state — 饿了 means 'have become hungry' and 渴了 means 'have become thirsty.'","x":"我饿了，你渴不渴？— I'm hungry, are you thirsty?"},
+    {"p":"想不想 (do you want to...?)","e":"Repeating a verb as V+不+V makes a yes/no question, just like 是不是 or 去不去 — 想不想 asks 'do you want to or not.'","x":"你想不想一起去吃饭？— Do you want to get food together?"},
+    {"p":"一边...一边... (while doing X, also doing Y)","e":"一边 + verb1 + 一边 + verb2 describes two actions happening at the same time.","x":"我一边吃一边说话。— I talked while eating."}
+  ]
+}

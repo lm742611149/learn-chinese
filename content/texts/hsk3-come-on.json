@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-come-on",
+  "level": 3,
+  "title_zh": "加油",
+  "title_py": "Jiāyóu",
+  "title_en": "Come On in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下","xià","next"],["星期五","xīngqīwǔ","Friday"],["，"],["我","wǒ","I; me"],["朋友","péngyou","friend"],["要","yào","will; going to"],["参加","cānjiā","to take part in"],["一个","yí ge","one"],["跑步","pǎobù","running"],["比赛","bǐsài","competition; match"],["，"],["他","tā","he; him"],["每天","měitiān","every day"],["都","dōu","all"],["在","zài","at"],["公园","gōngyuán","park"],["练习","liànxí","to practice"],["。"]],
+      "en": "Next Friday my friend has a running race, and he practices in the park every day."
+    },
+    {
+      "t": [["比赛","bǐsài","competition; match"],["那","nà","that"],["天","tiān","day"],["，"],["天气","tiānqì","weather"],["很","hěn","very"],["热","rè","hot"],["，"],["我","wǒ","I; me"],["也","yě","also"],["去","qù","to go"],["公园","gōngyuán","park"],["看","kàn","to watch"],["他","tā","he; him"],["跑步","pǎobù","to run"],["。"]],
+      "en": "On the day of the race, the weather was hot, and I went to the park too to watch him run."
+    },
+    {
+      "t": [["比赛","bǐsài","competition; match"],["开始","kāishǐ","to begin"],["了","le","(change of state)"],["，"],["很多","hěnduō","many"],["人","rén","people"],["都","dōu","all"],["站","zhàn","to stand"],["在","zài","at"],["旁边","pángbiān","beside"],["看","kàn","to watch"],["。"]],
+      "en": "The race began, and lots of people stood by the side watching."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["也","yě","also"],["大声","dàshēng","loudly"],["说","shuō","to say"],["："],["“"],["加油","jiāyóu","come on! go go go!"],["！"],["你","nǐ","you"],["可以","kěyǐ","can"],["的","de","(particle)"],["！"],["”"]],
+      "en": "I shouted loudly too: \"Jiāyóu! You can do it!\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["跑","pǎo","to run"],["得","de","(complement particle)"],["很","hěn","very"],["快","kuài","fast"],["，"],["很快","hěnkuài","soon"],["就","jiù","then"],["到","dào","to arrive"],["了","le","(completed action)"],["前面","qiánmiàn","the front"],["。"]],
+      "en": "My friend ran very fast, and soon got to the front."
+    },
+    {
+      "t": [["比赛","bǐsài","competition; match"],["结束","jiéshù","to end"],["以后","yǐhòu","after"],["，"],["他","tā","he; him"],["很","hěn","very"],["开心","kāixīn","happy"],["，"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["，"],["加油","jiāyóu","cheering me on"],["真","zhēn","really"],["有用","yǒuyòng","useful"],["！"],["”"]],
+      "en": "After the race ended, he was happy and said with a smile: \"Thanks — cheering me on really worked!\""
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["我","wǒ","I; me"],["请","qǐng","to treat (someone)"],["他","tā","he; him"],["吃饭","chīfàn","to eat"],["，"],["他","tā","he; him"],["说","shuō","to say"],["，"],["下次","xiàcì","next time"],["比赛","bǐsài","competition; match"],["还","hái","also"],["要","yào","will; to want"],["我","wǒ","I; me"],["去","qù","to go"],["给","gěi","for"],["他","tā","he; him"],["加油","jiāyóu","to cheer on"],["。"]],
+      "en": "At noon I treated him to lunch, and he said next time he wants me to come cheer him on again."
+    }
+  ],
+  "vocab": [
+    ["加油","jiāyóu","come on! go go go! (lit. \"add fuel\")"],
+    ["参加","cānjiā","to take part in"],
+    ["比赛","bǐsài","competition; match"],
+    ["练习","liànxí","to practice"],
+    ["开心","kāixīn","happy"],
+    ["力气","lìqi","strength"]
+  ],
+  "quiz": [
+    {"q":"What does 加油 literally mean?","a":["To add fuel/oil","To finish a race","To say thank you"],"c":0},
+    {"q":"Where does the friend's race in this story take place?","a":["At school","At the beach","In the park"],"c":2},
+    {"q":"What does the narrator do after the race?","a":["Goes home to sleep","Treats the friend to lunch","Buys new shoes"],"c":1}
+  ],
+  "grammar": [
+    {"p":"加油 (literally \"add fuel\")","e":"加油 literally means to add fuel/oil to a car, but Chinese speakers shout it to cheer someone on — like saying \"Come on!\" or \"You can do it!\"","x":"加油！你可以的！— Come on! You can do it!"},
+    {"p":"V + 得 + adj (complement of degree)","e":"得 links a verb to a description of how the action is done — 跑得很快 means \"runs (very) fast.\"","x":"朋友跑得很快。— My friend runs very fast."},
+    {"p":"还要 (also plan to; still want to)","e":"还要 says someone plans to do one more thing, adding it on top of what was just mentioned.","x":"他还要我去给他加油。— He also wants me to come cheer him on."}
+  ]
+}

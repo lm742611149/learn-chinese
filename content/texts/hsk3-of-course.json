@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-of-course",
+  "level": 3,
+  "title_zh": "当然",
+  "title_py": "Dāngrán",
+  "title_en": "Of Course in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["晚上","wǎnshang","evening"],["，"],["外面","wàimiàn","outside"],["突然","tūrán","suddenly"],["下雨","xiàyǔ","to rain"],["了","le","(change of state)"],["，"],["我","wǒ","I; me"],["在","zài","at"],["家里","jiāli","at home"],["看","kàn","to watch"],["电视","diànshì","TV"],["。"]],
+      "en": "Saturday evening, it suddenly started raining outside, and I was at home watching TV."
+    },
+    {
+      "t": [["邻居","línjū","neighbor"],["忘了","wàngle","forgot"],["带","dài","to bring"],["伞","sǎn","umbrella"],["，"],["站","zhàn","to stand"],["在","zài","at"],["门口","ménkǒu","doorway"],["，"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["可以","kěyǐ","can"],["借","jiè","to borrow"],["一","yì","one"],["把","bǎ","(measure word)"],["雨伞","yǔsǎn","umbrella"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "My neighbor forgot her umbrella and stood at the door, asking me: \"Can I borrow an umbrella?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["当然","dāngrán","of course"],["可以","kěyǐ","can"],["，"],["你","nǐ","you"],["等一下","děngyíxià","wait a moment"],["。"],["”"]],
+      "en": "I said: \"Of course you can, just wait a moment.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["给","gěi","for"],["她","tā","she; her"],["拿","ná","to fetch"],["了","le","(completed action)"],["一","yì","one"],["把","bǎ","(measure word)"],["雨伞","yǔsǎn","umbrella"],["，"],["她","tā","she; her"],["说","shuō","to say"],["谢谢","xièxie","thank you"],["，"],["就","jiù","then"],["走","zǒu","to leave"],["了","le","(completed action)"],["。"]],
+      "en": "I fetched her an umbrella, she said thanks, and left."
+    },
+    {
+      "t": [["第二天","dì'èrtiān","the next day"],["，"],["天气","tiānqì","weather"],["很","hěn","very"],["好","hǎo","good"],["，"],["邻居","línjū","neighbor"],["把","bǎ","(把-construction)"],["伞","sǎn","umbrella"],["还给","huángěi","to return to"],["我","wǒ","I; me"],["，"],["还","hái","also"],["带","dài","to bring"],["来","lái","(directional complement)"],["了","le","(completed action)"],["一些","yìxiē","some"],["水果","shuǐguǒ","fruit"],["。"]],
+      "en": "The next day, the weather was nice, and my neighbor returned the umbrella and also brought some fruit."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["太","tài","too; so"],["好","hǎo","nice; kind"],["了","le","(change of state)"],["，"],["谢谢","xièxie","thank you"],["。"],["”"]],
+      "en": "I said: \"You're so kind, thank you.\""
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["吃","chī","to eat"],["水果","shuǐguǒ","fruit"],["，"],["还","hái","also"],["聊天","liáotiān","to chat"],["。"]],
+      "en": "At noon we ate the fruit together and chatted too."
+    }
+  ],
+  "vocab": [
+    ["当然","dāngrán","of course"],
+    ["邻居","línjū","neighbor"],
+    ["借","jiè","to borrow"],
+    ["雨伞","yǔsǎn","umbrella"],
+    ["还给","huángěi","to return (something) to"],
+    ["聊天","liáotiān","to chat"]
+  ],
+  "quiz": [
+    {"q":"Why does the neighbor come to the narrator's door?","a":["To borrow an umbrella because it's raining","To ask for directions","To return a book"],"c":0},
+    {"q":"How does the narrator respond to the neighbor's request?","a":["He says no","He says 当然可以 (of course)","He ignores her"],"c":1},
+    {"q":"What happens the next day?","a":["The neighbor moves away","It rains again","The neighbor returns the umbrella and brings fruit"],"c":2}
+  ],
+  "grammar": [
+    {"p":"当然 (of course)","e":"当然 answers a request or question with confident, easy agreement — \"of course\", \"sure\", \"naturally\".","x":"当然可以，你等一下。— Of course you can, just wait a moment."},
+    {"p":"把 + object + verb (the 把-construction)","e":"把 moves the object in front of the verb to emphasize what happens to it — 把伞还给我 means \"return the umbrella to me.\"","x":"邻居把伞还给我。— The neighbor returned the umbrella to me."},
+    {"p":"可以 + verb + 吗？ (asking permission)","e":"可以 + verb + 吗 is a simple, polite way to ask if you're allowed to do something.","x":"可以借一把雨伞吗？— Can I borrow an umbrella?"}
+  ]
+}

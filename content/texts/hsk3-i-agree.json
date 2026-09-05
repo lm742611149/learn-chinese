@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-i-agree",
+  "level": 3,
+  "title_zh": "我同意",
+  "title_py": "Wǒ tóngyì",
+  "title_en": "I Agree in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["周末","zhōumò","weekend"],["我们","wǒmen","we; us"],["几个","jǐge","a few"],["朋友","péngyou","friend"],["在","zài","at"],["一起","yìqǐ","together"],["吃饭","chīfàn","to eat"],["，"],["讨论","tǎolùn","to discuss"],["周六","zhōuliù","Saturday"],["去","qù","to go"],["哪儿","nǎr","where"],["玩","wán","to have fun"],["。"]],
+      "en": "Over the weekend a few of us friends were eating together, discussing where to go on Saturday."
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we; us"],["去","qù","to go"],["爬山","páshān","to hike (a mountain)"],["吧","ba","(suggestion particle)"],["，"],["天气","tiānqì","weather"],["这么","zhème","so"],["好","hǎo","good"],["。"],["”"]],
+      "en": "Xiaomei said: \"Let's go hiking, the weather's so nice.\""
+    },
+    {
+      "t": [["小张","Xiǎozhāng","Xiaozhang"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["同意","tóngyì","to agree"],["，"],["爬山","páshān","hiking"],["可以","kěyǐ","can"],["运动","yùndòng","exercise"],["一下","yíxià","a bit"],["。"],["”"]],
+      "en": "Xiaozhang said: \"I agree, hiking's good exercise too.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["也","yě","also"],["这么","zhème","this way"],["想","xiǎng","to think"],["，"],["我们","wǒmen","we; us"],["好久","hǎojiǔ","a long time"],["没有","méiyǒu","haven't"],["一起","yìqǐ","together"],["出去","chūqù","to go out"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I said: \"I think so too, we haven't gone out together in ages.\""
+    },
+    {
+      "t": [["于是","yúshì","so; therefore"],["我们","wǒmen","we; us"],["决定","juédìng","to decide"],["周六","zhōuliù","Saturday"],["早上","zǎoshang","morning"],["八点","bādiǎn","eight o'clock"],["在","zài","at"],["公园","gōngyuán","park"],["门口","ménkǒu","entrance"],["见面","jiànmiàn","to meet"],["。"]],
+      "en": "So we decided to meet at the park entrance at eight on Saturday morning."
+    },
+    {
+      "t": [["周六","zhōuliù","Saturday"],["早上","zǎoshang","morning"],["，"],["我们","wǒmen","we; us"],["都","dōu","all"],["到","dào","to arrive"],["了","le","(completed action)"],["公园","gōngyuán","park"],["门口","ménkǒu","entrance"],["，"],["一起","yìqǐ","together"],["去","qù","to go"],["爬山","páshān","to hike"],["。"]],
+      "en": "Saturday morning, we all arrived at the park entrance and went hiking together."
+    },
+    {
+      "t": [["到","dào","to arrive"],["了","le","(completed action)"],["山顶","shāndǐng","the top of the mountain"],["，"],["小美","Xiǎoměi","Xiaomei"],["拿","ná","to take out"],["出","chū","out"],["手机","shǒujī","phone"],["，"],["给","gěi","for"],["我们","wǒmen","we; us"],["拍","pāi","to take (a photo)"],["了","le","(completed action)"],["照片","zhàopiàn","photo"],["。"]],
+      "en": "When we got to the top, Xiaomei took out her phone and took a photo of all of us."
+    }
+  ],
+  "vocab": [
+    ["同意","tóngyì","to agree"],
+    ["讨论","tǎolùn","to discuss"],
+    ["爬山","páshān","to hike (a mountain)"],
+    ["决定","juédìng","to decide"],
+    ["见面","jiànmiàn","to meet"],
+    ["照片","zhàopiàn","photo"]
+  ],
+  "quiz": [
+    {"q":"What are the friends deciding at dinner?","a":["Where to go this weekend","What to eat for dinner","Who will pay the bill"],"c":0},
+    {"q":"How does 小张 respond to 小美's suggestion?","a":["He disagrees and suggests something else","我同意 — he agrees","He says he's too tired"],"c":1},
+    {"q":"What do the friends do once they reach the top of the mountain?","a":["They eat lunch","They take a nap","They take a photo"],"c":2}
+  ],
+  "grammar": [
+    {"p":"我同意 (I agree)","e":"我同意 is a simple, direct way to agree with what someone just said — literally \"I agree.\"","x":"我同意，爬山可以运动一下。— I agree, hiking is good exercise too."},
+    {"p":"我也这么想 (I think so too)","e":"也 (also) + 这么想 (think this way) is a natural way to say you feel the same as the person before you.","x":"我也这么想，我们好久没有一起出去了。— I think so too, we haven't gone out together in ages."},
+    {"p":"于是 (so; as a result)","e":"于是 links two clauses to show the second happened as a natural result of the first.","x":"于是我们决定周六见面。— So we decided to meet on Saturday."}
+  ]
+}

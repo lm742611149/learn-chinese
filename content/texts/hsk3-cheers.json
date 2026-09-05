@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-cheers",
+  "level": 3,
+  "title_zh": "干杯",
+  "title_py": "Gānbēi",
+  "title_en": "Cheers in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["是","shì","to be"],["我","wǒ","I; me"],["朋友","péngyou","friend"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["，"],["晚上","wǎnshang","evening"],["我们","wǒmen","we; us"],["几个","jǐ ge","a few"],["人","rén","people"],["一起","yìqǐ","together"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat a meal"],["。"]],
+      "en": "Today is my friend's birthday, and in the evening a few of us went to a restaurant together."
+    },
+    {
+      "t": [["大家","dàjiā","everyone"],["坐下","zuòxià","to sit down"],["以后","yǐhòu","after"],["，"],["服务员","fúwùyuán","clerk; attendant"],["给","gěi","for"],["每个人","měi ge rén","everyone; each person"],["都","dōu","all"],["拿","ná","to bring; to take"],["来","lái","to come"],["一杯","yì bēi","one cup/glass of"],["啤酒","píjiǔ","beer"],["。"]],
+      "en": "After everyone sat down, the clerk brought a glass of beer for each person."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["朋友","péngyou","friend"],["拿","ná","to pick up; to hold"],["起","qǐ","up (verb complement)"],["杯子","bēizi","cup; glass"],["，"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["谢谢","xièxiè","thank you"],["大家","dàjiā","everyone"],["来","lái","to come"],["吃饭","chīfàn","to eat a meal"],["。"],["”"]],
+      "en": "My friend picked up their glass, smiling, and said: \"Thanks everyone for coming.\""
+    },
+    {
+      "t": [["大家","dàjiā","everyone"],["也","yě","also"],["拿","ná","to pick up; to hold"],["起","qǐ","up (verb complement)"],["杯子","bēizi","cup; glass"],["，"],["一起","yìqǐ","together"],["说","shuō","to say"],["："],["“"],["祝","zhù","to wish"],["你","nǐ","you"],["生日","shēngrì","birthday"],["快乐","kuàilè","happy"],["，"],["身体","shēntǐ","body; health"],["健康","jiànkāng","healthy"],["！"],["”"]],
+      "en": "Everyone else picked up their glasses too, and said together: \"Happy birthday, and good health!\""
+    },
+    {
+      "t": [["说","shuō","to say"],["完","wán","to finish"],["，"],["大家","dàjiā","everyone"],["一起","yìqǐ","together"],["说","shuō","to say"],["："],["“"],["干杯","gānbēi","cheers! (bottoms up)"],["！"],["”"],["然后","ránhòu","then; after that"],["都","dōu","all"],["喝","hē","to drink"],["了","le","(completed action)"],["一杯","yì bēi","one cup/glass of"],["啤酒","píjiǔ","beer"],["。"]],
+      "en": "After that, everyone said together, \"Cheers!\" and then everyone drank a glass of beer."
+    },
+    {
+      "t": [["吃","chī","to eat"],["了","le","(completed action)"],["一会儿","yíhuìr","a while"],["，"],["我","wǒ","my"],["朋友","péngyou","friend"],["又","yòu","again"],["拿","ná","to pick up"],["起","qǐ","up"],["杯子","bēizi","glass"],["，"],["大家","dàjiā","everyone"],["也","yě","also"],["一起","yìqǐ","together"],["说","shuō","to say"],["："],["“"],["干杯","gānbēi","cheers"],["！"],["”"]],
+      "en": "A while into the meal my friend raised his glass again, and everyone joined in: \"Ganbei!\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["吃","chī","to eat"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["喝","hē","to drink"],["了","le","(completed action)"],["很多","hěn duō","a lot of"],["啤酒","píjiǔ","beer"],["，"],["最后","zuìhòu","finally; in the end"],["一起","yìqǐ","together"],["走","zǒu","to walk"],["出","chū","out"],["饭馆","fànguǎn","restaurant"],["。"]],
+      "en": "We ate for a long time and drank a lot of beer, and finally walked out of the restaurant together."
+    }
+  ],
+  "vocab": [
+    ["干杯","gānbēi","cheers! (bottoms up)"],
+    ["啤酒","píjiǔ","beer"],
+    ["身体","shēntǐ","body; health"],
+    ["健康","jiànkāng","healthy"],
+    ["杯子","bēizi","cup; glass"],
+    ["坐下","zuòxià","to sit down"]
+  ],
+  "quiz": [
+    {"q":"What does 干杯 literally mean?","a":["Cheers! (finish your drink together)","Goodbye","Thank you very much"],"c":0},
+    {"q":"What blessing do the friends offer the birthday person?","a":["Good luck at work","Safe travels","Happy birthday and good health"],"c":2},
+    {"q":"How does the story end?","a":["They order more food","They finish drinking and walk out of the restaurant together","Everyone falls asleep at the table"],"c":1}
+  ],
+  "grammar": [
+    {"p":"干杯 (Cheers!)","e":"干杯 literally means 'dry the cup' — it's what people say together before drinking at a Chinese meal, often after a toast.","x":"大家一起说：“干杯！”— Everyone said together: \"Cheers!\""},
+    {"p":"祝你... (I wish you...)","e":"祝你 + a good wish is how Chinese speakers offer blessings, especially at birthdays and celebrations.","x":"祝你生日快乐，身体健康！— Happy birthday, and good health!"},
+    {"p":"拿起 + object (to pick something up)","e":"拿 means 'to hold/take', and adding 起 shows the object being lifted up — 拿起杯子 is 'to pick up the glass.'","x":"他拿起杯子，笑着说话。— He picked up his glass, smiling as he spoke."}
+  ]
+}

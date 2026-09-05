@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-when",
+  "level": 2,
+  "title_zh": "什么时候",
+  "title_py": "Shénme shíhou",
+  "title_en": "When in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I"],["给", "gěi", "to (for)"],["朋友", "péngyou", "friend"],["打电话", "dǎ diànhuà", "to make a phone call"],["，"],["问", "wèn", "to ask"],["："],["“"],["我们", "wǒmen", "we"],["什么", "shénme", "what"],["时候", "shíhou", "time; when"],["见面", "jiànmiàn", "to meet"],["？"],["”"]],
+      "en": "I call my friend and ask: \"When shall we meet?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["明天", "míngtiān", "tomorrow"],["怎么样", "zěnmeyàng", "how about"],["？"],["”"]],
+      "en": "She says: \"How about tomorrow?\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["好", "hǎo", "okay"],["，"],["明天", "míngtiān", "tomorrow"],["几点", "jǐ diǎn", "what time"],["？"],["”"]],
+      "en": "I say: \"Good, what time tomorrow?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["下午", "xiàwǔ", "afternoon"],["三点", "sān diǎn", "three o'clock"],["，"],["在", "zài", "at"],["公园", "gōngyuán", "park"],["。"],["”"]],
+      "en": "She says: \"Three o'clock in the afternoon, at the park.\""
+    },
+    {
+      "t": [["下午", "xiàwǔ", "afternoon"],["，"],["我", "wǒ", "I"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["公园", "gōngyuán", "park"],["，"],["可是", "kěshì", "but"],["没", "méi", "not yet"],["看见", "kànjiàn", "to see"],["她", "tā", "her"],["，"],["打电话", "dǎ diànhuà", "to make a phone call"],["问", "wèn", "to ask"],["："],["“"],["你", "nǐ", "you"],["在", "zài", "at"],["哪儿", "nǎr", "where"],["？"],["什么", "shénme", "what"],["时候", "shíhou", "time; when"],["到", "dào", "to arrive"],["？"],["”"]],
+      "en": "In the afternoon, I arrive at the park, but I don't see her, so I call and ask: \"Where are you? When will you get here?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["对不起", "duìbuqǐ", "sorry"],["，"],["我", "wǒ", "I"],["马上", "mǎshàng", "right away"],["到", "dào", "to arrive"],["，"],["你", "nǐ", "you"],["等一下", "děng yíxià", "wait a moment"],["。"],["”"]],
+      "en": "She says: \"Sorry, I'll be there right away, wait a moment.\""
+    },
+    {
+      "t": [["后来", "hòulái", "afterward"],["，"],["她", "tā", "she"],["跑", "pǎo", "to run"],["过", "guò", "to pass"],["来", "lái", "to come"],["，"],["说", "shuō", "to say"],["："],["“"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["，"],["我们", "wǒmen", "we"],["走", "zǒu", "to walk"],["吧", "ba", "(suggestion particle)"],["！"],["”"]],
+      "en": "Afterward, she comes running over and says: \"I'm here, I'm here, let's go!\""
+    }
+  ],
+  "vocab": [
+    ["时候", "shíhou", "time; when"],
+    ["几点", "jǐ diǎn", "what time (the hour)"],
+    ["见面", "jiànmiàn", "to meet"],
+    ["怎么样", "zěnmeyàng", "how about"],
+    ["马上", "mǎshàng", "right away"],
+    ["等一下", "děng yíxià", "wait a moment"]
+  ],
+  "quiz": [
+    {"q": "What does 什么时候 ask about, compared to 几点?", "a": ["The day or general time", "The exact clock hour", "The location"], "c": 0},
+    {"q": "What time do they agree to meet?", "a": ["Nine in the morning", "Three in the afternoon", "Noon"], "c": 1},
+    {"q": "Where do they agree to meet?", "a": ["At the library", "At the school", "At the park"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "什么时候？（asking about a day or general time）", "e": "什么时候 asks broadly about when something happens — a day, a period, or 'someday'.", "x": "我们什么时候见面？— When shall we meet?"},
+    {"p": "几点？（asking the clock time）", "e": "几点 asks specifically for the hour, once the day is already settled.", "x": "好，明天几点？— Good, what time tomorrow?"},
+    {"p": "马上（right away）", "e": "马上 right before a verb says the action will happen very soon.", "x": "我马上到，你等一下。— I'll be there right away, wait a moment."}
+  ]
+}

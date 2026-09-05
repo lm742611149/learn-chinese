@@ -88,11 +88,22 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 别担心 → Don't Worry in Chinese ⭐️ / 好久不见 → Long Time No See in Chinese ⭐️(这句是中文直译进
 英文的,学习者爱搜) / 在药店 → At the Pharmacy in Chinese / 点外卖 → Ordering Delivery in Chinese
 
-### 还没写的候选(都做过撞题+词池检查以外的初筛,写之前再查一遍)
-加油 → Come On in Chinese(「加油」HSK4) / 干杯 → Cheers in Chinese /
-我饿了 → I'm Hungry in Chinese(「饿」HSK3) / 我饱了 → I'm Full in Chinese(「饱」HSK3) /
-请进 → Come In in Chinese / 我同意 → I Agree in Chinese(「同意」HSK3) /
-为什么 → Why in Chinese / 什么时候 → When in Chinese
+第三批(2026-09-06 开写,旅游/日常必备,搜索量最高的一层):
+洗手间在哪儿 → Where Is the Bathroom in Chinese ⭐️⭐️(外国人在华最常用的一句) /
+你会说英语吗 → Do You Speak English in Chinese ⭐️⭐️ / 晚安 → Good Night in Chinese ⭐️⭐️ /
+加油 → Come On in Chinese ⭐️(字面"加燃料",学习者爱查) / 我饿了 → I'm Hungry in Chinese /
+干杯 → Cheers in Chinese / 我要这个 → I Want This in Chinese / 真的吗 → Really in Chinese /
+请进 → Come In in Chinese / 什么时候 → When in Chinese / 当然 → Of Course in Chinese /
+我同意 → I Agree in Chinese
+
+**分级注意**: 「洗手间」不在 HSK2 词表(HSK3 才有),这篇要放 HSK3。
+**已否决**: 为什么 → Why in Chinese —— 与已有「为什么学中文」标题字面撞,且搜索意图模糊
+
+### 还没写的候选
+我饱了 → I'm Full in Chinese(「饱」HSK3) / 恭喜 → Congratulations in Chinese(「恭喜」HSK4) /
+我回来了 → I'm Home in Chinese / 多长时间 → How Long in Chinese /
+不要辣 → No Spicy in Chinese(「辣」HSK4) / 打包 → To Go in Chinese /
+也许 → Maybe in Chinese / 慢走 → Take Care in Chinese
 
 **又砍掉两条(词表不够,同「颜色」)**:
 - **身体部位 → Body Parts in Chinese**: HSK2 只有「眼睛」一个部位词,头/手/脚全不在。等 HSK4

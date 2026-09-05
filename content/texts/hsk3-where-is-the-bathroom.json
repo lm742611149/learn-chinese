@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-where-is-the-bathroom",
+  "level": 3,
+  "title_zh": "洗手间在哪儿",
+  "title_py": "Xǐshǒujiān zài nǎr",
+  "title_en": "Where Is the Bathroom in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at"],["一家","yì jiā","one (measure word for shops/businesses)"],["商店","shāngdiàn","store; shop"],["买","mǎi","to buy"],["东西","dōngxi","things; stuff"],["，"],["买","mǎi","to buy"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["突然","tūrán","suddenly"],["想","xiǎng","to want to"],["上","shàng","to go to (a place)"],["洗手间","xǐshǒujiān","restroom; bathroom"],["。"]],
+      "en": "I was shopping at a store for a long time, and suddenly I needed to use the restroom."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["一个","yí ge","one"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["请问","qǐngwèn","excuse me; may I ask"],["，"],["洗手间","xǐshǒujiān","restroom; bathroom"],["在","zài","at"],["哪儿","nǎr","where"],["？"],["”"]],
+      "en": "I asked a clerk: \"Excuse me, where is the restroom?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["一直","yìzhí","straight; continuously"],["走","zǒu","to walk"],["，"],["然后","ránhòu","then; after that"],["往","wǎng","towards"],["左边","zuǒbiān","left side"],["走","zǒu","to walk"],["，"],["就","jiù","then"],["到","dào","to arrive"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "The clerk said: \"Walk straight ahead, then turn left, and you'll be there.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["了","le","(completed action)"],["谢谢","xièxiè","thank you"],["，"],["就","jiù","then"],["一直","yìzhí","straight; continuously"],["往","wǎng","towards"],["前","qián","front; ahead"],["走","zǒu","to walk"],["。"]],
+      "en": "I said thank you, and walked straight ahead."
+    },
+    {
+      "t": [["走","zǒu","to walk"],["了","le","(completed action)"],["一会儿","yíhuìr","a little while"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一个","yí ge","one"],["门","mén","door"],["，"],["门","mén","door"],["上","shàng","on"],["写","xiě","to write"],["着","zhe","(ongoing state)"],["“"],["洗手间","xǐshǒujiān","restroom; bathroom"],["”"],["三","sān","three"],["个","ge","(measure word)"],["字","zì","(written) character"],["。"]],
+      "en": "After walking for a while, I saw a door with the three characters for \"restroom\" written on it."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["进","jìn","to enter"],["了","le","(completed action)"],["门","mén","door"],["，"],["终于","zhōngyú","finally"],["找到","zhǎodào","to find"],["了","le","(completed action)"],["洗手间","xǐshǒujiān","restroom; bathroom"],["。"]],
+      "en": "I went through the door and finally found the restroom."
+    },
+    {
+      "t": [["出来","chūlái","to come out"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["又","yòu","again"],["看见","kànjiàn","to see"],["那个","nàge","that"],["服务员","fúwùyuán","clerk; attendant"],["，"],["她","tā","she"],["笑着","xiàozhe","smiling"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["找到","zhǎodào","to find"],["了","le","(completed action)"],["吗","ma","(question particle)"],["？"],["”"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["找到","zhǎodào","to find"],["了","le","(completed action)"],["，"],["谢谢","xièxiè","thank you"],["你","nǐ","you"],["。"],["”"]],
+      "en": "After I came out, I saw the clerk again — she smiled and asked me: \"Did you find it?\" I said: \"I found it, thank you.\""
+    }
+  ],
+  "vocab": [
+    ["洗手间","xǐshǒujiān","restroom; bathroom"],
+    ["请问","qǐngwèn","excuse me; may I ask"],
+    ["服务员","fúwùyuán","clerk; attendant"],
+    ["一直","yìzhí","straight; continuously"],
+    ["左边","zuǒbiān","left side"],
+    ["找到","zhǎodào","to find"]
+  ],
+  "quiz": [
+    {"q":"What phrase does the narrator use to ask where the bathroom is?","a":["洗手间在哪儿？","多少钱？","你叫什么名字？"],"c":0},
+    {"q":"According to the clerk's directions, which way should the narrator turn after walking straight?","a":["Turn right","Keep going straight only","Turn left"],"c":2},
+    {"q":"How did the narrator know they had found the right door?","a":["A map showed it","The word 洗手间 was written on the door","A long line was waiting there"],"c":1}
+  ],
+  "grammar": [
+    {"p":"洗手间在哪儿？(Where is the bathroom?)","e":"洗手间在哪儿 is the standard way to ask where the restroom is — 在哪儿 means 'is where' and follows the place you're asking about.","x":"请问，洗手间在哪儿？— Excuse me, where is the bathroom?"},
+    {"p":"一直走 (go straight)","e":"一直走 tells someone to keep walking straight in the same direction without turning.","x":"你一直走，就到了。— Walk straight ahead, and you'll be there."},
+    {"p":"往 + direction + 走 (walk towards...)","e":"往 marks the direction of movement — 往 + left/right/front + 走 means to walk in that direction.","x":"往左边走。— Walk to the left / Turn left."}
+  ]
+}

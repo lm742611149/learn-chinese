@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-good-night",
+  "level": 2,
+  "title_zh": "晚安",
+  "title_py": "Wǎn'ān",
+  "title_en": "Good Night in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["我们", "wǒmen", "we"],["全家", "quánjiā", "the whole family"],["看", "kàn", "to watch"],["电视", "diànshì", "television"],["，"],["看", "kàn", "to watch"],["了", "le", "(completed action)"],["一会儿", "yíhuìr", "a little while"],["。"]],
+      "en": "In the evening, our whole family watches TV for a little while."
+    },
+    {
+      "t": [["妈妈", "māma", "mom"],["说", "shuō", "to say"],["："],["“"],["时间", "shíjiān", "time"],["不", "bù", "not"],["早", "zǎo", "early"],["了", "le", "(change of state)"],["，"],["我们", "wǒmen", "we"],["去", "qù", "to go"],["睡觉", "shuìjiào", "to sleep"],["吧", "ba", "(suggestion particle)"],["。"],["”"]],
+      "en": "Mom says: \"It's getting late, let's go to sleep.\""
+    },
+    {
+      "t": [["弟弟", "dìdi", "younger brother"],["很", "hěn", "very"],["累", "lèi", "tired"],["，"],["先", "xiān", "first"],["回", "huí", "to return"],["房间", "fángjiān", "room"],["了", "le", "(completed action)"],["。"]],
+      "en": "Younger brother is tired, and goes back to his room first."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["对", "duì", "to; toward"],["他", "tā", "him"],["说", "shuō", "to say"],["："],["“"],["晚安", "wǎn'ān", "good night"],["，"],["弟弟", "dìdi", "younger brother"],["！"],["”"]],
+      "en": "I say to him: \"Good night, little brother!\""
+    },
+    {
+      "t": [["姐姐", "jiějie", "older sister"],["也", "yě", "also"],["要", "yào", "to be going to"],["睡觉", "shuìjiào", "to sleep"],["了", "le", "(change of state)"],["，"],["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["晚安", "wǎn'ān", "good night"],["，"],["明天", "míngtiān", "tomorrow"],["见", "jiàn", "to see; to meet"],["！"],["”"]],
+      "en": "Older sister is going to sleep too, and she says: \"Good night, see you tomorrow!\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["也", "yě", "also"],["很", "hěn", "very"],["累", "lèi", "tired"],["了", "le", "(change of state)"],["，"],["回", "huí", "to return"],["自己", "zìjǐ", "oneself"],["的", "de", "(possessive particle)"],["房间", "fángjiān", "room"],["，"],["说", "shuō", "to say"],["："],["“"],["晚安", "wǎn'ān", "good night"],["！"],["”"]],
+      "en": "I'm tired too, so I go back to my own room and say: \"Good night!\""
+    }
+  ],
+  "vocab": [
+    ["晚安", "wǎn'ān", "good night"],
+    ["先", "xiān", "first"],
+    ["回", "huí", "to return"],
+    ["房间", "fángjiān", "room"],
+    ["自己", "zìjǐ", "oneself"],
+    ["全家", "quánjiā", "the whole family"]
+  ],
+  "quiz": [
+    {"q": "What does 晚安 mean?", "a": ["Good night", "Good morning", "See you later"], "c": 0},
+    {"q": "Why does younger brother go to his room first?", "a": ["He is hungry", "He is tired", "He wants to watch TV"], "c": 1},
+    {"q": "What does the family do together before saying good night?", "a": ["They read books", "They eat dinner", "They watch TV"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "晚安（good night）", "e": "晚安 is said before going to sleep or leaving someone for the night.", "x": "晚安，明天见！— Good night, see you tomorrow!"},
+    {"p": "先 + verb（to do something first）", "e": "先 before a verb shows that action happens before anything else.", "x": "弟弟先回房间了。— Younger brother went back to his room first."},
+    {"p": "回 + place（to return to a place）", "e": "回 followed by a place means going back there.", "x": "我回自己的房间。— I go back to my own room."}
+  ]
+}

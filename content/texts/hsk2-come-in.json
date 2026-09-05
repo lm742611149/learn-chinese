@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-come-in",
+  "level": 2,
+  "title_zh": "请进",
+  "title_py": "Qǐng jìn",
+  "title_en": "Come In in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我","wǒ","I"],["在","zài","at"],["家","jiā","home"],["写","xiě","to write"],["作业","zuòyè","homework"],["，"],["门口","ménkǒu","doorway"],["有","yǒu","there is"],["人","rén","someone"],["叫","jiào","to call"],["我","wǒ","me"],["。"]],
+      "en": "One evening I was at home doing homework when someone called out at my door."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["："],["“"],["谁","shéi","who"],["？"],["”"]],
+      "en": "I ask: \"Who is it?\""
+    },
+    {
+      "t": [["外面","wàimiàn","outside"],["说","shuō","to say"],["："],["“"],["是","shì","to be"],["我","wǒ","me"],["，"],["你","nǐ","your"],["的","de","(possessive)"],["同学","tóngxué","classmate"],["。"],["”"]],
+      "en": "From outside, she says: \"It's me, your classmate.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["笑","xiào","to smile"],["着","zhe","(ongoing state)"],["走","zǒu","to walk"],["到","dào","to arrive at"],["门口","ménkǒu","doorway"],["，"],["说","shuō","to say"],["："],["“"],["请","qǐng","please"],["进","jìn","to go in"],["，"],["请","qǐng","please"],["坐","zuò","to sit"],["！"],["”"]],
+      "en": "I smile, walk to the door, and say: \"Please come in, please sit!\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["进","jìn","to go in"],["来","lái","to come"],["，"],["看见","kànjiàn","to see"],["我","wǒ","my"],["的","de","(possessive)"],["桌子","zhuōzi","table; desk"],["上","shàng","on"],["有","yǒu","to have; there is"],["很多","hěn duō","many; a lot of"],["书","shū","book"],["，"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["在","zài","in the middle of"],["忙","máng","busy"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "My classmate comes in, sees there are lots of books on my table, and says: \"Are you busy?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["不太","bú tài","not too"],["忙","máng","busy"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["做","zuò","to do"],["作业","zuòyè","homework"],["吧","ba","(suggestion particle)"],["。"],["”"]],
+      "en": "I say: \"Not too busy, let's do homework together.\""
+    },
+    {
+      "t": [["她","tā","she"],["坐下","zuòxià","to sit down"],["，"],["说","shuō","to say"],["："],["“"],["好","hǎo","okay"],["，"],["我们","wǒmen","we"],["开始","kāishǐ","to start"],["吧","ba","(suggestion particle)"],["！"],["”"]],
+      "en": "She sits down and says: \"Okay, let's get started!\""
+    }
+  ],
+  "vocab": [
+    ["请","qǐng","please"],
+    ["进","jìn","to go in; to enter"],
+    ["门口","ménkǒu","doorway"],
+    ["谁","shéi","who"],
+    ["同学","tóngxué","classmate"],
+    ["坐下","zuòxià","to sit down"]
+  ],
+  "quiz": [
+    {"q":"What does 请进 mean?","a":["Please come in","Please sit down","Please wait here"],"c":0},
+    {"q":"Who is at the door?","a":["The narrator's teacher","The narrator's mom","The narrator's classmate"],"c":2},
+    {"q":"What do they decide to do together?","a":["Watch a movie","Do homework","Eat dinner"],"c":1}
+  ],
+  "grammar": [
+    {"p":"请 + verb（a polite invitation）","e":"请 before an action politely invites someone to do it, like English 'please'.","x":"请进，请坐！— Please come in, please sit!"},
+    {"p":"进 vs 进来（to enter / to come in）","e":"进 alone just means 'to enter'; adding 来 (进来) frames the movement as coming toward the speaker.","x":"同学进来，看见我的桌子上有很多书。— My classmate comes in and sees lots of books on my table."},
+    {"p":"在 + verb（doing something right now）","e":"在 right before a verb shows the action is happening at this moment.","x":"你在忙吗？— Are you busy right now?"}
+  ]
+}

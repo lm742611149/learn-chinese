@@ -87,7 +87,27 @@ def main():
             issues += 1; print("  ✗ %-30s 单行 %d / 共 %d 句" % (s, n, len(docs[s]["sentences"])))
     print("  (无输出即全部合规)")
 
-    print("\n── 6. 同一句里副词重复")
+    print("\n── 6. 对话密度(连着全是「X说:…」会读成练习册)")
+    for slug, d in docs.items():
+        sents = ["".join(t[0] for t in x["t"]) for x in d["sentences"]]
+        # 只算"纯对话句":引号前只有「X说:」,没有动作或叙述。
+        # 「服务员看了看,说:…」「我问朋友,朋友说:…」带了动作,不算。
+        def pure(x):
+            head = re.split(r"[“”]", x)[0]
+            if not re.search(r"[说问答]：\s*$", head):
+                return False
+            return len(re.findall(r"[一-鿿]", head)) <= 4
+        talky = [pure(x) for x in sents]
+        run = mx = 0
+        for x in talky:
+            run = run + 1 if x else 0
+            mx = max(mx, run)
+        if mx >= 4:
+            print("  ? %-30s 连续 %d 句是光秃秃的「X说:…」,考虑加个动作或叙述"
+                  % (slug, mx))
+    print("  (只提示不计错 —— 对话密集不一定是毛病,自己看一眼)")
+
+    print("\n── 7. 同一句里副词重复")
     for s, d in docs.items():
         for i, sent in enumerate(d["sentences"], 1):
             ws = [t[0] for t in sent["t"] if len(t) == 3]

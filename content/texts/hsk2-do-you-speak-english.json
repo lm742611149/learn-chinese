@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-do-you-speak-english",
+  "level": 2,
+  "title_zh": "你会说英语吗",
+  "title_py": "Nǐ huì shuō Yīngyǔ ma",
+  "title_en": "Do You Speak English in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I"],["在", "zài", "at; in"],["中国", "Zhōngguó", "China"],["旅游", "lǚyóu", "to travel"],["，"],["可是", "kěshì", "but"],["不", "bù", "not"],["知道", "zhīdào", "to know"],["去", "qù", "to go"],["火车站", "huǒchēzhàn", "train station"],["怎么", "zěnme", "how"],["走", "zǒu", "to walk; to go"],["。"]],
+      "en": "I'm traveling in China, but I don't know how to get to the train station."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["问", "wèn", "to ask"],["一个", "yí gè", "one; a"],["人", "rén", "person"],["："],["“"],["你好", "nǐ hǎo", "hello"],["，"],["你", "nǐ", "you"],["会", "huì", "can; to know how to"],["说", "shuō", "to speak"],["英语", "Yīngyǔ", "English (language)"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "I ask someone: \"Hello, do you speak English?\""
+    },
+    {
+      "t": [["那个", "nàge", "that"],["人", "rén", "person"],["说", "shuō", "to say"],["："],["“"],["不", "bú", "not"],["会", "huì", "can; to know how to"],["，"],["我", "wǒ", "I"],["只", "zhǐ", "only"],["会", "huì", "can; to know how to"],["说", "shuō", "to speak"],["中文", "Zhōngwén", "Chinese (language)"],["。"],["”"]],
+      "en": "That person says: \"No, I can only speak Chinese.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["没关系", "méi guānxi", "it's okay"],["，"],["我", "wǒ", "I"],["会", "huì", "can; to know how to"],["说", "shuō", "to speak"],["一点儿", "yìdiǎnr", "a little"],["中文", "Zhōngwén", "Chinese (language)"],["。"],["”"]],
+      "en": "I say: \"That's OK, I can speak a little Chinese.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["问", "wèn", "to ask"],["他", "tā", "he; him"],["火车站", "huǒchēzhàn", "train station"],["怎么", "zěnme", "how"],["走", "zǒu", "to walk; to go"],["，"],["他", "tā", "he"],["告诉", "gàosu", "to tell"],["我", "wǒ", "me"],["了", "le", "(completed action)"],["。"]],
+      "en": "I ask him how to get to the train station, and he tells me."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["谢谢", "xièxie", "thank you"],["你", "nǐ", "you"],["！"],["”"],["他", "tā", "he"],["笑", "xiào", "to smile"],["了", "le", "(completed action)"],["，"],["说", "shuō", "to say"],["："],["“"],["不客气", "bú kèqi", "you're welcome"],["！"],["”"]],
+      "en": "I say: \"Thank you!\" He smiles and says: \"You're welcome!\""
+    }
+  ],
+  "vocab": [
+    ["会", "huì", "can; to know how to"],
+    ["英语", "Yīngyǔ", "English (language)"],
+    ["只", "zhǐ", "only"],
+    ["中文", "Zhōngwén", "Chinese (language)"],
+    ["一点儿", "yìdiǎnr", "a little"],
+    ["告诉", "gàosu", "to tell"]
+  ],
+  "quiz": [
+    {"q": "What does 你会说英语吗？mean?", "a": ["Do you speak English?", "Where is the train station?", "What's your name?"], "c": 0},
+    {"q": "What does the first person say when asked about English?", "a": ["Yes, I speak English well", "No, I can only speak Chinese", "I don't have time"], "c": 1},
+    {"q": "How does the narrator finally get directions to the train station?", "a": ["An English speaker suddenly appears", "He uses a translation app", "He asks in Chinese and the person tells him"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "会 + verb（to know how to do something）", "e": "会 before a verb means having the ability or skill to do it.", "x": "你会说英语吗？— Do you speak English?"},
+    {"p": "一点儿（a little）", "e": "一点儿 after a verb shows a small amount or limited ability.", "x": "我会说一点儿中文。— I can speak a little Chinese."},
+    {"p": "只（only）", "e": "只 right before a verb narrows things down to just one option.", "x": "我只会说中文。— I can only speak Chinese."}
+  ]
+}

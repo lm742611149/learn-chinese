@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-really",
+  "level": 2,
+  "title_zh": "真的吗",
+  "title_py": "Zhēnde ma",
+  "title_en": "Really in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["朋友", "péngyou", "friend"],["打电话", "dǎ diànhuà", "to make a phone call"],["给", "gěi", "to (for)"],["我", "wǒ", "me"],["，"],["说", "shuō", "to say"],["要", "yào", "to be going to"],["送", "sòng", "to give (as a gift)"],["我", "wǒ", "me"],["一个", "yí ge", "one (+ measure word)"],["新", "xīn", "new"],["手机", "shǒujī", "cell phone"],["。"]],
+      "en": "My friend calls me and says he wants to give me a new phone."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["真的", "zhēnde", "really"],["吗", "ma", "(question particle)"],["？"],["你", "nǐ", "you"],["怎么", "zěnme", "how"],["有", "yǒu", "to have"],["两", "liǎng", "two"],["个", "gè", "(measure word)"],["手机", "shǒujī", "cell phone"],["？"],["”"]],
+      "en": "I say: \"Really? How come you have two phones?\""
+    },
+    {
+      "t": [["他", "tā", "he"],["说", "shuō", "to say"],["："],["“"],["这", "zhè", "this"],["是", "shì", "to be"],["我", "wǒ", "my"],["姐姐", "jiějie", "older sister"],["的", "de", "(possessive)"],["，"],["她", "tā", "she"],["买", "mǎi", "to buy"],["了", "le", "(completed action)"],["新", "xīn", "new"],["的", "de", "(the one that)"],["，"],["不要", "bú yào", "don't want"],["这个", "zhège", "this"],["了", "le", "(change of state)"],["。"],["”"]],
+      "en": "He says: \"This one is my sister's — she bought a new one and doesn't want this one anymore.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["还", "hái", "still"],["不", "bù", "not"],["懂", "dǒng", "to understand"],["，"],["问", "wèn", "to ask"],["："],["“"],["真的", "zhēnde", "really"],["可以", "kěyǐ", "can; may"],["给", "gěi", "to give"],["我", "wǒ", "me"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "I still don't quite get it, so I ask: \"Can you really give it to me?\""
+    },
+    {
+      "t": [["他", "tā", "he"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing state)"],["说", "shuō", "to say"],["："],["“"],["真的", "zhēnde", "really"],["，"],["明天", "míngtiān", "tomorrow"],["我", "wǒ", "I"],["就", "jiù", "then; right away"],["带", "dài", "to bring"],["来", "lái", "to come"],["给", "gěi", "to give"],["你", "nǐ", "you"],["。"],["”"]],
+      "en": "He smiles and says: \"Really, I'll bring it to you tomorrow.\""
+    },
+    {
+      "t": [["后来", "hòulái", "afterward"],["他", "tā", "he"],["真的", "zhēnde", "really"],["带", "dài", "to bring"],["来", "lái", "to come"],["了", "le", "(completed action)"],["手机", "shǒujī", "cell phone"],["，"],["给", "gěi", "to give"],["了", "le", "(completed action)"],["我", "wǒ", "me"],["，"],["我", "wǒ", "I"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing state)"],["说", "shuō", "to say"],["："],["“"],["谢谢", "xièxie", "to thank"],["你", "nǐ", "you"],["！"],["”"]],
+      "en": "Afterward, he really did bring the phone and gave it to me — I smile and say: \"Thank you!\""
+    }
+  ],
+  "vocab": [
+    ["真的", "zhēnde", "really; for real"],
+    ["送", "sòng", "to give (as a gift)"],
+    ["给", "gěi", "to give"],
+    ["姐姐", "jiějie", "older sister"],
+    ["懂", "dǒng", "to understand"],
+    ["带", "dài", "to bring"]
+  ],
+  "quiz": [
+    {"q": "What does 真的吗 express here?", "a": ["Asking to confirm surprising news", "Asking about the price", "Saying goodbye"], "c": 0},
+    {"q": "Why does the friend have two phones?", "a": ["He bought two by mistake", "His sister gave him her old one", "He found one on the street"], "c": 1},
+    {"q": "When does the friend say he will bring the phone?", "a": ["Tonight", "Next week", "Tomorrow"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "真的吗？（confirming surprising news）", "e": "Ask 真的吗 when you hear something hard to believe, to check whether it's really true.", "x": "真的吗？你怎么有两个手机？— Really? How come you have two phones?"},
+    {"p": "真的（yes, really）", "e": "真的 alone answers 真的吗, confirming that something really is the case.", "x": "他说：真的，明天我就带来给你。— He says: Really, I'll bring it to you tomorrow."},
+    {"p": "送 + person + thing（to give someone something）", "e": "送 puts the receiver right after the verb, then the gift — no 给 needed in between.", "x": "朋友说要送我一个新手机。— My friend says he wants to give me a new phone."}
+  ]
+}
