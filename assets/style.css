@@ -15,6 +15,8 @@
   --lvl4: #cf7622; --lvl5: #c73e2a; --lvl6: #6d4434;
   --sc: var(--gold);
   --serif: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --sans: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "PingFang SC", "Hiragino Sans GB", sans-serif;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 /* display:grid/flex 等会盖掉 UA 的 [hidden]{display:none},这里强制找回 */
@@ -260,6 +262,8 @@ a { color: var(--red); text-decoration: none; }
   text-shadow: 0 2px 6px rgba(0,0,0,.25); }
 .card:hover .tile { transform: rotate(0deg) scale(1.05); }
 .card .card-main { flex: 1; min-width: 0; }
+.card .card-title { margin: 0; font-size: 1rem; font-weight: 400; }
+.card .card-title > span { display: block; }
 .card .zh-title { font-family: var(--serif); font-size: 1.42rem; font-weight: 700;
   line-height: 1.3; }
 .card .py-title { color: var(--muted); font-size: .85rem; margin-top: 0; }
@@ -287,6 +291,12 @@ a { color: var(--red); text-decoration: none; }
   line-height: 1; }
 .reader-banner h1 { font-family: var(--serif);
   font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 900; margin-top: 10px; }
+/* 拼音 + 英文标题都收进 h1 —— 视觉顺序不变,但 h1 对英文搜索不再是哑的 */
+.reader-banner h1 .h1-py { display: block; font-family: var(--sans);
+  color: var(--gold); font-size: 1rem; font-weight: 500; margin-top: 2px; }
+.reader-banner h1 .h1-en { display: block; font-family: var(--sans);
+  font-size: 1.05rem; font-weight: 600; letter-spacing: .01em;
+  color: rgba(255,255,255,.88); margin-top: 7px; }
 .b-py { color: var(--gold); font-size: 1rem; margin-top: 2px; }
 .b-en { color: rgba(255,255,255,.72); font-size: .9rem; margin-top: 7px; }
 
@@ -295,6 +305,23 @@ a { color: var(--red); text-decoration: none; }
   box-shadow: 0 10px 30px rgba(70,45,25,.07); }
 .caption { font-size: .8rem; color: var(--muted); padding: 12px 4px 6px;
   border-top: 1px solid var(--line); margin-top: 4px; }
+/* ---------- 课文页底部推荐 ---------- */
+.more-readings { margin: 34px 0 10px; }
+.more-readings > h2 { font-family: var(--serif); font-size: 1.25rem;
+  margin: 0 0 14px; }
+.mr-grid { display: grid; gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.mr-item { display: block; padding: 12px 14px; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; text-decoration: none;
+  transition: border-color .15s, transform .15s; }
+.mr-item:hover { border-color: var(--sc, var(--red)); transform: translateY(-2px); }
+.mr-zh { display: block; font-family: var(--serif); font-size: 1.08rem;
+  font-weight: 700; color: var(--ink); line-height: 1.35; }
+.mr-en { display: block; font-size: .85rem; color: var(--muted); margin-top: 3px; }
+.mr-all { display: inline-block; margin-top: 14px; font-size: .9rem;
+  font-weight: 650; color: var(--muted); text-decoration: none; }
+.mr-all:hover { color: var(--sc, var(--red)); }
+
 .reader-foot { display: flex; justify-content: space-between;
   align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 46px; }
 .reader-foot .tbtn { text-decoration: none; display: inline-block; }

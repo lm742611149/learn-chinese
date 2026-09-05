@@ -158,22 +158,57 @@ LEVEL_SEO = {
 }
 
 
-def card_html(t, lesson_no=None):
+def pick_related(t, pool, n=6):
+    """同级别里共享生词最多的几篇。内链要语义相关才有价值 —— 随机凑数的
+    'you might also like' 对读者和爬虫都是噪音。"""
+    mine = {w[0] for w in t["vocab"]}
+    scored = []
+    for o in pool:
+        if o["slug"] == t["slug"]:
+            continue
+        scored.append((-len(mine & {w[0] for w in o["vocab"]}), o["slug"], o))
+    scored.sort(key=lambda x: (x[0], x[1]))
+    return [o for _, _, o in scored[:n]]
+
+
+def related_html(t, related):
+    """课文页底部的同级别推荐。315 篇课文此前几乎不互相传递权重 —— 每页
+    只有一条回级别页的链接。"""
+    if not related:
+        return ""
+    items = "".join(
+        f'<a class="mr-item" href="{o["slug"]}.html">'
+        f'<span class="mr-zh">{esc(o["title_zh"])}</span>'
+        f'<span class="mr-en">{esc(o["title_en"])}</span></a>'
+        for o in related)
+    return f"""
+    <section class="more-readings">
+      <h2>More HSK {t['level']} reading practice</h2>
+      <div class="mr-grid">{items}</div>
+      <a class="mr-all" href="../hsk{t['level']}.html">All HSK {t['level']} readings →</a>
+    </section>"""
+
+
+def card_html(t, lesson_no=None, heading=True):
     """Reading card. lesson_no -> course-style 'Lesson N' chip instead of the
-    (redundant on a level page) HSK badge."""
+    (redundant on a level page) HSK badge. heading=False 用于首页隐藏的搜索
+    结果池 —— 那 315 张卡是搜索功能的载体,不是页面主体,不该占 h2。"""
     n_words = sum(len(s["t"]) for s in t["sentences"])
     blob = " ".join([t["title_zh"], t["title_py"], t["title_en"]] +
                     [w[0] + " " + w[1] + " " + w[2] for w in t["vocab"]]).lower()
     chip = (f'<span class="badge l{t["level"]}">Lesson {lesson_no}</span>'
             if lesson_no else
             f'<span class="badge l{t["level"]}">HSK {t["level"]}</span>')
+    ht = "h2" if heading else "div"
     return f"""
     <a class="card" data-l="{t['level']}" data-search="{esc(blob)}" href="texts/{t['slug']}.html">
       <div class="tile">{esc(t['title_zh'][0])}</div>
       <div class="card-main">
-        <div class="zh-title">{esc(t['title_zh'])}</div>
-        <div class="py-title">{esc(t['title_py'])}</div>
-        <div class="en-title">{esc(t['title_en'])}</div>
+        <{ht} class="card-title">
+          <span class="zh-title">{esc(t['title_zh'])}</span>
+          <span class="py-title">{esc(t['title_py'])}</span>
+          <span class="en-title">{esc(t['title_en'])}</span>
+        </{ht}>
         <div class="meta">{chip}
           <span>{n_words} words</span><span class="go">读 →</span></div>
       </div>
@@ -348,7 +383,7 @@ def reader_desc(t, limit=158):
     return body + tail
 
 
-def build_reader(t, next_t=None):
+def build_reader(t, next_t=None, related=None):
     n_words = sum(len(s["t"]) for s in t["sentences"])
     minutes = max(1, round(n_words / 60))
     body_sents = "\n".join(sentence_html(s, t["slug"], i) for i, s in enumerate(t["sentences"]))
@@ -393,13 +428,13 @@ def build_reader(t, next_t=None):
         next_foot = (f'<a class="tbtn" href="{nxt["url"]}">Next: {esc(nxt["zh"])} →</a>')
     else:
         next_js, next_foot = "", ""
+    related_sec = related_html(t, related or [])
     body = f"""
   <article class="reading" style="--sc:{LEVEL_COLORS[t['level']]}">
     <div class="reader-banner" data-char="{esc(t['title_zh'][0])}">
       <span class="feat-tag">HSK {t['level']} · {LEVEL_WORDS[t['level']]}</span>
-      <h1>{esc(t['title_zh'])}</h1>
-      <div class="b-py">{esc(t['title_py'])}</div>
-      <div class="b-en">{esc(t['title_en'])} · {n_words} words · ~{minutes} min</div>
+      <h1>{esc(t['title_zh'])}<span class="h1-py">{esc(t['title_py'])}</span><span class="h1-en">{esc(t['title_en'])}</span></h1>
+      <div class="b-en">HSK {t['level']} reading practice · {n_words} words · ~{minutes} min</div>
     </div>
     <div class="toolbar">
       <button class="tb-play" id="t-play">
@@ -440,6 +475,7 @@ def build_reader(t, next_t=None):
         <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
       </div>
     </section>
+{related_sec}
     <div class="reader-foot">
       <a class="tbtn" href="../hsk{t['level']}.html">← HSK {t['level']} readings</a>
       {next_foot}
@@ -515,7 +551,7 @@ def build_index(texts):
       <div class="lv-meta"><span class="lv-done">{n} readings</span><span class="lv-go">→</span></div>
       <div class="lv-bar"><i></i></div>
     </a>""")
-    all_cards = "".join(card_html(t) for t in
+    all_cards = "".join(card_html(t, heading=False) for t in
                         sorted(texts, key=lambda x: (x["level"], x["slug"])))
     levels_map = {t["slug"]: t["level"] for t in texts}
     recent = sorted(texts, key=lambda x: (-x.get("_mtime", 0), x["slug"]))[:6]
@@ -711,7 +747,7 @@ def build_level(texts, lvl):
   <article>
     <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
       <span class="feat-tag">HSK {lvl} · {LEVEL_WORDS[lvl]}</span>
-      <h1>HSK {lvl} Readings <span class="lv-h-zh">{LEVEL_ZH[lvl]}</span></h1>
+      <h1>HSK {lvl} Reading Practice <span class="lv-h-zh">{LEVEL_ZH[lvl]}</span></h1>
       <div class="b-en">{len(mine)} graded readings — read them in order, like a course.
         ✓ marks what you've finished.</div>
     </div>
@@ -1249,8 +1285,10 @@ def main():
                 nxt_arr = by_level.get(lvl + 1)
                 next_map[t["slug"]] = nxt_arr[0] if nxt_arr else None
     for t in texts:
+        rel = pick_related(t, by_level.get(t["level"], []))
         open(os.path.join(OUT, "texts", f"{t['slug']}.html"), "w",
-             encoding="utf-8").write(build_reader(t, next_map.get(t["slug"])))
+             encoding="utf-8").write(
+                 build_reader(t, next_map.get(t["slug"]), rel))
     # --- sitemap.xml + robots.txt ------------------------------------
     canon = (SITE.get("canonical_url") or "").rstrip("/")
     n_urls = 0
