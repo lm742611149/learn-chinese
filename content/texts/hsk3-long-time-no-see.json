@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-long-time-no-see",
+  "level": 3,
+  "title_zh": "好久不见",
+  "title_py": "Hǎojiǔ bú jiàn",
+  "title_en": "Long Time No See in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["在","zài","at"],["路上","lùshang","on the road"],["突然","tūrán","suddenly"],["看见","kànjiàn","to see"],["一个","yí ge","one"],["老","lǎo","old (longtime)"],["同学","tóngxué","classmate"],["，"],["我们","wǒmen","we; us"],["已经","yǐjīng","already"],["好久","hǎojiǔ","a long time"],["不见","bú jiàn","haven't seen (each other)"],["了","le","(change of state)"],["。"]],
+      "en": "On the street I suddenly ran into an old classmate — we hadn't seen each other in ages."
+    },
+    {
+      "t": [["他","tā","he; him"],["看见","kànjiàn","to see"],["我","wǒ","I; me"],["，"],["也","yě","also"],["很","hěn","very"],["高兴","gāoxìng","happy"],["，"],["我们","wǒmen","we; us"],["就","jiù","then"],["站","zhàn","to stand"],["在","zài","at"],["路上","lùshang","on the road"],["聊天","liáotiān","to chat"],["。"]],
+      "en": "He was happy to see me too, and we just stood there on the street chatting."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["他","tā","he; him"],["："],["“"],["你","nǐ","you"],["最近","zuìjìn","recently"],["怎么样","zěnmeyàng","how (is it)"],["？"],["还","hái","still"],["在","zài","at"],["那","nà","that"],["家","jiā","(measure word for businesses)"],["公司","gōngsī","company"],["工作","gōngzuò","to work"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I asked him: \"How have you been? Are you still working at that company?\""
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["换","huàn","to change; to switch"],["了","le","(completed action)"],["工作","gōngzuò","to work; job"],["，"],["现在","xiànzài","now"],["在","zài","at"],["一","yì","one"],["家","jiā","(measure word for businesses)"],["小","xiǎo","small"],["公司","gōngsī","company"],["做","zuò","to work as"],["经理","jīnglǐ","manager"],["。"],["”"]],
+      "en": "He said: \"I changed jobs — now I'm a manager at a small company.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["还是","háishi","still"],["那么","nàme","so"],["瘦","shòu","thin; slim"],["，"],["一点儿","yìdiǎnr","a little"],["都","dōu","all"],["没","méi","not; haven't"],["变","biàn","to change"],["。"],["”"]],
+      "en": "I said: \"You're still just as thin — you haven't changed a bit.\""
+    },
+    {
+      "t": [["他","tā","he; him"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["也","yě","also"],["一样","yíyàng","the same"],["，"],["还是","háishi","still"],["那么","nàme","so"],["爱","ài","to love; to be fond of"],["笑","xiào","to smile; to laugh"],["。"],["”"]],
+      "en": "He laughed and said: \"You're the same too — still smiling all the time.\""
+    },
+    {
+      "t": [["他","tā","he; him"],["还","hái","also; in addition"],["告诉","gàosu","to tell"],["我","wǒ","I; me"],["，"],["他","tā","he; him"],["有","yǒu","to have"],["两","liǎng","two"],["个","ge","(measure word)"],["孩子","háizi","child"],["，"],["一个","yí ge","one"],["已经","yǐjīng","already"],["上学","shàngxué","to go to school"],["了","le","(change of state)"],["。"]],
+      "en": "He also told me he has two children, and the older one already goes to school."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["聊","liáo","to chat"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["最后","zuìhòu","finally; in the end"],["说","shuō","to say"],["好","hǎo","OK; well"],["以后","yǐhòu","from now on"],["要","yào","should; must"],["经常","jīngcháng","often"],["见面","jiànmiàn","to meet"],["。"]],
+      "en": "We chatted for a long time, and in the end agreed to meet up often from now on."
+    }
+  ],
+  "vocab": [
+    ["好久","hǎojiǔ","a long time (as in 好久不见)"],
+    ["同学","tóngxué","classmate"],
+    ["公司","gōngsī","company"],
+    ["经理","jīnglǐ","manager"],
+    ["换","huàn","to change; to switch"],
+    ["见面","jiànmiàn","to meet"]
+  ],
+  "quiz": [
+    {"q":"What does 好久不见 literally mean and when do you say it?","a":["Hello, nice to meet you","Long time no see","Goodbye, see you soon"],"c":1},
+    {"q":"What is the old classmate's new job?","a":["A teacher","A doctor","A manager at a small company"],"c":2},
+    {"q":"What did the narrator notice hadn't changed about the friend?","a":["Still thin, hasn't changed","His job","His hometown"],"c":0}
+  ],
+  "grammar": [
+    {"p":"好久不见 (long time no see)","e":"好久不见 is what Chinese speakers say when running into someone they haven't seen in a long time — 好久 means 'a long time' and 不见 means 'haven't seen each other'.","x":"我们已经好久不见了。— We haven't seen each other in ages."},
+    {"p":"还是那么 + adj (still just as...)","e":"还是那么 says someone or something hasn't changed — still just as [adjective] as before.","x":"你还是那么瘦。— You're still just as thin."},
+    {"p":"一点儿都没 + verb (not even a little)","e":"一点儿都 + 没 + verb emphasizes 'not even a little' — completely unchanged.","x":"你一点儿都没变。— You haven't changed a bit."}
+  ]
+}

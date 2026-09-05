@@ -7,201 +7,54 @@
   "audio": null,
   "sentences": [
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["刚", "gāng", "just; recently"],
-        ["来", "lái", "to come"],
-        ["中国", "Zhōngguó", "China"],
-        ["，"],
-        ["需要", "xūyào", "to need"],
-        ["买", "mǎi", "to buy"],
-        ["一", "yì", "one"],
-        ["张", "zhāng", "(measure word for flat things)"],
-        ["手机卡", "shǒujī kǎ", "SIM card"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["刚","gāng","just; recently"],["来","lái","to come"],["中国","Zhōngguó","China"],["，"],["需要","xūyào","to need"],["买","mǎi","to buy"],["一","yì","one"],["张","zhāng","(measure word for flat things)"],["手机卡","shǒujī kǎ","SIM card"],["。"]],
       "en": "I just arrived in China, and I need to buy a SIM card."
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["去", "qù", "to go"],
-        ["了", "le", "(completed action)"],
-        ["一家", "yì jiā", "one (shop)"],
-        ["商店", "shāngdiàn", "shop; store"],
-        ["，"],
-        ["看见", "kànjiàn", "to see"],
-        ["很多", "hěn duō", "many; a lot of"],
-        ["人", "rén", "person; people"],
-        ["在", "zài", "in the process of"],
-        ["买", "mǎi", "to buy"],
-        ["手机卡", "shǒujī kǎ", "SIM card"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["去","qù","to go"],["了","le","(completed action)"],["一家","yì jiā","one (shop)"],["商店","shāngdiàn","shop; store"],["，"],["看见","kànjiàn","to see"],["很多","hěn duō","many; a lot of"],["人","rén","person; people"],["在","zài","in the process of"],["买","mǎi","to buy"],["手机卡","shǒujī kǎ","SIM card"],["。"]],
       "en": "I went to a shop, and saw a lot of people there buying SIM cards."
     },
     {
-      "t": [
-        ["工作人员", "gōngzuò rényuán", "staff member"],
-        ["说", "shuō", "to say"],
-        ["："],
-        ["“"],
-        ["请", "qǐng", "please"],
-        ["给", "gěi", "to; for"],
-        ["我", "wǒ", "I; me"],
-        ["看", "kàn", "to look at"],
-        ["一下", "yíxià", "a bit"],
-        ["你", "nǐ", "you"],
-        ["的", "de", "(possessive particle)"],
-        ["护照", "hùzhào", "passport"],
-        ["。"],
-        ["”"]
-      ],
+      "t": [["工作人员","gōngzuò rényuán","staff member"],["说","shuō","to say"],["："],["“"],["请","qǐng","please"],["给","gěi","to; for"],["我","wǒ","I; me"],["看","kàn","to look at"],["一下","yíxià","a bit"],["你","nǐ","you"],["的","de","(possessive particle)"],["护照","hùzhào","passport"],["。"],["”"]],
       "en": "The staff member said: \"Please let me see your passport.\""
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["把", "bǎ", "(把 construction)"],
-        ["护照", "hùzhào", "passport"],
-        ["给", "gěi", "to give"],
-        ["他", "tā", "he; him"],
-        ["，"],
-        ["很", "hěn", "very"],
-        ["快", "kuài", "quick; fast"],
-        ["他", "tā", "he; him"],
-        ["就", "jiù", "then"],
-        ["给", "gěi", "to give"],
-        ["了", "le", "(completed action)"],
-        ["我", "wǒ", "I; me"],
-        ["一", "yì", "one"],
-        ["张", "zhāng", "(measure word for flat things)"],
-        ["手机卡", "shǒujī kǎ", "SIM card"],
-        ["和", "hé", "and"],
-        ["一个", "yí ge", "one"],
-        ["新", "xīn", "new"],
-        ["号码", "hàomǎ", "number"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["把","bǎ","(把 construction)"],["护照","hùzhào","passport"],["给","gěi","to give"],["他","tā","he; him"],["，"],["很","hěn","very"],["快","kuài","quick; fast"],["他","tā","he; him"],["就","jiù","then"],["给","gěi","to give"],["了","le","(completed action)"],["我","wǒ","I; me"],["一","yì","one"],["张","zhāng","(measure word for flat things)"],["手机卡","shǒujī kǎ","SIM card"],["和","hé","and"],["一个","yí ge","one"],["新","xīn","new"],["号码","hàomǎ","number"],["。"]],
       "en": "I handed him my passport, and he quickly gave me a SIM card and a new number."
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["问", "wèn", "to ask"],
-        ["："],
-        ["“"],
-        ["一个", "yí ge", "one"],
-        ["月", "yuè", "month"],
-        ["多少钱", "duōshao qián", "how much (money)"],
-        ["？"],
-        ["”"]
-      ],
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["："],["“"],["一个","yí ge","one"],["月","yuè","month"],["多少钱","duōshao qián","how much (money)"],["？"],["”"]],
       "en": "I asked: \"How much is it per month?\""
     },
     {
-      "t": [
-        ["他", "tā", "he; him"],
-        ["说", "shuō", "to say"],
-        ["："],
-        ["“"],
-        ["不", "bú", "not"],
-        ["贵", "guì", "expensive"],
-        ["，"],
-        ["一个", "yí ge", "one"],
-        ["月", "yuè", "month"],
-        ["五十", "wǔshí", "fifty"],
-        ["块", "kuài", "yuan (colloquial)"],
-        ["钱", "qián", "money"],
-        ["，"],
-        ["可以", "kěyǐ", "can; may"],
-        ["打电话", "dǎ diànhuà", "to make a phone call"],
-        ["，"],
-        ["也", "yě", "also"],
-        ["可以", "kěyǐ", "can; may"],
-        ["发", "fā", "to send"],
-        ["消息", "xiāoxi", "message"],
-        ["。"],
-        ["”"]
-      ],
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["不","bú","not"],["贵","guì","expensive"],["，"],["一个","yí ge","one"],["月","yuè","month"],["五十","wǔshí","fifty"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],["，"],["可以","kěyǐ","can; may"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["也","yě","also"],["可以","kěyǐ","can; may"],["发","fā","to send"],["消息","xiāoxi","message"],["。"],["”"]],
       "en": "He said: \"Not expensive — fifty yuan a month, and you can make calls and send messages.\""
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["很", "hěn", "very"],
-        ["满意", "mǎnyì", "satisfied"],
-        ["，"],
-        ["终于", "zhōngyú", "finally"],
-        ["有", "yǒu", "to have"],
-        ["了", "le", "(change of state)"],
-        ["中国", "Zhōngguó", "China"],
-        ["的", "de", "(possessive particle)"],
-        ["手机", "shǒujī", "cell phone"],
-        ["号码", "hàomǎ", "number"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["满意","mǎnyì","satisfied"],["，"],["终于","zhōngyú","finally"],["有","yǒu","to have"],["了","le","(change of state)"],["中国","Zhōngguó","China"],["的","de","(possessive particle)"],["手机","shǒujī","cell phone"],["号码","hàomǎ","number"],["。"]],
       "en": "I was satisfied — I finally had a Chinese phone number."
     },
     {
-      "t": [
-        ["现在", "xiànzài", "now"],
-        ["，"],
-        ["我", "wǒ", "I; me"],
-        ["可以", "kěyǐ", "can; may"],
-        ["用", "yòng", "to use"],
-        ["中国", "Zhōngguó", "China"],
-        ["的", "de", "(possessive particle)"],
-        ["号码", "hàomǎ", "number"],
-        ["给", "gěi", "to; for"],
-        ["家人", "jiārén", "family member"],
-        ["打电话", "dǎ diànhuà", "to make a phone call"],
-        ["了", "le", "(change of state)"],
-        ["。"]
-      ],
+      "t": [["现在","xiànzài","now"],["，"],["我","wǒ","I; me"],["可以","kěyǐ","can; may"],["用","yòng","to use"],["中国","Zhōngguó","China"],["的","de","(possessive particle)"],["号码","hàomǎ","number"],["给","gěi","to; for"],["家人","jiārén","family member"],["打电话","dǎ diànhuà","to make a phone call"],["了","le","(change of state)"],["。"]],
       "en": "Now I can use my Chinese number to call my family."
     }
   ],
   "vocab": [
-    ["手机卡", "shǒujī kǎ", "SIM card"],
-    ["护照", "hùzhào", "passport"],
-    ["号码", "hàomǎ", "number"],
-    ["商店", "shāngdiàn", "shop; store"],
-    ["满意", "mǎnyì", "satisfied"],
-    ["打电话", "dǎ diànhuà", "to make a phone call"]
+    ["手机卡","shǒujī kǎ","SIM card"],
+    ["护照","hùzhào","passport"],
+    ["号码","hàomǎ","number"],
+    ["商店","shāngdiàn","shop; store"],
+    ["满意","mǎnyì","satisfied"],
+    ["打电话","dǎ diànhuà","to make a phone call"]
   ],
   "quiz": [
-    {
-      "q": "What did the narrator need to buy after arriving in China?",
-      "a": ["A phone", "A SIM card", "A bus ticket"],
-      "c": 1
-    },
-    {
-      "q": "What did the staff member ask to see first?",
-      "a": ["Money", "A phone", "A passport"],
-      "c": 2
-    },
-    {
-      "q": "How much does the SIM card cost per month?",
-      "a": ["50 yuan", "100 yuan", "20 yuan"],
-      "c": 0
-    }
+    {"q":"What did the narrator need to buy after arriving in China?","a":["A phone","A SIM card","A bus ticket"],"c":1},
+    {"q":"What did the staff member ask to see first?","a":["Money","A phone","A passport"],"c":2},
+    {"q":"How much does the SIM card cost per month?","a":["50 yuan","100 yuan","20 yuan"],"c":0}
   ],
   "grammar": [
-    {
-      "p": "手机卡 (SIM card)",
-      "e": "手机卡 literally means 'phone card' — it's the everyday word for a SIM card. Buying one in China usually requires showing an ID or passport.",
-      "x": "我需要买一张手机卡。— I need to buy a SIM card."
-    },
-    {
-      "p": "把 (the 把 construction)",
-      "e": "把 + object + verb moves the object in front of the verb to show what happens to it — common when handing something over: 把护照给他 (hand him the passport).",
-      "x": "我把护照给他。— I gave him my passport."
-    },
-    {
-      "p": "time word + 多少钱 (how much for...)",
-      "e": "To ask the price for a period of time, put the time word right before 多少钱: 一个月多少钱？(How much per month?)",
-      "x": "一个月多少钱？— How much is it per month?"
-    }
+    {"p":"手机卡 (SIM card)","e":"手机卡 literally means 'phone card' — it's the everyday word for a SIM card. Buying one in China usually requires showing an ID or passport.","x":"我需要买一张手机卡。— I need to buy a SIM card."},
+    {"p":"把 (the 把 construction)","e":"把 + object + verb moves the object in front of the verb to show what happens to it — common when handing something over: 把护照给他 (hand him the passport).","x":"我把护照给他。— I gave him my passport."},
+    {"p":"time word + 多少钱 (how much for...)","e":"To ask the price for a period of time, put the time word right before 多少钱: 一个月多少钱？(How much per month?)","x":"一个月多少钱？— How much is it per month?"}
   ]
 }

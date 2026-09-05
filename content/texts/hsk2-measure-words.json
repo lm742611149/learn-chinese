@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-measure-words",
+  "level": 2,
+  "title_zh": "一个还是两个",
+  "title_py": "Yí gè háishi liǎng gè",
+  "title_en": "Chinese Measure Words",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["，"],["我","wǒ","I; me"],["和","hé","and"],["朋友","péngyou","friend"],["去","qù","to go"],["商店","shāngdiàn","store"],["买","mǎi","to buy"],["东西","dōngxi","things"],["。"]],
+      "en": "On Saturday, my friend and I went to the store to buy some things."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一","yì","one"],["本","běn","(measure word for books)"],["书","shū","book"],["，"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["要","yào","to want"],["买","mǎi","to buy"],["一","yí","one"],["个","gè","(measure word)"],["书","shū","book"],["。"],["”"]],
+      "en": "I saw a book and said, \"I want to buy this book.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; server"],["笑","xiào","to smile"],["了","le","(completed action)"],["，"],["说","shuō","to say"],["："],["“"],["书","shū","book"],["应该","yīnggāi","should"],["说","shuō","to say"],["一","yì","one"],["本","běn","(measure word for books)"],["，"],["不","bú","not"],["是","shì","to be"],["一","yí","one"],["个","gè","(measure word)"],["。"],["”"]],
+      "en": "The clerk smiled and said, \"For books you should say 'yì běn,' not 'yí gè.'\""
+    },
+    {
+      "t": [["后来","hòulái","afterward"],["，"],["我","wǒ","I; me"],["买","mǎi","to buy"],["了","le","(completed action)"],["一","yì","one"],["杯","bēi","cup (measure word)"],["咖啡","kāfēi","coffee"],["和","hé","and"],["一","yí","one"],["块","kuài","piece (measure word)"],["蛋糕","dàngāo","cake"],["。"]],
+      "en": "This time, I bought a cup of coffee and a piece of cake."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["现在","xiànzài","now"],["会","huì","can; to know how to"],["了","le","(completed action)"],["！"],["”"]],
+      "en": "My friend said, \"Now you've got it!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["还","hái","still"],["想","xiǎng","to want to"],["买","mǎi","to buy"],["一","yí","one"],["件","jiàn","(measure word for clothes)"],["衣服","yīfu","clothes"],["，"],["可是","kěshì","but"],["钱","qián","money"],["不","bù","not"],["多","duō","much"],["了","le","(change of state)"],["。"]],
+      "en": "I still wanted to buy a piece of clothing, but I was running low on money."
+    }
+  ],
+  "vocab": [
+    ["本","běn","(measure word for books)"],
+    ["杯","bēi","(measure word for cups)"],
+    ["块","kuài","(measure word for chunks/pieces)"],
+    ["件","jiàn","(measure word for clothes)"],
+    ["个","gè","(general measure word)"],
+    ["东西","dōngxi","things"]
+  ],
+  "quiz": [
+    {"q":"What mistake does the narrator make with the book?","a":["Says 一个 instead of 一本","Says 一杯 instead of 一本","Forgets to pay for it"],"c":0},
+    {"q":"What does the narrator buy correctly the second time?","a":["A shirt and shoes","Coffee and cake","A new phone"],"c":1},
+    {"q":"Why doesn't the narrator buy the clothing?","a":["The store is closed","It doesn't fit","Not enough money is left"],"c":2}
+  ],
+  "grammar": [
+    {"p":"measure word + noun（量词 + 名词）","e":"A number needs a specific measure word before the noun — not just 个 for everything: 一本书 (a book), 一杯咖啡 (a cup of coffee), 一块蛋糕 (a piece of cake), 一件衣服 (a piece of clothing).","x":"我要买一本书，不是一个书。 — I want to buy a book, not \"yí gè shū.\""},
+    {"p":"一 changes tone before a measure word","e":"一 is yì before a 1st/2nd/3rd-tone measure word (like 本, 杯) and yí before a 4th-tone one (like 个, 件, 块).","x":"一杯咖啡 (yì bēi)、一个人 (yí gè)."},
+    {"p":"会 + 了（now you can do it）","e":"会 means 'know how to'; adding 了 shows a change — you couldn't before, but now you can.","x":"你现在会了！ — Now you've got it!"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-what-are-you-doing",
+  "level": 2,
+  "title_zh": "你在做什么",
+  "title_py": "Nǐ zài zuò shénme",
+  "title_en": "What Are You Doing in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我","wǒ","I"],["给","gěi","to (for)"],["朋友","péngyou","friend"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["问","wèn","to ask"],["："],["“"],["你","nǐ","you"],["在","zài","(ongoing)"],["做","zuò","to do"],["什么","shénme","what"],["？"],["”"]],
+      "en": "In the evening I call my friend and ask: \"What are you doing?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["正在","zhèngzài","right now (in the middle of)"],["做","zuò","to make"],["蛋糕","dàngāo","cake"],["，"],["明天","míngtiān","tomorrow"],["是","shì","to be"],["我","wǒ","my"],["妈妈","māma","mom"],["的","de","(possessive)"],["生日","shēngrì","birthday"],["。"],["”"]],
+      "en": "She says: \"I'm making a cake right now — tomorrow is my mom's birthday.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["真","zhēn","really"],["有意思","yǒu yìsi","interesting"],["！"],["我","wǒ","I"],["可以","kěyǐ","can; may"],["看看","kànkan","to take a look"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I say: \"That's so fun! Can I take a look?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["等","děng","to wait"],["一下","yíxià","a moment"],["就","jiù","then"],["好","hǎo","ready"],["了","le","(change of state)"],["，"],["你","nǐ","you"],["来","lái","to come"],["吃","chī","to eat"],["吧","ba","(suggestion particle)"],["！"],["”"]],
+      "en": "She said, \"Give it a moment and it'll be ready — come and have some!\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["好","hǎo","OK"],["，"],["我","wǒ","I"],["现在","xiànzài","now"],["就","jiù","right away"],["去","qù","to go"],["，"],["我","wǒ","I"],["也","yě","also"],["想","xiǎng","to want to"],["帮","bāng","to help"],["你","nǐ","you"],["。"],["”"]],
+      "en": "I say: \"Great, I'll head over right now — I want to help you too.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["到","dào","to arrive"],["的时候","de shíhou","when"],["，"],["蛋糕","dàngāo","cake"],["已经","yǐjīng","already"],["好","hǎo","ready"],["了","le","(completed action)"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["等","děng","to wait"],["妈妈","māma","mom"],["回家","huí jiā","to go home"],["。"]],
+      "en": "By the time I arrive, the cake is already done, and we wait together for mom to come home."
+    }
+  ],
+  "vocab": [
+    ["正在","zhèngzài","right now (in the middle of)"],
+    ["做","zuò","to do; to make"],
+    ["什么","shénme","what"],
+    ["有意思","yǒu yìsi","interesting"],
+    ["等","děng","to wait"],
+    ["已经","yǐjīng","already"]
+  ],
+  "quiz": [
+    {"q":"What is the friend doing when the narrator calls?","a":["Making a cake","Watching a movie","Doing homework"],"c":0},
+    {"q":"Why is she making it?","a":["She's hungry","It's her mom's birthday tomorrow","She's practicing for a class"],"c":1},
+    {"q":"What do they do at the end of the story?","a":["Eat the cake alone","Go to the store","Wait together for mom to come home"],"c":2}
+  ],
+  "grammar": [
+    {"p":"你在做什么？（what are you doing?）","e":"在 here marks an ongoing action, so 你在做什么 asks what someone is doing right now.","x":"你在做什么？— What are you doing?"},
+    {"p":"正在 + V（right in the middle of doing something）","e":"正在 emphasizes that an action is happening right now, even more clearly than 在 alone.","x":"我正在做蛋糕。— I'm making a cake right now."},
+    {"p":"V + 吧（a friendly invitation）","e":"Adding 吧 after a verb turns it into a warm invitation rather than a command.","x":"你来吃吧！— Come and have some!"}
+  ]
+}

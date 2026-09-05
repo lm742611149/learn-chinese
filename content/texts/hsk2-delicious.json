@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-delicious",
+  "level": 2,
+  "title_zh": "真好吃",
+  "title_py": "Zhēn hǎochī",
+  "title_en": "Delicious in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六", "xīngqīliù", "Saturday"],["，"],["我", "wǒ", "I; me"],["去", "qù", "to go"],["朋友", "péngyou", "friend"],["家", "jiā", "home"],["做客", "zuòkè", "to visit as a guest"],["。"]],
+      "en": "On Saturday, I went to visit my friend's home."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["的", "de", "(possessive particle)"],["妈妈", "māma", "mom"],["做", "zuò", "to make"],["了", "le", "(completed action)"],["很", "hěn", "very"],["多", "duō", "many"],["菜", "cài", "dishes; food"],["，"],["有", "yǒu", "there is; have"],["鱼", "yú", "fish"],["，"],["还", "hái", "also; in addition"],["有", "yǒu", "there is; have"],["汤", "tāng", "soup"],["。"]],
+      "en": "My friend's mom had made lots of dishes — there was fish, and soup too."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["吃", "chī", "to eat"],["了", "le", "(completed action)"],["一", "yí", "one"],["块", "kuài", "piece (measure word)"],["鱼", "yú", "fish"],["，"],["说", "shuō", "to say"],["："],["“"],["真", "zhēn", "really"],["好吃", "hǎochī", "delicious"],["！"],["”"]],
+      "en": "I ate a piece of the fish and said, \"That's really good!\""
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["你", "nǐ", "you"],["喜欢", "xǐhuan", "to like"],["，"],["就", "jiù", "then"],["多", "duō", "more"],["吃", "chī", "to eat"],["一点儿", "yìdiǎnr", "a little"],["。"],["”"]],
+      "en": "My friend said, \"If you like it, eat some more.\""
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["又", "yòu", "again"],["吃", "chī", "to eat"],["了", "le", "(completed action)"],["很", "hěn", "very"],["多", "duō", "many; a lot"],["，"],["菜", "cài", "dishes; food"],["都", "dōu", "all"],["好吃", "hǎochī", "delicious"],["极", "jí", "extremely"],["了", "le", "(emphasis particle)"],["。"]],
+      "en": "I ate a lot more — everything was so delicious."
+    },
+    {
+      "t": [["走", "zǒu", "to leave"],["的时候", "de shíhou", "when"],["，"],["我", "wǒ", "I; me"],["对", "duì", "to; toward"],["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["你", "nǐ", "you"],["妈妈", "māma", "mom"],["做", "zuò", "to make"],["的", "de", "(possessive particle)"],["菜", "cài", "dishes; food"],["，"],["比", "bǐ", "compared to"],["饭馆", "fànguǎn", "restaurant"],["的", "de", "(possessive particle)"],["还", "hái", "even more"],["好吃", "hǎochī", "delicious"],["。"],["”"]],
+      "en": "When I left, I told my friend, \"Your mom's cooking is even better than a restaurant's.\""
+    }
+  ],
+  "vocab": [
+    ["好吃", "hǎochī", "delicious"],
+    ["做客", "zuòkè", "to visit as a guest"],
+    ["极", "jí", "extremely"],
+    ["比", "bǐ", "compared to"],
+    ["还", "hái", "even more"],
+    ["一点儿", "yìdiǎnr", "a little"]
+  ],
+  "quiz": [
+    {"q": "Where does the narrator go on Saturday?", "a": ["To a restaurant", "To a friend's house", "To school"], "c": 1},
+    {"q": "What does the narrator eat first?", "a": ["Soup", "Rice", "Fish"], "c": 2},
+    {"q": "How does the narrator describe the friend's mom's cooking at the end?", "a": ["Better than a restaurant's", "Not very tasty", "Just okay"], "c": 0}
+  ],
+  "grammar": [
+    {"p": "adj + 极了（extremely...）", "e": "极了 goes right after an adjective to push it to the extreme — stronger than just 很.", "x": "菜都好吃极了。— The food was all incredibly delicious."},
+    {"p": "A 比 B 还 + adj（even more than）", "e": "比 compares A to B; adding 还 before the adjective says A goes even further than B.", "x": "你妈妈做的菜，比饭馆的还好吃。— Your mom's cooking is even better than a restaurant's."},
+    {"p": "多 + verb + 一点儿（do a little more）", "e": "多 before a verb, with 一点儿 after it, means to do a bit more of that action.", "x": "你喜欢，就多吃一点儿。— If you like it, eat a little more."}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-what-should-i-do",
+  "level": 3,
+  "title_zh": "怎么办",
+  "title_py": "Zěnme bàn",
+  "title_en": "What Should I Do in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["自行车","zìxíngchē","bicycle"],["突然","tūrán","suddenly"],["坏","huài","broken"],["了","le","(change of state)"],["。"]],
+      "en": "This morning, my bike suddenly broke."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to look at"],["了","le","(completed action)"],["看","kàn","to look at"],["时间","shíjiān","time"],["，"],["只有","zhǐyǒu","only have"],["十","shí","ten"],["分钟","fēnzhōng","minute"],["就要","jiùyào","about to"],["上课","shàngkè","to start class"],["了","le","(change of state)"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["着急","zháojí","anxious; worried"],["。"]],
+      "en": "I checked the time — only ten minutes until class, and I got anxious."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["给","gěi","to; for"],["同学","tóngxué","classmate"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["自行车","zìxíngchē","bicycle"],["坏","huài","broken"],["了","le","(change of state)"],["，"],["怎么办","zěnme bàn","what should I do"],["？"],["”"]],
+      "en": "I called a classmate and said: \"My bike broke — what should I do?\""
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["着急","zháojí","anxious; worried"],["，"],["车站","chēzhàn","bus stop; station"],["离","lí","(distance) from"],["这里","zhèlǐ","here"],["不","bù","not"],["远","yuǎn","far"],["，"],["你","nǐ","you"],["可以","kěyǐ","can; may"],["坐","zuò","to sit; to take (transport)"],["公共汽车","gōnggòng qìchē","bus"],["。"],["”"]],
+      "en": "He said: \"Don't worry — the bus stop isn't far from here, you can take the bus.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["马上","mǎshàng","immediately"],["去","qù","to go"],["车站","chēzhàn","bus stop; station"],["，"],["公共汽车","gōnggòng qìchē","bus"],["很","hěn","very"],["快","kuài","fast"],["就","jiù","then"],["来","lái","to come"],["了","le","(change of state)"],["。"]],
+      "en": "I hurried to the bus stop, and the bus came quickly."
+    },
+    {
+      "t": [["上车","shàngchē","to get on (a vehicle)"],["以后","yǐhòu","after"],["，"],["还有","háiyǒu","there was still"],["座位","zuòwèi","seat"],["，"],["我","wǒ","I; me"],["坐下","zuòxià","to sit down"],["，"],["心里","xīnli","in one's heart"],["慢慢","mànmàn","slowly"],["不","bú","not"],["那么","nàme","so"],["紧张","jǐnzhāng","nervous"],["了","le","(change of state)"],["。"]],
+      "en": "After getting on, there was still a seat — I sat down, and slowly felt less nervous."
+    },
+    {
+      "t": [["到","dào","to arrive"],["学校","xuéxiào","school"],["的时候","de shíhou","when; at the time of"],["，"],["还有","háiyǒu","there was still"],["两","liǎng","two"],["分钟","fēnzhōng","minute"],["就要","jiùyào","about to"],["上课","shàngkè","to start class"],["，"],["我","wǒ","I; me"],["没有","méiyǒu","did not"],["迟到","chídào","to be late"],["。"]],
+      "en": "By the time I got to school, there were still two minutes before class — I wasn't late."
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["我","wǒ","I"],["请","qǐng","to treat"],["同学","tóngxué","classmate"],["吃饭","chī fàn","to have a meal"],["，"],["谢谢","xièxie","to thank"],["他","tā","him"],["早上","zǎoshang","morning"],["帮","bāng","to help"],["了","le","(completed action)"],["我","wǒ","me"],["。"]],
+      "en": "At lunch I treated my classmate to a meal, to thank him for the morning."
+    }
+  ],
+  "vocab": [
+    ["怎么办","zěnme bàn","what should I do"],
+    ["办法","bànfǎ","method; solution"],
+    ["着急","zháojí","anxious; worried"],
+    ["车站","chēzhàn","bus stop; station"],
+    ["座位","zuòwèi","seat"],
+    ["迟到","chídào","to be late"]
+  ],
+  "quiz": [
+    {"q":"What suddenly happened to the narrator's bike?","a":["It got a flat tire","It suddenly broke","Someone borrowed it"],"c":1},
+    {"q":"What did the classmate suggest doing instead?","a":["Take the bus","Walk to school","Call a taxi"],"c":0},
+    {"q":"What did the narrator learn from this experience?","a":["Never ride a bike again","Always leave an hour early","Think of a solution first instead of panicking"],"c":2}
+  ],
+  "grammar": [
+    {"p":"怎么办？(what should I do?)","e":"怎么办 asks what to do when you're stuck and don't know the solution — often said out loud when something goes wrong.","x":"我的自行车坏了，怎么办？— My bike broke, what should I do?"},
+    {"p":"就要…了 (about to happen soon)","e":"就要 + verb + 了 says something is going to happen very soon.","x":"只有十分钟就要上课了。— Only ten minutes until class starts."},
+    {"p":"先…，别… (first..., don't...)","e":"先 puts one action before another, often paired with 别 or 不要 to say what not to do instead.","x":"要先想办法，别一直着急。— Think of a solution first, don't just keep worrying."}
+  ]
+}

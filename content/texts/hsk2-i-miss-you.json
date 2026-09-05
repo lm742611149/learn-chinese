@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-i-miss-you",
+  "level": 2,
+  "title_zh": "我想你",
+  "title_py": "Wǒ xiǎng nǐ",
+  "title_en": "I Miss You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I"],["在", "zài", "at; in"],["北京", "Běijīng", "Beijing"],["工作", "gōngzuò", "to work"],["，"],["妈妈", "māma", "mom"],["在", "zài", "at; in"],["上海", "Shànghǎi", "Shanghai"],["，"],["我", "wǒ", "I"],["很", "hěn", "very"],["想", "xiǎng", "to miss"],["她", "tā", "her"],["。"]],
+      "en": "I work in Beijing and mom is in Shanghai; I miss her a lot."
+    },
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["我", "wǒ", "I"],["打电话", "dǎ diànhuà", "to make a phone call"],["给", "gěi", "to (for)"],["妈妈", "māma", "mom"],["，"],["说", "shuō", "to say"],["："],["“"],["妈妈", "māma", "mom"],["，"],["我", "wǒ", "I"],["想", "xiǎng", "to miss"],["你", "nǐ", "you"],["。"],["”"]],
+      "en": "In the evening I call mom and say: \"Mom, I miss you.\""
+    },
+    {
+      "t": [["妈妈", "māma", "mom"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["也", "yě", "also"],["想", "xiǎng", "to miss"],["你", "nǐ", "you"],["，"],["你", "nǐ", "you"],["想", "xiǎng", "to want to"],["吃", "chī", "to eat"],["什么", "shénme", "what"],["？"],["我", "wǒ", "I"],["给", "gěi", "to give"],["你", "nǐ", "you"],["做", "zuò", "to make"],["。"],["”"]],
+      "en": "Mom says: \"I miss you too. What do you want to eat? I'll make it for you.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["想", "xiǎng", "to want to"],["吃", "chī", "to eat"],["面条", "miàntiáo", "noodles"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["不", "bú", "not"],["在", "zài", "at"],["家", "jiā", "home"],["。"],["”"]],
+      "en": "I say: \"I want to eat noodles, but I'm not home.\""
+    },
+    {
+      "t": [["妈妈", "māma", "mom"],["说", "shuō", "to say"],["："],["“"],["下个月", "xià gè yuè", "next month"],["你", "nǐ", "you"],["回家", "huí jiā", "to go home"],["，"],["我", "wǒ", "I"],["给", "gěi", "to give"],["你", "nǐ", "you"],["做", "zuò", "to make"],["面条", "miàntiáo", "noodles"],["。"],["”"]],
+      "en": "Mom says: \"Next month when you come home, I'll make you noodles.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["笑", "xiào", "to smile"],["了", "le", "(completed action)"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["还", "hái", "still"],["很", "hěn", "very"],["想", "xiǎng", "to miss"],["她", "tā", "her"],["，"],["我", "wǒ", "I"],["知道", "zhīdào", "to know"],["，"],["她", "tā", "she"],["也", "yě", "also"],["一样", "yíyàng", "the same"],["想", "xiǎng", "to miss"],["我", "wǒ", "me"],["。"]],
+      "en": "I smile, but I still miss her a lot — I know she misses me the same way."
+    }
+  ],
+  "vocab": [
+    ["想", "xiǎng", "to miss / to want to"],
+    ["打电话", "dǎ diànhuà", "to make a phone call"],
+    ["给", "gěi", "to (for); to give"],
+    ["也", "yě", "also"],
+    ["还", "hái", "still"],
+    ["知道", "zhīdào", "to know"]
+  ],
+  "quiz": [
+    {"q": "What does 想 mean in 我想你？", "a": ["To miss someone", "To want something", "To know someone"], "c": 0},
+    {"q": "Where does the narrator work, and where is mom?", "a": ["Narrator in Shanghai, mom in Beijing", "Narrator in Beijing, mom in Shanghai", "Both in Beijing"], "c": 1},
+    {"q": "What does mom promise to make when the narrator comes home?", "a": ["Rice", "Soup", "Noodles"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "想 + person（to miss someone）", "e": "想 followed directly by a person means 'to miss' them; followed by a verb it means 'want to'.", "x": "我想你。— I miss you. / 你想吃什么？— What do you want to eat?"},
+    {"p": "也 + verb（me too）", "e": "也 goes right before the verb to agree with what someone just said.", "x": "我也想你。— I miss you too."},
+    {"p": "打电话给 + person（to call someone）", "e": "给 after 打电话 introduces who is being called.", "x": "我打电话给妈妈。— I call mom."}
+  ]
+}

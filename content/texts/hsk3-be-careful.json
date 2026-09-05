@@ -7,184 +7,54 @@
   "audio": null,
   "sentences": [
     {
-      "t": [
-        ["昨天", "zuótiān", "yesterday"],
-        ["下午", "xiàwǔ", "afternoon"],
-        ["，"],
-        ["我", "wǒ", "I; me"],
-        ["和", "hé", "and; with"],
-        ["朋友", "péngyou", "friend"],
-        ["一起", "yìqǐ", "together"],
-        ["出去", "chūqù", "to go out"],
-        ["买", "mǎi", "to buy"],
-        ["东西", "dōngxi", "thing; item"],
-        ["。"]
-      ],
+      "t": [["昨天","zuótiān","yesterday"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["和","hé","and; with"],["朋友","péngyou","friend"],["一起","yìqǐ","together"],["出去","chūqù","to go out"],["买","mǎi","to buy"],["东西","dōngxi","thing; item"],["。"]],
       "en": "Yesterday afternoon, my friend and I went out to buy some things."
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["一边", "yìbiān", "while (doing one thing)"],
-        ["走路", "zǒulù", "to walk"],
-        ["，"],
-        ["一边", "yìbiān", "while (doing one thing)"],
-        ["看", "kàn", "to look at"],
-        ["手机", "shǒujī", "cell phone"],
-        ["，"],
-        ["没有", "méiyǒu", "did not"],
-        ["看", "kàn", "to look at"],
-        ["红绿灯", "hónglǜdēng", "traffic light"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["一边","yìbiān","while (doing one thing)"],["走路","zǒulù","to walk"],["，"],["一边","yìbiān","while (doing one thing)"],["看","kàn","to look at"],["手机","shǒujī","cell phone"],["，"],["没有","méiyǒu","did not"],["看","kàn","to look at"],["红绿灯","hónglǜdēng","traffic light"],["。"]],
       "en": "I was walking while looking at my phone, and didn't watch the traffic light."
     },
     {
-      "t": [
-        ["突然", "tūrán", "suddenly"],
-        ["，"],
-        ["一", "yí", "one"],
-        ["辆", "liàng", "(measure word for vehicles)"],
-        ["自行车", "zìxíngchē", "bicycle"],
-        ["骑", "qí", "to ride"],
-        ["得", "de", "(degree particle)"],
-        ["很", "hěn", "very"],
-        ["快", "kuài", "fast"],
-        ["，"],
-        ["离", "lí", "(distance) from"],
-        ["我", "wǒ", "I; me"],
-        ["很", "hěn", "very"],
-        ["近", "jìn", "near; close"],
-        ["。"]
-      ],
+      "t": [["突然","tūrán","suddenly"],["，"],["一","yí","one"],["辆","liàng","(measure word for vehicles)"],["自行车","zìxíngchē","bicycle"],["骑","qí","to ride"],["得","de","(degree particle)"],["很","hěn","very"],["快","kuài","fast"],["，"],["离","lí","(distance) from"],["我","wǒ","I; me"],["很","hěn","very"],["近","jìn","near; close"],["。"]],
       "en": "Suddenly, a bicycle came riding very fast, very close to me."
     },
     {
-      "t": [
-        ["朋友", "péngyou", "friend"],
-        ["大声", "dàshēng", "loudly"],
-        ["叫", "jiào", "to shout; to cry out"],
-        ["："],
-        ["“"],
-        ["小心", "xiǎoxīn", "watch out; be careful"],
-        ["！"],
-        ["”"]
-      ],
+      "t": [["朋友","péngyou","friend"],["大声","dàshēng","loudly"],["叫","jiào","to shout; to cry out"],["："],["“"],["小心","xiǎoxīn","watch out; be careful"],["！"],["”"]],
       "en": "My friend shouted loudly: \"Watch out!\""
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["马上", "mǎshàng", "immediately"],
-        ["往", "wǎng", "towards"],
-        ["旁边", "pángbiān", "next to; the side"],
-        ["站", "zhàn", "to stand"],
-        ["了", "le", "(completed action)"],
-        ["一下", "yíxià", "a bit"],
-        ["，"],
-        ["自行车", "zìxíngchē", "bicycle"],
-        ["就", "jiù", "then"],
-        ["骑", "qí", "to ride"],
-        ["过去", "guòqù", "past; by (direction)"],
-        ["了", "le", "(completed action)"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["马上","mǎshàng","immediately"],["往","wǎng","towards"],["旁边","pángbiān","next to; the side"],["站","zhàn","to stand"],["了","le","(completed action)"],["一下","yíxià","a bit"],["，"],["自行车","zìxíngchē","bicycle"],["就","jiù","then"],["骑","qí","to ride"],["过去","guòqù","past; by (direction)"],["了","le","(completed action)"],["。"]],
       "en": "I quickly stepped to the side, and the bicycle rode past."
     },
     {
-      "t": [
-        ["我", "wǒ", "I; me"],
-        ["心里", "xīnli", "in one's heart"],
-        ["很", "hěn", "very"],
-        ["紧张", "jǐnzhāng", "nervous"],
-        ["，"],
-        ["但是", "dànshì", "but"],
-        ["没有", "méiyǒu", "there wasn't"],
-        ["事", "shì", "matter; thing"],
-        ["。"]
-      ],
+      "t": [["我","wǒ","I; me"],["心里","xīnli","in one's heart"],["很","hěn","very"],["紧张","jǐnzhāng","nervous"],["，"],["但是","dànshì","but"],["没有","méiyǒu","there wasn't"],["事","shì","matter; thing"],["。"]],
       "en": "My heart was pounding, but nothing had happened."
     },
     {
-      "t": [
-        ["朋友", "péngyou", "friend"],
-        ["又", "yòu", "again"],
-        ["说", "shuō", "to say"],
-        ["："],
-        ["“"],
-        ["走路", "zǒulù", "to walk"],
-        ["的时候", "de shíhou", "when; at the time of"],
-        ["要", "yào", "should; must"],
-        ["小心", "xiǎoxīn", "watch out for"],
-        ["车", "chē", "car; vehicle"],
-        ["，"],
-        ["别", "bié", "don't"],
-        ["看", "kàn", "to look at"],
-        ["手机", "shǒujī", "cell phone"],
-        ["。"],
-        ["”"]
-      ],
+      "t": [["朋友","péngyou","friend"],["又","yòu","again"],["说","shuō","to say"],["："],["“"],["走路","zǒulù","to walk"],["的时候","de shíhou","when; at the time of"],["要","yào","should; must"],["小心","xiǎoxīn","watch out for"],["车","chē","car; vehicle"],["，"],["别","bié","don't"],["看","kàn","to look at"],["手机","shǒujī","cell phone"],["。"],["”"]],
       "en": "My friend said again: \"When you walk, watch out for cars — don't look at your phone.\""
     },
     {
-      "t": [
-        ["从", "cóng", "from"],
-        ["那", "nà", "that"],
-        ["以后", "yǐhòu", "after; since"],
-        ["，"],
-        ["我", "wǒ", "I; me"],
-        ["走路", "zǒulù", "to walk"],
-        ["的时候", "de shíhou", "when; at the time of"],
-        ["再也", "zàiyě", "never again"],
-        ["不", "bú", "not"],
-        ["看", "kàn", "to look at"],
-        ["手机", "shǒujī", "cell phone"],
-        ["了", "le", "(change of state)"],
-        ["。"]
-      ],
+      "t": [["从","cóng","from"],["那","nà","that"],["以后","yǐhòu","after; since"],["，"],["我","wǒ","I; me"],["走路","zǒulù","to walk"],["的时候","de shíhou","when; at the time of"],["再也","zàiyě","never again"],["不","bú","not"],["看","kàn","to look at"],["手机","shǒujī","cell phone"],["了","le","(change of state)"],["。"]],
       "en": "Since then, I never look at my phone while walking again."
     }
   ],
   "vocab": [
-    ["小心", "xiǎoxīn", "watch out; be careful"],
-    ["紧张", "jǐnzhāng", "nervous"],
-    ["红绿灯", "hónglǜdēng", "traffic light"],
-    ["自行车", "zìxíngchē", "bicycle"],
-    ["大声", "dàshēng", "loudly"],
-    ["马上", "mǎshàng", "immediately"]
+    ["小心","xiǎoxīn","watch out; be careful"],
+    ["紧张","jǐnzhāng","nervous"],
+    ["红绿灯","hónglǜdēng","traffic light"],
+    ["自行车","zìxíngchē","bicycle"],
+    ["大声","dàshēng","loudly"],
+    ["马上","mǎshàng","immediately"]
   ],
   "quiz": [
-    {
-      "q": "What was the narrator doing that kept them from noticing the traffic light?",
-      "a": ["Looking at their phone", "Talking to a friend", "Listening to music"],
-      "c": 0
-    },
-    {
-      "q": "What did the friend shout when the bicycle came close?",
-      "a": ["别看！", "小心！", "走路！"],
-      "c": 1
-    },
-    {
-      "q": "What did the narrator decide to do after the near miss?",
-      "a": ["Buy a new bicycle", "Stop walking outside", "Never look at the phone while walking again"],
-      "c": 2
-    }
+    {"q":"What was the narrator doing that kept them from noticing the traffic light?","a":["Looking at their phone","Talking to a friend","Listening to music"],"c":0},
+    {"q":"What did the friend shout when the bicycle came close?","a":["别看！","小心！","走路！"],"c":1},
+    {"q":"What did the narrator decide to do after the near miss?","a":["Buy a new bicycle","Stop walking outside","Never look at the phone while walking again"],"c":2}
   ],
   "grammar": [
-    {
-      "p": "小心 (watch out / be careful)",
-      "e": "小心 can stand alone as a warning — \"Watch out!\" — or be followed by a noun to mean 'watch out for ___': 小心车 (watch out for cars), 小心地滑 (careful, slippery floor).",
-      "x": "走路的时候要小心车。— When walking, watch out for cars."
-    },
-    {
-      "p": "一边…，一边…",
-      "e": "Two 一边 clauses show two actions happening at the same time.",
-      "x": "我一边走路，一边看手机。— I was walking while looking at my phone."
-    },
-    {
-      "p": "再也不…了",
-      "e": "再也不 + verb + 了 means 'never do something again' — a firm decision made after an experience.",
-      "x": "我再也不看手机了。— I never look at my phone (while walking) again."
-    }
+    {"p":"小心 (watch out / be careful)","e":"小心 can stand alone as a warning — \"Watch out!\" — or be followed by a noun to mean 'watch out for ___': 小心车 (watch out for cars), 小心地滑 (careful, slippery floor).","x":"走路的时候要小心车。— When walking, watch out for cars."},
+    {"p":"一边…，一边…","e":"Two 一边 clauses show two actions happening at the same time.","x":"我一边走路，一边看手机。— I was walking while looking at my phone."},
+    {"p":"再也不…了","e":"再也不 + verb + 了 means 'never do something again' — a firm decision made after an experience.","x":"我再也不看手机了。— I never look at my phone (while walking) again."}
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-dont-worry",
+  "level": 3,
+  "title_zh": "别担心",
+  "title_py": "Bié dānxīn",
+  "title_en": "Don't Worry in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["明天","míngtiān","tomorrow"],["我","wǒ","I; me"],["要","yào","will; going to"],["考试","kǎoshì","exam; to take a test"],["，"],["可是","kěshì","but"],["我","wǒ","I; me"],["还","hái","still"],["没有","méiyǒu","have not"],["复习","fùxí","to review"],["完","wán","to finish"],["，"],["心里","xīnli","in one's heart"],["很","hěn","very"],["担心","dānxīn","to worry"],["。"]],
+      "en": "Tomorrow I have an exam, but I still haven't finished reviewing — I'm worried."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["别","bié","don't"],["担心","dānxīn","to worry"],["，"],["你","nǐ","you"],["已经","yǐjīng","already"],["很","hěn","very"],["努力","nǔlì","hardworking; to work hard"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "My friend said: \"Don't worry, you've already worked so hard.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["可是","kěshì","but"],["我","wǒ","I; me"],["还是","háishi","still"],["很","hěn","very"],["紧张","jǐnzhāng","nervous"],["，"],["觉得","juéde","to feel; to think"],["自己","zìjǐ","oneself"],["考","kǎo","to take a test"],["不好","bù hǎo","not well"],["。"],["”"]],
+      "en": "I said: \"But I'm still nervous — I feel like I won't do well.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["放心","fàngxīn","to rest assured; relax"],["吧","ba","(suggestion particle)"],["，"],["你","nǐ","you"],["每天","měitiān","every day"],["都","dōu","all"],["在","zài","(ongoing action)"],["学习","xuéxí","to study"],["，"],["一定","yídìng","certainly"],["没问题","méi wèntí","no problem"],["。"],["”"]],
+      "en": "My friend said: \"Relax — you study every day, it'll definitely be fine.\""
+    },
+    {
+      "t": [["到了","dàole","arrived at"],["考试","kǎoshì","exam; to take a test"],["那","nà","that"],["天","tiān","day"],["，"],["问题","wèntí","question; problem"],["不","bù","not"],["难","nán","difficult"],["，"],["我","wǒ","I; me"],["都","dōu","all"],["会","huì","can; know how to"],["做","zuò","to do"],["。"]],
+      "en": "When exam day came, the questions weren't hard, and I could answer them all."
+    },
+    {
+      "t": [["考","kǎo","to take a test"],["完","wán","to finish"],["以后","yǐhòu","after"],["，"],["我","wǒ","I; me"],["给","gěi","to; for"],["朋友","péngyou","friend"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["说","shuō","to say"],["："],["“"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(change of state)"],["，"],["真的","zhēnde","really"],["没事","méishì","it's fine; nothing's wrong"],["！"],["”"]],
+      "en": "After the exam, I called my friend and said: \"It's great, everything's fine!\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["笑","xiào","to laugh"],["了","le","(completed action)"],["，"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["看","kàn","see"],["，"],["我","wǒ","I"],["说","shuō","to say"],["得","de","(complement particle)"],["对","duì","right"],["吧","ba","(particle)"],["。"],["”"]],
+      "en": "My friend laughed and said, \"See? I told you so.\""
+    }
+  ],
+  "vocab": [
+    ["担心","dānxīn","to worry"],
+    ["放心","fàngxīn","to rest assured; relax"],
+    ["没事","méishì","it's fine; nothing's wrong"],
+    ["考试","kǎoshì","exam; to take a test"],
+    ["紧张","jǐnzhāng","nervous"],
+    ["努力","nǔlì","hardworking; to work hard"]
+  ],
+  "quiz": [
+    {"q":"What is the narrator worried about?","a":["Losing a job","An exam tomorrow","A doctor's appointment"],"c":1},
+    {"q":"What does the friend say to comfort the narrator?","a":["别担心 / 放心吧 — don't worry, relax","别客气 — you're welcome","没关系 — it doesn't matter"],"c":0},
+    {"q":"How did the exam turn out?","a":["It was very hard","The narrator failed","It went fine — 没事!"],"c":2}
+  ],
+  "grammar": [
+    {"p":"别 + verb (don't...)","e":"别 before a verb tells someone not to do something — 别担心 (don't worry) is one of the most common uses.","x":"别担心，你已经很努力了。— Don't worry, you've already worked so hard."},
+    {"p":"放心吧 (relax; rest assured)","e":"放心吧 is a softer, more reassuring way to say 'don't worry' — often used to calm someone down.","x":"放心吧，一定没问题。— Relax, it'll definitely be fine."},
+    {"p":"A没有用，B才有用 (only B is useful)","e":"才 here means 'only then' — pairing 没有用 with 才有用 contrasts something useless with the one thing that actually helps.","x":"担心没有用，努力才有用。— Worrying is useless, only hard work is."}
+  ]
+}

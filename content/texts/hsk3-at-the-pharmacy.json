@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-at-the-pharmacy",
+  "level": 3,
+  "title_zh": "在药店",
+  "title_py": "Zài yàodiàn",
+  "title_en": "At the Pharmacy in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["头疼","tóuténg","to have a headache"],["，"],["还","hái","also"],["有点儿","yǒudiǎnr","a little"],["发烧","fāshāo","to have a fever"],["，"],["就","jiù","then"],["去","qù","to go"],["药店","yàodiàn","pharmacy"],["买","mǎi","to buy"],["药","yào","medicine"],["。"]],
+      "en": "I had a headache and a bit of a fever, so I went to the pharmacy to buy medicine."
+    },
+    {
+      "t": [["药店","yàodiàn","pharmacy"],["的","de","(possessive particle)"],["服务员","fúwùyuán","clerk; attendant"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["你","nǐ","you"],["哪儿","nǎr","where"],["不","bù","not"],["舒服","shūfu","comfortable; well"],["？"],["”"]],
+      "en": "The clerk at the pharmacy asked me: \"Where does it hurt?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["头疼","tóuténg","to have a headache"],["，"],["还","hái","also"],["发烧","fāshāo","to have a fever"],["，"],["很","hěn","very"],["不","bù","not"],["舒服","shūfu","comfortable; well"],["。"],["”"]],
+      "en": "I said: \"I have a headache and a fever — I feel awful.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["给","gěi","to give"],["我","wǒ","I; me"],["拿","ná","to bring; to take"],["了","le","(completed action)"],["一","yì","one"],["盒","hé","(measure word for boxes)"],["药","yào","medicine"],["，"],["说","shuō","to say"],["："],["“"],["一","yì","one"],["天","tiān","day"],["吃","chī","to eat; to take (medicine)"],["三","sān","three"],["次","cì","time(s)"],["，"],["一","yí","one"],["次","cì","time(s)"],["两","liǎng","two"],["个","ge","(measure word)"],["。"],["”"]],
+      "en": "The clerk handed me a box of medicine and said: \"Take it three times a day, two pills each time.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["："],["“"],["这个","zhège","this"],["多少钱","duōshao qián","how much (money)"],["？"],["”"],["她","tā","she"],["说","shuō","to say"],["："],["“"],["十五","shíwǔ","fifteen"],["块","kuài","yuan (colloquial)"],["。"],["”"]],
+      "en": "I asked: \"How much is this?\" She said: \"Fifteen kuai.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["给","gěi","to give"],["了","le","(completed action)"],["钱","qián","money"],["，"],["说","shuō","to say"],["了","le","(completed action)"],["谢谢","xièxiè","thank you"],["，"],["就","jiù","then"],["回家","huíjiā","to go home"],["了","le","(change of state)"],["。"]],
+      "en": "I paid, said thank you, and went home."
+    },
+    {
+      "t": [["吃","chī","to eat; to take (medicine)"],["了","le","(completed action)"],["两","liǎng","two"],["天","tiān","day"],["药","yào","medicine"],["，"],["我","wǒ","I; me"],["的","de","(possessive particle)"],["头","tóu","head"],["不","bù","not"],["疼","téng","to hurt; painful"],["了","le","(change of state)"],["，"],["也","yě","also"],["不","bù","not"],["发烧","fāshāo","to have a fever"],["了","le","(change of state)"],["。"]],
+      "en": "After taking the medicine for two days, my head didn't hurt anymore, and the fever was gone too."
+    },
+    {
+      "t": [["我","wǒ","I"],["给","gěi","to give"],["妈妈","māma","mom"],["打电话","dǎ diànhuà","to call"],["，"],["她","tā","she"],["说","shuō","to say"],["："],["“"],["好","hǎo","well"],["了","le","(change of state)"],["就","jiù","then"],["好","hǎo","good"],["，"],["别","bié","don't"],["忘","wàng","to forget"],["了","le","(particle)"],["多","duō","more"],["喝","hē","to drink"],["水","shuǐ","water"],["。"],["”"]],
+      "en": "I called my mom, and she said, \"Glad you're better — just remember to drink plenty of water.\""
+    }
+  ],
+  "vocab": [
+    ["药店","yàodiàn","pharmacy"],
+    ["头疼","tóuténg","to have a headache"],
+    ["发烧","fāshāo","to have a fever"],
+    ["舒服","shūfu","comfortable; well"],
+    ["服务员","fúwùyuán","clerk; attendant"],
+    ["多少钱","duōshao qián","how much (money)"]
+  ],
+  "quiz": [
+    {"q":"Why did the narrator go to the pharmacy?","a":["To buy snacks","To meet a friend","Because of a headache and fever"],"c":2},
+    {"q":"How often should the medicine be taken?","a":["Three times a day, two pills each time","Once a day, one pill","Only before bed"],"c":0},
+    {"q":"How much did the medicine cost?","a":["Fifty kuai","Fifteen kuai","Five kuai"],"c":1}
+  ],
+  "grammar": [
+    {"p":"一天吃三次 (take it three times a day)","e":"To describe medicine dosage, say 一天 + 吃 + number + 次 for how often, then 一次 + amount for how much each time.","x":"一天吃三次，一次两个。— Take it three times a day, two pills each time."},
+    {"p":"你哪儿不舒服？(Where does it hurt?)","e":"哪儿不舒服 literally asks 'where are you uncomfortable' — the standard way a doctor or pharmacist asks what's wrong.","x":"你哪儿不舒服？— Where does it hurt?"},
+    {"p":"早点儿 + verb (do something sooner)","e":"早点儿 before a verb suggests doing it a bit earlier, rather than waiting.","x":"身体不舒服，要早点儿去药店买药。— When you're not feeling well, go to the pharmacy sooner rather than later."}
+  ]
+}

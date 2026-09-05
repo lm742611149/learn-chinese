@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-ordering-delivery",
+  "level": 3,
+  "title_zh": "点外卖",
+  "title_py": "Diǎn wàimài",
+  "title_en": "Ordering Delivery in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["我","wǒ","I; me"],["不想","bùxiǎng","don't want to"],["做饭","zuòfàn","to cook"],["，"],["就","jiù","then"],["用","yòng","to use"],["手机","shǒujī","cell phone"],["点","diǎn","to order"],["了","le","(completed action)"],["一个","yí ge","one"],["外卖","wàimài","food delivery"],["。"]],
+      "en": "In the evening I didn't feel like cooking, so I used my phone to order delivery."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["点","diǎn","to order"],["了","le","(completed action)"],["一个","yí ge","one"],["菜","cài","dish"],["和","hé","and"],["一","yì","one"],["碗","wǎn","(measure word for bowls)"],["米饭","mǐfàn","rice"],["，"],["一共","yígòng","in total"],["二十","èrshí","twenty"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],["。"]],
+      "en": "I ordered a dish and a bowl of rice, twenty kuai in total."
+    },
+    {
+      "t": [["送","sòng","to deliver"],["外卖","wàimài","food delivery"],["的","de","(possessive particle)"],["人","rén","person"],["给","gěi","to; for"],["我","wǒ","I; me"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["到","dào","to arrive"],["楼下","lóuxià","downstairs"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "The delivery person called me and said: \"I'm downstairs.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["马上","mǎshàng","immediately"],["到","dào","to arrive"],["楼下","lóuxià","downstairs"],["，"],["拿","ná","to take; to get"],["了","le","(completed action)"],["外卖","wàimài","food delivery"],["，"],["跟","gēn","with"],["他","tā","he; him"],["说","shuō","to say"],["了","le","(completed action)"],["谢谢","xièxiè","thank you"],["。"]],
+      "en": "I hurried downstairs, took the delivery, and said thanks to him."
+    },
+    {
+      "t": [["回到","huídào","to return to"],["家","jiā","home"],["，"],["外卖","wàimài","food delivery"],["还是","háishi","still"],["热","rè","hot"],["的","de","(particle)"],["，"],["菜","cài","dish"],["很","hěn","very"],["好吃","hǎochī","delicious"],["，"],["米饭","mǐfàn","rice"],["也","yě","also"],["不错","búcuò","pretty good"],["。"]],
+      "en": "Back home, the food was still hot — the dish was delicious, and the rice was good too."
+    },
+    {
+      "t": [["这样","zhèyàng","like this"],["点","diǎn","to order"],["外卖","wàimài","food delivery"],["，"],["比","bǐ","compared to"],["自己","zìjǐ","oneself"],["做饭","zuòfàn","to cook"],["快","kuài","fast"],["多","duō","much (more)"],["了","le","(change of state)"],["。"]],
+      "en": "Ordering delivery like this is much faster than cooking myself."
+    },
+    {
+      "t": [["可是","kěshì","but"],["妈妈","māma","mom"],["说","shuō","to say"],["，"],["外卖","wàimài","food delivery"],["没有","méiyǒu","not as ... as"],["家里","jiā lǐ","at home"],["做","zuò","to make"],["的","de","(nominalizer)"],["好","hǎo","good"],["。"]],
+      "en": "My mom, though, says delivery is never as good as what you cook at home."
+    }
+  ],
+  "vocab": [
+    ["外卖","wàimài","food delivery"],
+    ["做饭","zuòfàn","to cook"],
+    ["一共","yígòng","in total"],
+    ["楼下","lóuxià","downstairs"],
+    ["好吃","hǎochī","delicious"],
+    ["不错","búcuò","pretty good"]
+  ],
+  "quiz": [
+    {"q":"Why did the narrator order delivery?","a":["Didn't feel like cooking","Ran out of rice","Wanted to try a new restaurant"],"c":0},
+    {"q":"How did the delivery person let the narrator know they'd arrived?","a":["Knocked on the door","Sent a text message","Called on the phone"],"c":2},
+    {"q":"How was the food when it arrived?","a":["Cold and not good","Still hot and delicious","Missing the rice"],"c":1}
+  ],
+  "grammar": [
+    {"p":"点外卖 (to order delivery)","e":"点 means 'to order' and 外卖 means 'takeout/delivery food' — together, 点外卖 is the everyday phrase for ordering food to be delivered.","x":"我用手机点了一个外卖。— I used my phone to order delivery."},
+    {"p":"比 + A + adj + 多了 (much more ... than A)","e":"比 A + adjective + 多了 compares two things, saying one is much more so than the other.","x":"点外卖比自己做饭快多了。— Ordering delivery is much faster than cooking myself."},
+    {"p":"还是 + adj + 的 (still ...)","e":"还是 before an adjective, with 的 at the end, says something remains in that state.","x":"外卖还是热的。— The food was still hot."}
+  ]
+}

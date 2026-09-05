@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-buying-a-train-ticket",
+  "level": 2,
+  "title_zh": "买火车票",
+  "title_py": "Mǎi huǒchē piào",
+  "title_en": "Buying a Train Ticket in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["明天","míngtiān","tomorrow"],["，"],["我","wǒ","I"],["和","hé","and"],["朋友","péngyou","friend"],["要","yào","will"],["坐","zuò","to take"],["火车","huǒchē","train"],["去","qù","to go"],["北京","Běijīng","Beijing"],["，"],["我们","wǒmen","we"],["去","qù","to go"],["火车站","huǒchēzhàn","train station"],["买","mǎi","to buy"],["票","piào","ticket"],["。"]],
+      "en": "Tomorrow my friend and I are taking the train to Beijing, so we go to the station to buy tickets."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk"],["问","wèn","to ask"],["："],["“"],["你们","nǐmen","you (plural)"],["去","qù","to go"],["哪儿","nǎr","where"],["？"],["”"]],
+      "en": "The clerk asks, \"Where are you going?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["去","qù","to go"],["北京","Běijīng","Beijing"],["，"],["要","yào","want"],["两","liǎng","two"],["张","zhāng","(measure word for tickets)"],["九","jiǔ","nine"],["点","diǎn","o'clock"],["的","de","(nominalizer)"],["票","piào","ticket"],["。"],["”"]],
+      "en": "I say, \"To Beijing — two tickets for the nine o'clock, please.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk"],["看","kàn","to look"],["了","le","(completed action)"],["看","kàn","to look"],["，"],["说","shuō","to say"],["："],["“"],["九","jiǔ","nine"],["点","diǎn","o'clock"],["的","de","(nominalizer)"],["没有","méiyǒu","not have"],["了","le","(change of state)"],["，"],["十","shí","ten"],["点","diǎn","o'clock"],["的","de","(nominalizer)"],["可以","kěyǐ","okay"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "The clerk checks and says, \"The nine o'clock is sold out. Would ten work?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["朋友","péngyou","friend"],["，"],["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["可以","kěyǐ","okay"],["，"],["十","shí","ten"],["点","diǎn","o'clock"],["也","yě","also"],["不","bù","not"],["晚","wǎn","late"],["。"],["”"]],
+      "en": "I check with my friend, who says, \"That's fine — ten isn't late either.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk"],["说","shuō","to say"],["："],["“"],["好","hǎo","alright"],["，"],["两","liǎng","two"],["张","zhāng","(measure word for tickets)"],["票","piào","ticket"],["，"],["一共","yígòng","in total"],["四十","sìshí","forty"],["块","kuài","kuai"],["。"],["”"]],
+      "en": "The clerk says, \"Alright — two tickets, forty kuai in total.\""
+    },
+    {
+      "t": [["我们","wǒmen","we"],["买","mǎi","to buy"],["了","le","(completed action)"],["票","piào","ticket"],["，"],["出来","chūlai","to come out"],["的","de","(particle)"],["时候","shíhou","when"],["，"],["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["明天","míngtiān","tomorrow"],["我们","wǒmen","we"],["早","zǎo","early"],["一点","yìdiǎn","a bit"],["来","lái","to come"],["。"],["”"]],
+      "en": "We buy the tickets, and on the way out my friend says, \"Let's get here a bit early tomorrow.\""
+    }
+  ],
+  "vocab": [
+    ["票","piào","ticket"],
+    ["张","zhāng","(measure word for tickets)"],
+    ["几","jǐ","how many; what"],
+    ["点","diǎn","o'clock"],
+    ["一共","yígòng","in total"],
+    ["块","kuài","yuan (colloquial)"]
+  ],
+  "quiz": [
+    {"q":"Where are the two friends going?","a":["Shanghai","Beijing","Home"],"c":1},
+    {"q":"Why can't they take the nine o'clock train?","a":["It is sold out","It is too expensive","It does not go to Beijing"],"c":0},
+    {"q":"How much do the two tickets cost in total?","a":["Thirty kuai","Ninety kuai","Forty kuai"],"c":2}
+  ],
+  "grammar": [
+    {"p":"几点的 — \"the one at what time\"","e":"的 turns a time into \"the one at that time\", so you can drop the noun: 九点的 = the nine o'clock one.","x":"我们要九点的票。 — We want tickets for the nine o'clock."},
+    {"p":"张 — measure word for flat things","e":"Tickets, paper and tables take 张, never 个: 两张票, not 两个票.","x":"两张票，一共六十块。 — Two tickets, sixty kuai in total."},
+    {"p":"别 + verb — don't do it","e":"别 makes a soft negative command, gentler than 不要. It appears all over spoken Chinese.","x":"别说了。 — Stop talking / don't say any more."}
+  ]
+}

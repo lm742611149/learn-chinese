@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-lets-go",
+  "level": 2,
+  "title_zh": "走吧",
+  "title_py": "Zǒu ba",
+  "title_en": "Let's Go in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["我们", "wǒmen", "we"],["几", "jǐ", "a few"],["个", "gè", "(measure word)"],["朋友", "péngyou", "friends"],["一起", "yìqǐ", "together"],["吃饭", "chīfàn", "to eat a meal"],["，"],["说", "shuō", "to speak"],["了", "le", "(completed action)"],["很", "hěn", "very"],["多", "duō", "many"],["话", "huà", "words"],["。"]],
+      "en": "In the evening, a few friends and I have dinner together and talk a lot."
+    },
+    {
+      "t": [["时间", "shíjiān", "time"],["不", "bù", "not"],["早", "zǎo", "early"],["了", "le", "(change of state)"],["，"],["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["我们", "wǒmen", "we"],["走", "zǒu", "to go"],["吧", "ba", "(suggestion particle)"],["！"],["”"]],
+      "en": "It's getting late, so I say: \"Let's go!\""
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["好", "hǎo", "OK"],["，"],["走", "zǒu", "to go"],["吧", "ba", "(suggestion particle)"],["，"],["我们", "wǒmen", "we"],["去", "qù", "to go"],["坐", "zuò", "to take (a bus)"],["公共汽车", "gōnggòng qìchē", "bus"],["。"],["”"]],
+      "en": "My friend says: \"OK, let's go — we'll take the bus.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["走", "zǒu", "to walk"],["到", "dào", "to arrive at"],["门口", "ménkǒu", "doorway"],["，"],["可是", "kěshì", "but"],["小王", "Xiǎo Wáng", "Xiao Wang"],["还", "hái", "still"],["坐", "zuò", "to sit"],["着", "zhe", "(ongoing state)"],["，"],["没有", "méiyǒu", "did not"],["走", "zǒu", "to go"],["。"]],
+      "en": "We walk to the doorway, but Xiao Wang is still sitting there and hasn't gotten up."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["小王", "Xiǎo Wáng", "Xiao Wang"],["，"],["走", "zǒu", "to go"],["吧", "ba", "(suggestion particle)"],["，"],["别", "bié", "don't"],["说", "shuō", "to speak"],["了", "le", "(change of state)"],["！"],["”"]],
+      "en": "I say: \"Xiao Wang, let's go — stop talking!\""
+    },
+    {
+      "t": [["小王", "Xiǎo Wáng", "Xiao Wang"],["笑", "xiào", "to laugh"],["了", "le", "(completed action)"],["，"],["说", "shuō", "to say"],["："],["“"],["好", "hǎo", "OK"],["，"],["好", "hǎo", "OK"],["，"],["我们", "wǒmen", "we"],["走", "zǒu", "to go"],["！"],["”"]],
+      "en": "Xiao Wang laughs and says: \"OK, OK, let's go!\""
+    }
+  ],
+  "vocab": [
+    ["走", "zǒu", "to go; to walk"],
+    ["吧", "ba", "(suggestion particle)"],
+    ["别", "bié", "don't"],
+    ["还", "hái", "still"],
+    ["着", "zhe", "(ongoing state)"],
+    ["公共汽车", "gōnggòng qìchē", "bus"]
+  ],
+  "quiz": [
+    {"q": "What does 走吧 mean here?", "a": ["Let's go!", "Sit down.", "Wait a moment."], "c": 0},
+    {"q": "Why does the narrator tell Xiao Wang to hurry?", "a": ["He's late for work", "Xiao Wang is still sitting and talking", "He forgot his phone"], "c": 1},
+    {"q": "How do the friends leave?", "a": ["By taxi", "By bicycle", "By bus"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "走吧（let's go!）", "e": "走 means to leave, and adding 吧 turns it into a friendly suggestion — 'let's go!'", "x": "我们走吧！— Let's go!"},
+    {"p": "吧（softening a suggestion）", "e": "吧 at the end of a sentence turns a statement into a suggestion, softer than a command.", "x": "好，走吧。— OK, let's go."},
+    {"p": "还 + V + 着（still doing something）", "e": "还...着 describes an action that is still going on.", "x": "小王还坐着。— Xiao Wang is still sitting there."}
+  ]
+}

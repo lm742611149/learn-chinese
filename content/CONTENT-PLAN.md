@@ -77,17 +77,43 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 太贵了 → Too Expensive in Chinese ⭐️(砍价,与已有「便宜还是贵」的比价区分) /
 请说慢一点 → Please Speak Slowly in Chinese ⭐️ /
 你是什么意思 → What Do You Mean in Chinese
-后备: 量词 → Chinese Measure Words / 买车票 → Buying a Train Ticket in Chinese
+第二批(2026-09-06 开写): 我想你 → I Miss You in Chinese ⭐️ / 走吧 → Let's Go in Chinese ⭐️ /
+你在做什么 → What Are You Doing in Chinese ⭐️ / 真好吃 → Delicious in Chinese /
+一个还是两个 → Chinese Measure Words / 买火车票 → Buying a Train Ticket in Chinese
 
 **HSK 3** — (2026-09-05 首批 3 篇已开写)
 小心 → Be Careful in Chinese / 快一点 → Hurry Up in Chinese(与「迟到了」区分:催促 vs 结果) /
 买手机卡 → Getting a SIM Card in Chinese ⭐️(在华外国人真实痛点,竞争极低)
-后备: 在药店 → At the Pharmacy in Chinese / 点外卖 → Ordering Delivery in Chinese
+第二批(2026-09-06 开写): 怎么办 → What Should I Do in Chinese ⭐️ /
+别担心 → Don't Worry in Chinese ⭐️ / 好久不见 → Long Time No See in Chinese ⭐️(这句是中文直译进
+英文的,学习者爱搜) / 在药店 → At the Pharmacy in Chinese / 点外卖 → Ordering Delivery in Chinese
+
+### 还没写的候选(都做过撞题+词池检查以外的初筛,写之前再查一遍)
+加油 → Come On in Chinese(「加油」HSK4) / 干杯 → Cheers in Chinese /
+我饿了 → I'm Hungry in Chinese(「饿」HSK3) / 我饱了 → I'm Full in Chinese(「饱」HSK3) /
+请进 → Come In in Chinese / 我同意 → I Agree in Chinese(「同意」HSK3) /
+为什么 → Why in Chinese / 什么时候 → When in Chinese
 
 **又砍掉两条(词表不够,同「颜色」)**:
 - **身体部位 → Body Parts in Chinese**: HSK2 只有「眼睛」一个部位词,头/手/脚全不在。等 HSK4
 - **生日快乐 → Happy Birthday in Chinese**: 站上已有「过生日」「难忘的生日」「妈妈的生日」
   三篇生日课文,第四篇必然内容重合。用「我不知道」替换
+
+### ✅ 新课文三道检查(缺一不可,2026-09-06 定)
+
+```
+python3 validate_texts.py <slug片段...>   # schema:句数/标点/拼音/quiz/grammar 结构
+python3 check_vocab.py    <slug...>       # 超纲:池外词 >2 或没进 vocab 就报错
+python3 review_batch.py   <slug...>       # 人读才发现的那几类(见下)
+```
+
+⚠️ **前两道全过 ≠ 能发**。前两批的实际经验:schema 和词汇都干净,但内容仍有
+套话收尾、整题中文 quiz、代词无着落、逻辑打架、格式多行展开等问题。
+`review_batch.py` 就是把这些**踩过的坑**固化成检查项:套话收尾 / 结尾跨篇雷同 /
+quiz 整题中文 / quiz 答案扎堆 / 疑似超纲高级词点名 / t 数组多行 / 句内副词重复。
+
+**三道全绿之后仍要人眼通读一遍**(语义和自然度机器查不出) —— 例如
+「等一下,蛋糕做好了」这种前后打架、「妈妈说:女儿,我爱你」这种不像中文的称呼。
 
 ### 🔧 写课文时的词汇约束办法(2026-09-05 定)
 HSK2/3 的官方词表(300/600 词)不要凭记忆列 —— 容易错。改用**站内已验证词池**:
