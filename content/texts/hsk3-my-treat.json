@@ -50,7 +50,7 @@
   ],
   "grammar": [
     {"p":"抢着 + verb (to rush to be the one who does it)","e":"抢 means 'to grab/rush', and 抢着 + verb shows someone hurrying to do something before anyone else can.","x":"我就抢着说：“这次我请客！”— I jumped in: \"This one's on me!\""},
-    {"p":"还没 A，已经 B (before A happened, B already had)","e":"还没 + verb pairs with 已经 + verb to show one thing beat another to happen.","x":"朋友还没走到，我已经把钱给了服务员。— Before my friend could get there, I had already handed the money to the waiter."},
+    {"p":"刚 A，就 B — no sooner had A than B","e":"刚 marks something that just happened; 就 in the next clause says the second thing followed immediately. The pair is what makes the timing feel tight.","x":"服务员刚说完多少钱，我就抢着说：“这次我请客！” — The clerk had barely said the total before I jumped in: \"This one's on me!\""},
     {"p":"那 + clause (in that case, ...)","e":"那 at the start of a sentence means 'in that case' or 'then', responding to what just happened.","x":"那我请你喝一杯咖啡吧！— Then let me buy you a cup of coffee!"}
   ]
 }
