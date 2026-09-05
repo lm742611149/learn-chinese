@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-months-and-dates",
+  "level": 1,
+  "title_zh": "几月几号",
+  "title_py": "Jǐ yuè jǐ hào",
+  "title_en": "Months and Dates in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["今天","jīntiān","today"],["是","shì","to be"],["几","jǐ","which; how many"],["月","yuè","month"],["几","jǐ","which; how many"],["号","hào","day of the month"],["？"],["”"]],
+      "en": "My friend asks, \"What's the date today?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["今天","jīntiān","today"],["是","shì","to be"],["九月","jiǔ yuè","September"],["五","wǔ","five"],["号","hào","day of the month"],["。"],["”"]],
+      "en": "I say, \"Today is September 5th.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["九月","jiǔ yuè","September"],["五","wǔ","five"],["号","hào","day of the month"],["？"],["我","wǒ","my"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["是","shì","to be"],["九月","jiǔ yuè","September"],["十五","shíwǔ","fifteen"],["号","hào","day of the month"],["！"],["”"]],
+      "en": "My friend says, \"September 5th? My birthday is September 15th!\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["我","wǒ","my"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["是","shì","to be"],["九月","jiǔ yuè","September"],["二十","èrshí","twenty"],["号","hào","day of the month"],["，"],["我们","wǒmen","we; our"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["都","dōu","both; all"],["在","zài","in"],["九月","jiǔ yuè","September"],["。"],["”"]],
+      "en": "I say, \"My birthday is September 20th — both our birthdays are in September.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["九月","jiǔ yuè","September"],["十五","shíwǔ","fifteen"],["号","hào","day of the month"],["，"],["你","nǐ","you"],["来","lái","to come"],["我","wǒ","my"],["家","jiā","home"],["！"],["”"]],
+      "en": "My friend says, \"On September 15th, come over to my place!\""
+    }
+  ],
+  "vocab": [
+    ["月","yuè","month"],
+    ["号","hào","day of the month"],
+    ["几","jǐ","which; how many"],
+    ["生日","shēngrì","birthday"],
+    ["今天","jīntiān","today"],
+    ["来","lái","to come"]
+  ],
+  "quiz": [
+    {"q":"What is today's date in the story?","a":["September 5th","September 15th","September 20th"],"c":0},
+    {"q":"When is the friend's birthday?","a":["September 5th","September 15th","September 20th"],"c":1},
+    {"q":"What does the friend invite the narrator to do?","a":["Go shopping together","Go to school together","Come over on September 15th"],"c":2}
+  ],
+  "grammar": [
+    {"p":"今天是几月几号？ — asking the date","e":"几 means \"which/how many\" in questions. 几月几号 literally asks \"which month, which day\" — the standard way to ask a date.","x":"今天是几月几号？ — What's the date today?"},
+    {"p":"number + 月 + number + 号 — giving a date","e":"Chinese goes big to small: month first, then day. 九月五号 = September 5th. In writing you may also see 日 instead of 号.","x":"今天是九月五号。 — Today is September 5th."},
+    {"p":"都 — both, all","e":"都 goes after the subject and before the verb, not next to the noun the way English \"both\" does.","x":"我们的生日都在九月。 — Both our birthdays are in September."}
+  ]
+}

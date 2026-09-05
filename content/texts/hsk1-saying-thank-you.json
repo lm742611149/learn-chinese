@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-saying-thank-you",
+  "level": 1,
+  "title_zh": "谢谢你",
+  "title_py": "Xièxie nǐ",
+  "title_en": "Saying Thank You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["下雨","xiàyǔ","to rain"],["，"],["我","wǒ","I; me"],["没有","méiyǒu","to not have"],["伞","sǎn","umbrella"],["。"]],
+      "en": "It's raining today, and I don't have an umbrella."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["有","yǒu","to have"],["伞","sǎn","umbrella"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["回","huí","to return"],["家","jiā","home"],["。"],["”"]],
+      "en": "My classmate says, \"I have an umbrella, let's go home together.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["！"],["”"]],
+      "en": "I'm very happy, and I say, \"Thank you!\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["不客气","bú kèqi","you're welcome"],["，"],["我们","wǒmen","we"],["是","shì","to be"],["朋友","péngyou","friend"],["。"],["”"]],
+      "en": "My classmate says, \"You're welcome, we're friends.\""
+    },
+    {
+      "t": [["我们","wǒmen","we"],["一起","yìqǐ","together"],["回","huí","to return"],["家","jiā","home"],["，"],["天气","tiānqì","weather"],["很","hěn","very"],["冷","lěng","cold"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["高兴","gāoxìng","happy"],["。"]],
+      "en": "We go home together; the weather is very cold, but I'm very happy."
+    }
+  ],
+  "vocab": [
+    ["谢谢","xièxie","thank you"],
+    ["不客气","bú kèqi","you're welcome"],
+    ["伞","sǎn","umbrella"],
+    ["同学","tóngxué","classmate"],
+    ["高兴","gāoxìng","happy"],
+    ["一起","yìqǐ","together"]
+  ],
+  "quiz": [
+    {"q":"Why doesn't the narrator want to walk home alone?","a":["It's raining and there's no umbrella","It's too hot","The way is too far"],"c":0},
+    {"q":"What does the narrator say to thank the classmate?","a":["再见","没关系","谢谢"],"c":2},
+    {"q":"How does the classmate respond to the thanks?","a":["不客气","对不起","没有"],"c":0}
+  ],
+  "grammar": [
+    {"p":"谢谢 + 你 — thanking someone directly","e":"谢谢 means \"thank you\"; adding 你 makes it more personal, thanking a specific person.","x":"谢谢你！ — Thank you!"},
+    {"p":"不客气 — replying to thanks","e":"When someone thanks you, the standard reply is 不客气, meaning \"you're welcome\" or \"no need to be polite.\"","x":"不客气，我们是朋友。 — You're welcome, we're friends."},
+    {"p":"一起 + verb — doing something together","e":"一起 goes before a verb to show two or more people do the action together.","x":"我们一起回家。 — We go home together."}
+  ]
+}

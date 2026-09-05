@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-saying-sorry",
+  "level": 1,
+  "title_zh": "对不起",
+  "title_py": "Duìbuqǐ",
+  "title_en": "Saying Sorry in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["在","zài","at"],["家","jiā","home"],["打电话","dǎ diànhuà","to make a phone call"],["。"]],
+      "en": "This afternoon, I'm at home making a phone call."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["喂","wèi","hello (on the phone)"],["，"],["你好","nǐ hǎo","hello"],["，"],["你","nǐ","you"],["是","shì","to be"],["我","wǒ","I; me"],["同学","tóngxué","classmate"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I say, \"Hello, are you my classmate?\""
+    },
+    {
+      "t": [["那","nà","that"],["个","gè","(measure word)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["不","bù","not"],["是","shì","to be"],["，"],["你","nǐ","you"],["打错","dǎcuò","to dial the wrong (number)"],["了","le","(particle: completed action)"],["。"],["”"]],
+      "en": "The person says, \"No, you dialed the wrong number.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["对不起","duìbuqǐ","sorry"],["，"],["我","wǒ","I"],["打错","dǎ cuò","to dial wrong"],["了","le","(particle)"],["。"],["”"]],
+      "en": "I say, \"Sorry, I dialed the wrong number.\""
+    },
+    {
+      "t": [["那","nà","that"],["个","gè","(measure word)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it's okay"],["，"],["没关系","méi guānxi","it's okay"],["。"],["”"]],
+      "en": "The person says, \"It's okay, it's okay.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["，"],["再见","zàijiàn","goodbye"],["！"],["”"]],
+      "en": "I say, \"Thank you, goodbye!\""
+    }
+  ],
+  "vocab": [
+    ["对不起","duìbuqǐ","sorry"],
+    ["没关系","méi guānxi","it's okay; it doesn't matter"],
+    ["打电话","dǎ diànhuà","to make a phone call"],
+    ["打错","dǎcuò","to dial the wrong (number)"],
+    ["喂","wèi","hello (on the phone)"],
+    ["同学","tóngxué","classmate"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator do this afternoon?","a":["Writes a letter","Makes a phone call","Goes to school"],"c":1},
+    {"q":"What does the person on the phone say happened?","a":["The narrator dialed the wrong number","The phone is broken","The classmate is not home"],"c":0},
+    {"q":"How does the person respond to the narrator's apology?","a":["谢谢","没关系","再见"],"c":1}
+  ],
+  "grammar": [
+    {"p":"对不起 — apologizing","e":"对不起 is the standard way to say \"sorry\" or \"I apologize\" in Chinese.","x":"对不起，对不起！ — Sorry, sorry!"},
+    {"p":"没关系 — replying to an apology","e":"没关系 means \"it doesn't matter\" or \"it's okay,\" the common reply when someone apologizes.","x":"没关系，没关系。 — It's okay, it's okay."},
+    {"p":"打错 + 了 — doing something the wrong way","e":"打错 means \"dialed wrong\"; adding 了 shows the mistake already happened.","x":"你打错了。 — You dialed the wrong number."}
+  ]
+}

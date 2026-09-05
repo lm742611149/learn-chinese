@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-how-much-does-it-cost",
+  "level": 1,
+  "title_zh": "多少钱",
+  "title_py": "Duōshao qián",
+  "title_en": "Asking How Much It Costs in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["和","hé","and; with"],["妈妈","māma","mom"],["去","qù","to go"],["商店","shāngdiàn","store"],["买","mǎi","to buy"],["东西","dōngxi","things"],["。"]],
+      "en": "This afternoon, my mom and I go to the store to buy things."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一些","yìxiē","some"],["漂亮","piàoliang","pretty"],["的","de","(particle)"],["衣服","yīfu","clothes"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["这些","zhèxiē","these"],["衣服","yīfu","clothes"],["多少","duōshao","how much"],["钱","qián","money"],["？"],["”"]],
+      "en": "I see some pretty clothes, and I say, \"How much are these clothes?\""
+    },
+    {
+      "t": [["商店","shāngdiàn","store"],["的","de","(particle)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["这些","zhèxiē","these"],["衣服","yīfu","clothes"],["三十","sānshí","thirty"],["块","kuài","kuai (unit of money)"],["钱","qián","money"],["。"],["”"]],
+      "en": "The store clerk says, \"These clothes are thirty kuai.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["看见","kànjiàn","to see"],["一","yí","one"],["个","gè","(measure word)"],["杯子","bēizi","cup"],["，"],["她","tā","she"],["说","shuō","to say"],["："],["“"],["杯子","bēizi","cup"],["多少","duōshao","how much"],["钱","qián","money"],["一","yí","one"],["个","gè","(measure word)"],["？"],["”"]],
+      "en": "Mom sees a cup, and she says, \"How much is one cup?\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["买","mǎi","to buy"],["了","le","(particle: completed action)"],["东西","dōngxi","things"],["，"],["坐","zuò","to sit; to take (transport)"],["出租车","chūzūchē","taxi"],["回","huí","to return"],["家","jiā","home"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["多少","duōshao","how much"],["钱","qián","money"],["？"],["”"]],
+      "en": "We buy the things, take a taxi home, and I say, \"How much?\""
+    },
+    {
+      "t": [["出租车","chūzūchē","taxi"],["的","de","(particle)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["十五","shíwǔ","fifteen"],["块","kuài","kuai (unit of money)"],["钱","qián","money"],["。"],["”"]],
+      "en": "The taxi driver says, \"Fifteen kuai.\""
+    }
+  ],
+  "vocab": [
+    ["多少","duōshao","how much; how many"],
+    ["钱","qián","money"],
+    ["商店","shāngdiàn","store"],
+    ["买","mǎi","to buy"],
+    ["块","kuài","kuai (unit of money)"],
+    ["出租车","chūzūchē","taxi"]
+  ],
+  "quiz": [
+    {"q":"What do the narrator and mom go to the store to buy?","a":["Fruit","Water","Things"],"c":2},
+    {"q":"How much are the clothes?","a":["Thirty kuai","Fifteen kuai","Fifty kuai"],"c":0},
+    {"q":"How do they go home?","a":["By bus","By taxi","By airplane"],"c":1}
+  ],
+  "grammar": [
+    {"p":"X多少钱? — asking the price of something","e":"To ask how much something costs, put the noun before 多少钱: 衣服多少钱? = How much are the clothes?","x":"这些衣服多少钱？ — How much are these clothes?"},
+    {"p":"X多少钱一个? — asking the price per item","e":"Add 一个 (or another measure word) after 多少钱 to ask the price of just one item: 杯子多少钱一个? = How much is one cup?","x":"杯子多少钱一个？ — How much is one cup?"},
+    {"p":"多少钱? alone — a quick, bare question","e":"When it's already clear what you're paying for (like a taxi ride you just took), you can simply ask 多少钱? by itself, meaning \"How much (is it)?\"","x":"我说：“多少钱？” — I say, \"How much?\""}
+  ]
+}

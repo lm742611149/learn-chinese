@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-i-love-you",
+  "level": 1,
+  "title_zh": "我爱你",
+  "title_py": "Wǒ ài nǐ",
+  "title_en": "How to Say I Love You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["明天","míngtiān","tomorrow"],["我","wǒ","I; me"],["去","qù","to go"],["北京","Běijīng","Beijing"],["学习","xuéxí","to study"],["。"]],
+      "en": "Tomorrow I'm going to Beijing to study."
+    },
+    {
+      "t": [["妈妈","māma","mom"],["看","kàn","to look at"],["我","wǒ","my"],["的","de","(possessive particle)"],["衣服","yīfu","clothes"],["和","hé","and"],["书","shū","book"],["，"],["她","tā","she"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["去","qù","to go"],["北京","Běijīng","Beijing"],["，"],["我","wǒ","I"],["在","zài","at"],["家","jiā","home"],["，"],["我","wǒ","I"],["想","xiǎng","to miss; to think of"],["你","nǐ","you"],["。"],["”"]],
+      "en": "Mom looks at my clothes and books and says, \"You'll be in Beijing and I'll be at home. I'll miss you.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["妈妈","māma","mom"],["，"],["我","wǒ","I"],["爱","ài","to love"],["你","nǐ","you"],["。"],["”"]],
+      "en": "I say, \"Mom, I love you.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["也","yě","also; too"],["爱","ài","to love"],["你","nǐ","you"],["。"],["”"]],
+      "en": "Mom says, \"I love you too.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["喜欢","xǐhuan","to like"],["学校","xuéxiào","school"],["，"],["喜欢","xǐhuan","to like"],["朋友","péngyou","friend"],["，"],["我","wǒ","I"],["爱","ài","to love"],["爸爸","bàba","dad"],["妈妈","māma","mom"],["。"]],
+      "en": "I like school and I like my friends — but it's my mom and dad I love."
+    }
+  ],
+  "vocab": [
+    ["爱","ài","to love"],
+    ["喜欢","xǐhuan","to like"],
+    ["想","xiǎng","to miss; to think of"],
+    ["妈妈","māma","mom"],
+    ["爸爸","bàba","dad"],
+    ["学习","xuéxí","to study"]
+  ],
+  "quiz": [
+    {"q":"Where is the narrator going tomorrow?","a":["To Beijing","To the store","To a friend's home"],"c":0},
+    {"q":"Where will Mom be while the narrator is in Beijing?","a":["In Beijing too","At home","At school"],"c":1},
+    {"q":"According to the last line, who does the narrator love?","a":["Friends","School","Mom and Dad"],"c":2}
+  ],
+  "grammar": [
+    {"p":"我爱你 — saying I love you","e":"爱 is strong in Chinese. It is used for family and partners, not for things you merely enjoy: 我爱你 = I love you.","x":"妈妈，我爱你。 — Mom, I love you."},
+    {"p":"喜欢 vs 爱 — like vs love","e":"喜欢 covers liking things, places and friends; 爱 is saved for the people closest to you. Saying 我爱苹果 for a fruit sounds odd — use 喜欢.","x":"我喜欢朋友，我爱爸爸妈妈。 — I like my friends; I love my mom and dad."},
+    {"p":"也 — also, too","e":"也 goes before the verb, never at the end of the sentence the way English \"too\" does.","x":"我也爱你。 — I love you too."}
+  ]
+}

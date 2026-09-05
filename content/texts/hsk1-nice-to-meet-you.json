@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-nice-to-meet-you",
+  "level": 1,
+  "title_zh": "认识你很高兴",
+  "title_py": "Rènshi nǐ hěn gāoxìng",
+  "title_en": "Nice to Meet You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I; me"],["在","zài","at; in"],["学校","xuéxiào","school"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一","yí","one"],["个","gè","(measure word)"],["同学","tóngxué","classmate"],["，"],["她","tā","she"],["叫","jiào","to be called"],["小美","Xiǎoměi","Xiaomei (name)"],["。"]],
+      "en": "Today at school, I see a classmate; her name is Xiaomei."
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["叫","jiào","to be called"],["什么","shénme","what"],["名字","míngzi","name"],["？"],["”"]],
+      "en": "She says, \"What's your name?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["叫","jiào","to be called"],["王小明","Wáng Xiǎomíng","Wang Xiaoming (name)"],["，"],["认识","rènshi","to know; to meet"],["你","nǐ","you"],["很","hěn","very"],["高兴","gāoxìng","happy"],["！"],["”"]],
+      "en": "I say, \"My name is Wang Xiaoming. Nice to meet you!\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["认识","rènshi","to know; to meet"],["你","nǐ","you"],["，"],["我","wǒ","I; me"],["也","yě","also"],["很","hěn","very"],["高兴","gāoxìng","happy"],["！"],["你","nǐ","you"],["是","shì","to be"],["哪国人","nǎ guó rén","what nationality"],["？"],["”"]],
+      "en": "She says, \"Nice to meet you too! What's your nationality?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["是","shì","to be"],["中国","Zhōngguó","China"],["人","rén","person"],["，"],["你","nǐ","you"],["呢","ne","(question particle)"],["？"],["”"]],
+      "en": "I say, \"I'm Chinese. What about you?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["也","yě","also"],["是","shì","to be"],["中国人","Zhōngguórén","Chinese person"],["，"],["我们","wǒmen","we"],["是","shì","to be"],["同学","tóngxué","classmate"],["，"],["也","yě","also"],["是","shì","to be"],["朋友","péngyou","friend"],["。"],["”"]],
+      "en": "She says, \"I'm Chinese too — we're classmates, and friends as well.\""
+    }
+  ],
+  "vocab": [
+    ["认识","rènshi","to know; to meet"],
+    ["高兴","gāoxìng","happy"],
+    ["名字","míngzi","name"],
+    ["同学","tóngxué","classmate"],
+    ["哪国人","nǎ guó rén","what nationality"],
+    ["中国","Zhōngguó","China"]
+  ],
+  "quiz": [
+    {"q":"What is the classmate's name?","a":["Wang Xiaoming","Xiaomei","Zhongguo"],"c":1},
+    {"q":"What does the narrator say his name is?","a":["Wang Xiaoming","Xiaomei","Xuexiao"],"c":0},
+    {"q":"What nationality are both of them?","a":["American","Japanese","Chinese"],"c":2}
+  ],
+  "grammar": [
+    {"p":"你叫什么名字? — asking someone's name","e":"To ask someone's name, say 你叫什么名字? The answer follows the pattern 我叫 + name.","x":"你叫什么名字？我叫王小明。 — What's your name? My name is Wang Xiaoming."},
+    {"p":"认识你很高兴! — nice to meet you","e":"When you meet someone for the first time, say 认识你很高兴! (Nice to meet you!) 认识 means \"to know\" or \"to meet\" someone.","x":"认识你很高兴！ — Nice to meet you!"},
+    {"p":"你是哪国人? — asking someone's nationality","e":"To ask where someone is from, say 你是哪国人? Answer with 我是 + country + 人.","x":"你是哪国人？我是中国人。 — What's your nationality? I'm Chinese."}
+  ]
+}

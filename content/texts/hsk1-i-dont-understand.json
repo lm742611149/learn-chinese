@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-i-dont-understand",
+  "level": 1,
+  "title_zh": "我听不懂",
+  "title_py": "Wǒ tīng bu dǒng",
+  "title_en": "Saying You Don't Understand in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I; me"],["在","zài","at; in"],["中国","Zhōngguó","China"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["一","yí","one"],["个","gè","(measure word)"],["人","rén","person"],["。"]],
+      "en": "Today, I'm in China, and I see a person."
+    },
+    {
+      "t": [["那","nà","that"],["个","gè","(measure word)"],["人","rén","person"],["说","shuō","to speak"],["汉语","hànyǔ","Chinese language"],["，"],["我","wǒ","I; me"],["听不懂","tīng bu dǒng","can't understand (by listening)"],["。"]],
+      "en": "That person speaks Chinese, but I can't understand him."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["对不起","duìbuqǐ","sorry"],["，"],["我","wǒ","I; me"],["不会","bú huì","cannot; do not know how to"],["说","shuō","to speak"],["汉语","hànyǔ","Chinese language"],["。"],["”"]],
+      "en": "I say, \"Sorry, I can't speak Chinese.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["是","shì","to be"],["学生","xuésheng","student"],["，"],["我","wǒ","I; me"],["学习","xuéxí","to study"],["汉语","hànyǔ","Chinese language"],["。"],["”"]],
+      "en": "I say, \"I'm a student, and I'm learning Chinese.\""
+    },
+    {
+      "t": [["那","nà","that"],["个","gè","(measure word)"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it's okay; it doesn't matter"],["，"],["请","qǐng","please"],["说","shuō","to speak"],["。"],["你","nǐ","you"],["叫","jiào","to be called"],["什么","shénme","what"],["名字","míngzi","name"],["？"],["”"]],
+      "en": "That person says, \"It's okay, go ahead and speak. What's your name?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["我","wǒ","my"],["的","de","(possessive particle)"],["名字","míngzi","name"],["，"],["那个","nàge","that"],["人","rén","person"],["说","shuō","to say"],["："],["“"],["你","nǐ","your"],["的","de","(possessive particle)"],["汉语","Hànyǔ","Chinese language"],["很","hěn","very"],["好","hǎo","good"],["。"],["”"]],
+      "en": "I tell him my name, and he says, \"Your Chinese is good.\""
+    }
+  ],
+  "vocab": [
+    ["听不懂","tīng bu dǒng","can't understand (by listening)"],
+    ["汉语","hànyǔ","Chinese language"],
+    ["学生","xuésheng","student"],
+    ["学习","xuéxí","to study; to learn"],
+    ["请","qǐng","please"],
+    ["名字","míngzi","name"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator have trouble doing?","a":["Understanding the person's Chinese","Finding the store","Buying fruit"],"c":0},
+    {"q":"What does the narrator say he is?","a":["A teacher","A student","A doctor"],"c":1},
+    {"q":"How does the story end?","a":["The person leaves angry","They can't talk at all","They both become happy"],"c":2}
+  ],
+  "grammar": [
+    {"p":"听不懂 — can't understand (by listening)","e":"听不懂 literally means \"listen-not-understand\": you hear the words but the meaning doesn't get through. 懂 means \"to understand.\"","x":"我听不懂。 — I don't understand (what I'm hearing)."},
+    {"p":"我不会说汉语 — saying what you can't do","e":"不会 + verb means you don't know how to do something. 我不会说汉语 = I can't speak Chinese.","x":"我不会说汉语。 — I can't speak Chinese."},
+    {"p":"请 + verb — polite requests","e":"请 before a verb makes a request more polite, like \"please\" in English: 请说 = please speak/go ahead.","x":"没关系，请说。 — It's okay, please go ahead and speak."}
+  ]
+}

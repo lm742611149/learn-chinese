@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-greetings",
+  "level": 1,
+  "title_zh": "你好",
+  "title_py": "Nǐ hǎo",
+  "title_en": "Greetings in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["上午","shàngwǔ","morning"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["老师","lǎoshī","teacher"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["老师","lǎoshī","teacher"],["好","hǎo","good"],["！"],["”"]],
+      "en": "This morning, I see my teacher and say, \"Good morning, teacher!\""
+    },
+    {
+      "t": [["在","zài","at"],["学校","xuéxiào","school"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["同学","tóngxué","classmate"],["，"],["我们","wǒmen","we"],["说","shuō","to say"],["："],["“"],["你好","nǐ hǎo","hello"],["！"],["”"]],
+      "en": "At school, I see my classmate, and we say, \"Hello!\""
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["医生","yīshēng","doctor"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你好","nǐ hǎo","hello"],["，"],["你","nǐ","you"],["好","hǎo","good"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "At noon, I see the doctor and say, \"Hello, how are you?\""
+    },
+    {
+      "t": [["医生","yīshēng","doctor"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["很","hěn","very"],["好","hǎo","good"],["，"],["谢谢","xièxie","thank you"],["！"],["”"]],
+      "en": "The doctor says, \"I'm very good, thank you!\""
+    },
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["看见","kànjiàn","to see"],["先生","xiānshēng","mister; sir"],["和","hé","and"],["小姐","xiǎojiě","miss"],["，"],["我们","wǒmen","we"],["说","shuō","to say"],["："],["“"],["你好","nǐ hǎo","hello"],["！"],["”"]],
+      "en": "In the afternoon, I see a man and a woman, and we say, \"Hello!\""
+    },
+    {
+      "t": [["现在","xiànzài","now"],["，"],["我","wǒ","I; me"],["回","huí","to return"],["家","jiā","home"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["妈妈","māma","mom"],["，"],["再见","zàijiàn","goodbye"],["！"],["”"]],
+      "en": "Now, I go home and say, \"Mom, goodbye!\""
+    }
+  ],
+  "vocab": [
+    ["你好","nǐ hǎo","hello"],
+    ["老师","lǎoshī","teacher"],
+    ["同学","tóngxué","classmate"],
+    ["看见","kànjiàn","to see"],
+    ["再见","zàijiàn","goodbye"],
+    ["谢谢","xièxie","thank you"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator say to the teacher in the morning?","a":["老师好","再见","谢谢"],"c":0},
+    {"q":"What does the doctor say about how they feel?","a":["不好","很好","很冷"],"c":1},
+    {"q":"What does the narrator say to mom in the evening?","a":["你好吗","再见","老师好"],"c":1}
+  ],
+  "grammar": [
+    {"p":"你好 — the everyday greeting","e":"你好 (literally \"you good\") is the all-purpose way to say \"hello\" to anyone.","x":"你好！ — Hello!"},
+    {"p":"person + 好 — greeting a specific person","e":"Put 好 right after a title or name to greet that person, like 老师好 (\"hello, teacher\").","x":"老师好！ — Hello, teacher!"},
+    {"p":"你好吗？ — asking how someone is","e":"Adding 吗 after 你好 turns the greeting into a question asking how the other person is doing.","x":"你好，你好吗？ — Hello, how are you?"}
+  ]
+}

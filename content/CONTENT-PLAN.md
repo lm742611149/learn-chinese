@@ -41,13 +41,21 @@ Registering at a Hospital / Opening a Bank Account / Sending a Package /
 The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 **拟新选题前,先跑一遍 title_zh 和 title_en 的双向撞题比对。**
 
-**HSK 1** — 入门功能词,搜索量最大也最空白的一层,优先写这批
-谢谢/不客气 → Saying Thank You in Chinese ⭐️最高优先(竞品 CGR 就是靠这类词排上第一页) /
+**HSK 1** — 入门功能词,搜索量最大也最空白的一层。**这 9 篇已于 2026-09-05 开写**
+谢谢/不客气 → Saying Thank You in Chinese ⭐️(竞品 CGR 就是靠这类词排上第一页) /
 对不起 → Saying Sorry in Chinese ⭐️ / 你好·问候 → Greetings in Chinese ⭐️ /
 多少钱 → Asking How Much It Costs in Chinese ⭐️ /
-我听不懂 → Saying You Don't Understand in Chinese /
-颜色 → Colors in Chinese / 月份和日期 → Months and Dates in Chinese /
-家人称呼 → Family Members in Chinese / 是和不是 → Saying Yes and No in Chinese
+我听不懂 → Saying You Don't Understand in Chinese(「懂」超纲,进 vocab) /
+认识你很高兴 → Nice to Meet You in Chinese ⭐️ /
+月份和日期 → Months and Dates in Chinese /
+我爱你 → How to Say I Love You in Chinese ⭐️ / 是和不是 → Saying Yes and No in Chinese
+
+⚠️ **拟 HSK1 选题前先查 150 词表** —— 2026-09-05 有两条候选是查了词表才发现写不了的:
+- **颜色 → Colors in Chinese:已砍。HSK1 词表里一个颜色词都没有**(红/蓝/白/黑全不在),
+  整篇会 100% 超纲。要写得等 HSK3 以上
+- **家人称呼 → Family Members in Chinese:已砍**。HSK1 亲属词只有爸爸/妈妈/儿子/女儿四个,
+  内容单薄,而且与已有「我的家 → Talking About My Family in Chinese」撞搜索词
+- 同理注意:「懂」「知道」「明白」「生日」都不在 150 词表里
 
 **HSK 2** — 高频交际场景
 讨价还价 → Bargaining in Chinese ⭐️(与已有「便宜还是贵」不同:砍价 vs 比价) /

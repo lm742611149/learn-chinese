@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-yes-and-no",
+  "level": 1,
+  "title_zh": "是不是",
+  "title_py": "Shì bu shì",
+  "title_en": "Saying Yes and No in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["是","shì","to be"],["学生","xuésheng","student"],["吗","ma","(question particle)"],["？"],["”"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["是","shì","yes; to be"],["，"],["我","wǒ","I; me"],["是","shì","to be"],["学生","xuésheng","student"],["。"],["”"]],
+      "en": "My classmate asks, \"Are you a student?\" I say, \"Yes, I am a student.\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["有","yǒu","to have"],["猫","māo","cat"],["吗","ma","(question particle)"],["？"],["”"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["没有","méiyǒu","to not have"],["，"],["我","wǒ","I; me"],["有","yǒu","to have"],["狗","gǒu","dog"],["。"],["”"]],
+      "en": "My classmate asks, \"Do you have a cat?\" I say, \"No, I have a dog.\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["会","huì","can; to know how to"],["说","shuō","to speak"],["汉语","Hànyǔ","Chinese (language)"],["吗","ma","(question particle)"],["？"],["”"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["会","huì","can; to know how to"],["，"],["我","wǒ","I; me"],["喜欢","xǐhuan","to like"],["汉语","Hànyǔ","Chinese (language)"],["。"],["”"]],
+      "en": "My classmate asks, \"Can you speak Chinese?\" I say, \"I can, and I like it.\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["你","nǐ","you"],["喜欢","xǐhuan","to like"],["猫","māo","cat"],["吗","ma","(question particle)"],["？"],["”"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["不","bù","not"],["喜欢","xǐhuan","to like"],["，"],["我","wǒ","I; me"],["喜欢","xǐhuan","to like"],["狗","gǒu","dog"],["。"],["”"]],
+      "en": "My classmate asks, \"Do you like cats?\" I say, \"No, I like dogs.\""
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["你","nǐ","your"],["的","de","(possessive particle)"],["汉语","Hànyǔ","Chinese language"],["很","hěn","very"],["好","hǎo","good"],["！"],["”"]],
+      "en": "My classmate says, \"Your Chinese is good!\""
+    }
+  ],
+  "vocab": [
+    ["是","shì","to be; yes"],
+    ["不","bù","not"],
+    ["有","yǒu","to have"],
+    ["没有","méiyǒu","to not have"],
+    ["会","huì","can; to know how to"],
+    ["喜欢","xǐhuan","to like"]
+  ],
+  "quiz": [
+    {"q":"Is the narrator a student?","a":["Yes, a student","No, a doctor","No, a teacher"],"c":0},
+    {"q":"What pet does the narrator have?","a":["A cat","A dog","A bird"],"c":1},
+    {"q":"Can the narrator speak Chinese?","a":["No","Not sure","Yes, and likes it"],"c":2}
+  ],
+  "grammar": [
+    {"p":"是 / 不是 — yes/no with 是","e":"Chinese has no single word for 'yes' or 'no.' To answer a question with 是, repeat 是 for yes, or say 不是 for no.","x":"你是学生吗？是，我是学生。 — Are you a student? Yes, I am a student."},
+    {"p":"有 / 没有 — yes/no with 有","e":"To answer a question with 有 (to have), say 有 for yes or 没有 for no — 没有 is the special negative form of 有, not 不有.","x":"你有猫吗？没有，我有狗。 — Do you have a cat? No, I have a dog."},
+    {"p":"会 / 不会, 喜欢 / 不喜欢 — more yes/no pairs","e":"For most other verbs, just repeat the verb for yes, or put 不 before it for no: 会 becomes 不会 (can/cannot), 喜欢 becomes 不喜欢 (like/dislike).","x":"你喜欢猫吗？不喜欢，我喜欢狗。 — Do you like cats? No, I like dogs."}
+  ]
+}
