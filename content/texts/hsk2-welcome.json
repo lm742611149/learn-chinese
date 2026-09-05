@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-welcome",
+  "level": 2,
+  "title_zh": "欢迎",
+  "title_py": "Huānyíng",
+  "title_en": "Welcome in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天", "jīntiān", "today"],["，"],["公司", "gōngsī", "company"],["来", "lái", "to come"],["了", "le", "(completed action)"],["一个", "yí ge", "one (+ measure word)"],["新", "xīn", "new"],["同事", "tóngshì", "coworker"],["。"]],
+      "en": "Today, a new coworker came to the company."
+    },
+    {
+      "t": [["大家", "dàjiā", "everyone"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing state)"],["说", "shuō", "to say"],["："],["“"],["欢迎", "huānyíng", "to welcome"],["你", "nǐ", "you"],["来", "lái", "to come"],["我们", "wǒmen", "our"],["公司", "gōngsī", "company"],["！"],["”"]],
+      "en": "Everyone smiles and says: \"Welcome to our company!\""
+    },
+    {
+      "t": [["新", "xīn", "new"],["同事", "tóngshì", "coworker"],["说", "shuō", "to say"],["："],["“"],["谢谢", "xièxie", "thank you"],["大家", "dàjiā", "everyone"],["，"],["我", "wǒ", "I"],["很", "hěn", "very"],["高兴", "gāoxìng", "happy"],["认识", "rènshi", "to get to know"],["你们", "nǐmen", "you (plural)"],["。"],["”"]],
+      "en": "The new coworker says: \"Thank you everyone, I'm happy to meet you all.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["不客气", "bú kèqi", "you're welcome"],["，"],["坐", "zuò", "to sit"],["吧", "ba", "(suggestion particle)"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["喝茶", "hē chá", "to drink tea"],["。"],["”"]],
+      "en": "I say: \"You're welcome, sit down, let's have tea together.\""
+    },
+    {
+      "t": [["下班", "xiàbān", "to get off work"],["的时候", "de shíhou", "when"],["，"],["新", "xīn", "new"],["同事", "tóngshì", "coworker"],["对", "duì", "to"],["我", "wǒ", "me"],["说", "shuō", "to say"],["："],["“"],["公司", "gōngsī", "company"],["里", "li", "inside"],["的", "de", "(possessive particle)"],["人", "rén", "people"],["真", "zhēn", "really"],["好", "hǎo", "good"],["。"],["”"]],
+      "en": "When it's time to get off work, the new coworker says to me: \"The people at this company are really nice.\""
+    },
+    {
+      "t": [["她", "tā", "she"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing state)"],["说", "shuō", "to say"],["："],["“"],["谢谢", "xièxie", "thank you"],["你们", "nǐmen", "you (plural)"],["，"],["我", "wǒ", "I"],["很", "hěn", "very"],["喜欢", "xǐhuan", "to like"],["这个", "zhège", "this"],["公司", "gōngsī", "company"],["！"],["”"]],
+      "en": "She smiles and says: \"Thank you all, I really like this company!\""
+    }
+  ],
+  "vocab": [
+    ["欢迎", "huānyíng", "to welcome"],
+    ["同事", "tóngshì", "coworker"],
+    ["公司", "gōngsī", "company"],
+    ["认识", "rènshi", "to get to know"],
+    ["喝茶", "hē chá", "to drink tea"],
+    ["喜欢", "xǐhuan", "to like"]
+  ],
+  "quiz": [
+    {"q": "What does 欢迎 mean?", "a": ["Welcome", "Sorry", "Goodbye"], "c": 0},
+    {"q": "Why does everyone welcome the new coworker?", "a": ["It's her birthday", "It's her first day at work", "She is the boss"], "c": 1},
+    {"q": "What does the new coworker say about the company at the end of the day?", "a": ["It's too far from home", "It's too much work", "She really likes it"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "欢迎（welcome）", "e": "欢迎 greets someone arriving somewhere new, like a new coworker or a guest.", "x": "大家说：“欢迎你来我们公司！”— Everyone says: \"Welcome to our company!\""},
+    {"p": "很高兴认识你/你们（nice to meet you）", "e": "很高兴认识你 is the standard line for meeting someone for the first time.", "x": "我很高兴认识你们。— I'm happy to meet you all."},
+    {"p": "一起 + verb（doing something together）", "e": "一起 goes before a verb to show that people do the action together.", "x": "我们一起喝茶。— Let's drink tea together."}
+  ]
+}

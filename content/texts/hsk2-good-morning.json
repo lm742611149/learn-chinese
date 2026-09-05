@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-good-morning",
+  "level": 2,
+  "title_zh": "早上好",
+  "title_py": "Zǎoshang hǎo",
+  "title_en": "Good Morning in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["出门","chūmén","to go out"],["，"],["看见","kànjiàn","to see"],["爷爷","yéye","grandpa"],["在","zài","at"],["门口","ménkǒu","doorway; entrance"],["。"]],
+      "en": "In the morning, I go out and see grandpa at the doorway."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["爷爷","yéye","grandpa"],["，"],["早上","zǎoshang","morning"],["好","hǎo","good"],["！"],["”"]],
+      "en": "I say, \"Grandpa, good morning!\""
+    },
+    {
+      "t": [["爷爷","yéye","grandpa"],["说","shuō","to say"],["："],["“"],["早","zǎo","morning (short greeting)"],["！"],["你","nǐ","you"],["也","yě","also"],["早","zǎo","morning (short greeting)"],["！"],["”"]],
+      "en": "Grandpa says, \"Morning! Morning to you too!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["去","qù","to go"],["上学","shàngxué","to go to school"],["，"],["在","zài","at"],["路上","lùshang","on the way"],["看见","kànjiàn","to see"],["朋友","péngyou","friend"],["小美","Xiǎoměi","Xiaomei (name)"],["。"]],
+      "en": "I go to school, and on the way I see my friend Xiaomei."
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["说","shuō","to say"],["："],["“"],["早上","zǎoshang","morning"],["好","hǎo","good"],["！"],["中午","zhōngwǔ","noon"],["一起","yìqǐ","together"],["吃饭","chī fàn","to eat a meal"],["，"],["好","hǎo","good"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "Xiaomei says, \"Good morning! Let's eat lunch together at noon, OK?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["好","hǎo","good"],["！"],["中午","zhōngwǔ","noon"],["见","jiàn","to see; to meet"],["！"],["”"]],
+      "en": "I say, \"Sure! See you at noon!\""
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["，"],["我","wǒ","I; me"],["和","hé","and"],["小美","Xiǎoměi","Xiaomei"],["一起","yìqǐ","together"],["吃饭","chī fàn","to eat a meal"],["，"],["我们","wǒmen","we"],["说","shuō","to say"],["："],["“"],["晚上","wǎnshang","evening"],["见","jiàn","to see; to meet"],["！"],["”"]],
+      "en": "At noon, Xiaomei and I eat lunch together, and we say, \"See you tonight!\""
+    }
+  ],
+  "vocab": [
+    ["早","zǎo","morning (short greeting)"],
+    ["早上","zǎoshang","morning"],
+    ["门口","ménkǒu","doorway; entrance"],
+    ["上学","shàngxué","to go to school"],
+    ["中午","zhōngwǔ","noon"],
+    ["见","jiàn","to see; to meet"]
+  ],
+  "quiz": [
+    {"q":"What is a short, casual way to say \"good morning\"?","a":["早","晚安","再见"],"c":0},
+    {"q":"What do the narrator and Xiaomei plan to do at noon?","a":["Go to school","Eat lunch together","Watch TV"],"c":1},
+    {"q":"What do they say when parting after lunch?","a":["早上好","你好吗","晚上见"],"c":2}
+  ],
+  "grammar": [
+    {"p":"早上好 vs 早 — two ways to say good morning","e":"早上好 is the full morning greeting; 早 alone is a shorter, casual way to say the same thing.","x":"早！你也早！— Morning! Morning to you too!"},
+    {"p":"time word + 见 — arranging to meet again","e":"Put a time word like 中午 or 晚上 before 见 to say when you'll see someone again.","x":"中午见！— See you at noon!"},
+    {"p":"上午/中午/晚上 — parts of the day","e":"These words mark different times of day and pair with different greetings or plans.","x":"中午一起吃饭，好吗？— Let's eat lunch together at noon, OK?"}
+  ]
+}

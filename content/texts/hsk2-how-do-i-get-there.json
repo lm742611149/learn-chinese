@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-how-do-i-get-there",
+  "level": 2,
+  "title_zh": "怎么走",
+  "title_py": "Zěnme zǒu",
+  "title_en": "How Do I Get There in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六", "xīngqīliù", "Saturday"],["下午", "xiàwǔ", "afternoon"],["，"],["我", "wǒ", "I"],["想", "xiǎng", "to want to"],["去", "qù", "to go"],["图书馆", "túshūguǎn", "library"],["看书", "kànshū", "to read (books)"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["不", "bù", "not"],["知道", "zhīdào", "to know"],["路", "lù", "road; way"],["。"]],
+      "en": "On Saturday afternoon, I wanted to go read at the library, but I didn't know the way."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["在", "zài", "at"],["路上", "lùshang", "on the road"],["看见", "kànjiàn", "to see"],["一个", "yí ge", "one (+ measure word)"],["同学", "tóngxué", "classmate"],["，"],["问", "wèn", "to ask"],["她", "tā", "her"],["："],["“"],["请问", "qǐngwèn", "excuse me, may I ask"],["，"],["图书馆", "túshūguǎn", "library"],["怎么", "zěnme", "how"],["走", "zǒu", "to go; to get to"],["？"],["”"]],
+      "en": "On the road, I saw a classmate, and asked her: \"Excuse me, how do I get to the library?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["你", "nǐ", "you"],["往", "wǎng", "toward"],["前", "qián", "front; ahead"],["走", "zǒu", "to walk"],["，"],["过", "guò", "to pass"],["了", "le", "(completed action)"],["公园", "gōngyuán", "park"],["，"],["往", "wǎng", "toward"],["右边", "yòubiān", "right side"],["走", "zǒu", "to walk"],["，"],["就", "jiù", "then; right away"],["到", "dào", "to arrive"],["了", "le", "(particle)"],["。"],["”"]],
+      "en": "She said: \"Walk straight ahead, pass the park, turn right, and you're there.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["往", "wǎng", "toward"],["前", "qián", "front; ahead"],["走", "zǒu", "to walk"],["，"],["可是", "kěshì", "but"],["走", "zǒu", "to walk"],["错", "cuò", "wrong"],["了", "le", "(change of state)"],["，"],["看见", "kànjiàn", "to see"],["的", "de", "(particle)"],["不", "bú", "not"],["是", "shì", "to be"],["公园", "gōngyuán", "park"],["，"],["是", "shì", "to be"],["商店", "shāngdiàn", "store"],["。"]],
+      "en": "I walked ahead, but I went the wrong way — what I saw wasn't the park, it was a store."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["给", "gěi", "to (for)"],["她", "tā", "her"],["打电话", "dǎ diànhuà", "to make a phone call"],["，"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["走", "zǒu", "to walk"],["错", "cuò", "wrong"],["了", "le", "(change of state)"],["，"],["我", "wǒ", "I"],["在", "zài", "at"],["商店", "shāngdiàn", "store"],["这儿", "zhèr", "here"],["，"],["图书馆", "túshūguǎn", "library"],["怎么", "zěnme", "how"],["走", "zǒu", "to go; to get to"],["？"],["”"]],
+      "en": "I called her and said: \"I went the wrong way, I'm at the store, how do I get to the library?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["商店", "shāngdiàn", "store"],["旁边", "pángbiān", "beside; next to"],["是", "shì", "to be"],["公园", "gōngyuán", "park"],["，"],["你", "nǐ", "you"],["再", "zài", "again"],["往", "wǎng", "toward"],["前", "qián", "front; ahead"],["走", "zǒu", "to walk"],["一点", "yìdiǎn", "a little"],["，"],["往", "wǎng", "toward"],["右边", "yòubiān", "right side"],["走", "zǒu", "to walk"],["就", "jiù", "then; right away"],["到", "dào", "to arrive"],["了", "le", "(particle)"],["。"],["”"]],
+      "en": "She said: \"Right next to the store is the park — walk ahead a little more, turn right, and you're there.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["找到", "zhǎodào", "to find"],["了", "le", "(completed action)"],["公园", "gōngyuán", "park"],["，"],["往", "wǎng", "toward"],["右边", "yòubiān", "right side"],["走", "zǒu", "to walk"],["，"],["很快", "hěn kuài", "quickly; soon"],["就", "jiù", "then; right away"],["看见", "kànjiàn", "to see"],["了", "le", "(completed action)"],["图书馆", "túshūguǎn", "library"],["，"],["找到", "zhǎodào", "to find"],["了", "le", "(completed action)"],["一本", "yì běn", "one (volume)"],["很", "hěn", "very"],["有意思", "yǒu yìsi", "interesting"],["的", "de", "(particle)"],["书", "shū", "book"],["，"],["坐下", "zuòxià", "to sit down"],["看书", "kànshū", "to read (books)"],["。"]],
+      "en": "I found the park, turned right, and quickly saw the library — I found a very interesting book and sat down to read."
+    }
+  ],
+  "vocab": [
+    ["怎么", "zěnme", "how"],
+    ["往", "wǎng", "toward"],
+    ["右边", "yòubiān", "right side"],
+    ["错", "cuò", "wrong"],
+    ["再", "zài", "again"],
+    ["有意思", "yǒu yìsi", "interesting"]
+  ],
+  "quiz": [
+    {"q": "What does 图书馆怎么走 ask?", "a": ["How to get to the library", "What time the library opens", "How much a book costs"], "c": 0},
+    {"q": "What mistake did the writer make on the way?", "a": ["Called the wrong friend", "Ended up at a store instead of the park", "Forgot to bring a book"], "c": 1},
+    {"q": "What does the writer do at the end of the story?", "a": ["Goes back home", "Buys a book at the store", "Finds an interesting book and sits down to read"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "地方 + 怎么走？(asking how to get somewhere)", "e": "Put a place before 怎么走 to ask for the route there.", "x": "图书馆怎么走？— How do I get to the library?"},
+    {"p": "走 + 错（to go the wrong way）", "e": "错 right after a verb shows the action was done incorrectly.", "x": "我走错了，看见的是商店。— I went the wrong way; what I saw was a store."},
+    {"p": "再 for something not yet done", "e": "再 before a verb tells someone to repeat or continue an action that hasn't happened yet.", "x": "你再往前走一点。— Walk a little further ahead."}
+  ]
+}

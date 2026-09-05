@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-i-have-arrived",
+  "level": 2,
+  "title_zh": "我到了",
+  "title_py": "Wǒ dào le",
+  "title_en": "I Have Arrived in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六", "xīngqīliù", "Saturday"],["下午", "xiàwǔ", "afternoon"],["，"],["我", "wǒ", "I"],["和", "hé", "and"],["朋友", "péngyou", "friend"],["要", "yào", "to be going to"],["在", "zài", "at"],["车站", "chēzhàn", "bus stop; station"],["见面", "jiànmiàn", "to meet"],["，"],["一起", "yìqǐ", "together"],["去", "qù", "to go"],["看", "kàn", "to watch"],["电影", "diànyǐng", "movie"],["。"]],
+      "en": "On Saturday afternoon, my friend and I were meeting at the bus stop to go watch a movie together."
+    },
+    {
+      "t": [["三", "sān", "three"],["点", "diǎn", "o'clock"],["的时候", "de shíhou", "when"],["，"],["我", "wǒ", "I"],["先", "xiān", "first"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["车站", "chēzhàn", "bus stop; station"],["，"],["可是", "kěshì", "but"],["没", "méi", "not yet"],["看见", "kànjiàn", "to see"],["朋友", "péngyou", "friend"],["。"]],
+      "en": "At three o'clock, I arrived at the bus stop first, but I didn't see my friend."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["给", "gěi", "to (for)"],["她", "tā", "her"],["打电话", "dǎ diànhuà", "to make a phone call"],["，"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["，"],["你", "nǐ", "you"],["在", "zài", "at"],["哪儿", "nǎr", "where"],["？"],["”"]],
+      "en": "I called her and said: \"I've arrived, where are you?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["对不起", "duìbuqǐ", "sorry"],["，"],["我", "wǒ", "I"],["快", "kuài", "quickly; soon"],["到", "dào", "to arrive"],["了", "le", "(change of state)"],["，"],["你", "nǐ", "you"],["再", "zài", "again"],["等一下", "děng yíxià", "wait a moment"],["。"],["”"]],
+      "en": "She said: \"Sorry, I'll be there soon, wait a little longer.\""
+    },
+    {
+      "t": [["过", "guò", "to pass"],["了", "le", "(completed action)"],["十", "shí", "ten"],["分钟", "fēnzhōng", "minute"],["，"],["我", "wǒ", "I"],["又", "yòu", "again"],["给", "gěi", "to (for)"],["她", "tā", "her"],["打电话", "dǎ diànhuà", "to make a phone call"],["，"],["问", "wèn", "to ask"],["："],["“"],["你", "nǐ", "you"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "Ten minutes later, I called her again and asked: \"Have you arrived yet?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing particle)"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["也", "yě", "also"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["，"],["我", "wǒ", "I"],["在", "zài", "at"],["车站", "chēzhàn", "bus stop; station"],["门口", "ménkǒu", "doorway"],["！"],["”"]],
+      "en": "She laughed and said: \"I've arrived too, I'm at the bus stop entrance!\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["看见", "kànjiàn", "to see"],["了", "le", "(completed action)"],["她", "tā", "her"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["走", "zǒu", "to walk"],["进", "jìn", "to go in"],["电影院", "diànyǐngyuàn", "cinema"],["，"],["坐下", "zuòxià", "to sit down"],["看", "kàn", "to watch"],["电影", "diànyǐng", "movie"],["。"]],
+      "en": "I saw her, and we went into the cinema together and sat down to watch the movie."
+    }
+  ],
+  "vocab": [
+    ["到", "dào", "to arrive"],
+    ["先", "xiān", "first"],
+    ["再", "zài", "again"],
+    ["又", "yòu", "again"],
+    ["门口", "ménkǒu", "doorway"],
+    ["电影院", "diànyǐngyuàn", "cinema"]
+  ],
+  "quiz": [
+    {"q": "What does the writer say when she calls her friend the first time?", "a": ["\"I've arrived, where are you?\"", "\"I'm not coming today.\"", "\"What movie should we watch?\""], "c": 0},
+    {"q": "Why does the writer call her friend a second time?", "a": ["To cancel the plan", "To ask if she has arrived yet", "To change the meeting place"], "c": 1},
+    {"q": "What do the two friends do after they meet?", "a": ["Go home separately", "Go eat dinner first", "Walk into the cinema together and watch the movie"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "我到了（I have arrived）", "e": "到了 after 我 tells someone you have just arrived — the most common line to say or text when meeting up.", "x": "我到了，你在哪儿？— I've arrived, where are you?"},
+    {"p": "先（to do something first）", "e": "先 before a verb shows that action happens before anything else, such as arriving before someone else.", "x": "我先到了车站。— I arrived at the bus stop first."},
+    {"p": "又 for something that already happened again", "e": "又 marks a repeated action that has already taken place, unlike 再 which marks one that hasn't happened yet.", "x": "我又给她打电话。— I called her again."}
+  ]
+}

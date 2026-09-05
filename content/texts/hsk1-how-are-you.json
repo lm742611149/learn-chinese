@@ -1,0 +1,52 @@
+{
+  "slug": "hsk1-how-are-you",
+  "level": 1,
+  "title_zh": "你好吗",
+  "title_py": "Nǐ hǎo ma",
+  "title_en": "How Are You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["在","zài","at"],["学校","xuéxiào","school"],["看见","kànjiàn","to see"],["朋友","péngyou","friend"],["小美","Xiǎoměi","Xiaomei (name)"],["。"]],
+      "en": "This morning, I see my friend Xiaomei at school."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["她","tā","her"],["："],["“"],["你好","nǐ hǎo","hello"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I ask her, \"How are you?\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["看了看","kànlekàn","to look at (briefly)"],["我","wǒ","I; me"],["，"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["很","hěn","very"],["好","hǎo","good"],["，"],["你","nǐ","you"],["呢","ne","(question particle)"],["？"],["”"]],
+      "en": "Xiaomei looks at me and says, \"I'm very good, and you?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["也","yě","also"],["很","hěn","very"],["好","hǎo","good"],["，"],["谢谢","xièxie","thank you"],["。"],["”"]],
+      "en": "I say, \"I'm very good too, thank you.\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["去","qù","to go"],["喝茶","hē chá","to drink tea"],["，"],["好","hǎo","good"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "Xiaomei says, \"Let's go drink tea together, OK?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["好","hǎo","good"],["！"],["”"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["去","qù","to go"],["喝茶","hē chá","to drink tea"],["了","le","(completed action)"],["。"]],
+      "en": "I say, \"Sure!\" We go drink tea together."
+    }
+  ],
+  "vocab": [
+    ["你好","nǐ hǎo","hello"],
+    ["好","hǎo","good"],
+    ["吗","ma","(question particle)"],
+    ["呢","ne","(question particle)"],
+    ["谢谢","xièxie","thank you"],
+    ["一起","yìqǐ","together"]
+  ],
+  "quiz": [
+    {"q":"What does 呢 mean in \"我很好，你呢？\"?","a":["Says thank you","Asks the same question back","Says goodnight"],"c":1},
+    {"q":"What do the narrator and Xiaomei do at the end of the story?","a":["Go home alone","Say goodbye","Go drink tea together"],"c":2},
+    {"q":"What does 好吗 mean at the end of a suggestion?","a":["Is that OK?","How are you?","Thank you"],"c":0}
+  ],
+  "grammar": [
+    {"p":"你好吗？— asking how someone is","e":"Add 吗 after 你好 to ask how the other person is doing.","x":"你好吗？— How are you?"},
+    {"p":"呢 — asking the same question back","e":"After answering, add 呢 to a pronoun to ask \"what about ...?\" without repeating the whole question.","x":"我很好，你呢？— I'm good, and you?"},
+    {"p":"…，好吗？— a yes/no tag question","e":"Adding 好吗 to the end of a suggestion turns it into a question asking if the other person agrees.","x":"我们一起去喝茶，好吗？— Let's go get tea together, OK?"}
+  ]
+}

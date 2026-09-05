@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-im-full",
+  "level": 3,
+  "title_zh": "我饱了",
+  "title_py": "Wǒ bǎo le",
+  "title_en": "I Am Full in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我","wǒ","I; me"],["在","zài","at"],["小美","Xiǎoměi","Xiaomei"],["家","jiā","home"],["吃饭","chīfàn","to eat a meal"],["，"],["小美","Xiǎoměi","Xiaomei"],["的","de","(possessive particle)"],["妈妈","māma","mom"],["做","zuò","to make"],["了","le","(completed action)"],["很多","hěn duō","a lot of"],["菜","cài","dish"],["。"]],
+      "en": "In the evening I ate at Xiaomei's home, and Xiaomei's mom made a lot of dishes."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["吃","chī","to eat"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["桌子","zhuōzi","table"],["上","shang","on"],["还","hái","still"],["有","yǒu","to have; there is"],["很多","hěn duō","a lot of"],["菜","cài","dish"],["。"]],
+      "en": "We had been eating for a long time, and there was still a lot of food on the table."
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["的","de","(possessive particle)"],["妈妈","māma","mom"],["又","yòu","again"],["给","gěi","for"],["我","wǒ","I; me"],["拿","ná","to bring"],["来","lái","to come"],["一个","yí ge","one"],["菜","cài","dish"],["，"],["说","shuō","to say"],["："],["“"],["再","zài","again"],["吃","chī","to eat"],["一点儿","yìdiǎnr","a little"],["！"],["”"]],
+      "en": "Xiaomei's mom brought me another dish and said: \"Eat a little more!\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["，"],["可是","kěshì","but"],["我","wǒ","I; me"],["真的","zhēnde","really"],["饱","bǎo","full (from eating)"],["了","le","(change of state)"],["，"],["吃不下","chībuxià","can't eat any more"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I said: \"Thank you, but I'm really full, I can't eat any more.\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["的","de","(possessive particle)"],["妈妈","māma","mom"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["再","zài","again"],["吃","chī","to eat"],["一点儿","yìdiǎnr","a little"],["吧","ba","(suggestion particle)"],["，"],["这个","zhège","this"],["菜","cài","dish"],["很","hěn","very"],["好吃","hǎochī","tasty; delicious"],["。"],["”"]],
+      "en": "Xiaomei's mom said with a smile: \"Have a little more, this dish is delicious.\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["对","duì","to; toward"],["妈妈","māma","mom"],["说","shuō","to say"],["："],["“"],["妈妈","māma","mom"],["，"],["他","tā","he; him"],["真的","zhēnde","really"],["饱","bǎo","full (from eating)"],["了","le","(change of state)"],["，"],["别","bié","don't"],["再","zài","again"],["让","ràng","to let; to allow"],["他","tā","he; him"],["吃","chī","to eat"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "Xiaomei said to her mom: \"Mom, he's really full, don't make him eat any more.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["笑","xiào","to laugh; to smile"],["了","le","(change of state)"],["，"],["说","shuō","to say"],["："],["“"],["好","hǎo","OK; good"],["，"],["那","nà","then; in that case"],["我","wǒ","I; me"],["去","qù","to go"],["拿","ná","to fetch"],["一些","yìxiē","some"],["水果","shuǐguǒ","fruit"],["。"],["”"]],
+      "en": "Mom laughed and said: \"OK, then I'll go get some fruit.\""
+    }
+  ],
+  "vocab": [
+    ["饱","bǎo","full (from eating)"],
+    ["吃不下","chībuxià","can't eat any more"],
+    ["一点儿","yìdiǎnr","a little"],
+    ["好吃","hǎochī","tasty; delicious"],
+    ["让","ràng","to let; to allow"],
+    ["桌子","zhuōzi","table"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator say when Xiaomei's mom offers more food?","a":["That he wants to leave","That the food is too spicy","That he's full and can't eat any more"],"c":2},
+    {"q":"What does Xiaomei's mom do when the narrator says he's full?","a":["She insists he eat just a little more","She gets angry","She stops offering food immediately"],"c":0},
+    {"q":"What does Xiaomei's mom decide to do at the end?","a":["She scolds Xiaomei","She goes to get some fruit instead","She leaves the table"],"c":1}
+  ],
+  "grammar": [
+    {"p":"饱了 / 吃不下了 (I'm full / I can't eat any more)","e":"饱了 says you've become full; 吃不下了 says you physically can't fit any more in — both are polite ways to stop eating at a Chinese meal.","x":"我真的饱了，吃不下了。— I'm really full, I can't eat any more."},
+    {"p":"再 + verb + 一点儿 (do a bit more)","e":"再 + verb + 一点儿 is what a host says to encourage a guest to eat, drink, or do something a little more.","x":"再吃一点儿，这个菜很好吃。— Have a little more, this dish is delicious."},
+    {"p":"别 + 让 + person + verb + 了 (don't make someone keep doing sth)","e":"别让 + person + verb + 了 asks someone to stop making another person do something — here, stop making the guest eat more.","x":"别再让他吃了。— Don't make him eat any more."}
+  ]
+}

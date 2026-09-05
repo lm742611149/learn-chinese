@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-im-tired",
+  "level": 2,
+  "title_zh": "我累了",
+  "title_py": "Wǒ lèi le",
+  "title_en": "I Am Tired in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["我","wǒ","I"],["很","hěn","very"],["忙","máng","busy"],["，"],["从","cóng","from"],["早上","zǎoshang","morning"],["忙","máng","busy"],["到","dào","to; until"],["晚上","wǎnshang","evening"],["。"]],
+      "en": "Today I'm very busy, busy from morning until evening."
+    },
+    {
+      "t": [["下班","xiàbān","to get off work"],["以后","yǐhòu","after"],["，"],["我","wǒ","I"],["坐","zuò","to take (a vehicle)"],["公共汽车","gōnggòng qìchē","bus"],["回家","huí jiā","to go home"],["。"]],
+      "en": "After work, I take the bus home."
+    },
+    {
+      "t": [["到家","dào jiā","to arrive home"],["以后","yǐhòu","after"],["，"],["我","wǒ","I"],["坐","zuò","to sit"],["在","zài","at; in"],["沙发","shāfā","sofa"],["上","shàng","on"],["，"],["说","shuō","to speak; to say"],["："],["“"],["我","wǒ","I"],["累","lèi","tired"],["了","le","(particle)"],["。"],["”"]],
+      "en": "After I get home, I sit on the sofa and say: \"I'm tired.\""
+    },
+    {
+      "t": [["妈妈","māma","mom"],["问","wèn","to ask"],["我","wǒ","I"],["："],["“"],["你","nǐ","you"],["今天","jīntiān","today"],["很","hěn","very"],["忙","máng","busy"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "Mom asks me: \"Were you very busy today?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to speak; to say"],["："],["“"],["对","duì","right; correct"],["，"],["太","tài","too; so"],["累","lèi","tired"],["了","le","(particle)"],["，"],["我","wǒ","I"],["想","xiǎng","to want to"],["休息","xiūxi","to rest"],["一下","yíxià","a moment"],["。"],["”"]],
+      "en": "I say: \"Yes, I'm so tired, I want to rest a bit.\""
+    },
+    {
+      "t": [["说","shuō","to speak; to say"],["完","wán","to finish"],["，"],["我","wǒ","I"],["在","zài","at; in"],["沙发","shāfā","sofa"],["上","shàng","on"],["睡","shuì","to sleep"],["了","le","(particle)"],["一会儿","yíhuìr","a little while"],["。"]],
+      "en": "After I finish talking, I sleep on the sofa for a little while."
+    }
+  ],
+  "vocab": [
+    ["累", "lèi", "tired"],
+    ["忙", "máng", "busy"],
+    ["下班", "xiàbān", "to get off work"],
+    ["休息", "xiūxi", "to rest"],
+    ["一下", "yíxià", "a moment"],
+    ["沙发", "shāfā", "sofa"]
+  ],
+  "quiz": [
+    {"q": "What does 我累了 mean?", "a": ["I am tired", "I am busy", "I am happy"], "c": 0},
+    {"q": "How does the narrator get home from work?", "a": ["By taxi", "By bus", "On foot"], "c": 1},
+    {"q": "What does the narrator do after talking with mom?", "a": ["Goes out to eat", "Calls a friend", "Rests on the sofa"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "从...到...（from...to...）", "e": "从 marks the starting point and 到 the ending point, for time or place.", "x": "我从早上忙到晚上。— I was busy from morning until evening."},
+    {"p": "太 + adj + 了（too...!）", "e": "太累了 says something is too much — here, too tired.", "x": "太累了，我想休息一下。— I'm so tired, I want to rest a bit."},
+    {"p": "V + 完（to finish doing something）", "e": "完 right after a verb shows that action is complete.", "x": "说完，我睡了一会儿。— After I finished talking, I slept for a while."}
+  ]
+}

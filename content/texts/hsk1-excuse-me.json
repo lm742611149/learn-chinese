@@ -1,0 +1,48 @@
+{
+  "slug": "hsk1-excuse-me",
+  "level": 1,
+  "title_zh": "请问",
+  "title_py": "Qǐngwèn",
+  "title_en": "Excuse Me in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["在","zài","at"],["外面","wàimiàn","outside"],["，"],["看见","kànjiàn","to see"],["一个","yí ge","a"],["老师","lǎoshī","teacher"],["。"]],
+      "en": "This morning, I'm outside, and I see a teacher."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["老师","lǎoshī","teacher"],["，"],["请问","qǐngwèn","excuse me; may I ask"],["，"],["现在","xiànzài","now"],["几点","jǐ diǎn","what time"],["？"],["”"]],
+      "en": "I say, \"Teacher, excuse me, what time is it now?\""
+    },
+    {
+      "t": [["老师","lǎoshī","teacher"],["说","shuō","to say"],["："],["“"],["现在","xiànzài","now"],["七点","qī diǎn","seven o'clock"],["。"],["”"]],
+      "en": "The teacher says, \"It's seven o'clock now.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["！"],["”"]],
+      "en": "I say, \"Thank you!\""
+    },
+    {
+      "t": [["现在","xiànzài","now"],["，"],["我","wǒ","I; me"],["去","qù","to go"],["学校","xuéxiào","school"],["了","le","(change of state)"],["。"]],
+      "en": "Now, I go to school."
+    }
+  ],
+  "vocab": [
+    ["请问","qǐngwèn","excuse me; may I ask"],
+    ["看见","kànjiàn","to see"],
+    ["老师","lǎoshī","teacher"],
+    ["现在","xiànzài","now"],
+    ["几点","jǐ diǎn","what time"],
+    ["谢谢","xièxie","thank you"]
+  ],
+  "quiz": [
+    {"q":"What does 请问 mean before asking a question?","a":["Excuse me / may I ask","Thank you","Goodbye"],"c":0},
+    {"q":"What time does the teacher say it is?","a":["Six o'clock","Eight o'clock","Seven o'clock"],"c":2},
+    {"q":"What does the narrator do after thanking the teacher?","a":["Goes home","Goes to school","Goes to the hospital"],"c":1}
+  ],
+  "grammar": [
+    {"p":"请问 — polite way to open a question","e":"Say 请问 before asking a stranger something; it politely gets their attention first, like \"Excuse me, ...\"","x":"请问，现在几点？— Excuse me, what time is it now?"},
+    {"p":"几点 — asking what time it is","e":"几点 asks for a clock time; put it right after 现在 to ask \"what time is it now?\"","x":"现在几点？— What time is it now?"},
+    {"p":"number + 点 — telling time","e":"To say a specific hour, put a number directly before 点.","x":"现在七点。— It's seven o'clock now."}
+  ]
+}

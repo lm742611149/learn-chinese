@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-youre-welcome",
+  "level": 2,
+  "title_zh": "不客气",
+  "title_py": "Bú kèqi",
+  "title_en": "You Are Welcome in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["周末","zhōumò","weekend"],["，"],["我","wǒ","I"],["在","zài","at"],["家","jiā","home"],["帮","bāng","to help"],["妈妈","māma","mom"],["做饭","zuòfàn","to cook"],["，"],["妈妈","māma","mom"],["很","hěn","very"],["开心","kāixīn","happy"],["。"]],
+      "en": "On the weekend, I help mom cook at home, and she's happy."
+    },
+    {
+      "t": [["做","zuò","to do"],["完","wán","to finish"],["以后","yǐhòu","after"],["，"],["妈妈","māma","mom"],["笑","xiào","to smile"],["着","zhe","(ongoing state)"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["！"],["”"],["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["不客气","bú kèqi","you're welcome"],["。"],["”"]],
+      "en": "When we finish, mom smiles and says: \"Thank you!\" I say: \"You're welcome.\""
+    },
+    {
+      "t": [["吃","chī","to eat"],["完","wán","to finish"],["饭","fàn","food; meal"],["，"],["弟弟","dìdi","younger brother"],["不会","bú huì","cannot; not know how to"],["写","xiě","to write"],["作业","zuòyè","homework"],["，"],["我","wǒ","I"],["坐下","zuòxià","to sit down"],["帮","bāng","to help"],["他","tā","him"],["。"]],
+      "en": "After we finish eating, my brother can't do his homework, so I sit down to help him."
+    },
+    {
+      "t": [["弟弟","dìdi","younger brother"],["很","hěn","very"],["开心","kāixīn","happy"],["，"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["姐姐","jiějie","older sister"],["！"],["”"],["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["没事","méishì","it's fine; no worries"],["，"],["我们","wǒmen","we"],["是","shì","to be"],["家人","jiārén","family"],["。"],["”"]],
+      "en": "My brother is happy and says: \"Thanks, sis!\" I say: \"No worries, we're family.\""
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["同学","tóngxué","classmate"],["打电话","dǎ diànhuà","to make a phone call"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["今天","jīntiān","today"],["帮","bāng","to help"],["我","wǒ","me"],["。"],["”"]],
+      "en": "In the evening, a classmate calls and says: \"Thank you for helping me today.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["不用谢","búyòng xiè","no need to thank me"],["，"],["明天","míngtiān","tomorrow"],["见","jiàn","to see"],["！"],["”"]],
+      "en": "I said, \"No need to thank me — see you tomorrow!\""
+    }
+  ],
+  "vocab": [
+    ["不客气","bú kèqi","you're welcome"],
+    ["没事","méishì","it's fine; no worries"],
+    ["不用谢","bú yòng xiè","no need to thank me"],
+    ["帮","bāng","to help"],
+    ["家人","jiārén","family"],
+    ["作业","zuòyè","homework"]
+  ],
+  "quiz": [
+    {"q":"What does 不客气 mean?","a":["You're welcome","I'm sorry","Good night"],"c":0},
+    {"q":"Why does the narrator sit down to help her brother?","a":["He is hungry","He can't do his homework","He wants to play"],"c":1},
+    {"q":"Who calls the narrator in the evening?","a":["Her mom","Her teacher","A classmate"],"c":2}
+  ],
+  "grammar": [
+    {"p":"不客气（you're welcome）","e":"不客气 is the standard, polite reply when someone thanks you.","x":"我说：“不客气。”— I say: \"You're welcome.\""},
+    {"p":"没事（no worries）","e":"没事 is a casual reply to thanks, common between family and close friends.","x":"我说：“没事，我们是家人。”— I say: \"No worries, we're family.\""},
+    {"p":"不用谢（no need to thank me）","e":"不用谢 literally means \"no need to thank\" — another common way to brush off thanks.","x":"我笑着说：“不用谢，明天见！”— I smile and say: \"No need to thank me, see you tomorrow!\""}
+  ]
+}

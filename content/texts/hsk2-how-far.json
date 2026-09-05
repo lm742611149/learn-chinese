@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-how-far",
+  "level": 2,
+  "title_zh": "多远",
+  "title_py": "Duō yuǎn",
+  "title_en": "How Far Is It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期天", "xīngqītiān", "Sunday"],["，"],["哥哥", "gēge", "older brother"],["想", "xiǎng", "to want to"],["骑", "qí", "to ride"],["自行车", "zìxíngchē", "bicycle"],["去", "qù", "to go"],["公园", "gōngyuán", "park"],["，"],["我", "wǒ", "I"],["也", "yě", "also"],["想", "xiǎng", "to want to"],["去", "qù", "to go"],["。"]],
+      "en": "On Sunday, older brother wanted to ride his bike to the park, and I wanted to go too."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["问", "wèn", "to ask"],["他", "tā", "him"],["："],["“"],["公园", "gōngyuán", "park"],["离", "lí", "(distance) from"],["我们", "wǒmen", "we"],["家", "jiā", "home"],["远", "yuǎn", "far"],["不", "bù", "not"],["远", "yuǎn", "far"],["？"],["”"]],
+      "en": "I asked him: \"Is the park far or not far from our house?\""
+    },
+    {
+      "t": [["哥哥", "gēge", "older brother"],["说", "shuō", "to say"],["："],["“"],["不", "bù", "not"],["远", "yuǎn", "far"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["也", "yě", "also"],["不", "bù", "not"],["知道", "zhīdào", "to know"],["有", "yǒu", "there is"],["多", "duō", "how (much/far)"],["远", "yuǎn", "far"],["。"],["”"]],
+      "en": "Older brother said: \"Not far, but I don't know exactly how far either.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["问", "wèn", "to ask"],["了", "le", "(completed action)"],["爸爸", "bàba", "dad"],["，"],["爸爸", "bàba", "dad"],["说", "shuō", "to say"],["："],["“"],["公园", "gōngyuán", "park"],["离", "lí", "(distance) from"],["这儿", "zhèr", "here"],["不", "bù", "not"],["远", "yuǎn", "far"],["，"],["骑", "qí", "to ride"],["自行车", "zìxíngchē", "bicycle"],["十", "shí", "ten"],["分钟", "fēnzhōng", "minute"],["就", "jiù", "then; right away"],["到", "dào", "to arrive"],["了", "le", "(particle)"],["。"],["”"]],
+      "en": "We asked dad, and he said: \"The park isn't far from here — ten minutes by bike and you're there.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["很", "hěn", "very"],["高兴", "gāoxìng", "happy"],["，"],["马上", "mǎshàng", "right away"],["骑", "qí", "to ride"],["自行车", "zìxíngchē", "bicycle"],["出门", "chūmén", "to go out"],["了", "le", "(completed action)"],["。"]],
+      "en": "We were happy, and right away got on our bikes and went out."
+    },
+    {
+      "t": [["骑", "qí", "to ride"],["了", "le", "(completed action)"],["十", "shí", "ten"],["分钟", "fēnzhōng", "minute"],["，"],["我们", "wǒmen", "we"],["真的", "zhēnde", "really; for real"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["公园", "gōngyuán", "park"],["，"],["哥哥", "gēge", "older brother"],["笑", "xiào", "to smile"],["着", "zhe", "(ongoing particle)"],["说", "shuō", "to say"],["："],["“"],["你", "nǐ", "you"],["看", "kàn", "to watch"],["，"],["一点", "yìdiǎn", "a little"],["也", "yě", "also"],["不", "bù", "not"],["远", "yuǎn", "far"],["！"],["”"]],
+      "en": "After ten minutes of riding, we really did reach the park, and older brother laughed and said: \"See, it's not far at all!\""
+    }
+  ],
+  "vocab": [
+    ["远", "yuǎn", "far"],
+    ["离", "lí", "(distance) from"],
+    ["多", "duō", "how (much/far)"],
+    ["骑", "qí", "to ride"],
+    ["自行车", "zìxíngchē", "bicycle"],
+    ["出门", "chūmén", "to go out"]
+  ],
+  "quiz": [
+    {"q": "What is the writer asking her brother?", "a": ["Whether the park is far from their house", "What time they should leave", "Whether he wants to ride a bike"], "c": 0},
+    {"q": "Who explains that the bike ride only takes ten minutes?", "a": ["Older brother", "Their father", "A neighbor"], "c": 1},
+    {"q": "What does older brother say when they arrive at the park?", "a": ["It's very far", "It's getting dark", "It's not far at all"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "A 离 B + 远/近（measuring distance between places）", "e": "离 states the distance from one place to another.", "x": "公园离我们家远不远？— Is the park far or not far from our house?"},
+    {"p": "有多远？(asking exactly how far)", "e": "有多远 asks for the precise distance, once you already know it's 'far' in some sense.", "x": "我也不知道有多远。— I don't know exactly how far it is either."},
+    {"p": "远不远？(yes/no question about distance)", "e": "Repeating 远 with 不 in between makes an A-not-A question asking simply whether something is far.", "x": "公园离我们家远不远？— Is the park far from our house or not?"}
+  ]
+}

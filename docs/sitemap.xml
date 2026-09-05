@@ -16,7 +16,7 @@
   <url><loc>https://readmandarin.com/grammar-hsk5</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
   <url><loc>https://readmandarin.com/words-hsk6</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
   <url><loc>https://readmandarin.com/grammar-hsk6</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/hsk1</loc><lastmod>2026-09-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://readmandarin.com/hsk1</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk2</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk3</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk4</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
@@ -31,11 +31,13 @@
   <url><loc>https://readmandarin.com/texts/hsk1-dog-and-cat</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-drive-to-beijing</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-eating-together</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk1-excuse-me</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-fun-numbers</loc><lastmod>2026-07-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-going-home</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-going-to-the-shop</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-goodbye-teacher</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-greetings</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk1-how-are-you</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-how-much-does-it-cost</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-how-old</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-i-dont-feel-well</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
@@ -109,17 +111,24 @@
   <url><loc>https://readmandarin.com/texts/hsk2-first-hotpot</loc><lastmod>2026-07-09</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-giving-a-gift</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-going-to-the-airport</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-good-morning</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-good-night</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-growing-flowers</loc><lastmod>2026-08-13</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-haircut</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-happy-new-year</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-help-me</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-helping-others</loc><lastmod>2026-07-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-how-do-i-get-there</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-how-do-you-say</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-how-far</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-i-dont-know</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-i-have-arrived</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-i-love-sports</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-i-miss-you</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-i-want-this</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-im-tired</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-in-the-classroom</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-its-ok</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-lamb-or-fish</loc><lastmod>2026-07-18</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-left-and-right</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-lets-go</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
@@ -143,6 +152,7 @@
   <url><loc>https://readmandarin.com/texts/hsk2-speak-slowly</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-swimming</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-taking-the-bus</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-thats-great</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-the-library</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-the-watermelon-seller</loc><lastmod>2026-08-14</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-tired-and-resting</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
@@ -155,12 +165,14 @@
   <url><loc>https://readmandarin.com/texts/hsk2-watch-and-time</loc><lastmod>2026-07-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-weather-forecast</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-weekend-park</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-welcome</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-what-are-you-doing</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-what-do-you-mean</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-what-to-wear</loc><lastmod>2026-07-10</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-when</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-why-i-study-chinese</loc><lastmod>2026-08-14</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk2-wife-and-husband</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk2-youre-welcome</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-a-stressful-day</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-an-interesting-match</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-an-unforgettable-birthday</loc><lastmod>2026-08-14</lastmod><priority>0.9</priority></url>
@@ -180,6 +192,7 @@
   <url><loc>https://readmandarin.com/texts/hsk3-choosing-a-job</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-climbing-mountain</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-come-on</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk3-congratulations</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-daily-habits</loc><lastmod>2026-07-10</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-dont-worry</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-exchanging-money</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
@@ -190,9 +203,11 @@
   <url><loc>https://readmandarin.com/texts/hsk3-getting-lost</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-giving-mooncakes</loc><lastmod>2026-07-26</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-going-home-for-spring-festival</loc><lastmod>2026-07-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk3-happy-birthday</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-hospital-registration</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-hurry-up</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-i-agree</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk3-im-full</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-im-hungry</loc><lastmod>2026-09-06</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-job-interview</loc><lastmod>2026-09-05</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk3-learning-to-cook</loc><lastmod>2026-07-09</lastmod><priority>0.9</priority></url>

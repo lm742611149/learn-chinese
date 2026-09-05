@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-happy-birthday",
+  "level": 3,
+  "title_zh": "生日快乐",
+  "title_py": "Shēngrì kuàilè",
+  "title_en": "Happy Birthday in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["是","shì","to be"],["小美","Xiǎoměi","Xiaomei"],["的","de","(possessive particle)"],["生日","shēngrì","birthday"],["，"],["我们","wǒmen","we; us"],["几个","jǐ ge","a few"],["朋友","péngyou","friend"],["一起","yìqǐ","together"],["去","qù","to go"],["她","tā","she; her"],["家","jiā","home"],["。"]],
+      "en": "Today is Xiaomei's birthday, and a few of us friends went to her home together."
+    },
+    {
+      "t": [["大家","dàjiā","everyone"],["坐下","zuòxià","to sit down"],["以后","yǐhòu","after"],["，"],["先","xiān","first"],["一起","yìqǐ","together"],["给","gěi","for"],["她","tā","she; her"],["唱","chàng","to sing"],["歌","gē","song"],["，"],["唱","chàng","to sing"],["完","wán","to finish"],["，"],["一起","yìqǐ","together"],["说","shuō","to say"],["："],["“"],["祝","zhù","to wish"],["你","nǐ","you"],["生日","shēngrì","birthday"],["快乐","kuàilè","happy"],["！"],["”"]],
+      "en": "After everyone sat down, we first sang her a song together, and once we finished singing, we all said together: \"Happy birthday!\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["笑着","xiàozhe","smiling"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["大家","dàjiā","everyone"],["，"],["我","wǒ","I; me"],["很","hěn","very"],["开心","kāixīn","happy"],["。"],["”"]],
+      "en": "Xiaomei said with a smile: \"Thank you everyone, I'm very happy.\""
+    },
+    {
+      "t": [["然后","ránhòu","then; after that"],["我","wǒ","I; me"],["拿","ná","to take out"],["出","chū","out"],["准备","zhǔnbèi","to prepare"],["的","de","(particle: attributive)"],["礼物","lǐwù","gift"],["，"],["送","sòng","to give (as a gift)"],["给","gěi","to"],["她","tā","she; her"],["，"],["对","duì","to; toward"],["她","tā","she; her"],["说","shuō","to say"],["："],["“"],["祝","zhù","to wish"],["你","nǐ","you"],["身体","shēntǐ","body; health"],["健康","jiànkāng","healthy"],["，"],["工作","gōngzuò","to work"],["顺利","shùnlì","smoothly; successfully"],["！"],["”"]],
+      "en": "Then I took out the gift I had prepared, gave it to her, and said to her: \"I wish you good health and smooth work!\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["看","kàn","to look at"],["了","le","(completed action)"],["看","kàn","to look at"],["礼物","lǐwù","gift"],["，"],["非常","fēicháng","very; extremely"],["高兴","gāoxìng","happy; glad"],["，"],["说","shuō","to say"],["："],["“"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(change of state)"],["，"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["！"],["”"]],
+      "en": "Xiaomei looked at the gift, very happy, and said: \"Wonderful, thank you!\""
+    },
+    {
+      "t": [["大家","dàjiā","everyone"],["一起","yìqǐ","together"],["吃","chī","to eat"],["蛋糕","dàngāo","cake"],["的时候","de shíhou","when"],["，"],["小美","Xiǎoměi","Xiaomei"],["又","yòu","again"],["对","duì","to; toward"],["我们","wǒmen","we; us"],["说","shuō","to say"],["："],["“"],["也","yě","also"],["祝","zhù","to wish"],["你们","nǐmen","you all"],["工作","gōngzuò","to work"],["顺利","shùnlì","smoothly; successfully"],["！"],["”"]],
+      "en": "While we were all eating cake together, Xiaomei said to us again: \"I wish you all smooth work too!\""
+    },
+    {
+      "t": [["小美","Xiǎoměi","Xiaomei"],["把","bǎ","(object marker)"],["蛋糕","dàngāo","cake"],["分","fēn","to divide"],["给","gěi","to give"],["每","měi","every"],["个","gè","(measure word)"],["人","rén","person"],["，"],["最后","zuìhòu","last"],["一块","yí kuài","one piece"],["给","gěi","went to"],["了","le","(completed action)"],["她","tā","her"],["妈妈","māma","mom"],["。"]],
+      "en": "Xiaomei cut the cake for everyone, and the last piece went to her mom."
+    }
+  ],
+  "vocab": [
+    ["祝","zhù","to wish"],
+    ["生日","shēngrì","birthday"],
+    ["快乐","kuàilè","happy"],
+    ["健康","jiànkāng","healthy"],
+    ["顺利","shùnlì","smoothly; successfully"],
+    ["礼物","lǐwù","gift"]
+  ],
+  "quiz": [
+    {"q":"What do the friends do right after Xiaomei sits down?","a":["They eat cake immediately","They sing her a song first","They leave right away"],"c":1},
+    {"q":"Besides 生日快乐, what else does the narrator wish Xiaomei?","a":["Good luck and wealth","Long life and safety","Good health and smooth work"],"c":2},
+    {"q":"What does Xiaomei do at the end of the story?","a":["She takes a photo of everyone with her phone","She opens more presents","She sings another song"],"c":0}
+  ],
+  "grammar": [
+    {"p":"祝你 + wish (I wish you...)","e":"祝 introduces a blessing: 祝 + person + the thing you wish them. At a birthday, 身体健康 and 工作顺利 are common wishes to add after 生日快乐.","x":"祝你身体健康，工作顺利！— I wish you good health and smooth work!"},
+    {"p":"verb + 完 (finish doing something)","e":"完 attaches right after a verb to show the action is finished — 唱完 is 'finish singing', 说完 is 'finish speaking.'","x":"唱完，我们一起说祝你生日快乐。— Once we finished singing, we all said happy birthday together."},
+    {"p":"对 + person + 说 (to say to someone)","e":"对 marks who the words are directed at — 对她说 means 'said to her', placed right before 说.","x":"我对她说：“祝你生日快乐！”— I said to her: \"Happy birthday!\""}
+  ]
+}

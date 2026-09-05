@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-how-do-you-say",
+  "level": 2,
+  "title_zh": "怎么说",
+  "title_py": "Zěnme shuō",
+  "title_en": "How Do You Say It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["在","zài","at; in"],["中国","Zhōngguó","China"],["学","xué","to study"],["中文","Zhōngwén","Chinese (language)"],["，"],["可是","kěshì","but"],["很多","hěn duō","many; a lot of"],["东西","dōngxi","things"],["的","de","(particle: the one that...)"],["名字","míngzi","name"],["我","wǒ","I"],["还","hái","still"],["不","bù","not"],["知道","zhīdào","to know"],["。"]],
+      "en": "I'm studying Chinese in China, but I still don't know the names of a lot of things."
+    },
+    {
+      "t": [["今天","jīntiān","today"],["，"],["我","wǒ","I"],["和","hé","and; with"],["朋友","péngyou","friend"],["在","zài","at; in"],["教室","jiàoshì","classroom"],["里","li","inside"],["，"],["桌子","zhuōzi","table; desk"],["上","shàng","on"],["有","yǒu","to have; there is"],["一个","yí ge","one (+ measure word)"],["苹果","píngguǒ","apple"],["。"]],
+      "en": "Today, my friend and I are in the classroom, and there's an apple on the table."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["朋友","péngyou","friend"],["："],["“"],["这个","zhège","this"],["用","yòng","to use"],["中文","Zhōngwén","Chinese (language)"],["怎么","zěnme","how; what"],["说","shuō","to speak; to say"],["？"],["”"]],
+      "en": "I ask my friend: \"How do you say this in Chinese?\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to speak; to say"],["："],["“"],["这个","zhège","this"],["叫","jiào","to be called; to call"],["苹果","píngguǒ","apple"],["。"],["”"]],
+      "en": "My friend says: \"This is called píngguǒ (apple).\""
+    },
+    {
+      "t": [["我","wǒ","I"],["又","yòu","again"],["看见","kànjiàn","to see"],["杯子","bēizi","cup"],["，"],["也","yě","also"],["问","wèn","to ask"],["她","tā","she"],["："],["“"],["这个","zhège","this"],["呢","ne","(particle: and this one?)"],["？"],["”"]],
+      "en": "I see a cup this time, and ask her too: \"What about this one?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["这个","zhège","this"],["是","shì","is"],["杯子","bēizi","cup"],["，"],["你","nǐ","you"],["今天","jīntiān","today"],["认识","rènshi","to learn; to know"],["了","le","(completed action)"],["两","liǎng","two"],["个","gè","(measure word)"],["新","xīn","new"],["东西","dōngxi","thing"],["！"],["”"]],
+      "en": "She said, \"That's a cup — you've learned two new things today!\""
+    }
+  ],
+  "vocab": [
+    ["怎么","zěnme","how; what"],
+    ["这个","zhège","this"],
+    ["中文","Zhōngwén","Chinese (language)"],
+    ["叫","jiào","to be called; to call"],
+    ["认识","rènshi","to know; to recognize"],
+    ["新","xīn","new"]
+  ],
+  "quiz": [
+    {"q":"What does \"这个用中文怎么说？\" mean?","a":["How do you say this in Chinese?","What is your name?","Where are you from?"],"c":0},
+    {"q":"What was the first new word the narrator learned?","a":["杯子 (cup)","苹果 (apple)","书 (book)"],"c":1},
+    {"q":"How does the friend react at the end?","a":["She gets angry","She leaves","She smiles"],"c":2}
+  ],
+  "grammar": [
+    {"p":"这个用中文怎么说？（How do you say this in Chinese?）","e":"This is the question to ask when you don't know a word — point at something and say this.","x":"这个用中文怎么说？— How do you say this in Chinese?"},
+    {"p":"叫（to be called）","e":"叫 introduces the name of a thing right after 这个是 or on its own.","x":"这个叫苹果。— This is called 'píngguǒ'."},
+    {"p":"又 + verb（to do something again）","e":"又 goes before a verb to show an action happening again, already in the past or present.","x":"我又看见杯子。— I see a cup again."}
+  ]
+}

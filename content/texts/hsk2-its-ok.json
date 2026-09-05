@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-its-ok",
+  "level": 2,
+  "title_zh": "没关系",
+  "title_py": "Méi guānxi",
+  "title_en": "It Is OK in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I"],["要","yào","to be going to"],["去","qù","to go"],["电影院","diànyǐngyuàn","cinema"],["和","hé","with"],["朋友","péngyou","friend"],["看","kàn","to watch"],["电影","diànyǐng","movie"],["。"]],
+      "en": "In the afternoon, I'm going to the cinema to watch a movie with my friend."
+    },
+    {
+      "t": [["路上","lùshang","on the way"],["车","chē","traffic"],["很","hěn","very"],["慢","màn","slow"],["，"],["我","wǒ","I"],["很","hěn","very"],["着急","zháojí","anxious"],["，"],["跑","pǎo","to run"],["到","dào","to arrive at"],["电影院","diànyǐngyuàn","cinema"],["的时候","de shíhou","when"],["已经","yǐjīng","already"],["晚","wǎn","late"],["了","le","(change of state)"],["。"]],
+      "en": "Traffic on the way was slow, I got anxious, and by the time I ran to the cinema I was already late."
+    },
+    {
+      "t": [["我","wǒ","I"],["对","duì","to"],["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["对不起","duìbuqǐ","sorry"],["，"],["我","wǒ","I"],["来","lái","to come"],["晚","wǎn","late"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I say to my friend: \"Sorry, I'm late.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["笑","xiào","to smile"],["着","zhe","(ongoing state)"],["说","shuō","to say"],["："],["“"],["没关系","méi guānxi","it doesn't matter"],["，"],["电影","diànyǐng","movie"],["还","hái","still"],["没","méi","not"],["开始","kāishǐ","to start"],["。"],["”"]],
+      "en": "My friend smiles and says: \"It's okay, the movie hasn't started yet.\""
+    },
+    {
+      "t": [["后来","hòulái","afterward"],["，"],["我","wǒ","I"],["在","zài","at"],["教室","jiàoshì","classroom"],["忘","wàng","to forget"],["了","le","(completed action)"],["带","dài","to bring"],["同学","tóngxué","classmate"],["的","de","(possessive particle)"],["书","shū","book"],["。"]],
+      "en": "Afterward, at school I forgot to bring my classmate's book."
+    },
+    {
+      "t": [["同学","tóngxué","classmate"],["说","shuō","to say"],["："],["“"],["没事","méishì","it is nothing"],["，"],["你","nǐ","you"],["明天","míngtiān","tomorrow"],["带","dài","to bring"],["来","lái","come"],["就","jiù","then"],["可以","kěyǐ","fine"],["了","le","(particle)"],["。"],["”"],["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["。"],["”"]],
+      "en": "My classmate said, \"It's nothing — just bring it tomorrow.\" I said, \"Thank you.\""
+    }
+  ],
+  "vocab": [
+    ["没关系","méi guānxi","it doesn't matter"],
+    ["没事","méishì","it's fine; no worries"],
+    ["着急","zháojí","anxious; worried"],
+    ["忘","wàng","to forget"],
+    ["电影院","diànyǐngyuàn","cinema"],
+    ["教室","jiàoshì","classroom"]
+  ],
+  "quiz": [
+    {"q":"What does 没关系 mean?","a":["It doesn't matter","Thank you","Goodbye"],"c":0},
+    {"q":"Why is the narrator late to the cinema?","a":["She forgot the tickets","Traffic was slow on the way","She overslept"],"c":1},
+    {"q":"What did the narrator forget to bring to school?","a":["Her homework","Her lunch","Her classmate's book"],"c":2}
+  ],
+  "grammar": [
+    {"p":"没关系（it's okay）","e":"没关系 is the standard reply when someone apologizes to you.","x":"朋友说：“没关系，电影还没开始。”— Friend says: \"It's okay, the movie hasn't started yet.\""},
+    {"p":"没事（it's fine）","e":"没事 is a more casual reply to an apology, common between friends and classmates.","x":"同学说：“没事，你明天带来就可以了。”— Classmate says: \"It's fine, you can just bring it tomorrow.\""},
+    {"p":"跑到 + place + 的时候（by the time you arrive）","e":"到...的时候 marks the moment of arriving somewhere, showing what had already happened by then.","x":"跑到电影院的时候已经晚了。— By the time I ran to the cinema, I was already late."}
+  ]
+}

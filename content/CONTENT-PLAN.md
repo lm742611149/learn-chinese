@@ -99,11 +99,46 @@ The Job Interview / Exchanging Money 等(完整清单见 git log 69fe6bf)。
 **分级注意**: 「洗手间」不在 HSK2 词表(HSK3 才有),这篇要放 HSK3。
 **已否决**: 为什么 → Why in Chinese —— 与已有「为什么学中文」标题字面撞,且搜索意图模糊
 
-### 还没写的候选
-我饱了 → I'm Full in Chinese(「饱」HSK3) / 恭喜 → Congratulations in Chinese(「恭喜」HSK4) /
-我回来了 → I'm Home in Chinese / 多长时间 → How Long in Chinese /
-不要辣 → No Spicy in Chinese(「辣」HSK4) / 打包 → To Go in Chinese /
-也许 → Maybe in Chinese / 慢走 → Take Care in Chinese
+### 🎯 冲 100 篇搜索型课文的完整清单(2026-09-06 定,已过撞题+词池双检查)
+
+目标: 搜索型课文凑满 100 篇。已完成 42,下面 58 个候选**全部检查过**,
+分四轮写。✅ 已写 / 🔨 进行中 / 空白 = 待写。
+
+**轮 1(15 篇,🔨 进行中)**
+🔨你好吗 How Are You(1) / 🔨请问 Excuse Me(1) / 🔨早上好 Good Morning(2) /
+🔨不客气 You Are Welcome(2) / 🔨没关系 It Is OK(2) / 🔨欢迎 Welcome(2) /
+🔨怎么说 How Do You Say It(2) / 🔨太好了 That Is Great(2) / 🔨我累了 I Am Tired(2) /
+🔨怎么走 How Do I Get There(2) / 🔨多远 How Far Is It(2) / 🔨我到了 I Have Arrived(2) /
+🔨生日快乐 Happy Birthday(3) / 🔨恭喜 Congratulations(3) / 🔨我饱了 I Am Full(3)
+
+**轮 2(15 篇)** — 吃饭购物
+好吃吗 Is It Good(2) / 再来一个 One More(2) / 菜单 The Menu(2) / 有没有 Do You Have It(2) /
+我不吃辣 I Do Not Eat Spicy Food(3) / 打包 Takeout(3) / 我请客 My Treat(3) /
+我试一下 Can I Try It On(3) / 我只看看 Just Looking(3) / 刷卡 Paying by Card(3) /
+回头见 See You Later(2) / 保重 Take Care(3) / 麻烦你了 Sorry to Trouble You(3) /
+你说什么 What Did You Say(2) / 我不会 I Cannot Do It(2)
+
+**轮 3(15 篇)** — 感受 + 沟通
+我很开心 I Am Happy(2) / 我难过 I Am Sad(3) / 没意思 Boring(3) / 我怕 I Am Scared(2) /
+没事 It Is Nothing(2) / 还可以 Not Bad(2) / 有点儿 A Little Bit(2) / 我看看 Let Me See(2) /
+随便 Whatever You Like(3) / 差不多 About the Same(3) / 算了 Forget It(3) /
+不一定 Not Necessarily(3) / 你先 After You(3) / 这个字怎么读 How Do You Read This(3) /
+要多长时间 How Long Does It Take(3)
+
+**轮 4(13 篇)** — 生活场景
+我回来了 I Am Home(2) / 我忘了 I Forgot(2) / 我要走了 I Have to Go(2) /
+我马上到 I Will Be There Soon(2) / 快递到了 My Package Arrived(3) / 我迟到了 I Am Late(3) /
+我丢了 I Lost It(3) / 借我用一下 Can I Borrow It(3) / 我搬家了 I Moved(3) /
+停一下 Stop Here(3) / 加个微信 Add Me on WeChat(3) / 你结婚了吗 Are You Married(3) /
+你的电话号码 Your Phone Number(3)
+
+**检查时否掉的**:
+- 你是哪国人 Where Are You From —— 已被 hsk2-nice-to-meet-you 覆盖
+- 你的电话号码 原定 HSK2 → **改 HSK3**(「号码」只在 HSK3 池里)
+
+**每篇都要提醒 agent 与已有课文区分**,清单里已标注的例如:
+怎么走 vs 已有的「问路」/ 不客气 vs 已有的「谢谢你」/ 没关系 vs 已有的「对不起」/
+生日快乐 vs 已有的三篇生日课文 / 我饱了 vs 已有的「我饿了」
 
 **又砍掉两条(词表不够,同「颜色」)**:
 - **身体部位 → Body Parts in Chinese**: HSK2 只有「眼睛」一个部位词,头/手/脚全不在。等 HSK4

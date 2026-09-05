@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-congratulations",
+  "level": 3,
+  "title_zh": "恭喜",
+  "title_py": "Gōngxǐ",
+  "title_en": "Congratulations in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["的","de","(possessive particle)"],["朋友","péngyou","friend"],["小李","Xiǎo Lǐ","Xiao Li"],["找","zhǎo","to look for"],["工作","gōngzuò","work; job"],["找","zhǎo","to look for"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["，"],["一直","yìzhí","always; all along"],["没","méi","not"],["找到","zhǎodào","to find"],["。"]],
+      "en": "My friend Xiao Li had been job-hunting for a long time, and hadn't found one."
+    },
+    {
+      "t": [["上个","shàng ge","last"],["星期","xīngqī","week"],["，"],["他","tā","he; him"],["去","qù","to go"],["了","le","(completed action)"],["一家","yì jiā","one (company)"],["公司","gōngsī","company"],["面试","miànshì","interview"],["。"]],
+      "en": "Last week, he went to interview at a company."
+    },
+    {
+      "t": [["昨天","zuótiān","yesterday"],["，"],["公司","gōngsī","company"],["打电话","dǎ diànhuà","to make a phone call"],["告诉","gàosu","to tell"],["他","tā","him"],["，"],["可以","kěyǐ","can; may"],["去","qù","to go"],["上班","shàngbān","to go to work"],["了","le","(change of state)"],["。"]],
+      "en": "Yesterday, the company called and told him he could start work."
+    },
+    {
+      "t": [["小李","Xiǎo Lǐ","Xiao Li"],["很","hěn","very"],["开心","kāixīn","happy"],["，"],["马上","mǎshàng","right away"],["给","gěi","to"],["我","wǒ","I; me"],["打电话","dǎ diànhuà","to make a phone call"],["，"],["告诉","gàosu","to tell"],["我","wǒ","I; me"],["这个","zhège","this"],["好","hǎo","good"],["消息","xiāoxi","news; message"],["。"]],
+      "en": "Xiao Li was so happy, he called me right away and told me the good news."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["恭喜","gōngxǐ","congratulations"],["你","nǐ","you"],["，"],["终于","zhōngyú","finally"],["找到","zhǎodào","to find"],["工作","gōngzuò","work; job"],["了","le","(change of state)"],["！"],["”"]],
+      "en": "I said: \"Congratulations, you finally found a job!\""
+    },
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["几个","jǐ ge","a few"],["同学","tóngxué","classmate"],["一起","yìqǐ","together"],["请","qǐng","to invite; to treat"],["他","tā","he; him"],["吃饭","chīfàn","to eat a meal"],["，"],["大家","dàjiā","everyone"],["都","dōu","all"],["对","duì","to; toward"],["他","tā","he; him"],["说","shuō","to say"],["："],["“"],["恭喜","gōngxǐ","congratulations"],["！"],["”"]],
+      "en": "In the evening, a few classmates treated him to a meal together, and everyone said to him: \"Congratulations!\""
+    },
+    {
+      "t": [["小李","Xiǎo Lǐ","Xiao Li"],["拿","ná","to pick up"],["起","qǐ","up"],["杯子","bēizi","glass"],["，"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["大家","dàjiā","everyone"],["，"],["下次","xià cì","next time"],["我","wǒ","I"],["请客","qǐngkè","to treat"],["。"],["”"]],
+      "en": "Xiao Li raised his glass: \"Thank you all — next one's on me.\""
+    }
+  ],
+  "vocab": [
+    ["恭喜","gōngxǐ","congratulations"],
+    ["找到","zhǎodào","to find"],
+    ["面试","miànshì","interview"],
+    ["终于","zhōngyú","finally"],
+    ["消息","xiāoxi","news; message"],
+    ["请客","qǐngkè","to treat (someone to something)"]
+  ],
+  "quiz": [
+    {"q":"Why had Xiao Li been unhappy before the good news?","a":["He lost his phone","He had been job-hunting for a long time without success","He failed an important exam"],"c":1},
+    {"q":"What does the narrator say when Xiao Li shares his news?","a":["Goodbye","I'm sorry to hear that","Congratulations, you finally found a job!"],"c":2},
+    {"q":"What does Xiao Li promise at the end?","a":["To treat everyone to a meal next time","To quit the new job","To go back to school"],"c":0}
+  ],
+  "grammar": [
+    {"p":"恭喜 + person (Congratulations, ...)","e":"恭喜 is used to congratulate someone on good news — finding a job, passing an exam, getting married, or having a baby. Add 你 to speak directly to the person, or just say 恭喜恭喜 to a group.","x":"恭喜你，终于找到工作了！— Congratulations, you finally found a job!"},
+    {"p":"找到 (to successfully find)","e":"找 means 'to look for', but 到 after it shows the search succeeded — 找到 means 'found it', while 没找到 means 'didn't find it.'","x":"他找了很久，一直没找到。— He looked for a long time, and hadn't found one."},
+    {"p":"verb + 了 + duration (how long you did something)","e":"Put 了 right after the verb, then add how long — 找了很久 means 'looked for a long time.'","x":"他找工作找了很久。— He had been job-hunting for a long time."}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-thats-great",
+  "level": 2,
+  "title_zh": "太好了",
+  "title_py": "Tài hǎo le",
+  "title_en": "That Is Great in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I"],["一个","yí ge","one (+ measure word)"],["人","rén","person"],["在","zài","at; in"],["家","jiā","home"],["，"],["很","hěn","very"],["想","xiǎng","to miss"],["朋友","péngyou","friend"],["。"]],
+      "en": "Saturday afternoon, I'm home alone, and I miss my friend a lot."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["打电话","dǎ diànhuà","to make a phone call"],["给","gěi","to (for)"],["我","wǒ","I"],["，"],["说","shuō","to speak; to say"],["："],["“"],["明天","míngtiān","tomorrow"],["我","wǒ","I"],["去","qù","to go"],["看","kàn","to see; to visit"],["你","nǐ","you"],["，"],["我们","wǒmen","we"],["都","dōu","both; all"],["不用","bú yòng","don't need to"],["上班","shàngbān","to go to work"],["！"],["”"]],
+      "en": "My friend calls me and says: \"Tomorrow I'll come see you — neither of us has work!\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to speak; to say"],["："],["“"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(particle)"],["！"],["我","wǒ","I"],["等","děng","to wait"],["你","nǐ","you"],["。"],["”"]],
+      "en": "I say: \"That's great! I'll wait for you.\""
+    },
+    {
+      "t": [["星期天","xīngqītiān","Sunday"],["，"],["朋友","péngyou","friend"],["来","lái","to come"],["了","le","(particle)"],["，"],["我们","wǒmen","we"],["一起","yìqǐ","together"],["去","qù","to go"],["吃饭","chīfàn","to eat a meal"],["，"],["很","hěn","very"],["开心","kāixīn","happy"],["。"]],
+      "en": "On Sunday, my friend comes, and we go eat together happily."
+    },
+    {
+      "t": [["吃","chī","to eat"],["完","wán","to finish"],["饭","fàn","food"],["，"],["朋友","péngyou","friend"],["说","shuō","to speak; to say"],["："],["“"],["下个月","xià gè yuè","next month"],["我","wǒ","I"],["还","hái","still"],["要","yào","to be going to"],["来","lái","to come"],["。"],["”"]],
+      "en": "After finishing the meal, my friend says: \"Next month I'll come again.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["笑","xiào","to smile"],["着","zhe","(ongoing particle)"],["说","shuō","to speak; to say"],["："],["“"],["太","tài","too; so"],["好","hǎo","good"],["了","le","(particle)"],["，"],["我","wǒ","I"],["等","děng","to wait"],["你","nǐ","you"],["再","zài","again"],["来","lái","to come"],["！"],["”"]],
+      "en": "I say with a smile: \"That's great, I'll wait for you to come again!\""
+    }
+  ],
+  "vocab": [
+    ["太", "tài", "too; so"],
+    ["好", "hǎo", "good"],
+    ["等", "děng", "to wait"],
+    ["一起", "yìqǐ", "together"],
+    ["开心", "kāixīn", "happy"],
+    ["再", "zài", "again"]
+  ],
+  "quiz": [
+    {"q": "What does 太好了 express?", "a": ["Excitement or approval", "Anger", "Boredom"], "c": 0},
+    {"q": "What news does the friend share on the phone?", "a": ["She is sick", "She got a new job", "She is coming to visit tomorrow"], "c": 2},
+    {"q": "What do the narrator and friend do together on Sunday?", "a": ["Go to a movie", "Eat a meal together", "Study Chinese"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "太 + adj + 了（so...!）", "e": "太好了 is said on its own to react to good news — happiness or agreement.", "x": "太好了！— That's great!"},
+    {"p": "等 + person（to wait for someone）", "e": "等 directly followed by a person means you are waiting for them.", "x": "我等你。— I'll wait for you."},
+    {"p": "再 vs 又（future repeat vs past repeat）", "e": "再 marks a repeated action that hasn't happened yet; 又 marks one that already did.", "x": "我等你再来。— I'll wait for you to come again (next time)."}
+  ]
+}

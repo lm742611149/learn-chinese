@@ -20,6 +20,9 @@ CLICHE = ["我们都很高兴", "很高兴", "我很高兴"]
 # 说教式收尾:agent 被禁掉「很高兴」之后换的另一种套话,HSK3+ 尤其爱写
 PREACHY = ["我懂了", "我明白", "现在我知道", "从那以后", "这次以后",
            "以后我还会", "没有用", "才有用", "我学会了"]
+# 第三代套话:禁掉前两种后,agent 改用「笑着说」制造温暖收尾。
+# 单篇不算错,但一批里超过三分之一就是模板腔 —— 按整批比例报,不按单篇。
+SMILEY = ["笑着说", "笑了，说", "笑着", "笑了"]
 SUSPECT = ["项目", "付", "挑食", "消息", "紧张", "满意", "计划", "决定", "情况",
            "经验", "机会", "习惯", "方法", "环境", "支持", "参加", "重要"]
 
@@ -50,13 +53,25 @@ def main():
     if dup:
         issues += 1; print("  ✗ 结尾完全相同: %s" % dup)
 
+    smiley = [s for s, e in ends.items() if any(c in e for c in SMILEY)]
+    if len(docs) >= 5 and len(smiley) > len(docs) / 3:
+        issues += 1
+        print("  ✗ %d/%d 篇以「笑着说」类收尾 —— 又一种模板腔,改掉一半"
+              % (len(smiley), len(docs)))
+    elif smiley:
+        print("  · 结尾带「笑」的 %d/%d 篇(过三分之一才算问题)" % (len(smiley), len(docs)))
+
     n_cliche = sum(1 for d in docs.values() if any(c in text_of(d) for c in CLICHE))
     print("  正文含「很高兴」类套话的: %d / %d" % (n_cliche, len(docs)))
 
     print("\n── 2. quiz 语言(题干主体必须是英文)")
     for s, d in docs.items():
-        # 选项本身是中文短语是合理的(考"朋友喊的是哪句"),只看题干主体
-        zh = [q["q"] for q in d["quiz"] if len(re.findall(r"[一-鿿]", q["q"])) > 6]
+        # 选项本身是中文短语是合理的(考"朋友喊的是哪句"),只看题干主体。
+        # 题干里**引号内**的中文是被考的目标短语,也不算 —— 例如
+        # `What does "这个用中文怎么说？" mean?` 框架是英文,不该报。
+        QUOTE = "[\u201c\u201d\u0022\u2018\u2019\u0027]"
+        stem = lambda q: re.sub(QUOTE + ".*?" + QUOTE, "", q)
+        zh = [q["q"] for q in d["quiz"] if len(re.findall(r"[一-鿿]", stem(q["q"]))) > 6]
         if zh:
             issues += 1
             print("  ✗ %-30s %s" % (s, zh[0][:40]))
