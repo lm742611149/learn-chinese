@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-my-treat",
+  "level": 3,
+  "title_zh": "我请客",
+  "title_py": "Wǒ qǐngkè",
+  "title_en": "My Treat in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上","wǎnshang","evening"],["，"],["我","wǒ","I; me"],["和","hé","and"],["朋友","péngyou","friend"],["一起","yìqǐ","together"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat a meal"],["，"],["点","diǎn","to order (food)"],["了","le","(completed action)"],["很多","hěn duō","a lot of"],["菜","cài","dish"],["。"]],
+      "en": "In the evening, my friend and I went to a restaurant together and ordered a lot of dishes."
+    },
+    {
+      "t": [["吃","chī","to eat"],["完","wán","to finish"],["饭","fàn","meal; food"],["，"],["我们","wǒmen","we; us"],["叫","jiào","to call over; to summon"],["服务员","fúwùyuán","clerk; attendant"],["买单","mǎidān","to pay the bill (at a restaurant)"],["。"]],
+      "en": "After we finished eating, we called the waiter over to pay the bill."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["想","xiǎng","to want to"],["付","fù","to pay"],["钱","qián","money"],["，"],["我","wǒ","I; me"],["也","yě","also"],["想","xiǎng","to want to"],["付","fù","to pay"],["钱","qián","money"],["，"],["我们","wǒmen","we; us"],["都","dōu","both; all"],["想","xiǎng","to want to"],["请客","qǐngkè","to treat (someone to a meal)"],["。"]],
+      "en": "My friend wanted to pay, and I wanted to pay too — we both wanted to treat."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["刚","gāng","just now"],["说","shuō","to say"],["完","wán","to finish"],["多少钱","duōshao qián","how much (money)"],["，"],["我","wǒ","I; me"],["就","jiù","then"],["抢","qiǎng","to rush to do something first"],["着","zhe","(continuous aspect particle)"],["说","shuō","to say"],["："],["“"],["这次","zhècì","this time"],["我","wǒ","I; me"],["请客","qǐngkè","to treat (someone to a meal)"],["！"],["”"]],
+      "en": "The waiter had just said how much it was when I jumped in: \"This one's on me!\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["也","yě","also"],["想","xiǎng","to want to"],["给","gěi","to give"],["钱","qián","money"],["，"],["说","shuō","to say"],["："],["“"],["不","bù","not"],["行","xíng","to be okay; to work"],["，"],["今天","jīntiān","today"],["应该","yīnggāi","should"],["我","wǒ","I; me"],["请客","qǐngkè","to treat (someone to a meal)"],["。"],["”"]],
+      "en": "My friend also wanted to pay and said: \"No way — today it should be me treating.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["拿","ná","to hold; to carry"],["着","zhe","(continuous aspect particle)"],["钱","qián","money"],["，"],["跑","pǎo","to run"],["到","dào","to (arrive at)"],["服务员","fúwùyuán","clerk; attendant"],["那儿","nàr","there; that place"],["，"],["先","xiān","first"],["把","bǎ","(object marker)"],["钱","qián","money"],["给","gěi","to give"],["了","le","(completed action)"],["她","tā","she; her"],["。"]],
+      "en": "I grabbed the money, ran over to the waiter, and handed it to her first."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["还","hái","still; yet"],["没","méi","not; haven't"],["走","zǒu","to walk"],["到","dào","to (arrive at)"],["，"],["我","wǒ","I; me"],["已经","yǐjīng","already"],["把","bǎ","(object marker)"],["钱","qián","money"],["给","gěi","to give"],["了","le","(completed action)"],["服务员","fúwùyuán","clerk; attendant"],["。"]],
+      "en": "Before my friend could get there, I had already handed the money to the waiter."
+    },
+    {
+      "t": [["出","chū","out"],["了","le","(completed action)"],["饭馆","fànguǎn","restaurant"],["，"],["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["那","nà","then; in that case"],["我","wǒ","I; me"],["请","qǐng","to treat (someone)"],["你","nǐ","you"],["喝","hē","to drink"],["一杯","yì bēi","one cup/glass of"],["咖啡","kāfēi","coffee"],["吧","ba","(particle: suggestion)"],["！"],["”"]],
+      "en": "Once we were outside the restaurant, my friend said: \"Then let me buy you a cup of coffee!\""
+    }
+  ],
+  "vocab": [
+    ["请客","qǐngkè","to treat (someone to a meal)"],
+    ["买单","mǎidān","to pay the bill (at a restaurant)"],
+    ["付","fù","to pay"],
+    ["抢","qiǎng","to rush to do something first"],
+    ["应该","yīnggāi","should"],
+    ["咖啡","kāfēi","coffee"]
+  ],
+  "quiz": [
+    {"q":"What did both the narrator and the friend want to do when the bill came?","a":["Both wanted to pay","Both wanted to leave right away","Both wanted to order more food"],"c":0},
+    {"q":"How did the narrator manage to pay first?","a":["By paying online in advance","By asking the friend to wait outside","By rushing to the waiter with the money before the friend could"],"c":2},
+    {"q":"What did the friend do after losing the race to pay?","a":["Got upset and left","Offered to buy the narrator a coffee instead","Asked the waiter for a receipt"],"c":1}
+  ],
+  "grammar": [
+    {"p":"抢着 + verb (to rush to be the one who does it)","e":"抢 means 'to grab/rush', and 抢着 + verb shows someone hurrying to do something before anyone else can.","x":"我就抢着说：“这次我请客！”— I jumped in: \"This one's on me!\""},
+    {"p":"还没 A，已经 B (before A happened, B already had)","e":"还没 + verb pairs with 已经 + verb to show one thing beat another to happen.","x":"朋友还没走到，我已经把钱给了服务员。— Before my friend could get there, I had already handed the money to the waiter."},
+    {"p":"那 + clause (in that case, ...)","e":"那 at the start of a sentence means 'in that case' or 'then', responding to what just happened.","x":"那我请你喝一杯咖啡吧！— Then let me buy you a cup of coffee!"}
+  ]
+}
