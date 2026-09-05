@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-sorry-to-trouble-you",
+  "level": 3,
+  "title_zh": "麻烦你了",
+  "title_py": "Máfan nǐ le",
+  "title_en": "Sorry to Trouble You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下个星期","xià ge xīngqī","next week"],["，"],["我","wǒ","I"],["要","yào","to be going to"],["出差","chūchāi","to go on a business trip"],["，"],["家里","jiā lǐ","at home"],["的","de","(attributive particle)"],["花","huā","flower"],["没","méi","not have"],["人","rén","people"],["浇水","jiāoshuǐ","to water (plants)"],["。"]],
+      "en": "Next week I'm going on a business trip, and there'll be no one at home to water the flowers."
+    },
+    {
+      "t": [["我","wǒ","I"],["去","qù","to go"],["楼下","lóuxià","downstairs"],["找","zhǎo","to look for"],["邻居","línjū","neighbor"],["小张","Xiǎo Zhāng","Xiao Zhang"],["，"],["说","shuō","to say"],["："],["“"],["小张","Xiǎo Zhāng","Xiao Zhang"],["，"],["麻烦","máfan","to trouble (someone)"],["你","nǐ","you"],["帮","bāng","to help"],["我","wǒ","me"],["浇水","jiāoshuǐ","to water (plants)"],["，"],["可以","kěyǐ","can; may"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I went downstairs to find my neighbor Xiao Zhang and said: \"Xiao Zhang, sorry to trouble you, could you water the flowers for me?\""
+    },
+    {
+      "t": [["小张","Xiǎo Zhāng","Xiao Zhang"],["说","shuō","to say"],["："],["“"],["没","méi","not"],["问题","wèntí","problem"],["，"],["你","nǐ","you"],["把","bǎ","(把-construction)"],["钥匙","yàoshi","key"],["给","gěi","to give"],["我","wǒ","me"],["吧","ba","(suggestion particle)"],["。"],["”"]],
+      "en": "Xiao Zhang said: \"No problem, just give me the key.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["，"],["麻烦","máfan","to trouble (someone)"],["你","nǐ","you"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I said: \"Thank you, sorry for the trouble.\""
+    },
+    {
+      "t": [["一个","yí ge","one"],["星期","xīngqī","week"],["以后","yǐhòu","after"],["，"],["我","wǒ","I"],["回","huí","to return"],["来","lái","(directional complement)"],["了","le","(completed action)"],["，"],["发现","fāxiàn","to discover"],["阳台","yángtái","balcony"],["上","shang","on"],["的","de","(attributive particle)"],["花","huā","flower"],["开","kāi","to bloom"],["得","de","(degree particle)"],["很","hěn","very"],["好","hǎo","good"],["。"]],
+      "en": "A week later, I came back, and discovered the flowers on the balcony had bloomed beautifully."
+    },
+    {
+      "t": [["我","wǒ","I"],["给","gěi","for"],["小张","Xiǎo Zhāng","Xiao Zhang"],["买","mǎi","to buy"],["了","le","(completed action)"],["一些","yìxiē","some"],["水果","shuǐguǒ","fruit"],["，"],["又","yòu","again"],["说","shuō","to say"],["了","le","(completed action)"],["一次","yí cì","once"],["："],["“"],["麻烦","máfan","to trouble (someone)"],["你","nǐ","you"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I bought Xiao Zhang some fruit, and said once more: \"Sorry for the trouble.\""
+    },
+    {
+      "t": [["小张","Xiǎo Zhāng","Xiao Zhang"],["拿","ná","to hold"],["着","zhe","(ongoing state)"],["水果","shuǐguǒ","fruit"],["，"],["说","shuō","to say"],["："],["“"],["下次","xià cì","next time"],["出差","chūchāi","to go on a business trip"],["，"],["再","zài","then"],["叫","jiào","to call on"],["我","wǒ","me"],["。"],["”"]],
+      "en": "Xiao Zhang held the fruit and said: \"Next time you go on a trip, just call on me.\""
+    }
+  ],
+  "vocab": [
+    ["麻烦","máfan","to trouble (someone)"],
+    ["浇水","jiāoshuǐ","to water (plants)"],
+    ["钥匙","yàoshi","key"],
+    ["出差","chūchāi","to go on a business trip"],
+    ["阳台","yángtái","balcony"],
+    ["邻居","línjū","neighbor"]
+  ],
+  "quiz": [
+    {"q":"Why does the narrator ask Xiao Zhang for help?","a":["To borrow money","To water the flowers during a business trip","To feed a cat"],"c":1},
+    {"q":"What does 麻烦你了 express?","a":["Thanks for the trouble someone took to help","A complaint about someone","A request to stop helping"],"c":0},
+    {"q":"What does the narrator discover after returning from the trip?","a":["The key is lost","Xiao Zhang has moved away","The flowers on the balcony have bloomed well"],"c":2}
+  ],
+  "grammar": [
+    {"p":"麻烦你 + verb（asking a favor politely）","e":"麻烦你 before a verb softens a request — it shows you know the favor takes the other person's time or effort.","x":"麻烦你帮我浇水。— Sorry to trouble you, could you water them for me."},
+    {"p":"麻烦你了（thanking someone for their trouble）","e":"麻烦你了 is said after someone has already helped — it thanks them for the specific effort or inconvenience, heavier than a plain 谢谢.","x":"谢谢你，麻烦你了。— Thank you, sorry for the trouble."},
+    {"p":"把 + object + 给 + person（handing something over）","e":"把 moves the object in front of the verb to focus on what is being handed to someone.","x":"你把钥匙给我吧。— Just give me the key."}
+  ]
+}

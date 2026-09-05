@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-paying-by-card",
+  "level": 3,
+  "title_zh": "刷卡",
+  "title_py": "Shuākǎ",
+  "title_en": "Paying by Card in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["和","hé","and"],["朋友","péngyou","friend"],["去","qù","to go"],["商店","shāngdiàn","store; shop"],["买","mǎi","to buy"],["东西","dōngxi","things; stuff"],["，"],["买","mǎi","to buy"],["了","le","(completed action)"],["很多","hěn duō","a lot of"],["，"],["要","yào","need to"],["付","fù","to pay"],["三百","sānbǎi","three hundred"],["多","duō","more than"],["块","kuài","yuan (colloquial)"],["钱","qián","money"],["。"]],
+      "en": "My friend and I went to the store to buy things; we bought a lot, and had to pay more than three hundred yuan."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to look at"],["了","le","(completed action)"],["看","kàn","to look at"],["钱","qián","money"],["，"],["发现","fāxiàn","to discover"],["不","bú","not"],["够","gòu","enough"],["。"]],
+      "en": "I looked at my money and realized it wasn't enough."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["可以","kěyǐ","can; may"],["刷卡","shuākǎ","to pay by card"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I asked the clerk: \"Can I pay by card?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["说","shuō","to say"],["："],["“"],["这儿","zhèr","here"],["不","bù","not"],["能","néng","can"],["刷卡","shuākǎ","to pay by card"],["，"],["你","nǐ","you"],["可以","kěyǐ","can; may"],["用","yòng","to use"],["手机","shǒujī","cell phone"],["付","fù","to pay"],["。"],["”"]],
+      "en": "The clerk said: \"You can't pay by card here — you can pay with your phone.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["好","hǎo","good; okay"],["，"],["那","nà","then"],["我","wǒ","I; me"],["用","yòng","to use"],["手机","shǒujī","cell phone"],["付","fù","to pay"],["吧","ba","(particle: suggestion)"],["。"],["”"]],
+      "en": "I said: \"Okay, then I'll pay with my phone.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["用","yòng","to use"],["手机","shǒujī","cell phone"],["付","fù","to pay"],["了","le","(completed action)"],["钱","qián","money"],["，"],["很","hěn","very"],["快","kuài","quick; fast"],["就","jiù","then"],["付","fù","to pay"],["完","wán","to finish"],["了","le","(change of state)"],["。"]],
+      "en": "I paid with my phone, and it was done very quickly."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["下次","xià cì","next time"],["你","nǐ","you"],["钱","qián","money"],["不","bú","not"],["够","gòu","enough"],["，"],["我","wǒ","I; me"],["来","lái","let me (do it)"],["帮","bāng","to help"],["你","nǐ","you"],["付","fù","to pay"],["。"],["”"]],
+      "en": "My friend said: \"Next time you're short on money, I'll help you pay.\""
+    }
+  ],
+  "vocab": [
+    ["刷卡","shuākǎ","to pay by card"],
+    ["够","gòu","enough"],
+    ["手机","shǒujī","cell phone"],
+    ["付","fù","to pay"],
+    ["快","kuài","quick; fast"],
+    ["下次","xià cì","next time"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator discover after looking at the money?","a":["There's too much money","The money was fake","The money isn't enough"],"c":2},
+    {"q":"Where does the clerk say cards can't be used?","a":["At the bank","At this store","At home"],"c":1},
+    {"q":"How does the narrator end up paying?","a":["Pays with a phone","Leaves without buying","Borrows money from a stranger"],"c":0}
+  ],
+  "grammar": [
+    {"p":"可以 + verb + 吗？(May I...?)","e":"可以 + verb + 吗 asks for permission — a common way to check what's allowed before you act.","x":"可以刷卡吗？— Can I pay by card?"},
+    {"p":"不够 (not enough)","e":"不 + 够 says an amount falls short of what's needed, often used for money or time.","x":"我看了看钱，发现不够。— I looked at my money and realized it wasn't enough."},
+    {"p":"用 + noun + verb (use something to...)","e":"用 introduces the tool or method right before the verb it applies to.","x":"我用手机付了钱。— I paid with my phone."}
+  ]
+}

@@ -40,12 +40,12 @@
     }
   ],
   "vocab": [
-    ["合适", "héshì", "fitting; suitable"],
-    ["试", "shì", "to try"],
-    ["穿上", "chuānshàng", "to put on"],
-    ["号", "hào", "size (number)"],
-    ["衬衫", "chènshān", "shirt"],
-    ["有点儿", "yǒudiǎnr", "a little"]
+    ["合适","héshì","fitting; suitable"],
+    ["试","shì","to try"],
+    ["穿上","chuānshàng","to put on"],
+    ["号","hào","size (number)"],
+    ["衬衫","chènshān","shirt"],
+    ["有点儿","yǒudiǎnr","a little"]
   ],
   "quiz": [
     {"q":"What did the narrator ask the clerk?","a":["Where is the mirror","Can I try this on","How much does it cost"],"c":1},
@@ -53,8 +53,8 @@
     {"q":"What is the narrator's friend doing at the end of the story?","a":["Trying on a skirt","Paying at the register","Leaving the store"],"c":0}
   ],
   "grammar": [
-    {"p": "可以...吗？(May I...?)", "e": "可以 + verb + 吗 is the everyday way to ask for permission to do something.", "x": "我可以试一下吗？— Can I try it on?"},
-    {"p": "有点儿 + adjective (a bit...)", "e": "有点儿 goes right before an adjective to soften a complaint, showing something is a little more than you'd like.", "x": "觉得有点儿大。— Felt it was a bit too big."},
-    {"p": "不 A 也不 B (neither A nor B)", "e": "Repeating 不 before two opposite adjectives says something lands right in the middle — not too much of either.", "x": "不大也不小，很合适。— Not too big or too small — it fit just right."}
+    {"p":"可以...吗？(May I...?)","e":"可以 + verb + 吗 is the everyday way to ask for permission to do something.","x":"我可以试一下吗？— Can I try it on?"},
+    {"p":"有点儿 + adjective (a bit...)","e":"有点儿 goes right before an adjective to soften a complaint, showing something is a little more than you'd like.","x":"觉得有点儿大。— Felt it was a bit too big."},
+    {"p":"不 A 也不 B (neither A nor B)","e":"Repeating 不 before two opposite adjectives says something lands right in the middle — not too much of either.","x":"不大也不小，很合适。— Not too big or too small — it fit just right."}
   ]
 }
