@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-be-there-soon",
+  "level": 2,
+  "title_zh": "我马上到",
+  "title_py": "Wǒ mǎshàng dào",
+  "title_en": "I Will Be There Soon in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天", "jīntiān", "today"],["晚上", "wǎnshang", "evening"],["六", "liù", "six"],["点", "diǎn", "o'clock"],["半", "bàn", "half"],["，"],["我", "wǒ", "I; me"],["要", "yào", "to be going to"],["去", "qù", "to go"],["饭馆", "fànguǎn", "restaurant"],["和", "hé", "and"],["朋友", "péngyou", "friend"],["吃饭", "chīfàn", "to eat a meal"],["。"]],
+      "en": "At 6:30 tonight, I was going to eat at a restaurant with my friend."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["出门", "chūmén", "to go out"],["晚", "wǎn", "late"],["了", "le", "(change of state)"],["，"],["坐", "zuò", "to ride; to take"],["公共汽车", "gōnggòng qìchē", "bus"],["去", "qù", "to go"],["，"],["车", "chē", "car; vehicle"],["开", "kāi", "to drive"],["得", "de", "(complement particle)"],["很", "hěn", "very"],["慢", "màn", "slow"],["。"]],
+      "en": "I left home late, so I took the bus, and it drove very slowly."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["给", "gěi", "to (for)"],["朋友", "péngyou", "friend"],["打电话", "dǎ diànhuà", "to make a phone call"],["，"],["说", "shuō", "to say"],["："],["“"],["路上", "lùshang", "on the way"],["车", "chē", "car; vehicle"],["很", "hěn", "very"],["多", "duō", "many; a lot"],["，"],["我", "wǒ", "I; me"],["可能", "kěnéng", "maybe; possibly"],["会", "huì", "will"],["晚", "wǎn", "late"],["一点", "yìdiǎn", "a bit"],["。"],["”"]],
+      "en": "I called my friend and said: \"There's a lot of traffic on the way, I might be a little late.\""
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["没关系", "méi guānxi", "it's OK; never mind"],["，"],["你", "nǐ", "you"],["慢慢", "mànmàn", "slowly"],["来", "lái", "to come"],["，"],["我们", "wǒmen", "we"],["等", "děng", "to wait"],["你", "nǐ", "you"],["。"],["”"]],
+      "en": "My friend said: \"It's OK, take your time, we'll wait for you.\""
+    },
+    {
+      "t": [["车", "chē", "car; vehicle"],["快", "kuài", "quickly; soon"],["到", "dào", "to arrive"],["站", "zhàn", "stop; station"],["的时候", "de shíhou", "when"],["，"],["我", "wǒ", "I; me"],["又", "yòu", "again"],["打电话", "dǎ diànhuà", "to make a phone call"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I; me"],["快", "kuài", "quickly; soon"],["到", "dào", "to arrive"],["了", "le", "(change of state)"],["，"],["马上", "mǎshàng", "right away"],["就", "jiù", "then"],["到", "dào", "to arrive"],["！"],["”"]],
+      "en": "When the bus was almost at the stop, I called again and said: \"I'm almost there, I'll be right there!\""
+    },
+    {
+      "t": [["车", "chē", "car; vehicle"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["车站", "chēzhàn", "bus stop; station"],["，"],["我", "wǒ", "I; me"],["下车", "xiàchē", "to get off (a vehicle)"],["就", "jiù", "then"],["往", "wǎng", "toward"],["饭馆", "fànguǎn", "restaurant"],["跑", "pǎo", "to run"],["。"]],
+      "en": "The bus reached the stop, and as soon as I got off I ran toward the restaurant."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["跑", "pǎo", "to run"],["进", "jìn", "to enter"],["饭馆", "fànguǎn", "restaurant"],["，"],["看见", "kànjiàn", "to see"],["桌子", "zhuōzi", "table"],["上", "shàng", "on"],["已经", "yǐjīng", "already"],["放", "fàng", "to put"],["着", "zhe", "(ongoing particle)"],["我", "wǒ", "I; me"],["最", "zuì", "most"],["喜欢", "xǐhuan", "to like"],["的", "de", "(possessive particle)"],["菜", "cài", "dish; food"],["。"]],
+      "en": "I ran into the restaurant and saw my favorite dish already sitting on the table."
+    }
+  ],
+  "vocab": [
+    ["马上", "mǎshàng", "right away"],
+    ["打电话", "dǎ diànhuà", "to make a phone call"],
+    ["没关系", "méi guānxi", "it's OK; never mind"],
+    ["慢慢", "mànmàn", "slowly"],
+    ["又", "yòu", "again"],
+    ["公共汽车", "gōnggòng qìchē", "bus"]
+  ],
+  "quiz": [
+    {"q": "Why is the narrator running late?", "a": ["Traffic is bad and the bus is slow", "She forgot to eat", "She lost her phone"], "c": 0},
+    {"q": "What does the narrator say when the bus is almost at the stop?", "a": ["I'm not coming", "I'm almost there!", "Let's meet tomorrow"], "c": 1},
+    {"q": "What does the narrator see on the table at the restaurant?", "a": ["An empty table", "A menu", "Her favorite dish already there"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "我快到了，马上就到（I'm almost there, I'll be right there）", "e": "快到了 says you're nearly there, and 马上 emphasizes 'very soon' — the classic reassurance to send when someone is waiting for you.", "x": "我快到了，马上就到！— I'm almost there, I'll be right there!"},
+    {"p": "可能 + 会（might / probably will）", "e": "可能 right before 会 softens a prediction, useful for warning someone you might be late.", "x": "路上车很多，我可能会晚一点。— There's a lot of traffic on the way, I might be a little late."},
+    {"p": "慢慢来（take your time）", "e": "慢慢 doubled before a verb tells someone not to rush — a common reply when a friend says they'll be late.", "x": "没关系，你慢慢来，我们等你。— It's OK, take your time, we'll wait for you."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-my-package-arrived",
+  "level": 3,
+  "title_zh": "快递到了",
+  "title_py": "Kuàidì dào le",
+  "title_en": "My Package Arrived in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I; me"],["在", "zài", "at; in"],["网上", "wǎngshàng", "online"],["买", "mǎi", "to buy"],["了", "le", "(completed action)"],["一件", "yí jiàn", "one (article of clothing)"],["衣服", "yīfu", "clothes"],["，"],["已经", "yǐjīng", "already"],["等", "děng", "to wait"],["了", "le", "(completed action)"],["三", "sān", "three"],["天", "tiān", "day"],["。"]],
+      "en": "I bought a piece of clothing online, and I'd already been waiting three days."
+    },
+    {
+      "t": [["今天", "jīntiān", "today"],["下午", "xiàwǔ", "afternoon"],["，"],["手机", "shǒujī", "cell phone"],["响", "xiǎng", "to ring"],["了", "le", "(completed action)"],["，"],["我", "wǒ", "I; me"],["收到", "shōudào", "to receive"],["消息", "xiāoxi", "message"],["："],["“"],["您", "nín", "you (polite)"],["的", "de", "(possessive particle)"],["快递", "kuàidì", "express delivery; courier"],["到", "dào", "to arrive"],["了", "le", "(change of state)"],["，"],["我们", "wǒmen", "we"],["放", "fàng", "to put"],["在", "zài", "at"],["门口", "ménkǒu", "doorway"],["了", "le", "(change of state)"],["。"],["”"]],
+      "en": "This afternoon my phone rang, and I got a message: \"Your package has arrived — we've left it by the door.\""
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["马上", "mǎshàng", "right away"],["下去", "xiàqu", "to go down"],["拿", "ná", "to get; to take"],["，"],["看见", "kànjiàn", "to see"],["门口", "ménkǒu", "doorway"],["放", "fàng", "to put"],["着", "zhe", "(ongoing particle)"],["一个", "yí ge", "one"],["不", "bù", "not"],["小", "xiǎo", "small"],["的", "de", "(particle)"],["箱子", "xiāngzi", "box"],["。"]],
+      "en": "I went straight down to get it, and saw a good-sized box sitting by the door."
+    },
+    {
+      "t": [["箱子", "xiāngzi", "box"],["有点儿", "yǒudiǎnr", "a little; somewhat"],["重", "zhòng", "heavy"],["，"],["我", "wǒ", "I; me"],["搬", "bān", "to move; to carry"],["的时候", "de shíhou", "when"],["很", "hěn", "very"],["小心", "xiǎoxīn", "careful"],["。"]],
+      "en": "The box was a bit heavy, and I carried it carefully."
+    },
+    {
+      "t": [["同学", "tóngxué", "classmate"],["看见", "kànjiàn", "to see"],["我", "wǒ", "I; me"],["搬", "bān", "to move; to carry"],["箱子", "xiāngzi", "box"],["，"],["问", "wèn", "to ask"],["："],["“"],["是", "shì", "to be"],["你", "nǐ", "you"],["的", "de", "(possessive particle)"],["快递", "kuàidì", "express delivery; courier"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "A classmate saw me carrying the box and asked: \"Is that your package?\""
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["说", "shuō", "to say"],["："],["“"],["是", "shì", "to be"],["，"],["就", "jiù", "just; exactly"],["是", "shì", "to be"],["我", "wǒ", "I; me"],["买", "mǎi", "to buy"],["的", "de", "(particle)"],["那", "nà", "that"],["件", "jiàn", "(measure word for clothing)"],["衣服", "yīfu", "clothes"],["。"],["”"]],
+      "en": "I said: \"Yes, it's exactly the clothes I bought.\""
+    },
+    {
+      "t": [["回", "huí", "to return"],["到", "dào", "to arrive; to reach"],["家", "jiā", "home"],["，"],["我", "wǒ", "I; me"],["打开", "dǎkāi", "to open"],["箱子", "xiāngzi", "box"],["，"],["看见", "kànjiàn", "to see"],["那", "nà", "that"],["件", "jiàn", "(measure word for clothing)"],["衣服", "yīfu", "clothes"],["，"],["颜色", "yánsè", "color"],["和", "hé", "and"],["照片", "zhàopiàn", "photo"],["上", "shàng", "on"],["一样", "yíyàng", "the same"],["。"]],
+      "en": "Back home, I opened the box and saw the clothes — the color matched the photo exactly."
+    }
+  ],
+  "vocab": [
+    ["快递", "kuàidì", "express delivery; courier"],
+    ["消息", "xiāoxi", "message"],
+    ["门口", "ménkǒu", "doorway"],
+    ["搬", "bān", "to move; to carry"],
+    ["小心", "xiǎoxīn", "careful"],
+    ["打开", "dǎkāi", "to open"]
+  ],
+  "quiz": [
+    {"q": "Why has the narrator been waiting?", "a": ["Because a package she ordered hasn't arrived yet", "Because a friend hasn't called", "Because it's raining"], "c": 0},
+    {"q": "Who does the narrator meet while carrying the box?", "a": ["A stranger", "A classmate", "A delivery worker"], "c": 1},
+    {"q": "What does the narrator find when she opens the box?", "a": ["A book", "Shoes", "The clothes she ordered, matching the photo"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "您的快递到了（Your package has arrived）", "e": "This is the standard line a delivery notification or courier uses — 到 plus 了 marks that the package has just arrived.", "x": "您的快递到了，我们放在门口了。— Your package has arrived — we've left it by the door."},
+    {"p": "有点儿 + adjective（a bit / somewhat）", "e": "有点儿 softens an adjective, often for something mildly inconvenient, like a box being heavy.", "x": "箱子有点儿重，我搬的时候很小心。— The box was a bit heavy, and I carried it carefully."},
+    {"p": "下去 after a verb（to go down）", "e": "verb + 下去 shows movement downward from where the speaker is, such as going downstairs to get something.", "x": "我马上下去拿。— I went straight down to get it."}
+  ]
+}

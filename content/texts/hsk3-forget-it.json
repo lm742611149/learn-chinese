@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-forget-it",
+  "level": 3,
+  "title_zh": "算了",
+  "title_py": "Suànle",
+  "title_en": "Forget It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期六","xīngqīliù","Saturday"],["下午","xiàwǔ","afternoon"],["，"],["我","wǒ","I; me"],["在","zài","at"],["电影院","diànyǐngyuàn","cinema"],["门口","ménkǒu","entrance; doorway"],["等","děng","to wait for"],["朋友","péngyou","friend"],["，"],["我们","wǒmen","we; us"],["三点","sān diǎn","three o'clock"],["见面","jiànmiàn","to meet"],["。"]],
+      "en": "Saturday afternoon, I was waiting for a friend at the cinema entrance; we were meeting at three."
+    },
+    {
+      "t": [["已经","yǐjīng","already"],["迟到","chídào","to be late"],["了","le","(completed action)"],["半个小时","bàn ge xiǎoshí","half an hour"],["，"],["他","tā","he; him"],["还","hái","still"],["没","méi","not"],["来","lái","to come"],["，"],["我","wǒ","I; me"],["心里","xīnli","in one's heart; inwardly"],["很","hěn","very"],["着急","zháojí","anxious; worried"],["。"]],
+      "en": "He was already half an hour late and still hadn't come; I felt anxious."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["一直","yìzhí","the whole time; continuously"],["看","kàn","to look at"],["手机","shǒujī","cell phone"],["，"],["心里","xīnli","in one's heart; inwardly"],["想","xiǎng","to think"],["："],["“"],["这次","zhè cì","this time"],["一定","yídìng","certainly; must"],["要","yào","must; going to"],["问","wèn","to ask"],["他","tā","he; him"],["为什么","wèishénme","why"],["迟到","chídào","to be late"],["。"],["”"]],
+      "en": "I kept checking my phone, thinking to myself: this time I have to ask him why he's late."
+    },
+    {
+      "t": [["快","kuài","almost; soon"],["四点","sì diǎn","four o'clock"],["的时候","de shíhou","when; at the time of"],["，"],["他","tā","he; him"],["终于","zhōngyú","finally"],["到","dào","to arrive"],["了","le","(completed action)"],["，"],["说","shuō","to say"],["因为","yīnwèi","because"],["堵车","dǔchē","traffic jam"],["才","cái","only then"],["迟到","chídào","to be late"],["。"]],
+      "en": "Close to four o'clock, he finally arrived and said he was only late because of traffic."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看","kàn","to watch; to see"],["他","tā","he; him"],["一直","yìzhí","the whole time; continuously"],["说","shuō","to say"],["对不起","duìbuqǐ","sorry"],["，"],["看起来","kànqǐlái","it looks like; seems"],["很","hěn","very"],["着急","zháojí","anxious; worried"],["。"]],
+      "en": "I watched him apologize over and over, looking anxious."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["算了","suànle","forget it; never mind"],["，"],["电影","diànyǐng","movie"],["还","hái","still"],["没","méi","not yet"],["开始","kāishǐ","to start"],["，"],["我们","wǒmen","we; us"],["快","kuài","quickly"],["进去","jìnqù","to go in"],["吧","ba","(suggestion particle)"],["。"],["”"]],
+      "en": "I said: \"Never mind, the movie hasn't started yet, let's hurry in.\""
+    },
+    {
+      "t": [["进","jìn","to enter"],["了","le","(completed action)"],["电影院","diànyǐngyuàn","cinema"],["，"],["他","tā","he"],["买","mǎi","to buy"],["了","le","(completed action)"],["两","liǎng","two"],["杯","bēi","(measure word)"],["水","shuǐ","water"],["，"],["一","yì","one"],["杯","bēi","(measure word)"],["给","gěi","to give"],["我","wǒ","me"],["。"]],
+      "en": "Inside, he bought two bottles of water and handed one to me."
+    }
+  ],
+  "vocab": [
+    ["算了","suànle","forget it; never mind"],
+    ["迟到","chídào","to be late"],
+    ["着急","zháojí","anxious; worried"],
+    ["堵车","dǔchē","traffic jam"],
+    ["对不起","duìbuqǐ","sorry"],
+    ["心里","xīnli","in one's heart; inwardly"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator keep doing while waiting?","a":["Checking his phone","Calling the cinema","Walking home"],"c":0},
+    {"q":"Why was the friend late?","a":["He forgot the plan","There was traffic (堵车)","He didn't want to come"],"c":1},
+    {"q":"What does the narrator decide to do in the end?","a":["Cancel the movie","Keep arguing about it","Say 算了 and hurry inside"],"c":2}
+  ],
+  "grammar": [
+    {"p":"算了 (never mind / forget it)","e":"算了 is said when you decide to drop a complaint or a plan instead of pushing it further — it marks giving up on being upset.","x":"算了，电影还没开始，我们快进去吧。— Never mind, the movie hasn't started yet, let's hurry in."},
+    {"p":"因为...才... (only because of X)","e":"才 placed after a reason clause stresses that the reason is exactly why something happened, as if nothing else could explain it.","x":"他说因为堵车才迟到。— He said he was only late because of the traffic."},
+    {"p":"心里想 (to think to oneself)","e":"心里想 introduces a thought that isn't spoken out loud, often followed by what the person was actually thinking.","x":"心里想：这次一定要问他为什么迟到。— I thought to myself: this time I have to ask him why he's late."}
+  ]
+}

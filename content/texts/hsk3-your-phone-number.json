@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-your-phone-number",
+  "level": 3,
+  "title_zh": "你的电话号码",
+  "title_py": "Nǐ de diànhuà hàomǎ",
+  "title_en": "Your Phone Number in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["今天","jīntiān","today"],["我","wǒ","I; me"],["去","qù","to go"],["医院","yīyuàn","hospital"],["挂号","guàhào","to register (at a hospital)"],["，"],["工作人员","gōngzuò rényuán","staff member"],["让","ràng","to let; to have (someone do)"],["我","wǒ","I; me"],["留","liú","to leave (behind)"],["一个","yí ge","one"],["电话","diànhuà","phone"],["号码","hàomǎ","number"],["。"]],
+      "en": "Today I went to the hospital to register, and the staff member asked me to leave a phone number."
+    },
+    {
+      "t": [["中国人","Zhōngguórén","Chinese people"],["说","shuō","to say"],["电话","diànhuà","phone"],["号码","hàomǎ","number"],["的","de","(particle)"],["时候","shíhou","time"],["，"],["习惯","xíguàn","to be used to; to be in the habit of"],["把","bǎ","(object marker)"],["数字","shùzì","number; digit"],["一","yī","one"],["读","dú","to read"],["成","chéng","into; as"],["幺","yāo","one (spoken form used in phone numbers)"],["，"],["这样","zhèyàng","this way"],["别人","biéren","other people"],["才","cái","only then"],["不","bú","not"],["会","huì","will"],["听","tīng","to hear"],["错","cuò","wrong; mistaken"],["。"]],
+      "en": "When Chinese people say phone numbers, they're used to reading the digit 一 (yī) as 幺 (yāo), so that other people won't mishear it."
+    },
+    {
+      "t": [["所以","suǒyǐ","so; therefore"],["，"],["我","wǒ","I; me"],["说","shuō","to say"],["号码","hàomǎ","number"],["的","de","(particle)"],["时候","shíhou","time"],["，"],["数字","shùzì","number; digit"],["里","lǐ","inside; among"],["的","de","(particle)"],["一","yī","one"],["，"],["我","wǒ","I; me"],["都","dōu","all"],["读","dú","to read"],["成","chéng","into; as"],["幺","yāo","one (spoken form used in phone numbers)"],["。"]],
+      "en": "So, when I say my number, I read every 'one' (一) in it as 'yāo' (幺)."
+    },
+    {
+      "t": [["工作人员","gōngzuò rényuán","staff member"],["一边","yìbiān","while (doing one thing)"],["听","tīng","to listen"],["一边","yìbiān","while (doing another)"],["写","xiě","to write"],["，"],["很快","hěn kuài","quickly"],["就","jiù","then"],["写","xiě","to write"],["完","wán","to finish"],["了","le","(completed action)"],["。"]],
+      "en": "The staff member listened and wrote at the same time, and quickly finished writing it down."
+    },
+    {
+      "t": [["他","tā","he; him"],["把","bǎ","(object marker)"],["号码","hàomǎ","number"],["读","dú","to read"],["了","le","(completed action)"],["一遍","yí biàn","once through"],["，"],["问","wèn","to ask"],["我","wǒ","I; me"],["对","duì","right; correct"],["不","bú","not"],["对","duì","right; correct"],["。"]],
+      "en": "He read the number back once, and asked me if it was right."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["对","duì","right"],["，"],["就是","jiùshì","is exactly"],["这个","zhège","this"],["号码","hàomǎ","number"],["。"],["”"]],
+      "en": "I said: \"Yes, that's exactly the number.\""
+    },
+    {
+      "t": [["后来","hòulái","later"],["，"],["他","tā","he; him"],["真的","zhēnde","really"],["打电话","dǎ diànhuà","to make a phone call"],["给","gěi","to; for"],["我","wǒ","I; me"],["，"],["让","ràng","to have (someone do); to make"],["我","wǒ","I; me"],["下个星期","xià ge xīngqī","next week"],["再","zài","again"],["去","qù","to go"],["医院","yīyuàn","hospital"],["一次","yí cì","once"],["。"]],
+      "en": "Later, he really did call me, asking me to go back to the hospital again next week."
+    }
+  ],
+  "vocab": [
+    ["留","liú","to leave (behind)"],
+    ["幺","yāo","one (spoken form used in phone numbers)"],
+    ["挂号","guàhào","to register (at a hospital)"],
+    ["数字","shùzì","number; digit"],
+    ["读","dú","to read"],
+    ["才","cái","only then"]
+  ],
+  "quiz": [
+    {"q":"What did the staff member ask the narrator to leave?","a":["An address","A phone number","A passport"],"c":1},
+    {"q":"How do Chinese speakers often read the digit '1' in a phone number?","a":["yī","qī","yāo"],"c":2},
+    {"q":"What happened after the visit, according to the story?","a":["He called and asked her to come back next week","He sent a text message","He never called"],"c":0}
+  ],
+  "grammar": [
+    {"p":"数字读成幺 (reading '1' as yāo)","e":"For phone numbers, Chinese speakers often read the digit 一 (yī) as 幺 (yāo) instead, so it isn't confused with other numbers.","x":"习惯把数字一读成幺。— They're used to reading the digit one as yāo."},
+    {"p":"把 + object + verb (the 把 construction)","e":"把 moves the object in front of the verb to show exactly what happens to it.","x":"他把号码读了一遍。— He read the number back once."},
+    {"p":"才 + 不会 (only then...won't)","e":"才 here means 'only then' — used with 不会 to say doing something this way prevents a problem.","x":"这样别人才不会听错。— This way, other people won't mishear it."}
+  ]
+}

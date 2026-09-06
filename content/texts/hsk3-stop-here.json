@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-stop-here",
+  "level": 3,
+  "title_zh": "停一下",
+  "title_py": "Tíng yíxià",
+  "title_en": "Stop Here in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我", "wǒ", "I; me"],["要", "yào", "to be going to"],["去", "qù", "to go"],["朋友", "péngyou", "friend"],["的", "de", "(possessive particle)"],["公司", "gōngsī", "company"],["，"],["可是", "kěshì", "but"],["不", "bù", "not"],["知道", "zhīdào", "to know"],["怎么", "zěnme", "how"],["走", "zǒu", "to walk; to go"],["，"],["就", "jiù", "then"],["打车", "dǎchē", "to take a taxi"],["去", "qù", "to go"],["了", "le", "(completed action)"],["。"]],
+      "en": "I needed to go to my friend's company, but I didn't know the way, so I took a taxi."
+    },
+    {
+      "t": [["出租车", "chūzūchē", "taxi"],["开", "kāi", "to drive"],["了", "le", "(completed action)"],["二十", "èrshí", "twenty"],["分钟", "fēnzhōng", "minute"],["，"],["前面", "qiánmian", "ahead; in front"],["的", "de", "(particle)"],["车", "chē", "car; vehicle"],["突然", "tūrán", "suddenly"],["多", "duō", "many; a lot"],["了", "le", "(change of state)"],["，"],["车", "chē", "car; vehicle"],["走", "zǒu", "to go; to move"],["得", "de", "(complement particle)"],["很", "hěn", "very"],["慢", "màn", "slow"],["。"]],
+      "en": "The taxi had been driving for twenty minutes when the traffic ahead suddenly got heavy, and the car moved very slowly."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["看", "kàn", "to look"],["了", "le", "(completed action)"],["看", "kàn", "to look"],["时间", "shíjiān", "time"],["，"],["怕", "pà", "to be afraid; to worry"],["迟到", "chídào", "to be late"],["，"],["就", "jiù", "then"],["跟", "gēn", "with"],["司机", "sījī", "driver"],["说", "shuō", "to say"],["："],["“"],["师傅", "shīfu", "master (polite address for a driver)"],["，"],["前面", "qiánmian", "ahead; in front"],["帮", "bāng", "to help"],["我", "wǒ", "I; me"],["停", "tíng", "to stop"],["一下", "yíxià", "a moment"],["。"],["”"]],
+      "en": "I checked the time, and worried I'd be late, I said to the driver: \"Excuse me, please pull over up ahead.\""
+    },
+    {
+      "t": [["司机", "sījī", "driver"],["说", "shuō", "to say"],["："],["“"],["好", "hǎo", "OK; good"],["，"],["是", "shì", "to be"],["这儿", "zhèr", "here"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "The driver said: \"OK, is it here?\""
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["说", "shuō", "to say"],["："],["“"],["再", "zài", "again; further"],["往", "wǎng", "toward"],["前", "qián", "forward; ahead"],["一点儿", "yìdiǎnr", "a little"],["，"],["就", "jiù", "just"],["停", "tíng", "to stop"],["这儿", "zhèr", "here"],["吧", "ba", "(suggestion particle)"],["，"],["我", "wǒ", "I; me"],["自己", "zìjǐ", "by oneself"],["走", "zǒu", "to walk"],["过去", "guòqù", "to go over"],["。"],["”"]],
+      "en": "I said: \"A little further, just stop here — I'll walk the rest of the way myself.\""
+    },
+    {
+      "t": [["车", "chē", "car; vehicle"],["停", "tíng", "to stop"],["下", "xià", "down"],["以后", "yǐhòu", "after"],["，"],["我", "wǒ", "I; me"],["给", "gěi", "to give"],["了", "le", "(completed action)"],["司机", "sījī", "driver"],["钱", "qián", "money"],["，"],["说", "shuō", "to say"],["了", "le", "(completed action)"],["谢谢", "xièxie", "thank you"],["，"],["就", "jiù", "then"],["下车", "xiàchē", "to get off (a vehicle)"],["了", "le", "(change of state)"],["。"]],
+      "en": "After the car stopped, I gave the driver money, said thank you, and got out."
+    },
+    {
+      "t": [["我", "wǒ", "I; me"],["走", "zǒu", "to walk"],["了", "le", "(completed action)"],["两", "liǎng", "two"],["分钟", "fēnzhōng", "minute"],["就", "jiù", "then"],["到", "dào", "to arrive"],["了", "le", "(completed action)"],["公司", "gōngsī", "company"],["，"],["那", "nà", "that"],["辆", "liàng", "(measure word for vehicles)"],["出租车", "chūzūchē", "taxi"],["还", "hái", "still"],["在", "zài", "at"],["后面", "hòumian", "behind"],["呢", "ne", "(particle)"],["。"]],
+      "en": "I walked for two minutes and reached the company — that taxi was still behind me."
+    }
+  ],
+  "vocab": [
+    ["打车", "dǎchē", "to take a taxi"],
+    ["师傅", "shīfu", "master (polite address for a driver)"],
+    ["停", "tíng", "to stop"],
+    ["前面", "qiánmian", "ahead; in front"],
+    ["突然", "tūrán", "suddenly"],
+    ["怕", "pà", "to be afraid; to worry"]
+  ],
+  "quiz": [
+    {"q": "Why does the narrator decide to take a taxi?", "a": ["Because she doesn't know the way", "To save money", "Because it's raining"], "c": 0},
+    {"q": "What does the narrator say to the driver?", "a": ["Drive faster", "Turn around", "Please stop up ahead"], "c": 2},
+    {"q": "What happens after the narrator gets out and walks?", "a": ["She gets lost", "She arrives before the taxi does", "She misses the meeting"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "师傅，前面帮我停一下（Excuse me, please stop up ahead）", "e": "师傅 is how you address a taxi or bus driver, and 停（一下）asks them to pull over — the key phrase for telling a driver where to stop.", "x": "师傅，前面帮我停一下。— Excuse me, please pull over up ahead."},
+    {"p": "就停这儿吧（just stop right here）", "e": "就 right before 停 pins down the exact spot you want the driver to stop, and 吧 softens it into a suggestion.", "x": "再往前一点儿，就停这儿吧，我自己走过去。— A little further, just stop here — I'll walk the rest of the way myself."},
+    {"p": "V + 得 + adjective（describing how an action happens）", "e": "得 connects a verb to a word describing the manner of the action, such as how slowly traffic is moving.", "x": "车走得很慢。— The car was moving very slowly."}
+  ]
+}

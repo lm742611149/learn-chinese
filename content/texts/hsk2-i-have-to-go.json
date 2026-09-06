@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-i-have-to-go",
+  "level": 2,
+  "title_zh": "我要走了",
+  "title_py": "Wǒ yào zǒu le",
+  "title_en": "I Have to Go in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["我", "wǒ", "I"],["在", "zài", "at"],["小美", "Xiǎoměi", "Xiaomei"],["家", "jiā", "home"],["吃饭", "chīfàn", "to eat a meal"],["，"],["吃饭", "chīfàn", "to eat a meal"],["以后", "yǐhòu", "after"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["看", "kàn", "to watch"],["电视", "diànshì", "television"],["。"]],
+      "en": "In the evening, I ate dinner at Xiaomei's place, and after dinner, we watched TV together."
+    },
+    {
+      "t": [["看", "kàn", "to watch"],["了", "le", "(completed action)"],["一会儿", "yíhuìr", "a little while"],["，"],["我", "wǒ", "I"],["看", "kàn", "to look at"],["了", "le", "(completed action)"],["看", "kàn", "to look at"],["时间", "shíjiān", "time"],["，"],["说", "shuō", "to say"],["："],["“"],["时间", "shíjiān", "time"],["不", "bù", "not"],["早", "zǎo", "early"],["了", "le", "(change of state)"],["，"],["我", "wǒ", "I"],["要", "yào", "to be going to"],["走", "zǒu", "to leave"],["了", "le", "(change of state)"],["。"],["”"]],
+      "en": "After watching for a while, I checked the time and said: \"It's getting late, I have to go.\""
+    },
+    {
+      "t": [["小美", "Xiǎoměi", "Xiaomei"],["说", "shuō", "to say"],["："],["“"],["再", "zài", "again"],["坐", "zuò", "to sit"],["一会儿", "yíhuìr", "a little while"],["吧", "ba", "(suggestion particle)"],["，"],["还", "hái", "still"],["早", "zǎo", "early"],["呢", "ne", "(assertion particle)"],["。"],["”"]],
+      "en": "Xiaomei said: \"Sit a little longer, it's still early.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["不", "bù", "no"],["了", "le", "(particle)"],["，"],["我", "wǒ", "I"],["明天", "míngtiān", "tomorrow"],["还", "hái", "still"],["要", "yào", "to have to"],["上班", "shàngbān", "to go to work"],["，"],["我", "wǒ", "I"],["先", "xiān", "first"],["走", "zǒu", "to leave"],["了", "le", "(change of state)"],["。"],["”"]],
+      "en": "I said: \"No, I still have to work tomorrow, I'm heading out first.\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["站", "zhàn", "to stand"],["了", "le", "(completed action)"],["起来", "qǐlai", "(directional complement: up)"],["，"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["先", "xiān", "first"],["走", "zǒu", "to leave"],["了", "le", "(change of state)"],["，"],["再见", "zàijiàn", "goodbye"],["！"],["”"]],
+      "en": "I stood up and said: \"I'm heading out first, bye!\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["走", "zǒu", "to walk"],["了", "le", "(change of state)"],["，"],["回头", "huítóu", "to turn one's head; to look back"],["看", "kàn", "to look"],["，"],["她", "tā", "she"],["还", "hái", "still"],["站", "zhàn", "to stand"],["在", "zài", "at"],["门口", "ménkǒu", "doorway"],["。"]],
+      "en": "I started walking, then looked back — she was still standing at the door."
+    }
+  ],
+  "vocab": [
+    ["起来", "qǐlai", "(directional complement: up)"],
+    ["回头", "huítóu", "to turn one's head; to look back"],
+    ["先", "xiān", "first"],
+    ["还", "hái", "still"],
+    ["上班", "shàngbān", "to go to work"],
+    ["时间", "shíjiān", "time"]
+  ],
+  "quiz": [
+    {"q": "What does 我要走了 mean?", "a": ["I'm hungry", "I have to go", "I'm home"], "c": 1},
+    {"q": "Why doesn't the writer stay longer at Xiaomei's house?", "a": ["She has to work tomorrow", "She is tired", "She forgot her keys"], "c": 0},
+    {"q": "What does the writer do right before leaving?", "a": ["Calls a taxi", "Turns off the TV", "Stands up and says goodbye"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "我要走了 / 我先走了（I have to go / I'm heading out first）", "e": "Both phrases announce that you're about to leave; 先 adds that you're leaving before others.", "x": "时间不早了，我要走了。— It's getting late, I have to go."},
+    {"p": "V + 起来（to stand up）", "e": "起来 after a verb like 站 shows upward movement, such as standing up.", "x": "我站了起来，说：“我先走了，再见！”— I stood up and said: \"I'm heading out first, bye!\""},
+    {"p": "回头（to look back）", "e": "回头 describes turning your head to look behind you, often as you're walking away.", "x": "我走了，回头看，她还站在门口。— I started walking, then looked back — she was still standing at the door."}
+  ]
+}

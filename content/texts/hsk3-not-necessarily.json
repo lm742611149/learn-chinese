@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-not-necessarily",
+  "level": 3,
+  "title_zh": "不一定",
+  "title_py": "Bù yídìng",
+  "title_en": "Not Necessarily in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["早上","zǎoshang","morning"],["，"],["天","tiān","sky; weather"],["很","hěn","very"],["阴","yīn","overcast; cloudy"],["，"],["我们","wǒmen","we; us"],["打算","dǎsuàn","to plan"],["下午","xiàwǔ","afternoon"],["去","qù","to go"],["看","kàn","to watch"],["比赛","bǐsài","match; competition"],["。"]],
+      "en": "In the morning it was overcast, and we planned to go watch a match in the afternoon."
+    },
+    {
+      "t": [["同事","tóngshì","colleague"],["说","shuō","to say"],["："],["“"],["下午","xiàwǔ","afternoon"],["一定","yídìng","certainly; definitely"],["会","huì","will"],["下雨","xiàyǔ","to rain"],["。"],["”"]],
+      "en": "My colleague said: \"It's definitely going to rain this afternoon.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["不一定","bù yídìng","not necessarily"],["，"],["天气预报","tiānqì yùbào","weather forecast"],["有时候","yǒu shíhou","sometimes"],["也","yě","also"],["会","huì","can; may"],["错","cuò","wrong"],["。"],["”"]],
+      "en": "I said: \"Not necessarily — the weather forecast is sometimes wrong too.\""
+    },
+    {
+      "t": [["他","tā","he; him"],["说","shuō","to say"],["他","tā","he; him"],["看","kàn","to watch"],["了","le","(completed action)"],["新闻","xīnwén","news"],["，"],["新闻","xīnwén","news"],["里","lǐ","inside; in"],["说","shuō","to say"],["今天","jīntiān","today"],["有","yǒu","to have; there is"],["大雨","dàyǔ","heavy rain"],["。"]],
+      "en": "He said he'd watched the news, and the news said there would be heavy rain today."
+    },
+    {
+      "t": [["到了","dàole","when it got to; by the time it was"],["下午","xiàwǔ","afternoon"],["，"],["天气","tiānqì","weather"],["慢慢","mànmàn","slowly; gradually"],["变好","biànhǎo","to improve; to get better"],["，"],["也","yě","also"],["没有","méiyǒu","did not"],["下雨","xiàyǔ","to rain"],["。"]],
+      "en": "By the afternoon, the weather had gradually improved, and it hadn't rained after all."
+    },
+    {
+      "t": [["同事","tóngshì","colleague"],["往","wǎng","towards"],["外面","wàimiàn","outside"],["看了看","kànlekàn","took a look at"],["，"],["说","shuō","to say"],["："],["“"],["没想到","méixiǎngdào","unexpectedly; didn't expect"],["今天","jīntiān","today"],["真的","zhēnde","really"],["没","méi","not"],["下雨","xiàyǔ","to rain"],["。"],["”"]],
+      "en": "My colleague glanced outside and said: \"I didn't expect it really wouldn't rain today.\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["到","dào","to arrive"],["了","le","(completed action)"],["，"],["比赛","bǐsài","match; competition"],["正好","zhènghǎo","just in time; happens to"],["开始","kāishǐ","to start"],["。"]],
+      "en": "We arrived, and the match was just starting."
+    }
+  ],
+  "vocab": [
+    ["不一定","bù yídìng","not necessarily"],
+    ["阴","yīn","overcast; cloudy"],
+    ["天气预报","tiānqì yùbào","weather forecast"],
+    ["大雨","dàyǔ","heavy rain"],
+    ["没想到","méixiǎngdào","unexpectedly; didn't expect"],
+    ["变好","biànhǎo","to improve; to get better"]
+  ],
+  "quiz": [
+    {"q":"What does the colleague predict in the morning?","a":["It will definitely rain","It will be sunny all day","The match is cancelled"],"c":0},
+    {"q":"How does the narrator respond to the prediction?","a":["Agrees completely","Says 不一定 because forecasts can be wrong","Says he already checked the news"],"c":1},
+    {"q":"What actually happens by the afternoon?","a":["It rains as predicted","The match gets cancelled","The weather clears up and the match starts on time"],"c":2}
+  ],
+  "grammar": [
+    {"p":"不一定 (not necessarily)","e":"不一定 says something isn't certain or doesn't always hold — a mild way to disagree with someone's absolute claim.","x":"不一定，天气预报有时候也会错。— Not necessarily, the weather forecast is sometimes wrong too."},
+    {"p":"到了 + time word (by the time X came)","e":"到了 followed by a time word marks reaching that point in time, often to introduce a change that happened by then.","x":"到了下午，天气慢慢变好，也没有下雨。— By the afternoon, the weather had gradually improved, and it hadn't rained after all."},
+    {"p":"没想到 (unexpectedly)","e":"没想到 introduces something that turned out differently from what was expected.","x":"没想到今天真的没下雨。— I didn't expect it really wouldn't rain today."}
+  ]
+}

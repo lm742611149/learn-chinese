@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-how-many-people",
+  "level": 2,
+  "title_zh": "几位",
+  "title_py": "Jǐ wèi",
+  "title_en": "How Many People in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["中午","zhōngwǔ","noon"],["，"],["我","wǒ","I"],["和","hé","and"],["两","liǎng","two"],["个","gè","(general measure word)"],["朋友","péngyou","friend"],["去","qù","to go"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat (a meal)"],["。"]],
+      "en": "At noon, my two friends and I went to a restaurant to eat."
+    },
+    {
+      "t": [["服务员","fúwùyuán","waiter; waitress"],["在","zài","at"],["门口","ménkǒu","doorway; entrance"],["问","wèn","to ask"],["我们","wǒmen","us; we"],["："],["“"],["你们","nǐmen","you (plural)"],["几","jǐ","how many"],["位","wèi","(polite measure word for people)"],["？"],["”"]],
+      "en": "The waiter asked us at the door: \"How many of you?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we"],["三","sān","three"],["位","wèi","(polite measure word for people)"],["。"],["”"]],
+      "en": "I said: \"Three of us.\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["问","wèn","to ask"],["我","wǒ","me"],["："],["“"],["为什么","wèishénme","why"],["不","bù","not"],["说","shuō","to say"],["三","sān","three"],["个","gè","(general measure word)"],["人","rén","person"],["？"],["”"]],
+      "en": "My friend asked me: \"Why not say 'three people'?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["告诉","gàosu","to tell"],["他","tā","him"],["："],["“"],["问","wèn","to ask"],["人","rén","person"],["的时候","de shíhou","when; at the time of"],["，"],["位","wèi","the word wèi"],["比","bǐ","compared to; than"],["个","gè","the word gè"],["更","gèng","even more"],["客气","kèqi","polite"],["。"],["”"]],
+      "en": "I told him: \"When asking about people, wèi is more polite than gè.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","waiter; waitress"],["带","dài","to lead; to take"],["我们","wǒmen","us"],["坐下","zuòxià","to sit down"],["，"],["给","gěi","to give"],["我们","wǒmen","us"],["菜单","càidān","menu"],["。"]],
+      "en": "The waiter led us to sit down and gave us menus."
+    }
+  ],
+  "vocab": [
+    ["位","wèi","(polite measure word for people)"],
+    ["客气","kèqi","polite"],
+    ["服务员","fúwùyuán","waiter; waitress"],
+    ["门口","ménkǒu","doorway; entrance"],
+    ["菜单","càidān","menu"],
+    ["坐下","zuòxià","to sit down"]
+  ],
+  "quiz": [
+    {"q": "What does the waiter ask when the group arrives?", "a": ["How many of you?", "What do you want to eat?", "Do you have a reservation?"], "c": 0},
+    {"q": "Why does the narrator's friend ask a question?", "a": ["He is confused about the menu", "He wonders why 位 was used instead of 个", "He wants to leave"], "c": 1},
+    {"q": "According to the narrator, which word is more polite when asking about people?", "a": ["个", "人", "位"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "几位？（How many people?）", "e": "Waiters and staff use 几位 to politely ask how many people are in a group.", "x": "你们几位？— How many of you?"},
+    {"p": "位（polite measure word for people）", "e": "位 is used to count people politely, especially by service staff, while 个 is the plain, everyday measure word.", "x": "我们三位。— Three of us."},
+    {"p": "比 + 更（more ... than ...）", "e": "比 compares two things, and 更 adds emphasis to the difference.", "x": "位比个更客气。— Wèi is more polite than gè."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-how-do-you-read-this",
+  "level": 3,
+  "title_zh": "这个字怎么读",
+  "title_py": "Zhège zì zěnme dú",
+  "title_en": "How Do You Read This in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["和","hé","and"],["朋友","péngyou","friend"],["在","zài","at"],["一家","yì jiā","one (measure word for restaurants)"],["饭馆","fànguǎn","restaurant"],["吃饭","chīfàn","to eat a meal"],["，"],["服务员","fúwùyuán","clerk; attendant"],["给","gěi","to give"],["了","le","(completed action)"],["我们","wǒmen","us"],["一个","yí ge","one"],["菜单","càidān","menu"],["。"]],
+      "en": "My friend and I were eating at a restaurant, and the waiter gave us a menu."
+    },
+    {
+      "t": [["我","wǒ","I"],["看","kàn","to look at"],["菜单","càidān","menu"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["看见","kànjiàn","to see"],["一个","yí ge","one"],["字","zì","character"],["，"],["我","wǒ","I"],["不","bú","not"],["认识","rènshi","to know; to recognize"],["，"],["也","yě","also"],["不","bù","not"],["知道","zhīdào","to know"],["怎么","zěnme","how"],["读","dú","to read"],["。"]],
+      "en": "While I was looking at the menu, I saw a character I didn't recognize, and didn't know how to read it either."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["朋友","péngyou","friend"],["："],["“"],["这个","zhège","this"],["字","zì","character"],["怎么","zěnme","how"],["读","dú","to read"],["？"],["”"]],
+      "en": "I asked my friend: \"How do you read this character?\""
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["说","shuō","to say"],["："],["“"],["这个","zhège","this"],["字","zì","character"],["读","dú","to read"],["虾","xiā","shrimp"],["，"],["虾","xiā","shrimp"],["很","hěn","very"],["好吃","hǎochī","tasty; delicious"],["。"],["”"]],
+      "en": "My friend said: \"This character is read xiā — shrimp. Shrimp is delicious.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["念","niàn","to read aloud"],["了","le","(completed action)"],["一遍","yí biàn","once through"],["，"],["又","yòu","again"],["念","niàn","to read aloud"],["了","le","(completed action)"],["一遍","yí biàn","once through"],["，"],["终于","zhōngyú","finally"],["会","huì","can; to know how to"],["读","dú","to read"],["了","le","(change of state)"],["。"]],
+      "en": "I read it once, then read it again, and finally I could read it."
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["问","wèn","to ask"],["我们","wǒmen","us"],["要","yào","to want"],["点","diǎn","to order (food)"],["什么","shénme","what"],["菜","cài","dish"],["，"],["我","wǒ","I"],["马上","mǎshàng","right away"],["说","shuō","to say"],["："],["“"],["我","wǒ","I"],["要","yào","to want"],["虾","xiā","shrimp"],["。"],["”"]],
+      "en": "The waiter asked us what dish we wanted to order, and I said right away: \"I want shrimp.\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk; attendant"],["把","bǎ","(marks the object before the verb)"],["虾","xiā","shrimp"],["拿","ná","to bring"],["来","lái","to come"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["我","wǒ","I"],["看","kàn","to look at"],["着","zhe","(ongoing particle)"],["菜单","càidān","menu"],["，"],["又","yòu","again"],["念","niàn","to read aloud"],["了","le","(completed action)"],["一","yí","one"],["次","cì","time(s)"],["："],["“"],["虾","xiā","shrimp"],["！"],["”"]],
+      "en": "When the waiter brought the shrimp, I looked at the menu and read it once more: \"Shrimp!\""
+    }
+  ],
+  "vocab": [
+    ["读","dú","to read"],
+    ["怎么","zěnme","how"],
+    ["认识","rènshi","to know; to recognize"],
+    ["菜单","càidān","menu"],
+    ["虾","xiā","shrimp"],
+    ["念","niàn","to read aloud"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator ask about the unfamiliar character?","a":["这个字怎么读？","这个多少钱？","你叫什么名字？"],"c":0},
+    {"q":"What food does the character turn out to name?","a":["鱼 (fish)","虾 (shrimp)","面条 (noodles)"],"c":1},
+    {"q":"What does the narrator do when the shrimp arrives?","a":["Asks for a fork","Leaves the restaurant","Reads the character aloud again"],"c":2}
+  ],
+  "grammar": [
+    {"p":"这个字怎么读？(How do you read this character?)","e":"怎么 + verb asks how to do something — here it asks how an unfamiliar character is pronounced.","x":"这个字怎么读？— How do you read this character?"},
+    {"p":"又 + verb（again, for a repeated action）","e":"又 marks that an action happens again; here it shows the narrator practicing the reading a second time.","x":"我念了一遍，又念了一遍，终于会读了。— I read it once, then again, and finally could read it."},
+    {"p":"把 + object + verb（the 把-construction）","e":"把 moves the object in front of the verb to focus on what happens to it — here, the waiter brings the shrimp.","x":"服务员把虾拿来的时候，我看着菜单，又念了一次：“虾！”— When the waiter brought the shrimp, I looked at the menu and read it once more: “Shrimp!”"}
+  ]
+}

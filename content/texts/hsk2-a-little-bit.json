@@ -1,0 +1,56 @@
+{
+  "slug": "hsk2-a-little-bit",
+  "level": 2,
+  "title_zh": "有点儿",
+  "title_py": "Yǒudiǎnr",
+  "title_en": "A Little Bit in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["周末", "zhōumò", "weekend"],["，"],["我", "wǒ", "I"],["和", "hé", "and"],["姐姐", "jiějie", "older sister"],["去", "qù", "to go"],["商店", "shāngdiàn", "shop; store"],["买", "mǎi", "to buy"],["衣服", "yīfu", "clothes"],["。"]],
+      "en": "On the weekend, my sister and I go to the store to buy clothes."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["看见", "kànjiàn", "to see"],["一件", "yí jiàn", "one (+ measure word)"],["红色", "hóngsè", "red"],["的", "de", "(possessive particle)"],["衣服", "yīfu", "clothes"],["，"],["可是", "kěshì", "but"],["我", "wǒ", "I"],["觉得", "juéde", "to feel; to think"],["有点儿", "yǒudiǎnr", "a little (too...)"],["贵", "guì", "expensive"],["。"]],
+      "en": "I see a red piece of clothing, but I think it's a bit too expensive."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["问", "wèn", "to ask"],["服务员", "fúwùyuán", "clerk; waiter"],["："],["“"],["可以", "kěyǐ", "can; may"],["便宜", "piányi", "cheap"],["一点儿", "yìdiǎnr", "a little (bit)"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "I ask the clerk: \"Can it be a little cheaper?\""
+    },
+    {
+      "t": [["服务员", "fúwùyuán", "clerk; waiter"],["说", "shuō", "to say"],["："],["“"],["可以", "kěyǐ", "can; may"],["，"],["便宜", "piányi", "cheap"],["五", "wǔ", "five"],["块", "kuài", "yuan (colloquial)"],["。"],["”"]],
+      "en": "The clerk says: \"Sure, five kuai cheaper.\""
+    },
+    {
+      "t": [["买", "mǎi", "to buy"],["完", "wán", "to finish"],["衣服", "yīfu", "clothes"],["，"],["我们", "wǒmen", "we"],["走", "zǒu", "to walk"],["了", "le", "(completed action)"],["很多", "hěnduō", "a lot of"],["路", "lù", "road"],["，"],["我", "wǒ", "I"],["觉得", "juéde", "to feel; to think"],["有点儿", "yǒudiǎnr", "a little (too...)"],["累", "lèi", "tired"],["。"]],
+      "en": "After buying the clothes, we walk a lot, and I feel a bit tired."
+    },
+    {
+      "t": [["姐姐", "jiějie", "older sister"],["说", "shuō", "to say"],["："],["“"],["我们", "wǒmen", "we"],["打车", "dǎchē", "to take a taxi"],["回家", "huíjiā", "to go home"],["吧", "ba", "(suggestion particle)"],["，"],["快", "kuài", "fast"],["一点儿", "yìdiǎnr", "a little (bit)"],["。"],["”"]],
+      "en": "My sister says: \"Let's take a taxi home, a little faster.\""
+    },
+    {
+      "t": [["车", "chē", "car"],["来", "lái", "to come"],["了", "le", "(change of state)"],["，"],["姐姐", "jiějie", "older sister"],["先", "xiān", "first"],["坐", "zuò", "to sit"],["好", "hǎo", "well; properly"],["，"],["我", "wǒ", "I"],["把", "bǎ", "(object marker)"],["衣服", "yīfu", "clothes"],["给", "gěi", "to give"],["她", "tā", "her"],["。"]],
+      "en": "The car arrives, my sister settles in first, and I hand her the clothes."
+    }
+  ],
+  "vocab": [
+    ["有点儿", "yǒudiǎnr", "a little (before a negative feeling)"],
+    ["一点儿", "yìdiǎnr", "a little (neutral amount)"],
+    ["衣服", "yīfu", "clothes"],
+    ["服务员", "fúwùyuán", "clerk; waiter"],
+    ["打车", "dǎchē", "to take a taxi"],
+    ["累", "lèi", "tired"]
+  ],
+  "quiz": [
+    {"q": "What does 有点儿贵 suggest about the speaker's feeling?", "a": ["It's a bit too expensive — a complaint", "It's surprisingly cheap", "It's exactly the right price"], "c": 0},
+    {"q": "Why do the two decide to take a taxi home?", "a": ["It started raining", "The store was closing", "They feel a little tired from walking"], "c": 2},
+    {"q": "In “快一点儿”, what is “一点儿” doing?", "a": ["Complaining that something is too slow", "Asking for a small increase in speed", "Naming an exact time"], "c": 1}
+  ],
+  "grammar": [
+    {"p": "有点儿 + adj（a little too... — usually a complaint）", "e": "有点儿 goes before an adjective and adds a negative, complaining tone — something is a bit more than you'd like.", "x": "可是我觉得有点儿贵。— But I think it's a bit too expensive."},
+    {"p": "adj + 一点儿（asking for a small change — neutral）", "e": "adj + 一点儿 asks for a small change and doesn't carry a complaint — the opposite feel from 有点儿.", "x": "可以便宜一点儿吗？— Can it be a little cheaper?"},
+    {"p": "有点儿 ≠ 一点儿", "e": "有点儿 sits before the adjective to complain (有点儿贵、有点儿累); 一点儿 sits after the adjective to ask for or describe a small change, and isn't negative (便宜一点儿、快一点儿).", "x": "我们打车回家吧，快一点儿。— Let's take a taxi home, a little faster."}
+  ]
+}

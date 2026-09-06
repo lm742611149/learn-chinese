@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-i-moved",
+  "level": 3,
+  "title_zh": "我搬家了",
+  "title_py": "Wǒ bānjiā le",
+  "title_en": "I Moved in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["给","gěi","to"],["朋友","péngyou","friend"],["打电话","dǎ diànhuà","to call"],["，"],["说","shuō","to say"],["："],["“"],["好久","hǎojiǔ","a long time"],["不","bú","not"],["见","jiàn","see"],["，"],["我","wǒ","I"],["有","yǒu","have"],["一","yí","one"],["件","jiàn","(measure word)"],["事","shì","thing"],["要","yào","want to"],["告诉","gàosu","to tell"],["你","nǐ","you"],["："],["我","wǒ","I"],["搬家","bānjiā","to move house"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I rang a friend: \"Long time no see — I've got something to tell you: I moved.\""
+    },
+    {
+      "t": [["新家","xīnjiā","new home"],["离","lí","(distance) from"],["地铁站","dìtiězhàn","subway station"],["很","hěn","very"],["近","jìn","near; close"],["，"],["走路","zǒulù","to walk"],["只要","zhǐyào","only takes; only need"],["五","wǔ","five"],["分钟","fēnzhōng","minutes"],["。"]],
+      "en": "The new home is very close to the subway station — it only takes five minutes on foot."
+    },
+    {
+      "t": [["虽然","suīrán","although"],["房租","fángzū","rent"],["贵","guì","expensive"],["了","le","(change of state)"],["一点","yìdiǎn","a little"],["，"],["但是","dànshì","but"],["附近","fùjìn","nearby"],["很","hěn","very"],["方便","fāngbiàn","convenient"],["，"],["楼下","lóuxià","downstairs"],["就","jiù","right there; just"],["有","yǒu","to have; there is"],["超市","chāoshì","supermarket"],["。"]],
+      "en": "Although the rent is a bit more expensive, the area is very convenient — there's a supermarket right downstairs."
+    },
+    {
+      "t": [["朋友","péngyou","friend"],["问","wèn","to ask"],["我","wǒ","me"],["："],["“"],["你","nǐ","you"],["什么时候","shénme shíhou","when"],["搬","bān","to move"],["的","de","(particle)"],["？"],["为什么","wèishénme","why"],["突然","tūrán","suddenly"],["搬家","bānjiā","to move house"],["？"],["”"]],
+      "en": "My friend asked me: \"When did you move? Why so suddenly?\""
+    },
+    {
+      "t": [["我","wǒ","I"],["说","shuō","to say"],["："],["“"],["上个月","shàng ge yuè","last month"],["搬","bān","to move"],["的","de","(particle)"],["，"],["因为","yīnwèi","because"],["老","lǎo","old"],["房子","fángzi","house"],["太","tài","too"],["旧","jiù","old (of objects)"],["了","le","(change of state)"],["，"],["我们","wǒmen","we"],["决定","juédìng","to decide"],["搬","bān","to move"],["走","zǒu","away"],["。"],["”"]],
+      "en": "I said: \"Last month — because the old place was too run-down, we decided to move out.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["告诉","gàosu","to tell"],["她","tā","her"],["新","xīn","new"],["地址","dìzhǐ","address"],["，"],["让","ràng","to let; to have (someone do)"],["她","tā","her"],["周末","zhōumò","weekend"],["来","lái","to come"],["我","wǒ","my"],["家","jiā","home"],["玩","wán","to play; to visit"],["。"]],
+      "en": "I gave her my new address and told her to come visit me on the weekend."
+    },
+    {
+      "t": [["打完","dǎwán","to finish (a call)"],["电话","diànhuà","phone call"],["，"],["我","wǒ","I"],["开始","kāishǐ","to begin"],["收拾","shōushi","to tidy up"],["房间","fángjiān","room"],["的","de","(possessive particle)"],["书架","shūjià","bookshelf"],["。"]],
+      "en": "After finishing the call, I started tidying up the bookshelf in my room."
+    }
+  ],
+  "vocab": [
+    ["房租","fángzū","rent"],
+    ["地址","dìzhǐ","address"],
+    ["搬家","bānjiā","to move house"],
+    ["附近","fùjìn","nearby"],
+    ["决定","juédìng","to decide"],
+    ["房间","fángjiān","room"]
+  ],
+  "quiz": [
+    {"q":"Where is the narrator's new home located?","a":["Far from the subway","Close to the subway station","Outside the city"],"c":1},
+    {"q":"Why did the narrator decide to move out of the old place?","a":["The old house was too run-down","The rent was too cheap","The friend asked them to"],"c":0},
+    {"q":"What does the narrator do after telling the friend the new address?","a":["Invites her to visit on the weekend","Moves again","Calls the landlord"],"c":0}
+  ],
+  "grammar": [
+    {"p":"离 + place + 很近/远（distance from a place）","e":"离 marks the reference point when saying how close or far something is.","x":"新家离地铁站很近。— The new home is very close to the subway station."},
+    {"p":"虽然...但是...（although...but...）","e":"虽然 introduces a fact, and 但是 introduces the contrast that follows.","x":"虽然房租贵了一点，但是附近很方便。— Although the rent is a bit more, the area is very convenient."},
+    {"p":"让 + someone + verb（to have/let someone do something）","e":"让 introduces the person and the action they are caused or allowed to do.","x":"我告诉她新地址，让她周末来我家玩。— I gave her my new address and told her to come visit on the weekend."}
+  ]
+}

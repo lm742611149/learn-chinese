@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-how-long-does-it-take",
+  "level": 3,
+  "title_zh": "要多长时间",
+  "title_py": "Yào duō cháng shíjiān",
+  "title_en": "How Long Does It Take in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["打算","dǎsuàn","to plan"],["周末","zhōumò","weekend"],["去","qù","to go"],["看","kàn","to see; to visit"],["一个","yí ge","one"],["朋友","péngyou","friend"],["，"],["他","tā","he"],["住","zhù","to live"],["在","zài","at"],["别的","biéde","other"],["城市","chéngshì","city"],["。"]],
+      "en": "I was planning to visit a friend over the weekend — he lives in another city."
+    },
+    {
+      "t": [["我","wǒ","I"],["去","qù","to go"],["火车站","huǒchēzhàn","train station"],["，"],["问","wèn","to ask"],["服务员","fúwùyuán","clerk; attendant"],["："],["“"],["坐","zuò","to ride"],["火车","huǒchē","train"],["去","qù","to go"],["，"],["要","yào","will take"],["多","duō","how (much)"],["长","cháng","long"],["时间","shíjiān","time"],["？"],["”"]],
+      "en": "I went to the train station and asked the clerk: \"How long does it take to get there by train?\""
+    },
+    {
+      "t": [["服务员","fúwùyuán","clerk"],["说","shuō","to say"],["："],["“"],["坐","zuò","to take"],["快","kuài","fast"],["车","chē","train"],["，"],["两","liǎng","two"],["个","gè","(measure word)"],["小时","xiǎoshí","hour"],["就","jiù","then"],["到","dào","to arrive"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "The clerk said, \"On the fast train it's two hours.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["买","mǎi","to buy"],["了","le","(completed action)"],["一","yì","one"],["张","zhāng","(measure word for tickets)"],["星期六","xīngqīliù","Saturday"],["早上","zǎoshang","morning"],["的","de","(particle)"],["火车","huǒchē","train"],["票","piào","ticket"],["。"]],
+      "en": "I bought a Saturday morning train ticket."
+    },
+    {
+      "t": [["火车","huǒchē","train"],["开","kāi","to drive"],["得","de","(complement particle)"],["很","hěn","very"],["快","kuài","fast"],["，"],["我","wǒ","I"],["在","zài","at"],["车","chē","car; vehicle"],["上","shàng","on"],["看","kàn","to read; to look at"],["了","le","(completed action)"],["一会儿","yíhuìr","a while"],["书","shū","book"],["，"],["又","yòu","again"],["看","kàn","to look at"],["了","le","(completed action)"],["一会儿","yíhuìr","a while"],["手机","shǒujī","phone"],["。"]],
+      "en": "The train went really fast — I read for a while on the train, then looked at my phone for a while."
+    },
+    {
+      "t": [["才","cái","only then"],["过","guò","(indicates time passing)"],["了","le","(completed action)"],["两","liǎng","two"],["个","ge","(measure word)"],["小时","xiǎoshí","hour"],["，"],["火车","huǒchē","train"],["真的","zhēnde","really"],["到","dào","to arrive"],["了","le","(change of state)"],["。"]],
+      "en": "Only two hours had passed, and the train had really arrived."
+    },
+    {
+      "t": [["我","wǒ","I"],["出来","chūlái","to come out"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["朋友","péngyou","friend"],["已经","yǐjīng","already"],["在","zài","at"],["门口","ménkǒu","doorway"],["等","děng","to wait"],["我","wǒ","I"],["了","le","(change of state)"],["，"],["说","shuō","to say"],["我","wǒ","I"],["来","lái","to come"],["得","de","(complement particle)"],["正好","zhènghǎo","just right; perfectly timed"],["。"]],
+      "en": "When I came out, my friend was already waiting at the door, and said I'd arrived just in time."
+    }
+  ],
+  "vocab": [
+    ["打算","dǎsuàn","to plan"],
+    ["城市","chéngshì","city"],
+    ["火车站","huǒchēzhàn","train station"],
+    ["堵车","dǔchē","traffic jam"],
+    ["时间","shíjiān","time"],
+    ["正好","zhènghǎo","just right; perfectly timed"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator ask the train station clerk?","a":["坐火车去，要多长时间？","离这儿远不远？","多少钱一张票？"],"c":0},
+    {"q":"According to the clerk, how long does the trip take with no traffic?","a":["One hour","Two hours","Three hours"],"c":1},
+    {"q":"What does the friend say when the narrator arrives?","a":["That the trip took too long","That they're hungry","That the narrator arrived just in time"],"c":2}
+  ],
+  "grammar": [
+    {"p":"要多长时间？(How long does it take?)","e":"多长时间 asks about duration — how long something takes — while 多远 asks about distance instead.","x":"坐火车去，要多长时间？— How long does it take to get there by train?"},
+    {"p":"才 + time period（only; not until — something is less than expected）","e":"才 before a time expression emphasizes that only that much time had passed, showing it felt quick.","x":"才过了两个小时，火车真的到了。— Only two hours had passed, and the train had really arrived."},
+    {"p":"V + 得 + adjective（complement describing how an action turned out）","e":"来得正好 uses 得 to attach a description of the result — arriving right on time.","x":"朋友已经在门口等我了，说我来得正好。— My friend was already waiting at the door, and said I'd arrived just in time."}
+  ]
+}

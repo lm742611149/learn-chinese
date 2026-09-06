@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-what-time-does-it-open",
+  "level": 3,
+  "title_zh": "几点开门",
+  "title_py": "Jǐ diǎn kāimén",
+  "title_en": "What Time Does It Open in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["星期天","xīngqītiān","Sunday"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I"],["去","qù","to go"],["银行","yínháng","bank"],["，"],["可是","kěshì","but"],["银行","yínháng","bank"],["的","de","(particle)"],["门","mén","door"],["关","guān","closed; to close"],["着","zhe","(ongoing state)"],["，"],["一个","yí ge","one"],["人","rén","person"],["也","yě","also"],["没有","méiyǒu","not have"],["。"]],
+      "en": "Sunday morning, I went to the bank, but the bank's door was closed, and there wasn't a single person around."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["旁边","pángbiān","beside; nearby"],["的","de","(particle)"],["人","rén","person"],["："],["“"],["银行","yínháng","bank"],["几点","jǐ diǎn","what time"],["开门","kāimén","to open (for business)"],["？"],["”"]],
+      "en": "I asked the person next to me: \"What time does the bank open?\""
+    },
+    {
+      "t": [["他","tā","he"],["说","shuō","to say"],["："],["“"],["银行","yínháng","bank"],["九点","jiǔ diǎn","nine o'clock"],["开门","kāimén","to open (for business)"],["，"],["现在","xiànzài","now"],["才","cái","only"],["八点","bā diǎn","eight o'clock"],["。"],["”"]],
+      "en": "He said: \"The bank opens at nine — it's only eight now.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["还","hái","still"],["要","yào","need to"],["等","děng","to wait"],["一个","yí ge","one"],["小时","xiǎoshí","hour"],["，"],["就","jiù","then"],["先","xiān","first"],["去","qù","to go"],["附近","fùjìn","nearby"],["的","de","(particle)"],["商店","shāngdiàn","store; shop"],["看","kàn","to look"],["了","le","(completed action)"],["看","kàn","to look"],["。"]],
+      "en": "I still had an hour to wait, so I went to look around a nearby shop first."
+    },
+    {
+      "t": [["过","guò","(indicates time passing)"],["了","le","(completed action)"],["一会儿","yíhuìr","a while"],["，"],["我","wǒ","I"],["又","yòu","again"],["回到","huídào","to return to"],["银行","yínháng","bank"],["，"],["看见","kànjiàn","to see"],["门","mén","door"],["开","kāi","open; to open"],["着","zhe","(ongoing state)"],["，"],["里面","lǐmiàn","inside"],["已经","yǐjīng","already"],["有","yǒu","to have; there is"],["很多","hěn duō","many"],["人","rén","person"],["。"]],
+      "en": "After a while, I went back to the bank and saw the door was open — inside, there were already many people."
+    },
+    {
+      "t": [["我","wǒ","I"],["也","yě","also"],["进去","jìnqù","to go in"],["等","děng","to wait"],["着","zhe","(ongoing particle)"],["，"],["过","guò","(indicates time passing)"],["了","le","(completed action)"],["半","bàn","half"],["个","ge","(measure word)"],["小时","xiǎoshí","hour"],["，"],["我","wǒ","I"],["的","de","(particle)"],["事情","shìqing","matter; thing"],["就","jiù","then"],["做","zuò","to do"],["完","wán","to finish"],["了","le","(change of state)"],["。"]],
+      "en": "I went in and waited too, and after half an hour, my business was done."
+    },
+    {
+      "t": [["我","wǒ","I"],["走","zǒu","to walk"],["出","chū","out"],["银行","yínháng","bank"],["的","de","(particle)"],["时候","shíhou","time; when"],["，"],["看","kàn","to look"],["了","le","(completed action)"],["看","kàn","to look"],["时间","shíjiān","time"],["，"],["才","cái","only"],["十","shí","ten"],["点","diǎn","o'clock"],["，"],["我","wǒ","I"],["决定","juédìng","to decide"],["先","xiān","first"],["去","qù","to go"],["吃饭","chīfàn","to eat a meal"],["。"]],
+      "en": "When I walked out of the bank, I checked the time — only ten o'clock — and I decided to go eat first."
+    }
+  ],
+  "vocab": [
+    ["几点","jǐ diǎn","what time"],
+    ["开门","kāimén","to open (for business)"],
+    ["关","guān","closed; to close"],
+    ["门","mén","door"],
+    ["旁边","pángbiān","beside; nearby"],
+    ["附近","fùjìn","nearby"]
+  ],
+  "quiz": [
+    {"q":"What does the narrator find when arriving at the bank?","a":["The door was closed","The bank was very crowded","The bank had moved"],"c":0},
+    {"q":"What time does the bank actually open?","a":["Eight o'clock","Nine o'clock","Ten o'clock"],"c":1},
+    {"q":"What does the narrator do right after finishing at the bank?","a":["Goes back to sleep","Calls a friend","Decides to go eat"],"c":2}
+  ],
+  "grammar": [
+    {"p":"几点开门？(What time does it open?)","e":"几点 asks for a specific clock time; paired with 开门 (to open for business) or 关门 (to close), it's the standard way to ask a shop's hours.","x":"银行几点开门？— What time does the bank open?"},
+    {"p":"才 + time（only; not yet — something is earlier than expected）","e":"才 before a time expression shows that a point is still early, or hasn't been reached yet.","x":"银行九点开门，现在才八点。— The bank opens at nine, and it's only eight now."},
+    {"p":"V + 着（ongoing state）","e":"着 attached to a verb shows a state continuing — here, the door staying shut, and later, staying open.","x":"银行的门关着，一个人也没有。— The bank's door was closed, and there wasn't a single person around."}
+  ]
+}

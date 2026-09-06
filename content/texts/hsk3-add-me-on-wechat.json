@@ -1,0 +1,60 @@
+{
+  "slug": "hsk3-add-me-on-wechat",
+  "level": 3,
+  "title_zh": "加个微信",
+  "title_py": "Jiā ge Wēixìn",
+  "title_en": "Add Me on WeChat in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["周末","zhōumò","weekend"],["，"],["我","wǒ","I; me"],["和","hé","and; with"],["同事","tóngshì","colleague"],["一起","yìqǐ","together"],["去","qù","to go"],["爬山","páshān","to hike; to climb a mountain"],["，"],["路上","lùshang","on the way"],["认识","rènshi","to meet; to get to know"],["了","le","(completed action)"],["一个","yí ge","one"],["新","xīn","new"],["朋友","péngyou","friend"],["。"]],
+      "en": "On the weekend, my colleague and I went hiking, and on the way I met a new friend."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["一边","yìbiān","while (doing one thing)"],["爬山","páshān","to hike"],["一边","yìbiān","while (doing another)"],["聊天","liáotiān","to chat"],["，"],["很快","hěn kuài","quickly"],["就","jiù","then"],["成","chéng","to become"],["了","le","(completed action)"],["好朋友","hǎo péngyou","good friend"],["。"]],
+      "en": "We chatted while hiking, and quickly became good friends."
+    },
+    {
+      "t": [["到了","dàole","arrived at"],["山顶","shāndǐng","the top of the mountain"],["，"],["我们","wǒmen","we; us"],["坐下","zuòxià","to sit down"],["休息","xiūxi","to rest"],["，"],["又","yòu","again"],["聊","liáo","to chat"],["了","le","(completed action)"],["很久","hěnjiǔ","a long time"],["。"]],
+      "en": "When we reached the top, we sat down to rest, and chatted for a long time again."
+    },
+    {
+      "t": [["时间","shíjiān","time"],["过","guò","to pass"],["得","de","(complement particle)"],["很快","hěn kuài","quickly"],["，"],["我们","wǒmen","we; us"],["要","yào","should; need to"],["回家","huí jiā","to go home"],["了","le","(change of state)"],["。"]],
+      "en": "Time passed quickly, and we had to head home."
+    },
+    {
+      "t": [["要","yào","about to"],["走","zǒu","to leave"],["的","de","(particle)"],["时候","shíhou","time"],["，"],["他","tā","he; him"],["对","duì","to; toward"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["我们","wǒmen","we; us"],["加","jiā","to add (as a contact)"],["个","ge","(measure word)"],["微信","Wēixìn","WeChat"],["吧","ba","(suggestion particle)"],["，"],["以后","yǐhòu","in the future"],["可以","kěyǐ","can; may"],["一起","yìqǐ","together"],["爬山","páshān","to hike"],["。"],["”"]],
+      "en": "As we were about to leave, he said to me: \"Let's add each other on WeChat — we can go hiking together in the future.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["好","hǎo","good; okay"],["啊","a","(exclamatory particle)"],["，"],["这样","zhèyàng","this way"],["方便","fāngbiàn","convenient"],["多","duō","much; a lot"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "I said: \"Sure, that'll make things much more convenient.\""
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["互相","hùxiāng","each other"],["加","jiā","to add"],["了","le","(completed action)"],["微信","Wēixìn","WeChat"],["，"],["后来","hòulái","afterward"],["真的","zhēnde","really"],["又","yòu","again"],["爬","pá","to climb"],["了","le","(completed action)"],["好几次","hǎojǐ cì","several times"],["山","shān","mountain"],["。"]],
+      "en": "We added each other on WeChat, and afterward we really did go hiking together several more times."
+    },
+    {
+      "t": [["现在","xiànzài","now"],["，"],["我","wǒ","I; me"],["手机","shǒujī","phone"],["里","lǐ","inside"],["还","hái","still"],["有","yǒu","to have"],["很多","hěn duō","many"],["张","zhāng","(measure word for flat things)"],["我们","wǒmen","we; us"],["一起","yìqǐ","together"],["爬山","páshān","to hike"],["拍","pāi","to take (a photo)"],["的","de","(possessive particle)"],["照片","zhàopiàn","photo"],["。"]],
+      "en": "Now, I still have lots of photos in my phone that we took together while hiking."
+    }
+  ],
+  "vocab": [
+    ["微信","Wēixìn","WeChat"],
+    ["加","jiā","to add (as a contact)"],
+    ["同事","tóngshì","colleague"],
+    ["好朋友","hǎo péngyou","good friend"],
+    ["互相","hùxiāng","each other"],
+    ["方便","fāngbiàn","convenient"]
+  ],
+  "quiz": [
+    {"q":"Where did the narrator meet the new friend?","a":["At the office","While hiking","At a restaurant"],"c":1},
+    {"q":"What did the friend suggest before they parted?","a":["Adding each other on WeChat","Getting lunch together","Exchanging phone numbers"],"c":0},
+    {"q":"What does the narrator's phone now have?","a":["A new hiking app","Videos of the mountain","Photos from hiking together"],"c":2}
+  ],
+  "grammar": [
+    {"p":"加个 + N + 吧 (let's add each other on...)","e":"加个 + noun + 吧 is how people suggest exchanging contact info in Chinese — 加 means 'to add' as a contact.","x":"我们加个微信吧。— Let's add each other on WeChat."},
+    {"p":"一边 A 一边 B (doing A while doing B)","e":"一边...一边... describes two actions happening at the same time.","x":"我们一边爬山一边聊天。— We chatted while hiking."},
+    {"p":"互相 + verb (to do something to each other)","e":"互相 goes right before the verb to mean 'each other' or 'mutually'.","x":"我们互相加了微信。— We added each other on WeChat."}
+  ]
+}

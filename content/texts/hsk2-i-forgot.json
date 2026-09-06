@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-i-forgot",
+  "level": 2,
+  "title_zh": "我忘了",
+  "title_py": "Wǒ wàng le",
+  "title_en": "I Forgot in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["早上", "zǎoshang", "morning"],["出门", "chūmén", "to go out"],["的时候", "de shíhou", "when"],["，"],["天气", "tiānqì", "weather"],["很", "hěn", "very"],["好", "hǎo", "good"],["，"],["我", "wǒ", "I"],["没", "méi", "not"],["带", "dài", "to bring"],["伞", "sǎn", "umbrella"],["。"]],
+      "en": "When I went out in the morning, the weather was nice, so I didn't bring an umbrella."
+    },
+    {
+      "t": [["下午", "xiàwǔ", "afternoon"],["放学", "fàngxué", "to finish school"],["的时候", "de shíhou", "when"],["，"],["天", "tiān", "sky"],["下雨", "xiàyǔ", "to rain"],["了", "le", "(change of state)"],["，"],["我", "wǒ", "I"],["忘", "wàng", "to forget"],["了", "le", "(completed action)"],["带", "dài", "to bring"],["伞", "sǎn", "umbrella"],["。"]],
+      "en": "When school ended in the afternoon, it had started raining, and I'd forgotten to bring an umbrella."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["站", "zhàn", "to stand"],["在", "zài", "at"],["门口", "ménkǒu", "doorway"],["，"],["看", "kàn", "to look at"],["着", "zhe", "(ongoing particle)"],["雨", "yǔ", "rain"],["，"],["不", "bù", "not"],["知道", "zhīdào", "to know"],["怎么", "zěnme", "how"],["回家", "huíjiā", "to go home"],["。"]],
+      "en": "I stood at the door, looking at the rain, not knowing how to get home."
+    },
+    {
+      "t": [["同学", "tóngxué", "classmate"],["小美", "Xiǎoměi", "Xiaomei"],["看见", "kànjiàn", "to see"],["了", "le", "(completed action)"],["，"],["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["有", "yǒu", "to have"],["伞", "sǎn", "umbrella"],["，"],["你", "nǐ", "you"],["可以", "kěyǐ", "can; may"],["用", "yòng", "to use"],["我", "wǒ", "I"],["的", "de", "(possessive particle)"],["。"],["”"]],
+      "en": "My classmate Xiaomei saw me and said: \"I have an umbrella, you can use mine.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["走", "zǒu", "to walk"],["回家", "huíjiā", "to go home"],["，"],["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["谢谢", "xièxie", "thank you"],["你", "nǐ", "you"],["！"],["”"]],
+      "en": "We walked home together, and I said: \"Thank you!\""
+    },
+    {
+      "t": [["到家", "dàojiā", "to arrive home"],["的时候", "de shíhou", "when"],["，"],["我", "wǒ", "I"],["的", "de", "(possessive particle)"],["衣服", "yīfu", "clothes"],["没有", "méiyǒu", "not"],["湿", "shī", "wet"],["。"]],
+      "en": "By the time I got home, my clothes weren't wet."
+    }
+  ],
+  "vocab": [
+    ["忘", "wàng", "to forget"],
+    ["带", "dài", "to bring"],
+    ["伞", "sǎn", "umbrella"],
+    ["知道", "zhīdào", "to know"],
+    ["谢谢", "xièxie", "thank you"],
+    ["湿", "shī", "wet"]
+  ],
+  "quiz": [
+    {"q": "What did the writer forget to bring?", "a": ["Her umbrella", "Her homework", "Her keys"], "c": 0},
+    {"q": "Who lends the writer an umbrella?", "a": ["Her teacher", "A classmate named Xiaomei", "Her mom"], "c": 1},
+    {"q": "What happens to the writer's clothes by the time she gets home?", "a": ["They are soaked", "They are dirty", "They are not wet"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "忘了带（to forget to bring something）", "e": "忘了 followed by 带 and an object means you forgot to bring that thing along.", "x": "我忘了带伞。— I forgot to bring my umbrella."},
+    {"p": "不知道 + 怎么 + V（not knowing how to do something）", "e": "不知道 followed by 怎么 and a verb expresses not knowing how to do something.", "x": "我站在门口，看着雨，不知道怎么回家。— I stood at the door, looking at the rain, not knowing how to get home."},
+    {"p": "可以（can; may）", "e": "可以 offers permission or an option, often used when lending something to someone.", "x": "我有伞，你可以用我的。— I have an umbrella, you can use mine."}
+  ]
+}

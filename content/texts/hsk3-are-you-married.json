@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-are-you-married",
+  "level": 3,
+  "title_zh": "你结婚了吗",
+  "title_py": "Nǐ jiéhūn le ma",
+  "title_en": "Are You Married in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I; me"],["换","huàn","to change; to switch"],["了","le","(completed action)"],["新","xīn","new"],["工作","gōngzuò","job; work"],["，"],["第一天","dì yī tiān","the first day"],["上班","shàngbān","to go to work"],["，"],["一个","yí ge","one"],["同事","tóngshì","colleague"],["就","jiù","right away; then"],["问","wèn","to ask"],["我","wǒ","I; me"],["："],["“"],["你","nǐ","you"],["结婚","jiéhūn","to get married"],["了","le","(change of state)"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I started a new job, and on my first day at work, a colleague asked me right away: \"Are you married?\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["觉得","juéde","to feel"],["有点儿","yǒudiǎnr","a little"],["奇怪","qíguài","strange"],["，"],["因为","yīnwèi","because"],["在","zài","in; at"],["我的","wǒ de","my"],["国家","guójiā","country"],["，"],["这样","zhèyàng","such; like this"],["的","de","(particle)"],["问题","wèntí","question"],["一般","yìbān","usually; generally"],["不","bú","not"],["会","huì","would"],["随便","suíbiàn","casually; at will"],["问","wèn","to ask"],["别人","biéren","other people"],["。"]],
+      "en": "I felt it was a little strange, because back in my country, this kind of question isn't usually asked so casually."
+    },
+    {
+      "t": [["但是","dànshì","but"],["，"],["我","wǒ","I; me"],["发现","fāxiàn","to discover; to find"],["同事","tóngshì","colleague"],["们","men","(plural marker)"],["互相","hùxiāng","each other"],["问","wèn","to ask"],["，"],["这","zhè","this"],["很","hěn","very"],["正常","zhèngcháng","normal"],["。"]],
+      "en": "But I found that my colleagues asked each other the same thing — it was very normal."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["没有","méiyǒu","no; not yet"],["，"],["还","hái","still"],["没","méi","not; haven't"],["结婚","jiéhūn","to get married"],["，"],["你","nǐ","you"],["呢","ne","(question particle)"],["？"],["”"]],
+      "en": "I said: \"No, not married yet — how about you?\""
+    },
+    {
+      "t": [["她","tā","she; her"],["说","shuō","to say"],["："],["“"],["我","wǒ","I; me"],["也","yě","also"],["是","shì","is; am"],["，"],["才","cái","only"],["二十","èrshí","twenty"],["多","duō","more (than)"],["岁","suì","years old"],["，"],["不","bù","not"],["着急","zháojí","in a hurry; anxious"],["。"],["”"]],
+      "en": "She said: \"Me neither — I'm only in my twenties, no rush.\""
+    },
+    {
+      "t": [["中午","zhōngwǔ","noon"],["吃饭","chīfàn","to eat"],["的","de","(particle)"],["时候","shíhou","time"],["，"],["她","tā","she; her"],["说","shuō","to say"],["想","xiǎng","to want to"],["给","gěi","for"],["我","wǒ","I; me"],["介绍","jièshào","to introduce"],["一个","yí ge","one"],["朋友","péngyou","friend"],["，"],["还","hái","also; in addition"],["给","gěi","to; for"],["我","wǒ","I; me"],["看","kàn","to look at"],["了","le","(completed action)"],["一张","yì zhāng","one (measure word)"],["照片","zhàopiàn","photo"],["。"]],
+      "en": "At lunch, she said she wanted to introduce a friend to me, and even showed me a photo."
+    },
+    {
+      "t": [["我","wǒ","I; me"],["看了看","kànlekàn","took a look at"],["照片","zhàopiàn","photo"],["，"],["说","shuō","to say"],["："],["“"],["他","tā","he; him"],["看起来","kànqǐlai","to look; to seem"],["不错","búcuò","pretty good"],["，"],["谢谢","xièxie","thank you"],["你","nǐ","you"],["。"],["”"]],
+      "en": "I took a look at the photo and said: \"He looks pretty good — thanks.\""
+    }
+  ],
+  "vocab": [
+    ["结婚","jiéhūn","to get married"],
+    ["正常","zhèngcháng","normal"],
+    ["着急","zháojí","anxious; in a hurry"],
+    ["介绍","jièshào","to introduce"],
+    ["随便","suíbiàn","casually; at will"],
+    ["奇怪","qíguài","strange"]
+  ],
+  "quiz": [
+    {"q":"What did the coworker ask on the narrator's first day at the new job?","a":["Where do you live","Are you married","How old are you"],"c":1},
+    {"q":"How did the narrator feel about being asked this question?","a":["A little strange","Very angry","Very happy"],"c":0},
+    {"q":"What did the coworker offer to do at lunch?","a":["Lend her money","Teach her Chinese","Introduce a friend to her"],"c":2}
+  ],
+  "grammar": [
+    {"p":"一般不会 + verb (usually wouldn't...)","e":"一般不会 + verb says something doesn't usually happen — used here to say what people wouldn't normally ask back home.","x":"这样的问题一般不会随便问别人。— This kind of question isn't usually asked so casually."},
+    {"p":"给 + person + 介绍 (to introduce someone to someone)","e":"给 + person + 介绍 + (a friend) means to introduce that person to someone — a common offer in Chinese social life.","x":"她说想给我介绍一个朋友。— She said she wanted to introduce a friend to me."},
+    {"p":"才 + number (only; just)","e":"才 placed before a number emphasizes that the number is small — 'only twenty-something.'","x":"我也是，才二十多岁。— Me neither — I'm only in my twenties."}
+  ]
+}

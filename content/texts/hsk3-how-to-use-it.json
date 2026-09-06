@@ -1,0 +1,52 @@
+{
+  "slug": "hsk3-how-to-use-it",
+  "level": 3,
+  "title_zh": "怎么用",
+  "title_py": "Zěnme yòng",
+  "title_en": "How to Use It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["搬","bān","to move"],["到","dào","to; arrive at"],["新家","xīnjiā","new home"],["，"],["楼下","lóuxià","downstairs"],["有","yǒu","to have; there is"],["洗衣机","xǐyījī","washing machine"],["，"],["可是","kěshì","but"],["我","wǒ","I"],["不","bú","not"],["会","huì","to know how to"],["用","yòng","to use"],["。"]],
+      "en": "I moved into a new home, and there's a washing machine downstairs, but I don't know how to use it."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["旁边","pángbiān","next to; nearby"],["的","de","(possessive particle)"],["邻居","línjū","neighbor"],["阿姨","āyí","auntie (older woman)"],["："],["“"],["这个","zhège","this"],["怎么","zěnme","how"],["用","yòng","to use"],["？"],["”"]],
+      "en": "I asked the neighbor auntie nearby: \"How do you use this?\""
+    },
+    {
+      "t": [["她","tā","she"],["走","zǒu","to walk"],["到","dào","to; arrive at"],["我","wǒ","my"],["旁边","pángbiān","next to"],["，"],["教","jiāo","to teach"],["我","wǒ","me"],["先","xiān","first"],["放","fàng","to put"],["衣服","yīfu","clothes"],["，"],["然后","ránhòu","then"],["开始","kāishǐ","to begin"],["洗","xǐ","to wash"],["。"]],
+      "en": "She walked over next to me and taught me: first put the clothes in, then start washing."
+    },
+    {
+      "t": [["过了","guòle","after"],["一会儿","yíhuìr","a little while"],["，"],["洗衣机","xǐyījī","washing machine"],["响","xiǎng","to make a sound; to ring"],["了","le","(change of state)"],["。"]],
+      "en": "After a little while, the washing machine started making noise."
+    },
+    {
+      "t": [["邻居","línjū","neighbor"],["阿姨","āyí","auntie"],["说","shuō","to say"],["："],["“"],["响","xiǎng","to sound"],["了","le","(completed action)"],["就","jiù","means"],["是","shì","is"],["洗","xǐ","to wash"],["好","hǎo","done"],["了","le","(change of state)"],["。"],["”"]],
+      "en": "My neighbour said, \"That beep means it's done.\""
+    },
+    {
+      "t": [["半个小时","bàn ge xiǎoshí","half an hour"],["后","hòu","after"],["，"],["衣服","yīfu","clothes"],["洗","xǐ","to wash"],["好","hǎo","(complement: finished, done well)"],["了","le","(change of state)"],["，"],["我","wǒ","I"],["把","bǎ","(把-construction)"],["它们","tāmen","them"],["拿到","nádào","to bring/take to"],["阳台","yángtái","balcony"],["。"]],
+      "en": "Half an hour later, the clothes were done, and I brought them out to the balcony."
+    }
+  ],
+  "vocab": [
+    ["洗衣机","xǐyījī","washing machine"],
+    ["邻居","línjū","neighbor"],
+    ["阿姨","āyí","auntie (older woman)"],
+    ["声音","shēngyīn","sound"],
+    ["响","xiǎng","to make a sound; to ring"],
+    ["阳台","yángtái","balcony"]
+  ],
+  "quiz": [
+    {"q":"Why does the narrator ask the neighbor auntie for help?","a":["The washing machine is broken","She doesn't know how to use the washing machine","She wants to borrow detergent"],"c":1},
+    {"q":"What does the neighbor auntie tell her to do first?","a":["Turn off the machine","Call the landlord","Put the clothes in first"],"c":2},
+    {"q":"How does the narrator know the laundry is done?","a":["A timer rings","The neighbor comes back","The sound becomes quiet"],"c":2}
+  ],
+  "grammar": [
+    {"p":"怎么 + verb？（how to do something）","e":"怎么 before a verb asks how an action is done.","x":"这个怎么用？— How do you use this?"},
+    {"p":"先...然后...（first...then...）","e":"先 marks the first step and 然后 marks the step that follows.","x":"先放衣服，然后开始洗。— First put the clothes in, then start washing."},
+    {"p":"就是（that means; simply）","e":"就是 clarifies what something means or amounts to.","x":"声音小了，就是洗好了。— When the sound gets quiet, that means it's done washing."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-about-the-same",
+  "level": 3,
+  "title_zh": "差不多",
+  "title_py": "Chàbuduō",
+  "title_en": "About the Same in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["晚上", "wǎnshang", "evening"],["，"],["朋友", "péngyou", "friend"],["在", "zài", "(indicates ongoing action)"],["做饭", "zuòfàn", "to cook"],["，"],["我", "wǒ", "I"],["坐", "zuò", "to sit"],["在", "zài", "at"],["旁边", "pángbiān", "next to; beside"],["等", "děng", "to wait"],["，"],["已经", "yǐjīng", "already"],["有点儿", "yǒudiǎnr", "a little"],["饿", "è", "hungry"],["了", "le", "(change of state)"],["。"]],
+      "en": "In the evening my friend is cooking, and I sit beside her and wait — I'm already a little hungry."
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["再", "zài", "again; some more"],["等", "děng", "to wait"],["五", "wǔ", "five"],["分钟", "fēnzhōng", "minute"],["，"],["菜", "cài", "dish; food"],["差不多", "chàbuduō", "almost; nearly ready"],["了", "le", "(change of state)"],["。"],["”"]],
+      "en": "She says: \"Wait five more minutes, the food's almost ready.\""
+    },
+    {
+      "t": [["五", "wǔ", "five"],["分钟", "fēnzhōng", "minute"],["后", "hòu", "after; later"],["，"],["我们", "wǒmen", "we"],["坐下", "zuòxià", "to sit down"],["吃饭", "chīfàn", "to eat a meal"],["，"],["我", "wǒ", "I"],["问", "wèn", "to ask"],["她", "tā", "her"],["："],["“"],["味道", "wèidao", "taste; flavor"],["跟", "gēn", "with; as"],["上次", "shàngcì", "last time"],["一样", "yíyàng", "the same"],["吗", "ma", "(question particle)"],["？"],["”"]],
+      "en": "Five minutes later, we sit down to eat, and I ask her: \"Does it taste the same as last time?\""
+    },
+    {
+      "t": [["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["差不多", "chàbuduō", "pretty much the same"],["，"],["可能", "kěnéng", "maybe; possibly"],["盐", "yán", "salt"],["放", "fàng", "to put"],["得", "de", "(particle)"],["有点儿", "yǒudiǎnr", "a little"],["多", "duō", "much; many"],["。"],["”"]],
+      "en": "She says: \"Pretty much — maybe I put a little too much salt.\""
+    },
+    {
+      "t": [["吃", "chī", "to eat"],["完", "wán", "to finish"],["饭", "fàn", "meal; rice"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["去", "qù", "to go"],["商店", "shāngdiàn", "shop; store"],["，"],["我", "wǒ", "I"],["看", "kàn", "to look"],["了", "le", "(completed action)"],["看", "kàn", "to look"],["一件", "yí jiàn", "one (+ measure word)"],["衣服", "yīfu", "clothes"],["，"],["觉得", "juéde", "to feel; to think"],["颜色", "yánsè", "color"],["不错", "búcuò", "pretty good; not bad"],["。"]],
+      "en": "After eating, we go to the store together, and I look at a piece of clothing and think the color's nice."
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["别", "bié", "don't"],["想", "xiǎng", "to think"],["太", "tài", "too"],["多", "duō", "much; many"],["了", "le", "(change of state)"],["，"],["这", "zhè", "this"],["件", "jiàn", "(measure word)"],["差不多", "chàbuduō", "good enough; close enough"],["，"],["就", "jiù", "then; just"],["买", "mǎi", "to buy"],["这个", "zhège", "this"],["吧", "ba", "(suggestion particle)"],["。"],["”"]],
+      "en": "My friend says: \"Don't overthink it — this one's close enough, just buy it.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["走", "zǒu", "to walk"],["出", "chū", "to exit; out"],["商店", "shāngdiàn", "shop; store"],["，"],["我", "wǒ", "I"],["的", "de", "(possessive particle)"],["包", "bāo", "bag"],["里", "lǐ", "inside"],["多", "duō", "more; extra"],["了", "le", "(change of state)"],["一件", "yí jiàn", "one (+ measure word)"],["新", "xīn", "new"],["衣服", "yīfu", "clothes"],["。"]],
+      "en": "We walk out of the store — my bag now has one more new piece of clothing in it."
+    }
+  ],
+  "vocab": [
+    ["差不多", "chàbuduō", "almost the same; close enough"],
+    ["味道", "wèidao", "taste; flavor"],
+    ["上次", "shàngcì", "last time"],
+    ["盐", "yán", "salt"],
+    ["颜色", "yánsè", "color"],
+    ["包", "bāo", "bag"]
+  ],
+  "quiz": [
+    {"q": "What does \"菜差不多了\" mean here?", "a": ["The food is almost ready", "The food tastes bad", "The food is completely cold"], "c": 0},
+    {"q": "What does the friend say might be slightly different this time?", "a": ["The color of the dish", "The amount of salt", "The size of the portion"], "c": 1},
+    {"q": "Why does the friend say \"这件差不多，就买这个吧\"?", "a": ["To say the shirt is the wrong size", "To say it's expensive", "To say it's good enough, so stop deliberating"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "差不多了（almost done; almost ready）", "e": "差不多 describes something nearly finished or nearly at its target, often followed by 了.", "x": "再等五分钟，菜差不多了。— Wait five more minutes, the food's almost ready."},
+    {"p": "A 跟 B 差不多（A and B are about the same）", "e": "差不多 between two things being compared says they're nearly identical, with only a small difference.", "x": "差不多，可能盐放得有点儿多。— Pretty much the same, maybe there's a little too much salt."},
+    {"p": "差不多，就 V 吧（good enough — just go with it）", "e": "Said about a choice, 差不多 means something is close enough to be acceptable, so there's no need to keep deliberating.", "x": "这件差不多，就买这个吧。— This one's close enough, just buy it."}
+  ]
+}

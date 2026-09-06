@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-after-you",
+  "level": 3,
+  "title_zh": "你先",
+  "title_py": "Nǐ xiān",
+  "title_en": "After You in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下班","xiàbān","to get off work"],["的时候","de shíhou","when; at the time of"],["，"],["我","wǒ","I; me"],["和","hé","and; with"],["同事","tóngshì","colleague"],["一起","yìqǐ","together"],["到了","dàole","arrived"],["公司","gōngsī","company"],["门口","ménkǒu","entrance; doorway"],["。"]],
+      "en": "When we got off work, my colleague and I walked to the company entrance together."
+    },
+    {
+      "t": [["我们","wǒmen","we; us"],["两个","liǎng ge","the two (of us)"],["都","dōu","both; all"],["站","zhàn","to stand"],["在","zài","at"],["门口","ménkǒu","entrance; doorway"],["，"],["你","nǐ","you"],["看看","kànkan","to take a look"],["我","wǒ","I; me"],["，"],["我","wǒ","I; me"],["看看","kànkan","to take a look"],["你","nǐ","you"],["，"],["谁","shéi","who; anyone"],["也","yě","also"],["不","bù","not"],["先","xiān","first"],["进去","jìnqù","to go in"],["。"]],
+      "en": "We both stood at the door — I looked at him, he looked at me, and neither of us went in first."
+    },
+    {
+      "t": [["最后","zuìhòu","finally; in the end"],["我","wǒ","I; me"],["说","shuō","to say"],["："],["“"],["你先","nǐ xiān","after you; you go first"],["，"],["我","wǒ","I; me"],["不","bù","not"],["着急","zháojí","in a hurry; anxious"],["。"],["”"]],
+      "en": "Finally I said: \"After you, I'm not in a hurry.\""
+    },
+    {
+      "t": [["同事","tóngshì","colleague"],["说","shuō","to say"],["谢谢","xièxie","thank you"],["，"],["先","xiān","first"],["进去","jìnqù","to go in"],["了","le","(completed action)"],["。"]],
+      "en": "My colleague said thanks and went in first."
+    },
+    {
+      "t": [["第二天","dì'èrtiān","the next day"],["早上","zǎoshang","morning"],["，"],["我","wǒ","I; me"],["和","hé","and; with"],["同事","tóngshì","colleague"],["又","yòu","again"],["一起","yìqǐ","together"],["到了","dàole","arrived"],["公司","gōngsī","company"],["门口","ménkǒu","entrance; doorway"],["。"]],
+      "en": "The next morning, my colleague and I arrived at the company entrance together again."
+    },
+    {
+      "t": [["同事","tóngshì","colleague"],["看看","kànkan","to take a look"],["我","wǒ","I; me"],["，"],["说","shuō","to say"],["："],["“"],["你先","nǐ xiān","after you; you go first"],["。"],["”"]],
+      "en": "My colleague looked at me and said: \"After you.\""
+    },
+    {
+      "t": [["我","wǒ","I; me"],["先","xiān","first"],["进去","jìnqù","to go in"],["了","le","(completed action)"],["，"],["同事","tóngshì","colleague"],["跟","gēn","to follow"],["在","zài","at"],["我","wǒ","I; me"],["后面","hòumiàn","behind"],["。"]],
+      "en": "I went in first, with my colleague right behind me."
+    }
+  ],
+  "vocab": [
+    ["你先","nǐ xiān","after you; you go first"],
+    ["同事","tóngshì","colleague"],
+    ["公司","gōngsī","company"],
+    ["门口","ménkǒu","entrance; doorway"],
+    ["着急","zháojí","in a hurry; anxious"],
+    ["进去","jìnqù","to go in"]
+  ],
+  "quiz": [
+    {"q":"What happens when the narrator and his colleague reach the door at the same time?","a":["Neither one goes in first","They both rush in together","They argue about who is late"],"c":0},
+    {"q":"What does the narrator say to let his colleague go first?","a":["谢谢 (thank you)","你先 (after you)","算了 (never mind)"],"c":1},
+    {"q":"What happens the next morning?","a":["They arrive at different times","The narrator refuses to enter","The colleague says 你先 to the narrator"],"c":2}
+  ],
+  "grammar": [
+    {"p":"你先 (after you)","e":"你先 politely lets someone go, take, or do something ahead of you — a small, everyday courtesy.","x":"你先，我不着急。— After you, I'm not in a hurry."},
+    {"p":"谁也不 + verb (nobody does...)","e":"谁也不 + verb stresses that not a single person acts — everyone is holding back at the same time.","x":"谁也不先进去。— Neither of us went in first."},
+    {"p":"你 V, 我 V (mirrored actions)","e":"Repeating the same verb with 你 and 我 in turn shows two people doing the same thing back and forth, often out of hesitation.","x":"你看看我，我看看你。— I looked at him, he looked at me."}
+  ]
+}

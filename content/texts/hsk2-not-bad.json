@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-not-bad",
+  "level": 2,
+  "title_zh": "还可以",
+  "title_py": "Hái kěyǐ",
+  "title_en": "Not Bad in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["周末", "zhōumò", "weekend"],["，"],["我", "wǒ", "I"],["和", "hé", "and"],["朋友", "péngyou", "friend"],["去", "qù", "to go"],["看", "kàn", "to watch"],["一个", "yí ge", "one (+ measure word)"],["新", "xīn", "new"],["电影", "diànyǐng", "movie"],["。"]],
+      "en": "On the weekend, my friend and I go watch a new movie."
+    },
+    {
+      "t": [["电影", "diànyǐng", "movie"],["看", "kàn", "to watch"],["完", "wán", "to finish"],["以后", "yǐhòu", "afterward"],["，"],["朋友", "péngyou", "friend"],["问", "wèn", "to ask"],["我", "wǒ", "me"],["："],["“"],["电影", "diànyǐng", "movie"],["怎么样", "zěnmeyàng", "how is it"],["？"],["”"]],
+      "en": "After the movie finishes, my friend asks me: \"How was the movie?\""
+    },
+    {
+      "t": [["我", "wǒ", "I"],["说", "shuō", "to say"],["："],["“"],["还可以", "hái kěyǐ", "not bad; OK"],["，"],["一般", "yìbān", "so-so; average"],["。"],["”"]],
+      "en": "I say: \"Not bad, average.\""
+    },
+    {
+      "t": [["朋友", "péngyou", "friend"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["也", "yě", "also"],["觉得", "juéde", "to feel; to think"],["还行", "hái xíng", "pretty good; not bad"],["，"],["可是", "kěshì", "but"],["有点儿", "yǒudiǎnr", "a little; somewhat"],["长", "cháng", "long"],["。"],["”"]],
+      "en": "My friend says: \"I think it's not bad too, but it's a little long.\""
+    },
+    {
+      "t": [["我们", "wǒmen", "we"],["从", "cóng", "from"],["电影院", "diànyǐngyuàn", "cinema"],["出来", "chūlái", "to come out"],["，"],["一起", "yìqǐ", "together"],["去", "qù", "to go"],["前面", "qiánmiàn", "ahead; in front"],["的", "de", "(possessive particle)"],["饭馆", "fànguǎn", "restaurant"],["吃饭", "chīfàn", "to eat a meal"],["。"]],
+      "en": "We come out of the cinema and go together to the restaurant up ahead to eat."
+    },
+    {
+      "t": [["服务员", "fúwùyuán", "waiter; waitress"],["问", "wèn", "to ask"],["："],["“"],["菜", "cài", "dish; food"],["怎么样", "zěnmeyàng", "how is it"],["？"],["”"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["说", "shuō", "to say"],["："],["“"],["还可以", "hái kěyǐ", "not bad; OK"],["！"],["”"]],
+      "en": "The waiter asks: \"How's the food?\" We both say together: \"Not bad!\""
+    }
+  ],
+  "vocab": [
+    ["还可以", "hái kěyǐ", "not bad; OK"],
+    ["还行", "hái xíng", "pretty good; not bad"],
+    ["一般", "yìbān", "so-so; average"],
+    ["电影院", "diànyǐngyuàn", "cinema"],
+    ["长", "cháng", "long"],
+    ["菜", "cài", "dish; food"]
+  ],
+  "quiz": [
+    {"q": "What does 还可以 mean here?", "a": ["Not bad, so-so", "Terrible", "Amazing"], "c": 0},
+    {"q": "What one complaint does the friend have about the movie?", "a": ["It was too expensive", "It was a little too long", "It was too boring"], "c": 1},
+    {"q": "Where do the two friends go after the movie?", "a": ["Home", "The mall", "A restaurant up ahead"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "还可以（not bad; OK）", "e": "还可以 gives a neutral answer to 怎么样 — not great, not bad, right in the middle.", "x": "还可以，一般。— Not bad, average."},
+    {"p": "还行（pretty good — spoken version of 还可以）", "e": "还行 is the casual, spoken way to say something is not bad, often followed by a small complaint with 可是.", "x": "我也觉得还行，可是有点儿长。— I think it's not bad too, but it's a little long."},
+    {"p": "A + 怎么样？（asking for an opinion）", "e": "怎么样 placed after a topic asks what someone thinks of it.", "x": "电影怎么样？— How was the movie?"}
+  ]
+}

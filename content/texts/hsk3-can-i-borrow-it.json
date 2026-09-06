@@ -1,0 +1,56 @@
+{
+  "slug": "hsk3-can-i-borrow-it",
+  "level": 3,
+  "title_zh": "借我用一下",
+  "title_py": "Jiè wǒ yòng yíxià",
+  "title_en": "Can I Borrow It in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["我","wǒ","I"],["的","de","(possessive particle)"],["手机","shǒujī","phone"],["快","kuài","soon; about to"],["没","méi","without; not"],["电","diàn","battery; electricity"],["了","le","(change of state)"],["，"],["可是","kěshì","but"],["找不到","zhǎobudào","can't find"],["充电器","chōngdiànqì","charger"],["。"]],
+      "en": "My phone is almost out of battery, but I can't find my charger."
+    },
+    {
+      "t": [["我","wǒ","I"],["问","wèn","to ask"],["同事","tóngshì","coworker"],["："],["“"],["你","nǐ","you"],["的","de","(possessive particle)"],["充电器","chōngdiànqì","charger"],["能","néng","can"],["借","jiè","to lend; to borrow"],["我","wǒ","me"],["用","yòng","to use"],["一下","yíxià","a little bit"],["吗","ma","(question particle)"],["？"],["”"]],
+      "en": "I asked my coworker: \"Can I borrow your charger for a bit?\""
+    },
+    {
+      "t": [["她","tā","she"],["说","shuō","to say"],["："],["“"],["当然","dāngrán","of course"],["可以","kěyǐ","can; may"],["，"],["给","gěi","to give"],["你","nǐ","you"],["。"],["”"]],
+      "en": "She said: \"Of course, here you go.\""
+    },
+    {
+      "t": [["我","wǒ","I"],["把","bǎ","(把-construction)"],["手机","shǒujī","phone"],["放","fàng","to put"],["在","zài","at"],["桌子","zhuōzi","table"],["上","shàng","on"],["，"],["坐","zuò","to sit"],["在","zài","at"],["她","tā","her"],["旁边","pángbiān","next to"],["等","děng","to wait"],["。"]],
+      "en": "I put my phone on the table and sat next to her to wait."
+    },
+    {
+      "t": [["半个小时","bàn ge xiǎoshí","half an hour"],["后","hòu","after"],["，"],["手机","shǒujī","phone"],["的","de","(possessive particle)"],["电","diàn","battery; electricity"],["够","gòu","enough"],["用","yòng","to use"],["了","le","(change of state)"],["。"]],
+      "en": "Half an hour later, the phone had enough battery."
+    },
+    {
+      "t": [["我","wǒ","I"],["把","bǎ","(把-construction)"],["充电器","chōngdiànqì","charger"],["还给","huángěi","to return to"],["她","tā","her"],["，"],["说","shuō","to say"],["："],["“"],["谢谢","xièxie","thank you"],["，"],["你","nǐ","you"],["帮","bāng","to help"],["了","le","(completed action)"],["我","wǒ","me"],["。"],["”"]],
+      "en": "I returned the charger to her and said: \"Thanks, you really helped me.\""
+    },
+    {
+      "t": [["她","tā","she"],["把","bǎ","(把-construction)"],["充电器","chōngdiànqì","charger"],["放","fàng","to put"],["进","jìn","into"],["包","bāo","bag"],["里","li","inside"],["，"],["然后","ránhòu","then"],["继续","jìxù","to continue"],["工作","gōngzuò","to work; work"],["。"]],
+      "en": "She put the charger back in her bag, then went on with her work."
+    }
+  ],
+  "vocab": [
+    ["充电器","chōngdiànqì","charger"],
+    ["借","jiè","to lend; to borrow"],
+    ["够","gòu","enough"],
+    ["还给","huángěi","to return (something) to"],
+    ["然后","ránhòu","then"],
+    ["继续","jìxù","to continue"]
+  ],
+  "quiz": [
+    {"q": "Why does the narrator ask to borrow something?", "a": ["The phone is almost out of battery", "The phone is broken", "The charger is broken"], "c": 0},
+    {"q": "What does 能...一下吗？ do in this text?", "a": ["Gives an order", "Makes a polite request", "Refuses a request"], "c": 1},
+    {"q": "What does the coworker do after getting the charger back?", "a": ["She leaves the office", "She charges her own phone", "She goes back to her work"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "能 + verb + 一下 + 吗？（polite request）", "e": "Adding 一下 after a verb softens the request, and 能...吗 asks politely whether something is possible.", "x": "你的充电器能借我用一下吗？— Can I borrow your charger for a bit?"},
+    {"p": "把 + object + verb（the 把-construction）", "e": "把 moves the object in front of the verb to stress what happens to it.", "x": "我把充电器还给她。— I returned the charger to her."},
+    {"p": "够 + verb（enough to）", "e": "够 before a verb shows there's now enough of something to do that action.", "x": "手机的电够用了。— The phone has enough battery now."}
+  ]
+}

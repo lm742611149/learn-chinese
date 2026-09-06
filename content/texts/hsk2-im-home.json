@@ -1,0 +1,52 @@
+{
+  "slug": "hsk2-im-home",
+  "level": 2,
+  "title_zh": "我回来了",
+  "title_py": "Wǒ huílai le",
+  "title_en": "I Am Home in Chinese",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [["下午", "xiàwǔ", "afternoon"],["五", "wǔ", "five"],["点", "diǎn", "o'clock"],["，"],["我", "wǒ", "I"],["放学", "fàngxué", "to finish school"],["回家", "huíjiā", "to go home"],["，"],["走", "zǒu", "to walk"],["到", "dào", "to arrive"],["门口", "ménkǒu", "doorway"],["。"]],
+      "en": "At five in the afternoon, I finished school and headed home, walking to the door."
+    },
+    {
+      "t": [["我", "wǒ", "I"],["到", "dào", "to arrive"],["家", "jiā", "home"],["，"],["说", "shuō", "to say"],["："],["“"],["妈妈", "māma", "mom"],["，"],["我", "wǒ", "I"],["回来", "huílai", "to come back"],["了", "le", "(change of state)"],["！"],["”"]],
+      "en": "I arrived home and said: \"Mom, I'm back!\""
+    },
+    {
+      "t": [["妈妈", "māma", "mom"],["正在", "zhèngzài", "in the process of"],["做饭", "zuòfàn", "to cook"],["，"],["她", "tā", "she"],["说", "shuō", "to say"],["："],["“"],["回来", "huílai", "to come back"],["了", "le", "(change of state)"],["，"],["快", "kuài", "quickly"],["来", "lái", "to come"],["吃饭", "chīfàn", "to eat a meal"],["。"],["”"]],
+      "en": "Mom was cooking, and she said: \"You're back, come eat.\""
+    },
+    {
+      "t": [["过", "guò", "to pass"],["了", "le", "(completed action)"],["一会儿", "yíhuìr", "a little while"],["，"],["爸爸", "bàba", "dad"],["也", "yě", "also"],["下班", "xiàbān", "to get off work"],["回来", "huílai", "to come back"],["了", "le", "(completed action)"],["，"],["他", "tā", "he"],["说", "shuō", "to say"],["："],["“"],["我", "wǒ", "I"],["回来", "huílai", "to come back"],["了", "le", "(change of state)"],["，"],["今天", "jīntiān", "today"],["很", "hěn", "very"],["忙", "máng", "busy"],["。"],["”"]],
+      "en": "After a while, Dad also got off work and came home, and he said: \"I'm back, today was busy.\""
+    },
+    {
+      "t": [["妈妈", "māma", "mom"],["说", "shuō", "to say"],["："],["“"],["你们", "nǐmen", "you (plural)"],["都", "dōu", "all"],["回来", "huílai", "to come back"],["了", "le", "(change of state)"],["，"],["我们", "wǒmen", "we"],["一起", "yìqǐ", "together"],["吃饭", "chīfàn", "to eat a meal"],["吧", "ba", "(suggestion particle)"],["。"],["”"]],
+      "en": "Mom said: \"You're both back, let's eat together.\""
+    },
+    {
+      "t": [["桌子", "zhuōzi", "table"],["上", "shàng", "on"],["有", "yǒu", "there is"],["鱼", "yú", "fish"],["，"],["我们", "wǒmen", "we"],["三", "sān", "three"],["个", "gè", "(measure word)"],["人", "rén", "people"],["坐下", "zuòxià", "to sit down"],["，"],["一起", "yìqǐ", "together"],["吃饭", "chīfàn", "to eat a meal"],["。"]],
+      "en": "There was fish on the table, and the three of us sat down and ate together."
+    }
+  ],
+  "vocab": [
+    ["回来", "huílai", "to come back"],
+    ["放学", "fàngxué", "to finish school"],
+    ["下班", "xiàbān", "to get off work"],
+    ["做饭", "zuòfàn", "to cook"],
+    ["一会儿", "yíhuìr", "a little while"],
+    ["门口", "ménkǒu", "doorway"]
+  ],
+  "quiz": [
+    {"q": "What does the writer say when she gets home?", "a": ["“妈妈，我回来了！”", "“妈妈，我饿了。”", "“妈妈，再见！”"], "c": 0},
+    {"q": "What is mom doing when the writer arrives?", "a": ["Watching TV", "Cooking", "Doing homework"], "c": 1},
+    {"q": "Who else comes home later in the story?", "a": ["The older sister", "A neighbor", "Dad"], "c": 2}
+  ],
+  "grammar": [
+    {"p": "回来了（I'm back / you're back）", "e": "回来了 announces that someone has returned, and is also how you greet them when they walk in.", "x": "妈妈，我回来了！— Mom, I'm back!"},
+    {"p": "过了 + 时间（after a period of time）", "e": "过了 followed by a length of time shows how much time passed before the next thing happened.", "x": "过了一会儿，爸爸也下班回来了。— After a while, Dad also got off work and came home."},
+    {"p": "都（all; both）", "e": "都 sums up everyone or everything just mentioned before it.", "x": "你们都回来了，我们一起吃饭吧。— You're both back, let's eat together."}
+  ]
+}
