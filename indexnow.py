@@ -12,7 +12,13 @@
 密钥在 .indexnow-key,对应的凭证文件 <key>.txt 在仓库根,build.py 会拷进 docs/ 根,
 Bing 会去 https://readmandarin.com/<key>.txt 校验所有权。
 """
-import json, os, sys, time, urllib.request, re
+import json, os, ssl, sys, time, urllib.request, re
+
+try:                      # 本机 Python 缺根证书,与 get_strokes.py 同款处理
+    import certifi
+    SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL_CTX = ssl._create_unverified_context()
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 HOST = "readmandarin.com"
@@ -48,7 +54,7 @@ def push(urls, key, dry=False):
         req = urllib.request.Request(ENDPOINT, data=body,
                                      headers={"Content-Type": "application/json; charset=utf-8"})
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=30, context=SSL_CTX) as r:
                 # 200/202 都算成功;202 = 已收下,待校验 key
                 print("推送 %d 条 -> HTTP %d %s" % (len(chunk), r.status, r.reason))
         except urllib.error.HTTPError as e:
