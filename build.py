@@ -1273,6 +1273,10 @@ def main():
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
     for f in ("manifest.webmanifest", "sw.js"):
         shutil.copy(os.path.join(ROOT, f), os.path.join(OUT, f))
+    # IndexNow 的所有权凭证:必须能从站点根访问到 https://<domain>/<key>.txt
+    for f in os.listdir(ROOT):
+        if f.endswith(".txt") and len(f) == 36 and f[:-4].isalnum():
+            shutil.copy(os.path.join(ROOT, f), os.path.join(OUT, f))
     by_level = {}
     for t in sorted(texts, key=lambda x: x["slug"]):
         by_level.setdefault(t["level"], []).append(t)
