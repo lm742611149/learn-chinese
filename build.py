@@ -254,6 +254,9 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
                f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
                f'<script type="module" src="{rel}assets/auth.js"></script>'
                if fb else "")
+    verify = "\n".join(
+        f'<meta name="{"p:domain_verify" if k == "pinterest" else k}" content="{esc(v)}">'
+        for k, v in (SITE.get("site_verification") or {}).items() if v)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -262,6 +265,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+{verify}
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 {seo}

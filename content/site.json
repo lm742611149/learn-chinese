@@ -6,6 +6,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=100006893415469",
   "preply_url": "https://preply.com/en/tutor/6593385",
   "newsletter_url": "",
+  "site_verification": {
+    "pinterest": "dde054ea7fd1e1feb418b97a6dad06db"
+  },
   "analytics_snippet": "<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{\"token\": \"fd019fce8f48488e97a28e32c1a88dcd\"}'></script>",
   "firebase": {
     "apiKey": "AIzaSyDJRiydhwUk2z73o-wWw8A4m4Ve-mria34",
