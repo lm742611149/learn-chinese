@@ -9,5 +9,9 @@ video/*/*
 !video/*/shots.json
 !video/*/storyboard.md
 !video/*/shoot-list.md
+# 正片课文清单是输入不是产物，要进库；成片/章节/录音都是产物
+!video/episodes/*.txt
 __pycache__/
 .DS_Store
+# 外链物料是产物，不进库（脚本 + OUTREACH.md 进）
+dist/
