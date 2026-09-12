@@ -43,10 +43,18 @@ def pin(t, path):
     im.save(path, quality=92)
 
 if __name__ == "__main__":
-    lv = sys.argv[1] if len(sys.argv) > 1 else None
-    n = int(sys.argv[2]) if len(sys.argv) > 2 else 5
+    args = sys.argv[1:]
+    picks = None
+    if args and args[0] == "--slugs":     # 指定课文: gen_pins.py --slugs hsk1-i-love-you ...
+        picks, args = args[1:], []
+    lv = args[0] if args else None
+    n = int(args[1]) if len(args) > 1 else 5
     texts = [json.load(open(p)) for p in sorted(glob.glob("content/texts/*.json"))]
-    if lv:
+    if picks:
+        order = {p: i for i, p in enumerate(picks)}
+        texts = sorted((t for t in texts if t["slug"] in picks),
+                       key=lambda t: order[t["slug"]])
+    elif lv:
         texts = [t for t in texts if t["slug"].startswith(lv)][:n]
     else:
         texts = [t for l in range(1, 7)
