@@ -1,0 +1,230 @@
+{
+  "_note": "按功能给核心语法点分类。key 是 build.py 里 gram_key() 归一化后的形式，同一语法点的不同写法(一边……一边…… / 一边 A，一边 B)会归到同一个 key。人工定稿，宁缺毋滥——没收进来的语法点仍然在 grammar-hskN 页面里。",
+  "topics": [
+    {
+      "id": "cause",
+      "title": "How to say because, so and therefore in Chinese",
+      "blurb": "Chinese states cause and result with paired connectors, and unlike English it usually keeps both halves of the pair.",
+      "keys": [
+        "因为所以",
+        "之所以是因为",
+        "所以",
+        "于是",
+        "不在于而在于",
+        "关键在于",
+        "在于",
+        "随着"
+      ]
+    },
+    {
+      "id": "contrast",
+      "title": "How to say but, although and however in Chinese",
+      "blurb": "Where English drops one half (\"although it hurt, I went\"), Chinese normally keeps both: 虽然 … 但是 ….",
+      "keys": [
+        "虽然但是",
+        "却",
+        "反而",
+        "固然但",
+        "即使也",
+        "哪怕也",
+        "看起来其实",
+        "原来",
+        "竟然",
+        "不是而是",
+        "并非而是",
+        "并不是而是",
+        "与其不如",
+        "与其说不如说",
+        "则"
+      ]
+    },
+    {
+      "id": "condition",
+      "title": "How to say if, only if and no matter what in Chinese",
+      "blurb": "Conditions in Chinese come as pairs too: the condition word opens the first clause, and 就 or 才 or 都 answers it in the second.",
+      "keys": [
+        "如果就",
+        "只要就",
+        "只有才",
+        "一旦就",
+        "无论都",
+        "不管都",
+        "凡是都",
+        "每都",
+        "谁谁就",
+        "再也",
+        "未必"
+      ]
+    },
+    {
+      "id": "addition",
+      "title": "How to say both, also and not only in Chinese",
+      "blurb": "Adding a second thing usually needs a marker before the verb — 也, 又, 都 — not just a comma.",
+      "keys": [
+        "一边一边",
+        "又又",
+        "既也",
+        "既又",
+        "不仅而且",
+        "不但而且",
+        "不仅更",
+        "不仅也",
+        "不仅还",
+        "一方面另一方面",
+        "与此同时",
+        "也",
+        "都",
+        "连都",
+        "甚至",
+        "又v"
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "How to say first, then and when in Chinese",
+      "blurb": "Chinese puts time in order of what happened first, and marks the sequence explicitly with 先, 然后, 一…就.",
+      "keys": [
+        "先然后",
+        "先再",
+        "一就",
+        "以后就",
+        "的时候",
+        "从到",
+        "从开始",
+        "number点"
+      ]
+    },
+    {
+      "id": "aspect",
+      "title": "了, 着 and 过: talking about completed and ongoing actions",
+      "blurb": "Chinese has no verb tenses. These particles mark whether an action is finished, still going, or has been experienced.",
+      "keys": [
+        "了",
+        "v了",
+        "v了duration",
+        "v了v",
+        "已经了",
+        "就要了",
+        "要了",
+        "v着",
+        "正在v",
+        "还没v",
+        "是的"
+      ]
+    },
+    {
+      "id": "complement",
+      "title": "Chinese complements: saying how well and with what result",
+      "blurb": "A complement rides behind the verb to say how the action turned out — how well, how much, whether it worked at all.",
+      "keys": [
+        "v得adj",
+        "v得comp",
+        "adj得comp",
+        "v完",
+        "听不懂"
+      ]
+    },
+    {
+      "id": "ba-bei",
+      "title": "把 and 被: doing something to an object",
+      "blurb": "把 moves the object in front of the verb to stress what happens to it; 被 flips it round to say who it happened to.",
+      "keys": [
+        "把objectv",
+        "把",
+        "把当成",
+        "把objectvcomp",
+        "把objectvresult",
+        "被视为",
+        "让",
+        "让sbv"
+      ]
+    },
+    {
+      "id": "describe",
+      "title": "Describing things in Chinese: 很, 太 and degree",
+      "blurb": "Chinese adjectives work as verbs — you don't need 是. But a bare adjective sounds like a comparison, so a degree word comes along.",
+      "keys": [
+        "很adj",
+        "太adj了",
+        "有点儿adj",
+        "adj极了",
+        "不太adj",
+        "adj一点儿",
+        "adj多了",
+        "adj地v",
+        "越来越adj",
+        "越来越",
+        "越越"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "How to compare two things in Chinese",
+      "blurb": "比 does the work that -er and more do in English, and the adjective never changes form.",
+      "keys": [
+        "比adj",
+        "更adj",
+        "比adj多了",
+        "像一样",
+        "离近/远"
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "How to ask questions in Chinese",
+      "blurb": "Chinese doesn't reorder the sentence to ask something. You add 吗, repeat the verb, or drop in a question word where the answer would go.",
+      "keys": [
+        "多少钱",
+        "可以v吗",
+        "怎么样",
+        "难道吗",
+        "好吗",
+        "几点"
+      ]
+    },
+    {
+      "id": "modal",
+      "title": "Want to, can, should: Chinese modal verbs",
+      "blurb": "会, 能 and 可以 all become \"can\" in English but mean different things — learned skill, physical ability, permission.",
+      "keys": [
+        "会v",
+        "想v",
+        "不得不",
+        "不用",
+        "希望clause"
+      ]
+    },
+    {
+      "id": "place",
+      "title": "Saying where something is and what there is",
+      "blurb": "在 marks location and comes before the verb, not after it — the opposite of English word order.",
+      "keys": [
+        "在placev",
+        "在place",
+        "在v",
+        "住在place",
+        "有",
+        "是",
+        "的"
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "Being polite in Chinese: 请, 吧 and softening",
+      "blurb": "Chinese softens requests with particles and set phrases rather than with conditional verb forms.",
+      "keys": [
+        "请v",
+        "别v",
+        "别了",
+        "不妨v",
+        "吧",
+        "对sb说",
+        "没事",
+        "没关系",
+        "不客气",
+        "一起v",
+        "多v"
+      ]
+    }
+  ]
+}

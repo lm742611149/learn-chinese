@@ -278,6 +278,8 @@ a { color: var(--red); text-decoration: none; }
 .badge.l1 { background: var(--lvl1); } .badge.l2 { background: var(--lvl2); }
 .badge.l3 { background: var(--lvl3); } .badge.l4 { background: var(--lvl4); }
 .badge.l5 { background: var(--lvl5); } .badge.l6 { background: var(--lvl6); }
+/* 主题页的语法条目会带 HSK 标签,按级别页不带,所以边距只在这儿加 */
+.gp .badge { margin-left: 8px; vertical-align: 2px; }
 
 /* ---------- reader ---------- */
 .reader-banner { position: relative; overflow: hidden; margin-top: 14px;

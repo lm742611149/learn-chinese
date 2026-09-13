@@ -10,6 +10,7 @@ Deploy = GitHub Pages serving the docs/ folder.
 import html
 import json
 import os
+import re
 import shutil
 import time
 
@@ -996,6 +997,9 @@ def build_grammar_index(gram):
     <p>This is not a reference grammar. Every pattern here earned its place by
       turning up in a real text, and every entry links back to the reading it
       appeared in — so you can see it working before you try to use it.</p>
+    <p>Looking for a particular kind of sentence rather than a level?
+      <a href="grammar-topics.html">Browse grammar by topic</a> — if, but, because,
+      questions, comparisons, 把 and 被.</p>
   </section>
   {sec_chips(0, "grammar-hsk", "grammar.html")}
   <section class="lvlgrid">{cards}</section>"""
@@ -1032,6 +1036,115 @@ def build_grammar_level(gram, lvl):
                 f"All {len(mine)} HSK {lvl} Chinese grammar patterns explained in English, "
                 f"each with a real example sentence from a free graded reading.",
                 body, path=f"grammar-hsk{lvl}")
+
+
+def gram_key(pat):
+    """把同一个语法点的不同写法归成一个 key。
+    「一边……一边……」「一边 A，一边 B」「一边…，一边…」都是同一件事,
+    不归一化的话它们会在页面上占三行。"""
+    s = re.split(r"\s+[\u2014\u2013-]\s+", pat)[0]
+    s = re.split(r"[\uff08(]", s)[0].strip().lower()
+    s = re.sub(r"verb|\u52a8\u8bcd", "v", s)
+    s = re.sub(r"adjective|adj\.?|\u5f62\u5bb9\u8bcd", "adj", s)
+    s = re.sub(r"noun|\u540d\u8bcd", "n", s)
+    s = re.sub(r"\bsb\b|\bperson\b|someone", "sb", s)
+    s = re.sub(r"complement|\u8865\u8bed", "comp", s)
+    s = re.sub(r"[\u2026.]{2,}|[\u2026]", "", s)
+    s = re.sub(r"(?<![a-z])[ab](?![a-z])", "", s)
+    return re.sub(r"[,\uff0c\u3001\uff1f?\u3002\uff01!+\s]", "", s)
+
+
+def collect_topics(texts, cfg):
+    """按功能给核心语法点分组。key->topic 的映射是 content/grammar-topics.json
+    里人工定稿的白名单 —— 正则自动分类会把「太…了」判成完成体的「了」、
+    把「谁……都不」判成疑问句,在教中文的站上这种错很难看。
+    没收进白名单的语法点不会丢,它们仍然在 grammar-hskN 页面里。"""
+    key2topic = {k: t["id"] for t in cfg["topics"] for k in t["keys"]}
+    buckets = {t["id"]: {} for t in cfg["topics"]}
+    for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
+        for g in t.get("grammar", []):
+            pat = (g.get("p") or "").strip()
+            if not pat:
+                continue
+            k = gram_key(pat)
+            tid = key2topic.get(k)
+            if not tid:
+                continue
+            e = buckets[tid].setdefault(k, {"pat": pat, "e": "", "x": "",
+                                            "lvl": t["level"], "srcs": []})
+            if not e["e"]:
+                e["e"] = g.get("e", "")
+            if not e["x"]:
+                e["x"] = g.get("x", "")
+            if t["level"] < e["lvl"]:
+                e["lvl"] = t["level"]
+                e["pat"] = pat
+            e["srcs"].append((t["slug"], t["title_zh"], t["title_en"]))
+    return buckets
+
+
+def build_topic_index(cfg, buckets):
+    live = [t for t in cfg["topics"] if buckets[t["id"]]]
+    total = sum(len(buckets[t["id"]]) for t in live)
+    items = "".join(
+        f'<div class="gitem">'
+        f'<div class="gp"><a href="grammar-{t["id"]}.html">{esc(t["title"])}</a></div>'
+        f'<p>{esc(t["blurb"])}</p>'
+        f'<div class="g-src">{len(buckets[t["id"]])} patterns &middot; '
+        f'<a href="grammar-{t["id"]}.html">open</a></div></div>'
+        for t in live)
+    body = f"""
+  <section class="about">
+    <h1>Chinese Grammar by Topic
+      <span style="font-family:var(--serif);color:var(--red)">\u6309\u7c7b\u578b</span></h1>
+    <p>The same {total} core grammar patterns as the HSK pages, but grouped by what
+      you are trying to say rather than by which exam level introduces them. If you
+      want to know how Chinese handles <em>if</em>, or <em>but</em>, or asking a
+      question, start here.</p>
+    <p>Every pattern is explained in English and linked to the reading it came from,
+      so you can see it working in a real sentence before you try to use it. Browsing
+      by level instead? <a href="grammar.html">Grammar by HSK level</a>.</p>
+  </section>
+  <div class="gwrap">{items}</div>"""
+    return page(
+        f"Chinese Grammar by Topic \u2014 {len(live)} Ways to Say What You Mean | {SITE['site_name']}",
+        "Chinese grammar grouped by what you want to say: if, but, because, "
+        "questions, comparisons, \u628a and \u88ab. Each pattern explained in English "
+        "with a real example sentence.",
+        body, path="grammar-topics")
+
+
+def build_topic_page(topic, entries):
+    ks = sorted(entries, key=lambda k: (entries[k]["lvl"], -len(entries[k]["srcs"])))
+    items = "".join(gram_item(entries[k]["pat"], entries[k], show_lvl=True) for k in ks)
+    lvls = sorted({entries[k]["lvl"] for k in ks})
+    span = (f"HSK {lvls[0]}" if len(lvls) == 1
+            else f"HSK {lvls[0]}\u2013{lvls[-1]}")
+    body = f"""
+  <article>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvls[0]]}" data-char="\u6cd5">
+      <span class="feat-tag">Grammar by topic</span>
+      <h1>{esc(topic['title'])}</h1>
+      <div class="b-en">{esc(topic['blurb'])}</div>
+    </div>
+    <div class="gwrap">{items}</div>
+    <section class="lvl-intro">
+      <h2>How to use this page</h2>
+      <p>These {len(ks)} patterns all do the same job in Chinese, so they are worth
+        seeing side by side \u2014 the differences between them are easier to feel
+        when they are next to each other than when they are spread across six
+        HSK levels. They range from {span}.</p>
+      <p class="lvl-how"><strong>Grammar sticks through reading, not through lists.</strong>
+        Each entry links to the reading it was taken from. Skim the page, then go read
+        one of them and come back when a sentence stops making sense.</p>
+      <p><a href="grammar-topics.html">\u2190 All grammar topics</a>
+        &middot; <a href="grammar.html">Grammar by HSK level</a></p>
+    </section>
+  </article>"""
+    return page(f"{topic['title']} | {SITE['site_name']}",
+                topic["blurb"] + f" {len(ks)} patterns, each with a real example "
+                "sentence from a free graded reading.",
+                body, path=f"grammar-{topic['id']}")
 
 
 def gated(inner, title_zh, blurb):
@@ -1273,6 +1386,18 @@ def main():
     for lvl in range(1, 7):
         open(os.path.join(OUT, f"grammar-hsk{lvl}.html"), "w",
              encoding="utf-8").write(build_grammar_level(gram, lvl))
+    # 按功能分类的语法索引:同一批语法点,换成"你想说什么"的切法
+    tcfg, tlive = None, []
+    tpath = os.path.join(ROOT, "content", "grammar-topics.json")
+    if os.path.exists(tpath):
+        tcfg = json.load(open(tpath, encoding="utf-8"))
+        tbuckets = collect_topics(texts, tcfg)
+        tlive = [t for t in tcfg["topics"] if tbuckets[t["id"]]]
+        open(os.path.join(OUT, "grammar-topics.html"), "w", encoding="utf-8").write(
+            build_topic_index(tcfg, tbuckets))
+        for t in tlive:
+            open(os.path.join(OUT, f'grammar-{t["id"]}.html'), "w",
+                 encoding="utf-8").write(build_topic_page(t, tbuckets[t["id"]]))
     open(os.path.join(OUT, "wordbook.html"), "w", encoding="utf-8").write(build_wordbook())
     open(os.path.join(OUT, "progress.html"), "w", encoding="utf-8").write(build_progress(texts))
     for f in ("manifest.webmanifest", "sw.js"):
@@ -1310,6 +1435,9 @@ def main():
         for lvl in range(1, 7):
             urls.append((f"words-hsk{lvl}", "0.6", newest))
             urls.append((f"grammar-hsk{lvl}", "0.6", newest))
+        if tlive:
+            urls.append(("grammar-topics", "0.7", newest))
+            urls += [(f'grammar-{t["id"]}', "0.6", newest) for t in tlive]
         for lvl in range(1, 7):
             lv_ts = [t["_mtime"] for t in texts if t["level"] == lvl]
             urls.append((f"hsk{lvl}", "0.8", max(lv_ts) if lv_ts else newest))
