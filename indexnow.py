@@ -7,6 +7,7 @@
 
     python3 indexnow.py            # 推送 sitemap 里的全部 URL
     python3 indexnow.py --since 2  # 只推送最近 2 天改过的课文(增量,日常用这个)
+    python3 indexnow.py --match grammar-   # 只推 sitemap 里含该子串的 URL(新增非课文页用)
     python3 indexnow.py --dry      # 只打印不发送
 
 密钥在 .indexnow-key,对应的凭证文件 <key>.txt 在仓库根,build.py 会拷进 docs/ 根,
@@ -71,7 +72,12 @@ def main():
 
     args = sys.argv[1:]
     dry = "--dry" in args
-    if "--since" in args:
+    if "--match" in args:
+        # 新增的不是课文时用这个(比如 grammar-* 那批主题页),从 sitemap 里按子串筛
+        sub = args[args.index("--match") + 1]
+        urls = [u for u in urls_from_sitemap() if sub in u]
+        print("sitemap 中匹配 %r: %d 条" % (sub, len(urls)))
+    elif "--since" in args:
         days = float(args[args.index("--since") + 1])
         urls = recent_urls(days)
         print("最近 %g 天改动的课文: %d 条" % (days, len(urls)))
