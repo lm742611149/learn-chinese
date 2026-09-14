@@ -388,6 +388,38 @@ def reader_desc(t, limit=158):
     return body + tail
 
 
+def tutor_poster(rel="", eyebrow=None, title=None, tone="", slot=""):
+    """Preply 海报位 —— 首页顶部 / 首页 FAQ 前 / 课文页生词表前共用。
+    rel 是该页到站根的相对前缀(课文页是 "../")。标题用 span 而不是 h2,
+    广告不该进页面的标题大纲。"""
+    st = SITE.get("teacher_stats") or {}
+    name = esc(SITE["teacher_name"])
+    bits = []
+    if st.get("rating"):
+        bits.append(f'<span class="tp-rate">\u2605 {esc(str(st["rating"]))}</span>')
+    if st.get("lessons"):
+        bits.append(f'<span>{esc(str(st["lessons"]))} lessons taught</span>')
+    if st.get("reviews"):
+        bits.append(f'<span>{esc(str(st["reviews"]))} student reviews</span>')
+    eyebrow = eyebrow or "One-on-one lessons \u00b7 Preply"
+    title = title or f'Learn Mandarin with <span class="tp-name">{name}</span>'
+    stats = "".join(bits)
+    cls = "tutor-poster" + (f" {tone}" if tone else "")
+    return f"""  <aside class="{cls}" data-slot="{slot}">
+    <a class="tp-link" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">
+      <img class="tp-photo" src="{rel}assets/teacher.jpg"
+           alt="{name} \u2014 Mandarin teacher"
+           width="112" height="112" loading="lazy" decoding="async">
+      <div class="tp-body">
+        <span class="tp-eyebrow">{esc(eyebrow)}</span>
+        <div class="tp-title">{title}</div>
+        <div class="tp-stats">{stats}</div>
+      </div>
+      <span class="tp-btn">Book a trial lesson <span class="tp-arrow">\u2192</span></span>
+    </a>
+  </aside>"""
+
+
 def build_reader(t, next_t=None, related=None):
     n_words = sum(len(s["t"]) for s in t["sentences"])
     minutes = max(1, round(n_words / 60))
@@ -461,25 +493,18 @@ def build_reader(t, next_t=None, related=None):
       <div class="caption">🔊 Audio uses your device's Chinese voice for now —
         teacher recordings are coming. Tap any word to see its meaning.</div>
     </div>
+{tutor_poster(rel='../', eyebrow='After this reading · Preply',
+                 title='Turn this text into a <span class="tp-name">conversation</span>',
+                 tone='tp-level', slot='reader-top')}
     <section class="vocab">
       <h2>Key words <span class="zh">生词</span></h2>
       <div class="vgrid">{vocab_rows}</div>
     </section>
 {grammar_html}
 {quiz_html}
-    <section class="book-cta">
-      <img class="bc-photo" src="../assets/teacher.jpg"
-           alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
-           width="88" height="88" loading="lazy" decoding="async">
-      <div class="bc-body">
-        <div class="bc-eyebrow">After this reading</div>
-        <h2>Reading is the easy part. Speaking is where you get stuck.</h2>
-        <p>I'm {esc(SITE['teacher_name'])}, and I teach Mandarin one-on-one on Preply.
-          Bring this text to a trial lesson — we'll fix your tones and turn it
-          into a real conversation.</p>
-        <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
-      </div>
-    </section>
+{tutor_poster(rel='../', eyebrow='Before you go · Preply',
+                 title='Ready to <span class="tp-name">speak</span> what you just read?',
+                 tone='tp-gold', slot='reader-bottom')}
 {related_sec}
     <div class="reader-foot">
       <a class="tbtn" href="../hsk{t['level']}.html">← HSK {t['level']} readings</a>
@@ -617,6 +642,7 @@ def build_index(texts):
     </div>
     <div class="dots" id="hero-dots">{dots}</div>
   </section>
+{tutor_poster(slot='home-top')}
   <div class="searchbar"><input type="search" id="search"
     placeholder="Search all readings — 汉字 / pinyin / English…" autocomplete="off"></div>
   <section class="today-wrap" id="today-wrap" hidden>
@@ -659,27 +685,17 @@ def build_index(texts):
       </li>
     </ol>
   </section>
+{tutor_poster(eyebrow='After the readings · Preply',
+                 title='Speaking is where you get <span class="tp-name">stuck</span>',
+                 tone='tp-gold', slot='home-faq')}
   <section class="faq" id="home-faq">
     <h2 class="home-h">Common questions <span class="zh">常见问题</span></h2>
     <div class="faq-grid">{faq_html}
     </div>
   </section>
   <script type="application/ld+json">{faq_ld}</script>
-  <section class="book-cta">
-    <img class="bc-photo" src="assets/teacher.jpg"
-         alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
-         width="88" height="88" loading="lazy" decoding="async">
-    <div class="bc-body">
-      <div class="bc-eyebrow">Your teacher</div>
-      <h2>I wrote all {len(texts)} readings on this site</h2>
-      <p>你好! I'm {esc(SITE['teacher_name'])}. {esc(SITE['teacher_bio'])}</p>
-      <a class="bc-btn" href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a trial lesson →</a>
-      <a class="bc-alt" href="about.html">More about me →</a>
-    </div>
-  </section>
   <script>window.RCD_LEVELS={json.dumps(levels_map)};</script>"""
     base = (SITE.get("canonical_url") or "").rstrip("/")
-    st = SITE.get("teacher_stats") or {}
     person = {
         "@context": "https://schema.org",
         "@type": "Person",

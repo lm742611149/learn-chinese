@@ -202,6 +202,119 @@ a { color: var(--red); text-decoration: none; }
   background: rgba(255,255,255,.35); cursor: pointer; transition: all .25s; }
 .dot.on { background: #fff; width: 20px; }
 
+/* ---------- tutor poster (home: paid lessons, right under the hero) ----------
+   海报式广告位 —— 暖红渐变,和上面深棕 hero 拉开色差,白底按钮做主视觉锚点 */
+.tutor-poster { --tp: #e0522a; margin: 18px 0 4px; }
+.tutor-poster.tp-gold { --tp: #b8801f; }
+/* 课文页跟随该篇的 HSK 等级色(--sc 挂在 article 上),六个级别六种底 */
+.tutor-poster.tp-level { --tp: color-mix(in srgb, var(--sc, #e0522a) 82%, #ff8a3a); }
+.tp-link {
+  position: relative; overflow: hidden;
+  display: flex; align-items: center; gap: 22px;
+  padding: 20px 24px; border-radius: 14px;
+  background:
+    radial-gradient(115% 150% at 6% 0%, rgba(255,235,180,.42) 0%, rgba(255,235,180,0) 58%),
+    linear-gradient(122deg,
+      color-mix(in srgb, var(--tp) 74%, #4a1c0d) 0%,
+      var(--tp) 46%,
+      color-mix(in srgb, var(--tp) 58%, #ffc165) 100%);
+  border: 1px solid rgba(255,255,255,.16);
+  box-shadow: 0 14px 32px rgba(60,35,20,.26);
+  transition: transform .18s, box-shadow .18s;
+}
+.tp-link:hover { transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(60,35,20,.34); }
+.tp-link::after {
+  content: "\8bf4"; position: absolute; right: 26%; bottom: -46px;
+  font-family: var(--serif); font-size: 8rem; font-weight: 900;
+  color: #fff; opacity: .08; line-height: 1;
+  pointer-events: none; user-select: none;
+}
+.tp-photo {
+  width: 112px; height: 112px; flex: none;
+  border-radius: 12px; object-fit: cover;
+  box-shadow: 0 0 0 3px rgba(255,255,255,.92), 0 0 0 6px rgba(226,169,61,.55),
+    0 10px 22px rgba(60,18,12,.35);
+}
+.tp-body { position: relative; z-index: 1; flex: 1; min-width: 0; }
+.tp-eyebrow {
+  display: inline-block; font-size: .67rem; font-weight: 800;
+  letter-spacing: .13em; text-transform: uppercase; color: #fff;
+  background: rgba(255,255,255,.18); border-radius: 999px; padding: 4px 12px;
+}
+.tp-title {
+  display: block; font-family: var(--serif); font-weight: 800; color: #fff;
+  font-size: clamp(1.25rem, 3.4vw, 1.78rem); line-height: 1.26; margin: 10px 0 0;
+  text-shadow: 0 2px 10px rgba(70,18,10,.28);
+}
+.tp-name { color: #ffdf8e; }
+.tp-stats {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px;
+  margin-top: 9px; font-size: .84rem; font-weight: 650;
+  color: rgba(255,255,255,.9);
+}
+.tp-rate { color: #ffe08a; font-weight: 800; }
+.tp-btn {
+  flex: none; position: relative; z-index: 1;
+  padding: 13px 24px; border-radius: 9px;
+  background: #fff; color: color-mix(in srgb, var(--tp) 62%, #24100a);
+  font-weight: 800; font-size: .95rem; white-space: nowrap;
+  box-shadow: 0 8px 20px rgba(60,18,12,.28);
+}
+.tp-link:hover .tp-btn { background: #fff7ec; }
+/* ---------- 海报动画 ----------
+   1) 进场:滚进视口浮现(JS 加 .tp-in);2) 高光每隔几秒扫过一次;
+   3) 按钮呼吸光环 + 箭头跟手。全部在 reduced-motion 下关掉。 */
+.tutor-poster.tp-armed .tp-link {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity .55s ease, transform .55s cubic-bezier(.2,.7,.3,1),
+    box-shadow .18s;
+}
+.tutor-poster.tp-armed.tp-in .tp-link { opacity: 1; transform: none; }
+.tutor-poster.tp-armed.tp-in .tp-link:hover { transform: translateY(-3px); }
+/* 斜向高光条 —— 盖在渐变上扫过,不影响文字 */
+.tp-link::before {
+  content: ""; position: absolute; top: -60%; bottom: -60%;
+  left: -40%; width: 26%; z-index: 0; pointer-events: none;
+  background: linear-gradient(100deg, rgba(255,255,255,0) 0%,
+    rgba(255,255,255,.5) 50%, rgba(255,255,255,0) 100%);
+  filter: blur(7px); transform: skewX(-14deg) translateX(0);
+}
+.tutor-poster.tp-in .tp-link::before { animation: tp-sweep 5.6s ease-in-out 1s infinite; }
+@keyframes tp-sweep {
+  0%   { transform: skewX(-14deg) translateX(0); opacity: 0; }
+  8%   { opacity: 1; }
+  38%  { transform: skewX(-14deg) translateX(360%); opacity: 0; }
+  100% { transform: skewX(-14deg) translateX(360%); opacity: 0; }
+}
+/* 按钮:呼吸光环,hover 时停下改为实心放大 */
+.tutor-poster.tp-in .tp-btn { animation: tp-pulse 3.2s ease-out 1.4s infinite; }
+.tp-link:hover .tp-btn { animation: none; transform: scale(1.035); }
+.tp-btn { transition: transform .18s, background .18s; }
+@keyframes tp-pulse {
+  0%   { box-shadow: 0 8px 20px rgba(60,35,20,.28), 0 0 0 0 rgba(255,255,255,.55); }
+  55%  { box-shadow: 0 8px 20px rgba(60,35,20,.28), 0 0 0 14px rgba(255,255,255,0); }
+  100% { box-shadow: 0 8px 20px rgba(60,35,20,.28), 0 0 0 0 rgba(255,255,255,0); }
+}
+.tp-arrow { display: inline-block; transition: transform .18s; }
+.tp-link:hover .tp-arrow { transform: translateX(4px); }
+.tp-photo { transition: transform .25s; }
+.tp-link:hover .tp-photo { transform: scale(1.04) rotate(-1deg); }
+@media (prefers-reduced-motion: reduce) {
+  .tutor-poster.tp-armed .tp-link { opacity: 1; transform: none; transition: none; }
+  .tp-link::before, .tutor-poster.tp-in .tp-btn { animation: none; }
+  .tp-link:hover { transform: none; }
+}
+
+@media (max-width: 700px) {
+  .tp-link { flex-direction: column; align-items: center; text-align: center;
+    gap: 14px; padding: 22px 18px; }
+  .tp-photo { width: 92px; height: 92px; }
+  .tp-stats { justify-content: center; gap: 4px 11px; }
+  .tp-btn { width: 100%; text-align: center; padding: 14px 18px; }
+  .tp-link::after { right: -12px; bottom: -52px; font-size: 7rem; }
+}
+
 /* ---------- level filter (segmented control) ---------- */
 .levels { display: flex; justify-content: center; margin: 30px 0 4px;
   padding: 0 2px; }
@@ -794,38 +907,6 @@ html[data-theme="dark"] .am-e { background: var(--red); color: #fff; }
 .faq-item p { font-size: .89rem; color: var(--ink-2); line-height: 1.65; }
 
 /* ---------- book CTA (reader + home) ---------- */
-.book-cta {
-  position: relative; overflow: hidden;
-  display: flex; gap: 22px; align-items: center;
-  margin: 34px 0 10px; padding: 24px 26px;
-  background: var(--paper-2);
-  border-left: 4px solid var(--red);
-  border-radius: 16px;
-}
-/* 汉字水印 —— 延续 hero / reader banner 的语言 */
-.book-cta::after {
-  content: "师"; position: absolute; right: -10px; bottom: -34px;
-  font-family: var(--serif); font-size: 7.5rem; font-weight: 900;
-  color: var(--red); opacity: .055; line-height: 1;
-  pointer-events: none; user-select: none;
-}
-.bc-photo {
-  width: 92px; height: 92px; flex: none;
-  border-radius: 10px; object-fit: cover;
-}
-.bc-body { position: relative; z-index: 1; }
-.bc-eyebrow {
-  font-size: .68rem; letter-spacing: .13em; text-transform: uppercase;
-  color: var(--red); font-weight: 700; margin-bottom: 6px;
-}
-.bc-body h2 {
-  font-family: var(--serif); font-size: 1.28rem; font-weight: 700;
-  line-height: 1.32; margin-bottom: 8px; color: var(--ink);
-}
-.bc-body p {
-  color: var(--ink-2); font-size: .92rem;
-  line-height: 1.6; margin-bottom: 16px;
-}
 .bc-btn {
   display: inline-block; padding: 10px 18px;
   background: var(--red); color: #fff;
@@ -835,9 +916,6 @@ html[data-theme="dark"] .am-e { background: var(--red); color: #fff; }
 .bc-alt { margin-left: 16px; font-size: .89rem; color: var(--muted); }
 .bc-alt:hover { color: var(--red); }
 @media (max-width: 560px) {
-  .book-cta { flex-direction: column; align-items: flex-start;
-    gap: 16px; padding: 22px 20px; }
-  .bc-photo { width: 76px; height: 76px; }
   .bc-alt { display: block; margin: 13px 0 0; }
 }
 

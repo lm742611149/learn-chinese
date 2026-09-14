@@ -921,7 +921,7 @@
     if (!dest) return;
     // 点的是哪个位置:导航 / 课文尾 / 作者卡 / 页脚 / About
     var where = a.closest(".nav-menu") ? "nav"
-              : a.closest(".book-cta") ? "cta-card"
+              : a.closest(".tutor-poster") ? ("poster-" + (a.closest(".tutor-poster").getAttribute("data-slot") || "x"))
               : a.closest(".ab-cta") ? "about-cta"
               : a.closest(".teacher-card") ? "about-header"
               : a.closest(".reader-foot") ? "reader-foot"
@@ -932,4 +932,23 @@
       if (window.plausible) plausible("Outbound: " + dest, { props: { placement: where } });
     } catch (err) {}
   }, true);
+})();
+
+
+/* ---------- tutor poster: 进入视口时浮现 ----------
+   默认不加 class,禁用 JS 也照常显示;reduced-motion 由 CSS 那边兜底。 */
+(function () {
+  var posters = document.querySelectorAll(".tutor-poster");
+  if (!posters.length) return;
+  if (!("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  posters.forEach(function (el) { el.classList.add("tp-armed"); });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      en.target.classList.add("tp-in");
+      io.unobserve(en.target);
+    });
+  }, { threshold: .25, rootMargin: "0px 0px -8% 0px" });
+  posters.forEach(function (el) { io.observe(el); });
 })();
