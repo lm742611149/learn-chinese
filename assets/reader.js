@@ -930,6 +930,17 @@
     try {
       if (window.gtag) gtag("event", "outbound_" + dest, { placement: where });
       if (window.plausible) plausible("Outbound: " + dest, { props: { placement: where } });
+      // 自建埋点(CF Functions + D1)。sendBeacon 不阻塞跳转,失败就算了。
+      if (navigator.sendBeacon) {
+        var m = location.pathname.match(/\/texts\/hsk(\d)-/);
+        var payload = JSON.stringify({
+          dest: dest, placement: where, path: location.pathname,
+          level: m ? m[1] : "",
+          device: window.matchMedia("(max-width: 700px)").matches ? "m" : "d"
+        });
+        navigator.sendBeacon("/api/click",
+          new Blob([payload], { type: "application/json" }));
+      }
     } catch (err) {}
   }, true);
 })();

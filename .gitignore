@@ -15,3 +15,5 @@ __pycache__/
 .DS_Store
 # 外链物料是产物，不进库（脚本 + OUTREACH.md 进）
 dist/
+
+.wrangler/

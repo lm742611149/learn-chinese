@@ -1,9 +1,15 @@
 {
-  // Cloudflare Workers 静态资产配置:把 docs/ 作为网站发布
-  "name": "read-chinese-daily",
+  // Cloudflare Pages 项目 learn-chinese —— 构建产物是 docs/(build.py 生成)。
+  // name 必须和 Pages 项目名一致,否则构建会去找/建别的项目。
+  "name": "learn-chinese",
+  "pages_build_output_dir": "docs",
   "compatibility_date": "2026-01-01",
-  "assets": {
-    "directory": "./docs",
-    "not_found_handling": "404-page"
-  }
+  // functions/api/click.js 用它记出站点击(Preply / Facebook)
+  "d1_databases": [
+    {
+      "binding": "CLICKS",
+      "database_name": "readmandarin-clicks",
+      "database_id": "5976434c-eeb3-4942-af14-82878deec64d"
+    }
+  ]
 }
