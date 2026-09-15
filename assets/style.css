@@ -650,6 +650,8 @@ body.show-en .en-line { display: block; }
   border: 1px solid #efdcae; border-radius: 8px; padding: 16px 18px;
   margin-bottom: 10px; }
 .gp { font-weight: 800; color: #6d4f16; font-size: .98rem; }
+.gq { margin: 7px 0 0; font-weight: 600; font-size: .93rem; color: #8a6820;
+      line-height: 1.35; }
 .gitem p { margin-top: 7px; font-size: .92rem; color: #6b5a33; }
 .gx { margin-top: 9px; font-size: .95rem; color: #4a3d20;
   border-left: 3px solid var(--gold); padding-left: 10px;
@@ -760,6 +762,7 @@ html[data-theme="dark"] ruby rt { color: #e0876a; }
 html[data-theme="dark"] .gitem { background: linear-gradient(160deg, #2a2315, #251e10);
   border-color: #453a1e; }
 html[data-theme="dark"] .gp { color: #e2b45c; }
+html[data-theme="dark"] .gq { color: #d8a949; }
 html[data-theme="dark"] .gitem p { color: #bfae87; }
 html[data-theme="dark"] .gx { color: #d3c39c; }
 

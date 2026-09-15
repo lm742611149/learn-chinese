@@ -19,6 +19,13 @@ OUT = os.path.join(ROOT, "docs")
 SITE_PATH = os.path.join(ROOT, "content", "site.json")
 SITE = json.load(open(SITE_PATH, encoding="utf-8"))
 
+# 语法点 -> 学习者会问出口的那句英文。AI 答案引擎匹配的是问题的措辞,不是语法
+# 术语,所以「A 是 B」这条要在页面上自己说出 "how do you say is in Chinese"。
+# 文件缺失或某个点没配都不影响构建,只是少渲染一行。
+_GQ_PATH = os.path.join(ROOT, "content", "grammar-questions.json")
+GRAM_Q = (json.load(open(_GQ_PATH, encoding="utf-8"))["questions"]
+          if os.path.exists(_GQ_PATH) else {})
+
 LEVEL_WORDS = {1: "Newbie", 2: "Elementary", 3: "Intermediate",
                4: "Upper Int.", 5: "Advanced", 6: "Fluent"}
 LEVEL_COLORS = {1: "#3e9464", 2: "#2f7fa8", 3: "#7b5fc0",
@@ -963,20 +970,25 @@ def build_words_level(words, wex, lvl):
 
 def collect_grammar(texts):
     """791 grammar notes live inside the readings and nowhere else. Fold them
-    into one index, keyed by pattern, each carrying the readings it appears in."""
+    into one index, each entry carrying the readings it appears in.
+
+    Keyed by gram_key(), not by the raw pattern string: the same point gets
+    written up slightly differently in each reading (都 / 都 — all / both /
+    都 (all / both) …), and without folding those together HSK 1 alone shows
+    「都」six times. One entry per point, keeping the fullest wording of the
+    three fields and pooling every reading it turned up in."""
     gram = {}
     for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
         for g in t.get("grammar", []):
             pat = (g.get("p") or "").strip()
             if not pat:
                 continue
-            e = gram.setdefault(pat, {"e": g.get("e", ""), "x": g.get("x", ""),
-                                      "lvl": t["level"], "srcs": []})
-            # keep the first explanation; later readings only add sources
-            if not e["e"]:
-                e["e"] = g.get("e", "")
-            if not e["x"]:
-                e["x"] = g.get("x", "")
+            e = gram.setdefault(gram_key(pat), {"p": pat, "e": "", "x": "",
+                                                "lvl": t["level"], "srcs": []})
+            # longest wins: the fullest write-up of this point across readings
+            for field, val in (("p", pat), ("e", g.get("e", "")), ("x", g.get("x", ""))):
+                if len(val or "") > len(e[field]):
+                    e[field] = val
             e["srcs"].append((t["slug"], t["title_zh"], t["title_en"]))
     return gram
 
@@ -988,9 +1000,11 @@ def gram_item(pat, d, show_lvl=False):
     extra = f' +{len(d["srcs"]) - 4}' if len(d["srcs"]) > 4 else ""
     bdg = (f'<span class="badge l{d["lvl"]}">HSK {d["lvl"]}</span>'
            if show_lvl else "")
+    q = GRAM_Q.get(gram_key(pat))
     return (f'<div class="gitem">'
             f'<div class="gp">{esc(pat)}{bdg}</div>'
-            f'<p>{esc(d["e"])}</p>'
+            + (f'<h3 class="gq">{esc(q)}</h3>' if q else "")
+            + f'<p>{esc(d["e"])}</p>'
             + (f'<div class="gx">{esc(d["x"])}</div>' if d["x"] else "")
             + f'<div class="g-src">Seen in {srcs}{extra}</div></div>')
 
@@ -1026,8 +1040,9 @@ def build_grammar_index(gram):
 
 
 def build_grammar_level(gram, lvl):
-    mine = sorted((k for k in gram if gram[k]["lvl"] == lvl), key=lambda k: k)
-    items = "".join(gram_item(k, gram[k]) for k in mine)
+    mine = sorted((k for k in gram if gram[k]["lvl"] == lvl),
+                  key=lambda k: gram[k]["p"])
+    items = "".join(gram_item(gram[k]["p"], gram[k]) for k in mine)
     body = f"""
   <article>
     <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
