@@ -1435,7 +1435,7 @@ def explore_nav(rel):
         for slug, icon, name, desc in EXPLORE)
     return (f'<div class="nav-drop" id="nav-drop">'
             f'<button class="nav-link nav-drop-btn" id="nav-drop-btn" type="button" aria-expanded="false" aria-haspopup="true">'
-            f'<span class="ni">🧭</span><span class="nl"> Explore</span><span class="nd-caret" aria-hidden="true">▾</span></button>'
+            f'<span class="ni">🗺️</span><span class="nl"> Explore</span><span class="nd-caret" aria-hidden="true">▾</span></button>'
             f'<div class="nav-drop-panel" role="menu">{links}</div></div>')
 
 
