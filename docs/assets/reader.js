@@ -963,3 +963,71 @@
   }, { threshold: .25, rootMargin: "0px 0px -8% 0px" });
   posters.forEach(function (el) { io.observe(el); });
 })();
+
+
+/* ---------- home video shelf: arrows + gentle auto-advance ----------
+   The row is a native horizontal scroller (works with JS off, swipes on touch).
+   JS adds: arrow buttons that page by the visible width and hide at the ends,
+   and an auto-advance of one card every 4.5 s that pauses on hover / focus /
+   hidden tab / off-screen and stops for good after the first manual scroll. */
+(function () {
+  var row = document.querySelector(".vrow");
+  if (!row) return;
+  var sc = row.querySelector(".vscroller"), track = row.querySelector(".vtrack");
+  var prev = row.querySelector(".vprev"), next = row.querySelector(".vnext");
+  var cards = track ? track.querySelectorAll(".vcard") : [];
+  if (!sc || cards.length < 2) return;
+
+  function step() { return cards[1].offsetLeft - cards[0].offsetLeft; }
+  function maxLeft() { return sc.scrollWidth - sc.clientWidth - 1; }
+  function update() {
+    if (prev) prev.hidden = sc.scrollLeft <= 2;
+    if (next) next.hidden = sc.scrollLeft >= maxLeft();
+  }
+  var programmatic = 0;
+  function scrollTo(left) {
+    programmatic = Date.now();
+    sc.scrollTo({ left: Math.max(0, Math.min(left, maxLeft())), behavior: "smooth" });
+  }
+  function page(dir) {
+    var s = step(), n = Math.max(1, Math.floor(sc.clientWidth / s));
+    scrollTo(sc.scrollLeft + dir * n * s);
+  }
+  if (prev) prev.addEventListener("click", function () { stop(); page(-1); });
+  if (next) next.addEventListener("click", function () { stop(); page(1); });
+  sc.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  update();
+
+  // auto-advance
+  var timer = null, paused = false, onScreen = true;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var touch = window.matchMedia("(hover: none)").matches;
+  function tick() {
+    if (paused || !onScreen || document.hidden) return;
+    if (sc.scrollLeft >= maxLeft()) scrollTo(0);
+    else scrollTo(sc.scrollLeft + step());
+  }
+  function start() {
+    if (reduce || touch || timer) return;
+    timer = setInterval(tick, 4500);
+  }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  row.addEventListener("mouseenter", function () { paused = true; });
+  row.addEventListener("mouseleave", function () { paused = false; });
+  row.addEventListener("focusin", function () { paused = true; });
+  row.addEventListener("focusout", function () { paused = false; });
+  // any manual scroll (wheel, drag, trackpad) ends the auto-advance
+  ["wheel", "touchstart", "pointerdown"].forEach(function (ev) {
+    sc.addEventListener(ev, stop, { passive: true });
+  });
+  sc.addEventListener("scroll", function () {
+    if (Date.now() - programmatic > 900) stop();
+  }, { passive: true });
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(function (en) {
+      onScreen = en[0].isIntersecting;
+    }, { threshold: .4 }).observe(row);
+  }
+  start();
+})();

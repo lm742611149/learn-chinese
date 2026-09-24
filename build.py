@@ -595,7 +595,7 @@ def video_card(v, rel="", heading=True, desc=False, dup=False):
         desc_html = ""
     extra = ' tabindex="-1" aria-hidden="true"' if dup else ""
     return (f'<a class="vcard{" vshort" if short else ""}" href="{yt_watch(v["id"])}" '
-            f'target="_blank" rel="noopener"{extra}>'
+            f'target="_blank" rel="noopener" title="{esc(v["title"])}"{extra}>'
             f'<span class="vthumb"><img src="{yt_thumb(v["id"])}" alt="" loading="lazy" '
             f'width="480" height="360"><span class="vplay" aria-hidden="true"></span>{desc_html}</span>'
             f'<span class="vbody"><{tag} class="vtitle">{esc(v["title"])}</{tag}>'
@@ -603,25 +603,30 @@ def video_card(v, rel="", heading=True, desc=False, dup=False):
 
 
 def home_videos():
-    """Home block: every full-length lesson in a slow horizontal loop. Hovering
-    pauses the loop and pops the card (scale + description over the thumbnail).
-    The track holds two copies of the cards so the loop has no seam; the second
-    copy is aria-hidden and untabbable. Under 720px the animation is off and the
-    strip is a plain finger-scrollable row (hover does not exist there, and a
-    transform animation fights native scrolling)."""
+    """Home block: every full-length lesson in one horizontal row, the way
+    YouTube and Netflix lay out a shelf. Hard edges with a partial card showing
+    at the right (that is the affordance), arrows that appear on hover, native
+    swipe on touch. reader.js adds the arrows' behaviour and a gentle auto-
+    advance of one card every few seconds that stops the moment the visitor
+    touches the row. Hovering a card pops it and slides its description up
+    over the thumbnail."""
     full = [v for v in VIDEOS if v.get("kind") != "short"][:12]
     if not full:
         return ""
     cards = "".join(video_card(v, heading=False, desc=True) for v in full)
-    copy = "".join(video_card(v, heading=False, desc=True, dup=True) for v in full)
-    secs = max(30, 5 * len(full))     # ~5 s per card; slow enough to read a title
     return f"""
   <section class="latest videos-home" id="home-videos">
     <h2 class="home-h">Watch a lesson <span class="zh">视频课</span></h2>
     <p class="videos-lead">The teacher behind these readings explains pronunciation, grammar
-      and the things textbooks skip — one short video a week, in English.<span class="vhover-hint"> Hover to pause.</span></p>
-    <div class="vmarquee">
-      <div class="vtrack" style="--vdur:{secs}s">{cards}<span class="vdup">{copy}</span></div>
+      and the things textbooks skip — one short video a week, in English.</p>
+    <div class="vrow">
+      <button class="vnav vprev" type="button" aria-label="Previous videos" hidden>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="vscroller" tabindex="0" aria-label="Video lessons, scroll horizontally">
+        <div class="vtrack">{cards}</div>
+      </div>
+      <button class="vnav vnext" type="button" aria-label="Next videos">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <a class="latest-more" href="videos.html">All {len(VIDEOS)} videos and Shorts →</a>
   </section>"""
