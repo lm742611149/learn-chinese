@@ -1,0 +1,298 @@
+{
+  "slug": "hsk4-idiom-mending-the-pen",
+  "level": 4,
+  "title_zh": "成语故事：亡羊补牢",
+  "title_py": "Chéngyǔ gùshi: Wáng yáng bǔ láo",
+  "title_en": "Idiom Story: Mending the Pen After the Sheep Are Lost",
+  "audio": null,
+  "sentences": [
+    {
+      "t": [
+        ["从前", "cóngqián", "once upon a time"],
+        ["，"],
+        ["有", "yǒu", "there was"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["人", "rén", "man"],
+        ["养", "yǎng", "to raise (animals)"],
+        ["了", "le", "(particle)"],
+        ["很多", "hěn duō", "many"],
+        ["羊", "yáng", "sheep"],
+        ["，"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["晚上", "wǎnshang", "evening"],
+        ["都", "dōu", "all"],
+        ["把", "bǎ", "(object marker)"],
+        ["羊", "yáng", "sheep"],
+        ["关", "guān", "to shut in"],
+        ["在", "zài", "in"],
+        ["羊圈", "yángjuàn", "sheep pen"],
+        ["里", "li", "inside"],
+        ["。"]
+      ],
+      "en": "Once upon a time, a man kept a lot of sheep, and every evening he shut them in the sheep pen."
+    },
+    {
+      "t": [
+        ["一", "yì", "one"],
+        ["天", "tiān", "day"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["去", "qù", "to go"],
+        ["羊圈", "yángjuàn", "sheep pen"],
+        ["看", "kàn", "to look at"],
+        ["羊", "yáng", "sheep"],
+        ["，"],
+        ["发现", "fāxiàn", "to discover"],
+        ["少", "shǎo", "to be missing"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["只", "zhī", "(measure word)"],
+        ["。"]
+      ],
+      "en": "One morning he went to check on the sheep in the pen and found that one was missing."
+    },
+    {
+      "t": [
+        ["原来", "yuánlái", "it turns out"],
+        ["羊圈", "yángjuàn", "sheep pen"],
+        ["上", "shang", "on"],
+        ["有", "yǒu", "there was"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["洞", "dòng", "hole"],
+        ["，"],
+        ["晚上", "wǎnshang", "at night"],
+        ["狼", "láng", "wolf"],
+        ["从", "cóng", "through"],
+        ["这", "zhè", "this"],
+        ["个", "ge", "(measure word)"],
+        ["洞", "dòng", "hole"],
+        ["进去", "jìnqu", "to go in"],
+        ["，"],
+        ["把", "bǎ", "(object marker)"],
+        ["一", "yì", "one"],
+        ["只", "zhī", "(measure word)"],
+        ["羊", "yáng", "sheep"],
+        ["吃", "chī", "to eat"],
+        ["掉", "diào", "(result: away, gone)"],
+        ["了", "le", "(particle)"],
+        ["。"]
+      ],
+      "en": "It turned out there was a hole in the pen; at night a wolf had got in through it and eaten one of the sheep."
+    },
+    {
+      "t": [
+        ["邻居", "línjū", "neighbour"],
+        ["看见", "kànjiàn", "to see"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["对", "duì", "to"],
+        ["他", "tā", "him"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["快", "kuài", "quickly"],
+        ["把", "bǎ", "(object marker)"],
+        ["洞", "dòng", "hole"],
+        ["补", "bǔ", "to patch"],
+        ["上", "shang", "(result: closed up)"],
+        ["吧", "ba", "(particle)"],
+        ["，"],
+        ["否则", "fǒuzé", "otherwise"],
+        ["还", "hái", "again"],
+        ["会", "huì", "will"],
+        ["丢", "diū", "to lose"],
+        ["羊", "yáng", "sheep"],
+        ["的", "de", "(particle)"],
+        ["。"],
+        ["”"]
+      ],
+      "en": "His neighbour saw this and said to him: \"Patch up that hole quickly, or you'll lose more sheep.\""
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["却", "què", "however"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["“"],
+        ["羊", "yáng", "sheep"],
+        ["已经", "yǐjīng", "already"],
+        ["丢", "diū", "to lose"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["现在", "xiànzài", "now"],
+        ["补", "bǔ", "to mend"],
+        ["羊圈", "yángjuàn", "sheep pen"],
+        ["还", "hái", "still"],
+        ["有", "yǒu", "to have"],
+        ["什么", "shénme", "what"],
+        ["用", "yòng", "use"],
+        ["呢", "ne", "(particle)"],
+        ["？"],
+        ["”"]
+      ],
+      "en": "But he said: \"The sheep is already gone — what's the use of mending the pen now?\""
+    },
+    {
+      "t": [
+        ["第二天", "dì-èr tiān", "the next day"],
+        ["早上", "zǎoshang", "morning"],
+        ["，"],
+        ["他", "tā", "he"],
+        ["去", "qù", "to go"],
+        ["看", "kàn", "to look at"],
+        ["羊", "yáng", "sheep"],
+        ["，"],
+        ["发现", "fāxiàn", "to discover"],
+        ["羊", "yáng", "sheep"],
+        ["又", "yòu", "again"],
+        ["少", "shǎo", "to be missing"],
+        ["了", "le", "(particle)"],
+        ["一", "yì", "one"],
+        ["只", "zhī", "(measure word)"],
+        ["，"],
+        ["这才", "zhè cái", "only then"],
+        ["后悔", "hòuhuǐ", "to regret"],
+        ["没", "méi", "not"],
+        ["听", "tīng", "to listen to"],
+        ["邻居", "línjū", "neighbour"],
+        ["的", "de", "(possessive)"],
+        ["话", "huà", "words"],
+        ["。"]
+      ],
+      "en": "The next morning he went to see the sheep and found another one missing — only then did he regret not listening to his neighbour."
+    },
+    {
+      "t": [
+        ["他", "tā", "he"],
+        ["马上", "mǎshàng", "immediately"],
+        ["把", "bǎ", "(object marker)"],
+        ["洞", "dòng", "hole"],
+        ["补", "bǔ", "to patch"],
+        ["好", "hǎo", "(result: done properly)"],
+        ["了", "le", "(particle)"],
+        ["，"],
+        ["从", "cóng", "from"],
+        ["那", "nà", "that"],
+        ["以后", "yǐhòu", "after"],
+        ["，"],
+        ["他", "tā", "his"],
+        ["的", "de", "(possessive)"],
+        ["羊", "yáng", "sheep"],
+        ["再也", "zài yě", "ever again"],
+        ["没有", "méiyǒu", "not"],
+        ["丢", "diū", "to lose"],
+        ["过", "guo", "(experience particle)"],
+        ["。"]
+      ],
+      "en": "He patched the hole at once, and from then on he never lost another sheep."
+    },
+    {
+      "t": [
+        ["现在", "xiànzài", "now"],
+        ["，"],
+        ["人们", "rénmen", "people"],
+        ["用", "yòng", "to use"],
+        ["“"],
+        ["亡羊补牢", "wáng yáng bǔ láo", "to mend the pen after losing a sheep"],
+        ["”"],
+        ["来", "lái", "to (in order to)"],
+        ["说", "shuō", "to say"],
+        ["："],
+        ["出", "chū", "to occur"],
+        ["了", "le", "(particle)"],
+        ["问题", "wèntí", "problem"],
+        ["以后", "yǐhòu", "after"],
+        ["马上", "mǎshàng", "immediately"],
+        ["改", "gǎi", "to correct"],
+        ["，"],
+        ["还", "hái", "still"],
+        ["不", "bú", "not"],
+        ["算", "suàn", "to count as"],
+        ["晚", "wǎn", "late"],
+        ["。"]
+      ],
+      "en": "Nowadays people use 亡羊补牢 to say: if you put a problem right as soon as it happens, it still isn't too late."
+    },
+    {
+      "t": [
+        ["小李", "Xiǎo Lǐ", "Xiao Li (a name)"],
+        ["上", "shàng", "last"],
+        ["次", "cì", "time"],
+        ["考试", "kǎoshì", "exam"],
+        ["因为", "yīnwèi", "because"],
+        ["语法", "yǔfǎ", "grammar"],
+        ["错", "cuò", "to be wrong"],
+        ["得", "de", "(degree particle)"],
+        ["太", "tài", "too"],
+        ["多", "duō", "many"],
+        ["，"],
+        ["没有", "méiyǒu", "not"],
+        ["通过", "tōngguò", "to pass"],
+        ["，"],
+        ["这", "zhè", "this"],
+        ["次", "cì", "time"],
+        ["他", "tā", "he"],
+        ["每", "měi", "every"],
+        ["天", "tiān", "day"],
+        ["晚上", "wǎnshang", "evening"],
+        ["都", "dōu", "all"],
+        ["花", "huā", "to spend"],
+        ["一", "yí", "one"],
+        ["个", "ge", "(measure word)"],
+        ["小时", "xiǎoshí", "hour"],
+        ["做", "zuò", "to do"],
+        ["语法", "yǔfǎ", "grammar"],
+        ["练习", "liànxí", "exercises"],
+        ["。"]
+      ],
+      "en": "Xiao Li failed his last exam because he made too many grammar mistakes; this time he spends an hour every evening doing grammar exercises."
+    }
+  ],
+  "vocab": [
+    ["亡羊补牢", "wáng yáng bǔ láo", "to mend the pen after a sheep is lost (to fix a problem before it gets worse)"],
+    ["羊圈", "yángjuàn", "sheep pen"],
+    ["狼", "láng", "wolf"],
+    ["洞", "dòng", "hole"],
+    ["补", "bǔ", "to patch; to mend"],
+    ["后悔", "hòuhuǐ", "to regret"]
+  ],
+  "quiz": [
+    {
+      "q": "Why did a sheep go missing the first time?",
+      "a": ["A neighbour stole it", "A wolf got in through a hole in the pen", "The man forgot to close the gate"],
+      "c": 1
+    },
+    {
+      "q": "What did the man say when his neighbour told him to fix the pen?",
+      "a": ["The sheep was already gone, so fixing it was useless", "He would fix it after the weekend", "He didn't have enough money to fix it"],
+      "c": 0
+    },
+    {
+      "q": "How is Xiao Li like the man at the end of the story?",
+      "a": ["He gives up after failing once", "He asks his neighbour for help", "He fixes his weak point right after a failure"],
+      "c": 2
+    }
+  ],
+  "grammar": [
+    {
+      "p": "原来",
+      "e": "\"It turns out (that)\" — introduces the real reason you only discover afterwards: 原来羊圈上有一个洞。",
+      "x": "他今天没来上课，原来是生病了。 — He didn't come to class today; it turns out he was ill."
+    },
+    {
+      "p": "这才……",
+      "e": "\"Only then\" — something happens later than it should have, after a trigger: 发现羊又少了一只，这才后悔没听邻居的话。",
+      "x": "考试前一天，他这才开始复习。 — Only the day before the exam did he start reviewing."
+    },
+    {
+      "p": "再也没（有）……过",
+      "e": "\"Never … again\" — something stopped happening from a certain point on: 他的羊再也没有丢过。",
+      "x": "那次以后，他再也没有迟到过。 — After that time, he was never late again."
+    }
+  ]
+}

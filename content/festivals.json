@@ -1,0 +1,78 @@
+{
+  "_note": "Chinese festivals hub. Dates are given as lunar-calendar days (fixed) plus the usual Gregorian window, never a specific year's date. 'readings' are slugs of existing readings; 'video' is a YouTube id from content/videos.json. Written 2026-09-24.",
+  "festivals": [
+    {
+      "id": "spring-festival", "zh": "春节", "py": "Chūnjié", "en": "Spring Festival (Chinese New Year)",
+      "when": "1st day of the 1st lunar month; falls between 21 January and 20 February",
+      "about": "The biggest holiday of the year. Families travel home for the reunion dinner on New Year's Eve, children get red envelopes, doors get red couplets, and the celebrations run for about two weeks, up to the Lantern Festival.",
+      "greetings": [["新年快乐", "xīnnián kuàilè", "Happy New Year"], ["春节快乐", "Chūnjié kuàilè", "Happy Spring Festival"], ["过年好", "guònián hǎo", "Happy New Year (casual, northern)"], ["恭喜发财", "gōngxǐ fācái", "Wishing you prosperity"]],
+      "words": [["年夜饭", "niányèfàn", "New Year's Eve reunion dinner"], ["红包", "hóngbāo", "red envelope with money"], ["饺子", "jiǎozi", "dumplings"], ["春联", "chūnlián", "red couplets on the door"], ["春运", "chūnyùn", "the Spring Festival travel rush"]],
+      "readings": ["hsk2-happy-new-year", "hsk3-going-home-for-spring-festival", "hsk5-spring-festival-travel-rush"]
+    },
+    {
+      "id": "lantern-festival", "zh": "元宵节", "py": "Yuánxiāojié", "en": "Lantern Festival",
+      "when": "15th day of the 1st lunar month; the first full moon of the year, usually in February",
+      "about": "The last day of the New Year celebrations. People eat sweet rice balls, hang and look at lanterns, and guess the riddles written on them.",
+      "greetings": [["元宵节快乐", "Yuánxiāojié kuàilè", "Happy Lantern Festival"]],
+      "words": [["汤圆", "tāngyuán", "sweet glutinous rice balls"], ["元宵", "yuánxiāo", "rice balls (northern name)"], ["灯笼", "dēnglong", "lantern"], ["猜灯谜", "cāi dēngmí", "to guess lantern riddles"]],
+      "readings": []
+    },
+    {
+      "id": "qingming", "zh": "清明节", "py": "Qīngmíngjié", "en": "Qingming Festival (Tomb-Sweeping Day)",
+      "when": "one of the 24 solar terms, around 4 or 5 April",
+      "about": "A day to remember ancestors: families visit and tidy graves and offer flowers. It is also a spring outing day. Because it is a day of remembrance, people do not wish each other a happy Qingming.",
+      "greetings": [],
+      "words": [["扫墓", "sǎomù", "to sweep and tend graves"], ["祖先", "zǔxiān", "ancestors"], ["踏青", "tàqīng", "a spring outing"], ["节气", "jiéqi", "solar term"]],
+      "readings": ["hsk5-24-solar-terms"]
+    },
+    {
+      "id": "dragon-boat", "zh": "端午节", "py": "Duānwǔjié", "en": "Dragon Boat Festival",
+      "when": "5th day of the 5th lunar month; late May to late June",
+      "about": "Remembered through the story of the poet Qu Yuan. People race dragon boats and eat zongzi, sticky rice wrapped in leaves. The usual greeting wishes health rather than happiness.",
+      "greetings": [["端午节安康", "Duānwǔjié ānkāng", "Wishing you good health this Dragon Boat Festival"]],
+      "words": [["粽子", "zòngzi", "sticky rice dumplings wrapped in leaves"], ["龙舟", "lóngzhōu", "dragon boat"], ["赛龙舟", "sài lóngzhōu", "dragon boat racing"], ["屈原", "Qū Yuán", "Qu Yuan, the poet the festival remembers"]],
+      "readings": []
+    },
+    {
+      "id": "qixi", "zh": "七夕", "py": "Qīxī", "en": "Qixi Festival (Chinese Valentine's Day)",
+      "when": "7th day of the 7th lunar month; usually in August",
+      "about": "Based on the legend of the cowherd and the weaver girl, two lovers who can meet only once a year on a bridge of magpies. Today it is a day for couples.",
+      "greetings": [["七夕快乐", "Qīxī kuàilè", "Happy Qixi"]],
+      "words": [["牛郎", "Niúláng", "the cowherd"], ["织女", "Zhīnǚ", "the weaver girl"], ["情人节", "qíngrénjié", "Valentine's Day"]],
+      "readings": []
+    },
+    {
+      "id": "mid-autumn", "zh": "中秋节", "py": "Zhōngqiūjié", "en": "Mid-Autumn Festival",
+      "when": "15th day of the 8th lunar month; mid-September to early October",
+      "about": "The night of the fullest moon of the year and a festival of family reunion. People look at the moon, eat and give mooncakes, and tell the story of Chang'e, who lives on the moon.",
+      "greetings": [["中秋节快乐", "Zhōngqiūjié kuàilè", "Happy Mid-Autumn Festival"], ["中秋快乐", "Zhōngqiū kuàilè", "Happy Mid-Autumn (shorter)"]],
+      "words": [["月饼", "yuèbing", "mooncake"], ["团圆", "tuányuán", "family reunion"], ["赏月", "shǎngyuè", "to admire the moon"], ["嫦娥", "Cháng'é", "Chang'e, the goddess of the moon"]],
+      "readings": ["hsk3-giving-mooncakes", "hsk3-mid-autumn-moon"],
+      "video": "i8hKevdxKoo"
+    },
+    {
+      "id": "national-day", "zh": "国庆节", "py": "Guóqìngjié", "en": "National Day",
+      "when": "1 October, followed by a week-long holiday",
+      "about": "Marks the founding of the People's Republic of China in 1949. The holiday week, the Golden Week, is one of the busiest travel times of the year.",
+      "greetings": [["国庆节快乐", "Guóqìngjié kuàilè", "Happy National Day"]],
+      "words": [["黄金周", "huángjīnzhōu", "Golden Week"], ["放假", "fàngjià", "to have a holiday"], ["旅游", "lǚyóu", "to travel"]],
+      "readings": []
+    },
+    {
+      "id": "double-ninth", "zh": "重阳节", "py": "Chóngyángjié", "en": "Double Ninth Festival",
+      "when": "9th day of the 9th lunar month; usually in October",
+      "about": "Traditionally a day to climb to a high place and look at chrysanthemums; today it is also a day to show respect and care for older people.",
+      "greetings": [["重阳节快乐", "Chóngyángjié kuàilè", "Happy Double Ninth Festival"]],
+      "words": [["登高", "dēnggāo", "to climb to a height"], ["菊花", "júhuā", "chrysanthemum"], ["敬老", "jìnglǎo", "to respect the elderly"]],
+      "readings": []
+    },
+    {
+      "id": "birthdays-weddings", "zh": "生日和婚礼", "py": "shēngrì hé hūnlǐ", "en": "Birthdays and weddings",
+      "when": "any day of the year",
+      "about": "Not festivals, but the celebrations learners are most often invited to. Noodles for a long life on a birthday, red envelopes and a lot of toasting at a wedding.",
+      "greetings": [["生日快乐", "shēngrì kuàilè", "Happy birthday"], ["新婚快乐", "xīnhūn kuàilè", "Congratulations on your wedding"], ["恭喜恭喜", "gōngxǐ gōngxǐ", "Congratulations"], ["干杯", "gānbēi", "Cheers"]],
+      "words": [["长寿面", "chángshòumiàn", "longevity noodles"], ["礼物", "lǐwù", "gift"], ["婚礼", "hūnlǐ", "wedding"], ["红包", "hóngbāo", "red envelope with money"]],
+      "readings": ["hsk1-moms-birthday", "hsk2-celebrating-birthday", "hsk2-giving-a-gift", "hsk3-happy-birthday", "hsk3-an-unforgettable-birthday", "hsk3-attending-a-wedding"]
+    }
+  ]
+}

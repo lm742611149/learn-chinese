@@ -312,6 +312,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       <a class="nav-link" href="{rel}words.html"><span class="ni">📖</span><span class="nl"> Words</span></a>
       <a class="nav-link" href="{rel}grammar.html"><span class="ni">🧩</span><span class="nl"> Grammar</span></a>
       {'<a class="nav-link" href="' + rel + 'videos.html"><span class="ni">▶️</span><span class="nl"> Videos</span></a>' if VIDEOS else ''}
+      {explore_nav(rel)}
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook"><span class="ni">⭐</span><span class="nl"> My Wordbook</span></a>
       <a class="nav-link" href="{rel}progress.html" title="My progress"><span class="ni">🏆</span><span class="nl"> Progress</span></a>
       <div class="menu-sec">More</div>
@@ -340,6 +341,13 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       <a href="{rel}hsk-levels.html">HSK levels compared</a>
       <a href="{rel}quiz.html">Comprehension questions</a>
       <a href="{rel}graded-readers.html">Graded readers</a>
+    </div>
+    <div style="margin-top:6px">
+      <a href="{rel}pinyin.html">Pinyin chart</a>
+      <a href="{rel}pairs.html">Word pairs</a>
+      <a href="{rel}topics.html">Words by topic</a>
+      <a href="{rel}idioms.html">Idioms</a>
+      <a href="{rel}festivals.html">Festivals</a>
     </div>
   </footer>
 </div>
@@ -801,6 +809,7 @@ def build_index(texts):
   </section>
   <section class="lvlgrid" id="lvlgrid">{''.join(lvlcards)}
   </section>
+{home_explore()}
   <section class="cards" id="search-results" hidden>{all_cards}
   </section>
 {home_videos()}
@@ -1378,6 +1387,493 @@ def build_quiz_index(texts):
                 "Chinese reading comprehension sample questions with answers for HSK 1 to 6, each from a free "
                 "graded reading with pinyin and audio.", body, path="quiz")
 
+
+# ---------------------------------------------------------------------------
+# Explore section (2026-09-24): word pairs, pinyin chart, words by topic,
+# idioms, festivals. Each is data in content/*.json plus examples pulled from
+# the readings, so nothing here repeats what the readings already say.
+# ---------------------------------------------------------------------------
+
+def _load(name, default):
+    p = os.path.join(ROOT, "content", name)
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
+
+PAIRS = _load("word-pairs.json", {"pairs": []})["pairs"]
+FESTIVALS = _load("festivals.json", {"festivals": []})["festivals"]
+PINYIN = _load("pinyin.json", {"syllables": {}})["syllables"]
+IDIOMS = _load("idioms.json", {"stories": [], "idioms": []})
+
+EXPLORE = [
+    ("pinyin", "🔤", "Pinyin chart", "Every syllable in all four tones, with audio"),
+    ("pairs", "⚖️", "Word pairs", "预订 or 预定? 再 or 又? Easily confused words"),
+    ("topics", "🗂️", "Words by topic", "Food, travel, work… vocabulary from the readings"),
+    ("idioms", "🐉", "Idiom stories", "Chengyu and the stories behind them"),
+    ("festivals", "🏮", "Festivals", "Spring Festival to Mid-Autumn: greetings and words"),
+    ("quiz", "✅", "Practice questions", "Reading comprehension questions with answers"),
+    ("hsk-levels", "📊", "HSK levels compared", "HSK 1-6 side by side"),
+    ("graded-readers", "📚", "Graded readers", "Books, apps and free sites by level"),
+]
+
+
+def explore_nav(rel):
+    links = "".join(
+        f'<a class="nd-item" href="{rel}{slug}.html"><span class="nd-i">{icon}</span>'
+        f'<span class="nd-t"><b>{esc(name)}</b><i>{esc(desc)}</i></span></a>'
+        for slug, icon, name, desc in EXPLORE)
+    return (f'<div class="nav-drop" id="nav-drop">'
+            f'<button class="nav-link nav-drop-btn" id="nav-drop-btn" type="button" aria-expanded="false" aria-haspopup="true">'
+            f'<span class="ni">🧭</span><span class="nl"> Explore</span><span class="nd-caret" aria-hidden="true">▾</span></button>'
+            f'<div class="nav-drop-panel" role="menu">{links}</div></div>')
+
+
+def home_explore():
+    counts = {"pairs": len(PAIRS), "festivals": len(FESTIVALS),
+              "idioms": len(IDIOMS["idioms"]), "pinyin": len(PINYIN)}
+    tiles = "".join(
+        f'<a class="xtile" href="{slug}.html"><span class="xt-i">{icon}</span>'
+        f'<span class="xt-b"><b>{esc(name)}</b><i>{esc(desc)}</i></span></a>'
+        for slug, icon, name, desc in EXPLORE)
+    return f"""
+  <section class="explore-home" id="home-explore">
+    <h2 class="home-h">Explore <span class="zh">更多</span></h2>
+    <div class="xgrid">{tiles}</div>
+  </section>"""
+
+
+class Corpus:
+    """Token index over the readings, for pulling real example sentences."""
+    def __init__(self, texts):
+        self.idx = {}
+        for t in sorted(texts, key=lambda x: (x["level"], x["slug"])):
+            for s in t["sentences"]:
+                toks = s["t"]
+                for i, tok in enumerate(toks):
+                    if len(tok) == 3:
+                        self.idx.setdefault(tok[0], []).append((t, s, i))
+
+    def examples(self, word, py=None, n=3, maxlen=40, exclude=()):
+        out, seen = [], set()
+        cands = [(t, s, i) for t, s, i in self.idx.get(word, [])
+                 if (py is None or s["t"][i][1].lower() == py) and t["slug"] not in exclude]
+        cands.sort(key=lambda c: (c[0]["level"], len("".join(x[0] for x in c[1]["t"]))))
+        for t, s, i in cands:
+            plain = "".join(x[0] for x in s["t"])
+            if plain in seen or len(plain) > maxlen:
+                continue
+            seen.add(plain)
+            out.append((t, s, i))
+            if len(out) >= n:
+                break
+        return out
+
+
+def ex_html(t, s, i, blank=False):
+    zh = "".join(
+        ('<b class="hl">___</b>' if blank else f'<b class="hl">{esc(x[0])}</b>') if j == i else esc(x[0])
+        for j, x in enumerate(s["t"]))
+    return (f'<li class="ex"><span class="ex-zh" lang="zh">{zh}</span>'
+            + ('' if blank else f'<span class="ex-en">{esc(s["en"])}</span>')
+            + f'<a class="ex-src" href="texts/{esc(t["slug"])}.html">HSK {t["level"]} · {esc(t["title_zh"])}</a></li>')
+
+
+def video_by_id(vid):
+    return next((v for v in VIDEOS if v["id"] == vid), None)
+
+
+def crumbs(name):
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": SITE["site_name"], "item": f"{base}/"},
+                {"@type": "ListItem", "position": 2, "name": name}]}
+
+
+# ---------- word pairs ----------
+
+def pair_quiz(corpus, p, n=6):
+    words = p["words"]
+    per = max(1, n // len(words))
+    items = []
+    for w in words:
+        py = p["match"].get(w, {}).get("py")
+        got = 0
+        for t, s, i in sorted(corpus.idx.get(w, []), key=lambda c: (c[0]["level"], len(c[1]["t"]))):
+            if t["level"] > 3 or got >= per:
+                continue
+            if py and s["t"][i][1].lower() != py:
+                continue
+            # skip sentences that contain another word of the set: one blank only
+            others = [j for j, x in enumerate(s["t"]) if len(x) == 3 and x[0] in words and j != i]
+            if others or len("".join(x[0] for x in s["t"])) > 30:
+                continue
+            items.append((t, s, i, w))
+            got += 1
+    return items
+
+
+def build_pair(corpus, p):
+    words = p["words"]
+    rows = "".join(f'<tr><th scope="row" lang="zh">{esc(a)}</th><td>{esc(b)}</td></tr>' for a, b in p["points"])
+    ex_blocks = []
+    for w, py_disp in zip(words, p["pinyin"]):
+        m = p["match"].get(w, {})
+        found = corpus.examples(w, py=m.get("py"), n=3)
+        if found:
+            lis = "".join(ex_html(t, s, i) for t, s, i in found)
+            note = "From the readings on this site"
+        else:
+            lis = "".join(f'<li class="ex"><span class="ex-zh" lang="zh">{esc(zh).replace(esc(w), f"<b class=hl>{esc(w)}</b>", 1)}</span>'
+                          f'<span class="ex-en">{esc(en)}</span></li>' for zh, en in p["examples"].get(w, []))
+            note = "Example sentences"
+        if lis:
+            ex_blocks.append(f'<div class="pair-ex"><h2><span lang="zh">{esc(w)}</span> <span class="pe-py">{esc(py_disp)}</span></h2>'
+                             f'<p class="pe-note">{note}</p><ul class="exlist">{lis}</ul></div>')
+    quiz_html = ""
+    if p.get("quiz"):
+        qs = pair_quiz(corpus, p)
+        if qs:
+            opts = " / ".join(words)
+            qli = "".join(
+                f'<li class="qz-item"><div class="ex-zh" lang="zh">{"".join(("<b class=hl>___</b>" if j == i else esc(x[0])) for j, x in enumerate(s["t"]))}</div>'
+                f'<div class="pq-opts">{esc(opts)}</div>'
+                f'<details><summary>Answer</summary><p><b lang="zh">{esc(w)}</b> — {esc(s["en"])}</p></details>'
+                f'<div class="qz-src">From <a href="texts/{esc(t["slug"])}.html">{esc(t["title_zh"])} — {esc(t["title_en"])}</a></div></li>'
+                for t, s, i, w in qs)
+            quiz_html = f'<h2>Practice: fill in the blank</h2><p>Each sentence is from a reading on this site. Which word goes in the gap?</p><ol class="qz-list pq-list">{qli}</ol>'
+    vid = video_by_id(p.get("video", "")) if p.get("video") else None
+    video_html = (f'<h2>Watch the lesson</h2><div class="vgrid pair-video">{video_card(vid)}</div>' if vid else "")
+    others = "".join(f'<li><a href="pairs-{esc(o["id"])}.html" lang="zh">{esc(" vs ".join(o["words"]))}</a></li>'
+                     for o in PAIRS if o["id"] != p["id"])
+    q = f"What is the difference between {' and '.join(words)}?"
+    body = f"""
+  <article class="pair">
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS.get(p['level'], '#8a6d3b')}" data-char="{esc(words[0][0])}">
+      <span class="feat-tag">Word pairs · from HSK {p['level']}</span>
+      <h1>{esc(p['title'])}</h1>
+      <div class="b-en">{esc(p['short'])}</div>
+    </div>
+    <section class="lvl-intro pair-body">
+      <h2>{esc(q)}</h2>
+      <p>{esc(p['summary'])}</p>
+      <div class="cmp-wrap"><table class="cmp pair-table"><tbody>{rows}</tbody></table></div>
+      {''.join(ex_blocks)}
+      {quiz_html}
+      {video_html}
+      <h2>More word pairs</h2>
+      <ul class="pair-more">{others}</ul>
+    </section>
+  </article>"""
+    ld = [{"@context": "https://schema.org", "@type": "FAQPage",
+           "mainEntity": [{"@type": "Question", "name": q,
+                           "acceptedAnswer": {"@type": "Answer", "text": p["summary"]}}]},
+          crumbs("Word pairs")]
+    return page(f"{p['title']} | {SITE['site_name']}",
+                f"{p['summary'][:150].rsplit(' ', 1)[0]}…", body, path=f"pairs-{p['id']}", ld=ld)
+
+
+def build_pairs_index():
+    cards = "".join(
+        f'<a class="pcard" href="pairs-{esc(p["id"])}.html">'
+        f'<span class="pc-w" lang="zh">{esc(" · ".join(p["words"]))}</span>'
+        f'<span class="pc-t">{esc(p["title"].split(":", 1)[-1].strip())}</span>'
+        f'<span class="pc-s">{esc(p["short"])}</span>'
+        f'<span class="pc-m">From HSK {p["level"]}{" · ▶ video" if p.get("video") else ""}</span></a>'
+        for p in sorted(PAIRS, key=lambda x: x["level"]))
+    body = f"""
+  <section class="about">
+    <h1>Easily confused Chinese words <span style="font-family:var(--serif);color:var(--red)">易混词</span></h1>
+    <p>{len(PAIRS)} pairs of Chinese words that learners mix up, each explained in plain English with real
+      example sentences from the readings on this site. Some come with a short video lesson.</p>
+  </section>
+  <section class="pgrid">{cards}</section>"""
+    return page(f"Easily Confused Chinese Words: {len(PAIRS)} Pairs Explained | {SITE['site_name']}",
+                "Commonly confused Chinese words explained: 的 得 地, 再 vs 又, 了 vs 过, 会 能 可以, 二 vs 两 and more, "
+                "with example sentences and practice.", body, path="pairs", ld=[crumbs("Word pairs")])
+
+
+# ---------- pinyin ----------
+
+INITIALS = ["", "b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h", "j", "q", "x",
+            "zh", "ch", "sh", "r", "z", "c", "s"]
+FINALS = ["a", "o", "e", "i", "er", "ai", "ei", "ao", "ou", "an", "en", "ang", "eng", "ong",
+          "ia", "ie", "iao", "iu", "ian", "in", "iang", "ing", "iong",
+          "u", "ua", "uo", "uai", "ui", "uan", "un", "uang", "ueng",
+          "ü", "üe", "üan", "ün"]
+ZERO = {"yi": "i", "ya": "ia", "ye": "ie", "yao": "iao", "you": "iu", "yan": "ian", "yin": "in",
+        "yang": "iang", "ying": "ing", "yong": "iong", "wu": "u", "wa": "ua", "wo": "uo", "wai": "uai",
+        "wei": "ui", "wan": "uan", "wen": "un", "wang": "uang", "weng": "ueng", "yu": "ü", "yue": "üe",
+        "yuan": "üan", "yun": "ün"}
+TONE_MARK = {"a": "āáǎà", "o": "ōóǒò", "e": "ēéěè", "i": "īíǐì", "u": "ūúǔù", "ü": "ǖǘǚǜ"}
+
+
+def split_syl(syl):
+    if syl in ZERO:
+        return "", ZERO[syl]
+    for ini in sorted(INITIALS, key=len, reverse=True):
+        if ini and syl.startswith(ini):
+            fin = syl[len(ini):]
+            if ini in ("j", "q", "x") and fin.startswith("u"):
+                fin = "ü" + fin[1:]
+            return ini, fin
+    return "", syl
+
+
+def mark_tone(syl, tone):
+    if tone not in "1234":
+        return syl
+    for v in ("a", "e"):
+        if v in syl:
+            return syl.replace(v, TONE_MARK[v][int(tone) - 1], 1)
+    if "ou" in syl:
+        return syl.replace("o", TONE_MARK["o"][int(tone) - 1], 1)
+    for idx in range(len(syl) - 1, -1, -1):
+        if syl[idx] in TONE_MARK:
+            return syl[:idx] + TONE_MARK[syl[idx]][int(tone) - 1] + syl[idx + 1:]
+    return syl
+
+
+def tone_pairs(corpus):
+    """Two-syllable words from the readings by tone pattern (1-4 x 1-4 + neutral).
+    Words with 一 or 不 are skipped: their written tone is not the spoken one."""
+    marks = {c: str(k + 1) for v in TONE_MARK.values() for k, c in enumerate(v)}
+    freq = {w: len(v) for w, v in corpus.idx.items()}
+    pyof = {}
+    for w, v in corpus.idx.items():
+        t, s, i = v[0]
+        pyof[w] = s["t"][i][1]
+    cells = {}
+    for w, py in pyof.items():
+        if len(w) != 2 or not all("一" <= c <= "鿿" for c in w) or "一" in w or "不" in w:
+            continue
+        if not os.path.exists(os.path.join(ROOT, "media", "audio", "w", w + ".mp3")):
+            continue
+        tones = [(k, marks[c]) for k, c in enumerate(py) if c in marks]
+        if len(tones) == 2:
+            key = tones[0][1] + tones[1][1]
+        elif len(tones) == 1 and tones[0][0] < len(py) / 2:
+            key = tones[0][1] + "5"
+        else:
+            continue
+        cells.setdefault(key, []).append((freq[w], w, py))
+    return {k: [x[1:] for x in sorted(v, reverse=True)[:3]] for k, v in cells.items()}
+
+
+def build_pinyin(corpus):
+    have = {}
+    for syl, tones in PINYIN.items():
+        ini, fin = split_syl(syl)
+        have[(ini, fin)] = (syl, tones)
+    head = "".join(f'<th scope="col">{esc(i) if i else "–"}</th>' for i in INITIALS)
+    rows = []
+    for fin in FINALS:
+        cells = []
+        for ini in INITIALS:
+            if (ini, fin) in have:
+                syl, tones = have[(ini, fin)]
+                chars = " ".join(f"{mark_tone(syl, t)} {c}" for t, c in tones.items())
+                cells.append(f'<td><button class="py-cell" type="button" data-s="{esc(syl)}" data-t="{"".join(tones)}" '
+                             f'title="{esc(chars)}">{esc(syl)}</button></td>')
+            else:
+                cells.append("<td></td>")
+        rows.append(f'<tr><th scope="row">{esc(fin)}</th>{"".join(cells)}</tr>')
+    tp = tone_pairs(corpus)
+    tnames = {"1": "1st", "2": "2nd", "3": "3rd", "4": "4th", "5": "neutral"}
+    tp_head = "".join(f'<th scope="col">+ {tnames[b]}</th>' for b in "12345")
+    tp_rows = []
+    for a in "1234":
+        tds = []
+        for b in "12345":
+            words = tp.get(a + b, [])
+            inner = "".join(f'<button class="tp-w" type="button" data-w="{esc(w)}"><span lang="zh">{esc(w)}</span><i>{esc(py)}</i></button>'
+                            for w, py in words[:2])
+            tds.append(f"<td>{inner}</td>")
+        tp_rows.append(f'<tr><th scope="row">{tnames[a]} tone</th>{"".join(tds)}</tr>')
+    vids = [v for v in (video_by_id("K5z2KzKvfts"), video_by_id("aHRpbTJNevI")) if v]
+    vid_html = f'<div class="vgrid pair-video">{"".join(video_card(v) for v in vids)}</div>' if vids else ""
+    ma = PINYIN.get("ma", {})
+    tone_demo = "".join(
+        f'<button class="py-tone" type="button" data-s="ma" data-t="{t}"><b>{mark_tone("ma", t)}</b><span lang="zh">{esc(ma.get(t, ""))}</span><i>{d}</i></button>'
+        for t, d in (("1", "high and level"), ("2", "rising"), ("3", "low, dipping"), ("4", "falling")))
+    n_clips = sum(len(v) for v in PINYIN.values())
+    body = f"""
+  <section class="about">
+    <h1>Pinyin chart with audio <span style="font-family:var(--serif);color:var(--red)">拼音表</span></h1>
+    <p>All {len(PINYIN)} Mandarin syllables in one table. Tap a syllable to hear it in each of its tones
+      ({n_clips} recordings), and hover to see a common character for each tone.</p>
+  </section>
+  <section class="lvl-intro py-intro">
+    <h2>The four tones</h2>
+    <p>The same syllable means different things in different tones. Tap to hear 妈 mother, 麻 hemp, 马 horse, 骂 to scold.</p>
+    <div class="py-tones">{tone_demo}</div>
+    {('<h2>Pronunciation lessons</h2><p>zh ch sh, j q x and z c s are where most learners get stuck. Two short lessons from the teacher behind this site:</p>' + vid_html) if vid_html else ''}
+  </section>
+  <h2 class="home-h py-h">Syllable chart <span class="zh">声母 × 韵母</span></h2>
+  <p class="videos-lead">Columns are initials (– means no initial), rows are finals. Empty cells are combinations that do not exist in Mandarin.</p>
+  <div class="cmp-wrap py-wrap"><table class="py-table"><thead><tr><th></th>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+  <section class="lvl-intro">
+    <h2>Tone pairs</h2>
+    <p>Most Chinese words have two syllables, so tones are really learned in pairs. Each cell has real words from the
+      readings on this site; tap to hear them. Two rules change what you hear: a 3rd tone before another 3rd tone is
+      spoken as a 2nd tone (你好 sounds like ní hǎo), and a 3rd tone before any other tone only dips, it does not rise again.</p>
+  </section>
+  <div class="cmp-wrap"><table class="cmp tp-table"><thead><tr><th></th>{tp_head}</tr></thead><tbody>{''.join(tp_rows)}</tbody></table></div>
+  <script>
+  (function(){{
+    var au=new Audio(), q=[];
+    function next(){{ if(!q.length) return; au.src=q.shift(); au.play().catch(function(){{}}); }}
+    au.addEventListener("ended", function(){{ setTimeout(next, 180); }});
+    function play(list){{ q=list.slice(); au.pause(); next(); }}
+    document.addEventListener("click", function(e){{
+      var b=e.target.closest(".py-cell,.py-tone,.tp-w"); if(!b) return;
+      document.querySelectorAll(".py-on").forEach(function(x){{ x.classList.remove("py-on"); }});
+      b.classList.add("py-on");
+      if(b.dataset.w) return play(["audio/w/"+encodeURIComponent(b.dataset.w)+".mp3"]);
+      play(b.dataset.t.split("").map(function(t){{ return "audio/py/"+encodeURIComponent(b.dataset.s)+t+".mp3"; }}));
+    }});
+  }})();
+  </script>"""
+    return page(f"Pinyin Chart with Audio: All Mandarin Syllables and Tones | {SITE['site_name']}",
+                f"Interactive pinyin chart: all {len(PINYIN)} Mandarin syllables with audio in every tone, the four "
+                f"tones, and tone pairs with real example words.", body, path="pinyin", ld=[crumbs("Pinyin chart")])
+
+
+# ---------- words by topic ----------
+
+def topic_words(texts):
+    by_slug = {t["slug"]: t for t in texts}
+    out = {}
+    for slug, k in TOPICS["texts"].items():
+        t = by_slug.get(slug)
+        if not t:
+            continue
+        for zh, py, en in t["vocab"]:
+            cur = out.setdefault(k, {}).get(zh)
+            if cur is None or t["level"] < cur[2]:
+                out[k][zh] = (py, en, t["level"], t)
+    return {k: v for k, v in out.items() if len(v) >= 12}
+
+
+def build_topic_words(k, words):
+    label = TOPICS["labels"].get(k, k)
+    rows = "".join(
+        f'<tr><th scope="row"><span lang="zh">{esc(zh)}</span></th><td>{esc(py)}</td><td>{esc(en)}</td>'
+        f'<td><span class="badge l{lv}">HSK {lv}</span></td>'
+        f'<td><a href="texts/{esc(t["slug"])}.html">{esc(t["title_zh"])}</a></td></tr>'
+        for zh, (py, en, lv, t) in sorted(words.items(), key=lambda x: (x[1][2], x[1][0])))
+    others = "".join(f'<a class="lvl-chip{" on" if kk == k else ""}" href="words-topic-{esc(kk)}.html">{esc(TOPICS["labels"].get(kk, kk))}</a>'
+                     for kk in TOPICS["labels"] if kk in TOPIC_WORDS)
+    body = f"""
+  <section class="about">
+    <h1>{esc(label)}: Chinese vocabulary <span style="font-family:var(--serif);color:var(--red)">主题词汇</span></h1>
+    <p>{len(words)} words about {esc(label.lower())}, taken from the key-word lists of the graded readings on this site
+      and sorted by HSK level. Each word links to the reading where it is used, so you can see it in a real sentence.</p>
+  </section>
+  <div class="topic-chips">{others}</div>
+  <div class="cmp-wrap"><table class="cmp tw-table"><thead><tr><th scope="col">Word</th><th scope="col">Pinyin</th>
+    <th scope="col">Meaning</th><th scope="col">Level</th><th scope="col">Reading</th></tr></thead><tbody>{rows}</tbody></table></div>"""
+    return page(f"{label} in Chinese: {len(words)} Words with Pinyin | {SITE['site_name']}",
+                f"{len(words)} Chinese words for {label.lower()} with pinyin, meaning, HSK level and a graded reading "
+                f"that uses each one.", body, path=f"words-topic-{k}", ld=[crumbs(f"{label} vocabulary")])
+
+
+def build_topics_index():
+    cards = "".join(
+        f'<a class="pcard" href="words-topic-{esc(k)}.html"><span class="pc-t">{esc(TOPICS["labels"].get(k, k))}</span>'
+        f'<span class="pc-s">{len(TOPIC_WORDS[k])} words</span></a>'
+        for k in TOPICS["labels"] if k in TOPIC_WORDS)
+    body = f"""
+  <section class="about">
+    <h1>Chinese vocabulary by topic <span style="font-family:var(--serif);color:var(--red)">主题词汇</span></h1>
+    <p>Words grouped by what they are about, from food and travel to work and ideas, each linked to a graded reading
+      that uses it. For words by HSK level, see the <a href="words.html">word lists</a>.</p>
+  </section>
+  <section class="pgrid">{cards}</section>"""
+    return page(f"Chinese Vocabulary by Topic | {SITE['site_name']}",
+                "Chinese vocabulary grouped by topic, with pinyin, meaning, HSK level and a graded reading for every word.",
+                body, path="topics", ld=[crumbs("Words by topic")])
+
+
+# ---------- idioms ----------
+
+def build_idioms(texts, corpus):
+    by_slug = {t["slug"]: t for t in texts}
+    stories = [(by_slug[s["slug"]], s["idiom"]) for s in IDIOMS["stories"] if s["slug"] in by_slug]
+    story_html = "".join(
+        f'<a class="pcard" href="texts/{esc(t["slug"])}.html"><span class="pc-w" lang="zh">{esc(i)}</span>'
+        f'<span class="pc-t">{esc(t["title_en"].replace("Idiom Story: ", ""))}</span>'
+        f'<span class="pc-m">HSK {t["level"]} reading</span></a>' for t, i in stories)
+    items = []
+    for w in IDIOMS["idioms"]:
+        hits = corpus.idx.get(w)
+        if not hits:
+            continue
+        t, s, i = hits[0]
+        py, en = s["t"][i][1], re.sub(r"\s*\(idiom\)", "", s["t"][i][2])
+        items.append((t["level"], py, w, en, t, s, i))
+    items.sort(key=lambda x: (x[0], x[1]))
+    groups = {}
+    for it in items:
+        groups.setdefault(it[0], []).append(it)
+    sec = []
+    for lv, its in sorted(groups.items()):
+        lis = "".join(
+            f'<li class="idm" id="i-{esc(w)}"><div class="idm-h"><h3 lang="zh">{esc(w)}</h3><span class="idm-py">{esc(py)}</span>'
+            f'<span class="idm-en">{esc(en)}</span></div><ul class="exlist">{ex_html(t, s, i)}</ul></li>'
+            for _, py, w, en, t, s, i in its)
+        sec.append(f'<h2>Idioms in HSK {lv} readings <span class="lt-n">{len(its)}</span></h2><ul class="idm-list">{lis}</ul>')
+    body = f"""
+  <section class="about">
+    <h1>Chinese idioms (chengyu) and their stories <span style="font-family:var(--serif);color:var(--red)">成语</span></h1>
+    <p>Chengyu are four-character idioms, many of them the one-line summary of an old story. Start with the stories,
+      told as graded readings, then browse the {len(items)} idioms that appear in the readings on this site, each
+      with the sentence it is used in.</p>
+  </section>
+  <h2 class="home-h">Idiom stories <span class="zh">成语故事</span></h2>
+  <section class="pgrid">{story_html}</section>
+  <section class="lvl-intro idm-body">{''.join(sec)}</section>"""
+    return page(f"Chinese Idioms (Chengyu) with Stories and Examples | {SITE['site_name']}",
+                f"Chinese idioms explained: {len(stories)} chengyu stories as graded readings and {len(items)} idioms with "
+                f"pinyin, meaning and a real example sentence.", body, path="idioms", ld=[crumbs("Chinese idioms")])
+
+
+# ---------- festivals ----------
+
+def build_festivals(texts):
+    by_slug = {t["slug"]: t for t in texts}
+    nav = "".join(f'<a class="lvl-chip" href="#{esc(f["id"])}"><span lang="zh">{esc(f["zh"])}</span></a>' for f in FESTIVALS)
+    secs = []
+    for f in FESTIVALS:
+        gr = "".join(f'<tr><th scope="row" lang="zh">{esc(z)}</th><td>{esc(p)}</td><td>{esc(e)}</td></tr>' for z, p, e in f["greetings"])
+        wd = "".join(f'<tr><th scope="row" lang="zh">{esc(z)}</th><td>{esc(p)}</td><td>{esc(e)}</td></tr>' for z, p, e in f["words"])
+        rd = [by_slug[s] for s in f.get("readings", []) if s in by_slug]
+        rd_html = ("<p class='fe-read'><b>Read about it:</b> " + " · ".join(
+            f'<a href="texts/{esc(t["slug"])}.html">{esc(t["title_zh"])} {esc(t["title_en"])} (HSK {t["level"]})</a>' for t in rd) + "</p>") if rd else ""
+        vid = video_by_id(f.get("video", "")) if f.get("video") else None
+        v_html = f'<div class="vgrid pair-video">{video_card(vid)}</div>' if vid else ""
+        secs.append(f"""
+      <section class="fest" id="{esc(f['id'])}">
+        <h2><span lang="zh">{esc(f['zh'])}</span> {esc(f['en'])} <span class="fe-py">{esc(f['py'])}</span></h2>
+        <p class="fe-when"><b>When:</b> {esc(f['when'])}</p>
+        <p>{esc(f['about'])}</p>
+        {('<h3>What to say</h3><table class="fe-t">' + gr + '</table>') if gr else ''}
+        <h3>Words</h3><table class="fe-t">{wd}</table>
+        {rd_html}{v_html}
+      </section>""")
+    body = f"""
+  <section class="about">
+    <h1>Chinese festivals: greetings and words <span style="font-family:var(--serif);color:var(--red)">节日</span></h1>
+    <p>The main Chinese festivals, when they fall, what people say and the words you will hear, with graded readings
+      and videos where we have them. Most traditional festivals follow the lunar calendar, so their Western dates move
+      from year to year.</p>
+  </section>
+  <div class="topic-chips">{nav}</div>
+  <div class="lvl-intro fest-body">{''.join(secs)}</div>"""
+    return page(f"Chinese Festivals: Greetings, Words and When They Are | {SITE['site_name']}",
+                "Chinese festivals explained for learners: Spring Festival, Lantern, Qingming, Dragon Boat, Qixi, Mid-Autumn "
+                "and more, with greetings, key words and graded readings.", body, path="festivals", ld=[crumbs("Chinese festivals")])
+
+
+TOPIC_WORDS = {}
 
 def word_examples(texts, words):
     """{'s': sentence pool (each [tokenPairs, en, slug, title_zh]),
@@ -1981,6 +2477,18 @@ def main():
     open(os.path.join(OUT, "graded-readers.html"), "w", encoding="utf-8").write(
         build_graded_readers(texts))
     open(os.path.join(OUT, "quiz.html"), "w", encoding="utf-8").write(build_quiz_index(texts))
+    corpus = Corpus(texts)
+    open(os.path.join(OUT, "pairs.html"), "w", encoding="utf-8").write(build_pairs_index())
+    for pr in PAIRS:
+        open(os.path.join(OUT, f"pairs-{pr['id']}.html"), "w", encoding="utf-8").write(build_pair(corpus, pr))
+    if PINYIN:
+        open(os.path.join(OUT, "pinyin.html"), "w", encoding="utf-8").write(build_pinyin(corpus))
+    TOPIC_WORDS.update(topic_words(texts))
+    open(os.path.join(OUT, "topics.html"), "w", encoding="utf-8").write(build_topics_index())
+    for k, words in TOPIC_WORDS.items():
+        open(os.path.join(OUT, f"words-topic-{k}.html"), "w", encoding="utf-8").write(build_topic_words(k, words))
+    open(os.path.join(OUT, "idioms.html"), "w", encoding="utf-8").write(build_idioms(texts, corpus))
+    open(os.path.join(OUT, "festivals.html"), "w", encoding="utf-8").write(build_festivals(texts))
     for lvl in range(1, 7):
         open(os.path.join(OUT, f"quiz-hsk{lvl}.html"), "w", encoding="utf-8").write(
             build_quiz_level(texts, lvl))
@@ -2038,6 +2546,10 @@ def main():
         urls += [("hsk-levels", "0.7", newest), ("graded-readers", "0.6", os.path.getmtime(__file__)),
                  ("quiz", "0.6", newest)]
         urls += [(f"quiz-hsk{lvl}", "0.7", newest) for lvl in range(1, 7)]
+        urls += [("pinyin", "0.8", newest), ("pairs", "0.7", newest), ("topics", "0.6", newest),
+                 ("idioms", "0.7", newest), ("festivals", "0.7", newest)]
+        urls += [(f"pairs-{pr['id']}", "0.7", newest) for pr in PAIRS]
+        urls += [(f"words-topic-{k}", "0.6", newest) for k in TOPIC_WORDS]
         for lvl in range(1, 7):
             urls.append((f"words-hsk{lvl}", "0.6", newest))
             urls.append((f"grammar-hsk{lvl}", "0.6", newest))

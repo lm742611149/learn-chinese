@@ -1031,3 +1031,21 @@
   }
   start();
 })();
+
+
+/* ---------- Explore dropdown: click/tap toggle (hover and focus are CSS) ---------- */
+(function () {
+  var d = document.getElementById("nav-drop"), b = document.getElementById("nav-drop-btn");
+  if (!d || !b) return;
+  b.addEventListener("click", function (e) {
+    e.stopPropagation();
+    var open = d.classList.toggle("open");
+    b.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  document.addEventListener("click", function (e) {
+    if (!d.contains(e.target)) { d.classList.remove("open"); b.setAttribute("aria-expanded", "false"); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { d.classList.remove("open"); b.setAttribute("aria-expanded", "false"); }
+  });
+})();

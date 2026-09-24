@@ -1,50 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://readmandarin.com/</loc><lastmod>2026-09-06</lastmod><priority>1.0</priority></url>
-  <url><loc>https://readmandarin.com/words</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/grammar</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/</loc><lastmod>2026-09-24</lastmod><priority>1.0</priority></url>
+  <url><loc>https://readmandarin.com/words</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/grammar</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
   <url><loc>https://readmandarin.com/about</loc><lastmod>2026-09-24</lastmod><priority>0.5</priority></url>
   <url><loc>https://readmandarin.com/videos</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/hsk-levels</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/hsk-levels</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
   <url><loc>https://readmandarin.com/graded-readers</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/quiz</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk1</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk2</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk3</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk4</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk5</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/quiz-hsk6</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk1</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk1</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk2</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk2</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk3</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk3</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk4</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk4</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk5</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk5</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/words-hsk6</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-hsk6</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-topics</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://readmandarin.com/grammar-cause</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-contrast</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-condition</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-addition</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-sequence</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-aspect</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-complement</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-ba-bei</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-describe</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-compare</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-questions</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-modal</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-place</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://readmandarin.com/grammar-polite</loc><lastmod>2026-09-06</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/quiz</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk1</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk2</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk3</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk4</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk5</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/quiz-hsk6</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pinyin</loc><lastmod>2026-09-24</lastmod><priority>0.8</priority></url>
+  <url><loc>https://readmandarin.com/pairs</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/topics</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/idioms</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/festivals</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-yuding</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-zher-zheli</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-dong-zuo</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-er-liang</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-hui-neng-keyi</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-le-guo</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-de-de-de</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-zai-you</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-zai-zhengzai</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-zhidao-renshi</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-haishi-huozhe</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-youdianr-yidianr</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-yihou-houlai</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-zen-zhen</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/pairs-na-ji</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-food</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-shopping</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-transport</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-work</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-family</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-phrases</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-time</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-school</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-health</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-weather</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-home</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-festivals</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-tech</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-society</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-ideas</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-topic-history</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk1</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk1</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk2</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk2</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk3</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk3</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk4</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk4</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk5</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk5</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/words-hsk6</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-hsk6</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-topics</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://readmandarin.com/grammar-cause</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-contrast</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-condition</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-addition</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-sequence</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-aspect</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-complement</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-ba-bei</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-describe</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-compare</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-questions</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-modal</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-place</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
+  <url><loc>https://readmandarin.com/grammar-polite</loc><lastmod>2026-09-24</lastmod><priority>0.6</priority></url>
   <url><loc>https://readmandarin.com/hsk1</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk2</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk3</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://readmandarin.com/hsk4</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
+  <url><loc>https://readmandarin.com/hsk4</loc><lastmod>2026-09-24</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk5</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/hsk6</loc><lastmod>2026-08-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk1-apples-and-rice</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
@@ -328,7 +364,11 @@
   <url><loc>https://readmandarin.com/texts/hsk4-high-speed-rail</loc><lastmod>2026-07-09</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-holiday-plans</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-hotpot-and-friends</loc><lastmod>2026-07-18</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk4-idiom-dotting-the-eyes</loc><lastmod>2026-09-24</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk4-idiom-frog-in-the-well</loc><lastmod>2026-09-24</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk4-idiom-mending-the-pen</loc><lastmod>2026-09-24</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-idiom-snake-legs</loc><lastmod>2026-07-18</lastmod><priority>0.9</priority></url>
+  <url><loc>https://readmandarin.com/texts/hsk4-idiom-waiting-for-rabbits</loc><lastmod>2026-09-24</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-interview-tips</loc><lastmod>2026-07-10</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-kungfu-movies</loc><lastmod>2026-08-15</lastmod><priority>0.9</priority></url>
   <url><loc>https://readmandarin.com/texts/hsk4-learning-to-drive</loc><lastmod>2026-08-17</lastmod><priority>0.9</priority></url>

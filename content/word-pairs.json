@@ -1,0 +1,258 @@
+{
+  "_note": "Easily confused Chinese words. Each pair gets a page at /pairs-<id>. 'match' tells build.py which corpus tokens count as an example (optional pinyin filter, so 得 de is not confused with 得 dé). Hand examples are shown when the readings have none. 'quiz': true builds fill-in questions from the readings; only for pairs where swapping the word is reliably wrong. Written 2026-09-24.",
+  "pairs": [
+    {
+      "id": "yuding",
+      "words": ["预订", "预定"],
+      "pinyin": ["yùdìng", "yùdìng"],
+      "title": "预订 vs 预定: book or schedule?",
+      "short": "Same sound, different character: booking something vs fixing a plan.",
+      "level": 4,
+      "video": "pXMyFrP9ZXw",
+      "summary": "Both are pronounced yùdìng. 预订 means to book or order something in advance, so it is held for you: a hotel room, a table, tickets, a cake. 预定 means to fix or schedule something in advance: a plan, a date, a meeting time. Rule of thumb: if you are reserving a thing or a service, write 预订; if you are setting a time or a plan, write 预定.",
+      "points": [
+        ["预订", "book / reserve / order ahead: 预订房间, 预订机票, 预订座位"],
+        ["预定", "schedule / fix ahead: 预定时间, 按预定计划, 预定下周开会"]
+      ],
+      "examples": {
+        "预订": [["我在网上预订了一个房间。", "I booked a room online."], ["周末人多，最好先预订座位。", "It's busy at the weekend, so it's best to book a table first."]],
+        "预定": [["会议预定在下周三上午。", "The meeting is scheduled for next Wednesday morning."], ["飞机按预定时间起飞了。", "The plane took off at the scheduled time."]]
+      },
+      "match": {"预订": {}, "预定": {}},
+      "quiz": false
+    },
+    {
+      "id": "zher-zheli",
+      "words": ["这儿", "这里"],
+      "pinyin": ["zhèr", "zhèlǐ"],
+      "title": "这儿 vs 这里 (and 哪儿 vs 哪里): here and where",
+      "short": "They mean the same thing; the difference is where you are.",
+      "level": 1,
+      "video": "V5cuuL2BsDQ",
+      "summary": "这儿 and 这里 both mean \"here\"; 那儿 and 那里 both mean \"there\"; 哪儿 and 哪里 both mean \"where\". The 儿 forms are typical of northern, spoken Mandarin (Beijing); the 里 forms are more common in the south, in Taiwan and in writing. Use either and you will be understood everywhere. One fixed exception: when someone praises you, the modest reply is 哪里哪里, never 哪儿哪儿.",
+      "points": [
+        ["这儿 / 哪儿", "northern and colloquial: 你在哪儿？我在这儿。"],
+        ["这里 / 哪里", "southern, Taiwan and written Chinese; also the modest reply 哪里哪里"]
+      ],
+      "examples": {},
+      "match": {"这儿": {}, "这里": {}},
+      "quiz": false
+    },
+    {
+      "id": "dong-zuo",
+      "words": ["栋", "座"],
+      "pinyin": ["dòng", "zuò"],
+      "title": "栋 vs 座: measure words for buildings",
+      "short": "How to say your building and unit, and which measure word goes with a building.",
+      "level": 4,
+      "video": "8vAWdeSN3X8",
+      "summary": "Both 栋 and 座 are measure words for buildings. 栋 is used for houses and buildings, and in many cities it is also the number of a residential building in a compound: 3栋 is Building 3. 座 is a broader measure word for large, fixed things: buildings, mountains, bridges, towers, even cities (一座山, 一座桥, 一座城市); office complexes often label their towers A座, B座. In an address, 单元 (dānyuán) is the entrance or stairwell of a building, so 3栋2单元501 is Building 3, Entrance 2, Flat 501.",
+      "points": [
+        ["栋", "houses and buildings; building numbers in residential compounds: 一栋楼, 5栋"],
+        ["座", "large fixed things: 一座山, 一座桥, 一座城市; office towers: A座"]
+      ],
+      "examples": {
+        "栋": [["我住在8栋3单元。", "I live in Building 8, Entrance 3."], ["这栋楼有二十层。", "This building has twenty floors."]],
+        "座": [["我们公司在B座十二楼。", "Our company is on the 12th floor of Tower B."], ["这座桥已经有一百多年了。", "This bridge is more than a hundred years old."]]
+      },
+      "match": {"栋": {}, "座": {}},
+      "quiz": false
+    },
+    {
+      "id": "er-liang",
+      "words": ["二", "两"],
+      "pinyin": ["èr", "liǎng"],
+      "title": "二 vs 两: two ways to say two",
+      "short": "二 for counting and numbers, 两 before a measure word.",
+      "level": 1,
+      "summary": "二 is the number two when you count, read out numbers or give an order: 一、二、三, 十二, 二十, 第二, phone numbers. 两 means \"two of something\" and goes in front of a measure word: 两个人, 两本书, 两杯咖啡. With 千, 万 and 亿 both appear, but 两千, 两万 are the everyday choice.",
+      "points": [
+        ["二", "counting, digits inside numbers, ordinals: 二, 十二, 二十, 第二, 二楼"],
+        ["两", "two + measure word: 两个, 两本, 两次; also 两千, 两万"]
+      ],
+      "examples": {},
+      "match": {"二": {"py": "èr"}, "两": {"py": "liǎng"}},
+      "quiz": false
+    },
+    {
+      "id": "hui-neng-keyi",
+      "words": ["会", "能", "可以"],
+      "pinyin": ["huì", "néng", "kěyǐ"],
+      "title": "会 vs 能 vs 可以: can, three ways",
+      "short": "A skill you learned, an ability or circumstance, or permission.",
+      "level": 2,
+      "summary": "All three translate as \"can\". 会 is a skill you have learned (我会说汉语, 我会游泳) and also \"will probably\" (明天会下雨). 能 is ability or capacity, or whether circumstances allow it (我能游一千米, 今天我不能来). 可以 is permission or \"it is possible / OK to\" (这里可以拍照吗？). In questions asking for permission, 可以 and 能 overlap: 我能进来吗 and 我可以进来吗 are both fine.",
+      "points": [
+        ["会", "learned skill: 会开车; likelihood: 明天会下雨"],
+        ["能", "ability, capacity, circumstances: 能吃三碗饭, 今天不能去"],
+        ["可以", "permission, it is OK to: 可以坐这儿吗？"]
+      ],
+      "examples": {},
+      "match": {"会": {"py": "huì"}, "能": {}, "可以": {}},
+      "quiz": false
+    },
+    {
+      "id": "le-guo",
+      "words": ["了", "过"],
+      "pinyin": ["le", "guo"],
+      "title": "了 vs 过: done, or ever done",
+      "short": "Completion or change vs experience at some point in the past.",
+      "level": 2,
+      "summary": "After a verb, 了 marks that the action is completed (我吃了早饭), and at the end of a sentence it marks a change (下雨了, 我饿了). 过 marks experience: you have done it at least once at some unspecified time (我去过北京 — I have been to Beijing). Negate 了 with 没 and drop the 了 (我没吃); negate 过 with 没 and keep the 过 (我没去过).",
+      "points": [
+        ["了", "completed action: 我买了一本书; new situation: 天黑了"],
+        ["过", "experience, have ever: 你吃过火锅吗？ 我没去过上海。"]
+      ],
+      "examples": {},
+      "match": {"了": {"py": "le"}, "过": {"py": "guo"}},
+      "quiz": false
+    },
+    {
+      "id": "de-de-de",
+      "words": ["的", "得", "地"],
+      "pinyin": ["de", "de", "de"],
+      "title": "的 vs 得 vs 地: three particles, one sound",
+      "short": "Before a noun, after a verb, before a verb.",
+      "level": 2,
+      "summary": "All three are pronounced de. 的 links a description to a noun: 我的书, 漂亮的衣服. 地 turns a description into a way of doing, before a verb: 慢慢地走, 高兴地说. 得 comes after a verb or adjective and introduces how well or how much: 跑得很快, 说得不错, 累得不想动. A quick test: noun after it → 的; verb after it → 地; verb before it → 得.",
+      "points": [
+        ["的", "description + noun: 红色的车, 妈妈做的菜"],
+        ["地", "manner + verb: 认真地学习, 慢慢地说"],
+        ["得", "verb + degree or result: 写得很好, 忙得没时间吃饭"]
+      ],
+      "examples": {},
+      "match": {"的": {"py": "de"}, "得": {"py": "de"}, "地": {"py": "de"}},
+      "quiz": true
+    },
+    {
+      "id": "zai-you",
+      "words": ["再", "又"],
+      "pinyin": ["zài", "yòu"],
+      "title": "再 vs 又: again, before or after it happens",
+      "short": "再 for an again that has not happened yet, 又 for one that already has.",
+      "level": 2,
+      "summary": "Both mean \"again\". 再 is for a repetition that has not happened yet: a plan, a request, a suggestion (请再说一遍, 明天再来). 又 is for a repetition that has already happened (他昨天又迟到了), and for things that regularly recur, even in the future (明天又是星期一). 再 also means \"then, and only then\" (吃完饭再走).",
+      "points": [
+        ["再", "not yet happened: 再来一杯, 我们下次再去; then: 做完作业再玩"],
+        ["又", "already happened: 他又来了; regular recurrence: 又到周末了"]
+      ],
+      "examples": {},
+      "match": {"再": {"py": "zài"}, "又": {}},
+      "quiz": true
+    },
+    {
+      "id": "zai-zhengzai",
+      "words": ["在", "正在"],
+      "pinyin": ["zài", "zhèngzài"],
+      "title": "在 vs 正在: doing it now",
+      "short": "Both mark an action in progress; 正在 stresses right at this moment.",
+      "level": 2,
+      "summary": "Put 在 or 正在 before a verb to say an action is in progress: 我在吃饭, 我正在吃饭. 正在 puts more weight on \"right at this moment\". 在 is also the verb \"to be at\" and the preposition \"at\" (我在家, 在学校学习), which 正在 is not. Adding 呢 at the end is common in speech: 他在睡觉呢.",
+      "points": [
+        ["在", "in progress: 你在做什么？; also at / to be at: 在家, 在北京工作"],
+        ["正在", "right now, at this moment: 我正在开会，一会儿给你打电话"]
+      ],
+      "examples": {},
+      "match": {"在": {"py": "zài"}, "正在": {}},
+      "quiz": false
+    },
+    {
+      "id": "zhidao-renshi",
+      "words": ["知道", "认识"],
+      "pinyin": ["zhīdào", "rènshi"],
+      "title": "知道 vs 认识: know a fact or know a person",
+      "short": "Knowing information vs being acquainted with someone or recognising something.",
+      "level": 1,
+      "summary": "知道 is knowing a fact or a piece of information, or knowing of someone (我知道他叫什么名字). 认识 is being acquainted with a person, having met them, and also recognising something like characters, a place or a road (我认识他, 我认识这个字). You can 知道 a famous actor without 认识 them.",
+      "points": [
+        ["知道", "facts, information, knowing of: 我不知道, 你知道他住在哪儿吗？"],
+        ["认识", "acquainted with, recognise: 认识你很高兴, 我不认识这个字"]
+      ],
+      "examples": {},
+      "match": {"知道": {}, "认识": {}},
+      "quiz": false
+    },
+    {
+      "id": "haishi-huozhe",
+      "words": ["还是", "或者"],
+      "pinyin": ["háishi", "huòzhě"],
+      "title": "还是 vs 或者: or, in questions and in statements",
+      "short": "还是 when you are asking someone to choose, 或者 when you are not.",
+      "level": 2,
+      "summary": "Both translate as \"or\". Use 还是 in a question that asks someone to pick one option: 你喝茶还是咖啡？ Use 或者 in a statement, when either option is fine: 喝茶或者咖啡都可以. 还是 also means \"still\" and \"had better\" (还是早点睡吧), which 或者 never does.",
+      "points": [
+        ["还是", "or in a choice question: 你今天去还是明天去？"],
+        ["或者", "or in a statement: 周末我看书或者去公园"]
+      ],
+      "examples": {},
+      "match": {"还是": {}, "或者": {}},
+      "quiz": false
+    },
+    {
+      "id": "youdianr-yidianr",
+      "words": ["有点儿", "一点儿"],
+      "pinyin": ["yǒudiǎnr", "yìdiǎnr"],
+      "title": "有点儿 vs 一点儿: a little, before or after",
+      "short": "有点儿 before an adjective (often a complaint), 一点儿 after it or with a noun.",
+      "level": 2,
+      "summary": "有点儿 goes before an adjective or verb and usually signals something slightly unwelcome: 有点儿贵, 有点儿累. 一点儿 goes after an adjective to compare or ask for a change (便宜一点儿, 快一点儿), or before a noun for a small amount (喝一点儿水). So a shopper says 有点儿贵，能便宜一点儿吗？",
+      "points": [
+        ["有点儿", "before adj / verb, often negative: 今天有点儿冷"],
+        ["一点儿", "after adj to compare: 大一点儿; before a noun: 一点儿钱"]
+      ],
+      "examples": {},
+      "match": {"有点儿": {}, "一点儿": {}},
+      "quiz": false
+    },
+    {
+      "id": "yihou-houlai",
+      "words": ["以后", "后来"],
+      "pinyin": ["yǐhòu", "hòulái"],
+      "title": "以后 vs 后来: after, later, afterwards",
+      "short": "以后 works for past and future; 后来 only tells what happened next in the past.",
+      "level": 3,
+      "summary": "以后 means after or later, for the future or the past, and can follow a time or an event: 下班以后, 三年以后, 以后我想去中国. 后来 means afterwards and is only used to tell what happened next in a past story; it stands on its own at the start of a clause: 后来我们成了好朋友. You cannot say 下班后来.",
+      "points": [
+        ["以后", "after X, from now on, later (past or future): 吃饭以后, 以后见"],
+        ["后来", "afterwards, in a past story: 后来他搬走了"]
+      ],
+      "examples": {},
+      "match": {"以后": {}, "后来": {}},
+      "quiz": false
+    },
+    {
+      "id": "zen-zhen",
+      "words": ["怎么", "真"],
+      "pinyin": ["zěnme", "zhēn"],
+      "title": "zěn vs zhēn: 怎 and 真, a pronunciation pair",
+      "short": "z vs zh and third tone vs first tone, the two differences that keep these apart.",
+      "level": 1,
+      "video": "ZqMotZCfuwk",
+      "summary": "怎 (zěn, as in 怎么 zěnme, how) and 真 (zhēn, really) differ in two ways. The initial: z is made with the tongue tip behind the top teeth, zh with the tongue tip curled back behind the gum ridge. The tone: 怎 is third tone (low, dipping), 真 is first tone (high and level). Get either one wrong and 怎么样 can sound like 真么样.",
+      "points": [
+        ["怎么 zěnme", "how, why: 怎么走？ 你怎么了？ (z, third tone)"],
+        ["真 zhēn", "really, truly: 真好, 真的吗？ (zh, first tone)"]
+      ],
+      "examples": {},
+      "match": {"怎么": {}, "真": {}},
+      "quiz": false
+    },
+    {
+      "id": "na-ji",
+      "words": ["哪", "几"],
+      "pinyin": ["nǎ", "jǐ"],
+      "title": "哪 vs 几: which or how many",
+      "short": "哪 asks which one, 几 asks how many (a small number).",
+      "level": 1,
+      "video": "bjK99oDoyc4",
+      "summary": "Both go before a measure word. 哪 asks which one: 你要哪个？ 哪天？ 几 asks how many and expects a small number, usually under ten: 你有几个孩子？ 几点了？ For bigger or unknown amounts use 多少: 多少钱？ 你们学校有多少学生？",
+      "points": [
+        ["哪 nǎ", "which: 哪个, 哪本书, 哪国人"],
+        ["几 jǐ", "how many (small numbers): 几个人, 几点, 星期几"]
+      ],
+      "examples": {},
+      "match": {"哪": {}, "几": {}},
+      "quiz": false
+    }
+  ]
+}

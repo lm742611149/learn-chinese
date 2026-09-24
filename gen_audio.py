@@ -60,6 +60,15 @@ def collect_jobs():
                     words.add(tok[0])
         for v in t["vocab"]:
             words.add(v[0])
+    # pinyin chart: one clip per syllable+tone, voiced from a representative
+    # character (content/pinyin.json) -> media/audio/py/<syllable><tone>.mp3
+    pj = os.path.join(ROOT, "content", "pinyin.json")
+    if os.path.exists(pj):
+        pd = os.path.join(OUT, "py")
+        os.makedirs(pd, exist_ok=True)
+        for syl, tones in json.load(open(pj, encoding="utf-8"))["syllables"].items():
+            for tone, ch in tones.items():
+                jobs.append((ch, os.path.join(pd, f"{syl}{tone}.mp3")))
     wd = os.path.join(OUT, "w")
     os.makedirs(wd, exist_ok=True)
     for w in sorted(words):
