@@ -1251,3 +1251,57 @@ html[data-theme="dark"] .tb-rate.on { background-color: #3c241c; color: #ff9a7d;
 .g-src a:hover { border-bottom-color: currentColor; }
 html[data-theme=dark] .g-src { color: #b0a081; border-top-color: #4a3f28; }
 html[data-theme=dark] .g-src a { color: #d8c495; }
+
+/* ---------- grammar entries: pattern is now an h3 with an anchor ---------- */
+h3.gp { margin: 0; line-height: 1.45; }
+.gitem .gq { margin: 7px 0 0; font-weight: 600; font-size: .93rem; color: #8a6820; }
+html[data-theme="dark"] .gitem .gq { color: #d8a949; }
+.gitem:target { outline: 2px solid var(--red); outline-offset: 3px; }
+
+/* ---------- level pages: readings by topic ---------- */
+.lvl-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 26px; margin-bottom: 10px; }
+.lvl-topic h3 { font-size: .92rem; margin: 14px 0 6px; color: var(--ink); }
+.lvl-topic .lt-n { color: var(--muted); font-weight: 400; font-size: .8rem; margin-left: 4px; }
+.lvl-topic ul { list-style: none; margin: 0; padding: 0; }
+.lvl-topic li { font-size: .88rem; line-height: 1.55; padding: 2px 0; }
+.lvl-topic a { color: var(--ink-2); text-decoration: none; }
+.lvl-topic a:hover { color: var(--red); }
+.lvl-topic .lt-zh { font-family: var(--serif); color: var(--muted); font-size: .85rem; }
+@media (max-width: 560px) { .lvl-topics { grid-template-columns: 1fr; } }
+
+/* ---------- quiz pages ---------- */
+.qz-intro { margin-top: 26px; }
+.qz-list { max-width: 660px; margin: 10px auto 40px; padding-left: 26px; }
+.qz-item { padding: 16px 0 14px; border-bottom: 1px solid var(--line); }
+.qz-item::marker { color: var(--muted); font-weight: 700; }
+.qz-q { margin: 0 0 8px; font-size: 1rem; line-height: 1.5; color: var(--ink); }
+.qz-a { margin: 0 0 8px; padding-left: 22px; font-size: .93rem; color: var(--ink-2); line-height: 1.7; }
+.qz-item details summary { cursor: pointer; font-size: .86rem; font-weight: 700; color: var(--red); }
+.qz-item details p { margin: 6px 0 0; font-size: .92rem; color: var(--ink-2); }
+.qz-src { margin-top: 8px; font-size: .8rem; color: var(--muted); }
+.qz-src a { color: var(--muted); }
+
+/* ---------- comparison tables (levels, graded readers) ---------- */
+.cmp-wrap { overflow-x: auto; margin: 0 0 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--card, #fff); }
+.cmp { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 760px; }
+.cmp th, .cmp td { padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.cmp thead th { font-size: .78rem; color: var(--muted); font-weight: 700; background: var(--paper-2); }
+.cmp tbody tr:last-child th, .cmp tbody tr:last-child td { border-bottom: none; }
+.cmp tbody th { white-space: nowrap; border-left: 4px solid var(--sc, transparent); }
+.cmp tbody th a { color: var(--ink); text-decoration: none; font-weight: 800; }
+.cmp tbody th span { display: block; font-family: var(--serif); color: var(--muted); font-weight: 400; font-size: .8rem; }
+.cmp td a { color: var(--red); }
+.gr-table td { color: var(--ink-2); }
+.gr-self { background: color-mix(in srgb, var(--red) 6%, transparent); }
+.cmp-samples { list-style: none; margin: 0 0 10px; padding: 0; }
+.cmp-samples li { display: grid; grid-template-columns: 62px 1fr; gap: 2px 12px; padding: 12px 0;
+  border-bottom: 1px solid var(--line); }
+.cmp-samples .cmp-l { grid-row: span 3; font-weight: 800; font-size: .82rem; color: var(--sc); }
+.cmp-samples .cmp-zh { font-family: var(--serif); font-size: 1.08rem; color: var(--ink); line-height: 1.6; }
+.cmp-samples .cmp-en { font-size: .86rem; color: var(--ink-2); line-height: 1.55; }
+.cmp-samples a { font-size: .8rem; color: var(--red); }
+.gr-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 8px; }
+.gr-pick { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.gr-pick h3 { margin: 0 0 6px; font-size: .95rem; }
+.gr-pick p { margin: 0; font-size: .88rem; }
+@media (max-width: 719px) { .gr-picks { grid-template-columns: 1fr; } }

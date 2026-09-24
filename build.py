@@ -21,6 +21,9 @@ SITE_PATH = os.path.join(ROOT, "content", "site.json")
 SITE = json.load(open(SITE_PATH, encoding="utf-8"))
 # The teacher's YouTube uploads, snapshotted by fetch_youtube.py from the
 # channel's public RSS feed. Absent file = no videos page, no home block.
+TOPICS_PATH = os.path.join(ROOT, "content", "text-topics.json")
+TOPICS = (json.load(open(TOPICS_PATH, encoding="utf-8"))
+          if os.path.exists(TOPICS_PATH) else {"labels": {}, "texts": {}})
 VIDEOS_PATH = os.path.join(ROOT, "content", "videos.json")
 VIDEOS = (json.load(open(VIDEOS_PATH, encoding="utf-8"))
           if os.path.exists(VIDEOS_PATH) else [])
@@ -332,6 +335,11 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       <a href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a lesson</a>
       <a href="{rel}about.html">About</a>
       <a href="{rel}rss.xml">RSS</a>
+    </div>
+    <div style="margin-top:6px">
+      <a href="{rel}hsk-levels.html">HSK levels compared</a>
+      <a href="{rel}quiz.html">Comprehension questions</a>
+      <a href="{rel}graded-readers.html">Graded readers</a>
     </div>
   </footer>
 </div>
@@ -947,7 +955,8 @@ def level_extras(texts, mine, lvl):
         <p class="lq-q">{esc(qz["q"])}</p>
         <ol class="lq-a">{opts}</ol>
         <details><summary>Show answer</summary><p>{esc(ans)}</p></details>
-      </div>"""
+      </div>
+      <p><a href="quiz-hsk{lvl}.html">More HSK {lvl} comprehension questions with answers →</a></p>"""
 
     return f"""
       <h2>What an HSK {lvl} text looks like here</h2>
@@ -961,6 +970,33 @@ def level_extras(texts, mine, lvl):
         is on the <a href="grammar-hsk{lvl}.html">HSK {lvl} grammar page</a>.</p>
       <ul class="lvl-gram">{gram_html}</ul>
       {quiz_html}"""
+
+
+def level_topics(mine, lvl):
+    """'Readings by topic': the level's readings grouped by the hand-reviewed
+    topic map in content/text-topics.json. Answers 'HSK 1 text about my
+    family' style questions with a direct list instead of a 60-card grid."""
+    groups = {}
+    for t in mine:
+        k = TOPICS["texts"].get(t["slug"])
+        if k:
+            groups.setdefault(k, []).append(t)
+    if not groups:
+        return ""
+    order = list(TOPICS["labels"])
+    blocks = []
+    for k in sorted(groups, key=lambda k: (-len(groups[k]), order.index(k) if k in order else 99)):
+        links = "".join(
+            f'<li><a href="texts/{esc(t["slug"])}.html">{esc(t["title_en"])}'
+            f' <span class="lt-zh">{esc(t["title_zh"])}</span></a></li>'
+            for t in groups[k])
+        blocks.append(f'<div class="lvl-topic" id="topic-{esc(k)}">'
+                      f'<h3>{esc(TOPICS["labels"].get(k, k))} <span class="lt-n">{len(groups[k])}</span></h3>'
+                      f'<ul>{links}</ul></div>')
+    return f"""
+      <h2>HSK {lvl} readings by topic</h2>
+      <p>The same {len(mine)} readings, grouped by what they are about.</p>
+      <div class="lvl-topics">{''.join(blocks)}</div>"""
 
 
 def build_level(texts, lvl):
@@ -1001,6 +1037,11 @@ def build_level(texts, lvl):
         anything up, then tap the words you missed, then listen and read along a second
         time. Five minutes a day beats an hour on Sunday.</p>
       {level_extras(texts, mine, lvl) if lvl >= 4 else ""}
+      <p class="lvl-how"><strong>Practice questions:</strong> every reading ends with a
+        three-question comprehension check. A sample of them, with answers, is on the
+        <a href="quiz-hsk{lvl}.html">HSK {lvl} reading comprehension questions</a> page.
+        How this level compares with the others: <a href="hsk-levels.html">HSK 1-6 side by side</a>.</p>
+      {level_topics(mine, lvl)}
 
       <h2>HSK {lvl} questions</h2>
       <div class="faq">{faq_html}</div>
@@ -1064,6 +1105,278 @@ def build_level(texts, lvl):
                 f"tap-to-translate and quizzes.")
     return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
                 desc, body, path=f"hsk{lvl}", ld=ld)
+
+
+# ---------------------------------------------------------------------------
+# Answer pages. Bing's query log shows Copilot asking for "HSK N reading
+# comprehension sample questions", "HSK 1 2 3 compared", "graded readers for
+# HSK 5". Each page below answers one of those directly; everything except the
+# third-party reader list is computed from the readings themselves.
+# ---------------------------------------------------------------------------
+
+QUIZ_PER_LEVEL = 30
+
+
+def pick_quiz(mine):
+    """Up to QUIZ_PER_LEVEL questions, one per reading, spread across topics
+    (round-robin) so the page is not thirty questions about food."""
+    groups = {}
+    for t in mine:
+        if t.get("quiz"):
+            groups.setdefault(TOPICS["texts"].get(t["slug"], "_"), []).append(t)
+    picked, i = [], 0
+    while len(picked) < QUIZ_PER_LEVEL and any(groups.values()):
+        for k in sorted(groups):
+            if groups[k] and len(picked) < QUIZ_PER_LEVEL:
+                t = groups[k].pop(0)
+                # English question stems only: a few older readings wrote the
+                # quiz in Chinese, which a sample page for English speakers
+                # should not lead with. Start at a rotating offset for variety.
+                qs = t["quiz"][i % len(t["quiz"]):] + t["quiz"][:i % len(t["quiz"])]
+                q = next((x for x in qs if re.search(r"[A-Za-z]{3}", x.get("q", ""))
+                          and x.get("a") and 0 <= x.get("c", 0) < len(x["a"])), None)
+                if q:
+                    picked.append((t, q))
+        i += 1
+    return picked
+
+
+def build_quiz_level(texts, lvl):
+    mine = [t for t in sorted(texts, key=lambda x: x["slug"]) if t["level"] == lvl]
+    picked = pick_quiz(mine)
+    total_q = sum(len(t.get("quiz", [])) for t in mine)
+    items = []
+    for n, (t, q) in enumerate(picked, 1):
+        opts = "".join(f"<li>{esc(a)}</li>" for a in q["a"])
+        ans = q["a"][q["c"]]
+        items.append(f"""
+      <li class="qz-item">
+        <h3 class="qz-q">{esc(q["q"])}</h3>
+        <ol class="qz-a" type="A">{opts}</ol>
+        <details><summary>Answer</summary><p><b>{"ABC"[q["c"]]}.</b> {esc(ans)}</p></details>
+        <div class="qz-src">From <a href="texts/{esc(t["slug"])}.html">{esc(t["title_zh"])} — {esc(t["title_en"])}</a></div>
+      </li>""")
+    chips = "".join(
+        f'<a class="lvl-chip{" on" if i == lvl else ""}" data-l="{i}" href="quiz-hsk{i}.html">HSK {i}</a>'
+        for i in range(1, 7))
+    body = f"""
+  <article>
+    <div class="reader-banner" style="--sc:{LEVEL_COLORS[lvl]}" data-char="{LEVEL_NUM_ZH[lvl]}">
+      <span class="feat-tag">HSK {lvl} · {LEVEL_WORDS[lvl]}</span>
+      <h1>HSK {lvl} Reading Comprehension Questions <span class="lv-h-zh">阅读理解</span></h1>
+      <div class="b-en">{len(picked)} sample questions with answers, each taken from a free graded reading.</div>
+    </div>
+    <div class="levels"><div class="seg">{chips}</div></div>
+    <section class="lvl-intro qz-intro">
+      <p>Every HSK {lvl} reading on this site ends with three multiple-choice questions in
+        English about what the text actually said. There are {total_q} of them across
+        {len(mine)} readings; below is one from each of {len(picked)} readings, spread across
+        topics. Try to answer before opening the answer, then read the text it came from.</p>
+      <p>These are comprehension checks written for learners, not official HSK exam items.
+        The <a href="hsk{lvl}.html">HSK {lvl} reading practice</a> page has every reading.</p>
+    </section>
+    <ol class="qz-list">{''.join(items)}
+    </ol>
+  </article>"""
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    ld = [{
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE["site_name"], "item": f"{base}/"},
+            {"@type": "ListItem", "position": 2, "name": f"HSK {lvl} reading practice", "item": f"{base}/hsk{lvl}"},
+            {"@type": "ListItem", "position": 3, "name": "Comprehension questions"},
+        ]}]
+    return page(f"HSK {lvl} Reading Comprehension Questions with Answers ({len(picked)} Samples) | {SITE['site_name']}",
+                f"{len(picked)} HSK {lvl} reading comprehension sample questions with answers, each from a "
+                f"free graded Chinese reading with pinyin and audio.",
+                body, path=f"quiz-hsk{lvl}", ld=ld)
+
+
+def build_levels_compare(texts, gram):
+    rows, rows_ld = [], []
+    prev_vocab = 0
+    for lvl in range(1, 7):
+        mine = [t for t in sorted(texts, key=lambda x: x["slug"]) if t["level"] == lvl]
+        pairs = [_text_len(t) for t in mine]
+        sents = statistics.median(n for n, _ in pairs)
+        chars = statistics.median(c for _, c in pairs)
+        per = statistics.median(c / n for n, c in pairs if n)
+        s = LEVEL_SEO[lvl]
+        n_gram = sum(1 for g in gram.values() if g["lvl"] == lvl)
+        sample = next((t for t in mine if len([x for x in t["sentences"][0]["t"] if len(x) >= 2]) >= 5), mine[0])
+        zh = "".join(tok[0] for tok in sample["sentences"][0]["t"])
+        rows.append(f"""
+        <tr style="--sc:{LEVEL_COLORS[lvl]}">
+          <th scope="row"><a href="hsk{lvl}.html">HSK {lvl}</a><span>{LEVEL_ZH[lvl]}</span></th>
+          <td>{s["vocab"]:,}</td><td>{s["vocab"] - prev_vocab:,}</td><td>{esc(s["cefr"])}</td>
+          <td>{sents:.0f}</td><td>{chars:.0f}</td><td>{per:.0f}</td>
+          <td><a href="grammar-hsk{lvl}.html">{n_gram}</a></td>
+          <td><a href="hsk{lvl}.html">{len(mine)}</a></td>
+        </tr>""")
+        rows_ld.append((lvl, s, sents, chars, per, zh, sample))
+        prev_vocab = s["vocab"]
+    samples = "".join(
+        f'<li style="--sc:{LEVEL_COLORS[l]}"><span class="cmp-l">HSK {l}</span>'
+        f'<span class="cmp-zh" lang="zh">{esc(zh)}</span>'
+        f'<span class="cmp-en">{esc(smp["sentences"][0]["en"])}</span>'
+        f'<a href="texts/{esc(smp["slug"])}.html">{esc(smp["title_en"])} →</a></li>'
+        for l, s, _, _, _, zh, smp in rows_ld)
+    r1, r3, r4, r6 = rows_ld[0], rows_ld[2], rows_ld[3], rows_ld[5]
+    faqs = [
+        ("How many words do you need for each HSK level?",
+         "Under HSK 2.0: 150 words for HSK 1, 300 for HSK 2, 600 for HSK 3, 1,200 for HSK 4, "
+         "2,500 for HSK 5 and 5,000 for HSK 6. Each level roughly doubles the one before."),
+        ("How much harder do the texts get from level to level?",
+         f"On this site the typical HSK 1 reading is {r1[2]:.0f} sentences and {r1[3]:.0f} characters; "
+         f"HSK 3 is {r3[2]:.0f} sentences and {r3[3]:.0f} characters; HSK 6 is {r6[2]:.0f} sentences and "
+         f"{r6[3]:.0f} characters. The number of sentences barely changes. What grows is how much each "
+         f"sentence carries: about {r1[4]:.0f} characters per sentence at HSK 1, {r4[4]:.0f} at HSK 4 and "
+         f"{r6[4]:.0f} at HSK 6."),
+        ("Which HSK level is the biggest jump?",
+         "Most learners find HSK 3 and HSK 5 the hardest steps. HSK 3 is where sentences start carrying "
+         "complements and linking words; HSK 5 is where the register switches from spoken Chinese written "
+         "down to written Chinese."),
+        ("Does this use HSK 2.0 or HSK 3.0?",
+         "The word counts and levels here are HSK 2.0, the six-level scheme these readings are graded "
+         "against. The newer HSK 3.0 standard (2021) regroups the levels into nine bands with larger word "
+         "lists. If you are preparing for a specific exam sitting, check which version it uses."),
+    ]
+    faq_html = "".join(f'<details class="faq-q"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>'
+                       for q, a in faqs)
+    body = f"""
+  <section class="about cmp-head">
+    <h1>HSK 1 to 6 compared <span style="font-family:var(--serif);color:var(--red)">六级对比</span></h1>
+    <p>What changes from one HSK level to the next: the word list, the CEFR band it roughly
+      matches, and how long and dense the reading texts get. The text figures are medians
+      measured across the {len(texts)} graded readings on this site, not estimates.</p>
+  </section>
+  <div class="cmp-wrap">
+    <table class="cmp">
+      <thead><tr>
+        <th scope="col">Level</th><th scope="col">Words (total)</th><th scope="col">New words</th>
+        <th scope="col">CEFR (approx.)</th><th scope="col">Sentences per text</th>
+        <th scope="col">Characters per text</th><th scope="col">Characters per sentence</th>
+        <th scope="col">Grammar patterns</th><th scope="col">Readings</th>
+      </tr></thead>
+      <tbody>{''.join(rows)}
+      </tbody>
+    </table>
+  </div>
+  <section class="lvl-intro cmp-body">
+    <h2>The same kind of sentence at each level</h2>
+    <p>The opening line of one reading per level. Read down the list and the step up is easy to
+      see: longer clauses, more linking words, then written-register phrasing.</p>
+    <ul class="cmp-samples">{samples}</ul>
+    <h2>Questions</h2>
+    <div class="faq">{faq_html}</div>
+  </section>"""
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    ld = [{"@context": "https://schema.org", "@type": "FAQPage",
+           "mainEntity": [{"@type": "Question", "name": q,
+                           "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList",
+           "itemListElement": [
+               {"@type": "ListItem", "position": 1, "name": SITE["site_name"], "item": f"{base}/"},
+               {"@type": "ListItem", "position": 2, "name": "HSK levels compared"}]}]
+    return page(f"HSK 1-6 Levels Compared: Words, CEFR and Reading Difficulty | {SITE['site_name']}",
+                "HSK 1 to 6 side by side: vocabulary size, new words, approximate CEFR level, and how long "
+                "and dense the reading texts get, measured across 415 graded Chinese readings.",
+                body, path="hsk-levels", ld=ld)
+
+
+# Third-party facts are kept deliberately coarse (format, how it is graded, how
+# it is paid for) because prices and catalogue sizes change. Review before
+# changing: nothing here should be a number we cannot stand behind.
+GRADED_READERS = [
+    ("Read Mandarin", "https://readmandarin.com/", "Website", "HSK 1-6",
+     "Free", "Pinyin over every character, tap-to-translate, audio, quizzes",
+     "Short daily reading at an exact HSK level", True),
+    ("Mandarin Companion", "https://mandarincompanion.com/", "Books & ebooks",
+     "Own levels by character count (about 150 to 450 characters)", "Paid",
+     "Full-length stories, many adapted from Western classics",
+     "Your first complete novel at HSK 2-4", False),
+    ("Chinese Breeze 汉语风", "https://www.pup.cn/", "Books", "Eight levels by word count, from 300 words up",
+     "Paid", "Original stories written for learners, Peking University Press",
+     "Longer original stories with a gentle word curve", False),
+    ("Du Chinese", "https://www.duchinese.net/", "App & website", "HSK 1-6",
+     "Subscription, some free lessons", "Pinyin toggle, audio, tap-to-translate",
+     "Mobile reading with audio on the go", False),
+    ("The Chairman's Bao", "https://www.thechairmansbao.com/", "App & website", "HSK levels",
+     "Subscription", "News articles rewritten by level",
+     "HSK 4 and up who want current events", False),
+    ("HSK Reading", "https://hskreading.com/", "Website", "HSK 1-6", "Free",
+     "Short passages with questions", "Exam-style reading practice", False),
+    ("Chinese Graded Reader", "https://chinesegradedreader.com/", "Website", "HSK 1-4", "Free",
+     "Short stories with audio", "Beginner stories", False),
+]
+
+
+def build_graded_readers(texts):
+    counts = {}
+    for t in texts:
+        counts[t["level"]] = counts.get(t["level"], 0) + 1
+    rows = "".join(
+        f"""
+        <tr{' class="gr-self"' if own else ''}>
+          <th scope="row"><a href="{esc(url)}"{'' if own else ' target="_blank" rel="nofollow noopener"'}>{esc(name)}</a></th>
+          <td>{esc(fmt)}</td><td>{esc(grade)}</td><td>{esc(cost)}</td><td>{esc(feat)}</td><td>{esc(best)}</td>
+        </tr>"""
+        for name, url, fmt, grade, cost, feat, best, own in GRADED_READERS)
+    per_level = " · ".join(f'<a href="hsk{l}.html">HSK {l}: {counts.get(l, 0)}</a>' for l in range(1, 7))
+    picks = [
+        ("HSK 1-2", "Start with short graded texts where every character has pinyin, and read one a day. "
+                    "A full novel is too long at this stage; finishing matters more than length."),
+        ("HSK 3-4", "This is the right time for a first complete book. Character-count graded novels such as "
+                    "Mandarin Companion or Chinese Breeze work well alongside daily short readings."),
+        ("HSK 5-6", "Move toward real-world material: news rewritten by level, essays, and eventually native "
+                    "novels and newspapers. Graded readers get thin at the top end."),
+    ]
+    picks_html = "".join(f'<div class="gr-pick"><h3>{esc(l)}</h3><p>{esc(t)}</p></div>' for l, t in picks)
+    body = f"""
+  <section class="about">
+    <h1>Chinese graded readers by HSK level <span style="font-family:var(--serif);color:var(--red)">分级读物</span></h1>
+    <p>The main options for graded Chinese reading, side by side: books, apps and free websites.
+      We run one of them (this site), so it is listed first and marked; the rest are here because
+      they are the ones learners actually ask about. Check each site for current prices.</p>
+  </section>
+  <div class="cmp-wrap">
+    <table class="cmp gr-table">
+      <thead><tr><th scope="col">Reader</th><th scope="col">Format</th><th scope="col">How it is graded</th>
+        <th scope="col">Cost</th><th scope="col">What you get</th><th scope="col">Best for</th></tr></thead>
+      <tbody>{rows}
+      </tbody>
+    </table>
+  </div>
+  <section class="lvl-intro">
+    <h2>What to read at each stage</h2>
+    <div class="gr-picks">{picks_html}</div>
+    <h2>Free readings on this site</h2>
+    <p>{len(texts)} original graded readings: {per_level}. Each has pinyin, audio, tap-to-translate and
+      three comprehension questions. <a href="hsk-levels.html">Compare the levels</a> to find where to start.</p>
+  </section>"""
+    return page(f"Chinese Graded Readers by HSK Level: Books, Apps and Free Sites | {SITE['site_name']}",
+                "Chinese graded readers compared by HSK level: Mandarin Companion, Chinese Breeze, Du Chinese, "
+                "The Chairman's Bao and free graded reading sites, with what to read at each stage.",
+                body, path="graded-readers")
+
+
+def build_quiz_index(texts):
+    cards = "".join(
+        f'<a class="lvlcard" href="quiz-hsk{i}.html" style="--sc:{LEVEL_COLORS[i]}">'
+        f'<div class="lv-top"><span class="lv-tag">HSK {i}</span><span class="lv-zh">{LEVEL_ZH[i]}</span></div>'
+        f'<div class="lv-name">{LEVEL_WORDS[i]}</div>'
+        f'<div class="lv-meta"><span class="lv-done">{min(QUIZ_PER_LEVEL, sum(1 for t in texts if t["level"] == i and t.get("quiz")))} questions</span>'
+        f'<span class="lv-go">→</span></div></a>' for i in range(1, 7))
+    body = f"""
+  <section class="about">
+    <h1>Chinese reading comprehension questions <span style="font-family:var(--serif);color:var(--red)">阅读理解</span></h1>
+    <p>Sample comprehension questions with answers for every HSK level, each taken from a free
+      graded reading on this site. Pick a level.</p>
+  </section>
+  <section class="lvlgrid">{cards}</section>"""
+    return page(f"Chinese Reading Comprehension Questions by HSK Level | {SITE['site_name']}",
+                "Chinese reading comprehension sample questions with answers for HSK 1 to 6, each from a free "
+                "graded reading with pinyin and audio.", body, path="quiz")
 
 
 def word_examples(texts, words):
@@ -1244,9 +1557,13 @@ def gram_item(pat, d, show_lvl=False):
     bdg = (f'<span class="badge l{d["lvl"]}">HSK {d["lvl"]}</span>'
            if show_lvl else "")
     q = GRAM_Q.get(gram_key(pat))
-    return (f'<div class="gitem">'
-            f'<div class="gp">{esc(pat)}{bdg}</div>'
-            + (f'<h3 class="gq">{esc(q)}</h3>' if q else "")
+    # The pattern itself is the heading, with a stable anchor, so an answer
+    # engine looking for one point ("给 + somebody + object") can land on and
+    # cite exactly that entry instead of a 180-item page.
+    gid = "g-" + re.sub(r"[^0-9a-z\u3400-\u9fff]+", "-", gram_key(pat)).strip("-")
+    return (f'<div class="gitem" id="{esc(gid)}">'
+            f'<h3 class="gp">{esc(pat)}{bdg}</h3>'
+            + (f'<p class="gq">{esc(q)}</p>' if q else "")
             + f'<p>{esc(d["e"])}</p>'
             + (f'<div class="gx">{esc(d["x"])}</div>' if d["x"] else "")
             + f'<div class="g-src">Seen in {srcs}{extra}</div></div>')
@@ -1659,6 +1976,14 @@ def main():
     gram = collect_grammar(texts)
     open(os.path.join(OUT, "grammar.html"), "w", encoding="utf-8").write(
         build_grammar_index(gram))
+    open(os.path.join(OUT, "hsk-levels.html"), "w", encoding="utf-8").write(
+        build_levels_compare(texts, gram))
+    open(os.path.join(OUT, "graded-readers.html"), "w", encoding="utf-8").write(
+        build_graded_readers(texts))
+    open(os.path.join(OUT, "quiz.html"), "w", encoding="utf-8").write(build_quiz_index(texts))
+    for lvl in range(1, 7):
+        open(os.path.join(OUT, f"quiz-hsk{lvl}.html"), "w", encoding="utf-8").write(
+            build_quiz_level(texts, lvl))
     for lvl in range(1, 7):
         open(os.path.join(OUT, f"grammar-hsk{lvl}.html"), "w",
              encoding="utf-8").write(build_grammar_level(gram, lvl))
@@ -1710,6 +2035,9 @@ def main():
                 ("about", "0.5", os.path.getmtime(SITE_PATH))]
         if VIDEOS:
             urls.append(("videos", "0.7", os.path.getmtime(VIDEOS_PATH)))
+        urls += [("hsk-levels", "0.7", newest), ("graded-readers", "0.6", os.path.getmtime(__file__)),
+                 ("quiz", "0.6", newest)]
+        urls += [(f"quiz-hsk{lvl}", "0.7", newest) for lvl in range(1, 7)]
         for lvl in range(1, 7):
             urls.append((f"words-hsk{lvl}", "0.6", newest))
             urls.append((f"grammar-hsk{lvl}", "0.6", newest))
