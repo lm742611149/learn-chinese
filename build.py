@@ -25,6 +25,19 @@ TOPICS_PATH = os.path.join(ROOT, "content", "text-topics.json")
 TOPICS = (json.load(open(TOPICS_PATH, encoding="utf-8"))
           if os.path.exists(TOPICS_PATH) else {"labels": {}, "texts": {}})
 VIDEOS_PATH = os.path.join(ROOT, "content", "videos.json")
+
+
+def _asset_v(name):
+    """Content hash for cache-busting. The service worker serves static assets
+    cache-first, so after a deploy a returning visitor used to get new HTML with
+    the old style.css (new sections rendered unstyled). A changed file now gets a
+    changed URL, which is a cache miss by definition."""
+    import hashlib
+    fp = os.path.join(ROOT, "assets", name)
+    return hashlib.md5(open(fp, "rb").read()).hexdigest()[:10] if os.path.exists(fp) else "0"
+
+
+ASSET_V = {n: _asset_v(n) for n in ("style.css", "reader.js", "auth.js")}
 VIDEOS = (json.load(open(VIDEOS_PATH, encoding="utf-8"))
           if os.path.exists(VIDEOS_PATH) else [])
 
@@ -269,7 +282,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
     providers = SITE.get("auth_providers", ["google"])
     auth_js = (f'<script>window.RCD_FB={json.dumps(fb)};'
                f'window.RCD_PROVIDERS={json.dumps(providers)};</script>\n'
-               f'<script type="module" src="{rel}assets/auth.js"></script>'
+               f'<script type="module" src="{rel}assets/auth.js?v={ASSET_V["auth.js"]}"></script>'
                if fb else "")
     verify = "\n".join(
         f'<meta name="{"p:domain_verify" if k == "pinterest" else k}" content="{esc(v)}">'
@@ -291,7 +304,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap"></noscript>
-<link rel="stylesheet" href="{rel}assets/style.css">
+<link rel="stylesheet" href="{rel}assets/style.css?v={ASSET_V['style.css']}">
 <link rel="alternate" type="application/rss+xml" title="{name} — new readings" href="{rel}rss.xml">
 <link rel="manifest" href="{rel}manifest.webmanifest">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
@@ -352,7 +365,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
   </footer>
 </div>
 <div id="pop"></div>
-<script src="{rel}assets/reader.js"></script>
+<script src="{rel}assets/reader.js?v={ASSET_V['reader.js']}"></script>
 <script>if("serviceWorker" in navigator)navigator.serviceWorker.register("{rel}sw.js");</script>
 {auth_js}
 {SITE.get("analytics_snippet", "")}
