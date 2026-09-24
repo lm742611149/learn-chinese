@@ -19,6 +19,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "docs")
 SITE_PATH = os.path.join(ROOT, "content", "site.json")
 SITE = json.load(open(SITE_PATH, encoding="utf-8"))
+# The teacher's YouTube uploads, snapshotted by fetch_youtube.py from the
+# channel's public RSS feed. Absent file = no videos page, no home block.
+VIDEOS_PATH = os.path.join(ROOT, "content", "videos.json")
+VIDEOS = (json.load(open(VIDEOS_PATH, encoding="utf-8"))
+          if os.path.exists(VIDEOS_PATH) else [])
 
 # 语法点 -> 学习者会问出口的那句英文。AI 答案引擎匹配的是问题的措辞,不是语法
 # 术语,所以「A 是 B」这条要在页面上自己说出 "how do you say is in Chinese"。
@@ -303,6 +308,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       <div class="menu-sec">Learn</div>
       <a class="nav-link" href="{rel}words.html"><span class="ni">📖</span><span class="nl"> Words</span></a>
       <a class="nav-link" href="{rel}grammar.html"><span class="ni">🧩</span><span class="nl"> Grammar</span></a>
+      {'<a class="nav-link" href="' + rel + 'videos.html"><span class="ni">▶️</span><span class="nl"> Videos</span></a>' if VIDEOS else ''}
       <a class="nav-link" href="{rel}wordbook.html" title="My wordbook"><span class="ni">⭐</span><span class="nl"> My Wordbook</span></a>
       <a class="nav-link" href="{rel}progress.html" title="My progress"><span class="ni">🏆</span><span class="nl"> Progress</span></a>
       <div class="menu-sec">More</div>
@@ -322,6 +328,7 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
     <div>© {name} · Original graded readings, free to read.</div>
     <div style="margin-top:6px">
       <a href="{esc(SITE['facebook_url'])}" target="_blank" rel="noopener">Facebook</a>
+      {'<a href="' + esc(SITE['youtube_url']) + '" target="_blank" rel="noopener">YouTube</a>' if SITE.get('youtube_url') else ''}
       <a href="{esc(SITE['preply_url'])}" target="_blank" rel="noopener">Book a lesson</a>
       <a href="{rel}about.html">About</a>
       <a href="{rel}rss.xml">RSS</a>
@@ -558,6 +565,103 @@ def build_reader(t, next_t=None, related=None):
                 path=f"texts/{t['slug']}", ld=ld)
 
 
+def yt_thumb(vid):
+    return f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+
+
+def yt_watch(vid):
+    return f"https://www.youtube.com/watch?v={vid}"
+
+
+def video_card(v, rel=""):
+    """One upload, linking out to YouTube. No embed: an iframe per card pulls
+    ~1 MB of player each, sets YouTube cookies before anyone pressed play, and
+    the click goes to the channel either way, which is where the subscribe
+    button is. Title first, date under it (same rule as the reading cards)."""
+    short = v.get("kind") == "short"
+    date = time.strftime("%b %-d, %Y", time.strptime(v["published"], "%Y-%m-%d"))
+    return (f'<a class="vcard{" vshort" if short else ""}" href="{yt_watch(v["id"])}" '
+            f'target="_blank" rel="noopener">'
+            f'<span class="vthumb"><img src="{yt_thumb(v["id"])}" alt="" loading="lazy" '
+            f'width="480" height="360"><span class="vplay" aria-hidden="true"></span></span>'
+            f'<span class="vbody"><h2 class="vtitle">{esc(v["title"])}</h2>'
+            f'<span class="vmeta">{esc(date)}{" · Short" if short else ""}</span></span></a>')
+
+
+def home_videos():
+    """Home block: the three newest full-length lessons, then the channel."""
+    full = [v for v in VIDEOS if v.get("kind") != "short"][:3]
+    if not full:
+        return ""
+    return f"""
+  <section class="latest videos-home" id="home-videos">
+    <h2 class="home-h">Watch a lesson <span class="zh">视频课</span></h2>
+    <p class="videos-lead">The teacher behind these readings explains pronunciation, grammar
+      and the things textbooks skip — one short video a week, in English.</p>
+    <div class="vgrid">{''.join(video_card(v) for v in full)}</div>
+    <a class="latest-more" href="videos.html">All videos and Shorts →</a>
+  </section>"""
+
+
+def build_videos():
+    full = [v for v in VIDEOS if v.get("kind") != "short"]
+    shorts = [v for v in VIDEOS if v.get("kind") == "short"]
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    sub = f'{SITE["youtube_url"]}?sub_confirmation=1'
+    shorts_html = f"""
+  <section class="videos-sec">
+    <h2 class="home-h">Shorts <span class="zh">短视频</span></h2>
+    <p class="videos-lead">One word or one mix-up per clip, under a minute each.</p>
+    <div class="vgrid vgrid-shorts">{''.join(video_card(v) for v in shorts)}</div>
+  </section>""" if shorts else ""
+    body = f"""
+  <section class="about">
+    <h1>Video lessons <span style="font-family:var(--serif);color:var(--red)">视频课</span></h1>
+    <p>{len(VIDEOS)} videos from {esc(SITE["teacher_name"])}'s YouTube channel — the same
+      teacher who writes the readings on this site. Pronunciation, grammar, and the
+      things textbooks skip, explained in English for learners from complete beginner
+      to HSK 5.</p>
+    <p>Each video pairs with the readings: watch how a pattern works, then meet it in a
+      graded text. New video every week.</p>
+    <a class="cta v-sub" href="{esc(sub)}" target="_blank" rel="noopener">Subscribe on YouTube →</a>
+  </section>
+  <section class="videos-sec">
+    <h2 class="home-h">Lessons <span class="zh">课</span></h2>
+    <div class="vgrid">{''.join(video_card(v) for v in full)}</div>
+  </section>
+  {shorts_html}"""
+    ld = [{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": f"{SITE['site_name']} video lessons",
+        "numberOfItems": len(VIDEOS),
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1,
+             "item": {
+                 "@type": "VideoObject",
+                 "name": v["title"],
+                 "description": v.get("description") or v["title"],
+                 "thumbnailUrl": yt_thumb(v["id"]),
+                 "uploadDate": v["published"],
+                 "url": yt_watch(v["id"]),
+                 "embedUrl": f"https://www.youtube.com/embed/{v['id']}",
+             }}
+            for i, v in enumerate(VIDEOS)
+        ],
+    }, {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE["site_name"], "item": f"{base}/"},
+            {"@type": "ListItem", "position": 2, "name": "Video lessons"},
+        ],
+    }]
+    return page(f"Chinese Video Lessons — Pronunciation & Grammar in English | {SITE['site_name']}",
+                f"{len(full)} short Chinese lessons and {len(shorts)} Shorts from a native Mandarin "
+                f"teacher: pronunciation, grammar and the things textbooks skip, explained in English.",
+                body, path="videos", ld=ld)
+
+
 def build_index(texts):
     by_slug = {t["slug"]: t for t in texts}
     featured = [by_slug[s] for s in SITE.get("featured", []) if s in by_slug]
@@ -667,6 +771,7 @@ def build_index(texts):
     <div class="cards latest-cards">{latest_cards}</div>
     <a class="latest-more" href="words.html">Browse every word in the library →</a>
   </section>
+{home_videos()}
   <section class="how" id="home-how">
     <h2 class="home-h">How it works <span class="zh">怎么用</span></h2>
     <ol class="how-list">
@@ -711,7 +816,8 @@ def build_index(texts):
         "jobTitle": "Mandarin teacher",
         "url": f"{base}/about",
         "image": f"{base}/assets/teacher.jpg",
-        "sameAs": [SITE["preply_url"], SITE["facebook_url"]],
+        "sameAs": [u for u in (SITE["preply_url"], SITE["facebook_url"],
+                               SITE.get("youtube_url")) if u],
     }
     # No aggregateRating here, deliberately. Google's review-snippet feature
     # does not support Person as the reviewed item (GSC flagged it 2026-08-18),
@@ -1507,6 +1613,8 @@ def main():
         open(os.path.join(OUT, f"hsk{lvl}.html"), "w",
              encoding="utf-8").write(build_level(texts, lvl))
     open(os.path.join(OUT, "about.html"), "w", encoding="utf-8").write(build_about(texts))
+    if VIDEOS:
+        open(os.path.join(OUT, "videos.html"), "w", encoding="utf-8").write(build_videos())
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(build_404())
     open(os.path.join(OUT, "rss.xml"), "w", encoding="utf-8").write(build_rss(texts))
     words = collect_words(texts)
@@ -1571,6 +1679,8 @@ def main():
         urls = [("", "1.0", newest), ("words", "0.7", newest),
                 ("grammar", "0.7", newest),
                 ("about", "0.5", os.path.getmtime(SITE_PATH))]
+        if VIDEOS:
+            urls.append(("videos", "0.7", os.path.getmtime(VIDEOS_PATH)))
         for lvl in range(1, 7):
             urls.append((f"words-hsk{lvl}", "0.6", newest))
             urls.append((f"grammar-hsk{lvl}", "0.6", newest))
