@@ -1773,7 +1773,8 @@ def build_topic_words(k, words):
         f'<td><span class="badge l{lv}">HSK {lv}</span></td>'
         f'<td><a href="texts/{esc(t["slug"])}.html">{esc(t["title_zh"])}</a></td></tr>'
         for zh, (py, en, lv, t) in sorted(words.items(), key=lambda x: (x[1][2], x[1][0])))
-    others = "".join(f'<a class="lvl-chip{" on" if kk == k else ""}" href="words-topic-{esc(kk)}.html">{esc(TOPICS["labels"].get(kk, kk))}</a>'
+    others = "".join(f'<a class="tchip{" on" if kk == k else ""}" href="words-topic-{esc(kk)}.html"'
+                     f'{" aria-current=page" if kk == k else ""}>{esc(TOPICS["labels"].get(kk, kk))}</a>'
                      for kk in TOPICS["labels"] if kk in TOPIC_WORDS)
     body = f"""
   <section class="about">
@@ -1853,7 +1854,7 @@ def build_idioms(texts, corpus):
 
 def build_festivals(texts):
     by_slug = {t["slug"]: t for t in texts}
-    nav = "".join(f'<a class="lvl-chip" href="#{esc(f["id"])}"><span lang="zh">{esc(f["zh"])}</span></a>' for f in FESTIVALS)
+    nav = "".join(f'<a class="tchip" href="#{esc(f["id"])}"><span lang="zh">{esc(f["zh"])}</span></a>' for f in FESTIVALS)
     secs = []
     for f in FESTIVALS:
         gr = "".join(f'<tr><th scope="row" lang="zh">{esc(z)}</th><td>{esc(p)}</td><td>{esc(e)}</td></tr>' for z, p, e in f["greetings"])

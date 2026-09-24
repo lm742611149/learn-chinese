@@ -1471,3 +1471,13 @@ html[data-theme="dark"] .gitem .gq { color: #d8a949; }
 .tp-w.py-on { background: var(--card, #fff); color: var(--ink); box-shadow: 0 0 0 2px var(--red), 0 6px 16px rgba(70,45,25,.12); }
 html[data-theme=dark] .tp-w { box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 12px rgba(0,0,0,.35); }
 @media (max-width: 719px) { .tp-table { table-layout: auto; min-width: 640px; } .tp-w { padding-right: 30px; } }
+
+/* topic / festival chips: their own pill style. They used to borrow .lvl-chip,
+   whose selected state is white text on a per-HSK-level background, so a chip
+   with no level showed white text on nothing. */
+.tchip { display: inline-block; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card, #fff); color: var(--ink-2); font-size: .86rem; font-weight: 600; text-decoration: none;
+  transition: background .15s, color .15s, border-color .15s; }
+.tchip:hover { border-color: var(--ink-2); color: var(--ink); }
+.tchip.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+html[data-theme=dark] .tchip.on { background: #e9dfcf; border-color: #e9dfcf; color: #17130f; }
