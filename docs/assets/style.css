@@ -757,16 +757,12 @@ html[data-theme=dark] .vcard { box-shadow: none; }
 .vtrack { display: flex; align-items: stretch; gap: 16px; width: max-content; }
 .vtrack .vcard { width: 292px; flex: 0 0 auto; scroll-snap-align: start;
   transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s; }
-.vtrack .vcard:hover, .vtrack .vcard:focus-visible { transform: translateY(-6px) scale(1.06); z-index: 2;
-  box-shadow: 0 22px 48px rgba(70,45,25,.22); }
-.vdesc { position: absolute; left: 0; right: 0; bottom: 0; padding: 30px 12px 10px;
-  font-size: .8rem; line-height: 1.5; color: #fff; text-align: left;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.88) 100%);
-  transform: translateY(100%); transition: transform .28s cubic-bezier(.2,.8,.2,1);
-  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-.vcard:hover .vdesc, .vcard:focus-visible .vdesc { transform: translateY(0); }
-.vtrack .vcard:hover .vplay { opacity: 0; }
-.vplay { transition: opacity .2s, background .2s; }
+/* hover = a lift and a red play button, the way YouTube does it. No scale (a scaled
+   card reads as shoving its neighbours) and no text panel over the thumbnail. */
+.vtrack .vcard:hover, .vtrack .vcard:focus-visible { transform: translateY(-4px); z-index: 2;
+  box-shadow: 0 14px 32px rgba(70,45,25,.18); }
+.vdesc { display: none; }
+.vplay { transition: background .2s; }
 .vnav { position: absolute; top: 50%; transform: translateY(-60%); z-index: 3;
   width: 42px; height: 64px; border-radius: 12px; border: 1px solid var(--line);
   background: var(--card, #fff); color: var(--ink); cursor: pointer; padding: 0;
@@ -786,7 +782,6 @@ html[data-theme=dark] .vcard { box-shadow: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .vtrack .vcard, .vtrack .vcard:hover { transform: none; transition: none; }
-  .vdesc { transition: none; }
 }
 html[data-theme=dark] .vtrack .vcard:hover { box-shadow: 0 22px 48px rgba(0,0,0,.6); }
 html[data-theme=dark] .vnav { box-shadow: 0 8px 24px rgba(0,0,0,.5); }

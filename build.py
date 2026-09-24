@@ -613,7 +613,7 @@ def home_videos():
     full = [v for v in VIDEOS if v.get("kind") != "short"][:12]
     if not full:
         return ""
-    cards = "".join(video_card(v, heading=False, desc=True) for v in full)
+    cards = "".join(video_card(v, heading=False) for v in full)
     return f"""
   <section class="latest videos-home" id="home-videos">
     <h2 class="home-h">Watch a lesson <span class="zh">视频课</span></h2>
