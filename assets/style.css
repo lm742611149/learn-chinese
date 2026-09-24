@@ -713,7 +713,7 @@ html[data-theme=dark] .lvl-sample { background: rgba(255,255,255,.04); }
 .vcard { display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: inherit;
   background: var(--card, #fff); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
   box-shadow: 0 4px 16px rgba(70,45,25,.06); transition: transform .18s ease, box-shadow .18s ease; }
-.vcard:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(70,45,25,.12); }
+.vcard:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(70,45,25,.10); }
 .vthumb { position: relative; display: block; aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
 .vshort .vthumb { aspect-ratio: 9 / 16; }
 .vthumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -760,7 +760,7 @@ html[data-theme=dark] .vcard { box-shadow: none; }
 /* hover = a lift and a red play button, the way YouTube does it. No scale (a scaled
    card reads as shoving its neighbours) and no text panel over the thumbnail. */
 .vtrack .vcard:hover, .vtrack .vcard:focus-visible { transform: translateY(-4px); z-index: 2;
-  box-shadow: 0 14px 32px rgba(70,45,25,.18); }
+  box-shadow: 0 6px 14px rgba(70,45,25,.10); }
 .vdesc { display: none; }
 .vplay { transition: background .2s; }
 .vnav { position: absolute; top: 50%; transform: translateY(-60%); z-index: 3;
@@ -783,7 +783,7 @@ html[data-theme=dark] .vcard { box-shadow: none; }
 @media (prefers-reduced-motion: reduce) {
   .vtrack .vcard, .vtrack .vcard:hover { transform: none; transition: none; }
 }
-html[data-theme=dark] .vtrack .vcard:hover { box-shadow: 0 22px 48px rgba(0,0,0,.6); }
+html[data-theme=dark] .vtrack .vcard:hover { box-shadow: 0 6px 14px rgba(0,0,0,.45); }
 html[data-theme=dark] .vnav { box-shadow: 0 8px 24px rgba(0,0,0,.5); }
 
 /* ---------- search ---------- */
