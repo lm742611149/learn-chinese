@@ -573,33 +573,57 @@ def yt_watch(vid):
     return f"https://www.youtube.com/watch?v={vid}"
 
 
-def video_card(v, rel=""):
+def video_card(v, rel="", heading=True, desc=False, dup=False):
     """One upload, linking out to YouTube. No embed: an iframe per card pulls
     ~1 MB of player each, sets YouTube cookies before anyone pressed play, and
     the click goes to the channel either way, which is where the subscribe
-    button is. Title first, date under it (same rule as the reading cards)."""
+    button is. Title first, date under it (same rule as the reading cards).
+
+    heading=False renders the title as a span: the home marquee repeats every
+    card once for the seamless loop, and a page should not grow 20 extra h2s
+    for that. desc=True adds the description as an overlay that slides up over
+    the thumbnail on hover. dup=True marks the loop copy as decoration."""
     short = v.get("kind") == "short"
     date = time.strftime("%b %-d, %Y", time.strptime(v["published"], "%Y-%m-%d"))
+    tag = "h2" if heading else "span"
+    d = (v.get("description") or "").strip()
+    if desc and d:
+        if len(d) > 150:
+            d = d[:150].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+        desc_html = f'<span class="vdesc">{esc(d)}</span>'
+    else:
+        desc_html = ""
+    extra = ' tabindex="-1" aria-hidden="true"' if dup else ""
     return (f'<a class="vcard{" vshort" if short else ""}" href="{yt_watch(v["id"])}" '
-            f'target="_blank" rel="noopener">'
+            f'target="_blank" rel="noopener"{extra}>'
             f'<span class="vthumb"><img src="{yt_thumb(v["id"])}" alt="" loading="lazy" '
-            f'width="480" height="360"><span class="vplay" aria-hidden="true"></span></span>'
-            f'<span class="vbody"><h2 class="vtitle">{esc(v["title"])}</h2>'
+            f'width="480" height="360"><span class="vplay" aria-hidden="true"></span>{desc_html}</span>'
+            f'<span class="vbody"><{tag} class="vtitle">{esc(v["title"])}</{tag}>'
             f'<span class="vmeta">{esc(date)}{" · Short" if short else ""}</span></span></a>')
 
 
 def home_videos():
-    """Home block: the three newest full-length lessons, then the channel."""
-    full = [v for v in VIDEOS if v.get("kind") != "short"][:3]
+    """Home block: every full-length lesson in a slow horizontal loop. Hovering
+    pauses the loop and pops the card (scale + description over the thumbnail).
+    The track holds two copies of the cards so the loop has no seam; the second
+    copy is aria-hidden and untabbable. Under 720px the animation is off and the
+    strip is a plain finger-scrollable row (hover does not exist there, and a
+    transform animation fights native scrolling)."""
+    full = [v for v in VIDEOS if v.get("kind") != "short"][:12]
     if not full:
         return ""
+    cards = "".join(video_card(v, heading=False, desc=True) for v in full)
+    copy = "".join(video_card(v, heading=False, desc=True, dup=True) for v in full)
+    secs = max(30, 5 * len(full))     # ~5 s per card; slow enough to read a title
     return f"""
   <section class="latest videos-home" id="home-videos">
     <h2 class="home-h">Watch a lesson <span class="zh">视频课</span></h2>
     <p class="videos-lead">The teacher behind these readings explains pronunciation, grammar
-      and the things textbooks skip — one short video a week, in English.</p>
-    <div class="vgrid">{''.join(video_card(v) for v in full)}</div>
-    <a class="latest-more" href="videos.html">All videos and Shorts →</a>
+      and the things textbooks skip — one short video a week, in English.<span class="vhover-hint"> Hover to pause.</span></p>
+    <div class="vmarquee">
+      <div class="vtrack" style="--vdur:{secs}s">{cards}<span class="vdup">{copy}</span></div>
+    </div>
+    <a class="latest-more" href="videos.html">All {len(VIDEOS)} videos and Shorts →</a>
   </section>"""
 
 
@@ -615,15 +639,23 @@ def build_videos():
     <div class="vgrid vgrid-shorts">{''.join(video_card(v) for v in shorts)}</div>
   </section>""" if shorts else ""
     body = f"""
-  <section class="about">
-    <h1>Video lessons <span style="font-family:var(--serif);color:var(--red)">视频课</span></h1>
-    <p>{len(VIDEOS)} videos from {esc(SITE["teacher_name"])}'s YouTube channel — the same
-      teacher who writes the readings on this site. Pronunciation, grammar, and the
-      things textbooks skip, explained in English for learners from complete beginner
-      to HSK 5.</p>
-    <p>Each video pairs with the readings: watch how a pattern works, then meet it in a
-      graded text. New video every week.</p>
-    <a class="cta v-sub" href="{esc(sub)}" target="_blank" rel="noopener">Subscribe on YouTube →</a>
+  <section class="about vhead">
+    <a class="vhead-photo-link" href="{esc(SITE["youtube_url"])}" target="_blank" rel="noopener"
+       aria-label="{esc(SITE["teacher_name"])} on YouTube">
+      <img class="vhead-photo" src="assets/teacher.jpg" width="168" height="168"
+           alt="{esc(SITE["teacher_name"])}, Mandarin teacher">
+      <span class="vhead-yt" aria-hidden="true"></span>
+    </a>
+    <div class="vhead-body">
+      <h1>Video lessons <span style="font-family:var(--serif);color:var(--red)">视频课</span></h1>
+      <p class="vhead-who"><b>{esc(SITE["teacher_name"])}</b> · {esc(SITE.get("teacher_role", "Mandarin teacher"))}</p>
+      <p>{len(VIDEOS)} videos from my YouTube channel — the same teacher who writes the
+        readings on this site. Pronunciation, grammar, and the things textbooks skip,
+        explained in English for learners from complete beginner to HSK 5.</p>
+      <p>Each video pairs with the readings: watch how a pattern works, then meet it in a
+        graded text. New video every week.</p>
+      <a class="cta v-sub" href="{esc(sub)}" target="_blank" rel="noopener">Subscribe on YouTube →</a>
+    </div>
   </section>
   <section class="videos-sec">
     <h2 class="home-h">Lessons <span class="zh">课</span></h2>
@@ -766,12 +798,12 @@ def build_index(texts):
   </section>
   <section class="cards" id="search-results" hidden>{all_cards}
   </section>
+{home_videos()}
   <section class="latest" id="latest-wrap">
     <h2 class="home-h">Just added <span class="zh">最新课文</span></h2>
     <div class="cards latest-cards">{latest_cards}</div>
     <a class="latest-more" href="words.html">Browse every word in the library →</a>
   </section>
-{home_videos()}
   <section class="how" id="home-how">
     <h2 class="home-h">How it works <span class="zh">怎么用</span></h2>
     <ol class="how-list">
