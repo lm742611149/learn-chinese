@@ -32,7 +32,11 @@ body {
   line-height: 1.65;
 }
 a { color: var(--red); text-decoration: none; }
-.wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+/* The outer frame is wide so browse pages (cards, shelves, tables) use a big
+   screen. Anything read line by line keeps its own narrow measure: the reading
+   page stays at the old 1000px column, prose blocks keep 660-730px. */
+.reading { max-width: 1000px; margin: 0 auto; }
 /* 全站统一宽度 —— 列表页、课文页、首页都跟随 .wrap,和 header 对齐 */
 
 /* ---------- header (floating glass bar) ---------- */
@@ -1305,3 +1309,10 @@ html[data-theme="dark"] .gitem .gq { color: #d8a949; }
 .gr-pick h3 { margin: 0 0 6px; font-size: .95rem; }
 .gr-pick p { margin: 0; font-size: .88rem; }
 @media (max-width: 719px) { .gr-picks { grid-template-columns: 1fr; } }
+
+/* wide screens: one more column on the browse grids */
+@media (min-width: 1100px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+  .vgrid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .vgrid-shorts { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
