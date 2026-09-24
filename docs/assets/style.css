@@ -1481,3 +1481,11 @@ html[data-theme=dark] .tp-w { box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 12px r
 .tchip:hover { border-color: var(--ink-2); color: var(--ink); }
 .tchip.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 html[data-theme=dark] .tchip.on { background: #e9dfcf; border-color: #e9dfcf; color: #17130f; }
+
+/* Row accent on comparison tables: drawn as an inset shadow, not a border. Under
+   border-collapse a 4px left border on tbody th widened the whole column edge and
+   left a white strip beside the header row. And only rows that set their own
+   --sc (the HSK levels table) get an accent; other tables inherited a stray
+   colour from the page and showed a meaningless gold bar. */
+.cmp tbody th { border-left: 0; }
+.cmp tbody tr[style*="--sc"] th { box-shadow: inset 4px 0 0 var(--sc); }
