@@ -678,6 +678,32 @@ body.show-en .en-line { display: block; }
 .faq-q summary:hover { color: var(--red); }
 .faq-q p { margin: 0; padding: 0 0 15px; font-size: .92rem; }
 
+/* upper level pages (HSK 4-6): sample line, recurring grammar, sample question */
+.lvl-sample { margin: 6px 0 18px; padding: 16px 18px 14px;
+  border-left: 3px solid var(--sc); background: var(--paper, #fbf7ef);
+  border-radius: 0 12px 12px 0; }
+.lvl-sample blockquote { margin: 0 0 6px; font-family: var(--serif);
+  font-size: 1.22rem; line-height: 1.7; color: var(--ink); }
+.lvl-sample .ls-py { font-size: .82rem; color: var(--ink-3, #8a7d6a); letter-spacing: .01em; }
+.lvl-sample .ls-en { font-size: .92rem; color: var(--ink-2); margin-top: 6px; line-height: 1.6; }
+.lvl-sample figcaption { margin-top: 10px; font-size: .8rem; color: var(--ink-3, #8a7d6a); }
+.lvl-sample figcaption a { color: var(--sc); }
+.lvl-gram { list-style: none; margin: 0 0 14px; padding: 0;
+  border-top: 1px solid var(--line); }
+.lvl-gram li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 14px;
+  padding: 11px 0; border-bottom: 1px solid var(--line); font-size: .92rem; }
+.lvl-gram .lg-p { font-weight: 700; color: var(--ink); font-family: var(--serif); font-size: 1.02rem; }
+.lvl-gram .lg-n { color: var(--ink-3, #8a7d6a); font-size: .8rem; white-space: nowrap; align-self: baseline; }
+.lvl-gram .lg-e { grid-column: 1 / -1; color: var(--ink-2); line-height: 1.6; }
+.lvl-quiz { margin: 0 0 14px; padding: 14px 18px 12px; border: 1px solid var(--line);
+  border-radius: 12px; }
+.lvl-quiz .lq-q { font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.lvl-quiz .lq-a { margin: 0 0 8px; padding-left: 22px; font-size: .92rem;
+  color: var(--ink-2); line-height: 1.7; }
+.lvl-quiz details summary { cursor: pointer; font-size: .88rem; color: var(--sc); font-weight: 700; }
+.lvl-quiz details p { margin: 8px 0 0; font-size: .92rem; }
+html[data-theme=dark] .lvl-sample { background: rgba(255,255,255,.04); }
+
 /* ---------- search ---------- */
 .searchbar { margin: 22px 0 -14px; }
 #search { width: 100%; border: 1.5px solid #ded2bd; background: #fff;

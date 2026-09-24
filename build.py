@@ -12,6 +12,7 @@ import json
 import os
 import re
 import shutil
+import statistics
 import time
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -730,6 +731,103 @@ def build_index(texts):
                 SITE["description"], body, path="", ld=ld)
 
 
+def _text_len(t):
+    """(sentences, characters) of one reading; punctuation tokens don't count."""
+    n = len(t["sentences"])
+    c = sum(len(tok[0]) for s in t["sentences"] for tok in s["t"] if len(tok) >= 2)
+    return n, c
+
+
+def level_extras(texts, mine, lvl):
+    """Below-the-fold sections for the upper level pages (HSK 4-6), all derived
+    from the corpus itself so nothing here can drift out of date or be made up:
+    how long the texts run (vs the level below), one real opening sentence, the
+    grammar patterns that recur most in these readings, and one of the actual
+    comprehension questions. Bing's search log and Copilot's citations both show
+    the upper-level index pages being asked for 'sample text' and 'comprehension
+    sample questions', and a card grid answers neither."""
+    def stats(ts):
+        pairs = [_text_len(t) for t in ts]
+        sents = statistics.median(n for n, _ in pairs)
+        chars = statistics.median(c for _, c in pairs)
+        per = statistics.median(c / n for n, c in pairs if n)
+        return sents, chars, per
+    sents, chars, per = stats(mine)
+    below = [t for t in texts if t["level"] == lvl - 1]
+    cmp_html = ""
+    if below:
+        b_sents, b_chars, b_per = stats(below)
+        cmp_html = (f' At HSK {lvl - 1} the same figures are {b_sents:.0f} sentences, '
+                    f'{b_chars:.0f} characters and {b_per:.0f} characters per sentence, '
+                    f'so the step up is mostly in how much each sentence carries, not in '
+                    f'how many there are.')
+
+    # one real opening line, from the first reading (by slug) with a full sentence
+    sample = next((t for t in mine if len([x for x in t["sentences"][0]["t"] if len(x) >= 2]) >= 5),
+                  mine[0])
+    s0 = sample["sentences"][0]
+    zh = "".join(tok[0] for tok in s0["t"])
+    py = " ".join(tok[1] for tok in s0["t"] if len(tok) >= 2)
+    sample_html = f"""
+      <figure class="lvl-sample">
+        <blockquote lang="zh">{esc(zh)}</blockquote>
+        <div class="ls-py">{esc(py)}</div>
+        <div class="ls-en">{esc(s0["en"])}</div>
+        <figcaption>Opening line of <a href="texts/{esc(sample["slug"])}.html">{esc(sample["title_zh"])} —
+          {esc(sample["title_en"])}</a>, one of the {len(mine)} HSK {lvl} readings.</figcaption>
+      </figure>"""
+
+    # grammar that recurs across these readings, most frequent first
+    gram = {}
+    for t in mine:
+        for g in t.get("grammar", []):
+            pat = (g.get("p") or "").strip()
+            if not pat:
+                continue
+            e = gram.setdefault(gram_key(pat), {"p": pat, "e": "", "n": 0})
+            e["n"] += 1
+            for f in ("p", "e"):
+                v = (pat if f == "p" else g.get("e", "")) or ""
+                if len(v) > len(e[f]):
+                    e[f] = v
+    top = sorted(gram.values(), key=lambda d: (-d["n"], d["p"]))[:8]
+    gram_html = "".join(
+        f'<li><span class="lg-p">{esc(d["p"])}</span>'
+        f'<span class="lg-n">{d["n"]} readings</span>'
+        f'<span class="lg-e">{esc(d["e"])}</span></li>'
+        for d in top)
+
+    # one real comprehension question, answer folded
+    quiz_html = ""
+    qz = (sample.get("quiz") or [None])[0]
+    if qz and qz.get("a"):
+        opts = "".join(f'<li>{esc(a)}</li>' for a in qz["a"])
+        ans = qz["a"][qz.get("c", 0)] if 0 <= qz.get("c", 0) < len(qz["a"]) else ""
+        quiz_html = f"""
+      <h2>What the comprehension questions look like</h2>
+      <p>Every HSK {lvl} reading ends with three questions in English about what the
+        text actually said — not vocabulary drills. Here is the first one from
+        <a href="texts/{esc(sample["slug"])}.html">{esc(sample["title_en"])}</a>:</p>
+      <div class="lvl-quiz">
+        <p class="lq-q">{esc(qz["q"])}</p>
+        <ol class="lq-a">{opts}</ol>
+        <details><summary>Show answer</summary><p>{esc(ans)}</p></details>
+      </div>"""
+
+    return f"""
+      <h2>What an HSK {lvl} text looks like here</h2>
+      <p>Across the {len(mine)} readings on this page the typical text runs {sents:.0f} sentences
+        and {chars:.0f} characters, about {per:.0f} characters per sentence.{cmp_html}</p>
+      {sample_html}
+
+      <h2>Grammar you will meet in these readings</h2>
+      <p>The patterns below turn up most often across the HSK {lvl} texts. Each reading
+        explains its own patterns under the text; the full list with example sentences
+        is on the <a href="grammar-hsk{lvl}.html">HSK {lvl} grammar page</a>.</p>
+      <ul class="lvl-gram">{gram_html}</ul>
+      {quiz_html}"""
+
+
 def build_level(texts, lvl):
     mine = [t for t in sorted(texts, key=lambda x: x["slug"])
             if t["level"] == lvl]
@@ -767,6 +865,7 @@ def build_level(texts, lvl):
       <p class="lvl-how"><strong>A routine that works:</strong> read once without looking
         anything up, then tap the words you missed, then listen and read along a second
         time. Five minutes a day beats an hour on Sunday.</p>
+      {level_extras(texts, mine, lvl) if lvl >= 4 else ""}
 
       <h2>HSK {lvl} questions</h2>
       <div class="faq">{faq_html}</div>
@@ -816,11 +915,20 @@ def build_level(texts, lvl):
             for q, a in s["faq"]
         ],
     }]
-    return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
-                f"Free HSK {lvl} reading practice: {len(mine)} original graded texts inside "
+    # HSK 4 is the one level page Bing shows a lot and nobody clicks (63 impressions,
+    # 0 clicks at position 5 as of 2026-09-24), and its queries ask for "reading
+    # comprehension sample questions". Lead with that for this level only, so the
+    # other levels stay as a control.
+    if lvl == 4:
+        desc = (f"Free HSK {lvl} reading practice with comprehension questions: {len(mine)} "
+                f"original graded texts inside the {s['vocab']}-word HSK {lvl} list, each "
+                f"with pinyin, audio and a 3-question quiz.")
+    else:
+        desc = (f"Free HSK {lvl} reading practice: {len(mine)} original graded texts inside "
                 f"the {s['vocab']}-word HSK {lvl} list, with pinyin, audio, "
-                f"tap-to-translate and quizzes.", body,
-                path=f"hsk{lvl}", ld=ld)
+                f"tap-to-translate and quizzes.")
+    return page(f"HSK {lvl} Reading Practice — {len(mine)} Free Graded Readings | {SITE['site_name']}",
+                desc, body, path=f"hsk{lvl}", ld=ld)
 
 
 def word_examples(texts, words):
