@@ -639,23 +639,15 @@ def build_videos():
     <div class="vgrid vgrid-shorts">{''.join(video_card(v) for v in shorts)}</div>
   </section>""" if shorts else ""
     body = f"""
-  <section class="about vhead">
-    <a class="vhead-photo-link" href="{esc(SITE["youtube_url"])}" target="_blank" rel="noopener"
-       aria-label="{esc(SITE["teacher_name"])} on YouTube">
-      <img class="vhead-photo" src="assets/teacher.jpg" width="168" height="168"
-           alt="{esc(SITE["teacher_name"])}, Mandarin teacher">
-      <span class="vhead-yt" aria-hidden="true"></span>
-    </a>
-    <div class="vhead-body">
-      <h1>Video lessons <span style="font-family:var(--serif);color:var(--red)">视频课</span></h1>
-      <p class="vhead-who"><b>{esc(SITE["teacher_name"])}</b> · {esc(SITE.get("teacher_role", "Mandarin teacher"))}</p>
-      <p>{len(VIDEOS)} videos from my YouTube channel — the same teacher who writes the
-        readings on this site. Pronunciation, grammar, and the things textbooks skip,
-        explained in English for learners from complete beginner to HSK 5.</p>
-      <p>Each video pairs with the readings: watch how a pattern works, then meet it in a
-        graded text. New video every week.</p>
-      <a class="cta v-sub" href="{esc(sub)}" target="_blank" rel="noopener">Subscribe on YouTube →</a>
-    </div>
+  <section class="about">
+    <h1>Video lessons <span style="font-family:var(--serif);color:var(--red)">视频课</span></h1>
+    <p class="vhead-who"><b>{esc(SITE["teacher_name"])}</b> · {esc(SITE.get("teacher_role", "Mandarin teacher"))}</p>
+    <p>{len(VIDEOS)} videos from my YouTube channel — the same teacher who writes the
+      readings on this site. Pronunciation, grammar, and the things textbooks skip,
+      explained in English for learners from complete beginner to HSK 5.</p>
+    <p>Each video pairs with the readings: watch how a pattern works, then meet it in a
+      graded text. New video every week.</p>
+    <a class="cta v-sub" href="{esc(sub)}" target="_blank" rel="noopener">Subscribe on YouTube →</a>
   </section>
   <section class="videos-sec">
     <h2 class="home-h">Lessons <span class="zh">课</span></h2>
