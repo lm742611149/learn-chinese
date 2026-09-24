@@ -1429,3 +1429,14 @@ html[data-theme="dark"] .gitem .gq { color: #d8a949; }
    panel inside it could never rise above the hero carousel. Lift the header
    itself on desktop (the mobile drawer is position:fixed and has its own z-index). */
 @media (min-width: 720px) { .top { position: relative; z-index: 70; } }
+
+/* Page intros line up with the full-width content under them (grids, tables,
+   shelves) instead of sitting in a centred 730px column. Prose keeps a readable
+   measure. Pure-text pages (About, 404) opt back into the centred column. */
+.about { max-width: none; margin: 0; }
+.about > h1 { max-width: 900px; }
+.about > p, .about > .vhead-who { max-width: 760px; }
+.about.about-narrow { max-width: 730px; margin: 0 auto; }
+.about.about-narrow > p { max-width: none; }
+.lvl-intro { max-width: 760px; margin-left: 0; margin-right: 0; }
+.qz-list { margin-left: 0; }

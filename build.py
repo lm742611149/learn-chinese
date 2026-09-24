@@ -2328,7 +2328,7 @@ def build_about(texts):
       <div class="ab-stat"><b>{esc(st.get('lessons', ''))}</b><span>lessons taught</span></div>
     </div>"""
     body = f"""
-  <section class="about">
+  <section class="about about-narrow">
     <div class="teacher-card">
       <img class="teacher-photo" src="assets/teacher.jpg"
            alt="{esc(SITE['teacher_name'])} — Mandarin teacher"
@@ -2425,7 +2425,7 @@ def build_404():
     """CF Pages 自动用 docs/404.html 兜底,并返回真正的 404 状态码。
     rel='/' -> 资源走绝对路径,因为 404 可能在任意深度被触发。"""
     body = """
-  <section class="about" style="text-align:center; padding:72px 0 84px">
+  <section class="about about-narrow" style="text-align:center; padding:72px 0 84px">
     <div style="font-family:var(--serif); font-size:6rem; font-weight:900;
       color:var(--red); opacity:.2; line-height:1; user-select:none">读</div>
     <h1 style="margin-top:8px">This page doesn't exist</h1>
