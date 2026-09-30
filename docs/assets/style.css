@@ -1332,7 +1332,7 @@ html[data-theme="dark"] .gitem .gq { color: #d8a949; }
 .nd-item:hover { background: var(--paper-2); }
 /* icon box = the title's line box, glyph centred in it, so icon and title share a top edge */
 .nd-i { flex: 0 0 1.3rem; height: calc(.88rem * 1.4); display: flex; align-items: center; justify-content: center;
-  font-size: 1.1rem; line-height: 1; }
+  font-size: 1.1rem; line-height: 1; position: relative; top: 3.5px; }
 .nd-t { display: flex; flex-direction: column; min-width: 0; }
 .nd-t b { font-size: .88rem; line-height: 1.4; }
 .nd-t i { font-style: normal; font-size: .76rem; color: var(--muted); line-height: 1.4; }

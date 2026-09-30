@@ -249,11 +249,34 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+POSTER_PAGES = ("pinyin", "pairs", "topics", "idioms", "festivals", "quiz", "hsk-levels", "graded-readers",
+                "how-to-say", "measure-words", "question-words", "tone-changes", "numbers", "cheat-sheets")
+POSTER_PREFIXES = ("pairs-", "words-topic-", "quiz-hsk")
+
+
+def with_poster(body, path):
+    """Explore and cheat-sheet pages get one Preply poster near the top: after
+    the intro section, or on a word-pair page after the comparison table."""
+    if path is None or "tutor-poster" in body:
+        return body
+    if path not in POSTER_PAGES and not path.startswith(POSTER_PREFIXES):
+        return body
+    ad = tutor_poster(eyebrow="Learn with a real teacher · Preply", slot="explore")
+    if path.startswith("pairs-") and '<div class="pair-ex">' in body:
+        i = body.index('<div class="pair-ex">')
+        return body[:i] + ad + body[i:]
+    if "</section>" not in body:
+        return body
+    i = body.index("</section>") + len("</section>")
+    return body[:i] + "\n" + ad + body[i:]
+
+
 def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
     """rel  = prefix to reach site root ('' at root, '../' inside texts/).
     path = this page's path from site root ('' for home), used for canonical
            + og:url. None = skip those tags.
     ld   = list of schema.org dicts emitted as JSON-LD."""
+    body = with_poster(body, path)
     name = esc(SITE["site_name"])
     fb = SITE.get("firebase") or {}
     auth_btn = ('<button class="nav-link" id="t-auth">Sign in</button>'
@@ -1444,7 +1467,7 @@ def explore_nav(rel):
         for slug, icon, name, desc in EXPLORE)
     return (f'<div class="nav-drop" id="nav-drop">'
             f'<button class="nav-link nav-drop-btn" id="nav-drop-btn" type="button" aria-expanded="false" aria-haspopup="true">'
-            f'<span class="ni">🗺️</span><span class="nl"> Explore</span><span class="nd-caret" aria-hidden="true">▾</span></button>'
+            f'<span class="ni">🌏</span><span class="nl"> Explore</span><span class="nd-caret" aria-hidden="true">▾</span></button>'
             f'<div class="nav-drop-panel" role="menu">{links}</div></div>')
 
 
