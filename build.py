@@ -251,7 +251,7 @@ def esc(s):
 
 POSTER_PAGES = ("pinyin", "pairs", "topics", "idioms", "festivals", "quiz", "hsk-levels", "graded-readers",
                 "how-to-say", "measure-words", "question-words", "tone-changes", "numbers", "cheat-sheets")
-POSTER_PREFIXES = ("pairs-", "words-topic-", "quiz-hsk")
+POSTER_PREFIXES = ("pairs-", "words-topic-", "quiz-hsk", "hsk", "grammar", "words")
 
 
 def with_poster(body, path):
@@ -265,6 +265,12 @@ def with_poster(body, path):
     if path.startswith("pairs-") and '<div class="pair-ex">' in body:
         i = body.index('<div class="pair-ex">')
         return body[:i] + ad + body[i:]
+    # level, grammar and word-list pages: one long list under the banner, so the
+    # poster goes between the banner and the list (inside the grid it would be a card)
+    for mark in ('<div class="searchbar">', '<div class="gwrap">'):
+        if mark in body:
+            i = body.index(mark)
+            return body[:i] + ad + body[i:]
     if "</section>" not in body:
         return body
     i = body.index("</section>") + len("</section>")
