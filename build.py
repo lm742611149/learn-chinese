@@ -2059,8 +2059,11 @@ def build_measure_words(corpus):
       <li><b>The noun can drop out</b> once it is clear: 我要两杯。 I want two (cups).</li>
       <li><b>Containers work as measure words:</b> 一杯水, 一碗饭, 一瓶水, 一盒牛奶.</li>
     </ul>"""
+    vids = [v for v in (video_by_id(i) for i in REF.get("measure_word_videos", [])) if v]
+    vid_html = (f'<h2>Watch the lessons</h2><div class="vgrid pair-video">{"".join(video_card(v, heading=False) for v in vids)}</div>'
+                if vids else "")
     body = ref_head("Chinese measure words list", "量词", intro) + f"""
-  <section class="lvl-intro ref-body ref-wide">{rules}
+  <section class="lvl-intro ref-body ref-wide">{rules}{vid_html}
     <h2>{len(rows)} common measure words</h2>
     {ref_table(["Measure word", "Used for", "In the readings"], rows)}
     {cheat_more('measure-words')}
