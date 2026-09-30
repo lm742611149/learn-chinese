@@ -1,0 +1,641 @@
+{
+  "_note": "Hand-written reference data for the cheat-sheet pages (measure words, question words, tone changes, numbers). build.py pairs each entry with real example sentences from the readings. Edit freely.",
+  "measure_words": [
+    {
+      "zh": "个",
+      "py": "gè",
+      "for": "The general measure word: people, most objects, anything when you are not sure",
+      "nouns": "人 person · 苹果 apple · 问题 question · 朋友 friend"
+    },
+    {
+      "zh": "位",
+      "py": "wèi",
+      "for": "People, politely (guests, teachers, customers)",
+      "nouns": "老师 teacher · 客人 guest · 先生 gentleman"
+    },
+    {
+      "zh": "口",
+      "py": "kǒu",
+      "for": "Members of a family; also wells",
+      "nouns": "我家有四口人 there are four people in my family"
+    },
+    {
+      "zh": "只",
+      "py": "zhī",
+      "for": "Most animals; one of a pair (hands, eyes)",
+      "nouns": "猫 cat · 狗 dog · 鸟 bird · 手 hand"
+    },
+    {
+      "zh": "条",
+      "py": "tiáo",
+      "for": "Long, thin, bending things",
+      "nouns": "路 road · 河 river · 鱼 fish · 裤子 trousers · 裙子 skirt"
+    },
+    {
+      "zh": "张",
+      "py": "zhāng",
+      "for": "Flat things with a surface",
+      "nouns": "纸 paper · 桌子 table · 票 ticket · 照片 photo · 床 bed"
+    },
+    {
+      "zh": "本",
+      "py": "běn",
+      "for": "Books and anything bound",
+      "nouns": "书 book · 杂志 magazine · 词典 dictionary"
+    },
+    {
+      "zh": "件",
+      "py": "jiàn",
+      "for": "Clothing for the upper body; matters and events",
+      "nouns": "衣服 clothes · 衬衫 shirt · 事 matter"
+    },
+    {
+      "zh": "双",
+      "py": "shuāng",
+      "for": "Pairs",
+      "nouns": "鞋 shoes · 筷子 chopsticks · 袜子 socks"
+    },
+    {
+      "zh": "辆",
+      "py": "liàng",
+      "for": "Vehicles with wheels",
+      "nouns": "车 car · 自行车 bicycle · 公共汽车 bus"
+    },
+    {
+      "zh": "杯",
+      "py": "bēi",
+      "for": "A cup or glass of something",
+      "nouns": "茶 tea · 咖啡 coffee · 水 water"
+    },
+    {
+      "zh": "瓶",
+      "py": "píng",
+      "for": "A bottle of something",
+      "nouns": "水 water · 啤酒 beer · 牛奶 milk"
+    },
+    {
+      "zh": "碗",
+      "py": "wǎn",
+      "for": "A bowl of something",
+      "nouns": "米饭 rice · 面条 noodles · 汤 soup"
+    },
+    {
+      "zh": "块",
+      "py": "kuài",
+      "for": "Pieces and chunks; also yuan in spoken money",
+      "nouns": "蛋糕 cake · 手表 watch · 十块钱 ten yuan"
+    },
+    {
+      "zh": "家",
+      "py": "jiā",
+      "for": "Shops, companies, restaurants, hospitals",
+      "nouns": "商店 shop · 公司 company · 饭馆 restaurant"
+    },
+    {
+      "zh": "把",
+      "py": "bǎ",
+      "for": "Things you hold by a handle",
+      "nouns": "椅子 chair · 伞 umbrella · 刀 knife · 钥匙 key"
+    },
+    {
+      "zh": "台",
+      "py": "tái",
+      "for": "Machines and appliances",
+      "nouns": "电脑 computer · 电视 TV · 空调 air conditioner",
+      "ex": [
+        [
+          "我们家买了一台新电脑。",
+          "Our family bought a new computer."
+        ]
+      ]
+    },
+    {
+      "zh": "部",
+      "py": "bù",
+      "for": "Films, phones, works in several parts",
+      "nouns": "电影 film · 手机 phone · 小说 novel"
+    },
+    {
+      "zh": "座",
+      "py": "zuò",
+      "for": "Large, fixed things: mountains, buildings, bridges, cities",
+      "nouns": "山 mountain · 楼 building · 桥 bridge · 城市 city"
+    },
+    {
+      "zh": "棵",
+      "py": "kē",
+      "for": "Trees and plants",
+      "nouns": "树 tree · 草 grass"
+    },
+    {
+      "zh": "支",
+      "py": "zhī",
+      "for": "Stick-shaped things; teams and songs",
+      "nouns": "笔 pen · 铅笔 pencil · 球队 team"
+    },
+    {
+      "zh": "份",
+      "py": "fèn",
+      "for": "Portions, copies and jobs",
+      "nouns": "工作 job · 报纸 newspaper · 礼物 gift · 套餐 set meal"
+    },
+    {
+      "zh": "顿",
+      "py": "dùn",
+      "for": "Meals (and scoldings)",
+      "nouns": "饭 meal"
+    },
+    {
+      "zh": "场",
+      "py": "chǎng",
+      "for": "Events that take place: matches, shows, rain",
+      "nouns": "比赛 match · 电影 film showing · 雨 rain"
+    },
+    {
+      "zh": "首",
+      "py": "shǒu",
+      "for": "Songs and poems",
+      "nouns": "歌 song · 诗 poem"
+    },
+    {
+      "zh": "句",
+      "py": "jù",
+      "for": "Sentences and lines",
+      "nouns": "话 words · 诗 line of a poem"
+    },
+    {
+      "zh": "道",
+      "py": "dào",
+      "for": "Dishes of food; exam questions",
+      "nouns": "菜 dish · 题 question"
+    },
+    {
+      "zh": "篇",
+      "py": "piān",
+      "for": "Articles and essays",
+      "nouns": "文章 article · 作文 essay"
+    },
+    {
+      "zh": "封",
+      "py": "fēng",
+      "for": "Letters and emails",
+      "nouns": "信 letter · 邮件 email"
+    },
+    {
+      "zh": "套",
+      "py": "tào",
+      "for": "Sets and suites",
+      "nouns": "房子 flat · 衣服 outfit · 书 set of books"
+    },
+    {
+      "zh": "盒",
+      "py": "hé",
+      "for": "A box of something",
+      "nouns": "饼干 biscuits · 牛奶 carton of milk"
+    },
+    {
+      "zh": "节",
+      "py": "jié",
+      "for": "Class periods; sections",
+      "nouns": "课 class"
+    },
+    {
+      "zh": "层",
+      "py": "céng",
+      "for": "Floors and layers",
+      "nouns": "楼 floor of a building"
+    },
+    {
+      "zh": "种",
+      "py": "zhǒng",
+      "for": "Kinds, types",
+      "nouns": "水果 fruit · 方法 method · 感觉 feeling"
+    },
+    {
+      "zh": "些",
+      "py": "xiē",
+      "for": "Some, a few (no number before it except 一)",
+      "nouns": "一些人 some people · 这些书 these books"
+    },
+    {
+      "zh": "次",
+      "py": "cì",
+      "for": "Verbal: the number of times something happens",
+      "nouns": "去过两次 have been twice"
+    },
+    {
+      "zh": "遍",
+      "py": "biàn",
+      "for": "Verbal: times through, start to finish",
+      "nouns": "再说一遍 say it once more"
+    },
+    {
+      "zh": "群",
+      "py": "qún",
+      "for": "Groups and crowds",
+      "nouns": "人 people · 学生 students · 羊 sheep"
+    }
+  ],
+  "question_words": [
+    {
+      "zh": "什么",
+      "py": "shénme",
+      "en": "what",
+      "use": "Put it where the answer goes: 你叫什么？ — 我叫小美。 Before a noun it means \"what kind of\": 什么书？",
+      "q": "How do you say what in Chinese?"
+    },
+    {
+      "zh": "谁",
+      "py": "shéi",
+      "en": "who",
+      "use": "Also said shuí. Takes the place of the person: 他是谁？ 谁是老师？",
+      "q": "How do you say who in Chinese?"
+    },
+    {
+      "zh": "哪",
+      "py": "nǎ",
+      "en": "which",
+      "use": "Needs a measure word or noun after it: 哪个？ 哪本书？ 你是哪国人？",
+      "q": "How do you say which in Chinese?"
+    },
+    {
+      "zh": "哪儿",
+      "py": "nǎr",
+      "en": "where",
+      "use": "Northern speech says 哪儿, southern and Taiwan speech says 哪里 (nǎlǐ). Usually after 在 or 去: 你去哪儿？",
+      "q": "How do you say where in Chinese?"
+    },
+    {
+      "zh": "哪里",
+      "py": "nǎlǐ",
+      "en": "where",
+      "use": "Same as 哪儿. Also a modest reply to praise: 哪里哪里 \"not at all\".",
+      "q": "What is the difference between 哪儿 and 哪里?"
+    },
+    {
+      "zh": "几",
+      "py": "jǐ",
+      "en": "how many (a small number)",
+      "use": "When you expect an answer under about ten, and always with a measure word: 你家有几口人？ Also for dates and clock time: 几点？ 几月几号？",
+      "q": "How do you ask how many in Chinese?"
+    },
+    {
+      "zh": "多少",
+      "py": "duōshao",
+      "en": "how many, how much",
+      "use": "For any number, often without a measure word: 多少钱？ 你们学校有多少学生？",
+      "q": "What is the difference between 几 and 多少?"
+    },
+    {
+      "zh": "怎么",
+      "py": "zěnme",
+      "en": "how; how come",
+      "use": "Before a verb it asks how to do it: 这个字怎么读？ With a surprised tone it means \"how come\": 你怎么没来？",
+      "q": "How do you say how in Chinese?"
+    },
+    {
+      "zh": "怎么样",
+      "py": "zěnmeyàng",
+      "en": "how is it; what do you think",
+      "use": "At the end, asking for an opinion or a suggestion: 这个菜怎么样？ 我们明天去，怎么样？",
+      "q": "How do you ask how is it in Chinese?"
+    },
+    {
+      "zh": "为什么",
+      "py": "wèishénme",
+      "en": "why",
+      "use": "Goes before the verb or at the start: 你为什么学汉语？ The answer usually starts with 因为.",
+      "q": "How do you say why in Chinese?"
+    },
+    {
+      "zh": "什么时候",
+      "py": "shénme shíhou",
+      "en": "when",
+      "use": "Time goes before the verb in Chinese, so the question word does too: 你什么时候回家？",
+      "q": "How do you say when in Chinese?"
+    },
+    {
+      "zh": "多",
+      "py": "duō",
+      "en": "how (big, long, old…)",
+      "use": "Before an adjective: 多大？ how old / how big; 多长时间？ how long; 多远？ how far.",
+      "q": "How do you ask how old or how long in Chinese?",
+      "next": [
+        "大",
+        "长",
+        "远",
+        "久",
+        "高",
+        "重",
+        "少"
+      ]
+    },
+    {
+      "zh": "吗",
+      "py": "ma",
+      "en": "(yes/no question)",
+      "use": "Add it to the end of a statement to make a yes/no question: 你是学生。 → 你是学生吗？",
+      "q": "How do you make a yes or no question in Chinese?"
+    },
+    {
+      "zh": "呢",
+      "py": "ne",
+      "en": "and…? what about…?",
+      "use": "After a noun it asks the same question back: 我很好，你呢？ It also softens a question word question.",
+      "q": "What does 呢 mean in a question?"
+    },
+    {
+      "zh": "吧",
+      "py": "ba",
+      "en": "…right? / let's",
+      "use": "Checks something you think is true: 你是老师吧？ Or makes a suggestion: 我们走吧。",
+      "q": "What is the difference between 吗 and 吧?",
+      "any": true
+    }
+  ],
+  "numbers": {
+    "digits": [
+      [
+        "零",
+        "líng",
+        "0"
+      ],
+      [
+        "一",
+        "yī",
+        "1"
+      ],
+      [
+        "二",
+        "èr",
+        "2"
+      ],
+      [
+        "三",
+        "sān",
+        "3"
+      ],
+      [
+        "四",
+        "sì",
+        "4"
+      ],
+      [
+        "五",
+        "wǔ",
+        "5"
+      ],
+      [
+        "六",
+        "liù",
+        "6"
+      ],
+      [
+        "七",
+        "qī",
+        "7"
+      ],
+      [
+        "八",
+        "bā",
+        "8"
+      ],
+      [
+        "九",
+        "jiǔ",
+        "9"
+      ],
+      [
+        "十",
+        "shí",
+        "10"
+      ]
+    ],
+    "building": [
+      [
+        "十一",
+        "shíyī",
+        "11",
+        "ten + one"
+      ],
+      [
+        "十九",
+        "shíjiǔ",
+        "19",
+        "ten + nine"
+      ],
+      [
+        "二十",
+        "èrshí",
+        "20",
+        "two tens"
+      ],
+      [
+        "二十一",
+        "èrshíyī",
+        "21",
+        "two tens + one"
+      ],
+      [
+        "九十九",
+        "jiǔshíjiǔ",
+        "99",
+        "nine tens + nine"
+      ],
+      [
+        "一百",
+        "yìbǎi",
+        "100",
+        "百 = hundred; say the 一"
+      ],
+      [
+        "一百零五",
+        "yìbǎi líng wǔ",
+        "105",
+        "a gap in the middle is read as 零"
+      ],
+      [
+        "一百一十",
+        "yìbǎi yīshí",
+        "110",
+        "after 百, ten is 一十, not 十"
+      ],
+      [
+        "一千",
+        "yìqiān",
+        "1,000",
+        "千 = thousand"
+      ],
+      [
+        "两千零二十六",
+        "liǎngqiān líng èrshíliù",
+        "2,026",
+        "两 before 千 and 万 is more common than 二"
+      ],
+      [
+        "一万",
+        "yíwàn",
+        "10,000",
+        "万 = ten thousand; Chinese groups big numbers by four digits"
+      ],
+      [
+        "十万",
+        "shíwàn",
+        "100,000",
+        "ten 万"
+      ],
+      [
+        "一百万",
+        "yìbǎiwàn",
+        "1,000,000",
+        "a hundred 万"
+      ],
+      [
+        "一亿",
+        "yíyì",
+        "100,000,000",
+        "亿 = a hundred million"
+      ]
+    ],
+    "er_liang": "Use 二 èr for counting, in phone numbers, in dates and inside bigger numbers (十二, 二十). Use 两 liǎng in front of a measure word: 两个人, 两本书, 两点 (two o'clock). Before 百 either is heard; before 千 and 万, 两 is more usual.",
+    "dates": [
+      [
+        "二〇二六年",
+        "èr líng èr liù nián",
+        "the year 2026",
+        "Years are read digit by digit"
+      ],
+      [
+        "九月",
+        "jiǔ yuè",
+        "September",
+        "Months are just number + 月: 一月 is January, 十二月 is December"
+      ],
+      [
+        "三十号",
+        "sānshí hào",
+        "the 30th",
+        "号 in speech, 日 rì in writing"
+      ],
+      [
+        "二〇二六年九月三十日",
+        "èr líng èr liù nián jiǔ yuè sānshí rì",
+        "30 September 2026",
+        "Big to small: year, month, day"
+      ],
+      [
+        "星期一",
+        "xīngqī yī",
+        "Monday",
+        "星期 + 1 to 6 is Monday to Saturday"
+      ],
+      [
+        "星期天",
+        "xīngqī tiān",
+        "Sunday",
+        "Also 星期日; 周一…周日 is common in writing"
+      ],
+      [
+        "今天几月几号？",
+        "jīntiān jǐ yuè jǐ hào?",
+        "What is the date today?",
+        ""
+      ],
+      [
+        "今天星期几？",
+        "jīntiān xīngqī jǐ?",
+        "What day is it today?",
+        ""
+      ]
+    ],
+    "time": [
+      [
+        "三点",
+        "sān diǎn",
+        "3:00",
+        "点 = o'clock"
+      ],
+      [
+        "两点",
+        "liǎng diǎn",
+        "2:00",
+        "两, not 二"
+      ],
+      [
+        "三点十分",
+        "sān diǎn shí fēn",
+        "3:10",
+        "分 = minutes"
+      ],
+      [
+        "三点零五分",
+        "sān diǎn líng wǔ fēn",
+        "3:05",
+        "零 before single-digit minutes"
+      ],
+      [
+        "三点半",
+        "sān diǎn bàn",
+        "3:30",
+        "半 = half"
+      ],
+      [
+        "三点一刻",
+        "sān diǎn yí kè",
+        "3:15",
+        "一刻 = a quarter; 三刻 = 45 minutes"
+      ],
+      [
+        "差五分四点",
+        "chà wǔ fēn sì diǎn",
+        "3:55",
+        "差 = short of, five to four"
+      ],
+      [
+        "早上七点",
+        "zǎoshang qī diǎn",
+        "7 in the morning",
+        "The part of the day comes first: 早上 上午 中午 下午 晚上"
+      ],
+      [
+        "现在几点？",
+        "xiànzài jǐ diǎn?",
+        "What time is it?",
+        ""
+      ]
+    ],
+    "money": [
+      [
+        "元",
+        "yuán",
+        "yuan (written)",
+        "On price tags and in formal speech"
+      ],
+      [
+        "块",
+        "kuài",
+        "yuan (spoken)",
+        "五块钱 = five yuan"
+      ],
+      [
+        "毛",
+        "máo",
+        "0.1 yuan (spoken)",
+        "Written 角 jiǎo"
+      ],
+      [
+        "十块五",
+        "shí kuài wǔ",
+        "10.50 yuan",
+        "The last unit is often dropped"
+      ],
+      [
+        "多少钱？",
+        "duōshao qián?",
+        "How much is it?",
+        ""
+      ]
+    ],
+    "order": "Time words go before the verb, and the order is big to small: 我明天上午九点去学校。 (I go to school at nine tomorrow morning: literally I tomorrow morning nine o'clock go school.)"
+  }
+}

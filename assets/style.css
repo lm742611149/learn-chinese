@@ -1491,3 +1491,32 @@ html[data-theme=dark] .tchip.on { background: #e9dfcf; border-color: #e9dfcf; co
    colour from the page and showed a meaningless gold bar. */
 .cmp tbody th { border-left: 0; }
 .cmp tbody tr[style*="--sc"] th { box-shadow: inset 4px 0 0 var(--sc); }
+
+/* cheat sheets (2026-09-30): measure words, question words, tone changes,
+   numbers, how to say it. Own classes; .ref-t drops the 760px min-width that
+   .cmp needs for the wide comparison tables. */
+.ref-wide { max-width: 1000px; }
+.cmp.ref-t { min-width: 640px; }
+.ref-t tbody th { white-space: normal; min-width: 90px; }
+.ref-t .exlist { margin: 0; }
+.ref-t .ex { padding: 4px 0 8px; }
+.ref-t .ex:last-child { border-bottom: 0; }
+.ref-t tbody th .rf-zh, .rf-zh { display: block; font-family: var(--serif); font-size: 1.6rem; line-height: 1.2; color: var(--ink); font-weight: 600; }
+.ref-t tbody th .rf-py, .rf-py { display: block; font-size: .82rem; color: var(--muted); font-weight: 400; }
+.rf-nouns, .rf-use { margin-top: 4px; font-size: .84rem; color: var(--ink-2); line-height: 1.6; }
+.rf-nouns { font-family: var(--serif); }
+.rf-words { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 12px; }
+.rf-w { display: inline-flex; flex-direction: column; align-items: center; min-width: 58px; padding: 7px 10px;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--card, #fff); }
+.rf-w b { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; color: var(--ink); }
+.rf-w i { font-style: normal; font-size: .76rem; color: var(--muted); }
+.rf-w em { font-style: normal; font-size: .72rem; color: var(--red); font-weight: 700; }
+.ref-rules { padding-left: 20px; margin: 0 0 10px; }
+.ref-rules li { font-size: .93rem; line-height: 1.75; color: var(--ink-2); margin-bottom: 6px; }
+.ref-more { margin-top: 4px; }
+.hs-zh { display: block; font-family: var(--serif); font-size: 1.15rem; color: var(--ink); }
+.hs-py { display: block; font-size: .8rem; color: var(--muted); }
+.hs-ex { display: block; font-family: var(--serif); font-size: .98rem; color: var(--ink); line-height: 1.6; }
+.hs-ex .hl { color: var(--red); font-weight: 700; }
+.hs-exen { display: block; font-size: .8rem; color: var(--ink-2); }
+.ref-t td:last-child a { white-space: nowrap; }

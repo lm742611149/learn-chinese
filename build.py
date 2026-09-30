@@ -362,6 +362,13 @@ def page(title, desc, body, rel="", path=None, noindex=False, ld=None):
       <a href="{rel}idioms.html">Idioms</a>
       <a href="{rel}festivals.html">Festivals</a>
     </div>
+    <div style="margin-top:6px">
+      <a href="{rel}how-to-say.html">How to say it</a>
+      <a href="{rel}measure-words.html">Measure words</a>
+      <a href="{rel}question-words.html">Question words</a>
+      <a href="{rel}tone-changes.html">Tone changes</a>
+      <a href="{rel}numbers.html">Numbers and time</a>
+    </div>
   </footer>
 </div>
 <div id="pop"></div>
@@ -1425,6 +1432,8 @@ EXPLORE = [
     ("quiz", "✅", "Practice questions", "Reading comprehension questions with answers"),
     ("hsk-levels", "📊", "HSK levels compared", "HSK 1-6 side by side"),
     ("graded-readers", "📚", "Graded readers", "Books, apps and free sites by level"),
+    ("how-to-say", "💬", "How to say it", "Thank you, sorry, I'm hungry… in Chinese"),
+    ("cheat-sheets", "📋", "Cheat sheets", "Measure words, question words, tones, numbers"),
 ]
 
 
@@ -1885,6 +1894,383 @@ def build_festivals(texts):
     return page(f"Chinese Festivals: Greetings, Words and When They Are | {SITE['site_name']}",
                 "Chinese festivals explained for learners: Spring Festival, Lantern, Qingming, Dragon Boat, Qixi, Mid-Autumn "
                 "and more, with greetings, key words and graded readings.", body, path="festivals", ld=[crumbs("Chinese festivals")])
+
+
+# ---------- cheat sheets (2026-09-30) ----------
+# Answer-style reference pages: the kind of page ChatGPT and Perplexity link to
+# (CF referrers 09-23..29 landed on /graded-readers, /grammar, /idioms). The
+# rules and glosses are in content/reference.json; every example sentence is
+# pulled from the readings.
+
+REF = _load("reference.json", {"measure_words": [], "question_words": [], "numbers": {}})
+
+CHEATS = [
+    ("how-to-say", "💬", "How to say it in Chinese", "Everyday phrases, each with a reading"),
+    ("measure-words", "📏", "Measure words", "个 本 张 条… what each one counts"),
+    ("question-words", "❓", "Question words", "什么 谁 哪儿 几 怎么 为什么"),
+    ("tone-changes", "🎵", "Tone changes", "一, 不 and the third tone rule"),
+    ("numbers", "🔢", "Numbers, dates and time", "Counting, 二 vs 两, dates, clock time, money"),
+]
+
+
+def corpus_examples(corpus, word, keep, n=2, maxlen=34):
+    """Like Corpus.examples, but with a predicate on (token, plain sentence)."""
+    out, seen = [], set()
+    cands = sorted(corpus.idx.get(word, []), key=lambda c: (c[0]["level"], len(c[1]["t"])))
+    for t, s, i in cands:
+        plain = "".join(x[0] for x in s["t"])
+        if plain in seen or len(plain) > maxlen or not keep(s["t"][i], plain):
+            continue
+        seen.add(plain)
+        out.append((t, s, i))
+        if len(out) >= n:
+            break
+    return out
+
+
+def ref_crumbs(name):
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": SITE["site_name"], "item": f"{base}/"},
+                {"@type": "ListItem", "position": 2, "name": "Cheat sheets", "item": f"{base}/cheat-sheets"},
+                {"@type": "ListItem", "position": 3, "name": name}]}
+
+
+def faq_ld(qas):
+    return {"@context": "https://schema.org", "@type": "FAQPage",
+            "mainEntity": [{"@type": "Question", "name": q,
+                            "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qas]}
+
+
+def cheat_more(cur):
+    links = "".join(f'<a class="tchip" href="{slug}.html">{icon} {esc(name)}</a>'
+                    for slug, icon, name, _ in CHEATS if slug != cur)
+    return f'<h2>More cheat sheets</h2><div class="topic-chips ref-more">{links}</div>'
+
+
+def ref_head(h1, zh, intro):
+    return f"""
+  <section class="about">
+    <h1>{h1} <span style="font-family:var(--serif);color:var(--red)">{zh}</span></h1>
+    <p>{intro}</p>
+  </section>"""
+
+
+def ref_table(head, rows):
+    th = "".join(f'<th scope="col">{esc(h)}</th>' for h in head)
+    return f'<div class="cmp-wrap"><table class="cmp ref-t"><thead><tr>{th}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+
+
+# --- how to say it ---
+
+HOW_PREFIX = re.compile(r"^(how to say|saying|asking|talking about|telling)\s+", re.I)
+
+
+def how_phrase(title_en):
+    s = re.sub(r"\s+in chinese$", "", title_en, flags=re.I)
+    s = HOW_PREFIX.sub("", s)
+    return s[:1].upper() + s[1:]
+
+
+def how_items(texts):
+    items = []
+    for t in texts:
+        if not t["title_en"].lower().endswith("in chinese"):
+            continue
+        ex = next((s for s in t["sentences"] if t["title_zh"] in "".join(x[0] for x in s["t"])), None)
+        items.append({"t": t, "en": how_phrase(t["title_en"]), "ex": ex,
+                      "topic": TOPICS.get("texts", {}).get(t["slug"], "phrases")})
+    return items
+
+
+def build_how_to_say(texts):
+    items = how_items(texts)
+    labels = TOPICS.get("labels", {"phrases": "Everyday phrases"})
+    groups = {}
+    for it in items:
+        groups.setdefault(it["topic"], []).append(it)
+    order = [k for k in labels if k in groups] + [k for k in groups if k not in labels]
+    nav = "".join(f'<a class="tchip" href="#h-{k}">{esc(labels.get(k, k))} <span class="lt-n">{len(groups[k])}</span></a>'
+                  for k in order)
+    secs = []
+    for k in order:
+        rows = []
+        for it in sorted(groups[k], key=lambda x: (x["t"]["level"], x["en"])):
+            t, ex = it["t"], it["ex"]
+            ex_html_ = ""
+            if ex:
+                zh = "".join(x[0] for x in ex["t"]).replace(t["title_zh"], f'<b class="hl">{esc(t["title_zh"])}</b>', 1)
+                ex_html_ = f'<span class="hs-ex" lang="zh">{zh}</span><span class="hs-exen">{esc(ex["en"])}</span>'
+            rows.append(
+                f'<tr id="{esc(t["slug"])}"><th scope="row">{esc(it["en"])}</th>'
+                f'<td><span class="hs-zh" lang="zh">{esc(t["title_zh"])}</span><span class="hs-py">{esc(t["title_py"])}</span></td>'
+                f'<td class="hs-exc">{ex_html_}</td>'
+                f'<td><a href="texts/{esc(t["slug"])}.html">HSK {t["level"]} reading →</a></td></tr>')
+        secs.append(f'<h2 id="h-{k}">{esc(labels.get(k, k))} <span class="lt-n">{len(groups[k])}</span></h2>'
+                    + ref_table(["In English", "In Chinese", "Used in a sentence", "Practise"], rows))
+    body = ref_head("How to say it in Chinese", "怎么说",
+                    f"{len(items)} everyday things people want to say in Chinese, with characters, pinyin and a real "
+                    "sentence that uses them. Each one links to a short graded reading built around the phrase, with "
+                    "audio and tap-to-translate.") + f"""
+  <div class="topic-chips">{nav}</div>
+  <section class="lvl-intro ref-body ref-wide">{''.join(secs)}{cheat_more('how-to-say')}</section>"""
+    base = (SITE.get("canonical_url") or "").rstrip("/")
+    ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": "How to say it in Chinese",
+           "itemListElement": [{"@type": "ListItem", "position": n + 1,
+                                "name": f'{it["en"]} in Chinese: {it["t"]["title_zh"]} ({it["t"]["title_py"]})',
+                                "url": f'{base}/texts/{it["t"]["slug"]}'} for n, it in enumerate(items)]},
+          ref_crumbs("How to say it in Chinese")]
+    return page(f"How to Say It in Chinese: {len(items)} Everyday Phrases with Pinyin | {SITE['site_name']}",
+                "How to say everyday things in Chinese: thank you, sorry, I'm hungry, how much is it, I don't understand "
+                f"and {len(items) - 5} more, with characters, pinyin and example sentences.",
+                body, path="how-to-say", ld=ld)
+
+
+# --- measure words ---
+
+def build_measure_words(corpus):
+    rows, qas = [], []
+    is_mw = lambda tok, plain: re.search(r"measure|classifier", tok[2], re.I) is not None
+    for m in REF["measure_words"]:
+        found = corpus_examples(corpus, m["zh"], is_mw)
+        if len(found) < 2:   # 次, 遍, 些 are rarely glossed "measure word"; fall back to the pinyin
+            got = {id(s) for _, s, _ in found}
+            found += [f for f in corpus_examples(corpus, m["zh"], lambda tok, plain: tok[1].lower() == m["py"], n=3)
+                      if id(f[1]) not in got][:2 - len(found)]
+        ex = "".join(ex_html(t, s, i) for t, s, i in found) or "".join(
+            f'<li class="ex"><span class="ex-zh" lang="zh">{esc(z)}</span><span class="ex-en">{esc(e)}</span></li>'
+            for z, e in m.get("ex", []))
+        rows.append(
+            f'<tr id="mw-{esc(m["zh"])}"><th scope="row"><span class="rf-zh" lang="zh">{esc(m["zh"])}</span>'
+            f'<span class="rf-py">{esc(m["py"])}</span></th>'
+            f'<td>{esc(m["for"])}<div class="rf-nouns" lang="zh">{esc(m["nouns"])}</div></td>'
+            f'<td><ul class="exlist">{ex}</ul></td></tr>')
+        qas.append((f'What is the measure word {m["zh"]} ({m["py"]}) used for?', f'{m["for"]}. For example: {m["nouns"]}.'))
+    intro = ("In Chinese you cannot put a number straight in front of a noun. A measure word (量词, also called a "
+             "classifier) goes in between: 一<b>本</b>书 one book, 两<b>杯</b>咖啡 two cups of coffee, 这<b>个</b>人 this person. "
+             f"Here are {len(REF['measure_words'])} you will meet most, what each one counts, and sentences from the readings.")
+    rules = """
+    <h2>How measure words work</h2>
+    <ul class="ref-rules">
+      <li><b>Number + measure word + noun:</b> 三<b>个</b>苹果 three apples. The same after 这 this, 那 that, 哪 which and 几 how many: 这<b>本</b>书, 几<b>个</b>人？</li>
+      <li><b>Use 两, not 二,</b> in front of a measure word: 两个人, never 二个人.</li>
+      <li><b>个 is the safe default.</b> If you do not know the right one, 个 is understood almost everywhere, and in speech people use it for many nouns that have their own measure word.</li>
+      <li><b>The noun can drop out</b> once it is clear: 我要两杯。 I want two (cups).</li>
+      <li><b>Containers work as measure words:</b> 一杯水, 一碗饭, 一瓶水, 一盒牛奶.</li>
+    </ul>"""
+    body = ref_head("Chinese measure words list", "量词", intro) + f"""
+  <section class="lvl-intro ref-body ref-wide">{rules}
+    <h2>{len(rows)} common measure words</h2>
+    {ref_table(["Measure word", "Used for", "In the readings"], rows)}
+    {cheat_more('measure-words')}
+  </section>"""
+    ld = [faq_ld([("What is a measure word in Chinese?",
+                   "A measure word (classifier) goes between a number or 这/那 and a noun: 一本书 one book, 两杯茶 two cups of tea. "
+                   "个 is the general one; others depend on the kind of thing counted.")] + qas[:12]),
+          ref_crumbs("Measure words")]
+    return page(f"Chinese Measure Words List: {len(rows)} Common Classifiers with Examples | {SITE['site_name']}",
+                f"The {len(rows)} most common Chinese measure words (classifiers): 个, 本, 张, 条, 件, 只, 杯 and more, what each "
+                "one is used for, and real example sentences with pinyin.", body, path="measure-words", ld=ld)
+
+
+# --- question words ---
+
+def build_question_words(corpus):
+    rows, qas = [], []
+    is_q = lambda tok, plain: plain.rstrip("”\"」").endswith(("？", "?"))
+    for q in REF["question_words"]:
+        keep = (lambda tok, plain: True) if q.get("any") else is_q
+        if q.get("next"):   # 多 is only a question word before an adjective: 多大, not 很多
+            keep = lambda tok, plain, nx=q["next"]: is_q(tok, plain) and any(f'多{a}' in plain and f'很多{a}' not in plain for a in nx)
+        found = corpus_examples(corpus, q["zh"], keep, n=2)
+        ex = "".join(ex_html(t, s, i) for t, s, i in found)
+        rows.append(
+            f'<tr id="q-{esc(q["zh"])}"><th scope="row"><span class="rf-zh" lang="zh">{esc(q["zh"])}</span>'
+            f'<span class="rf-py">{esc(q["py"])}</span></th>'
+            f'<td><b>{esc(q["en"])}</b><div class="rf-use">{esc(q["use"])}</div></td>'
+            f'<td><ul class="exlist">{ex}</ul></td></tr>')
+        qas.append((q["q"], f'{q["zh"]} ({q["py"]}) means {q["en"]}. {q["use"]}'))
+    intro = ("Chinese questions keep the word order of the answer. You put the question word where the answer will go "
+             "and change nothing else: 你去<b>哪儿</b>？ — 我去<b>北京</b>。 Where are you going? — I'm going to Beijing. "
+             "Here are the question words and particles, with questions from the readings.")
+    rules = """
+    <h2>Three ways to ask a question</h2>
+    <ul class="ref-rules">
+      <li><b>Add 吗</b> to a statement for a yes/no question: 你忙。 → 你忙<b>吗</b>？</li>
+      <li><b>Say the verb twice with 不:</b> 你<b>是不是</b>老师？ 你<b>去不去</b>？ Same meaning as 吗, a little more direct. Do not add 吗 as well.</li>
+      <li><b>Use a question word</b> (below) in the place of the answer. Do not add 吗 to these either: 你叫什么？ not 你叫什么吗？</li>
+    </ul>"""
+    body = ref_head("Chinese question words", "疑问词", intro) + f"""
+  <section class="lvl-intro ref-body ref-wide">{rules}
+    <h2>Question words and particles</h2>
+    {ref_table(["Word", "Meaning and how to use it", "Questions from the readings"], rows)}
+    {cheat_more('question-words')}
+  </section>"""
+    ld = [faq_ld([("How do you ask a question in Chinese?",
+                   "Add 吗 to the end of a statement for a yes/no question, repeat the verb with 不 (是不是, 去不去), or put a "
+                   "question word such as 什么, 谁, 哪儿 or 为什么 where the answer would go. Word order does not change.")] + qas),
+          ref_crumbs("Question words")]
+    return page(f"Chinese Question Words: 什么, 谁, 哪儿, 几, 怎么, 为什么 | {SITE['site_name']}",
+                "How to ask questions in Chinese: 吗, 呢 and 吧, and the question words 什么 what, 谁 who, 哪儿 where, 几 and 多少 "
+                "how many, 怎么 how and 为什么 why, with example questions.", body, path="question-words", ld=ld)
+
+
+# --- tone changes ---
+
+T3 = set("ǎěǐǒǔǚ")
+TONED = set("āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ")
+
+
+def tone_words(corpus):
+    cnt = {}
+    for w, hits in corpus.idx.items():
+        py = hits[0][1]["t"][hits[0][2]][1]
+        cnt[(w, py)] = len(hits)
+    def top(pred, n=10):
+        c = [(k, v) for k, v in cnt.items() if pred(*k)]
+        c.sort(key=lambda kv: -kv[1])
+        return [k for k, _ in c[:n]]
+    marks = lambda py: [ch for ch in py if ch in TONED]
+    return {
+        "33": top(lambda w, py: len(w) == 2 and py[:1].islower() and len(marks(py)) == 2 and all(ch in T3 for ch in marks(py))),
+        "yi4": top(lambda w, py: len(w) == 2 and w[0] == "一" and py.lower().startswith("yí")),
+        "yi2": top(lambda w, py: len(w) == 2 and w[0] == "一" and py.lower().startswith("yì")),
+        "yi1": top(lambda w, py: len(w) >= 2 and w[-1] == "一" and w[0] not in "这那哪" and py.lower().endswith("yī")),
+        "bu": top(lambda w, py: len(w) == 2 and w[0] == "不" and py.lower().startswith("bú")),
+        "bu4": top(lambda w, py: len(w) == 2 and w[0] == "不" and py.lower().startswith("bù")),
+    }
+
+
+def word_chips(ws):
+    return '<div class="rf-words">' + "".join(
+        f'<span class="rf-w"><b lang="zh">{esc(w)}</b><i>{esc(py)}</i></span>' for w, py in ws) + "</div>"
+
+
+def build_tone_changes(corpus):
+    tw = tone_words(corpus)
+    ex33 = [e for w, _ in tw["33"][:3] for e in corpus.examples(w, n=1)]
+    body = ref_head("Chinese tone changes (tone sandhi)", "变调",
+                    "A few tones change depending on the syllable that follows. There are three rules worth learning: "
+                    "the third tone before another third tone, 一 yī, and 不 bù. Pinyin in dictionaries shows the "
+                    "original tones for the third-tone rule, but on this site (and in most textbooks) 一 and 不 are "
+                    "written with the tone you actually say.") + f"""
+  <section class="lvl-intro ref-body">
+    <h2>1. Third tone + third tone → second tone + third tone</h2>
+    <p>When two third tones come together, the first one is said as a <b>second</b> tone. 你好 is written nǐ hǎo but said
+      <b>ní hǎo</b>. Pinyin keeps the written ǐ, so you have to apply this one yourself.</p>
+    <p>Words from the readings where it applies:</p>
+    {word_chips(tw["33"])}
+    <ul class="exlist">{''.join(ex_html(t, s, i) for t, s, i in ex33)}</ul>
+    <p>In a run of three or more third tones, group them by meaning and change all but the last in each group:
+      我很好 wǒ hěn hǎo is usually said wó hén hǎo.</p>
+
+    <h2>2. 一 yī changes with the next tone</h2>
+    <div class="cmp-wrap"><table class="cmp ref-t"><thead><tr><th scope="col">When</th><th scope="col">Say</th><th scope="col">Examples from the readings</th></tr></thead><tbody>
+      <tr><th scope="row">On its own, counting, in dates, numbers and ordinals, or at the end</th><td><b>yī</b> (first)</td><td>{word_chips(tw["yi1"][:6])}</td></tr>
+      <tr><th scope="row">Before a fourth tone (and before 个 gè)</th><td><b>yí</b> (second)</td><td>{word_chips(tw["yi4"][:8])}</td></tr>
+      <tr><th scope="row">Before a first, second or third tone</th><td><b>yì</b> (fourth)</td><td>{word_chips(tw["yi2"][:8])}</td></tr>
+    </tbody></table></div>
+
+    <h2>3. 不 bù becomes bú before a fourth tone</h2>
+    <div class="cmp-wrap"><table class="cmp ref-t"><thead><tr><th scope="col">When</th><th scope="col">Say</th><th scope="col">Examples from the readings</th></tr></thead><tbody>
+      <tr><th scope="row">Before a fourth tone</th><td><b>bú</b> (second)</td><td>{word_chips(tw["bu"][:8])}</td></tr>
+      <tr><th scope="row">Everywhere else</th><td><b>bù</b> (fourth)</td><td>{word_chips(tw["bu4"][:8])}</td></tr>
+    </tbody></table></div>
+    <p>In the middle of a verb phrase 不 is often light and toneless: 听不懂 tīng bu dǒng, 对不起 duì bu qǐ.</p>
+
+    <h2>Also good to know</h2>
+    <ul class="ref-rules">
+      <li><b>Half third tone.</b> Before a first, second or fourth tone, a third tone usually just dips low and does not rise again: 很忙 hěn máng, 很高 hěn gāo, 我去 wǒ qù.</li>
+      <li><b>Neutral tone.</b> Particles such as 吗, 呢, 吧, 的, 了 and the second syllable of doubled family words (妈妈, 爸爸, 哥哥) are short and light, with no tone mark.</li>
+    </ul>
+    <p>To hear every syllable in all four tones, use the <a href="pinyin.html">pinyin chart with audio</a>.</p>
+    {cheat_more('tone-changes')}
+  </section>"""
+    ld = [faq_ld([
+        ("What is the third tone rule in Chinese?",
+         "When two third tones come together, the first is said as a second tone: 你好 nǐ hǎo is pronounced ní hǎo. "
+         "The written pinyin does not change."),
+        ("How does the tone of 一 change?",
+         "一 is yī on its own, when counting and in numbers and ordinals. Before a fourth tone it becomes yí (一个, 一下, 一样); "
+         "before a first, second or third tone it becomes yì (一天, 一年, 一起)."),
+        ("When is 不 pronounced bú?",
+         "不 is bù, but before a fourth tone it becomes bú: 不是 bú shì, 不要 bú yào, 不客气 bú kèqi."),
+    ]), ref_crumbs("Tone changes")]
+    return page(f"Chinese Tone Changes (Tone Sandhi): 一, 不 and the Third Tone Rule | {SITE['site_name']}",
+                "Mandarin tone sandhi made simple: why 你好 is said ní hǎo, when 一 is yī, yí or yì, and when 不 becomes bú, "
+                "with real words and sentences.", body, path="tone-changes", ld=ld)
+
+
+# --- numbers, dates, time ---
+
+def build_numbers(corpus, texts):
+    N = REF["numbers"]
+    row4 = lambda r: (f'<tr><th scope="row" lang="zh">{esc(r[0])}</th><td>{esc(r[1])}</td><td>{esc(r[2])}</td>'
+                      f'<td>{esc(r[3]) if len(r) > 3 else ""}</td></tr>')
+    digits = "".join(f'<span class="rf-w rf-num"><b lang="zh">{esc(z)}</b><i>{esc(p)}</i><em>{esc(n)}</em></span>'
+                     for z, p, n in N["digits"])
+    time_ex = [e for w, py in (("点", "diǎn"), ("号", "hào"), ("星期", None), ("块", "kuài"))
+               for e in corpus_examples(corpus, w, lambda tok, plain, py=py: py is None or tok[1].lower() == py, n=1)]
+    reads = [t for t in sorted(texts, key=lambda x: (x["level"], x["slug"]))
+             if TOPICS.get("texts", {}).get(t["slug"]) == "time"][:12]
+    reads_html = " · ".join(f'<a href="texts/{esc(t["slug"])}.html"><span lang="zh">{esc(t["title_zh"])}</span> '
+                            f'{esc(t["title_en"])}</a>' for t in reads)
+    head = ["Chinese", "Pinyin", "Means", "Note"]
+    body = ref_head("Chinese numbers, dates and time", "数字 · 日期 · 时间",
+                    "Everything you need to count, give a date, tell the time and pay in Chinese. Chinese numbers are "
+                    "very regular: once you know one to ten and four more characters, you can say any number.") + f"""
+  <section class="lvl-intro ref-body ref-wide">
+    <h2>0 to 10</h2>
+    <div class="rf-words">{digits}</div>
+    <h2>Building bigger numbers</h2>
+    {ref_table(head, [row4(r) for r in N["building"]])}
+    <h2>二 èr or 两 liǎng?</h2>
+    <p>{esc(N["er_liang"])}</p>
+    <h2>Dates and days of the week</h2>
+    {ref_table(head, [row4(r) for r in N["dates"]])}
+    <h2>Telling the time</h2>
+    {ref_table(head, [row4(r) for r in N["time"]])}
+    <p>{esc(N["order"])}</p>
+    <h2>Money</h2>
+    {ref_table(head, [row4(r) for r in N["money"]])}
+    <h2>In the readings</h2>
+    <ul class="exlist">{''.join(ex_html(t, s, i) for t, s, i in time_ex)}</ul>
+    {('<p><b>Readings on numbers, time and dates:</b> ' + reads_html + '</p>') if reads else ''}
+    {cheat_more('numbers')}
+  </section>"""
+    ld = [faq_ld([
+        ("How do you count to ten in Chinese?",
+         "零 líng 0, 一 yī 1, 二 èr 2, 三 sān 3, 四 sì 4, 五 wǔ 5, 六 liù 6, 七 qī 7, 八 bā 8, 九 jiǔ 9, 十 shí 10."),
+        ("What is the difference between 二 and 两?", N["er_liang"]),
+        ("How do you say the date in Chinese?",
+         "From big to small: year, month, day. Years are read digit by digit: 二〇二六年九月三十日 èr líng èr liù nián jiǔ yuè sānshí rì "
+         "is 30 September 2026. In speech 号 hào replaces 日 rì."),
+        ("How do you tell the time in Chinese?",
+         "Hour + 点 diǎn + minutes + 分 fēn: 三点十分 is 3:10, 三点半 is 3:30, 三点一刻 is 3:15. Use 两点 for two o'clock. "
+         "The part of the day comes first: 下午三点 3 pm."),
+    ]), ref_crumbs("Numbers, dates and time")]
+    return page(f"Chinese Numbers, Dates and Time: How to Say Them | {SITE['site_name']}",
+                "Chinese numbers from 0 to 100,000,000, 二 vs 两, how to say dates, days of the week, clock time and prices, "
+                "with pinyin and example sentences.", body, path="numbers", ld=ld)
+
+
+def build_cheat_index():
+    cards = "".join(
+        f'<a class="pcard" href="{slug}.html"><span class="pc-w">{icon}</span>'
+        f'<span class="pc-t">{esc(name)}</span><span class="pc-s" lang="zh">{esc(desc)}</span></a>'
+        for slug, icon, name, desc in CHEATS)
+    also = "".join(f'<a class="tchip" href="{slug}.html">{icon} {esc(name)}</a>'
+                   for slug, icon, name, _ in EXPLORE if slug in ("pinyin", "pairs", "hsk-levels", "idioms"))
+    body = ref_head("Chinese cheat sheets", "速查表",
+                    "Quick reference pages for the things learners look up again and again. Every example sentence "
+                    "comes from a graded reading on this site, so you can see it in context.") + f"""
+  <section class="pgrid">{cards}</section>
+  <section class="lvl-intro"><h2>Also useful</h2><div class="topic-chips">{also}</div></section>"""
+    return page(f"Chinese Cheat Sheets: Measure Words, Question Words, Tones, Numbers | {SITE['site_name']}",
+                "Free Chinese cheat sheets for learners: common phrases, measure words, question words, tone changes, "
+                "numbers, dates and time, with pinyin and real examples.", body, path="cheat-sheets",
+                ld=[crumbs("Cheat sheets")])
 
 
 TOPIC_WORDS = {}
@@ -2503,6 +2889,10 @@ def main():
         open(os.path.join(OUT, f"words-topic-{k}.html"), "w", encoding="utf-8").write(build_topic_words(k, words))
     open(os.path.join(OUT, "idioms.html"), "w", encoding="utf-8").write(build_idioms(texts, corpus))
     open(os.path.join(OUT, "festivals.html"), "w", encoding="utf-8").write(build_festivals(texts))
+    for name, html_ in (("how-to-say", build_how_to_say(texts)), ("measure-words", build_measure_words(corpus)),
+                        ("question-words", build_question_words(corpus)), ("tone-changes", build_tone_changes(corpus)),
+                        ("numbers", build_numbers(corpus, texts)), ("cheat-sheets", build_cheat_index())):
+        open(os.path.join(OUT, f"{name}.html"), "w", encoding="utf-8").write(html_)
     for lvl in range(1, 7):
         open(os.path.join(OUT, f"quiz-hsk{lvl}.html"), "w", encoding="utf-8").write(
             build_quiz_level(texts, lvl))
@@ -2562,6 +2952,9 @@ def main():
         urls += [(f"quiz-hsk{lvl}", "0.7", newest) for lvl in range(1, 7)]
         urls += [("pinyin", "0.8", newest), ("pairs", "0.7", newest), ("topics", "0.6", newest),
                  ("idioms", "0.7", newest), ("festivals", "0.7", newest)]
+        urls += [("how-to-say", "0.8", newest), ("cheat-sheets", "0.6", newest)]
+        urls += [(slug, "0.7", os.path.getmtime(os.path.join(ROOT, "content", "reference.json")))
+                 for slug, *_ in CHEATS if slug != "how-to-say"]
         urls += [(f"pairs-{pr['id']}", "0.7", newest) for pr in PAIRS]
         urls += [(f"words-topic-{k}", "0.6", newest) for k in TOPIC_WORDS]
         for lvl in range(1, 7):
