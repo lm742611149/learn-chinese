@@ -476,7 +476,7 @@
       bar.className = "progress-strip";
       bar.innerHTML = '<span class="fire">🔥 ' + streak(prog) +
         "-day streak</span><span>" + doneCount + " / " + idxCards.length +
-        ' readings finished</span><a class="ps-link" href="progress.html">🏆 View →</a>';
+        ' readings finished</span><a class="ps-link" href="progress">🏆 View →</a>';
       var anchorEl = document.getElementById("lvlgrid") ||
         document.querySelector(".cards");
       if (anchorEl) anchorEl.parentNode.insertBefore(bar, anchorEl);
@@ -626,7 +626,7 @@
       var e = wexSentence(i, z);
       h += '<div class="vex"><span class="vex-zh">' + e.zh +
         '</span><span class="vex-en">' + e.en +
-        '</span><a class="vex-src" href="texts/' + e.slug + '.html">《' +
+        '</span><a class="vex-src" href="texts/' + e.slug + '">《' +
         e.title + "》→</a></div>";
     });
     return h + "</div>";

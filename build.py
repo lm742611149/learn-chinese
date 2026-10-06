@@ -539,7 +539,7 @@ def build_reader(t, next_t=None, related=None):
                      f'      <div class="qresult" id="qresult" hidden></div>\n'
                      f'    </section>')
     if next_t:
-        nxt = {"url": f"{next_t['slug']}.html", "zh": next_t["title_zh"],
+        nxt = {"url": next_t["slug"], "zh": next_t["title_zh"],
                "en": next_t["title_en"], "lvl": next_t["level"]}
         next_js = f'<script>window.RCD_NEXT={json.dumps(nxt, ensure_ascii=False)};</script>'
         next_foot = (f'<a class="tbtn" href="{nxt["url"]}">Next: {esc(nxt["zh"])} →</a>')
@@ -2860,6 +2860,25 @@ def build_404():
                 rel="/", noindex=True)
 
 
+# 站内链接去掉 .html:CF Pages 会把 /x.html 308 到 /x,每个内链多一跳,浪费 Google 抓取预算
+# (GSC「网页会自动重定向」就是这么来的)。sitemap/canonical 本来就是无后缀,这里只改 href。
+_HTML_HREF = re.compile(r'href="(?![a-z]+:|//)([^"#?]*?)\.html(?=[#?"])')
+
+
+def strip_html_links(out_dir):
+    for dp, _, fs in os.walk(out_dir):
+        for f in fs:
+            if not f.endswith(".html"):
+                continue
+            fp = os.path.join(dp, f)
+            s = open(fp, encoding="utf-8").read()
+            n = _HTML_HREF.sub(lambda m: 'href="' + (
+                (m.group(1)[:-5] or "./") if m.group(1) == "index" or m.group(1).endswith("/index")
+                else m.group(1)), s)
+            if n != s:
+                open(fp, "w", encoding="utf-8").write(n)
+
+
 def main():
     texts = []
     tdir = os.path.join(ROOT, "content", "texts")
@@ -3015,6 +3034,7 @@ def main():
             "Disallow: /wordbook\nDisallow: /progress\n\n"
             f"Sitemap: {canon}/sitemap.xml\n")
 
+    strip_html_links(OUT)
     print(f"built {len(texts)} readings + words/wordbook -> docs/"
           + (f"\nsitemap: {n_urls} urls -> {canon}/sitemap.xml" if n_urls else ""))
 

@@ -178,7 +178,7 @@ if (cfg && cfg.apiKey) {
     btn.addEventListener("click", async () => {
       if (user) {
         // 已登录 -> 进个人中心(退出按钮在那个页面上),而不是直接问要不要退出
-        const link = document.querySelector('.nav-link[href$="progress.html"]');
+        const link = document.querySelector('.nav-link[href$="progress"]');
         if (link) location.href = link.getAttribute("href");
         return;
       }
