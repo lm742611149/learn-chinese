@@ -5,10 +5,13 @@
 爬虫自己发现新页可能要几周 —— 2026-09-06 时 Bing 只知道 121 个 URL,而站上有 437 个,
 最后一次抓取停在 9/2。IndexNow 是主动推送,提交后通常几天内就会来抓。
 
-    python3 indexnow.py            # 推送 sitemap 里的全部 URL
     python3 indexnow.py --since 2  # 只推送最近 2 天改过的课文(增量,日常用这个)
     python3 indexnow.py --match grammar-   # 只推 sitemap 里含该子串的 URL(新增非课文页用)
+    python3 indexnow.py --all      # 全量,一般别用(见下)
     python3 indexnow.py --dry      # 只打印不发送
+
+只推内容真的变了的页面。2026-10-07 Bing 站长后台报「Avoid IndexNow Batch Mode」:
+之前每次上线都全量推 500+ 条,改模板/导航这种全站小改动也推。这类改动不用推,Bing 自己会重抓。
 
 密钥在 .indexnow-key,对应的凭证文件 <key>.txt 在仓库根,build.py 会拷进 docs/ 根,
 Bing 会去 https://readmandarin.com/<key>.txt 校验所有权。
@@ -81,9 +84,11 @@ def main():
         days = float(args[args.index("--since") + 1])
         urls = recent_urls(days)
         print("最近 %g 天改动的课文: %d 条" % (days, len(urls)))
-    else:
+    elif "--all" in args:
         urls = urls_from_sitemap()
-        print("sitemap 全量: %d 条" % len(urls))
+        print("sitemap 全量: %d 条(Bing 不建议经常这样推)" % len(urls))
+    else:
+        print(__doc__); return 2
     if not urls:
         print("没有要推送的 URL"); return 0
     return push(urls, key, dry)
