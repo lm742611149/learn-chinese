@@ -1531,6 +1531,13 @@ def video_by_id(vid):
     return next((v for v in VIDEOS if v["id"] == vid), None)
 
 
+def ref_videos(key):
+    """速查页的「Watch the lessons」块,视频 id 列在 reference.json 的 <key> 里。"""
+    vids = [v for v in (video_by_id(i) for i in REF.get(key, [])) if v]
+    return (f'<h2>Watch the lessons</h2><div class="vgrid pair-video">{"".join(video_card(v, heading=False) for v in vids)}</div>'
+            if vids else "")
+
+
 def crumbs(name):
     base = (SITE.get("canonical_url") or "").rstrip("/")
     return {"@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -1739,7 +1746,7 @@ def build_pinyin(corpus):
                             for w, py in words[:2])
             tds.append(f"<td>{inner}</td>")
         tp_rows.append(f'<tr><th scope="row">{tnames[a]} tone</th>{"".join(tds)}</tr>')
-    vids = [v for v in (video_by_id("K5z2KzKvfts"), video_by_id("aHRpbTJNevI")) if v]
+    vids = [v for v in (video_by_id(i) for i in ("K5z2KzKvfts", "aHRpbTJNevI", "ISYa5bouwRA")) if v]
     vid_html = f'<div class="vgrid pair-video">{"".join(video_card(v) for v in vids)}</div>' if vids else ""
     ma = PINYIN.get("ma", {})
     tone_demo = "".join(
@@ -1756,7 +1763,7 @@ def build_pinyin(corpus):
     <h2>The four tones</h2>
     <p>The same syllable means different things in different tones. Tap to hear 妈 mother, 麻 hemp, 马 horse, 骂 to scold.</p>
     <div class="py-tones">{tone_demo}</div>
-    {('<h2>Pronunciation lessons</h2><p>zh ch sh, j q x and z c s are where most learners get stuck. Two short lessons from the teacher behind this site:</p>' + vid_html) if vid_html else ''}
+    {('<h2>Pronunciation lessons</h2><p>zh ch sh, j q x and z c s are where most learners get stuck, and b vs p trips up even advanced speakers. Lessons from the teacher behind this site:</p>' + vid_html) if vid_html else ''}
   </section>
   <h2 class="home-h py-h">Syllable chart <span class="zh">声母 × 韵母</span></h2>
   <p class="videos-lead">Columns are initials (– means no initial), rows are finals. Empty cells are combinations that do not exist in Mandarin.</p>
@@ -2088,9 +2095,7 @@ def build_measure_words(corpus):
       <li><b>The noun can drop out</b> once it is clear: 我要两杯。 I want two (cups).</li>
       <li><b>Containers work as measure words:</b> 一杯水, 一碗饭, 一瓶水, 一盒牛奶.</li>
     </ul>"""
-    vids = [v for v in (video_by_id(i) for i in REF.get("measure_word_videos", [])) if v]
-    vid_html = (f'<h2>Watch the lessons</h2><div class="vgrid pair-video">{"".join(video_card(v, heading=False) for v in vids)}</div>'
-                if vids else "")
+    vid_html = ref_videos("measure_word_videos")
     body = ref_head("Chinese measure words list", "量词", intro) + f"""
   <section class="lvl-intro ref-body ref-wide">{rules}{vid_html}
     <h2>{len(rows)} common measure words</h2>
@@ -2134,7 +2139,7 @@ def build_question_words(corpus):
       <li><b>Use a question word</b> (below) in the place of the answer. Do not add 吗 to these either: 你叫什么？ not 你叫什么吗？</li>
     </ul>"""
     body = ref_head("Chinese question words", "疑问词", intro) + f"""
-  <section class="lvl-intro ref-body ref-wide">{rules}
+  <section class="lvl-intro ref-body ref-wide">{rules}{ref_videos("question_word_videos")}
     <h2>Question words and particles</h2>
     {ref_table(["Word", "Meaning and how to use it", "Questions from the readings"], rows)}
     {cheat_more('question-words')}

@@ -7,7 +7,10 @@ today=datetime.date.today()
 for i in range(7,-1,-1):
     d=today-datetime.timedelta(days=i); s=d.isoformat()+"T00:00:00Z"; e=(d+datetime.timedelta(days=1)).isoformat()+"T00:00:00Z"
     q='''{viewer{accounts(filter:{accountTag:"fef36090acf8aa09ecb47dbded9f61e7"}){rumPageloadEventsAdaptiveGroups(limit:1000,filter:{siteTag:"a46dbde2929b4ab3a118869ebd315f27",datetime_geq:"%s",datetime_lt:"%s"}){count sum{visits} dimensions{refererHost requestPath}}}}}'''%(s,e)
-    r=subprocess.run(['curl','-s','--noproxy','*','https://api.cloudflare.com/client/v4/graphql','-H','Authorization: Bearer '+tok,'-H','Content-Type: application/json','-d',json.dumps({'query':q})],capture_output=True,text=True)
+    # 先直连,不通再走系统代理(Clash 开关状态不同,两种都可能是唯一能通的)
+    for np in (['--noproxy','*'],[]):
+        r=subprocess.run(['curl','-s','-m','20',*np,'https://api.cloudflare.com/client/v4/graphql','-H','Authorization: Bearer '+tok,'-H','Content-Type: application/json','-d',json.dumps({'query':q})],capture_output=True,text=True)
+        if r.stdout.strip(): break
     j=json.loads(r.stdout)
     if j.get('errors'): print(s,j['errors'][0]['message']); continue
     for g in j['data']['viewer']['accounts'][0]['rumPageloadEventsAdaptiveGroups']:

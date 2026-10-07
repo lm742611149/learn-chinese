@@ -11,12 +11,12 @@ whenever it is still in the feed.
   python3 fetch_youtube.py          # update content/videos.json, then run build.py
   python3 fetch_youtube.py --dry    # print what would change, write nothing
 
-"kind" is "short" or "video". The feed carries no duration, so a Short is
-recognised by how the channel writes them: hashtag-only titles and no
-description. Fix by hand in the JSON if one is misfiled; hand edits to "kind"
-are kept across refreshes.
+"kind" is "short" or "video". The feed carries no duration, so each video is
+probed at youtube.com/shorts/<id> (200 = Short, redirect = video); offline it
+falls back to how the channel writes Shorts (hashtag titles, no description).
+Hand edits to "kind" in the JSON are kept across refreshes.
 """
-import json, os, re, ssl, sys, urllib.request
+import json, os, re, ssl, sys, urllib.error, urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -33,7 +33,30 @@ except Exception:
     SSL_CTX = ssl._create_unverified_context()
 
 
-def guess_kind(title, desc):
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def is_short(vid):
+    """youtube.com/shorts/<id>: a Short answers 200, a normal video redirects (303).
+    None when YouTube can't be reached, so the caller falls back to guessing."""
+    opener = urllib.request.build_opener(_NoRedirect, urllib.request.HTTPSHandler(context=SSL_CTX))
+    req = urllib.request.Request(f"https://www.youtube.com/shorts/{vid}", method="HEAD",
+                                 headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        return opener.open(req, timeout=15).status == 200
+    except urllib.error.HTTPError as e:
+        return False if 300 <= e.code < 400 else None
+    except Exception:
+        return None
+
+
+def guess_kind(vid, title, desc):
+    probed = is_short(vid)
+    if probed is not None:
+        return "short" if probed else "video"
+    # Offline fallback: the channel's Shorts usually have hashtag titles or no description
     if not desc.strip() or "#" in title:
         return "short"
     return "video"
@@ -50,13 +73,14 @@ def fetch(channel_id):
         desc = (g.findtext("m:description", default="", namespaces=NS) or "") if g is not None else ""
         stats = g.find("m:community/m:statistics", NS) if g is not None else None
         title = e.findtext("a:title", default="", namespaces=NS).strip()
+        vid = e.findtext("yt:videoId", namespaces=NS)
         out.append({
-            "id": e.findtext("yt:videoId", namespaces=NS),
+            "id": vid,
             "title": title,
             "published": e.findtext("a:published", namespaces=NS)[:10],
             "views": int(stats.get("views", 0)) if stats is not None else 0,
             "description": re.sub(r"\s+", " ", desc).strip()[:300],
-            "kind": guess_kind(title, desc),
+            "kind": guess_kind(vid, title, desc),
         })
     return out
 
